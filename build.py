@@ -408,6 +408,12 @@ def build():
         f.write(index_html)
     print(f"\n📋 生成首页: index.html")
 
+    # 复制 404 页面
+    page_404 = TEMPLATES_DIR / "404.html"
+    if page_404.exists():
+        shutil.copy2(page_404, DIST_DIR / "404.html")
+        print(f"   ✅ 复制 404 页面")
+
     print(f"\n✨ 构建完成！共 {len(papers)} 份试卷")
     print(f"   输出目录: {DIST_DIR}")
     print(f"   直接用浏览器打开 dist/index.html 即可使用")

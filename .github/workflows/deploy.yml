@@ -2,15 +2,23 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # 或者是你的主分支名
+    branches: ["main"]
 
+# 关键：确保有足够的权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# 解决 Node.js 20 弃用问题的全局环境变量
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps: deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -30,12 +38,12 @@ jobs:
           python build.py
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5 # 升级到 v5 以匹配 2026 环境
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # 指向你 build.py 生成结果的目录
+          path: './dist' 
 
       - name: Deploy to GitHub Pages
         id: deployment
