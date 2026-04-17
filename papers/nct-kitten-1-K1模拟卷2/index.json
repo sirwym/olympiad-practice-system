@@ -1,0 +1,472 @@
+{
+  "title": "NCT KITTEN 1级 K1模拟卷2",
+  "category": "NCT-KITTEN",
+  "level": "1",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 3,
+      "answer": "B",
+      "content": "以下说法、做法合理的是（     ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "为了方便，将所有的登录密码都设置为123456"
+        },
+        {
+          "key": "B",
+          "text": "在网上发表积极向上的言论"
+        },
+        {
+          "key": "C",
+          "text": "私自把购买的纸质书通过扫描的方式制作成电子书与同学分享"
+        },
+        {
+          "key": "D",
+          "text": "在公用的计算机上勾选“记住密码”"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 3,
+      "answer": "C",
+      "content": "我们可以在属性栏设置角色的属性。如下图所示，是角色“涂鸦狐”的属性栏。下列说法不正确的是（    ）。\n![img](../assets/images/nct/16262210851334795.png)![img](../assets/images/nct/16262211250683631.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "“涂鸦狐”目前是显示状态"
+        },
+        {
+          "key": "B",
+          "text": "“涂鸦狐”面向0度"
+        },
+        {
+          "key": "C",
+          "text": "“涂鸦狐”的旋转模式为禁止旋转"
+        },
+        {
+          "key": "D",
+          "text": "“涂鸦狐”X坐标是100"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 3,
+      "answer": "B",
+      "content": "选项中，能实现角色“先逐渐变小，再逐渐变大”效果的脚本是（    ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/Hy43O57qP.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/SJF2uq79P.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/HJan_5m5w.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/Hyep_c7cw.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 3,
+      "answer": "C",
+      "content": "角色的初始坐标为（0,0），角色的初始角度是0度，即面向右方。运行下图脚本，角色的坐标应该是（    ）。注：旋转角度为正数时，角色逆时针旋转![img](../assets/images/nct/HkD-YcX9v.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "（100,200）"
+        },
+        {
+          "key": "B",
+          "text": "（300,0）"
+        },
+        {
+          "key": "C",
+          "text": "（200,100）"
+        },
+        {
+          "key": "D",
+          "text": "（300,100）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下图脚本，则角色“涂鸦狐”将在（    ）秒后显示对话“奔跑吧木叶龙”。![img](../assets/images/nct/S1xuKcXcv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 3,
+      "answer": "B",
+      "content": "运行下图脚本，角色“雷电猴”的中心点可能出现在舞台的（     ）。 ![img](../assets/images/nct/Sy1Qk3hZu.jpg)![img](../assets/images/nct/rykW12nbd.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "区域一"
+        },
+        {
+          "key": "B",
+          "text": "区域二"
+        },
+        {
+          "key": "C",
+          "text": "区域三"
+        },
+        {
+          "key": "D",
+          "text": "区域四"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 3,
+      "answer": "A",
+      "content": "想要实现“气球鼠”围绕“大树”逆时针方向旋转的效果，要给“气球鼠”拼接的脚本是（    ）。![img](../assets/images/nct/r14qy32bO.jpg)![img](../assets/images/nct/HkxDcyhnZO.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/H1GE5qXqw.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/BySNqcQ5w.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/SJz_Vcc7cP.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/HysV5cm9D.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 3,
+      "answer": "C",
+      "content": "绿宝石可以让角色的高度增加，蓝宝石可以让角色的宽度增加。角色“月见草”执行以下脚本后，它的高度变高了，那么脚本中的“？”处应填（ ）。![img](../assets/images/nct/r1fY59X5w.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "绿宝石"
+        },
+        {
+          "key": "B",
+          "text": "蓝宝石"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 3,
+      "answer": "B",
+      "content": "点击开始运行，10秒后新建对话框显示的“变量”的值为（   ）。![img](../assets/images/nct/HyBXB8k7u.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下图脚本，角色最终的造型是（      ）。![img](../assets/images/nct/Byl0ljcX9P.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "像素数字-2"
+        },
+        {
+          "key": "B",
+          "text": "像素数字-3"
+        },
+        {
+          "key": "C",
+          "text": "像素数字-4"
+        },
+        {
+          "key": "D",
+          "text": "像素数字-5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 3,
+      "answer": "B",
+      "content": "运行下图脚本，舞台上显示的效果是（      ）。![img](../assets/images/nct/ryq4o57cD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/B1IPo9mcw.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/HkgYDs5mqP.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/Bk6Di5mcw.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/Bkedi5QcP.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 3,
+      "answer": "C",
+      "content": "小黄想实现每次按下空格键，角色就跳跃一次的效果。不能实现这个效果的选项是（     ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/BJlY2scm5D.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/rkphocQ9v.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/ryfas97qw.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/S1rpocQqv.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 3,
+      "answer": "D",
+      "content": "选项中与下图脚本实现的效果相同的是（    ）。![img](../assets/images/nct/Bke3bn5XcP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/ry-Sf29X5D.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/Hytf39m5P.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/ryym25mcP.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/Bkz7hc79w.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下图脚本，依次输入数字5与3，则新建对话框输出的内容是（    ）。![img](../assets/images/nct/SJRLh9mqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "运算的结果是：数字1X数字2放在一起"
+        },
+        {
+          "key": "B",
+          "text": "运算的结果是：获得答复"
+        },
+        {
+          "key": "C",
+          "text": "运算的结果是：15"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 3,
+      "answer": "D",
+      "content": "与流程图对应的脚本是（    ）。![img](../assets/images/nct/SJMzzr9fu.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/BJQxa575w.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/r1gIeT5XqP.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/HyljgT9Q5v.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/B1ZCgTcm9v.png)"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 16,
+      "score": 5,
+      "answer": "75",
+      "content": "运行下图脚本，角色总共移动了______步。注：仅填写数字，勿填写空格、其他字符或换行\n![img](../assets/images/nct/B1qA0JEcv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "75"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 17,
+      "score": 5,
+      "answer": "10",
+      "content": "运行下图脚本，如果变量“数字1”的初始值是7，则新建对话框输出的是_______。注：仅填写数字，勿填写空格、其他字符或换行\n![img](../assets/images/nct/rJe7ZJg49v.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 18,
+      "score": 5,
+      "answer": "100",
+      "content": "角色的初始坐标（100,0）。运行积木后，角色的坐标是（200,400），则脚本中的“？”处应填写的是_____。注：仅填写数字，勿填写空格、其他字符或换行\n![img](../assets/images/nct/rJ_4yeNqv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "100"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 5,
+      "answer": "48",
+      "content": "运行下图脚本，则新建对话框可能输出的数值中，最大值是_____。注：仅填写数字，勿填写空格、其他字符或换行\n![img](../assets/images/nct/S13UyxVcD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "48"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 5,
+      "answer": "26",
+      "content": "运行下图脚本，则新建对话框输出的是________。注：仅填写数字，勿填写空格、其他字符或换行\n![img](../assets/images/nct/rkuoJgEqw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "26"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 21,
+      "score": 10,
+      "answer": "None",
+      "content": "作品预期效果：\na.背景一直向右边移动，视觉效果上是“潘达”一直向左移动；\nb.按下键盘空格键，“潘达”向上跳跃然后落地；\nc.当程序运行时，“金币”从左边缘开始一直向右移动，如果碰到了右边缘就立即回到左边缘；\nd.“金币”如果碰到了“潘达”，变量“金币”增加1，并立即回到左边缘。\n![img](../assets/images/nct/r1-AmoNcv.gif)\n然而，运行程序后，存在以下问题，请你完善：\n（1）背景一直向左移动，“潘达”看起来像是在后退，请修复“背景”的脚本，实现效果a；\n（2）角色“潘达”的部分积木是散开的，请你进行拼接，实现效果b；\n（3）角色“金币”的脚本存在4处问题，请你进行修改，实现效果c和d。",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 22,
+      "score": 20,
+      "answer": "None",
+      "content": "风车是常见的一种玩具，也非常受大家的欢迎，请你编写程序，画出“风车”（由一条直线和四个等边三角形组成）图案。\n![img](../assets/images/nct/ryHvolV5P.gif)\n作品要求：\n（1）给“笔”编写脚本，设置绘画线条粗细为5，并且绘制出蓝色手柄（手柄的长度合理即可）；\n（2）继续绘制黄色叶片的“风车”图案（风车叶片的长度合理即可）；\n（2）绘制完成后，使“笔”角色隐藏。",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

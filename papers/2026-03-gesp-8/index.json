@@ -1,0 +1,474 @@
+{
+  "title": "2026年3月 GESP C++ 8级",
+  "category": "GESP",
+  "level": "8",
+  "date": "2026-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2026年3月 GESP C++ 8级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "112"
+        },
+        {
+          "key": "B",
+          "text": "168"
+        },
+        {
+          "key": "C",
+          "text": "224"
+        },
+        {
+          "key": "D",
+          "text": "288"
+        }
+      ],
+      "content": "某班级有8名男生和6名⼥生，现要选出3⼈组成学习小组，要求小组中至少有1名男生和1名⼥生，则不同的\n选法共有（ ）种。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "512"
+        },
+        {
+          "key": "B",
+          "text": "1024"
+        },
+        {
+          "key": "C",
+          "text": "2048"
+        },
+        {
+          "key": "D",
+          "text": "4096"
+        }
+      ],
+      "content": "在杨辉三角中，从第0行开始计数，第10行的所有数之和为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下列代码实现了快速幂算法，其时间复杂度为（ ）。\n\n```cpp\nlong long fastPow(long long b, long long e, long long mod) {\n    long long result = 1;\n    while (e > 0) {\n        if (e & 1)\n        result = result * b % mod;\n        b = b * b % mod;\n        e >>= 1;\n    }\n    return result;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "60"
+        },
+        {
+          "key": "B",
+          "text": "74"
+        },
+        {
+          "key": "C",
+          "text": "80"
+        },
+        {
+          "key": "D",
+          "text": "84"
+        }
+      ],
+      "content": "从5本不同的数学书和4本不同的物理书中选取3本书，要求至少包含1本数学书，则不同的选法有（ ）种。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "该树一定是一棵完全二叉树"
+        },
+        {
+          "key": "B",
+          "text": "元素4和5不可能是兄弟节点"
+        },
+        {
+          "key": "C",
+          "text": "元素1所在节点的深度可能大于3（根节点深度为1）"
+        },
+        {
+          "key": "D",
+          "text": "元素2一定是元素1的⽗节点"
+        }
+      ],
+      "content": "在二叉搜索树（BST）中，若中序遍历的序列为{1, 2, 3, 4, 5}，且先序遍历的第一个序列元素为3，\n则下列说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "在一个有向带权图中，使用Dijkstra算法求单源最短路时，若使用优先队列（小根堆）优化，其时间复杂度为\n（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": "无法确定，取决于图的具体边数"
+        }
+      ],
+      "content": "对于含 个顶点（ ）的连通加权有向图，若图中不存在负权环，则任意两点之间的最短路径（简单路\n径）最多包含（ ）条边。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "会发生改变，因为 Floyd ⼜做了一次松弛"
+        },
+        {
+          "key": "B",
+          "text": "不会发生改变"
+        },
+        {
+          "key": "C",
+          "text": "可能变大，因为未针对已有最短路优化"
+        },
+        {
+          "key": "D",
+          "text": "可能在某些负权图中陷入死循环"
+        }
+      ],
+      "content": "在使用Floyd算法求任意两点间最短路径时，时间复杂度为 。若在某次算法执行前，已经用 Dijkstra 算\n法正确求出了所有点对的最短路并存入了dist数组。如果此时继续对该dist数组执行一次完整的 Floyd 算法过程\n（无任何提前终⽌），执行完毕后dist数组内的值（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dijkstra 算法能够高效处理包含负权边的有向图。"
+        },
+        {
+          "key": "B",
+          "text": "Floyd 算法可以求出任意两点间的最短路径，且允许图中存在负权边（但不能有负权环）。"
+        },
+        {
+          "key": "C",
+          "text": "单源最短路径算法无法用于无向图，无向图只能通过 BFS 求解。"
+        },
+        {
+          "key": "D",
+          "text": "Dijkstra 算法的每一步必定从当前未访问的节点中，选取距离起始点最远的节点进行松弛操作。"
+        }
+      ],
+      "content": "关于图论中的最短路径算法，下列说法中严格正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "144"
+        },
+        {
+          "key": "C",
+          "text": "192"
+        },
+        {
+          "key": "D",
+          "text": "240"
+        }
+      ],
+      "content": "有6个⼈排成一排照相，其中甲、⼄两⼈必须相邻，且丙不能站在排头的不同排法有（ ）种。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "dist[i][k] + dist[k][j] < dist[i][j]"
+        },
+        {
+          "key": "B",
+          "text": "dist[i][k] != INF && dist[k][j] != INF"
+        },
+        {
+          "key": "C",
+          "text": "dist[i][k] != INF && dist[k][j] != INF && dist[i][k] + dist[k][j] < dist[i][j]"
+        },
+        {
+          "key": "D",
+          "text": "dist[i][j] == INF"
+        }
+      ],
+      "content": "下列代码试图实现Floyd算法求所有点对之间的最短路径，横线处应填入（ ）。\n\n```cpp\nvoid floyd(int n, int dist[][MAXN]) {\n    for (int k = 0; k < n; k++)\n    for (int i = 0; i < n; i++)\n    for (int j = 0; j < n; j++)\n    if (__________) // 在此处填入选项\n    dist[i][j] = dist[i][k] + dist[k][j];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "48"
+        },
+        {
+          "key": "B",
+          "text": "60"
+        },
+        {
+          "key": "C",
+          "text": "72"
+        },
+        {
+          "key": "D",
+          "text": "96"
+        }
+      ],
+      "content": "用数字 0、1、2、3、4 组成无重复数字的五位偶数，共有（ ）个。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "graph[u][v] && !inMST[v] && graph[u][v] < minEdge[v]"
+        },
+        {
+          "key": "B",
+          "text": "!inMST[v] && graph[u][v] < minEdge[v]"
+        },
+        {
+          "key": "C",
+          "text": "graph[u][v] > 0 && !inMST[v]"
+        },
+        {
+          "key": "D",
+          "text": "!inMST[v] && minEdge[v] > 0"
+        }
+      ],
+      "content": "在一个无向带权图中，若使用 Prim 算法从顶点 0 开始构造最小生成树（边权均为正整数，且graph[u][v]\n== 0表⽰无边），下列代码中横线处应填入（ ）。\n\n```cpp\nint prim(vector<vector<int>>& graph, int n) {\n    vector<bool> inMST(n, false);\n    vector<int> minEdge(n, INT_MAX);\n    minEdge[0] = 0;\n    int result = 0;\n    for (int i = 0; i < n; i++) {\n        int u = -1;\n        for (int j = 0; j < n; j++)\n        if (!inMST[j] && (u == -1 || minEdge[j] < minEdge[u]))\n        u = j;\n        inMST[u] = true;\n        result += minEdge[u];\n        for (int v = 0; v < n; v++)\n        if (__________) // 在此处填入选项\n        minEdge[v] = graph[u][v];\n    }\n    return result;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "(x2-x1)/(y2-y1) == (x3-x1)/(y3-y1)"
+        },
+        {
+          "key": "B",
+          "text": "(x2-x1)*(y3-y1)-(x3-x1)*(y2-y1) == 0"
+        },
+        {
+          "key": "C",
+          "text": "fabs((x2-x1)*(y3-y1)-(x3-x1)*(y2-y1)) < 1e-8"
+        },
+        {
+          "key": "D",
+          "text": "fabs((x2-x1)/(y2-y1)-(x3-x1)/(y3-y1)) < 1e-8"
+        }
+      ],
+      "content": "已知三个点 在平面直角坐标系中的坐标。下列 C++ 表达式中，在精度误差范\n围1e-8内能正确计算判断这三个点是三点共线的表达式是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "16 8 8 8 1 1"
+        },
+        {
+          "key": "B",
+          "text": "16 8 16 8 1 1"
+        },
+        {
+          "key": "C",
+          "text": "16 8 8 4 4 1"
+        },
+        {
+          "key": "D",
+          "text": "16 8 8 8 4 1"
+        }
+      ],
+      "content": "在64位操作系统下（LP64 / LLP64 模型），下面代码的输出结果是（）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a[4] = {1, 2, 3, 4};\n    int (*p)[4] = &a;\n    int *q = a;\n    cout << sizeof(a) << \" \";\n    cout << sizeof(p) << \" \";\n    cout << sizeof(p + 1) << \" \";\n    cout << sizeof(q + 1) << \" \";\n    cout << (p + 1) - p << \" \";\n    cout << (q + 1) - q << endl;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，若结构体中包含一个static成员变量，则该变量的存储空间属于结构体对象的一部分。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "对于任意正整数 ，二项式 展开式中各项的二项式系数之和等于 。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，若函数参数类型为const int &，则该参数既可以绑定左值，也可以绑定右值。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "若一个无向图的最小生成树唯一，则图中所有边权必定各不相同。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "使用快速排序对 个元素进行排序时，无论最好、最坏还是平均情况，时间复杂度均为 。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "若一个图中所有顶点的度数为偶数，则一定存在欧拉回路。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "使用倍增法预处理区间最值问题时，预处理的时间复杂度为 ，查询的时间复杂度为 。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "如果将一个连通无向图 中所有边的权值都统一增加同一个正整数常数 ，形成图 。则 的最小生成树\n中每条边在 中对应的边组成的树，一定是 的最小生成树。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在图论算法中，Kruskal算法和Prim算法都可以用来求解最小生成树，且这两者的贪心策略无论在任何连通无\n向图上求得的最小生成树总边权和必定相同。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "在动态规划问题中，“状态转移方程+递推”和“递归+记忆化搜索”通常是解决同一问题的两种不同实现方\n式，它们的时间复杂度总是相同的。（ ）\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：消息查找**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 的消息记录中有 条消息，依次以 编号。编号⼩的消息发送时间早于编号⼤的消息。\n⼀条消息可以引⽤⼀条编号⼩于它的消息，也可以不引⽤消息。⼩ A 注意到消息记录⾥有引⽤的消息数量不会⾮常\n多。消息记录的⼀个例⼦是：\n【消息 1】小 A：有人做了今天的第一题吗？\n【消息 2】小 A：我第一题 WA 了，可能是什么原因？\n【消息 3：引用消息 1】小 B：我我我\n【消息 4：引用消息 2】小 C：我也 WA 了\n【消息 5：引用消息 2】小 B：是不是没开 long long？\n【消息 6：引用消息 5】小 A：改了就 AC 了，太厉害了！\n对于消息 （ ），⼩ A 以 标记消息 是否有引⽤，以及所引⽤的消息编号。如果 ，则消息 为引\n⽤了消息 ；如果 ，则消息 没有引⽤消息。\n消息记录⾥有⾮常多条消息。为了快速查找所需要的消息，⼩ A 准备实现⼀个简单的消息查找⼯具。消息查找⼯具\n任意时刻只能定位恰好⼀条消息，如果当前位于消息 （ ），那么接下来可以选择以下两种操作之⼀：\n定位到消息 ；\n如果消息 引⽤了消息 ，定位到消息 。\n以上操作可以执⾏任意次（包括零次）。\n⼩ A 有 次询问。在第 （ ）次询问中，⼩ A 给出消息编号 （ ）。⼩ A 想知道，如果当前消\n息查找⼯具位于 ，⾄少需要多少次操作才能定位到消息 。\n\n### 输入格式\n第⼀⾏，两个正整数 ，分别表⽰消息条数与询问次数。\n第⼆⾏， 个⾮负整数 ，表⽰消息的引⽤关系，具体含义见题⽬描述。\n接下来 ⾏中的第 ⾏（ ）包含两个正整数 ，表⽰⼀次询问。\n保证⾄多只有 条引⽤消息。\n\n### 输出格式\n输出 ⾏，每⾏⼀个整数，表⽰将界⾯从消息 切换到消息 所需的最少操作次数。\n\n### 数据范围\n对于 的测试点，保证 ， 。\n对于所有测试点，保证 ， ， ， ，保证⾄多有 条引⽤消息。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼦图最短路**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n给定包含 个结点 条边的带权⽆向图 ，结点依次以 编号。第 （ ）条边连接编号为 与\n的两个结点，权值为 。\n对于指定的 ，按以下⽅式构造图 的⼦图 ：\n保留 中编号在区间 中的结点。删去其它编号不在 中的结点以及与之相连的边。剩余的结点和边构\n成⼦图 。\n对于 中的任意结点 应有 。记 在⼦图 上的最短距离为 。特殊地，若\n在⼦图 上不连通，则认为 。\n你需要求出 对 取模的结果。\n题⽬中的英⽂字母 使⽤了特殊写法 ，以避免英⽂字母 与数字 混淆。\n\n### 输入格式\n第⼀⾏，两个正整数 ，表⽰结点数与边数。\n接下来 ⾏，第 （ ）⾏包含三个正整数 ，表⽰⼀条连接结点 的权值为 的边。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰ 对 取模的结果。\n\n### 数据范围\n对于 的测试点，保证 。\n对于所有测试点，保证 ， ， ， 。图中可能存在重边。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

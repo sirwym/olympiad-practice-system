@@ -1,0 +1,1031 @@
+{
+  "title": "2024年 CSP-J 第一轮（入门级）",
+  "category": "CSP-J",
+  "level": "CSP-J",
+  "date": "2024-09",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "32 位 `int` 类型的存储范围是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$-2147483647 \\sim +2147483647$"
+        },
+        {
+          "key": "B",
+          "text": "$-2147483647 \\sim +2147483648$"
+        },
+        {
+          "key": "C",
+          "text": "$-2147483648 \\sim +2147483647$"
+        },
+        {
+          "key": "D",
+          "text": "$-2147483648 \\sim +2147483648$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "计算 $(14_8 − 1010_2)* \\mathrm{D}_{16} − 1101_2$的结果，并选择答案的十进制值：（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "13"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "某公司有 $10$ 名员工，分为 $3$ 个部门：A 部门有 $4$ 名员工，B 部门有 $3$ 名员工、C 部门有 $3$ 名员工。现需要从这 $10$ 名员工中选出 $4$ 名组成一个工作组，且每个部门至少要有 $1$ 人。问有多少种选择方式？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "126"
+        },
+        {
+          "key": "C",
+          "text": "132"
+        },
+        {
+          "key": "D",
+          "text": "238"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以下哪个序列对应数字 0 至 7 的 $4$ 位二进制格雷码（Gray code）？",
+      "options": [
+        {
+          "key": "A",
+          "text": "$0000, 0001, 0011, 0010, 0110, 0111, 0101, 1000$"
+        },
+        {
+          "key": "B",
+          "text": "$0000, 0001, 0011, 0010, 0110, 0111, 0100, 0101$"
+        },
+        {
+          "key": "C",
+          "text": "$0000, 0001, 0011, 0010, 0100, 0101, 0111, 0110$"
+        },
+        {
+          "key": "D",
+          "text": "$0000, 0001, 0011, 0010, 0110, 0111, 0101, 0100$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "记 1KB 位 1024 字节（byte），1MB 位 1024KB，那么 1MB 是多少二进制位（bit）?",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1000000$"
+        },
+        {
+          "key": "B",
+          "text": "$1048576$"
+        },
+        {
+          "key": "C",
+          "text": "$8000000$"
+        },
+        {
+          "key": "D",
+          "text": "$8388608$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以下哪个不是 C++ 中的基本数据类型？",
+      "options": [
+        {
+          "key": "A",
+          "text": "`int`"
+        },
+        {
+          "key": "B",
+          "text": "`float`"
+        },
+        {
+          "key": "C",
+          "text": "`struct`"
+        },
+        {
+          "key": "D",
+          "text": "`char`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以下哪个不是 C++ 中的循环语句？",
+      "options": [
+        {
+          "key": "A",
+          "text": "`for`"
+        },
+        {
+          "key": "B",
+          "text": "`while`"
+        },
+        {
+          "key": "C",
+          "text": "`do-while`"
+        },
+        {
+          "key": "D",
+          "text": "`repeat-untill`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "在 C/C++中，`(char)('a' + 13)`与下面的哪一个值相等（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`'m'`"
+        },
+        {
+          "key": "B",
+          "text": "`'n'`"
+        },
+        {
+          "key": "C",
+          "text": "`'z' `"
+        },
+        {
+          "key": "D",
+          "text": "`'3' `"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "假设有序表中有 1000 个元素，则用二分法查找元素 x 最多需要比较（ ）次",
+      "options": [
+        {
+          "key": "A",
+          "text": "$25$"
+        },
+        {
+          "key": "B",
+          "text": "$10$"
+        },
+        {
+          "key": "C",
+          "text": "$7 $"
+        },
+        {
+          "key": "D",
+          "text": "$1 $"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "下面哪一个不是操作系统名字（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "Notepad"
+        },
+        {
+          "key": "B",
+          "text": "Linux"
+        },
+        {
+          "key": "C",
+          "text": "Windows"
+        },
+        {
+          "key": "D",
+          "text": "macOS"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "在无向图中，所有顶点的度数之和等于（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "图的边数"
+        },
+        {
+          "key": "B",
+          "text": "图的边数的两倍"
+        },
+        {
+          "key": "C",
+          "text": "图的顶点数"
+        },
+        {
+          "key": "D",
+          "text": "图的顶点数的两倍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "已知二叉树的前序遍历为 $[A,B,D,E,C,F,G]$，中序遍历为 $[D,B,E,A,F,C,G]$，求二叉树的后序遍历的结果是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$[D,E,B,F,G,C,A]$"
+        },
+        {
+          "key": "B",
+          "text": "$[D,E,B,F,G,A,C] $"
+        },
+        {
+          "key": "C",
+          "text": "$[D,B,E,F,G,C,A] $"
+        },
+        {
+          "key": "D",
+          "text": "$[D,B,E,F,G,A,C] $"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "给定一个空栈，支持入栈和出栈操作。若入栈操作的元素依次是 `1 2 3 4 5 6`，其中 `1` 最先入栈，`6` 最后入栈，下面哪种出栈顺序是不可能的（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`6 5 4 3 2 1`"
+        },
+        {
+          "key": "B",
+          "text": "`1 6 5 4 3 2`"
+        },
+        {
+          "key": "C",
+          "text": "`2 4 6 5 3 1`"
+        },
+        {
+          "key": "D",
+          "text": "`1 3 5 2 4 6`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "有 $5$ 个男生和 $3$ 个女生站成一排，规定 $3$ 个女生必须相邻，问有多少种不同的排列方式？",
+      "options": [
+        {
+          "key": "A",
+          "text": "$4320$ 种"
+        },
+        {
+          "key": "B",
+          "text": "$5040 $ 种"
+        },
+        {
+          "key": "C",
+          "text": "$3600 $ 种"
+        },
+        {
+          "key": "D",
+          "text": "$2880 $ 种"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "编译器的主要作用是什么（ ）？",
+      "options": [
+        {
+          "key": "A",
+          "text": "直接执行源代码"
+        },
+        {
+          "key": "B",
+          "text": "将源代码转换为机器代码"
+        },
+        {
+          "key": "C",
+          "text": "进行代码调试"
+        },
+        {
+          "key": "D",
+          "text": "管理程序运行时的内存"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nbool isPrime(int n) {\n    if (n <= 1) {\n        return false;\n    }\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint countPrimes(int n) {\n    int count = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            count++;\n        }\n    }\n    return count;\n}\n\nint sumPrimes(int n) {\n    int sum = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            sum += i;\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int x;\n    cin >> x;\n    cout << countPrimes(x) << \" \" << sumPrimes(x) << endl;\n    return 0;\n}\n```\n\n当输入为 `10` 时，程序的第一个输出为 `4`，第二个输出为 `17`。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nbool isPrime(int n) {\n    if (n <= 1) {\n        return false;\n    }\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint countPrimes(int n) {\n    int count = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            count++;\n        }\n    }\n    return count;\n}\n\nint sumPrimes(int n) {\n    int sum = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            sum += i;\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int x;\n    cin >> x;\n    cout << countPrimes(x) << \" \" << sumPrimes(x) << endl;\n    return 0;\n}\n```\n\n若将 `isPrime(i)` 函数中的条件改为 `i * i <= n / 2`，输入 `20` 时，`countPrimes(20)` 的输出将变为 `6`（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nbool isPrime(int n) {\n    if (n <= 1) {\n        return false;\n    }\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint countPrimes(int n) {\n    int count = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            count++;\n        }\n    }\n    return count;\n}\n\nint sumPrimes(int n) {\n    int sum = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            sum += i;\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int x;\n    cin >> x;\n    cout << countPrimes(x) << \" \" << sumPrimes(x) << endl;\n    return 0;\n}\n```\n\n`sumPrimes` 函数计算的是从 `2` 到 `n` 之间的所有素数之和（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nbool isPrime(int n) {\n    if (n <= 1) {\n        return false;\n    }\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint countPrimes(int n) {\n    int count = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            count++;\n        }\n    }\n    return count;\n}\n\nint sumPrimes(int n) {\n    int sum = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            sum += i;\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int x;\n    cin >> x;\n    cout << countPrimes(x) << \" \" << sumPrimes(x) << endl;\n    return 0;\n}\n```\n\n当输入为 `50` 时，`sumPrimes(50)` 的输出为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1060"
+        },
+        {
+          "key": "B",
+          "text": "328"
+        },
+        {
+          "key": "C",
+          "text": "381"
+        },
+        {
+          "key": "D",
+          "text": "275"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nbool isPrime(int n) {\n    if (n <= 1) {\n        return false;\n    }\n    for (int i = 2; i * i <= n; i++) {\n        if (n % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n\nint countPrimes(int n) {\n    int count = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            count++;\n        }\n    }\n    return count;\n}\n\nint sumPrimes(int n) {\n    int sum = 0;\n    for (int i = 2; i <= n; i++) {\n        if (isPrime(i)) {\n            sum += i;\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int x;\n    cin >> x;\n    cout << countPrimes(x) << \" \" << sumPrimes(x) << endl;\n    return 0;\n}\n```\n\n如果将 `for (int i = 2; i * i <= n; i++)` 改为 `for(int i = 2; i <= n; i++)`，输入 `10` 时，程序的输出（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "将不能正确计算 10 以内素数个数及其和"
+        },
+        {
+          "key": "B",
+          "text": "仍然输出 `4` 和 `17`"
+        },
+        {
+          "key": "C",
+          "text": "输出 `3` 和 `10`"
+        },
+        {
+          "key": "D",
+          "text": "输出结果不变，但运行时间更短"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n当输入的 `cost` 数组为 `{10，15，20}` 时，程序的输出为 `15`（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n如果将 `dp[i - 1]` 改为 `dp[i - 3]`，程序可能会产生编译错误（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "section": "阅读程序",
+      "score": 2,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n程序总是输出 `cost` 数组中最小的元素（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 24,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n当输入的 `cost` 数组为`{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}` 时，程序的输出为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`6`"
+        },
+        {
+          "key": "B",
+          "text": "`7`"
+        },
+        {
+          "key": "C",
+          "text": "`8`"
+        },
+        {
+          "key": "D",
+          "text": "`9`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n如果输入的 `cost` 数组为 `{10, 15, 30, 5, 5, 10, 20}`，程序的输出为( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "`25`"
+        },
+        {
+          "key": "B",
+          "text": "`30`"
+        },
+        {
+          "key": "C",
+          "text": "`35`"
+        },
+        {
+          "key": "D",
+          "text": "`40`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 26,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint compute(vector<int> &cost) {\n    int n = cost.size();\n    vector<int> dp(n + 1, 0);\n    dp[1] = cost[0];\n    for (int i = 2; i <= n; i++) {\n        dp[i] = min(dp[i - 1], dp[i - 2]) + cost[i - 1];\n    }\n    return min(dp[n], dp[n - 1]);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector<int> cost(n);\n    for (int i = 0; i < n; i++) {\n        cin >> cost[i];\n    }\n    cout << compute(cost) << endl;\n    return 0;\n}\n```\n\n若将代码中的 `min(dp[i - 1], dp[i - 2]) + cost[i - 1]` 修改为 `dp[i - 1] + cost[i - 2]`，输入`cost` 数组为 `{5, 10, 15}` 时，程序的输出为（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`10`"
+        },
+        {
+          "key": "B",
+          "text": "`15`"
+        },
+        {
+          "key": "C",
+          "text": "`20`"
+        },
+        {
+          "key": "D",
+          "text": "`25`"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 27,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n当输入为 `2 3` 时，`customFunction(2, 3)`的返回值为 `64`。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 28,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n当 `b` 为负数时，`customFunction(a, b)` 会陷入无限递归。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 29,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n当 `b` 的值越大，程序的运行时间越长。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 30,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n当输入为 `5 4` 时，`customFunction(5, 4)` 的返回值为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "250"
+        },
+        {
+          "key": "D",
+          "text": "625"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 31,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n31．如果输入 x = 3 和 y = 3，则程序的最终输出为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`27`"
+        },
+        {
+          "key": "B",
+          "text": "`81`"
+        },
+        {
+          "key": "C",
+          "text": "`144`"
+        },
+        {
+          "key": "D",
+          "text": "`256`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 32,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint customFunction(int a, int b) {\n    if (b == 0) {\n        return a;\n    }\n    return a + customFunction(a , b - 1);\n}\n\nint main() {\n    int x, y;\n    cin >> x >> y;\n    int result = customFunction(x, y);\n    cout << pow(result, 2) << endl;\n    return 0;\n}\n```\n\n若将 `customFunction` 函数改为 `return a ＋ customFunction(a - 1, b-1);` 并输入 `3 3`，则程序的最终输出为（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`9`"
+        },
+        {
+          "key": "B",
+          "text": "`16`"
+        },
+        {
+          "key": "C",
+          "text": "`25`"
+        },
+        {
+          "key": "D",
+          "text": "`36`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 33,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<iostream>\n#include<vector>\nusing namespace std;\n\nbool isSquare(int num) {\n    int i = ①;\n    int bound = ②;\n    for (; i <= bound; ++i) {\n        if (③) {\n            return ④;\n        }\n    }\n    return ⑤;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    if (isSquare(n)) {\n        cout << n << \" is a square number\" << endl;\n    } else {\n        cout << n << \" is not a square number\" << endl;\n    }\n    return 0;\n}\n```\n\n①处应填（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`1`"
+        },
+        {
+          "key": "B",
+          "text": "`2`"
+        },
+        {
+          "key": "C",
+          "text": "`3`"
+        },
+        {
+          "key": "D",
+          "text": "`4`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 34,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<iostream>\n#include<vector>\nusing namespace std;\n\nbool isSquare(int num) {\n    int i = ①;\n    int bound = ②;\n    for (; i <= bound; ++i) {\n        if (③) {\n            return ④;\n        }\n    }\n    return ⑤;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    if (isSquare(n)) {\n        cout << n << \" is a square number\" << endl;\n    } else {\n        cout << n << \" is not a square number\" << endl;\n    }\n    return 0;\n}\n```\n\n②处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`(int)floor(sqrt(num) - 1)`"
+        },
+        {
+          "key": "B",
+          "text": "`(int)floor(sqrt(num))`"
+        },
+        {
+          "key": "C",
+          "text": "`floor(sqrt(num / 2)) - 1`"
+        },
+        {
+          "key": "D",
+          "text": "`floor(sqrt(num / 2))`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 35,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<iostream>\n#include<vector>\nusing namespace std;\n\nbool isSquare(int num) {\n    int i = ①;\n    int bound = ②;\n    for (; i <= bound; ++i) {\n        if (③) {\n            return ④;\n        }\n    }\n    return ⑤;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    if (isSquare(n)) {\n        cout << n << \" is a square number\" << endl;\n    } else {\n        cout << n << \" is not a square number\" << endl;\n    }\n    return 0;\n}\n```\n\n③处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`num = 2 * i`"
+        },
+        {
+          "key": "B",
+          "text": "`num == 2 * i`"
+        },
+        {
+          "key": "C",
+          "text": "`num = i * i`"
+        },
+        {
+          "key": "D",
+          "text": "`num == i * i`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 36,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<iostream>\n#include<vector>\nusing namespace std;\n\nbool isSquare(int num) {\n    int i = ①;\n    int bound = ②;\n    for (; i <= bound; ++i) {\n        if (③) {\n            return ④;\n        }\n    }\n    return ⑤;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    if (isSquare(n)) {\n        cout << n << \" is a square number\" << endl;\n    } else {\n        cout << n << \" is not a square number\" << endl;\n    }\n    return 0;\n}\n```\n\n④处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`num = 2 * i`"
+        },
+        {
+          "key": "B",
+          "text": "`num == 2 * i`"
+        },
+        {
+          "key": "C",
+          "text": "`true`"
+        },
+        {
+          "key": "D",
+          "text": "`false`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 37,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<iostream>\n#include<vector>\nusing namespace std;\n\nbool isSquare(int num) {\n    int i = ①;\n    int bound = ②;\n    for (; i <= bound; ++i) {\n        if (③) {\n            return ④;\n        }\n    }\n    return ⑤;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    if (isSquare(n)) {\n        cout << n << \" is a square number\" << endl;\n    } else {\n        cout << n << \" is not a square number\" << endl;\n    }\n    return 0;\n}\n```\n\n(1) （判断平方数）问题：给定一个正整数 $n$，判断这个数是不是完全平方数，即存在一个正整数 $x$ 使得 $x$ 的平方为 $n$。\n\n试补全程序。\n\n37．⑤处应填（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`num = i * i`"
+        },
+        {
+          "key": "B",
+          "text": "`num != i * i`"
+        },
+        {
+          "key": "C",
+          "text": "`true`"
+        },
+        {
+          "key": "D",
+          "text": "`false`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 38,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid move(char src, char tgt) {\n    cout << \"从柱子\" << src << \"挪到柱子上\" << tgt << endl;\n}\n\nvoid dfs(int i, char src, char tmp, char tgt) {\n    if (i == ①) {\n        move(②);\n        return;\n    }\n    dfs(i - 1, ③);\n    move(src, tgt);\n    dfs(⑤, ④);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    dfs(n, 'A', 'B', 'C');\n}\n```\n\n①处应填（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`0`"
+        },
+        {
+          "key": "B",
+          "text": "`1`"
+        },
+        {
+          "key": "C",
+          "text": "`2`"
+        },
+        {
+          "key": "D",
+          "text": "`3`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 39,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid move(char src, char tgt) {\n    cout << \"从柱子\" << src << \"挪到柱子上\" << tgt << endl;\n}\n\nvoid dfs(int i, char src, char tmp, char tgt) {\n    if (i == ①) {\n        move(②);\n        return;\n    }\n    dfs(i - 1, ③);\n    move(src, tgt);\n    dfs(⑤, ④);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    dfs(n, 'A', 'B', 'C');\n}\n```\n\n②处应填（)",
+      "options": [
+        {
+          "key": "A",
+          "text": "`src, tmp`"
+        },
+        {
+          "key": "B",
+          "text": "`src, tgt`"
+        },
+        {
+          "key": "C",
+          "text": "`tmp, tgt`"
+        },
+        {
+          "key": "D",
+          "text": "`tgt, tmp`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 40,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid move(char src, char tgt) {\n    cout << \"从柱子\" << src << \"挪到柱子上\" << tgt << endl;\n}\n\nvoid dfs(int i, char src, char tmp, char tgt) {\n    if (i == ①) {\n        move(②);\n        return;\n    }\n    dfs(i - 1, ③);\n    move(src, tgt);\n    dfs(⑤, ④);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    dfs(n, 'A', 'B', 'C');\n}\n```\n\n③处应填（)",
+      "options": [
+        {
+          "key": "A",
+          "text": "`src, tmp, tgt`"
+        },
+        {
+          "key": "B",
+          "text": "`src, tgt, tmp`"
+        },
+        {
+          "key": "C",
+          "text": "`tgt, tmp, src`"
+        },
+        {
+          "key": "D",
+          "text": "`tgt, src, tmp`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 41,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid move(char src, char tgt) {\n    cout << \"从柱子\" << src << \"挪到柱子上\" << tgt << endl;\n}\n\nvoid dfs(int i, char src, char tmp, char tgt) {\n    if (i == ①) {\n        move(②);\n        return;\n    }\n    dfs(i - 1, ③);\n    move(src, tgt);\n    dfs(⑤, ④);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    dfs(n, 'A', 'B', 'C');\n}\n```\n\n④处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`src, tmp, tgt`"
+        },
+        {
+          "key": "B",
+          "text": "`tmp, src, tgt`"
+        },
+        {
+          "key": "C",
+          "text": "`src, tgt, tmp`"
+        },
+        {
+          "key": "D",
+          "text": "`tgt, src, tmp`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 42,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid move(char src, char tgt) {\n    cout << \"从柱子\" << src << \"挪到柱子上\" << tgt << endl;\n}\n\nvoid dfs(int i, char src, char tmp, char tgt) {\n    if (i == ①) {\n        move(②);\n        return;\n    }\n    dfs(i - 1, ③);\n    move(src, tgt);\n    dfs(⑤, ④);\n}\n\nint main() {\n    int n;\n    cin >> n;\n    dfs(n, 'A', 'B', 'C');\n}\n```\n\n小圆盘必须始终在大圆盘之上。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`0`"
+        },
+        {
+          "key": "B",
+          "text": "`1`"
+        },
+        {
+          "key": "C",
+          "text": "`i - 1`"
+        },
+        {
+          "key": "D",
+          "text": "`i`"
+        }
+      ]
+    }
+  ]
+}

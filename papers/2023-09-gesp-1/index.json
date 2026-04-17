@@ -1,0 +1,474 @@
+{
+  "title": "2023年9月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2023-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年9月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出设备"
+        },
+        {
+          "key": "B",
+          "text": "输入设备"
+        },
+        {
+          "key": "C",
+          "text": "存储设备"
+        },
+        {
+          "key": "D",
+          "text": "打印设备"
+        }
+      ],
+      "content": "我们通常说的“内存”属于计算机中的（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "redStar"
+        },
+        {
+          "key": "B",
+          "text": "RedStar"
+        },
+        {
+          "key": "C",
+          "text": "red_star"
+        },
+        {
+          "key": "D",
+          "text": "red star"
+        }
+      ],
+      "content": "以下C++不可以作为变量的名称的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "C++表达式2 - 1 && 2 % 10的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "3+4= 7"
+        },
+        {
+          "key": "B",
+          "text": "3+4=7"
+        },
+        {
+          "key": "C",
+          "text": "a+b=7"
+        },
+        {
+          "key": "D",
+          "text": "a+b=a+b"
+        }
+      ],
+      "content": "下面C++代码段执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "x > y || x > z"
+        },
+        {
+          "key": "B",
+          "text": "x != z - y"
+        },
+        {
+          "key": "C",
+          "text": "z > y + x"
+        },
+        {
+          "key": "D",
+          "text": "x < y || !x < z"
+        }
+      ],
+      "content": "在C++语⾔中，int类型的变量x、y、z的值分别为2、4、6，以下表达式的值为真的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "c += 5;"
+        },
+        {
+          "key": "B",
+          "text": "b = c % 2.5;"
+        },
+        {
+          "key": "C",
+          "text": "a = (b = 3, c = 4, b + c);"
+        },
+        {
+          "key": "D",
+          "text": "a -= a = (b = 6) / (c = 2);"
+        }
+      ],
+      "content": "对int类型的变量a、b、c，下列语句不符合C++语法是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "都是偶数"
+        },
+        {
+          "key": "B",
+          "text": "都是奇数"
+        },
+        {
+          "key": "C",
+          "text": "不都是偶数或奇数"
+        },
+        {
+          "key": "D",
+          "text": "以上说法都不正确"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "都是偶数"
+        },
+        {
+          "key": "B",
+          "text": "都是奇数"
+        },
+        {
+          "key": "C",
+          "text": "不都是偶数或奇数"
+        },
+        {
+          "key": "D",
+          "text": "以上说法都不正确"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "content": "下面C++代码段执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "int i = 1; i < n; i + 1"
+        },
+        {
+          "key": "B",
+          "text": "int i = 1; i < n + 1; i + 1"
+        },
+        {
+          "key": "C",
+          "text": "int i = 1; i < n; i++"
+        },
+        {
+          "key": "D",
+          "text": "int i = 1; i < n + 1; i++"
+        }
+      ],
+      "content": "下面C++代码用于求正整数的所有因数，即输出所有能整除一个正整数的数。如，输入10，则输出为1、\n2、5、10；输入12，则输出为1、2、3、4、6、12；输入17，则输出为1、17。在横线处应填入代码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "n / 10"
+        },
+        {
+          "key": "B",
+          "text": "(n / 10) * (n / 10)"
+        },
+        {
+          "key": "C",
+          "text": "n % 10"
+        },
+        {
+          "key": "D",
+          "text": "(n % 10) * (n % 10)"
+        }
+      ],
+      "content": "在下列代码的横线处填写（ ），可以使得输出是正整数1234各位数字的平方和。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "120"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "content": "执行以下C++语⾔程序后，输出结果是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "早期计算机内存不够大，可以将字库固化在一个包含只读存储器的扩展卡中插入计算机主板帮助处理汉字。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "神威·太湖之光超级计算机是中国自主研制的超级计算机，在全球超级计算机TOP500排行榜中多次荣膺榜\n首。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式int(3.14)的值为3。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语句cout << (2, 3, \"23\")的输出为2, 3, 23。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "C++的循环语句for (int i = 0; i < 10; i += 2)表⽰i从0开始到10结束但不包含10，间隔为\n2。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式('1' + '1')的值为'2'。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，do-while循环不可能导致死循环，但while有可能。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面的C++代码中，由于循环中的continue是无条件被执行，因此将导致死循环。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中，不可以将变量命名为cout，因为cout是C++的关键字。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "C++是一种高级程序设计语⾔。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：买⽂具**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩明的幸运数**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n10和20之间共有2个7幸运数：14和17。14是7的倍数，17的个位数为7。因此，结果为31。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

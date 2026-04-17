@@ -1,0 +1,1057 @@
+{
+  "title": "2022年 CSP-S 第一轮（提高级）",
+  "category": "CSP-S",
+  "level": "CSP-S",
+  "date": "2022-09",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "在 Linux 系统终端中，用于切换工作目录的命令为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`ls`"
+        },
+        {
+          "key": "B",
+          "text": "`cp`"
+        },
+        {
+          "key": "C",
+          "text": "`all`"
+        },
+        {
+          "key": "D",
+          "text": "`cd`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "你同时用 `time` 命令和秒表为某个程序在单核 CPU 的运行计时。假如 `time` 命令的输出如下：\n\n```\nreal 0m30.721s \nuser 0m24.579s \nsys 0m6.123s\n```\n\n以下最接近秒表计时的时长为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`18s`"
+        },
+        {
+          "key": "B",
+          "text": "`6s`"
+        },
+        {
+          "key": "C",
+          "text": "`24s`"
+        },
+        {
+          "key": "D",
+          "text": "`30s`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "若元素 $a$、$b$、$c$、$d$、$e$、$f$ 依次进栈，允许进栈、退栈操作交替进行，但不允许连续三次退栈操作，则不可能得到的出栈序列是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`dcebfa`"
+        },
+        {
+          "key": "B",
+          "text": "`cbdaef`"
+        },
+        {
+          "key": "C",
+          "text": "`bcaefd`"
+        },
+        {
+          "key": "D",
+          "text": "`afedcb`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "考虑对 $n$ 个数进行排序，以下最坏时间复杂度低于 $\\mathcal{O}(n^{2})$的排序方法是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "插入排序"
+        },
+        {
+          "key": "B",
+          "text": "快速排序"
+        },
+        {
+          "key": "C",
+          "text": "冒泡排序"
+        },
+        {
+          "key": "D",
+          "text": "归并排序"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "假设在基数排序过程中，受宇宙射线的影响，某项数据异变为一个完全不同的值。请问排序算法结束后，可能出现的最坏情况是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "移除受影响的数据后，最终序列是前后两个有序的子序列"
+        },
+        {
+          "key": "B",
+          "text": "移除受影响的数据后，最终序列是一个有序的子序列和一个基本无序的子序列"
+        },
+        {
+          "key": "C",
+          "text": "移除受影响的数据后，最终序列基本无序"
+        },
+        {
+          "key": "D",
+          "text": "移除受影响的数据后，最终序列是有序序列"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "计算机系统用小端（Little Endian）和大端（Big Endian）来描述多字节数据的存储地址顺序模式，其中小端表示将低位字节数据存储在低地址的模式、大端表示将高位字节数据存储在低地址的模式。在小端模式的系统和大端模式的系统分别编译和运行以下 C++代码段表示的程序，将分别输出什么结果？（ ）\n\n```\nunsigned x = 0xDEADNEEF;\nunsigned char *p = (unsigned char *)&x;\nprintf(\"%X\", *p);\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`DE`、`EF`"
+        },
+        {
+          "key": "B",
+          "text": "`DE`、`DE`"
+        },
+        {
+          "key": "C",
+          "text": "`EF`、`EF`"
+        },
+        {
+          "key": "D",
+          "text": "`EF`、`DE`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "一个深度为 $5$（根结点深度为 $1$）的完全 3 叉树，按前序遍历的顺序给结点从 $1$ 开始编号，则第 100 号结点的父结点是第（ ）号",
+      "options": [
+        {
+          "key": "A",
+          "text": "95"
+        },
+        {
+          "key": "B",
+          "text": "98"
+        },
+        {
+          "key": "C",
+          "text": "96"
+        },
+        {
+          "key": "D",
+          "text": "97"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "强连通图的性质不包括（ ）：",
+      "options": [
+        {
+          "key": "A",
+          "text": "每个顶点的度数至少为 1"
+        },
+        {
+          "key": "B",
+          "text": "每个顶点至少都连有一条边"
+        },
+        {
+          "key": "C",
+          "text": "任意两个顶点之间都有路径相连"
+        },
+        {
+          "key": "D",
+          "text": "任意两个顶点之间都有边相连"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "每个顶点度数均为 $2$ 的无向图称为“$2$-正规图”。由编号为从 $1$ 到 $n$ 的顶点构成的所有 $2$-正规图，其中包含欧拉回路的不同 $2$-正规图的数量为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$(n-1)!$"
+        },
+        {
+          "key": "B",
+          "text": "$\\frac{n!}{2}$"
+        },
+        {
+          "key": "C",
+          "text": "$n!$"
+        },
+        {
+          "key": "D",
+          "text": "$\\frac{(n-1)!}{2}$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "共有 $8$ 人选修了程序设计课程，期末大作业要求由 $2$ 人组成的团队完成。假设不区分每个团队内 $2$ 人的角色和作用，请问共有多少种可能的组队方案。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$32$"
+        },
+        {
+          "key": "B",
+          "text": "$56$"
+        },
+        {
+          "key": "C",
+          "text": "$64$"
+        },
+        {
+          "key": "D",
+          "text": "$28$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "小明希望选到形如“省 A ·$\\mathscr{LL}\\mathcal{DDD}$”的车牌号。车牌号在“ ·”之前的内容固定不变； 后面 的 $5$ 位号码中， 前 $2$ 位必须是大写英文字母， 后 $3$ 位必须是阿拉伯数字($\\mathscr{L}$代表 A 至 Z，$\\mathcal{D}$ 表示 0 至 9，两个$\\mathscr{L}$和三个$\\mathcal{D}$之间可能相同也可能不同)。请问总共有多少个可供选择的车牌号。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$20280$"
+        },
+        {
+          "key": "B",
+          "text": "$52000$"
+        },
+        {
+          "key": "C",
+          "text": "$1757600$"
+        },
+        {
+          "key": "D",
+          "text": "$676000$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "给定地址区间为 $0$~$9$ 的哈希表，哈希函数为 $h(x) = x$ % $10$，采用线性探查的冲突解决策略（对于出现冲突情况，会往后探查第一个空的地址存储；若地址 $9$ 冲突了则从地址 $0$ 重新开始探查）。哈希表初始为空表，依次存储（$71, 23, 73, 99, 44, 79, 89$）后，请问 $89$ 存储在哈希表哪个地址中。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$0$"
+        },
+        {
+          "key": "B",
+          "text": "$1$"
+        },
+        {
+          "key": "C",
+          "text": "$9$"
+        },
+        {
+          "key": "D",
+          "text": "$2$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "对于给定的 n，分析以下代码段对应的时间复杂度，其中最为准确的时间复杂度为（ ）。\n\n```\nint i, j, k = 0; \nfor (i = 0; i < n; i++) { \nfor (j = 0; j < n; j*=2) { \nk = k + n / 2; \n } \n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n√n)"
+        },
+        {
+          "key": "C",
+          "text": "$\\mathcal{O}(n^{2})$"
+        },
+        {
+          "key": "D",
+          "text": "O(n log n)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以比较为基本运算，在 $n$ 个数的数组中找最大的数，在最坏情况下至少要做（ ）次运算。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\frac{n}{2}$"
+        },
+        {
+          "key": "B",
+          "text": "$n$"
+        },
+        {
+          "key": "C",
+          "text": "$n+1$"
+        },
+        {
+          "key": "D",
+          "text": "$n-1$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "`ack` 函数在输入参数“`(2, 2)`”时的返回值为（ ）。\n\n```\nunsigned ack(unsigned m, unsigned n) { \n  if (m == 0) return n + 1; \n  if (n == 0) return ack(m - 1, 1); \n  return ack(m - 1, ack(m, n - 1)); \n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`5`"
+        },
+        {
+          "key": "B",
+          "text": "`9`"
+        },
+        {
+          "key": "C",
+          "text": "`13`"
+        },
+        {
+          "key": "D",
+          "text": "`7`"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n\n假设输入字符串由 ASCII 可见字符组成，当输入为“`abcde fg`”时，输出为 `-1`。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n\n当输入为“`GoodLuckCsp2022 22`”时，第 20 行的“`j++`”语句执行次数为 $2$。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n\n该算法最坏情况下的时间复杂度为(  )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\mathcal{O}(n + m)$"
+        },
+        {
+          "key": "B",
+          "text": "$\\mathcal{O}(m\\log{n})$"
+        },
+        {
+          "key": "C",
+          "text": "$\\mathcal{O}(n\\log{m})$"
+        },
+        {
+          "key": "D",
+          "text": "$\\mathcal{O}(nm)$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n\n`f(a, b)` 与下列（ ）语句的功能最类似。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`a.rfind(b)`"
+        },
+        {
+          "key": "B",
+          "text": "`a.substr(b)`"
+        },
+        {
+          "key": "C",
+          "text": "`a.compare(b)`"
+        },
+        {
+          "key": "D",
+          "text": "`a.find(b)`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\nint f(const string &s, const string &t) {\n    int n = s.length(), m = t.length(); \n    vector<int> shift(128, m + 1);\n    int i, j; \n    for (j = 0; j < m; j++)\n       shift[t[j]] = m - j; \n    for (i = 0; i <= n - m; i += shift[s[i + m]]) {\n       j = 0;\n       while (j < m && s[i + j] == t[j]) j++;\n          if (j == m) return i; \n    }\n    return -1;\n}\nint main() {\n   string a, b;\n   cin >> a >> b;\n   cout << f(a, b) << endl;\n   return 0;\n}\n```\n\n当输入为“`baaabaaabaaabaaaa aaaa`”，第 20 行的“`j++`”语句执行次数为 (  )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$9$"
+        },
+        {
+          "key": "B",
+          "text": "$11$"
+        },
+        {
+          "key": "C",
+          "text": "$12$"
+        },
+        {
+          "key": "D",
+          "text": "$10$"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内， 这是一个不稳定的排序算法。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内， 该算法的空间复杂度仅与 $n$ 有关。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内，该算法的时间复杂度为 $\\mathcal{O}(m (n + k))$。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内，当输入为“`5 3 98 26 91 37 46`”时，程序第一次执行到第 36 行， `val[]` 数组的内容依次为(  )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`91 46 37 26 98`"
+        },
+        {
+          "key": "B",
+          "text": "`98 26 46 91 37`"
+        },
+        {
+          "key": "C",
+          "text": "`91 26 46 37 98`"
+        },
+        {
+          "key": "D",
+          "text": "`91 37 46 98 26`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 26,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内，若 `val[i]` 的最大值为 $100$，$k$ 取（ ）时算法运算次数最少。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$3$"
+        },
+        {
+          "key": "B",
+          "text": "$2$"
+        },
+        {
+          "key": "C",
+          "text": "$10$"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 27,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int MAXN = 105;\nint n, m, k, val[MAXN];\nint temp[MAXN], cnt[MAXN];\n\nvoid init() {\n    cin >> n >> k;\n    for (int i = 0; i < n; i++) cin >> val[i];\n    int maximum = val[0];\n    for (int i = 1; i < n; i++)\n        if (val[i] > maximum) maximum = val[i];\n    m = 1;\n    while (maximum >= k) {\n        maximum /= k;\n        m++;\n    }\n}\n \nvoid solve() {\n    int base = 1;\n    for (int i = 0; i < m; i++) {\n        for (int j = 0; j < k; j++) cnt[j] = 0;\n        for (int j = 0; j < n; j++) cnt[val[j] / base % k]++;\n        for (int j = 1; j < k; j++) cnt[j] += cnt[j - 1];\n        for (int j = n - 1; j >= 0; j--) {\n            temp[cnt[val[j] / base % k] - 1] = val[j];\n            cnt[val[j] / base % k]--;\n        }\n        for (int j = 0; j < n; j++) val[j] = temp[j];\n        base *= k;\n    }\n}\n\nint main()  {\n    init();\n    solve();\n    for (int i = 0; i < n; i++) cout << val[i] << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的 $n$ 为不大于 $100$ 的正整数，$k$ 为不小于 $2$ 且不大于 $100$ 的正整数， `val[i]` 在 `int` 表示范围内，当输入的 $k$ 比 `val[i]` 的最大值还大时，该算法退化为（ ）算法。",
+      "options": [
+        {
+          "key": "A",
+          "text": "冒泡排序"
+        },
+        {
+          "key": "B",
+          "text": "桶排序"
+        },
+        {
+          "key": "C",
+          "text": "选择排序"
+        },
+        {
+          "key": "D",
+          "text": "计数排序"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 28,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，该算法的时间复杂度为 $\\mathcal{O}(\\log_{k}{n})$。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 29,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，删除第 23 行的强制类型转换，程序的行为不变。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 30,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，除非输入的 $n$ 为 $0$，否则程序输出的字符数为 $\\Theta(\\lfloor\\log_{k}{|n|}\\rfloor + 1)$。(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 31,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，当输入为“`100 7`”时，输出为(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1515$"
+        },
+        {
+          "key": "B",
+          "text": "$244$"
+        },
+        {
+          "key": "C",
+          "text": "$1754$"
+        },
+        {
+          "key": "D",
+          "text": "$202$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 32,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，当输入为“`-255 8`”时，输出为“(  )”。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$417$"
+        },
+        {
+          "key": "B",
+          "text": "$400$"
+        },
+        {
+          "key": "C",
+          "text": "$1400$"
+        },
+        {
+          "key": "D",
+          "text": "$1401$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 33,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <algorithm>\nusing namespace std;\n \nconst int MAXL = 1000; \n\nint n, k, ans[MAXL];\n\nint main(void) \n{\n    cin >> n >> k;\n    if (!n) cout << 0 << endl;\n    else \n    {\n        int m = 0;\n        while (n)        \n        {\n            ans[m++] = (n % (-k) + k) % k;\n            n = (ans[m - 1] - n) / k;\n        }\n        for (int i = m - 1; i >= 0; i--)\n            cout << char(ans[i] >= 10 ?\n                ans[i] + 'A' - 10 :\n                ans[i] + '0');\n        cout << endl; \n    }\n    return 0;\n}\n```\n\n假设输入的 $n$ 在 `int` 范围内，$k$ 为不小于 $2$ 且不大于 $36$ 的正整数，当输入为“`1000000 19`”时，输出为“（  ）”。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`BG939`"
+        },
+        {
+          "key": "B",
+          "text": "`7CF1B`"
+        },
+        {
+          "key": "C",
+          "text": "`1CD428`"
+        },
+        {
+          "key": "D",
+          "text": "`87GIB`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 34,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nint solve(int *a1, int *a2, int n, int k) {\n    int left1 = 0, right1 = n - 1;\n    int left2 = 0, right2 = n - 1;\n    while (left1 <= right1 && left2 <= right2) {\n        int m1 = (left1 + right1) >> 1;\n        int m2 = (left2 + right2) >> 1;\n        int cnt = ①;\n        if (②) {\n            if (cnt < k) left1 = m1 + 1;\n            else right2 = m2 - 1;\n        } else {\n            if (cnt < k) left2 = m2 + 1;\n            else right1 = m1 - 1;\n        }\n    }\n    if (③) {\n        if (left1 == 0) {\n            return a2[k - 1];\n        } else {\n            int x = a1[left1 - 1], ④;\n            return std::max(x, y);\n        }\n    } else {\n        if (left2 == 0) {\n            return a1[k - 1];\n        } else {\n            int x = a2[left2 - 1], ⑤;\n            return std::max(x, y);\n        }\n    }\n}\n```\n\n(归并第 $k$ 小) 已知两个长度均为 $n$ 的有序数组 `a1` 和 `a2` (均为递增序，但不保证严格单调递增)，并且给定正整数 $k$ ($1\\leq k\\leq 2n$)，求数组 `a1` 和 `a2` 归并排序后的数组里第 $k$ 小的数值。\n\n试补全程序。\n\n①处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`(m1 + m2) * 2`"
+        },
+        {
+          "key": "B",
+          "text": "`(m1 - 1) + (m2 - 1)`"
+        },
+        {
+          "key": "C",
+          "text": "`m1 + m2`"
+        },
+        {
+          "key": "D",
+          "text": "`(m1 + 1) + (m2 + 1)`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 35,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nint solve(int *a1, int *a2, int n, int k) {\n    int left1 = 0, right1 = n - 1;\n    int left2 = 0, right2 = n - 1;\n    while (left1 <= right1 && left2 <= right2) {\n        int m1 = (left1 + right1) >> 1;\n        int m2 = (left2 + right2) >> 1;\n        int cnt = ①;\n        if (②) {\n            if (cnt < k) left1 = m1 + 1;\n            else right2 = m2 - 1;\n        } else {\n            if (cnt < k) left2 = m2 + 1;\n            else right1 = m1 - 1;\n        }\n    }\n    if (③) {\n        if (left1 == 0) {\n            return a2[k - 1];\n        } else {\n            int x = a1[left1 - 1], ④;\n            return std::max(x, y);\n        }\n    } else {\n        if (left2 == 0) {\n            return a1[k - 1];\n        } else {\n            int x = a2[left2 - 1], ⑤;\n            return std::max(x, y);\n        }\n    }\n}\n```\n\n(归并第 $k$ 小) 已知两个长度均为 $n$ 的有序数组 `a1` 和 `a2` (均为递增序，但不保证严格单调递增)，并且给定正整数 $k$ ($1\\leq k\\leq 2n$)，求数组 `a1` 和 `a2` 归并排序后的数组里第 $k$ 小的数值。\n\n试补全程序。\n\n②处应填(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "`a1[m1] == a2[m2]`"
+        },
+        {
+          "key": "B",
+          "text": "`a1[m1] != a2[m2] `"
+        },
+        {
+          "key": "C",
+          "text": "`a1[m1] >= a2[m2]`"
+        },
+        {
+          "key": "D",
+          "text": "`a1[m1] <= a2[m2]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 36,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nint solve(int *a1, int *a2, int n, int k) {\n    int left1 = 0, right1 = n - 1;\n    int left2 = 0, right2 = n - 1;\n    while (left1 <= right1 && left2 <= right2) {\n        int m1 = (left1 + right1) >> 1;\n        int m2 = (left2 + right2) >> 1;\n        int cnt = ①;\n        if (②) {\n            if (cnt < k) left1 = m1 + 1;\n            else right2 = m2 - 1;\n        } else {\n            if (cnt < k) left2 = m2 + 1;\n            else right1 = m1 - 1;\n        }\n    }\n    if (③) {\n        if (left1 == 0) {\n            return a2[k - 1];\n        } else {\n            int x = a1[left1 - 1], ④;\n            return std::max(x, y);\n        }\n    } else {\n        if (left2 == 0) {\n            return a1[k - 1];\n        } else {\n            int x = a2[left2 - 1], ⑤;\n            return std::max(x, y);\n        }\n    }\n}\n```\n\n(归并第 $k$ 小) 已知两个长度均为 $n$ 的有序数组 `a1` 和 `a2` (均为递增序，但不保证严格单调递增)，并且给定正整数 $k$ ($1\\leq k\\leq 2n$)，求数组 `a1` 和 `a2` 归并排序后的数组里第 $k$ 小的数值。\n\n试补全程序。\n\n③处应填(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "`left1 == right1`"
+        },
+        {
+          "key": "B",
+          "text": "`left1 != right1`"
+        },
+        {
+          "key": "C",
+          "text": "`left1 < right1`"
+        },
+        {
+          "key": "D",
+          "text": "`left1 > right1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 37,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nint solve(int *a1, int *a2, int n, int k) {\n    int left1 = 0, right1 = n - 1;\n    int left2 = 0, right2 = n - 1;\n    while (left1 <= right1 && left2 <= right2) {\n        int m1 = (left1 + right1) >> 1;\n        int m2 = (left2 + right2) >> 1;\n        int cnt = ①;\n        if (②) {\n            if (cnt < k) left1 = m1 + 1;\n            else right2 = m2 - 1;\n        } else {\n            if (cnt < k) left2 = m2 + 1;\n            else right1 = m1 - 1;\n        }\n    }\n    if (③) {\n        if (left1 == 0) {\n            return a2[k - 1];\n        } else {\n            int x = a1[left1 - 1], ④;\n            return std::max(x, y);\n        }\n    } else {\n        if (left2 == 0) {\n            return a1[k - 1];\n        } else {\n            int x = a2[left2 - 1], ⑤;\n            return std::max(x, y);\n        }\n    }\n}\n```\n\n(归并第 $k$ 小) 已知两个长度均为 $n$ 的有序数组 `a1` 和 `a2` (均为递增序，但不保证严格单调递增)，并且给定正整数 $k$ ($1\\leq k\\leq 2n$)，求数组 `a1` 和 `a2` 归并排序后的数组里第 $k$ 小的数值。\n\n试补全程序。\n\n④处应填(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "`y = a1[k - left2 - 1]`"
+        },
+        {
+          "key": "B",
+          "text": "`y = a1[k - left2]`"
+        },
+        {
+          "key": "C",
+          "text": "`y = a2[k - left1]`"
+        },
+        {
+          "key": "D",
+          "text": "`y = a2[k - left1 - 1]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 38,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\n\nint solve(int *a1, int *a2, int n, int k) {\n    int left1 = 0, right1 = n - 1;\n    int left2 = 0, right2 = n - 1;\n    while (left1 <= right1 && left2 <= right2) {\n        int m1 = (left1 + right1) >> 1;\n        int m2 = (left2 + right2) >> 1;\n        int cnt = ①;\n        if (②) {\n            if (cnt < k) left1 = m1 + 1;\n            else right2 = m2 - 1;\n        } else {\n            if (cnt < k) left2 = m2 + 1;\n            else right1 = m1 - 1;\n        }\n    }\n    if (③) {\n        if (left1 == 0) {\n            return a2[k - 1];\n        } else {\n            int x = a1[left1 - 1], ④;\n            return std::max(x, y);\n        }\n    } else {\n        if (left2 == 0) {\n            return a1[k - 1];\n        } else {\n            int x = a2[left2 - 1], ⑤;\n            return std::max(x, y);\n        }\n    }\n}\n```\n\n(归并第 $k$ 小) 已知两个长度均为 $n$ 的有序数组 `a1` 和 `a2` (均为递增序，但不保证严格单调递增)，并且给定正整数 $k$ ($1\\leq k\\leq 2n$)，求数组 `a1` 和 `a2` 归并排序后的数组里第 $k$ 小的数值。\n\n试补全程序。\n\n⑤处应填(  )",
+      "options": [
+        {
+          "key": "A",
+          "text": "`y = a1[k - left2]`"
+        },
+        {
+          "key": "B",
+          "text": "`y = a2[k - left1 - 1]`"
+        },
+        {
+          "key": "C",
+          "text": "`y = a2[k - left1]`"
+        },
+        {
+          "key": "D",
+          "text": "`y = a1[k - left2 - 1]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 39,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\nconst int N = 110;\n\nint f[N][N];\nint ans;\nint a, b, c;\nint init;\n\nint dfs(int x, int y) {\n    if (f[x][y] != init)\n        return f[x][y];\n    if (x == c || y == c)\n        return f[x][y] = 0;\n    f[x][y] = init - 1;\n    f[x][y] = min(f[x][y], dfs(a, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, b) + 1);\n    f[x][y] = min(f[x][y], dfs(0, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, 0) + 1);\n    int t = min(a - x, y);\n    f[x][y] = min(f[x][y], ①);\n    t = min(x, b - y);\n    f[x][y] = min(f[x][y], ②);\n    return f[x][y];\n}\n\nvoid go(int x, int y) {\n    if (③)\n        return;\n    if (f[x][y] == dfs(a, y) + 1) {\n        cout << \"FILL(1)\" << endl;\n        go(a, y);\n    } else if (f[x][y] == dfs(x, b) + 1) {\n        cout << \"FILL(2)\" << endl;\n        go(x, b);\n    } else if (f[x][y] == dfs(0, y) + 1) {\n        cout << \"DROP(1)\" << endl;\n        go(0, y);\n    } else if (f[x][y] == dfs(x, 0) + 1) {\n        cout << \"DROP(2)\" << endl;\n        go(x, 0);\n    } else {\n        int t = min(a - x, y);\n        if (f[x][y] == ④) {\n            cout << \"POUR(2,1)\" << endl;\n            go(x + t, y - t);\n        } else {\n            t = min(x, b - y);\n            if (f[x][y] == ⑤) {\n                cout << \"POUR(1,2)\" << endl;\n                go(x - t, y + t);\n            } else\n                assert(0);\n        }\n    }\n}\n\nint main() {\n    cin >> a >> b >> c;\n    ans = 1 << 30;\n    memset(f, 127, sizeof f);\n    init = **f;\n    if ((ans = dfs(0, 0)) == init - 1)\n        cout << \"impossible\";\n    else {\n        cout << ans << endl;\n        go(0, 0);\n    }\n}\n```\n\n$POUR(i,j)$：将容器 $i$ 的水倒进容器 $j$ (完成此操作后，要么容器 $j$ 被灌满，要么容器 $i$ 被清空)。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`dfs(x + t, y - t) - 1`"
+        },
+        {
+          "key": "B",
+          "text": "`dfs(x - t, y + t) - 1`"
+        },
+        {
+          "key": "C",
+          "text": "`dfs(x - t, y + t) + 1`"
+        },
+        {
+          "key": "D",
+          "text": "`dfs(x + t, y - t) + 1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 40,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\nconst int N = 110;\n\nint f[N][N];\nint ans;\nint a, b, c;\nint init;\n\nint dfs(int x, int y) {\n    if (f[x][y] != init)\n        return f[x][y];\n    if (x == c || y == c)\n        return f[x][y] = 0;\n    f[x][y] = init - 1;\n    f[x][y] = min(f[x][y], dfs(a, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, b) + 1);\n    f[x][y] = min(f[x][y], dfs(0, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, 0) + 1);\n    int t = min(a - x, y);\n    f[x][y] = min(f[x][y], ①);\n    t = min(x, b - y);\n    f[x][y] = min(f[x][y], ②);\n    return f[x][y];\n}\n\nvoid go(int x, int y) {\n    if (③)\n        return;\n    if (f[x][y] == dfs(a, y) + 1) {\n        cout << \"FILL(1)\" << endl;\n        go(a, y);\n    } else if (f[x][y] == dfs(x, b) + 1) {\n        cout << \"FILL(2)\" << endl;\n        go(x, b);\n    } else if (f[x][y] == dfs(0, y) + 1) {\n        cout << \"DROP(1)\" << endl;\n        go(0, y);\n    } else if (f[x][y] == dfs(x, 0) + 1) {\n        cout << \"DROP(2)\" << endl;\n        go(x, 0);\n    } else {\n        int t = min(a - x, y);\n        if (f[x][y] == ④) {\n            cout << \"POUR(2,1)\" << endl;\n            go(x + t, y - t);\n        } else {\n            t = min(x, b - y);\n            if (f[x][y] == ⑤) {\n                cout << \"POUR(1,2)\" << endl;\n                go(x - t, y + t);\n            } else\n                assert(0);\n        }\n    }\n}\n\nint main() {\n    cin >> a >> b >> c;\n    ans = 1 << 30;\n    memset(f, 127, sizeof f);\n    init = **f;\n    if ((ans = dfs(0, 0)) == init - 1)\n        cout << \"impossible\";\n    else {\n        cout << ans << endl;\n        go(0, 0);\n    }\n}\n```\n\n$POUR(i,j)$：将容器 $i$ 的水倒进容器 $j$ (完成此操作后，要么容器 $j$ 被灌满，要么容器 $i$ 被清空)。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`dfs(x + t, y - t) + 1`"
+        },
+        {
+          "key": "B",
+          "text": "`dfs(x - t, y + t) - 1`"
+        },
+        {
+          "key": "C",
+          "text": "`dfs(x + t, y - t) - 1`"
+        },
+        {
+          "key": "D",
+          "text": "`dfs(x - t, y + t) + 1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 41,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\nconst int N = 110;\n\nint f[N][N];\nint ans;\nint a, b, c;\nint init;\n\nint dfs(int x, int y) {\n    if (f[x][y] != init)\n        return f[x][y];\n    if (x == c || y == c)\n        return f[x][y] = 0;\n    f[x][y] = init - 1;\n    f[x][y] = min(f[x][y], dfs(a, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, b) + 1);\n    f[x][y] = min(f[x][y], dfs(0, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, 0) + 1);\n    int t = min(a - x, y);\n    f[x][y] = min(f[x][y], ①);\n    t = min(x, b - y);\n    f[x][y] = min(f[x][y], ②);\n    return f[x][y];\n}\n\nvoid go(int x, int y) {\n    if (③)\n        return;\n    if (f[x][y] == dfs(a, y) + 1) {\n        cout << \"FILL(1)\" << endl;\n        go(a, y);\n    } else if (f[x][y] == dfs(x, b) + 1) {\n        cout << \"FILL(2)\" << endl;\n        go(x, b);\n    } else if (f[x][y] == dfs(0, y) + 1) {\n        cout << \"DROP(1)\" << endl;\n        go(0, y);\n    } else if (f[x][y] == dfs(x, 0) + 1) {\n        cout << \"DROP(2)\" << endl;\n        go(x, 0);\n    } else {\n        int t = min(a - x, y);\n        if (f[x][y] == ④) {\n            cout << \"POUR(2,1)\" << endl;\n            go(x + t, y - t);\n        } else {\n            t = min(x, b - y);\n            if (f[x][y] == ⑤) {\n                cout << \"POUR(1,2)\" << endl;\n                go(x - t, y + t);\n            } else\n                assert(0);\n        }\n    }\n}\n\nint main() {\n    cin >> a >> b >> c;\n    ans = 1 << 30;\n    memset(f, 127, sizeof f);\n    init = **f;\n    if ((ans = dfs(0, 0)) == init - 1)\n        cout << \"impossible\";\n    else {\n        cout << ans << endl;\n        go(0, 0);\n    }\n}\n```\n\n$POUR(i,j)$：将容器 $i$ 的水倒进容器 $j$ (完成此操作后，要么容器 $j$ 被灌满，要么容器 $i$ 被清空)。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`x >= c || y >= c`"
+        },
+        {
+          "key": "B",
+          "text": "`x >= c && y >= c`"
+        },
+        {
+          "key": "C",
+          "text": "`x == c && y == c`"
+        },
+        {
+          "key": "D",
+          "text": "`x == c || y == c`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 42,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\nconst int N = 110;\n\nint f[N][N];\nint ans;\nint a, b, c;\nint init;\n\nint dfs(int x, int y) {\n    if (f[x][y] != init)\n        return f[x][y];\n    if (x == c || y == c)\n        return f[x][y] = 0;\n    f[x][y] = init - 1;\n    f[x][y] = min(f[x][y], dfs(a, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, b) + 1);\n    f[x][y] = min(f[x][y], dfs(0, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, 0) + 1);\n    int t = min(a - x, y);\n    f[x][y] = min(f[x][y], ①);\n    t = min(x, b - y);\n    f[x][y] = min(f[x][y], ②);\n    return f[x][y];\n}\n\nvoid go(int x, int y) {\n    if (③)\n        return;\n    if (f[x][y] == dfs(a, y) + 1) {\n        cout << \"FILL(1)\" << endl;\n        go(a, y);\n    } else if (f[x][y] == dfs(x, b) + 1) {\n        cout << \"FILL(2)\" << endl;\n        go(x, b);\n    } else if (f[x][y] == dfs(0, y) + 1) {\n        cout << \"DROP(1)\" << endl;\n        go(0, y);\n    } else if (f[x][y] == dfs(x, 0) + 1) {\n        cout << \"DROP(2)\" << endl;\n        go(x, 0);\n    } else {\n        int t = min(a - x, y);\n        if (f[x][y] == ④) {\n            cout << \"POUR(2,1)\" << endl;\n            go(x + t, y - t);\n        } else {\n            t = min(x, b - y);\n            if (f[x][y] == ⑤) {\n                cout << \"POUR(1,2)\" << endl;\n                go(x - t, y + t);\n            } else\n                assert(0);\n        }\n    }\n}\n\nint main() {\n    cin >> a >> b >> c;\n    ans = 1 << 30;\n    memset(f, 127, sizeof f);\n    init = **f;\n    if ((ans = dfs(0, 0)) == init - 1)\n        cout << \"impossible\";\n    else {\n        cout << ans << endl;\n        go(0, 0);\n    }\n}\n```\n\n$POUR(i,j)$：将容器 $i$ 的水倒进容器 $j$ (完成此操作后，要么容器 $j$ 被灌满，要么容器 $i$ 被清空)。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`dfs(x + t, y - t) - 1`"
+        },
+        {
+          "key": "B",
+          "text": "`dfs(x - t, y + t) + 1`"
+        },
+        {
+          "key": "C",
+          "text": "`dfs(x - t, y + t) - 1`"
+        },
+        {
+          "key": "D",
+          "text": "`dfs(x + t, y - t) + 1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 43,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <bits/stdc++.h>\nusing namespace std;\nconst int N = 110;\n\nint f[N][N];\nint ans;\nint a, b, c;\nint init;\n\nint dfs(int x, int y) {\n    if (f[x][y] != init)\n        return f[x][y];\n    if (x == c || y == c)\n        return f[x][y] = 0;\n    f[x][y] = init - 1;\n    f[x][y] = min(f[x][y], dfs(a, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, b) + 1);\n    f[x][y] = min(f[x][y], dfs(0, y) + 1);\n    f[x][y] = min(f[x][y], dfs(x, 0) + 1);\n    int t = min(a - x, y);\n    f[x][y] = min(f[x][y], ①);\n    t = min(x, b - y);\n    f[x][y] = min(f[x][y], ②);\n    return f[x][y];\n}\n\nvoid go(int x, int y) {\n    if (③)\n        return;\n    if (f[x][y] == dfs(a, y) + 1) {\n        cout << \"FILL(1)\" << endl;\n        go(a, y);\n    } else if (f[x][y] == dfs(x, b) + 1) {\n        cout << \"FILL(2)\" << endl;\n        go(x, b);\n    } else if (f[x][y] == dfs(0, y) + 1) {\n        cout << \"DROP(1)\" << endl;\n        go(0, y);\n    } else if (f[x][y] == dfs(x, 0) + 1) {\n        cout << \"DROP(2)\" << endl;\n        go(x, 0);\n    } else {\n        int t = min(a - x, y);\n        if (f[x][y] == ④) {\n            cout << \"POUR(2,1)\" << endl;\n            go(x + t, y - t);\n        } else {\n            t = min(x, b - y);\n            if (f[x][y] == ⑤) {\n                cout << \"POUR(1,2)\" << endl;\n                go(x - t, y + t);\n            } else\n                assert(0);\n        }\n    }\n}\n\nint main() {\n    cin >> a >> b >> c;\n    ans = 1 << 30;\n    memset(f, 127, sizeof f);\n    init = **f;\n    if ((ans = dfs(0, 0)) == init - 1)\n        cout << \"impossible\";\n    else {\n        cout << ans << endl;\n        go(0, 0);\n    }\n}\n```\n\n$POUR(i,j)$：将容器 $i$ 的水倒进容器 $j$ (完成此操作后，要么容器 $j$ 被灌满，要么容器 $i$ 被清空)。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`dfs(x + t, y - t) + 1`"
+        },
+        {
+          "key": "B",
+          "text": "`dfs(x + t, y - t) - 1`"
+        },
+        {
+          "key": "C",
+          "text": "`dfs(x - t, y + t) - 1`"
+        },
+        {
+          "key": "D",
+          "text": "`dfs(x - t, y + t) + 1`"
+        }
+      ]
+    }
+  ]
+}

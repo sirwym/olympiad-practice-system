@@ -1,0 +1,474 @@
+{
+  "title": "2024年6月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2024-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年6月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "12 24 24 12"
+        },
+        {
+          "key": "B",
+          "text": "24 12 12 24"
+        },
+        {
+          "key": "C",
+          "text": "12 12 24 24"
+        },
+        {
+          "key": "D",
+          "text": "24 24 12 12"
+        }
+      ],
+      "content": "下列代码中，输出结果是（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面函数不能正常执行的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 2 3 9"
+        },
+        {
+          "key": "B",
+          "text": "2 10 3 9"
+        },
+        {
+          "key": "C",
+          "text": "2 10 11 121"
+        },
+        {
+          "key": "D",
+          "text": "2 10 3 100"
+        }
+      ],
+      "content": "下面程序输出的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "0x6ffe14"
+        },
+        {
+          "key": "C",
+          "text": "0x6ffe15"
+        },
+        {
+          "key": "D",
+          "text": "0x6ffe18"
+        }
+      ],
+      "content": "假设变量a的地址是0x6ffe14，下面程序的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "0x6ffe04"
+        },
+        {
+          "key": "B",
+          "text": "0x6ffe0C"
+        },
+        {
+          "key": "C",
+          "text": "0x6ffe08"
+        },
+        {
+          "key": "D",
+          "text": "0x6ffe00"
+        }
+      ],
+      "content": "如果下列程序输出的地址是0x6ffe00，则cout<<a+1<<endl;输出的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"GESP.txt\"：指定与当前⼯作目录中的程序文件相同目录中的 GESP.txt 文件"
+        },
+        {
+          "key": "B",
+          "text": "\"../data/GESP.txt\"：指定与当前⼯作目录中的程序文件上一级目录下的 data 目录中的 GESP.txt 文件"
+        },
+        {
+          "key": "C",
+          "text": "\"./data/GESP.txt\"：指定与当前⼯作目录中的程序文件同级目录下的 data 目录中的 GESP.txt 文件"
+        },
+        {
+          "key": "D",
+          "text": "\"GESP.txt\"是绝对路径"
+        }
+      ],
+      "content": "C++中，关于文件路径说法错误的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "插入排序的最好情况是数组已经有序，此时只需要进行 次比较，时间复杂度为"
+        },
+        {
+          "key": "B",
+          "text": "最坏情况是数组逆序排序，此时需要进行 次比较以及 次赋值操作（插入）"
+        },
+        {
+          "key": "C",
+          "text": "平均来说插入排序算法的复杂度为"
+        },
+        {
+          "key": "D",
+          "text": "空间复杂度上，直接插入法是就地排序，空间复杂度为"
+        }
+      ],
+      "content": "关于直接插入排序，下列说法错误的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "swap(a[j],a[j+1]);"
+        },
+        {
+          "key": "B",
+          "text": "swap(a[j-1],a[j]);"
+        },
+        {
+          "key": "C",
+          "text": "swap(a[j-1],a[j+1]);"
+        },
+        {
+          "key": "D",
+          "text": "swap(&a[j-1],&a[j+1]);"
+        }
+      ],
+      "content": "下列程序横线处，应该输入的是 （ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "递推表现为自⼰调用自⼰"
+        },
+        {
+          "key": "B",
+          "text": "递推是从简单问题出发，一步步的向前发展，最终求得问题。是正向的"
+        },
+        {
+          "key": "C",
+          "text": "递推中，问题的n要求是在计算中确定，不要求计算前就知道n"
+        },
+        {
+          "key": "D",
+          "text": "斐波那契数列可以用递推实现求解"
+        }
+      ],
+      "content": "下面关于递推的说法不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "选择排序不是一个稳定的排序算法"
+        },
+        {
+          "key": "B",
+          "text": "冒泡排序算法不是一种稳定的排序算法"
+        },
+        {
+          "key": "C",
+          "text": "`插入排序是一种稳定的排序算法"
+        },
+        {
+          "key": "D",
+          "text": "如果排序前2个相等的数在序列中的前后位置顺序和排序后它们2个的前后位置顺序相同，则称为一种稳定的\n排序算法\n"
+        }
+      ],
+      "content": "关于几种排序算法的说法，下面说法错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "{45,23,1,10,66,52,88,5,33,97}"
+        },
+        {
+          "key": "B",
+          "text": "{45,66,1,23,10,97,52,88,5,33}"
+        },
+        {
+          "key": "C",
+          "text": "{45,66,23,1,10,52,88,5,33,97}"
+        },
+        {
+          "key": "D",
+          "text": "{45,66,23,1,10,97,52,88,33,5}"
+        }
+      ],
+      "content": "数组{45,66,23,1,10,97,52,88,5,33}进行从小到大冒泡排序过程中，第一遍冒泡过后的序列是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "a[j]=a[j-1];"
+        },
+        {
+          "key": "B",
+          "text": "a[j]=a[j+1];"
+        },
+        {
+          "key": "C",
+          "text": "a[j+1]=a[j-1];"
+        },
+        {
+          "key": "D",
+          "text": "a[j+1]=a[j];"
+        }
+      ],
+      "content": "下面的排序算法程序中，横线处应该填入的是（ ）。\n\n```cpp\nint a[8]={ 2,3, 4, 5, 6,2,3,1};\nfor (int i=1;i<8;i++)\n{\n    int key = a[i];\n    int j=i-1;\n    while(a[j]>key && j>=0)\n    {\n        ________;\n        j -= 1;\n    }\n    a[j + 1]= key;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "Division by zero condition!"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "100"
+        }
+      ],
+      "content": "下面的程序中，如果输入10 0，会输出（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "55"
+        },
+        {
+          "key": "B",
+          "text": "56"
+        },
+        {
+          "key": "C",
+          "text": "54"
+        },
+        {
+          "key": "D",
+          "text": "58"
+        }
+      ],
+      "content": "10条直线，最多可以把平面分为多少个区域（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0x6ffe0c"
+        },
+        {
+          "key": "B",
+          "text": "0x6ffe09"
+        },
+        {
+          "key": "C",
+          "text": "0x6ffe06"
+        },
+        {
+          "key": "D",
+          "text": "0x6ffe04"
+        }
+      ],
+      "content": "下面程序中，如果语句 cout<<p<<endl; 输出的是0x6ffe00，则cout<<++p<<endl;输出的是（）\n\n```cpp\nint x[10][10][10]={{0}};\nint *p;\np=&x[0][0][0];\ncout<<p<<endl;\ncout<<++p<<endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "int& a和&a是一样的，都是取a的地址。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "以下代码不能够正确执行。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "引用是一个指针常量。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面程序两个输出结果是一样的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "函数不可以调用自⼰。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "函数参数传递过程中，如果传常量值、常量引用和常量指针都是不能被修改的，它们可以防⽌函数对实参的\n值或地址进行修改。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面代码输出的值等于0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面这个程序里，a[i][j]和一个普通的整型变量一样使用。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "一个一维数组，至少含有一个自然数N，是一个合法的数列。可以在一维数组末尾加入一个自然数M，M不\n能超过一维数组末尾元素的一半，形成一个新的合法的一维数组，如果N=6，那么可以有6个不同的合法数组。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "插入排序算法中，平均时间复杂度是 ，最坏的情况逆序情况下，达到最大时间复杂度。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⿊⽩⽅块**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含两个正整数 ，含义如题⾯所⽰。\n之后 ⾏，每⾏⼀个长度为 的 串，代表⽹格图第 ⾏格⼦的颜⾊，如果为 ，则对应格⼦为⽩⾊，否则为⿊\n⾊。\n\n### 输出格式\n输出⼀个整数，代表最⼤的平衡⼦矩形包含格⼦的数量，如果不存在则输出 。\n3.1.4 样例1\n1 4 5\n2 00000\n3 01111\n4 00011\n5 00011\n1 16\n\n### 样例解释\n对于样例1，假设 ( ) 代表第 ⾏第 列，最⼤的平衡⼦矩形的四个顶点分别为 ( )，( )，( )，( )。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：宝箱**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含两个正整数 ，含义如题⾯所⽰。\n第⼆⾏包含 个正整数 ，代表宝箱的价值。\n\n### 输出格式\n输出⼀个整数，代表带⾛宝箱的最⼤总价值。\n3.2.4 样例1\n1 5 1\n2 1 2 3 1 2\n1 7\n\n### 样例解释\n在背包不损坏的情况下，⼩杨可以拿⾛两个价值为 的宝箱和⼀个价值为 的宝箱。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

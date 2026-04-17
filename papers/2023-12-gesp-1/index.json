@@ -1,0 +1,474 @@
+{
+  "title": "2023年12月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2023-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年12月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "CCF GESP"
+        },
+        {
+          "key": "B",
+          "text": "ccfGESP"
+        },
+        {
+          "key": "C",
+          "text": "CCFgesp"
+        },
+        {
+          "key": "D",
+          "text": "CCF_GESP"
+        }
+      ],
+      "content": "以下C++不可以作为变量的名称的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "C++表达式10 - 3 * (2 + 1) % 10的值是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "(10 + N) % 24, (10 + N) / 24"
+        },
+        {
+          "key": "B",
+          "text": "(10 + N) / 24, (10 + N) % 24"
+        },
+        {
+          "key": "C",
+          "text": "N % 24, N / 24"
+        },
+        {
+          "key": "D",
+          "text": "10 / 24, 10 % 24"
+        }
+      ],
+      "content": "假设现在是上午十点，求出N小时（正整数）后是第几天几时，如输入20小时则为第2天6点，如N输入4则为\n今天14点。为实现相应功能，应在横线处填写代码是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % 2 == 0"
+        },
+        {
+          "key": "B",
+          "text": "N % 2 = 0"
+        },
+        {
+          "key": "C",
+          "text": "N % 2"
+        },
+        {
+          "key": "D",
+          "text": "N % 2 != 0"
+        }
+      ],
+      "content": "下面的程序用于判断N是否为偶数，横线处应填写代码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果输入的N是小于等于2整数，第5行将输出0。"
+        },
+        {
+          "key": "B",
+          "text": "如果输入的N是大于等于2整数，第5行将输出N-1。"
+        },
+        {
+          "key": "C",
+          "text": "如果输入的N是大于等于2整数，第5行将输出N。"
+        },
+        {
+          "key": "D",
+          "text": "以上说法均不正确。"
+        }
+      ],
+      "content": "下面对C++代码执行后输出的描述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "90"
+        },
+        {
+          "key": "B",
+          "text": "44"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "11"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "cnt = 1"
+        },
+        {
+          "key": "B",
+          "text": "cnt = 2"
+        },
+        {
+          "key": "C",
+          "text": "cnt =+ 1"
+        },
+        {
+          "key": "D",
+          "text": "cnt += 1"
+        }
+      ],
+      "content": "下面C++代码用于判断一个数是否为质数（素数），在横线处应填入代码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出2 6 3 5 4 8 1 0 9 10 10"
+        },
+        {
+          "key": "B",
+          "text": "输出2 6 3 5 4 8 1 0 9 9"
+        },
+        {
+          "key": "C",
+          "text": "输出2 6 3 5 4 8 1 0 9 10"
+        },
+        {
+          "key": "D",
+          "text": "提⽰有编译错误"
+        }
+      ],
+      "content": "对下面的代码，描述正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "21"
+        },
+        {
+          "key": "C",
+          "text": "27"
+        },
+        {
+          "key": "D",
+          "text": "49"
+        }
+      ],
+      "content": "执行下面C++代码后输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "c = (char)66;"
+        },
+        {
+          "key": "B",
+          "text": "c = (char)(66);"
+        },
+        {
+          "key": "C",
+          "text": "c = char(66);"
+        },
+        {
+          "key": "D",
+          "text": "c = char 66;"
+        }
+      ],
+      "content": "定义变量char c，下面对c赋值的语句，不符合语法的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "3 5"
+        },
+        {
+          "key": "C",
+          "text": "3 5 9"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "下图所⽰C++代码对大写字母'A'到'Z'分组，对每个字母输出所属的组号，那么输入'C'时将输出的组\n号是？( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "麦克风"
+        },
+        {
+          "key": "B",
+          "text": "扬声器"
+        },
+        {
+          "key": "C",
+          "text": "油量表"
+        },
+        {
+          "key": "D",
+          "text": "传感器"
+        }
+      ],
+      "content": "某公司新出了一款无⼈驾驶的小汽车，通过声控智能驾驶系统，乘客只要告诉汽车目的地，车⼦就能自动\n选择一条优化路线，告诉乘客后驶达那里。请问下面哪项不是驾驶系统完成选路所必须的。（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "艾伦·图灵"
+        },
+        {
+          "key": "B",
+          "text": "冯·诺依曼"
+        },
+        {
+          "key": "C",
+          "text": "阿塔纳索夫"
+        },
+        {
+          "key": "D",
+          "text": "埃克特-莫克利"
+        }
+      ],
+      "content": "现代计算机是指电⼦计算机，它所基于的是（ ）体系结构。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式int(3.14)的值为3。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语句cout << (2 * 3, 3 % 10, 2+3)的输出为6,3,5。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "for(int i = 1; i < 10; i += 3;) ;表⽰i从1开始到10结束间隔为3，相当于1、4、7、10。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式010+100+001的值为111。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "if语句中的条件表达式的结果可以为int类型。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面的C++代码while(1) continue;中，由于循环中的continue是无条件被执行，因此将导致死循\n环。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式 ('1'+'1'=='2'? flag=1:flag=2) 的结果值和表达式 (flag==2)的相同。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++的程序中，不能用scanf作为变量名。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨最近在准备考GESP，他用的Dev C++来练习和运行程序，所以Dev C++也是一个小型操作系统。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个while循环都可以转化为等价的for循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的考试**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n今天是星期 5，那么 3 天后就是星期 1。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨报数**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "title": "2026年3月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2026-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2026年3月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "-1"
+        },
+        {
+          "key": "C",
+          "text": "49"
+        },
+        {
+          "key": "D",
+          "text": "+1 或者 -1"
+        }
+      ],
+      "content": "如果字符变量_1的值是字符1,那么（int）_1的值是？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a,b 的值从始至终都没有改变。"
+        },
+        {
+          "key": "B",
+          "text": "a,b 的值实现了互换。"
+        },
+        {
+          "key": "C",
+          "text": "a,b 的值互换了以后，⼜还回去了，相当于没有变化。"
+        },
+        {
+          "key": "D",
+          "text": "a,b 的值最后和原值不一样，没有任何意义。"
+        }
+      ],
+      "content": "a,b是整型变量，各自有互不相同的初始值。下列程序实现了什么效果（ ）。\n\n```cpp\na=a^b;\nb=a^b;\na=a^b;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "字符数组 str1 和 str2 完全相同。"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\ncout<<str1<<endl;\ncout<<str2<<endl;\n```\n这段程序多次执行将输出不同的结果。\n"
+        },
+        {
+          "key": "C",
+          "text": "字符数组 str1 和 str2 不相等。"
+        },
+        {
+          "key": "D",
+          "text": "这两个赋值方式完全相同。"
+        }
+      ],
+      "content": "关于下列正确的程序段，说法正确的是（ ）。\n\n```cpp\nchar str1[] = \"Hello\";\nchar str2[] ={'H','e','l','l','0'};\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "C++11 标准中，这是未定义行为，不同的环境有可能出现不同的结果"
+        },
+        {
+          "key": "B",
+          "text": "22"
+        },
+        {
+          "key": "C",
+          "text": "21"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "content": "关于以下程序段,说法正确的是（ ）。\n\n```cpp\nint x=10;\ncout<<(x++) + (++x)<<endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "11110000"
+        },
+        {
+          "key": "B",
+          "text": "10001111"
+        },
+        {
+          "key": "C",
+          "text": "10010000"
+        },
+        {
+          "key": "D",
+          "text": "11110001"
+        }
+      ],
+      "content": "\n```cpp\n位二进制下，十进制数-15 的补码是（ ）。\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "63"
+        },
+        {
+          "key": "B",
+          "text": "65"
+        },
+        {
+          "key": "C",
+          "text": "67"
+        },
+        {
+          "key": "D",
+          "text": "69"
+        }
+      ],
+      "content": "三进制数 转换成十进制是：（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "-73"
+        },
+        {
+          "key": "B",
+          "text": "-75"
+        },
+        {
+          "key": "C",
+          "text": "-77"
+        },
+        {
+          "key": "D",
+          "text": "75"
+        }
+      ],
+      "content": "二进制数 10110101 是某数的 8 位补码，该数的十进制是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "64"
+        },
+        {
+          "key": "B",
+          "text": "72"
+        },
+        {
+          "key": "C",
+          "text": "80"
+        },
+        {
+          "key": "D",
+          "text": "120"
+        }
+      ],
+      "content": "已知 unsigned char c = 0x0F;（十六进制 0F = 二进制 00001111），执行 c = c << 3;后，c 的\n十进制值是：（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "~5 的结果是 -6（int 类型，32 位）"
+        },
+        {
+          "key": "B",
+          "text": "~0 的结果是 0（int 类型，32 位）"
+        },
+        {
+          "key": "C",
+          "text": "~(-3) 的结果是 2（int 类型，32 位）"
+        },
+        {
+          "key": "D",
+          "text": "~8 的结果是 -9（int 类型，32 位）"
+        }
+      ],
+      "content": "补码的情况下，关于按位取反运算，用笔计算的情况下，以下说法错误的是：（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "02"
+        },
+        {
+          "key": "C",
+          "text": "2026"
+        },
+        {
+          "key": "D",
+          "text": "026"
+        }
+      ],
+      "content": "执行以下 C++ 代码后，sub 的值是（ ）。\n\n```cpp\nstring str = \"GESP2026\";\nstring sub = str.substr(4, 2);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ],
+      "content": "执行以下代码后，输出结果是：（ ）。\n\n```cpp\nint arr[] = {5, 10, 15, 20, 25, 30};\nint count = sizeof(arr) / sizeof(arr[0]);\ncout << count;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "content": "执行以下代码后，输出结果是：（ ）。\n\n```cpp\nchar s[10] = \"abcde\";\nint a = sizeof(s) / sizeof(s[0]);\nint b = strlen(s);\ncout << a - b;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "找出 1~100 之间所有能被 7 整除的数"
+        },
+        {
+          "key": "B",
+          "text": "找出 100~200 之间的所有质数"
+        },
+        {
+          "key": "C",
+          "text": "计算 1+2+3+…+1000 的和"
+        },
+        {
+          "key": "D",
+          "text": "找出三位数中个位、十位、百位数字之和等于 10 的数"
+        }
+      ],
+      "content": "以下问题中，最不适合用枚举法解决的是：（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "枚举鸡的数量 x（0~35），兔的数量 y=35-x，判断 2*x + 4*y == 94"
+        },
+        {
+          "key": "B",
+          "text": "枚举兔的数量 y（0~94），鸡的数量 x=35-y，判断 2*x + 4*y == 94"
+        },
+        {
+          "key": "C",
+          "text": "枚举所有整数 x（0-100）和 y（0-100），判断 x+y==35 && 2*x+4*y==94"
+        },
+        {
+          "key": "D",
+          "text": "枚举脚的总数 sum（0~94），判断 sum == 94"
+        }
+      ],
+      "content": "用枚举法解决 “鸡兔同笼问题：头共 35 个，脚共 94 只，求鸡和兔的数量”，以下枚举逻辑最合理的是：（\n）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "if (str[i]> 122) str[i] = str[i] + 3 - 26;"
+        },
+        {
+          "key": "B",
+          "text": "if (str[i] > 122) str[i] = str[i] - 26;"
+        },
+        {
+          "key": "C",
+          "text": "if (str[i] + 3 > 122) str[i] = str[i] - 26;"
+        },
+        {
+          "key": "D",
+          "text": "if (str[i] + 3 > 'z') str[i] = 'a' + (str[i] + 3 - 'z') - 1;"
+        }
+      ],
+      "content": "模拟 “字符串加密”：规则为 “每个字符 ASCII 码 + 3，若超过 z (122) 则从 a 重新开始”，以下代码中正确\n的条件判断是：（ ）\n\n```cpp\nfor (int i = 0; i < str.length(); i++) {\n    // 需补充条件：\n    _______________________\n    else {\n        str[i] += 3;\n    }\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "定义 int arr[5] = {1,2,3};，则 arr[3] 的值为 0，arr[5] 是合法下标。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "定义 double arr[10];，未手动初始化时，数组中所有元素的默认值为 0.0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "定义 int arr[] = {1,2,3};，则 sizeof(arr) 的结果为 12（int 占 4 字节）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的流程图是用来求 1+2+3+…+10 的和。\n请判断：这个流程图的逻辑正确还是错误？\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "下面流程图的功能是计算 5 对 2 取余数，输出结果为 1。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "已知大写字符 A 的ASCII编码的十六进制表⽰为 0x41 ，计算字符 m 的ASCII编码的八进制表⽰为 155\n（八进制）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在 C++ 位运算中，各种不同的运算符有优先级的区分，使用括号能够解决优先级的问题。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "由于在 0~255 范围内，char 类型和 int 类型可以互换，因此在这里 x 和 y 相等。\n\n```cpp\nchar x='1';\nint y=1;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，表达式 ((0xf0 + 0x15) == 255) 的值为 true。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "如果 a 为 int 类型的变量，且 a 的二进制最低位为 0，则表达式 ((a & 3 & 1) == 0) 的值为\ntrue。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼆进制回⽂串**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n对于⼀个正整数 ，我们将其转换为不含前导零的⼆进制表⽰,如果这个⼆进制序列从左向右读与从右向左读完全相\n同，则称该数为⼆进制回⽂数。例如， 的⼆进制表⽰为 ，是⼆进制回⽂数； 的⼆进制表⽰为 ，\n不是⼆进制回⽂数。\n你的任务是：给定⼀个正整数 ，计算在 到 的范围内⼆进制回⽂数的数量。\n\n### 输入格式\n输⼊⼀⾏，包含⼀个正整数 。\n\n### 输出格式\n输出⼀⾏，包含⼀个数，表⽰在 到 的范围内⼆进制回⽂数的数量。\n\n### 样例解释\n样例 1 中， 到 范围内 、 、 、 、 、 是⼆进制回⽂数。\n\n### 数据范围\n。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：凯撒密码**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n凯撒密码是⼀种替换加密技术，明⽂中的所有字母都在字母表上向后（或向前）按照⼀个固定数⽬进⾏偏移后被替\n换成密⽂。例如，当偏移量是 的时候，所有的字母 将被替换成 ， 被替换成 ， 被替换成 ，以此类推，\n被替换成 ， 被替换成 ， 被替换成 ， 被替换成 。这个加密⽅法是以罗马共和时期凯撒的名字命名\n的，据称当年凯撒曾⽤此⽅法与其将军们进⾏联系。\n但是和所有的利⽤字母表进⾏替换的加密技术⼀样，凯撒密码⾮常容易被破解，⽽且在实际应⽤中也⽆法保证通信\n安全。\n现在给你⼀个已破解的凯撒密码明⽂与密⽂，与⼀个有相同偏移量的未破解凯撒密码密⽂，请你帮忙破解它。\n\n### 输入格式\n输⼊共三⾏：\n第⼀⾏包含⼀个字符串，表⽰已破解的凯撒密码明⽂；\n第⼆⾏包含⼀个字符串，表⽰已破解的凯撒密码密⽂；\n第三⾏包含⼀个字符串，表⽰待破解的凯撒密码密⽂。\n\n### 输出格式\n输出⼀⾏，包含⼀个字符串，表⽰待破解的凯撒密码对应的明⽂。\n\n### 样例解释\n样例 1 中，通过已破解的密码得出偏移量为 'D' - 'A' = 3，因此，对未破解部分进⾏逆向偏移：密⽂中的 W 对\n应明⽂中的 T（'W' - 3 = 'T'），密⽂中的 K 对应明⽂中的 H（'K' - 3 = 'H'），以此类推。\n\n### 数据范围\n保证密码长度均不超过 ，所有字符串由⼤写字母组成。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

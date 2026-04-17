@@ -1,0 +1,472 @@
+{
+  "title": "NCT KITTEN 1级 K1模拟卷3",
+  "category": "NCT-KITTEN",
+  "level": "1",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 3,
+      "answer": "C",
+      "content": "以下说法合理的是（     ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "将自己的身份证号码发给陌生网友"
+        },
+        {
+          "key": "B",
+          "text": "在论坛或博客中转发恶搞他人的图片"
+        },
+        {
+          "key": "C",
+          "text": "通过合法的途径来保护自己的发明专利"
+        },
+        {
+          "key": "D",
+          "text": "在公用计算机上勾选“记住密码”"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 3,
+      "answer": "C",
+      "content": "在Kitten编辑器中，可以上传保存在电脑中的作品。下面可以成功导入Kitten编辑器的文件是（    ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "游泳比赛.exe"
+        },
+        {
+          "key": "B",
+          "text": "飞机.zip"
+        },
+        {
+          "key": "C",
+          "text": "采蘑菇的木叶龙.bcm"
+        },
+        {
+          "key": "D",
+          "text": "你画我猜.ppt"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 3,
+      "answer": "B",
+      "content": "兔子和乌龟准备赛跑，从起点（0，0）达到终点（200，0）。运行积木，谁会先到达终点（）。\n\n![img](../assets/images/nct/BJJQUjNcD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "兔子"
+        },
+        {
+          "key": "B",
+          "text": "乌龟"
+        },
+        {
+          "key": "C",
+          "text": "同时到达"
+        },
+        {
+          "key": "D",
+          "text": "都不能到达"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下图积木，新建对话框中不可能输出的整数是（      ）。\n\n![img](../assets/images/nct/BkYTIjE9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 3,
+      "answer": "B",
+      "content": "（3分）实现角色“飞船”在太空向上飞行，越飞越远的效果可以用（    ）积木。\n\n![img](../assets/images/nct/S1KUPiE9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 3,
+      "answer": "B",
+      "content": "下列选项中，当角色“妙音龙”被鼠标点击时，播放声音的积木是（      ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下图所示的积木，则新建对话框输出的是（    ）。\n\n![img](../assets/images/nct/BJvvOiEcw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "105"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 3,
+      "answer": "C",
+      "content": "角色初始面向方向是0度，角色的旋转模式为自由旋转模式，运行下图积木，则角色最终的朝向是（    ）。\n\n![img](../assets/images/nct/rk9UtsE9P.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "上"
+        },
+        {
+          "key": "B",
+          "text": "下"
+        },
+        {
+          "key": "C",
+          "text": "左"
+        },
+        {
+          "key": "D",
+          "text": "右"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 3,
+      "answer": "C",
+      "content": "以下积木是小黄在参加校运会时多种运动项目的顺序模拟，请问各种运动比赛的顺序应该是（）。\n\n![img](../assets/images/nct/BJVfqiV9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "跳远，跑步，跳高，游泳"
+        },
+        {
+          "key": "B",
+          "text": "跳远，跳高，跑步，游泳"
+        },
+        {
+          "key": "C",
+          "text": "跑步，游泳，跳高，跳远"
+        },
+        {
+          "key": "D",
+          "text": "跑步，跳高，游泳，跳远"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 3,
+      "answer": "B",
+      "content": "程序运行之后，想要使角色最后停留在造型2，则“？”处应填（     ）。\n\n![img](../assets/images/nct/ByeBj9sEqw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 3,
+      "answer": "D",
+      "content": "角色的初始位置为（0,0）。下列选项中，不能让角色“涂鸦狐”移动到角色“木叶龙”所在的区域四是（     ）。\n\n![img](../assets/images/nct/rkvcooVcP.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 3,
+      "answer": "C",
+      "content": "想要绘制出下图边长为300的等边三角形，能够实现功能的积木是（      ）。\n\n![img](../assets/images/nct/Byx8m2oE9w.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 3,
+      "answer": "B",
+      "content": "下列选项中，与下图积木实现的效果相同的是（    ）。\n\n![img](../assets/images/nct/SkU6hsVqP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 3,
+      "answer": "B",
+      "content": "运行下图积木，输入4，则新建对话框输出的内容是（    ）。\n\n![img](../assets/images/nct/BJ8HufHcP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "4X5"
+        },
+        {
+          "key": "D",
+          "text": "程序错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 3,
+      "answer": "A",
+      "content": "下图描述了根据天气情况选择特定活动的流程。天气预报将会下雨，则选择的活动是（ ）。\n\n![img](../assets/images/nct/rywO6iNqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "在家看书"
+        },
+        {
+          "key": "B",
+          "text": "去踢足球"
+        },
+        {
+          "key": "C",
+          "text": "先看书，再踢足球"
+        },
+        {
+          "key": "D",
+          "text": "先踢足球，再看书"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 16,
+      "score": 5,
+      "answer": "12",
+      "content": "运行下图中的积木，则变量“数字2”的最小值是______。   注：仅填写数字，勿填写空格、换行或其他字符\n\n![img](../assets/images/nct/S1XEyh45v.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 17,
+      "score": 5,
+      "answer": "12",
+      "content": "运行积木，如果输入的是 7 ，则新建对话框输出的是______。   注：仅填写数字，勿填写空格、换行或其他字符\n\n![img](../assets/images/nct/By0cyhVqv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 18,
+      "score": 5,
+      "answer": "4",
+      "content": "角色的初始坐标(0,0)。运行积木后，角色的坐标是(200,120)，则积木中的“？”处应填写的是_______。   注：仅填写数字，勿填写空格、换行或其他字符\n\n![img](../assets/images/nct/SJKFbxhN9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 5,
+      "answer": "22",
+      "content": "运行积木，则新建对话框输出的最大值是______。   注：仅填写数字，勿填写空格、换行或其他字符\n\n![img](../assets/images/nct/BJUYl3VqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "22"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 5,
+      "answer": "5",
+      "content": "运行下图积木，重复执行______次之后，变量“数字1”的值为0。   注：仅填写数字，勿填写空格、换行或其他字符\n\n![img](../assets/images/nct/SyeX7W3EqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 21,
+      "score": 10,
+      "answer": "None",
+      "content": "程序预期效果：a.“背景”一直向下移动，视觉效果是“汽车”向上移动；b.“路障”不断向下移动，如果碰到下边缘，则重新出现在上边缘道路范围的随机位置，并继续向下移动；c.若“汽车”碰到“路障”，游戏结束。然而，运行程序后，发现存在一些问题。请你根据要求进行完善：[注：勿添加其他未作要求的效果]（1）修改“背景”的脚本，让“背景”一直向下移动，实现上述效果a；（2）角色“路障”的程序有问题，请你进行修复或添加积木，实现上述效果b；（3）“汽车”的部分积木脚本没有拼接，请进行拼接，实现上述效果c；\n\n![img](../assets/images/nct/BJfh-3E9w.gif)",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 22,
+      "score": 20,
+      "answer": "None",
+      "content": "木叶龙最近在进行反应力训练，请你帮助木叶龙顺利躲开飞镖，躲过15个飞镖即可获得游戏胜利。请你根据要求，使用给定素材完成创作。作品要求：（1）角色“木叶龙”在舞台上不断移动，碰到舞台边缘就反弹。按下鼠标按键的时候可以改变木叶龙的移动方向；（2）当“飞镖”从舞台上边缘随机位置向下移动，碰到舞台下半边缘，变量“得分”增加1，“飞镖”角色回到舞台上方；（3）在角色“胜利与失败中”使用画板绘制“胜利”造型（可参考程序效果，有“胜利”字样即可），使角色的初始状态隐藏；（4）当角色“木叶龙”碰到飞镖时，发送广播“游戏失败”，显示失败，停止全部脚本。当变量“得分”大于等于15，显示胜利，停止全部脚本。\n\n![img](../assets/images/nct/H1gpPmhN9D.gif)",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

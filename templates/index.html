@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信奥刷题 - GESP / CSP / NCT 在线练习</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <script src="assets/js/tailwind.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+
+        /* 选项卡指示器动画 */
+        .tab-btn {
+            position: relative;
+            transition: color 0.2s ease;
+        }
+        .tab-btn.active {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #2563eb;
+            border-radius: 2px 2px 0 0;
+        }
+
+        /* 级别按钮 */
+        .level-btn {
+            transition: all 0.15s ease;
+        }
+        .level-btn.active {
+            background-color: #2563eb;
+            color: white;
+            border-color: #2563eb;
+        }
+
+        /* 试卷卡片 */
+        .paper-card {
+            transition: all 0.2s ease;
+        }
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px -5px rgba(0,0,0,0.1);
+        }
+
+        /* 空状态 */
+        .empty-state {
+            display: none;
+        }
+        .empty-state.visible {
+            display: flex;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- 顶部 -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-5xl mx-auto px-4 py-6 text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-brand-50 text-brand-600 rounded-full text-xs font-medium mb-3">
+                <img src="assets/logo.png" alt="Logo" class="w-4 h-4 rounded">
+                信奥在线刷题
+            </div>
+            <h1 class="text-3xl font-bold text-gray-900">GESP · CSP · NCT</h1>
+            <p class="text-gray-500 mt-2 text-sm">选择分类和级别，开始练习 · 自动评分 · 记录最高分 · 无需联网</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-6">
+
+        <!-- 分类选项卡 -->
+        <div class="flex items-center border-b border-gray-200 mb-6 overflow-x-auto" id="categoryTabs">
+            {% for cat in categories %}
+            <button
+                class="tab-btn px-5 py-3 text-sm text-gray-500 hover:text-gray-700 whitespace-nowrap {{ 'active' if cat == active_category else '' }}"
+                data-category="{{ cat }}"
+                onclick="switchCategory('{{ cat }}')"
+            >
+                {{ category_labels.get(cat, cat) }}
+            </button>
+            {% endfor %}
+        </div>
+
+        <!-- 级别筛选（GESP / NCT-C++ / NCT-KITTEN 显示，CSP 不需要） -->
+        <div class="flex items-center gap-2 mb-6 flex-wrap {% if current_category and 'CSP' in current_category %}hidden{% endif %}" id="levelFilters">
+            <button
+                class="level-btn px-3.5 py-1.5 text-xs font-medium border border-gray-200 rounded-lg text-gray-600 hover:border-brand-300 active"
+                data-level="all"
+                onclick="switchLevel('all')"
+            >
+                全部
+            </button>
+            {% for lvl in levels %}
+            <button
+                class="level-btn px-3.5 py-1.5 text-xs font-medium border border-gray-200 rounded-lg text-gray-600 hover:border-brand-300"
+                data-level="{{ lvl }}"
+                onclick="switchLevel('{{ lvl }}')"
+            >
+                {{ level_labels.get(lvl, lvl ~ '级') }}
+            </button>
+            {% endfor %}
+        </div>
+
+        <!-- 试卷列表 -->
+        <div class="grid gap-4 sm:grid-cols-2" id="paperGrid">
+            {% for p in papers %}
+            <a href="{{ p.slug }}/index.html"
+               class="paper-card p-5 bg-white rounded-xl border border-gray-200 group"
+               data-category="{{ p.category }}"
+               data-level="{{ p.level }}">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="px-2 py-0.5 {{ category_colors[p.category] }} text-xs font-semibold rounded">{{ category_labels.get(p.category, p.category) }}</span>
+                    <span class="px-2 py-0.5 bg-gray-100 text-gray-600 text-xs font-medium rounded">{{ level_labels.get(p.level, p.level ~ '级') }}</span>
+                </div>
+                <h3 class="text-base font-semibold text-gray-900 group-hover:text-brand-600 transition-colors leading-snug">{{ p.title }}</h3>
+                {% if p.description %}
+                <p class="text-sm text-gray-500 mt-1.5 line-clamp-2">{{ p.description }}</p>
+                {% endif %}
+                <div class="flex items-center gap-3 mt-3 text-xs text-gray-400">
+                    <span class="flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                        {{ p.question_count }} 题
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        {{ p.time_limit }} 分钟
+                    </span>
+                    <span class="flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                        {{ p.total_score }} 分
+                    </span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <!-- 空状态 -->
+        <div class="empty-state flex-col items-center justify-center py-16 text-center" id="emptyState">
+            <svg class="w-16 h-16 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <p class="text-gray-400 text-lg font-medium">暂无试卷</p>
+            <p class="text-gray-300 text-sm mt-1">该分类下还没有导入试卷</p>
+        </div>
+
+        <!-- 分页控件 -->
+        <div class="flex items-center justify-center gap-2 mt-8" id="pagination"></div>
+
+    </main>
+
+    <!-- 底部 -->
+    <footer class="max-w-5xl mx-auto px-4 py-8 text-center">
+        <p class="text-xs text-gray-400">静态生成 · 数据本地存储 · 无需服务器 · 离线可用</p>
+    </footer>
+
+    <script>
+        // ===== 数据 =====
+        const ALL_PAPERS = {{ papers_json }};
+        const PAGE_SIZE = 20;
+
+        // ===== 状态 =====
+        let currentCategory = '{{ active_category }}';
+        let currentLevel = 'all';
+        let currentPage = 1;
+
+        // ===== 切换分类 =====
+        function switchCategory(cat) {
+            currentCategory = cat;
+            currentLevel = 'all';
+            currentPage = 1;
+
+            // 更新选项卡样式
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.category === cat);
+            });
+
+            // 更新级别筛选
+            updateLevelFilters();
+
+            // 过滤试卷
+            filterPapers();
+        }
+
+        // ===== 切换级别 =====
+        function switchLevel(level) {
+            currentLevel = level;
+            currentPage = 1;
+
+            document.querySelectorAll('.level-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.level === level);
+            });
+
+            filterPapers();
+        }
+
+        // ===== 更新级别按钮 =====
+        function updateLevelFilters() {
+            const levelsInCat = [...new Set(
+                ALL_PAPERS
+                    .filter(p => p.category === currentCategory)
+                    .map(p => String(p.level))
+            )].sort((a, b) => (isNaN(parseInt(a)) ? 999 : parseInt(a)) - (isNaN(parseInt(b)) ? 999 : parseInt(b)));
+
+            const container = document.getElementById('levelFilters');
+            const labels = {{ level_labels_json }};
+
+            let html = `<button class="level-btn px-3.5 py-1.5 text-xs font-medium border border-gray-200 rounded-lg text-gray-600 hover:border-brand-300 active" data-level="all" onclick="switchLevel('all')">全部</button>`;
+
+            levelsInCat.forEach(lvl => {
+                const label = labels[lvl] || (lvl + '级');
+                html += `<button class="level-btn px-3.5 py-1.5 text-xs font-medium border border-gray-200 rounded-lg text-gray-600 hover:border-brand-300" data-level="${lvl}" onclick="switchLevel('${lvl}')">${label}</button>`;
+            });
+
+            // CSP 不需要级别筛选，GESP 和 NCT 需要
+            const isCSP = currentCategory.includes('CSP');
+            container.classList.toggle('hidden', isCSP);
+
+            container.innerHTML = html;
+        }
+
+        // ===== 获取当前筛选后的试卷列表 =====
+        function getFilteredPapers() {
+            return ALL_PAPERS.filter(p => {
+                const matchCat = p.category === currentCategory;
+                const matchLevel = currentLevel === 'all' || String(p.level) === currentLevel;
+                return matchCat && matchLevel;
+            });
+        }
+
+        // ===== 过滤试卷（含分页）=====
+        function filterPapers() {
+            const cards = document.querySelectorAll('.paper-card');
+            const filtered = getFilteredPapers();
+            const filteredSlugs = new Set(filtered.map(p => p.slug));
+
+            // 总页数
+            const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+            if (currentPage > totalPages) currentPage = totalPages;
+
+            // 当前页的 slug 集合
+            const startIdx = (currentPage - 1) * PAGE_SIZE;
+            const endIdx = startIdx + PAGE_SIZE;
+            const pageSlugs = new Set(filtered.slice(startIdx, endIdx).map(p => p.slug));
+
+            // 显隐卡片
+            let visibleCount = 0;
+            cards.forEach(card => {
+                const slug = card.getAttribute('href').replace('/index.html', '');
+                if (pageSlugs.has(slug)) {
+                    card.style.display = '';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // 空状态
+            const emptyState = document.getElementById('emptyState');
+            emptyState.classList.toggle('visible', filtered.length === 0);
+
+            // 渲染分页
+            renderPagination(filtered.length, totalPages);
+        }
+
+        // ===== 渲染分页控件 =====
+        function renderPagination(totalItems, totalPages) {
+            const container = document.getElementById('pagination');
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let html = '';
+
+            // 上一页
+            html += `<button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''} 
+                class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 ${currentPage === 1 ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:bg-gray-50 hover:border-gray-300'}">
+                ‹
+            </button>`;
+
+            // 页码按钮
+            const maxVisible = 7;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+            if (endPage - startPage + 1 < maxVisible) {
+                startPage = Math.max(1, endPage - maxVisible + 1);
+            }
+
+            if (startPage > 1) {
+                html += `<button onclick="goToPage(1)" class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-50">1</button>`;
+                if (startPage > 2) {
+                    html += `<span class="px-2 py-1.5 text-sm text-gray-400">…</span>`;
+                }
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                if (i === currentPage) {
+                    html += `<button class="px-3 py-1.5 text-sm rounded-lg border border-brand-500 bg-brand-50 text-brand-600 font-semibold">${i}</button>`;
+                } else {
+                    html += `<button onclick="goToPage(${i})" class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-50">${i}</button>`;
+                }
+            }
+
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) {
+                    html += `<span class="px-2 py-1.5 text-sm text-gray-400">…</span>`;
+                }
+                html += `<button onclick="goToPage(${totalPages})" class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 text-gray-600 hover:bg-gray-50">${totalPages}</button>`;
+            }
+
+            // 下一页
+            html += `<button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''} 
+                class="px-3 py-1.5 text-sm rounded-lg border border-gray-200 ${currentPage === totalPages ? 'text-gray-300 cursor-not-allowed' : 'text-gray-600 hover:bg-gray-50 hover:border-gray-300'}">
+                ›
+            </button>`;
+
+            container.innerHTML = html;
+        }
+
+        // ===== 跳转页面 =====
+        function goToPage(page) {
+            const filtered = getFilteredPapers();
+            const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            filterPapers();
+            // 滚动到试卷列表顶部
+            document.getElementById('paperGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // ===== 初始化 =====
+        document.addEventListener('DOMContentLoaded', () => {
+            updateLevelFilters();
+            filterPapers();
+        });
+    </script>
+</body>
+</html>

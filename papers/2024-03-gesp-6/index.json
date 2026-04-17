@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 6级",
+  "category": "GESP",
+  "level": "6",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 6级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "最小权值的节点"
+        },
+        {
+          "key": "B",
+          "text": "最大权值的节点"
+        },
+        {
+          "key": "C",
+          "text": "随机节点"
+        },
+        {
+          "key": "D",
+          "text": "深度最深的节点"
+        }
+      ],
+      "content": "在构建哈夫曼树时，每次应该选择（ ）合并。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "贪心、动态规划、回溯"
+        },
+        {
+          "key": "B",
+          "text": "并发、并行、异步"
+        },
+        {
+          "key": "C",
+          "text": "递归、循环、分治"
+        },
+        {
+          "key": "D",
+          "text": "封装、继承、多态"
+        }
+      ],
+      "content": "面向对象的编程思想主要包括以下哪些原则（ ）？\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "先进先出"
+        },
+        {
+          "key": "B",
+          "text": "先进后出"
+        },
+        {
+          "key": "C",
+          "text": "最小值先出"
+        },
+        {
+          "key": "D",
+          "text": "随机进出"
+        }
+      ],
+      "content": "在队列中，元素的添加和删除是按照（ ）原则进行的。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circle c = Circle(5.0); c.getArea(c);"
+        },
+        {
+          "key": "B",
+          "text": "Circle c(5.0); getArea(c);"
+        },
+        {
+          "key": "C",
+          "text": "Circle c = new Circle(5.0); c.getArea();"
+        },
+        {
+          "key": "D",
+          "text": "Circle c(5.0); c.getArea();"
+        }
+      ],
+      "content": "给定一个简单的类定义如下，（ ）语句在类的外部正确地创建了一个 Circle 对象并调用了 getArea 函\n数？\n\n```cpp\nclass Circle {\n    private:\n    double radius;\n    public:\n    Circle(double r) : radius(r) {}\n    double getArea() {\n        return 3.14 * radius * radius;\n    }\n};\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "target < root->left"
+        },
+        {
+          "key": "B",
+          "text": "target < root->val"
+        },
+        {
+          "key": "C",
+          "text": "target > root->val"
+        },
+        {
+          "key": "D",
+          "text": "target > root->left"
+        }
+      ],
+      "content": "以下代码希望能在一棵二叉排序树中搜索特定的值，请在横线处填入（ ），使其能正确实现相应功能。\n\n```cpp\nTreeNode* search(TreeNode* root, int target) {\n    if (root == NULL || root->val == target) {\n        return root;\n    }\n    if (_______________) {\n        return search(root->left, target);\n    } else {\n        return search(root->right, target);\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "000, 001, 010, 011, 100, 101, 110, 111"
+        },
+        {
+          "key": "B",
+          "text": "000, 001, 011, 010, 110, 111, 101, 100"
+        },
+        {
+          "key": "C",
+          "text": "000, 010, 001, 011, 100, 110, 101, 111"
+        },
+        {
+          "key": "D",
+          "text": "000, 010, 110, 100, 111, 101, 011, 001"
+        }
+      ],
+      "content": "\n```cpp\n位格雷编码的正确顺序是（ ）。\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "计算数组 nums 中的所有元素的和"
+        },
+        {
+          "key": "B",
+          "text": "计算数组 nums 中相邻元素的最大和"
+        },
+        {
+          "key": "C",
+          "text": "计算数组 nums 中不相邻元素的最大和"
+        },
+        {
+          "key": "D",
+          "text": "计算数组 nums 中的最小元素"
+        }
+      ],
+      "content": "以下动态规划算法的含义与目的是（ ）。\n\n```cpp\nint function(vector<int>& nums) {\n    int n = nums.size();\n    if (n == 0)\n    return 0;\n    if (n == 1)\n    return nums[0];\n    vector<int> dp(n, 0);\n    dp[0] = nums[0];\n    dp[1] = max(nums[0], nums[1]);\n    for (int i = 2; i < n; ++i) {\n        dp[i] = max(dp[i - 1], nums[i] + dp[i - 2]);\n    }\n    return dp[n - 1];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 2 8 9 4 5 3 6 7 10 11"
+        },
+        {
+          "key": "B",
+          "text": "1 2 3 4 5 6 7 8 9 10 11"
+        },
+        {
+          "key": "C",
+          "text": "1 2 3 8 9 6 4 5 7 10 11"
+        },
+        {
+          "key": "D",
+          "text": "1 2 3 8 9 4 5 6 7 10 11"
+        }
+      ],
+      "content": "阅读以下广度优先搜索的代码：\n\n```cpp\nvoid bfs(TreeNode* root) {\n    if (root == NULL) {\n        return;\n    }\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        TreeNode* current = q.front();\n        q.pop();\n        cout << current->val << \" \";\n        if (current->left) {\n            q.push(current->left);\n        }\n        if (current->right) {\n            q.push(current->right);\n        }\n    }\n}\n```\n使用以上算法遍历以下这棵树，可能的输出是（ ）。\n\n```cpp\n1\n/ \\\n2 3\n/ \\ \\\n8 9 6\n/ \\ \\\n4 5 7\n/ \\\n10 11\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1, 2"
+        },
+        {
+          "key": "B",
+          "text": "1, 4, 5"
+        },
+        {
+          "key": "C",
+          "text": "1, 2, 5"
+        },
+        {
+          "key": "D",
+          "text": "1, 4"
+        }
+      ],
+      "content": "给定一个空栈，执行以下操作序列：\n操作序列：push(1), push(2), push(3), pop(), pop(), push(4), push(5), pop()\n最终栈中的元素是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "247"
+        },
+        {
+          "key": "B",
+          "text": "248"
+        },
+        {
+          "key": "C",
+          "text": "249"
+        },
+        {
+          "key": "D",
+          "text": "250"
+        }
+      ],
+      "content": "一个有 124 个叶⼦节点的完全二叉树，最多有（ ）个结点。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "重叠⼦问题"
+        },
+        {
+          "key": "B",
+          "text": "分治法"
+        },
+        {
+          "key": "C",
+          "text": "贪心策略"
+        },
+        {
+          "key": "D",
+          "text": "回溯算法"
+        }
+      ],
+      "content": "在求解最优化问题时，动态规划常常涉及到两个重要性质，即最优⼦结构和（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "D, E, B, F, C, A"
+        },
+        {
+          "key": "B",
+          "text": "E, D, B, F, C, A"
+        },
+        {
+          "key": "C",
+          "text": "D, E, B, C, F, A"
+        },
+        {
+          "key": "D",
+          "text": "E, D, B, C, F, A"
+        }
+      ],
+      "content": "若一棵二叉树的先序遍历为：A, B, D, E, C, F、中序遍历为：D, B, E, A, F, C，它的后序遍历为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "更容易实现"
+        },
+        {
+          "key": "B",
+          "text": "更节省内存"
+        },
+        {
+          "key": "C",
+          "text": "更快速"
+        },
+        {
+          "key": "D",
+          "text": "更准确"
+        }
+      ],
+      "content": "线性筛法与埃⽒筛法相比的优势是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "int temp = b; b = a / b; a = temp;"
+        },
+        {
+          "key": "B",
+          "text": "int temp = a; a = b / a; b = temp;"
+        },
+        {
+          "key": "C",
+          "text": "int temp = b; b = a % b; a = temp;"
+        },
+        {
+          "key": "D",
+          "text": "b = a % b; a = b;"
+        }
+      ],
+      "content": "以下代码使用了辗转相除法求解最大公因数，请在横线处填入（ ），使其能正确实现相应功能。\n\n```cpp\nint gcd(int a, int b) {\n    while (b != 0) {\n        ______________________\n    }\n    return a;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "current->next = next; 应该改为 current->next = prev;"
+        },
+        {
+          "key": "B",
+          "text": "ListNode* next = current->next; 应该改为 ListNode* next = prev->next;"
+        },
+        {
+          "key": "C",
+          "text": "current != nullptr 应该改为 current->next != nullptr"
+        },
+        {
+          "key": "D",
+          "text": "ListNode* prev = nullptr; 应该改为 ListNode* prev = head;"
+        }
+      ],
+      "content": "下面的代码片段用于反转单链表，请进行（ ）修改，使其能正确实现相应功能。\n\n```cpp\nListNode* reverseLinkedList(ListNode* head) {\n    ListNode* prev = nullptr;\n    ListNode* current = head;\n    while (current != nullptr) {\n        ListNode* next = current->next;\n        current->next = next;\n        prev = current;\n        current = next;\n    }\n    return prev;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "哈夫曼树是一种二叉树。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在动态规划中，状态转移方程的作用是定义状态之间的关系。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "继承是将已有类的属性和方法引入新类的过程。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "完全二叉树的任意一层都可以不满。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "删除单向链表中的节点，只需知道待删除节点的地址即可，无需访问前一个节点。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在宽度优先搜索中，通常使用队列来辅助实现。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "哈夫曼编码的主要应用领域是有损数据压缩。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "二叉搜索树的查找操作的时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "栈的基本操作包括入栈（push）和出栈（pop）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "使用哈夫曼编码对一些字符进行编码，如果两个字符的频率差异最大，则它们的编码可能出现相同的前\n缀。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：游戏**\n\n### 输入格式\n⼀⾏四个正整数 。保证 。\n\n### 输出格式\n⼀⾏⼀个整数，表⽰不同的游戏操作序列数量对 取模的结果。\n3.1.4 样例1\n1 1 1 1 1\n1 1\n3.1.5 样例2\n1 114 51 4 1\n1 176\n3.1.6 样例3\n1 114514 191 9 810\n1 384178446\n\n### 数据范围\n对于 的测试点，保证 ， 。\n对于 的测试点，保证 ， 。\n对于所有测试点，保证 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：好⽃的⽜**\n\n### 样例解释\n你可以留下 个⽜棚，并如此安排你的⽜：\n牛棚 牛棚 牛棚 牛棚\n⽜ ⽜\n3.2.8 样例输入 2\n1 3\n2 1 2 3\n3 3 2 1\n3.2.9 样例输出 2\n1 7\n3.2.10 数据规模\n对于 的测试点，保证 ；\n对于另外 的测试点，保证 ；\n对于 的测试点，保证 ；\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "title": "2020年 CSP-J 第一轮（入门级）",
+  "category": "CSP-J",
+  "level": "CSP-J",
+  "date": "2020-09",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "在内存储器中每个存储单元都被赋予一个唯一的序号，称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "序号"
+        },
+        {
+          "key": "B",
+          "text": "下标"
+        },
+        {
+          "key": "C",
+          "text": "编号"
+        },
+        {
+          "key": "D",
+          "text": "地址"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "编译器的主要功能是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "将源程序翻译成机器指令代码"
+        },
+        {
+          "key": "B",
+          "text": "将源程序重新组合"
+        },
+        {
+          "key": "C",
+          "text": "将低级语言翻译成高级语言"
+        },
+        {
+          "key": "D",
+          "text": "将一种高级语言翻译成另一种高级语言"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "设`x = true`，`y = true`，`z = false`，以下逻辑运算表达式值为真的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$(y \\lor z) \\land x \\land z$"
+        },
+        {
+          "key": "B",
+          "text": "$x \\land (z \\lor y) \\land z$"
+        },
+        {
+          "key": "C",
+          "text": "$(x \\land y) \\land z$"
+        },
+        {
+          "key": "D",
+          "text": "$(x \\land y) \\lor (z \\lor x)$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "现有一张分辨率为 $2048 \\times 1024$ 像素的 32 位真彩色图像。请问要存储这张图像，需要多大的存储空间？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "16MB"
+        },
+        {
+          "key": "B",
+          "text": "4MB"
+        },
+        {
+          "key": "C",
+          "text": "8MB"
+        },
+        {
+          "key": "D",
+          "text": "32MB"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "冒泡排序算法的伪代码如下：\n\n```\n输入：数组 L，n ≥ 1。输出：按非递减顺序排序的 L。\n算法 BubbleSort：\n    1. FLAG ← n // 标记被交换的最后元素位置\n    2. while FLAG > 1 do\n    3.      k ← FLAG - 1\n    4.      FLAG ← 1\n    5.      for j = 1 to k do\n    6.          if L(j) > L(j+1) then do\n    7.              L(j) ↔ L(j+1)\n    8.              FLAG ← j\n```\n\n对 n 个数用以上冒泡排序算法进行排序，最少需要比较多少次？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$n^2$"
+        },
+        {
+          "key": "B",
+          "text": "$n-2$"
+        },
+        {
+          "key": "C",
+          "text": "$n-1$"
+        },
+        {
+          "key": "D",
+          "text": "$n$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "设 A 是 n 个实数的数组，考虑下面的递归算法：\n\n```\nXYZ(A[1..n])\n1. if n=1 then return A[1]\n2. else temp ← XYZ(A[1..n-1])\n3.      if temp < A[n]\n4.      then return temp\n5.      else return A[n]\n```\n\n请问算法 XYZ 的输出是什么？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A 数组的平均"
+        },
+        {
+          "key": "B",
+          "text": "A 数组的最小值"
+        },
+        {
+          "key": "C",
+          "text": "A 数组的中值"
+        },
+        {
+          "key": "D",
+          "text": "A 数组的最大值"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "链表不具有的特点是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可随机访问任一元素"
+        },
+        {
+          "key": "B",
+          "text": "不必事先估计存储空间"
+        },
+        {
+          "key": "C",
+          "text": "插入删除不需要移动元素"
+        },
+        {
+          "key": "D",
+          "text": "所需空间与线性表长度成正比"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "有 10 个顶点的无向图至少应该有（ ）条边才能确保是一个连通图。",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "11"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "二进制数 1011 转换成十进制数是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "五个小朋友并排站成一列，其中有两个小朋友是双胞胎，如果要求这两个双胞胎必须相邻，则有（ ）种不同排列方法？",
+      "options": [
+        {
+          "key": "A",
+          "text": "36"
+        },
+        {
+          "key": "B",
+          "text": "24"
+        },
+        {
+          "key": "C",
+          "text": "72"
+        },
+        {
+          "key": "D",
+          "text": "48"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "下图中所使用的数据结构是（ ）。[图片]",
+      "options": [
+        {
+          "key": "A",
+          "text": "栈"
+        },
+        {
+          "key": "B",
+          "text": "队列"
+        },
+        {
+          "key": "C",
+          "text": "二叉树"
+        },
+        {
+          "key": "D",
+          "text": "哈希表"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "独根树的高度为 1。具有 61 个结点的完全二叉树的高度为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "干支纪年法是中国传统的纪年方法，由 10 个天干和 12 个地支组合成 60 个天干地支。由公历年份可以根据以下公式和表格换算出对应的天干地支。\n\n天干=（公历年份）除以 10 所得余数\n\n地支=（公历年份）除以 12 所得余数\n\n[图片]\n\n例如，今年是 2020 年，2020 除以 10 余数为 0，查表为“庚”；2020 除以 12，余数为 4，查表为“子”，所以今年是庚子年。\n\n请问 1949 年的天干地支是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "己酉"
+        },
+        {
+          "key": "B",
+          "text": "己亥"
+        },
+        {
+          "key": "C",
+          "text": "己卯"
+        },
+        {
+          "key": "D",
+          "text": "己丑"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "10 个三好学生名额分配到 7 个班级，每个班级至少有一个名额，一共有（ ）种不同的分配方案。",
+      "options": [
+        {
+          "key": "A",
+          "text": "84"
+        },
+        {
+          "key": "B",
+          "text": "504"
+        },
+        {
+          "key": "C",
+          "text": "72"
+        },
+        {
+          "key": "D",
+          "text": "56"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "有五副不同颜色的手套（共 10 只手套，每副手套左右手各 1 只），一次性从中取 6 只手套，请问恰好能配成两副手套的不同取法有（ ）种。",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "180"
+        },
+        {
+          "key": "C",
+          "text": "150"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n判断：输入的字符串应当只由大写字母组成，否则在访问数组时 可能 越界。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "错误"
+        },
+        {
+          "key": "B",
+          "text": "正确"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n判断：若输入的字符串不是空串，则输入的字符串与输出的字符串一定不一样。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n判断：将第 12 行的“i < 26”改为“i < 16”，程序运行结果 不会 改变。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n判断：将第 26 行的“i < 26”改为“i < 16”，程序运行结果不会改变。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n若输出的字符串为“ABCABCABCA”，则下列说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入的字符串中既有 S 又有 P"
+        },
+        {
+          "key": "B",
+          "text": "输入的字符串中既有 S 又有 B"
+        },
+        {
+          "key": "C",
+          "text": "输入的字符串中既有 A 又有 P"
+        },
+        {
+          "key": "D",
+          "text": "输入的字符串中既有 A 又有 B"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdlib>\n#include <iostream>\nusing namespace std;\n\nchar encoder[26] = {'C', 'S', 'P', 0};\nchar decoder[26];\n\nstring st;\n\nint main() {\n    int k = 0;\n    for (int i = 0; i < 26; ++i)\n        if (encoder[i] != 0) ++k;\n    for (char x = 'A'; x <= 'Z'; ++x) {\n        bool flag = true;\n        for (int i = 0; i < 26; ++i)\n            if (encoder[i] == x) {\n                flag = false;\n                break;\n            }\n        if (flag) {\n            encoder[k] = x;\n            ++k;\n        }\n    }\n    for (int i = 0; i < 26; ++i)\n        decoder[encoder[i] - 'A'] = i + 'A';\n    cin >> st;\n    for (int i = 0; i < st.length(); ++i)\n        st[i] = decoder[st[i] - 'A'];\n    cout << st;\n    return 0;\n}\n```\n\n若输出的字符串为“CSPCSPCSPCSP”，则下列说法正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入的字符串中既有 P 又有 K"
+        },
+        {
+          "key": "B",
+          "text": "输入的字符串中既有 J 又有 R"
+        },
+        {
+          "key": "C",
+          "text": "输入的字符串中既有 J 又有 K"
+        },
+        {
+          "key": "D",
+          "text": "输入的字符串中既有 P 又有 R"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n判断：若 $k=1$，则输出 ans 时，$len = n$。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n判断：若 $k>1$，则输出 ans 时，len 一定小于 n。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n判断：若 $k>1$，则输出 ans 时，$k^{len}$ 一定大于 n。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n若输入的 n 等于 $10^{15}$，输入的 k 为 1，则输出等于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$1$"
+        },
+        {
+          "key": "B",
+          "text": "$(10^{30}-10^{15})/2$"
+        },
+        {
+          "key": "C",
+          "text": "$(10^{30}+10^{15})/2$"
+        },
+        {
+          "key": "D",
+          "text": "$10^{15}$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 26,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n若输入的 n 等于 $205,891,132,094,649$（即 $3^{30}$），输入的 k 为 3，则输出等于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$3^{30}$"
+        },
+        {
+          "key": "B",
+          "text": "$(3^{30}-1)/2$"
+        },
+        {
+          "key": "C",
+          "text": "$3^{30}-1$"
+        },
+        {
+          "key": "D",
+          "text": "$(3^{30}+1)/2$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 27,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\n\nlong long n, ans;\nint k, len;\nlong long d[1000000];\n\nint main() {\n    cin >> n >> k;\n    d[0] = 0;\n    len = 1;\n    ans = 0;\n    for (long long i = 0; i < n; ++i) {\n        ++d[0];\n        for (int j = 0; j + 1 < len; ++j) {\n            if (d[j] == k) {\n                d[j] = 0;\n                d[j + 1] += 1;\n                ++ans;\n            }\n        }\n        if (d[len - 1] == k) {\n            d[len - 1] = 0;\n            d[len] = 1;\n            ++len;\n            ++ans;\n        }\n    }\n    cout << ans << endl;\n    return 0;\n```\n\n假设输入的 n 是不超过 $2^{62}$ 的正整数，k 都是不超过 10000 的正整数。\n\n若输入的 n 等于 $100,010,002,000,090$，输入的 $k$ 等于 $10$，则输出等于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$11,112,222,444,543$"
+        },
+        {
+          "key": "B",
+          "text": "$11,122,222,444,453$"
+        },
+        {
+          "key": "C",
+          "text": "$11,122,222,444,543$"
+        },
+        {
+          "key": "D",
+          "text": "$11,112,222,444,453$"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 28,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n判断：若输入的 n 为 0，此程序可能会死循环或发生运行错误。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 29,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n判断：若输入的 n 为 20，接下来的输入全为 0，则输出为 0。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 30,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n判断：输出的数一定不小于输入的 `d[i][0]` 和 `d[i][1]` 的任意一个。（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 31,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n若输入的 n 为 20，接下来跌输入是 20 个 9 和 20 个 0，则输出为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1890"
+        },
+        {
+          "key": "B",
+          "text": "1881"
+        },
+        {
+          "key": "C",
+          "text": "1908"
+        },
+        {
+          "key": "D",
+          "text": "1917"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 32,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n若输入的 n 为 30，接下来的输入是 30 个 0 和 30 个 5，则输出为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "2000"
+        },
+        {
+          "key": "B",
+          "text": "2010"
+        },
+        {
+          "key": "C",
+          "text": "2030"
+        },
+        {
+          "key": "D",
+          "text": "2020"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 33,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n;\nint d[50][2];\nint ans;\n\nvoid dfs(int n, int sum) {\n    if (n == 1) {\n        ans = max(sum, ans);\n        return;\n    }\n    for (int i = 1; i < n; ++i) {\n        int a = d[i - 1][0], b = d[i - 1][1];\n        int x = d[i][0], y = d[i][1];\n        d[i - 1][0] = a + x;\n        d[i - 1][1] = b + y;\n        for (int j = i; j < n - 1; ++j)\n            d[j][0] = d[j + 1][0], d[j][1] = d[j + 1][1];\n        int s = a + x + abs(b - y);\n        dfs(n - 1, sum + s);\n        for (int j = n - 1; j > i; --j)\n            d[j][0] = d[j - 1][0], d[j][1] = d[j - 1][1];\n        d[i - 1][0] = a, d[i - 1][1] = b;\n        d[i][0] = x, d[i][1] = y;\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][0];\n    for (int i = 0; i < n; ++i)\n        cin >> d[i][1];\n    ans = 0;\n    dfs(n, 0);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n假设输入的 n 是不超过 50 的正整数，`d[i][0]`、`d[i][1]` 都是不超过 10000 的正整数。\n\n若输入的 n 为 15，接下来输入是 15 到 1，以及 15 到 1，则输出为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "2440"
+        },
+        {
+          "key": "B",
+          "text": "2220"
+        },
+        {
+          "key": "C",
+          "text": "2240"
+        },
+        {
+          "key": "D",
+          "text": "2420"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 34,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\n\nint n, i;\n\nint main() {\n    scanf(\"%d\", &n);\n    for (i = ①; ② <= n; i ++) {\n        ③ {\n            printf(\"%d \", i);\n            n = n / i;\n        }\n    }\n    if (④) {\n        printf(\"%d \", ⑤);\n    return 0;\n}\n```\n\n（质因数分解）给出正整数 $n$，请输出将 $n$ 质因数分解的结果，结果从小到大输出。\n\n例如：输入 $n=120$，程序应该输出 `2 2 2 3 5`，表示 $120=2\\times2\\times2\\times3\\times5$。输入保证 $2 \\le n \\le 10^9$。提示：先从小到大枚举变量 `i`，然后用 `i` 不停试除 $n$ 来寻找所有的质因子。\n\n试补全程序。\n\n①处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`1`"
+        },
+        {
+          "key": "B",
+          "text": "`n - 1`"
+        },
+        {
+          "key": "C",
+          "text": "`2`"
+        },
+        {
+          "key": "D",
+          "text": "`0`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 35,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\n\nint n, i;\n\nint main() {\n    scanf(\"%d\", &n);\n    for (i = ①; ② <= n; i ++) {\n        ③ {\n            printf(\"%d \", i);\n            n = n / i;\n        }\n    }\n    if (④) {\n        printf(\"%d \", ⑤);\n    return 0;\n}\n```\n\n（质因数分解）给出正整数 $n$，请输出将 $n$ 质因数分解的结果，结果从小到大输出。\n\n例如：输入 $n=120$，程序应该输出 `2 2 2 3 5`，表示 $120=2\\times2\\times2\\times3\\times5$。输入保证 $2 \\le n \\le 10^9$。提示：先从小到大枚举变量 `i`，然后用 `i` 不停试除 $n$ 来寻找所有的质因子。\n\n试补全程序。\n\n②处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`n / i`"
+        },
+        {
+          "key": "B",
+          "text": "`n / (i * i)`"
+        },
+        {
+          "key": "C",
+          "text": "`i * i`"
+        },
+        {
+          "key": "D",
+          "text": "`i * i * i`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 36,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\n\nint n, i;\n\nint main() {\n    scanf(\"%d\", &n);\n    for (i = ①; ② <= n; i ++) {\n        ③ {\n            printf(\"%d \", i);\n            n = n / i;\n        }\n    }\n    if (④) {\n        printf(\"%d \", ⑤);\n    return 0;\n}\n```\n\n（质因数分解）给出正整数 $n$，请输出将 $n$ 质因数分解的结果，结果从小到大输出。\n\n例如：输入 $n=120$，程序应该输出 `2 2 2 3 5`，表示 $120=2\\times2\\times2\\times3\\times5$。输入保证 $2 \\le n \\le 10^9$。提示：先从小到大枚举变量 `i`，然后用 `i` 不停试除 $n$ 来寻找所有的质因子。\n\n试补全程序。\n\n③处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`if (n % i == 0)`"
+        },
+        {
+          "key": "B",
+          "text": "`while (n % i == 0)`"
+        },
+        {
+          "key": "C",
+          "text": "`if (i * i <= n)`"
+        },
+        {
+          "key": "D",
+          "text": "`while (i * i <= n)`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 37,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\n\nint n, i;\n\nint main() {\n    scanf(\"%d\", &n);\n    for (i = ①; ② <= n; i ++) {\n        ③ {\n            printf(\"%d \", i);\n            n = n / i;\n        }\n    }\n    if (④) {\n        printf(\"%d \", ⑤);\n    return 0;\n}\n```\n\n（质因数分解）给出正整数 $n$，请输出将 $n$ 质因数分解的结果，结果从小到大输出。\n\n例如：输入 $n=120$，程序应该输出 `2 2 2 3 5`，表示 $120=2\\times2\\times2\\times3\\times5$。输入保证 $2 \\le n \\le 10^9$。提示：先从小到大枚举变量 `i`，然后用 `i` 不停试除 $n$ 来寻找所有的质因子。\n\n试补全程序。\n\n④处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`n > 1`"
+        },
+        {
+          "key": "B",
+          "text": "`n <= 1`"
+        },
+        {
+          "key": "C",
+          "text": "`i + i <= n`"
+        },
+        {
+          "key": "D",
+          "text": "`i < n / i`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 38,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\n\nint n, i;\n\nint main() {\n    scanf(\"%d\", &n);\n    for (i = ①; ② <= n; i ++) {\n        ③ {\n            printf(\"%d \", i);\n            n = n / i;\n        }\n    }\n    if (④) {\n        printf(\"%d \", ⑤);\n    return 0;\n}\n```\n\n（质因数分解）给出正整数 $n$，请输出将 $n$ 质因数分解的结果，结果从小到大输出。\n\n例如：输入 $n=120$，程序应该输出 `2 2 2 3 5`，表示 $120=2\\times2\\times2\\times3\\times5$。输入保证 $2 \\le n \\le 10^9$。提示：先从小到大枚举变量 `i`，然后用 `i` 不停试除 $n$ 来寻找所有的质因子。\n\n试补全程序。\n\n⑤处应填（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`2`"
+        },
+        {
+          "key": "B",
+          "text": "`n / i`"
+        },
+        {
+          "key": "C",
+          "text": "`n`"
+        },
+        {
+          "key": "D",
+          "text": "`i`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 39,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 5000;\nint n, m;\nstruct segment { int a, b; } A[MAXN];\n\nvoid sort() // 排序\n{\n    for (int i = 0; i < n; i++)\n        for (int j = 1; j < n; j++)\n            if (①)\n            {\n                segment t = A[j];\n                ②\n            }\n}\n\nint main()\n{\n    cin >> n >> m;\n    for (int i = 0; i < n; i++)\n        cin >> A[i].a >> A[i].b;\n    sort();\n    int p = 1;\n    for (int i = 1; i < n; i++)\n        if (③)\n            A[p++] = A[i];\n    n = p;\n    int ans = 0, r = 0;\n    int q = 0;\n    while (r < m)\n    {\n        while (④)\n            q++;\n        ⑤;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（最小区间覆盖）给出 $n$ 个区间，第 $i$ 个区间的左右端点是 $[a_i,b_i]$。现在要在这些区间中选出若干个，使得区间 $[0,m]$ 被所选区间的并覆盖（即每一个 $0 \\le i \\le m$ 都在某个所选的区间中）。保证答案存在，求所选区间个数的最小值。\n\n输入第一行包含两个整数 $n$ 和 $m$（$1 \\le n \\le 5000$, $1 \\le m \\le 10^9$）。\n\n接下来 $n$ 行，每行两个整数 $a_i$，$b_i$（$0 \\le a_i$，$b_i \\le m$）。\n\n提示：使用贪心法解决这个问题。先用 $\\Theta(n^2)$ 的时间复杂度排序，然后贪心选择这些区间。\n\n试补全程序。\n\n①处应填（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`A[j].b > A[j - 1].b`"
+        },
+        {
+          "key": "B",
+          "text": "`A[j].a < A[j - 1].a`"
+        },
+        {
+          "key": "C",
+          "text": "`A[j].a > A[j - 1].a`"
+        },
+        {
+          "key": "D",
+          "text": "`A[j].b < A[j - 1].b`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 40,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 5000;\nint n, m;\nstruct segment { int a, b; } A[MAXN];\n\nvoid sort() // 排序\n{\n    for (int i = 0; i < n; i++)\n        for (int j = 1; j < n; j++)\n            if (①)\n            {\n                segment t = A[j];\n                ②\n            }\n}\n\nint main()\n{\n    cin >> n >> m;\n    for (int i = 0; i < n; i++)\n        cin >> A[i].a >> A[i].b;\n    sort();\n    int p = 1;\n    for (int i = 1; i < n; i++)\n        if (③)\n            A[p++] = A[i];\n    n = p;\n    int ans = 0, r = 0;\n    int q = 0;\n    while (r < m)\n    {\n        while (④)\n            q++;\n        ⑤;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（最小区间覆盖）给出 $n$ 个区间，第 $i$ 个区间的左右端点是 $[a_i,b_i]$。现在要在这些区间中选出若干个，使得区间 $[0,m]$ 被所选区间的并覆盖（即每一个 $0 \\le i \\le m$ 都在某个所选的区间中）。保证答案存在，求所选区间个数的最小值。\n\n输入第一行包含两个整数 $n$ 和 $m$（$1 \\le n \\le 5000$, $1 \\le m \\le 10^9$）。\n\n接下来 $n$ 行，每行两个整数 $a_i$，$b_i$（$0 \\le a_i$，$b_i \\le m$）。\n\n提示：使用贪心法解决这个问题。先用 $\\Theta(n^2)$ 的时间复杂度排序，然后贪心选择这些区间。\n\n试补全程序。\n\n②处应填（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`A[j + 1] = A[j]; A[j] = t;`"
+        },
+        {
+          "key": "B",
+          "text": "`A[j - 1] = A[j]; A[j] = t;`"
+        },
+        {
+          "key": "C",
+          "text": "`A[j] = A[j + 1]; A[j + 1] = t;`"
+        },
+        {
+          "key": "D",
+          "text": "`A[j] = A[j - 1]; A[j - 1] = t;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 41,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 5000;\nint n, m;\nstruct segment { int a, b; } A[MAXN];\n\nvoid sort() // 排序\n{\n    for (int i = 0; i < n; i++)\n        for (int j = 1; j < n; j++)\n            if (①)\n            {\n                segment t = A[j];\n                ②\n            }\n}\n\nint main()\n{\n    cin >> n >> m;\n    for (int i = 0; i < n; i++)\n        cin >> A[i].a >> A[i].b;\n    sort();\n    int p = 1;\n    for (int i = 1; i < n; i++)\n        if (③)\n            A[p++] = A[i];\n    n = p;\n    int ans = 0, r = 0;\n    int q = 0;\n    while (r < m)\n    {\n        while (④)\n            q++;\n        ⑤;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（最小区间覆盖）给出 $n$ 个区间，第 $i$ 个区间的左右端点是 $[a_i,b_i]$。现在要在这些区间中选出若干个，使得区间 $[0,m]$ 被所选区间的并覆盖（即每一个 $0 \\le i \\le m$ 都在某个所选的区间中）。保证答案存在，求所选区间个数的最小值。\n\n输入第一行包含两个整数 $n$ 和 $m$（$1 \\le n \\le 5000$, $1 \\le m \\le 10^9$）。\n\n接下来 $n$ 行，每行两个整数 $a_i$，$b_i$（$0 \\le a_i$，$b_i \\le m$）。\n\n提示：使用贪心法解决这个问题。先用 $\\Theta(n^2)$ 的时间复杂度排序，然后贪心选择这些区间。\n\n试补全程序。\n\n③处应填（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`A[i].b > A[p - 1].b`"
+        },
+        {
+          "key": "B",
+          "text": "`A[i].b < A[i - 1].b`"
+        },
+        {
+          "key": "C",
+          "text": "`A[i].b > A[i - 1].b`"
+        },
+        {
+          "key": "D",
+          "text": "`A[i].b < A[p - 1].b`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 42,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 5000;\nint n, m;\nstruct segment { int a, b; } A[MAXN];\n\nvoid sort() // 排序\n{\n    for (int i = 0; i < n; i++)\n        for (int j = 1; j < n; j++)\n            if (①)\n            {\n                segment t = A[j];\n                ②\n            }\n}\n\nint main()\n{\n    cin >> n >> m;\n    for (int i = 0; i < n; i++)\n        cin >> A[i].a >> A[i].b;\n    sort();\n    int p = 1;\n    for (int i = 1; i < n; i++)\n        if (③)\n            A[p++] = A[i];\n    n = p;\n    int ans = 0, r = 0;\n    int q = 0;\n    while (r < m)\n    {\n        while (④)\n            q++;\n        ⑤;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（最小区间覆盖）给出 $n$ 个区间，第 $i$ 个区间的左右端点是 $[a_i,b_i]$。现在要在这些区间中选出若干个，使得区间 $[0,m]$ 被所选区间的并覆盖（即每一个 $0 \\le i \\le m$ 都在某个所选的区间中）。保证答案存在，求所选区间个数的最小值。\n\n输入第一行包含两个整数 $n$ 和 $m$（$1 \\le n \\le 5000$, $1 \\le m \\le 10^9$）。\n\n接下来 $n$ 行，每行两个整数 $a_i$，$b_i$（$0 \\le a_i$，$b_i \\le m$）。\n\n提示：使用贪心法解决这个问题。先用 $\\Theta(n^2)$ 的时间复杂度排序，然后贪心选择这些区间。\n\n试补全程序。\n\n④处应填（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`q + 1 < n && A[q + 1].a <= r`"
+        },
+        {
+          "key": "B",
+          "text": "`q + 1 < n && A[q + 1].b <= r`"
+        },
+        {
+          "key": "C",
+          "text": "`q < n && A[q].a <= r`"
+        },
+        {
+          "key": "D",
+          "text": "`q < n && A[q].b <= r`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 43,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 5000;\nint n, m;\nstruct segment { int a, b; } A[MAXN];\n\nvoid sort() // 排序\n{\n    for (int i = 0; i < n; i++)\n        for (int j = 1; j < n; j++)\n            if (①)\n            {\n                segment t = A[j];\n                ②\n            }\n}\n\nint main()\n{\n    cin >> n >> m;\n    for (int i = 0; i < n; i++)\n        cin >> A[i].a >> A[i].b;\n    sort();\n    int p = 1;\n    for (int i = 1; i < n; i++)\n        if (③)\n            A[p++] = A[i];\n    n = p;\n    int ans = 0, r = 0;\n    int q = 0;\n    while (r < m)\n    {\n        while (④)\n            q++;\n        ⑤;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（最小区间覆盖）给出 $n$ 个区间，第 $i$ 个区间的左右端点是 $[a_i,b_i]$。现在要在这些区间中选出若干个，使得区间 $[0,m]$ 被所选区间的并覆盖（即每一个 $0 \\le i \\le m$ 都在某个所选的区间中）。保证答案存在，求所选区间个数的最小值。\n\n输入第一行包含两个整数 $n$ 和 $m$（$1 \\le n \\le 5000$, $1 \\le m \\le 10^9$）。\n\n接下来 $n$ 行，每行两个整数 $a_i$，$b_i$（$0 \\le a_i$，$b_i \\le m$）。\n\n提示：使用贪心法解决这个问题。先用 $\\Theta(n^2)$ 的时间复杂度排序，然后贪心选择这些区间。\n\n试补全程序。\n\n⑤处应填（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "`q++`"
+        },
+        {
+          "key": "B",
+          "text": "`r = max(r, A[q + 1].b)`"
+        },
+        {
+          "key": "C",
+          "text": "`r = max(r, A[q].b)`"
+        },
+        {
+          "key": "D",
+          "text": "`r = max(r, A[q + 1].a)`"
+        }
+      ]
+    }
+  ]
+}

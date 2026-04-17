@@ -1,0 +1,474 @@
+{
+  "title": "2025年6月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2025-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年6月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "处理器"
+        },
+        {
+          "key": "B",
+          "text": "存储器"
+        },
+        {
+          "key": "C",
+          "text": "输入设备"
+        },
+        {
+          "key": "D",
+          "text": "输出设备"
+        }
+      ],
+      "content": "2025年4月19⽇在北京举行了一场颇为瞩目的⼈形机器⼈半程马拉松赛。比赛期间，跑动着的机器⼈会利用\n身上安装的多个传感器所反馈的数据来调整姿态、保持平衡等，那么这类传感器类似于计算机的( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "断点不可以设在L1标记的代码行"
+        },
+        {
+          "key": "B",
+          "text": "执行暂停在L2标记的代码行时，可以检测i的值"
+        },
+        {
+          "key": "C",
+          "text": "执行暂停在L3标记的代码行时，可以修改i的值"
+        },
+        {
+          "key": "D",
+          "text": "执行有可能暂停在L4标记的代码行"
+        }
+      ],
+      "content": "在某集成开发环境中调试下面代码段时尝试设置断点和检查局部变量，下面哪个说法是错误的（ ）。\n\n```cpp\nint i,N = 0; // L1\ncin >> N; // L2\nfor (i = 1; i < 9; i++)\nif (N % i == 0) break; // L3\nif (i < 9)\nprintf(\"N不能大于9\\n\"); // L4\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "执行后输出10"
+        },
+        {
+          "key": "B",
+          "text": "执行后输出{First}"
+        },
+        {
+          "key": "C",
+          "text": "执行后输出\"{First}\""
+        },
+        {
+          "key": "D",
+          "text": "编译报错，因为First应该是first"
+        }
+      ],
+      "content": "对下列C++的代码，描述准确的是( )。\n\n```cpp\nint first = 10;\nprintf(\"{%d}\\n\", First)\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "X.cpp"
+        },
+        {
+          "key": "B",
+          "text": "X-cpp"
+        },
+        {
+          "key": "C",
+          "text": "X#cpp"
+        },
+        {
+          "key": "D",
+          "text": "X_cpp"
+        }
+      ],
+      "content": "在C++中，下列可以做变量名的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "11"
+        },
+        {
+          "key": "C",
+          "text": "13"
+        },
+        {
+          "key": "D",
+          "text": "-67"
+        }
+      ],
+      "content": "C++表达式14-3*3%2的值是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 20"
+        },
+        {
+          "key": "B",
+          "text": "20 10"
+        },
+        {
+          "key": "C",
+          "text": "10 10"
+        },
+        {
+          "key": "D",
+          "text": "20 20"
+        }
+      ],
+      "content": "下面的C++代码执行后，其输出是( )。\n\n```cpp\nint x = 10, y = 20;\nx = x + y;\ny = x - y;\nx = x - y;\ncout << x << ' ' << y;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "17"
+        },
+        {
+          "key": "C",
+          "text": "19"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "content": "定义整型变量int a=16，则执行++a += 3之后，a的值会是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "8 9"
+        },
+        {
+          "key": "B",
+          "text": "9 9"
+        },
+        {
+          "key": "C",
+          "text": "9 10"
+        },
+        {
+          "key": "D",
+          "text": "编译错误，无法执行"
+        }
+      ],
+      "content": "C++的int类型变量X的值为8，如果执行cout << (++X)++;，则输出和执行后X的值分别是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "a+b=07#a+b={a+b}"
+        },
+        {
+          "key": "B",
+          "text": "a+b= 7#a+b=7"
+        },
+        {
+          "key": "C",
+          "text": "a+b=7#a+b={a+b}"
+        },
+        {
+          "key": "D",
+          "text": "a+b=7#a+b=7"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint a,b;\na = 3;\nb = 4;\nprintf(\"a+b=%02d#a+b={a+b}\", a+b, a+b);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\n(N + M) / 7\nD == 0\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\n(N + M) % 7\nD == 0\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\n(N + M) / 7\nD <= 0\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\n(N + M) % 7\nD = 0\n```\n"
+        }
+      ],
+      "content": "下面的C++代码用于求M天后是星期几，两处横线处分别应填入的代码是（ ）。\n\n```cpp\nint N, M, D;\ncout << \"当前星期几? \"; // 星期日是0\ncin >> N;\ncout << \"求多少天后? \"; // 输入正整数\ncin >> M;\nD = ____________;\nif (____________)\nprintf(\"%d天后是星期日\", M);\nelse\nprintf(\"%d天后是星期%d\", M, D);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "END"
+        },
+        {
+          "key": "B",
+          "text": "1#"
+        },
+        {
+          "key": "C",
+          "text": "1#4#END"
+        },
+        {
+          "key": "D",
+          "text": "1#4#7#10#END"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint i;\nfor (i = 1; i < 11; i += 3){\n    continue;\n    if (i % 2 == 0)\n    break;\n    printf(\"%d#\", i);\n}\nif (i >= 11)\nprintf(\"END\");\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "i -= 1"
+        },
+        {
+          "key": "B",
+          "text": "i == 1"
+        },
+        {
+          "key": "C",
+          "text": "i > 1"
+        },
+        {
+          "key": "D",
+          "text": "i >= 1"
+        }
+      ],
+      "content": "下面的C++代码用于求N的所有因数（即能将N整除的数），如输入12则将输出12,6,4,3,2,1。（ ）。\n\n```cpp\nint i, N;\ncin >> N;\ni = N;\nwhile (_______){\n    if (N % i == 0)\n    printf(\"%d,\", i);\n    i -= 1;\n}\nprintf(\"1\");\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "55"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "下面C++代码执行后输出的是（ ）。\n\n```cpp\nint Sum = 0;\nfor (int i = 0; i < 10; i++){\n    if (i % 2 == 0)\n    continue;\n    if (i % 5 == 0)\n    break;\n    Sum += i;\n}\ncout << Sum;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出101"
+        },
+        {
+          "key": "B",
+          "text": "输出102"
+        },
+        {
+          "key": "C",
+          "text": "输出103"
+        },
+        {
+          "key": "D",
+          "text": "编译将报错，无法执行"
+        }
+      ],
+      "content": "试图编译并执行下面C++代码，下面描述正确的是（ ）。\n\n```cpp\nfloat x;\nx = 101;\nx++;\ncout << ++x;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "int b = (i / 10) / 10;"
+        },
+        {
+          "key": "B",
+          "text": "int b = (i / 10) % 10;"
+        },
+        {
+          "key": "C",
+          "text": "int b = (i % 10) / 10;"
+        },
+        {
+          "key": "D",
+          "text": "int b = (i % 10) % 10;"
+        }
+      ],
+      "content": "以下C++代码可以找出百位、十位和个位满足特定条件的三位数，横线处应该填入的是（ ）\n\n```cpp\nint count = 0;\nfor (int i = 100; i <= 999; i++) {\n    int a = i / 100;\n    _________________________\n    int c = i % 10;\n    if (a * a + b * b == c * c) {\n        count++;\n    }\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "⼈们现在参加很多闭卷考试时通常都不允许带智能手机、平板电脑等，此外很多种智能手表同样因为具有嵌\n入操作系统及通信等功能，所以也不允许随身携带。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "如果N是C++的整型变量，值为5，则表达式(N + !N)的值为4。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面C++代码中，删除break语句对程序执行结果没有影响。 ( )\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++){\n    continue;\n    cout << i << \"#\";\n    break;\n}\nif (i >= 10)\ncout << \"END\";\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "删除下面C++代码中的continue后其输出是0#2#4#6#8#。（ ）\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++){\n    if (i % 2 == 0){\n        cout << i << \"#\";\n        continue;\n    }\n}\nif (i >= 10)\ncout << \"END\";\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "将下面C++代码中的i < 100; i = i + 1修改为i < 200; i += i + 1，其输出与当前代码输出相同。（\n）\n\n```cpp\nint cnt = 0;\nfor (int i = 0; i < 100; i = i + 1)\ncnt += 1;\ncout << cnt;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "交换下面C++代码中的i += 2和cnt += 1，交换前后分别运行的两次输出相同。（ ）\n\n```cpp\nint i, cnt = 0;\ncnt = 0;\nwhile (i < 10){\n    i += 2;\n    cnt += 1;\n}\ncout << cnt;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的C++代码执行后将输出45。（ ）\n\n```cpp\nint cnt;\nfor (int i = 0; i < 10; i++)\ncnt += 1;\ncout << cnt;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码cout << (12 + 12.12)将报错，因为12是int类型，⽽12.12是float类型，不同类型不能直接运\n算。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中，不可以将变量命名为false，因为false是C++语⾔的关键字。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "X是C++的整型变量，则表达式3 < X < 5求值结果是4。( )\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：假期阅读**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 有⼀本厚厚的书。这本书总共有 页，⼩ A ⼀天中最多只能阅读完其中的 页。⼩ A 的假期总共有 天，他想\n知道在假期中最多能阅读完这本书的多少页。\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰书的页数。\n第⼆⾏，⼀个正整数 ，表⽰⼩ A 每天最多阅读的页数。\n第三⾏，⼀个正整数 ，表⽰⼩ A 假期的天数。\n\n### 输出格式\n⼀⾏，⼀个整数，表⽰假期中所能阅读的最多页数。\n\n### 数据范围\n对于所有测试点，保证 均不超过 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：值⽇**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩杨和⼩红是值⽇⽣，负责打扫教室。⼩杨每 天值⽇⼀次，⼩红每 天值⽇⼀次。今天他们两个⼀起值⽇，请问\n⾄少多少天后，他们会再次同⼀天值⽇？\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰⼩杨的值⽇周期；\n第⼆⾏，⼀个正整数 ，表⽰⼩红的值⽇周期。\n\n### 输出格式\n⼀⾏，⼀个整数，表⽰⾄少多少天后他们会再次同⼀天值⽇。\n\n### 数据范围\n对于所有测试点，保证 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

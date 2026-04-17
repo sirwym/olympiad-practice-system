@@ -1,0 +1,474 @@
+{
+  "title": "2025年9月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2025-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年9月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.33333"
+        },
+        {
+          "key": "B",
+          "text": "3.333"
+        },
+        {
+          "key": "C",
+          "text": "3.0"
+        },
+        {
+          "key": "D",
+          "text": "3.3"
+        }
+      ],
+      "content": "执行以下C++代码后，c 的数值是（ ）。\n\n```cpp\nint a = 10, b = 3;\ndouble c = a / b;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "(5 <= 5) && (7 < 5)"
+        },
+        {
+          "key": "B",
+          "text": "!(10 > 5)"
+        },
+        {
+          "key": "C",
+          "text": "(10 != 10) || (5 >= 3)"
+        },
+        {
+          "key": "D",
+          "text": "(5 == 3) && (4 > 2)"
+        }
+      ],
+      "content": "下列C++表达式的结果为 true 的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "数组的下标通常从 0 开始。"
+        },
+        {
+          "key": "B",
+          "text": "int arr[5]; 声明了一个包含5个整数的数组。"
+        },
+        {
+          "key": "C",
+          "text": "数组的大小必须在编译时确定，不能使用变量定义大小。"
+        },
+        {
+          "key": "D",
+          "text": "可以通过 arr[5] 来访问 int arr[5]; 数组的最后一个元素。"
+        }
+      ],
+      "content": "以下关于C++数组的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "死循环"
+        }
+      ],
+      "content": "执行以下C++代码后，变量 sum 的值是（ ）。\n\n```cpp\nint sum = 0;\nfor (int i = 1; i <= 5; i += 2) {\n    sum += i;\n    int sum=0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "void max(int a, int b) { return a > b ? a : b; }"
+        },
+        {
+          "key": "B",
+          "text": "int max(int a, int b) { if (a > b) return a; else return b; }"
+        },
+        {
+          "key": "C",
+          "text": "int max(a, b) { if (a > b) return a; else return b; }"
+        },
+        {
+          "key": "D",
+          "text": "void max(a, b) { cout << (a > b ? a : b); }"
+        }
+      ],
+      "content": "要正确定义一个返回两个整数中较大值的函数 max，应该使用（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "{1, 2, 3, 3}"
+        },
+        {
+          "key": "B",
+          "text": "{1, 2, 3, 4}"
+        },
+        {
+          "key": "C",
+          "text": "{1, 2, 3, 5}"
+        },
+        {
+          "key": "D",
+          "text": "{1, 2, 3, 6}"
+        }
+      ],
+      "content": "执行以下C++代码后，数组 arr 的内容是（ ）。\n\n```cpp\nint arr[4] = {1, 2, 3};\narr[3] = arr[0] + arr[2];\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数必须要有参数。"
+        },
+        {
+          "key": "B",
+          "text": "函数通过 return 语句只能返回一个值。但是可以通过很多间接的方式返回多个值。"
+        },
+        {
+          "key": "C",
+          "text": "main 函数可以被其他函数调用。"
+        },
+        {
+          "key": "D",
+          "text": "函数的定义可以直接嵌套，即一个函数内部可以真正定义另一个函数。"
+        }
+      ],
+      "content": "以下关于C++函数的描述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "以下C++代码 count++ 执行的次数是（ ）。\n\n```cpp\nint i = 10;\nint count=0;\nwhile (i > 0) {\n    i -= 3;\n    continue;\n    count++;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "0#01#012#0123#"
+        },
+        {
+          "key": "B",
+          "text": "1#12#123#1234#"
+        },
+        {
+          "key": "C",
+          "text": "0#1#2#3#"
+        },
+        {
+          "key": "D",
+          "text": "0#01#012#01243#"
+        }
+      ],
+      "content": "以下C++代码段的输出是（ ）。\n\n```cpp\nfor (int i = 0; i < 4; i++) {\n    for (int j = 0; j <= i; j++) {\n        cout << j;\n    }\n    cout << \"#\";\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "在 for 循环语句中声明的变量，其作用域仅限于该循环体内。"
+        },
+        {
+          "key": "B",
+          "text": "在函数内部声明的变量（局部变量），仅在函数内部有效。"
+        },
+        {
+          "key": "C",
+          "text": "在所有函数外部声明的变量，在整个程序中都有效。"
+        },
+        {
+          "key": "D",
+          "text": "不同函数中的局部变量可以同名，它们代表不同的内存单元"
+        }
+      ],
+      "content": "以下关于C++变量作用域的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "能够反转任何位数的整数"
+        },
+        {
+          "key": "B",
+          "text": "能够反转的最大位数正整数是 2147483647"
+        },
+        {
+          "key": "C",
+          "text": "能够反转的最大位数正整数是 2147483648"
+        },
+        {
+          "key": "D",
+          "text": "能够反转的最大位数正整数是 1463847412"
+        }
+      ],
+      "content": "关于以下代码的说法正确的是（ ）。\n\n```cpp\nint reversed = 0;\nwhile (x != 0) {\n    int digit = x % 10;\n    x /= 10;\n    reversed = reversed * 10 + digit;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "arr[-1]"
+        },
+        {
+          "key": "C",
+          "text": "arr[0]"
+        },
+        {
+          "key": "D",
+          "text": "size"
+        }
+      ],
+      "content": "以下C++代码试图查找数组中的最大值，划线处应填入（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint findMax(int arr[], int size) {\n    int maxVal = ________; // 划线处\n    for (int i = 1; i < size; i++) {\n        if (arr[i] > maxVal) {\n            maxVal = arr[i];\n        }\n    }\n    return maxVal;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数参数传递只有值传递一种方式。"
+        },
+        {
+          "key": "B",
+          "text": "函数的形参在函数调用结束后依然占用内存空间"
+        },
+        {
+          "key": "C",
+          "text": "没有返回值的函数必须声明为 void 类型，且不能包含 return 语句"
+        },
+        {
+          "key": "D",
+          "text": "C++11 及之后标准要求函数必须显式声明返回类型，不允许默认返回 int"
+        }
+      ],
+      "content": "以下关于C++函数的说法，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0处"
+        },
+        {
+          "key": "B",
+          "text": "1处"
+        },
+        {
+          "key": "C",
+          "text": "2处"
+        },
+        {
+          "key": "D",
+          "text": "3处"
+        }
+      ],
+      "content": "以下C++代码中存在几处错误（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    const int SIZE = 5;\n    int arr[SIZE];\n    for (int i = 0; i <= SIZE; i++) {\n        arr[i] = i * 2;\n    }\n    cout << arr[SIZE] << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "string 对象可以使用 = 进行赋值，⽽字符数组需要使用 strcpy。"
+        },
+        {
+          "key": "B",
+          "text": "string 对象的长度可以使用 length() 成员函数获取，⽽字符数组需要使用 strlen() 函数。"
+        },
+        {
+          "key": "C",
+          "text": "string 对象在内存中是动态分配空间的，因此可以自动处理字符串长度的变化。"
+        },
+        {
+          "key": "D",
+          "text": "string 对象和字符数组都可以使用 == 运算符来直接比较两个字符串的内容是否相同。"
+        }
+      ],
+      "content": "以下关于C++中 string 类和字符数组(char[])的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式 sizeof('a') 的结果总是 1，因为 'a' 是一个字符。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，所有全局变量如果没有显式初始化，都会被自动初始化为0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "do { ... } while (false); 循环体内的语句至少会被执行一次。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，++i 是一个左值表达式，⽽ i++ 是一个右值表达式。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "对于 enum Color { RED, GREEN, BLUE };，RED 的类型是 int\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "#define SQUARE(x) x * x 是一个安全的宏定义，SQUARE(2+3) 会正确计算出 25。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，char 类型的取值范围总是 -128 到 127。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式 a > b ? a : b = 10; 一定是合法的C++代码。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "#include \"file.h\" 和 #include <file.h> 在编译器查找头文件时的搜索策略是完全相同的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "在同一个作用域内，extern 声明的变量可以多次定义。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数组清零**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 有⼀个由 个⾮负整数构成的数组 。他会对数组 重复进⾏以下操作，直到数组 只包含\n。在⼀次操作中，⼩ A 会依次完成以下三个步骤：\n1. 在数组 中找到最⼤的整数，记其下标为 。如果有多个最⼤值，那么选择其中下标最⼤的。\n2. 从数组 所有不为零的整数中找到最⼩的整数 。\n3. 将第⼀步找出的 减去 。\n例如，数组 需要 次操作变成 ：\n⼩ A 想知道，对于给定的数组 ，需要多少次操作才能使得 中的整数全部变成 。可以证明， 中整数必然可以在\n有限次操作后全部变成 。你能帮他计算出答案吗？\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰数组 的长度。\n第⼆⾏， 个⾮负整数 ，表⽰数组 中的整数。\n\n### 输出格式\n⼀⾏，⼀个正整数，表⽰ 中整数全部变成 所需要的操作次数。\n\n### 数据范围\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⽇历制作**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 想制作 2025 年每个⽉的⽇历。他希望你能编写⼀个程序，按照格式输出给定⽉份的⽇历。\n具体来说，第⼀⾏需要输出 MON TUE WED THU FRI SAT SUN，分别表⽰星期⼀到星期⽇。接下来若⼲⾏中依次输\n出这个⽉所包含的⽇期，⽇期的个位需要和对应星期⼏的缩写最后⼀个字母对齐。例如，2025 年 9 ⽉ 1 ⽇是星期\n⼀，在输出九⽉的⽇历时，1 号的个位 1 就需要与星期⼀ MON 的最后⼀个字母 N 对齐。九⽉的⽇历输出效果如\n下：\n1 MON TUE WED THU FRI SAT SUN\n2 1 2 3 4 5 6 7\n3 8 9 10 11 12 13 14\n4 15 16 17 18 19 20 21\n5 22 23 24 25 26 27 28\n6 29 30\n你能帮助⼩ A 完成⽇历的制作吗？\n\n### 输入格式\n⼀⾏，⼀个正整数 ，表⽰需要按照格式输出 2025 年 ⽉的⽇历。\n\n### 输出格式\n输出包含若⼲⾏，表⽰ 2025 年 ⽉的⽇历。\n\n### 数据范围\n对于所有测试点，保证 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

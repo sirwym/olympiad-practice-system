@@ -1,0 +1,535 @@
+{
+  "title": "NCT C++ 1级 C1模拟卷1",
+  "category": "NCT-C++",
+  "level": "1",
+  "date": "2026-04",
+  "time_limit": 90,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "content": "在 C++ 中，下列变量名合法的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "C++"
+        },
+        {
+          "key": "B",
+          "text": "3a"
+        },
+        {
+          "key": "C",
+          "text": "_app"
+        },
+        {
+          "key": "D",
+          "text": "J#Y"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "content": "在 C++ 中，用来定义字符类型的关键字是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "int"
+        },
+        {
+          "key": "B",
+          "text": "char"
+        },
+        {
+          "key": "C",
+          "text": "float"
+        },
+        {
+          "key": "D",
+          "text": "doule"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "content": "在 C++ 中，下列定义整型常量 num 并初始化为 100 的语句是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "const int num='100';"
+        },
+        {
+          "key": "B",
+          "text": "const int num=100;"
+        },
+        {
+          "key": "C",
+          "text": "float const num=100;"
+        },
+        {
+          "key": "D",
+          "text": "const float num=100;"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "content": "在 C++ 中，能强制终止循环的语句是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "break"
+        },
+        {
+          "key": "B",
+          "text": "continue"
+        },
+        {
+          "key": "C",
+          "text": "go"
+        },
+        {
+          "key": "D",
+          "text": "pass"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "content": "下列属于字符串常量的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "'\\n'"
+        },
+        {
+          "key": "B",
+          "text": "'a'"
+        },
+        {
+          "key": "C",
+          "text": "'abc'"
+        },
+        {
+          "key": "D",
+          "text": "\"abc\""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "C",
+      "content": "下列不属于 C++ 中分支语句的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "if...语句"
+        },
+        {
+          "key": "B",
+          "text": "switch...case...语句"
+        },
+        {
+          "key": "C",
+          "text": "if…elif...语句"
+        },
+        {
+          "key": "D",
+          "text": "if…else...语句"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "D",
+      "content": "下列程序中，不能实现如图所示的输出结果的程序是（）。![img](../assets/images/nct/16251324459033657.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/H1JjHYdj_.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/SyHiHFOiO.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/rJlYort_o_.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/Hy6sBYOiu.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "C",
+      "content": "运行下列程序，如果输入：99，则输出的结果是（）。![img](../assets/images/nct/SJb9IKdju.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "fighting!"
+        },
+        {
+          "key": "B",
+          "text": "good!"
+        },
+        {
+          "key": "C",
+          "text": "perfect!"
+        },
+        {
+          "key": "D",
+          "text": "null"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "A",
+      "content": "运行下列程序，输出的结果是（）。![img](../assets/images/nct/SJYbvFuoO.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "12.346"
+        },
+        {
+          "key": "B",
+          "text": "12.347"
+        },
+        {
+          "key": "C",
+          "text": "12.34"
+        },
+        {
+          "key": "D",
+          "text": "12.34648"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 4,
+      "answer": "B",
+      "content": "在C++中，设 int x=7, y=3, z=2; 则表达式 x/y*z 的值是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "4.0"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "4.66"
+        },
+        {
+          "key": "D",
+          "text": "4.6666"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 4,
+      "answer": "D",
+      "content": "运行下列程序，输出的结果是（）。![img](../assets/images/nct/HyIiDYdid.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "7.3"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 4,
+      "answer": "A",
+      "content": "在 C++ 中，设 int x=3, y=2; 则表达式 ++x + y 的值是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 4,
+      "answer": "D",
+      "content": "运行下列程序，输出的结果是（）。![img](../assets/images/nct/S1hBdtdsu.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "春"
+        },
+        {
+          "key": "B",
+          "text": "夏"
+        },
+        {
+          "key": "C",
+          "text": "秋"
+        },
+        {
+          "key": "D",
+          "text": "冬"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 4,
+      "answer": "A",
+      "content": "运行下列代码段，输出结果为10的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/B1fDTKOiu.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/ByxUwpFOju.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/ry9wTtOo_.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/B1ADpY_j_.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 4,
+      "answer": "B",
+      "content": "下列程序运行后，可以使语句 cout![img](../assets/images/nct/Sk0WRYdjd.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "i=0；i<=10"
+        },
+        {
+          "key": "B",
+          "text": "i=0；i"
+        },
+        {
+          "key": "C",
+          "text": "i=1；i<10"
+        },
+        {
+          "key": "D",
+          "text": "i=2 ；i<=10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 4,
+      "answer": "C",
+      "content": "运行下列程序，输出的结果中 A 的个数是（）。![img](../assets/images/nct/S1_vRF_sd.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 4,
+      "answer": "B",
+      "content": "下列定义数组的语句不正确的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "int a[5];"
+        },
+        {
+          "key": "B",
+          "text": "char a[];"
+        },
+        {
+          "key": "C",
+          "text": "float a[5];"
+        },
+        {
+          "key": "D",
+          "text": "double a[5];"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 4,
+      "answer": "B",
+      "content": "设 char a[]=\"ShenZhen\"，执行 cout",
+      "options": [
+        {
+          "key": "A",
+          "text": "S"
+        },
+        {
+          "key": "B",
+          "text": "h"
+        },
+        {
+          "key": "C",
+          "text": "henZhen"
+        },
+        {
+          "key": "D",
+          "text": "ShenZhen"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 4,
+      "answer": "A",
+      "content": "下列对数组的初始化不正确的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "int a[3]={1,2,3,4};"
+        },
+        {
+          "key": "B",
+          "text": "int a[3]={1,2,3};"
+        },
+        {
+          "key": "C",
+          "text": "int a[3]={1,2};"
+        },
+        {
+          "key": "D",
+          "text": "int a[3]={1};"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 4,
+      "answer": "C",
+      "content": "运行下列程序后，输出结果为3的是（）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/BJPkxcOou.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/B1oylqdsd.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/Hyklgcuou.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/rkGxx9diu.png)"
+        }
+      ]
+    },
+    {
+      "type": "program",
+      "id": 21,
+      "score": 10,
+      "answer": "None",
+      "content": "请按照下列要求编写程序：\n（1）使用循环结构输出从 3 到 n 之间（包括 3 和 n）能被 3 整除的数字；\n（2）输出的数字在一行显示，中间不需要添加空格或符号隔开。\n输入格式：输入一个整数输出格式：输出整数序列 【注： 程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。 】\n输入输出示例：![img](../assets/images/nct/17591366484856946.png)数据范围：3 ＜ n ≤ 100",
+      "section": "C++ 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 22,
+      "score": 10,
+      "answer": "None",
+      "content": "请按照下列要求编写程序：\n（1）用户输入两个整数，两个整数之间用空格隔开；\n（2）对输入的两个整数进行大小判断，根据判断结果按从大到小的顺序输出这两个整数，并且中间用空格隔开；\n（3）如果两个数字大小相等，则输出“equal”。\n输入格式：输入两个整数（中间用空格隔开）\n输出格式：输出两个整数（中间用空格隔开）或者输出 equal【注： 程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。 】\n输入输出示例：![img](../assets/images/nct/17591353276710424.png)数据范围：0 ≤ 输入的整数 ≤ 1000",
+      "section": "C++ 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 23,
+      "score": 10,
+      "answer": "None",
+      "content": "现在有一个一维数组 `a[50]`（已预置），请按照下列要求编写程序：\n（1）用户任意输入一个整数，统计该数字在一维数组中出现的次数并输出；\n（2）如果该数组没有输入的这个数字，则输出“NO”。\n输入格式：输入一个整数输出格式：输出一个整数或者 NO【注： 程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。 】\n输入输出示例：![img](../assets/images/nct/17591365218039074.png)数据范围： 0 ≤ 输入的整数 ≤ 1000",
+      "section": "C++ 编程操作题"
+    }
+  ]
+}

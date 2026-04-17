@@ -1,0 +1,474 @@
+{
+  "title": "2026年3月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2026-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2026年3月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 12"
+        },
+        {
+          "key": "B",
+          "text": "6 12"
+        },
+        {
+          "key": "C",
+          "text": "6 4"
+        },
+        {
+          "key": "D",
+          "text": "12 6"
+        }
+      ],
+      "content": "执行下面程序后，输出为（ ）。\n\n```cpp\nint f(int x = 2){\n    return x * 3;\n}\nint main(){\n    cout << f() << \" \" << f(4);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 5"
+        },
+        {
+          "key": "B",
+          "text": "12 12"
+        },
+        {
+          "key": "C",
+          "text": "12 5"
+        },
+        {
+          "key": "D",
+          "text": "5 12"
+        }
+      ],
+      "content": "执行下面代码后，输出为（ ）。\n\n```cpp\nint main() {\n    int a = 5;\n    int* p = &a;\n    int** q = &p;\n    **q += 7;\n    cout << a << \" \" << *p;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "content": "已知：\n\n```cpp\nint a[3][4] = {\n    {1,2,3,4},\n    {5,6,7,8},\n    {9,10,11,12}\n};\nint (*p)[4] = a;\n```\n\n则表达式 *(*(p + 2) + 1) 的值为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 3 4"
+        },
+        {
+          "key": "B",
+          "text": "1 3 4"
+        },
+        {
+          "key": "C",
+          "text": "2 1 4"
+        },
+        {
+          "key": "D",
+          "text": "1 1 1"
+        }
+      ],
+      "content": "执行下面程序后，输出为（ ）。\n\n```cpp\nvoid fun(int a, int &b, int *c){\n    a += 1;\n    b += 2;\n    *c += 3;\n}\nint main(){\n    int x = 1, y = 1, z = 1;\n    fun(x, y, &z);\n    cout << x << \" \" << y << \" \" << z;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "12 3"
+        },
+        {
+          "key": "B",
+          "text": "10 5"
+        },
+        {
+          "key": "C",
+          "text": "12 5"
+        },
+        {
+          "key": "D",
+          "text": "10 3"
+        }
+      ],
+      "content": "执行下面程序后输出为（ ）。\n\n```cpp\nint x = 3;\nvoid f(int& x){\n    x += 2;\n}\nint main(){\n    int x = 10;\n    f(x);\n    cout << x << \" \" << ::x;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nstruct Point { int x, y; };\nPoint p = (1,2);\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nstruct Point { int x, y; };\nPoint p = {1,2};\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nstruct Point { int x, y; };\nPoint p = new Point(1,2);\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nstruct Point { int x, y; };\nPoint p = <1,2>;\n```\n"
+        }
+      ],
+      "content": "下列关于结构体初始化的写法，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "11 12"
+        },
+        {
+          "key": "B",
+          "text": "1 12"
+        },
+        {
+          "key": "C",
+          "text": "11 2"
+        },
+        {
+          "key": "D",
+          "text": "1 2"
+        }
+      ],
+      "content": "执行下面代码后输出为（ ）。\n\n```cpp\nstruct S { int a; int b; };\nvoid g(S s){ s.a += 10; }\nvoid h(S& s){ s.b += 10; }\nint main(){\n    S s{1,2};\n    g(s);\n    h(s);\n    cout << s.a << \" \" << s.b;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "递推表现为函数自⼰调用自⼰"
+        },
+        {
+          "key": "B",
+          "text": "递推从已知初值出发，利用递推关系逐步推出后续结果"
+        },
+        {
+          "key": "C",
+          "text": "递推只能用于指数复杂度问题"
+        },
+        {
+          "key": "D",
+          "text": "递推一定需要回溯"
+        }
+      ],
+      "content": "关于递推算法的描述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ],
+      "content": "执行 climb(6) 的返回值为（ ）。\n\n```cpp\nint climb(int n){\n    if(n <= 2) return n;\n    int a = 1, b = 2, c = 0;\n    for(int i = 3; i <= n; i++){\n        c = a + b;\n        a = b;\n        b = c;\n    }\n    return c;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "不稳定，因为出现了相同分数"
+        },
+        {
+          "key": "B",
+          "text": "稳定，因为相同 score 的相对顺序保持为 A 在 B 前、B 在 D 前"
+        },
+        {
+          "key": "C",
+          "text": "不稳定，因为 C 跑到前面了"
+        },
+        {
+          "key": "D",
+          "text": "无法判断"
+        }
+      ],
+      "content": "某排序算法对如下数据排序（按 score 升序），则下面关于该排序算法稳定性的描述中，说法正确的是（\n）。\n初始：(90,'A'), (90,'B'), (80,'C'), (90,'D')\n排序后：(80,'C'), (90,'A'), (90,'B'), (90,'D')\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a[j] < key"
+        },
+        {
+          "key": "B",
+          "text": "a[j] > key"
+        },
+        {
+          "key": "C",
+          "text": "a[j+1] > key"
+        },
+        {
+          "key": "D",
+          "text": "a[j] == key"
+        }
+      ],
+      "content": "下面代码试图把数组按升序进行“插入排序”，横线处应填写（ ）。\n\n```cpp\nvoid ins(int a[], int n){\n    for(int i = 1; i < n; i++){\n        int key = a[i];\n        int j = i-1;\n        while(j >= 0 && __________){\n            a[j+1] = a[j];\n            j--;\n        }\n        a[j+1] = key;\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下列代码段的时间复杂度为（ ）。\n\n```cpp\nint cnt=0;\nfor(int i=0; i<n; i++){\n    for(int j=0; j<n; j++){\n        if( (i+j) % 3 == 0) cnt++;\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nfreopen(\"log.txt\", \"w\", stdout);\ncout << \"Welcome to 2026!\" << endl;\nfclose(stdout);\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\ncout << \"Welcome to 2026!\" << endl;\noutFile.close();\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nofstream log_file(\"log.txt\");\nstreambuf* org_cout = cout.rdbuf();\ncout.rdbuf(log_file.rdbuf());\ncout << \"Welcome to 2026!\" << endl;\ncout.rdbuf(org_cout);\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\noutFile << \"Welcome to 2026!\" << endl;\noutFile.close();\n```\n"
+        }
+      ],
+      "content": "下面哪种方式不能实现将字符串 Welcome to 2026! 输出重定向到文件 log.txt（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "程序崩溃"
+        },
+        {
+          "key": "D",
+          "text": "无输出"
+        }
+      ],
+      "content": "执行下面程序，输出结果是（ ）。\n\n```cpp\nint divi(int a,int b){\n    if(b==0) throw 0;\n    return a/b;\n}\nint main(){\n    try{\n        cout << divi(10,0);\n    }catch(const char* msg){\n        cout << \"A\";\n    }catch(int){\n        cout << \"B\";\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "i > 0 && cur.score > players[i-1].score"
+        },
+        {
+          "key": "B",
+          "text": "i > 0 && cur.score < players[i-1].score"
+        },
+        {
+          "key": "C",
+          "text": "i < n-1 && cur.score > players[i+1].score"
+        },
+        {
+          "key": "D",
+          "text": "i < n-1 && cur.score < players[i+1].score"
+        }
+      ],
+      "content": "下列函数实现排行榜中单个元素的位置调整（类似插入排序的相邻搬移）。当某玩家分数增加，需将其向\n前移动时，while 循环的条件应为（ ）。\n\n```cpp\nstruct Player{ int score; };\nvoid up(Player players[], int n, int idx){\n    Player cur = players[idx];\n    int i = idx;\n    while( ____________________ ){\n        players[i] = players[i-1];\n        i--;\n    }\n    players[i] = cur;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "下面代码执行结束时，变量 a 的值变成 15。\n\n```cpp\nvoid add10(int &x) { x += 10; }\nint main() {\n    int a = 5;\n    add10(a);\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "引用一旦绑定某个变量，就不能再绑定其他变量。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面代码，输出结果为 5。\n\n```cpp\nint main() {\n    int a[2][3];\n    cout << &a[1][2] - &a[0][1] << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面程序可以正常编译并输出 10。\n\n```cpp\nint calc(int x, int y = 10);\nint calc(int x) { return x * 2; }\nint calc(int x, int y) { return x * y; }\nint main() {\n    cout << calc(5);\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "下面程序执行后输出 2010。\n\n```cpp\nint x = 10;\nvoid f() { int x = 20; cout << x; }\nint main() {\n    f();\n    cout << x;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在 C++ 中，如果声明了一个指针变量但没有显式初始化，该指针会自动被初始化为 nullptr。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面代码没有语法错误。\n\n```cpp\nstruct GameCharacter {\n    string name;\n    int level;\n    float position_x;\n    float position_y;\n    struct Equipment {\n        string weapon;\n        int attack_bonus;\n        int defense_bonus;\n    } equipment;\n    struct Skill {\n        string name;\n        int damage;\n    } skills[8];\n    int skill_count;\n};\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "下面程序能够把 Hello 写入 data.txt 文件中。\n\n```cpp\nofstream fout(\"data.txt\");\ncout << \"Hello\";\nfout.close();\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "由于选择排序和插入排序的时间复杂度均为 ，在任何实际场景下两者的性能表现几乎相同，可以互相\n替代。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "下面用递推方式计算斐波那契数列第 n 项的程序，时间复杂度是 。\n\n```cpp\nint fib(int n) {\n    if (n <= 1) return n;\n    int f0 = 0, f1 = 1, cur = 0;\n    for (int i = 2; i <= n; i++) {\n        cur = f0 + f1;\n        f0 = f1;\n        f1 = cur;\n    }\n    return cur;\n}\n```\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼭之⾕**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n现有⼀⽚⼭地，可以视为⼀个 ⾏ 列的⽹格图，第 ⾏ 列的海拔为 。\n如果⼀个单元格的海拔不⾼于其所有相邻单元格（相邻包括上、下、左、右、左上、右上、左下、右下，最多 个\n⽅向）的海拔，则称该单元格为⼭⾕。\n请你数⼀数该⽚⼭地中有多少⼭⾕。\n\n### 输入格式\n第⼀⾏包含 个整数 ，表⽰⼭地的⼤⼩。\n之后 ⾏，每⾏包含 个整数 ，表⽰海拔。\n\n### 输出格式\n输出 1 ⾏，包含 1 个整数 ，表⽰⼭⾕的数量。\n\n### 样例解释\n样例 1 如图所⽰，绿⾊单元格代表⼭⾕：\n\n### 数据范围\n保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：礼盒排序**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n商店推出了许多礼盒，每个礼盒中包含 k 件商品，每件商品都有⼀个价格。\n现在需要对这些礼盒进⾏排序，排序规则如下：\n1. 先按礼盒总价格从⼩到⼤排序；\n2. 如果总价格相同，按礼盒中最贵商品的价格从⼩到⼤排序；\n3. 如果仍然相同，按礼盒中最便宜商品的价格从⼩到⼤排序；\n4. 如果仍然相同，按礼盒编号从⼩到⼤排序。\n请输出排序后的礼盒编号。\n\n### 输入格式\n第⼀⾏包含两个整数 和 ，分别表⽰礼盒数量和每个礼盒中商品的数量。\n接下来 ⾏，每⾏包含 个整数，第 ⾏表⽰第 个礼盒中各商品的价格。\n\n### 输出格式\n输出⼀⾏，包含排序后的礼盒编号（编号从 开始），⽤空格分隔。\n\n### 样例解释\n4 个礼盒分别为：\n编号 商品价格 总价 最大值 最小值\n1 3 5 2 10 5 2\n2 4 1 5 10 5 1\n3 2 2 4 8 4 2\n4 3 4 3 10 4 3\n排序过程：\n1. 按总价排序，3号礼盒总价最⼩；\n2. 其余总价均为 10，再按最⼤值排序，4号最⼤值更⼩；\n3. 1号和2号最⼤值相同，再按最⼩值排序，2号更⼩。\n最终顺序为：3 4 2 1\n\n### 数据范围\n保证 ， ，商品价格 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

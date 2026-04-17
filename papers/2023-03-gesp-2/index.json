@@ -1,0 +1,413 @@
+{
+  "title": "2023年3月 GESP C++ 2级",
+  "category": "GESP",
+  "level": "2",
+  "date": "2023-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年3月 GESP C++ 2级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "硬盘"
+        },
+        {
+          "key": "B",
+          "text": "U盘"
+        },
+        {
+          "key": "C",
+          "text": "内存"
+        },
+        {
+          "key": "D",
+          "text": "光盘"
+        }
+      ],
+      "content": "以下存储器中的数据不会受到附近强磁场干扰的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "顺序结构"
+        },
+        {
+          "key": "B",
+          "text": "循环结构"
+        },
+        {
+          "key": "C",
+          "text": "分支结构"
+        },
+        {
+          "key": "D",
+          "text": "数据结构"
+        }
+      ],
+      "content": "下列流程图，属于计算机的哪种程序结构？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "double 类型的变量占用内存的大小是浮动的"
+        },
+        {
+          "key": "B",
+          "text": "bool 类型的变量占用 1字节内存"
+        },
+        {
+          "key": "C",
+          "text": "int 类型变量的取值范围不是无限的"
+        },
+        {
+          "key": "D",
+          "text": "char 类型的变量有 256种取值"
+        }
+      ],
+      "content": "下列关于 C++语言的叙述，不正确的是（）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "变量定义后，可以使用赋值语句改变它的值"
+        },
+        {
+          "key": "B",
+          "text": "变量定义时，必须指定类型"
+        },
+        {
+          "key": "C",
+          "text": "变量名必须为合法标识符"
+        },
+        {
+          "key": "D",
+          "text": "合法标识符可以以数字开始"
+        }
+      ],
+      "content": "下列关于 C++语言的叙述，不正确的是（）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "return"
+        },
+        {
+          "key": "B",
+          "text": "max"
+        },
+        {
+          "key": "C",
+          "text": "else"
+        },
+        {
+          "key": "D",
+          "text": "case"
+        }
+      ],
+      "content": "以下哪个不是 C++语言的关键字？\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "\\="
+        },
+        {
+          "key": "B",
+          "text": "/="
+        },
+        {
+          "key": "C",
+          "text": "-="
+        },
+        {
+          "key": "D",
+          "text": "!="
+        }
+      ],
+      "content": "以下哪个不是 C++语言的运算符？\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "b = a + 1;"
+        },
+        {
+          "key": "B",
+          "text": "b = a + '1';"
+        },
+        {
+          "key": "C",
+          "text": "b = 'a'++;"
+        },
+        {
+          "key": "D",
+          "text": "b = a++;"
+        }
+      ],
+      "content": "如果 a和b都是 char类型的变量，下列哪个语句不符合 C++语法？\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "(a + b + c + d) / 4"
+        },
+        {
+          "key": "B",
+          "text": "(a + b + c + d) % 4"
+        },
+        {
+          "key": "C",
+          "text": "(a + b + c + d) / 4.0"
+        },
+        {
+          "key": "D",
+          "text": "(a + b + c + d) % 4.0"
+        }
+      ],
+      "content": "如果 a、b、c和 d都是int类型的变量，则下列哪个表达式能够正确计算它\n们的平均值？\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a = a + 1;"
+        },
+        {
+          "key": "B",
+          "text": "a + 1;"
+        },
+        {
+          "key": "C",
+          "text": "a = 1 + a;"
+        },
+        {
+          "key": "D",
+          "text": "++a;\n10.如果 a为int类型的变量，且 a的值为9，则执行a -= 3;之后，a的值会\n是（）。\n"
+        },
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "12\n11.如果 a和b均为 int类型的变量，下列表达式能正确判断“a等于 0或b等\n于0”的是（）\n"
+        },
+        {
+          "key": "A",
+          "text": "(!a) || (!b)"
+        },
+        {
+          "key": "B",
+          "text": "(a == b == 0)"
+        },
+        {
+          "key": "C",
+          "text": "(a == 0) && (b == 0)"
+        },
+        {
+          "key": "D",
+          "text": "(a == 0) - (b == 0) == 0\n12.如果 a为char类型的变量，下列哪个表达式可以正确判断“a是小写字\n母”？\n"
+        },
+        {
+          "key": "A",
+          "text": "a <= a <= z"
+        },
+        {
+          "key": "B",
+          "text": "a - 'a' <= 'z' - 'a'"
+        },
+        {
+          "key": "C",
+          "text": "'a' <= a <= 'z'"
+        },
+        {
+          "key": "D",
+          "text": "a >= 'a' && a <= 'z'\n13.在下列代码的横线处填写（），使得输出是`50 10`。\n"
+        },
+        {
+          "key": "A",
+          "text": "a -= b"
+        },
+        {
+          "key": "B",
+          "text": "a += b"
+        },
+        {
+          "key": "C",
+          "text": "a = b - a"
+        },
+        {
+          "key": "D",
+          "text": "a = b\n14.在下列代码的横线处填写（），可以使得输出是5。\n"
+        },
+        {
+          "key": "A",
+          "text": "ch < '5'"
+        },
+        {
+          "key": "B",
+          "text": "ch >= 5"
+        },
+        {
+          "key": "C",
+          "text": "ch >= '4'"
+        },
+        {
+          "key": "D",
+          "text": "ch % 2 == 1\n15.执行以下 C++语言程序后，输出结果是（）。\n"
+        },
+        {
+          "key": "A",
+          "text": "false"
+        },
+        {
+          "key": "B",
+          "text": "true"
+        },
+        {
+          "key": "C",
+          "text": "0"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "content": "如果 a为char类型的变量，且 a的值为'2'，则下列哪条语句执行后，a的\n值不会变为'3'？\n"
+    },
+    {
+      "type": "judge",
+      "id": 10,
+      "score": 2,
+      "answer": "False",
+      "content": "明明和笑笑在“小庙会”上分别抽到一个 4GB和4096MB的U盘，容量大的\n盘是笑笑的（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 11,
+      "score": 2,
+      "answer": "False",
+      "content": "IPv4 的地址通常用“点分十进制”的表示形式，形如（a.b.c.d），其中\na、b、c、d都是 1~255之间的十进制整数（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 12,
+      "score": 2,
+      "answer": "True",
+      "content": "在C++语言中，一个程序不能有多个 main 函数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 13,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语言中，标识符中可以有下划线_，但不能以下划线_开头。\n"
+    },
+    {
+      "type": "judge",
+      "id": 14,
+      "score": 2,
+      "answer": "False",
+      "content": "如果 a是int类型的变量，而且值为 1，则表达式'a'的值为'1'。\n"
+    },
+    {
+      "type": "judge",
+      "id": 15,
+      "score": 2,
+      "answer": "False",
+      "content": "在if ... else 语句中，else子句可以嵌套 if ... else语句，但 if子句\n不可以，因为会造成二义性。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "while 语句的循环体至少会执行一次。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "True",
+      "content": "C++语言中>=是运算符，但=>不是。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "True",
+      "content": "如果 a为char类型的变量，且取值为小写字母，则执行语句 a = a - 'a'\n+ 'A';后，a的值会变为与原值对应的大写字母。\n10.表达式(10.0 / 2)的计算结果为5.0，且结果类型为 double。\n三、\n"
+    },
+    {
+      "type": "program",
+      "id": 19,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：画三角形**\n\n### 题目描述\n输入一个正整数 n，请使用大写字母拼成一个这样的三角形图案（参考样例\n输入输出）：三角形图案的第 1 行有 1 个字母，第 2 行有 2 个字母，以此类推；\n在三角形图案中，由上至下、由左至右依次由大写字母 A-Z填充，每次使用大写\n字母Z填充后，将从头使用大写字母 A填充。\n\n### 输入格式\n输入一行，包含一个正整数 n。约定2≤n≤40。\n\n### 输出格式\n输出符合要求的三角形图案。注意每行三角形图案的右侧不要有多余的空格。\n\n### 样例\n\n**输入样例 #1:**\n```\n3\n```\n\n**输出样例 #1:**\n```\nA\nBC\nDEF\n7\n---PAGEBREAK---\n```\n\n**输入样例 #2:**\n```\n7\n```\n\n**输出样例 #2:**\n```\nA\nBC\nDEF\nGHIJ\nKLMNO\nPQRSTU\nVWXYZAB\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 20,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：百鸡问题**\n\n### 题目描述\n“百鸡问题”是出自我国古代《张丘建算经》的著名数学问题。大意为：“每\n只公鸡 5 元，每只母鸡 3 元，每 3 只小鸡 1元；现在有 100 元，买了 100 只鸡，\n共有多少种方案？”\n8\n---PAGEBREAK---\n小明很喜欢这个故事，他决定对这个问题进行扩展，并使用编程解决：如果\n每只公鸡x元，每只母鸡 y元，每z只小鸡 1元；现在有n元，买了 m只鸡，共\n有多少种方案？\n\n### 输入格式\n输入一行，包含五个整数，分别为问题描述中的 x、y、z、n、m。约定 1≤\nx, y, z ≤10，1≤ n, m ≤1000。\n\n### 输出格式\n输出一行，包含一个整数 C，表示有C种方案。\n\n### 样例\n\n**输入样例 #1:**\n```\n5 3 3 100 100\n```\n\n**输出样例 #1:**\n```\n4\n```\n\n**输入样例 #2:**\n```\n1 1 1 100 100\n```\n\n**输出样例 #2:**\n```\n5151\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "title": "2025年12月 GESP C++ 8级",
+  "category": "GESP",
+  "level": "8",
+  "date": "2025-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年12月 GESP C++ 8级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1,440,000"
+        },
+        {
+          "key": "B",
+          "text": "2,160,000"
+        },
+        {
+          "key": "C",
+          "text": "2,535,000"
+        },
+        {
+          "key": "D",
+          "text": "8,640,000"
+        }
+      ],
+      "content": "某平台生成“取件码”由6个字符组成：前4位为数字（0–9），后2位为大写字母（A–Z），其中字母不能\n为 I、O。假设数字和字母均可重复使用，要求整个取件码中恰好有2个数字为奇数。共有多少种不同取件码？（\n）\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "merge_sort(a, mid, right)"
+        },
+        {
+          "key": "B",
+          "text": "merge_sort(a, mid + 1, right)"
+        },
+        {
+          "key": "C",
+          "text": "merge_sort(a, left, mid + 1)"
+        },
+        {
+          "key": "D",
+          "text": "merge_sort(a, mid - 1, right)"
+        }
+      ],
+      "content": "下列代码实现了归并排序（Merge Sort）的分治部分。为了正确地将数组 a 的 [left, right] 区间进行\n排序，横线处应该填入的是（ ）。\n\n```cpp\nvoid merge_sort(int a[], int left, int right) {\n    if (left >= right) return;\n    int mid = (left + right) / 2;\n    merge_sort(a, left, mid);\n    ________; // 在此处填入选项\n    merge(a, left, mid, right); // 合并操作\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "12012"
+        },
+        {
+          "key": "B",
+          "text": "11844"
+        },
+        {
+          "key": "C",
+          "text": "12474"
+        },
+        {
+          "key": "D",
+          "text": "11025"
+        }
+      ],
+      "content": "某社团有男生8⼈、⼥生7⼈。现需选出1名队长（性别不限）、1名副队长（性别不限）、2名宣传委员（两\n⼈无角色区别，且必须至少1名⼥生）。假如一⼈不能兼任多职，共有多少种不同选法？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "-7168"
+        },
+        {
+          "key": "B",
+          "text": "7168"
+        },
+        {
+          "key": "C",
+          "text": "-1792"
+        },
+        {
+          "key": "D",
+          "text": "1792"
+        }
+      ],
+      "content": "二项式 的展开式中 项的系数为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "dis[j] < dis[u] + graph[u][j]"
+        },
+        {
+          "key": "B",
+          "text": "dis[j] > dis[u] + graph[u][j]"
+        },
+        {
+          "key": "C",
+          "text": "graph[u][j] > dis[u] + dis[j]"
+        },
+        {
+          "key": "D",
+          "text": "dis[j] > graph[u][j]"
+        }
+      ],
+      "content": "下面是使用邻接矩阵实现的Dijkstra算法的核心片段，用于求单源最短路径。在找到当前距离起点最近的顶点\nu 后，需要更新其邻接点 j 的距离。横线处应填入的代码是（ ）。\n\n```cpp\nfor (int j = 1; j <= n; j++) {\n    if (!visited[j] && graph[u][j] < INF) {\n        if (________) { // 在此处填入选项\n            dis[j] = dis[u] + graph[u][j];\n        }\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "dp[i][j] = dp[i - 1][j] + dp[i][j - 1];"
+        },
+        {
+          "key": "B",
+          "text": "dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]);"
+        },
+        {
+          "key": "C",
+          "text": "dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);"
+        },
+        {
+          "key": "D",
+          "text": "dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]) + 1;"
+        }
+      ],
+      "content": "下面程序使用动态规划求两个字符串的最长公共⼦序列（LCS）长度，横线处应填入的是（ ）。\n\n```cpp\n#include <algorithm>\n#include <string>\n#include <vector>\nusing namespace std;\nint lcs_len(const string &a, const string &b) {\n    int n = (int)a.size(), m = (int)b.size();\n    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));\n    for (int i = 1; i <= n; i++)\n    for (int j = 1; j <= m; j++)\n    if (a[i - 1] == b[j - 1])\n    dp[i][j] = dp[i - 1][j - 1] + 1;\n    else\n    ________; // 在此处填入选项\n    return dp[n][m];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)"
+        },
+        {
+          "key": "B",
+          "text": "sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2))"
+        },
+        {
+          "key": "C",
+          "text": "pow(x1 - x2, 2) + pow(y1 - y2, 2)"
+        },
+        {
+          "key": "D",
+          "text": "abs(x1 - x2) + abs(y1 - y2)"
+        }
+      ],
+      "content": "已知两个点 和 在平面直角坐标系中的坐标。下列C++表达式中，能正确计算这两点之间\n直线距离的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "编译错误"
+        }
+      ],
+      "content": "已知 int a = 10;，执行 int &b = a; b = 20; 后，变量 a 的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下列代码的时间复杂度（以 为自变量，忽略常数与低阶项）是（ ）。\n\n```cpp\nlong long s = 0;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j * j <= i; j++) {\n        s += j;\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "i + primes[j] == n"
+        },
+        {
+          "key": "B",
+          "text": "primes[j] > i"
+        },
+        {
+          "key": "C",
+          "text": "i % primes[j] == 0"
+        },
+        {
+          "key": "D",
+          "text": "i % primes[j] != 0"
+        }
+      ],
+      "content": "下列程序实现了线性筛法（欧拉筛），用于在 时间内求出 之间的所有质数。为了保证每个合数\n只被其最小质因⼦筛掉，横线处应填入的语句是（ ）。\n\n```cpp\nfor (int i = 2; i <= n; i++) {\n    if (!not_prime[i]) primes[++cnt] = i;\n    for (int j = 1; j <= cnt && i * primes[j] <= n; j++) {\n        not_prime[i * primes[j]] = true;\n        if (________) break; // 在此处填入选项\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "派生类可以访问基类的 private 成员。"
+        },
+        {
+          "key": "B",
+          "text": "基类的 protected 成员在私有继承（private inheritance）后，在派生类中变为 public。"
+        },
+        {
+          "key": "C",
+          "text": "派生类对象在创建时，会先调用基类的构造函数，再调用派生类自⼰的构造函数。"
+        },
+        {
+          "key": "D",
+          "text": "派生类对象在销毁时，会先调用基类的析构函数，再调用派生类自⼰的析构函数。"
+        }
+      ],
+      "content": "在C++语⾔中，关于类的继承和访问权限，下列说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "14"
+        },
+        {
+          "key": "B",
+          "text": "27"
+        },
+        {
+          "key": "C",
+          "text": "28"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ],
+      "content": "当输入 6 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint f(int n) {\n    if (n <= 3) return n;\n    return f(n - 1) + f(n - 2) + 2 * f(n - 3);\n}\nint main() {\n    int n;\n    cin >> n;\n    cout << f(n) << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "243"
+        },
+        {
+          "key": "B",
+          "text": "271"
+        },
+        {
+          "key": "C",
+          "text": "300"
+        },
+        {
+          "key": "D",
+          "text": "333"
+        }
+      ],
+      "content": "从1到999这999个正整数中，十进制表⽰中数字 5 恰好出现一次的数有多少个？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "content": "当输入 2023 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int x, ans = 0;\n    cin >> x;\n    while (x != 0) {\n        x -= x & -x;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "必须选入MST，否则可能不连通。"
+        },
+        {
+          "key": "B",
+          "text": "一定不能选入MST（在此扫描顺序下）。"
+        },
+        {
+          "key": "C",
+          "text": "若后续出现更大的边权，可以回溯改选 。"
+        },
+        {
+          "key": "D",
+          "text": "只有当 是当前最小边时才能舍弃。"
+        }
+      ],
+      "content": "对连通无向图执行Kruskal算法。已按边权从小到大依次扫描到某条边 。此时在已经构建的部分\nMST结构中， 已在同一连通块内。关于边 的处理，下列说法正确的是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "若一项任务可用两种互斥方案完成：方案A有 种做法，方案B有 种做法，则总做法数为 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，引用一旦被初始化，就不能再改为引用另一个变量。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "快速排序和归并排序的平均时间复杂度都是 ，但快速排序是不稳定的排序算法，归并排序是稳定\n的排序算法。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "使用 math.h 或 cmath 头文件中的函数，表达式 sqrt(4) 的结果类型为 double。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在杨辉三角形中，第 行（从0开始计数，即第 行有 个数）的所有数字之和等于 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "使用二叉堆优化的Dijkstra最短路算法，在某些特殊情况下时间复杂度不如朴素实现的 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "个不同元素依次入栈的出栈序列数与将 个不同元素划分成若⼲非空⼦集的方案数相等。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "快速排序在最坏情况下的时间复杂度为 ，可以通过随机化选择基准值（pivot）的方法完全避免退\n化。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，一个类可以拥有多个构造函数，也可以拥有多个析构函数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "求两个序列的最长公共⼦序列（LCS）时，使用滚动数组优化空间后，仍然可以还原出具体的LCS序列。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：猫和⽼⿏**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n猫和⽼⿏所在的庄园可以视为⼀张由 个点和 条带权⽆向边构成的连通图。结点依次以 编号，结点\n（ ）有价值为 的奶酪。在 条带权⽆向边中，第 （ ）条⽆向边连接结点 与结点 ，边权\n表⽰猫和⽼⿏通过这条边所需的时间。\n猫窝位于结点 ，⽼⿏洞位于结点 。对于⽼⿏⽽⾔，结点 是安全的当且仅当：\n⽼⿏能规划⼀条从结点 出发逃往⽼⿏洞的路径，使得对于路径上任意结点 （包括结点 与⽼⿏洞）都有：\n猫从猫窝出发到结点 的最短时间严格⼤于⽼⿏从结点 沿这条路径前往结点 所需的时间。\n⽼⿏在拿取安全结点的奶酪时不存在被猫抓住的可能，但在拿取不是安全结点的奶酪时则不⼀定。为了确保万⽆⼀\n失，⽼⿏决定只拿取安全结点放置的奶酪。请你计算⽼⿏所能拿到的奶酪价值之和。\n\n### 输入格式\n第⼀⾏，两个正整数 ，分别表⽰图的结点数与边数。\n第⼆⾏，两个正整数 ，分别表⽰猫窝的结点编号，以及⽼⿏洞的结点编号。\n第三⾏， 个正整数 ，表⽰各个结点的奶酪价值。\n接下来 ⾏中的第 ⾏（ ）包含三个正整数 ，表⽰图中连接结点 与结点 的边，边权为 。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰⽼⿏所能拿到的奶酪价值之和。\n\n### 数据范围\n对于 的测试点，保证 ， 。\n对于所有测试点，保证 ， ， 且 ， ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：宝⽯项链**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 有⼀串包含 枚宝⽯的宝⽯项链，这些宝⽯按照在项链中的顺序依次以 编号，第 枚宝⽯与第 枚\n宝⽯相邻。项链由 种宝⽯组成，其中第 枚宝⽯种类为 。\n⼩ A 想将宝⽯项链分给他的好朋友们。具体⽽⾔，⼩ A 会将项链划分为若⼲连续段，并且需要保证每段都包含全部\n种宝⽯。请帮⼩ A 计算在满⾜条件的前提下，宝⽯项链最多可以划分为多少段。\n\n### 输入格式\n第⼀⾏，两个正整数 ，分别表⽰宝⽯项链中的宝⽯的数量与种类数。\n第⼆⾏， 个正整数 ，表⽰每枚宝⽯的种类。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰宝⽯项链最多可以划分的段数。\n\n### 数据范围\n对于 的测试点，保证 。\n对于所有测试点，保证 ， ， ，保证 均在 中出现。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

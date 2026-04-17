@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "f(&a);"
+        },
+        {
+          "key": "B",
+          "text": "f(*a);"
+        },
+        {
+          "key": "C",
+          "text": "f(a);"
+        },
+        {
+          "key": "D",
+          "text": "f(a-3);"
+        }
+      ],
+      "content": "若函数声明为int f(int &x){ x+=3; return x; }，则对声明的变量int a=3，下面哪个调用能够改\n变a的值( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "G"
+        },
+        {
+          "key": "B",
+          "text": "e"
+        },
+        {
+          "key": "C",
+          "text": "n"
+        },
+        {
+          "key": "D",
+          "text": "P"
+        }
+      ],
+      "content": "下面C++代码执行后，输出的是( )。\n\n```cpp\nint main()\n{\n    int x[]={2, 0, 2, 4};\n    char geSP[]=\"Grade Examination of SP\";\n    cout << geSP[sizeof(x)] << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "1.1"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "3.1"
+        }
+      ],
+      "content": "下面C++代码执行后输出是( )。\n\n```cpp\nint foo(float *f)\n{\n    return int(*f*2);\n}\nint main()\n{\n    float fnum[10]={1.1};\n    fnum[1]=foo(fnum);\n    cout << fnum[0]+fnum[1] << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "48"
+        },
+        {
+          "key": "D",
+          "text": "64"
+        }
+      ],
+      "content": "对二维数组int arr[3][16];，则arr[1]占用内存的大小为（ ）字节。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0x28cbc4"
+        },
+        {
+          "key": "B",
+          "text": "0x28cbd0"
+        },
+        {
+          "key": "C",
+          "text": "0x28cc00"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "content": "对二维数组int arr[3][16];，若arr的地址是0x28cbc0，则arr[1]的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "e"
+        },
+        {
+          "key": "B",
+          "text": "I lov"
+        },
+        {
+          "key": "C",
+          "text": "e GESP!"
+        },
+        {
+          "key": "D",
+          "text": "GESP!"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint main()\n{\n    char *p=\"I love GESP!\";\n    cout << p+5 << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "content": "下面C++代码执行以后输出的是（ ）。\n\n```cpp\nint rc=5;\nint main()\n{\n    int rc;\n    cout << ++rc << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "递推"
+        },
+        {
+          "key": "B",
+          "text": "递归"
+        },
+        {
+          "key": "C",
+          "text": "迭代"
+        },
+        {
+          "key": "D",
+          "text": "循环"
+        }
+      ],
+      "content": "下面C++函数中采用的算法是（ ）。\n\n```cpp\nint fib(int n)\n{\n    int i, f[n]={0, 1};\n    for(int i=2; i<=n; i++)\n    f[i]=f[i-1]+f[i-2];\n    return f[n];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "插入排序在最好情况下的时间复杂度是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "X>Y"
+        },
+        {
+          "key": "B",
+          "text": "X==Y"
+        },
+        {
+          "key": "C",
+          "text": "X<Y"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "content": "在如下的C++代码执行后，设第11和12行的输出地址值分别为X和Y，则下面正确的是（ ）。\n\n```cpp\nstruct pass{\n    int no;\n    char name[20];\n    int level;\n};\nint main()\n{\n    struct pass XiaoYang;\n    cout << \"&XiaoYang=\" << &XiaoYang << endl; //第11行\n    cout << \"&(XiaoYang.no)=\" << &(XiaoYang.no) << endl; //第12行\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "2024"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "如果文件1.txt中的内容如下，则执行下面C++代码时，注释了####那行代码所输出的x的值为（\n）。\n\n```cpp\n50 2024 3.16 I\nlove\nGESP!\nint main()\n{\n    ifstream fin;\n    string line;\n    int x;\n    fin.open(\"1.txt\",ios::in);\n    for (int i=0; i< 2; i++){\n        fin >> line;\n        cout << line << endl;\n    }\n    fin>>x;\n    cout << x << endl; //####\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "2024"
+        },
+        {
+          "key": "B",
+          "text": "3.16"
+        },
+        {
+          "key": "C",
+          "text": "024"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "执行下列C++代码时输出中的第2行是（ ）。\n\n```cpp\nint main()\n{\n    char *s[]={(char*)\"2024\",(char*)\"3.16\",(char*)\"GESP\"};\n    for (int i=0; i< 2; i++){\n        cout << *s+i << endl;\n    }\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "extern"
+        },
+        {
+          "key": "B",
+          "text": "static"
+        },
+        {
+          "key": "C",
+          "text": "inline"
+        },
+        {
+          "key": "D",
+          "text": "public"
+        }
+      ],
+      "content": "C++语⾔中下面哪个关键字能够限定对象的作用域（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "小程序"
+        },
+        {
+          "key": "B",
+          "text": "计时器"
+        },
+        {
+          "key": "C",
+          "text": "操作系统"
+        },
+        {
+          "key": "D",
+          "text": "神话⼈物"
+        }
+      ],
+      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "制造自动驾驶汽车"
+        },
+        {
+          "key": "B",
+          "text": "创⽴培训学校"
+        },
+        {
+          "key": "C",
+          "text": "发明汉字激光照排系统"
+        },
+        {
+          "key": "D",
+          "text": "成⽴方正公司"
+        }
+      ],
+      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "对int a[]={2,0,2,4,3,1,6}，执行第一趟选择排序处理后a中数据变为{0,2,2,4,3,1,6}。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "如果待排序数据不能都装进内存，需要使用外排序算法。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "定义变量int a=5, 则cout << &++a会输出6。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "两个函数之间可以使用全局变量来传递数据。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "定义数组int a[2024][3][16]={2,0,2,4,3,1,6}，则cout << a[2023][2][15]的结果不确定。（\n）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，函数的参数为指针时，可以在函数内部修改该参数的值。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中try⼦句里抛出的结构体等类型的异常无法被catch捕获。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中cout << 9^2 << endl;会输出81。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒⼦才能收看节目，那这个WIFI盒\n⼦具有路由器的功能。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：相似字符串**",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：做题**\n\n### 题目描述\n⼩杨同学为了提⾼⾃⼰的实⼒制定了做题计划，在第 天时，他必须要完成 道题，否则他就会偷懒。\n⼩杨同学现在找到了⼀个题库，⼀共有 套题单，每⼀套题单中有⼀定数量的题⽬。但是他⼗分挑剔，每套题单他\n只会使⽤⼀次，每⼀天也只能使⽤⼀套题单⾥的题⽬，之后那套题单就会被弃之不⽤。对于每套题单，他不必完成\n题单内所有的题。\n那么问题来了，⼩杨同学最多会做题⼏天才偷懒呢？\n\n### 输入格式\n第⼀⾏，1个数为 ，表⽰有多少套题单。\n第⼆⾏，n个整数 ，分别表⽰每套题单有多少道题。\n\n### 输出格式\n输出⼀⾏，⼩杨同学偷懒前最多做题天数。\n3.2.4 样例1\n1 4\n2 3 1 4 1\n1 3\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

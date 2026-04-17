@@ -1,0 +1,474 @@
+{
+  "title": "2024年6月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2024-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年6月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "小杨⽗母带他到某培训机构给他报名参加CCF组织的GESP认证考试的第1级，那他可以选择的认证语⾔有（\n）种。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "(yr%400==0) || (yr%4==0)"
+        },
+        {
+          "key": "B",
+          "text": "(yr%400==0) || (yr%4==0 && yr%100!=0)"
+        },
+        {
+          "key": "C",
+          "text": "(yr%400==0) && (yr%4==0)"
+        },
+        {
+          "key": "D",
+          "text": "(yr%400==0) && (yr%4==0 && yr%100!=0)"
+        }
+      ],
+      "content": "下面流程图在yr输入2024时，可以判定yr代表闰年，并输出2月是29天，则图中菱形框中应该填入（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "~"
+        },
+        {
+          "key": "B",
+          "text": "~"
+        },
+        {
+          "key": "C",
+          "text": "~"
+        },
+        {
+          "key": "D",
+          "text": "~"
+        }
+      ],
+      "content": "一般默认64位计算机系统中整型变量（int）还是32位，则整数能够表⽰的数据范围是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "oct_number[i] = decimal % 8; decimal /= 8;"
+        },
+        {
+          "key": "B",
+          "text": "oct_number[i] = decimal / 8; decimal %/= 8;"
+        },
+        {
+          "key": "C",
+          "text": "oct_number[i++] = decimal % 8; decimal /= 8;"
+        },
+        {
+          "key": "D",
+          "text": "oct_number[i++] = decimal / 8; decimal %= 8;"
+        }
+      ],
+      "content": "下列代码将十进制转化成八进制，则横线上应填入（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nvoid decimal2octal(int decimal) {\n    int oct_number[100];\n    int i = 0;\n    while (decimal > 0) {\n        __________________________ //在此处填入代码\n    }\n    for (int j = i - 1; j >= 0; j--) {\n        cout << oct_number[j];\n    }\n    cout << endl;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "6.5"
+        },
+        {
+          "key": "B",
+          "text": "5.5"
+        },
+        {
+          "key": "C",
+          "text": "5.75"
+        },
+        {
+          "key": "D",
+          "text": "5.25"
+        }
+      ],
+      "content": "二进制数101.11对应的十进制数是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ],
+      "content": "下列流程图的输出结果是（ ） 。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "content": "下列代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 12;\n    int result = a >> 2;\n    cout << result << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "a = 5, b = 10"
+        },
+        {
+          "key": "B",
+          "text": "a = 5, b = 5"
+        },
+        {
+          "key": "C",
+          "text": "a = 10, b = 5"
+        },
+        {
+          "key": "D",
+          "text": "a = 10, b = 10"
+        }
+      ],
+      "content": "下列代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5;\n    int b = 10;\n    a = a ^ b;\n    b = a ^ b;\n    a = a ^ b;\n    cout << \"a = \" << a << \", b = \" << b << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ],
+      "content": "如果字符串定义为char str[] = \"GESP\";，则字符数组str的长度为( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "max > array[i]"
+        },
+        {
+          "key": "B",
+          "text": "max < array[i]"
+        },
+        {
+          "key": "C",
+          "text": "max = array[i]"
+        },
+        {
+          "key": "D",
+          "text": "以上均不对"
+        }
+      ],
+      "content": "在下列代码的横线处填写( )，可以使得输出是“7”。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int array[5] = {3，7，5，2，4};\n    int max = 0;\n    for(int i=0; i<5; i++)\n    if(______________) // 在此处填入代码\n    max = array[i];\n    cout << max << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "arr[count++] = i;"
+        },
+        {
+          "key": "B",
+          "text": "arr[i] = count++;"
+        },
+        {
+          "key": "C",
+          "text": "arr[i] = count;"
+        },
+        {
+          "key": "D",
+          "text": "arr[count] = count++;"
+        }
+      ],
+      "content": "小杨在做数学题，题目要求找出从1到35中能被7整除的数字，即[7, 14, 21, 28, 35]，则横线处应填入哪个代\n码？（ ）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[35];\n    int count = 0;\n    for (int i = 1; i <= 35; i++) {\n        if (i % 7 == 0)\n        __________________________ // 在此处填入代码\n    }\n    for (int i = 0; i < count; i++)\n    cout << arr[i] << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "17"
+        },
+        {
+          "key": "B",
+          "text": "158"
+        },
+        {
+          "key": "C",
+          "text": "209"
+        },
+        {
+          "key": "D",
+          "text": "316"
+        }
+      ],
+      "content": "已知字符 '0' 的ASCII编码的十进制表⽰为48，则执行下面C++代码后，输出是( )。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    string s = \"0629\";\n    int n = s.length();\n    int x = 0;\n    for(int i = 0; i < n; i++)\n    x += s[i];\n    cout << x << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "count = arr[i]>135? 1: 0;"
+        },
+        {
+          "key": "B",
+          "text": "count += arr[i]>135? 1: 0;"
+        },
+        {
+          "key": "C",
+          "text": "count++;"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "某小学男⼦篮球队招募新成员，要求加入球队的成员身高在135厘米以上（不含135厘米）。本次报名的⼈\n员有10⼈，他们的身高分别是125、127、136、134、137、138、126、135、140、145。完善以下代码，求出本次球\n队能够招募到新成员的⼈数？（ ）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[10] = {125, 127, 136, 134, 137, 138, 126, 135, 140, 145};\n    int count = 0;\n    for(int i=0; i<10; i++)\n    __________________________ // 在此处填入代码\n    cout << count << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout << 'They\\'re planning a party for their friend'\\s birthday.\" << endl;"
+        },
+        {
+          "key": "B",
+          "text": "cout << \"They\\'re planning a party for their friend's birthday.'<< endl;"
+        },
+        {
+          "key": "C",
+          "text": "cout << 'They're planning a party for their friend's birthday.'<< endl;"
+        },
+        {
+          "key": "D",
+          "text": "cout << \"They\\'re planning a party for their friend\\'s birthday.\" << endl;"
+        }
+      ],
+      "content": "下面可以正确输出 They're planning a party for their friend's birthday. 的C++语句是？\n（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "str = str.substr(found + delimiter.length(), str.length() - 1);"
+        },
+        {
+          "key": "B",
+          "text": "str = str.substr(found, str.length() );"
+        },
+        {
+          "key": "C",
+          "text": "str = str.substr(found, str.length() -1);"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "如果执行下面C++代码后，输出的结果是“gesp ccf org cn ”，则横线上应填入哪个代码？（ ）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    string str = \"gesp.ccf.org.cn\";\n    string delimiter = \".\";\n    string result=\"\";\n    string token;\n    size_t found = str.find(delimiter);\n    while (found != string::npos) {\n        token = str.substr(0, found);\n        result += token;\n        result += \" \";\n        __________________________ // 在此处填入代码\n        found = str.find(delimiter);\n    }\n    //最后一部分\n    result += str;\n    result += \" \";\n    cout << result << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "GESP测试是对认证者的编程能⼒进行等级认证，同一级别的能⼒基本上与编程语⾔无关。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "整数-6的16位补码可用十六进制表⽰为FFFA。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "补码的优点是可以将减法运算转化为加法运算，从⽽简化计算机的硬件设计。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "字符常量'\\0'常用来表⽰字符串结束，和字符常量'0'相同。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "数组的所有元素在内存中可以不连续存放。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "C++中可以对数组和数组的每个基础类型的元素赋值。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "如果 为int类型的变量，且表达式((a | 3) == 3)的值为true，则说明 在从0到3之间（可能为0、可\n能为3）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面C++代码后，输出的结果是8。\n\n```cpp\nint a = 0b1010;\nint b = 01100;\nint c = a & b;\ncout << c <<endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面C++代码后，输出的结果不可能是89781。（ ）\n\n```cpp\n#include <iostream>\n#include <cstdlib> // 为了使用 rand() 和 srand()\n#include <ctime> // 为了使用 time()\nusing namespace std;\nint main() {\n    // 设置随机种子\n    srand(time(NULL));\n    int i = 1;\n    int s[5];\n    while(i <= 5)\n    {\n        int a = rand() % 10;\n        if(a % 3 == (i + 1) % 3)\n        s[i++] = a;\n    }\n    for(int i = 1; i <= 5; i++)\n    cout << s[i];\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "把整数3025从中剪开分为30和25两个数，此时再将这两数之和平方，计算结果⼜等于原数。(30 + 25) × (30\n+ 25) = 55 × 55 = 3025，这样的数叫“雷劈数”。可以使用枚举的方法求出所有符合这样条件的四位数。（ ）\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：移位**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 。\n\n### 输出格式\n输出在偏移量为 的情况下，⼤写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 移位替换后的结果。\n3.1.4 样例1\n1 3\n1 DEFGHIJKLMNOPQRSTUVWXYZABC\n\n### 样例解释\n当偏移量是3的时候，⼤写字母 A 会替换成 D，⼤写字母 Z 会替换成 C，总体来看，⼤写字母表\nABCDEFGHIJKLMNOPQRSTUVWXYZ 会被替换成 DEFGHIJKLMNOPQRSTUVWXYZABC。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：寻找倍数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表测试⽤例组数。\n接下来是 组测试⽤例。\n对于每组测试⽤例，⼀共两⾏。其中，第⼀⾏包含⼀个正整数 ；第⼆⾏包含 个正整数，代表序列 。\n\n### 输出格式\n对于每组测试⽤例，如果存在 ( )满⾜对于所有 ( ) 是 的倍数，输出 Yes，否则输出 No。\n3.2.4 样例1\n1 2\n2 3\n3 1 2 4\n4 5\n5 1 2 3 4 5\n1 Yes\n2 No\n\n### 样例解释\n对于第⼀组数据，对于 ，满⾜ 是 和 的倍数。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

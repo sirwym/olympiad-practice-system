@@ -1,0 +1,474 @@
+{
+  "title": "2024年6月 GESP C++ 8级",
+  "category": "GESP",
+  "level": "8",
+  "date": "2024-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年6月 GESP C++ 8级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "24"
+        },
+        {
+          "key": "B",
+          "text": "48"
+        },
+        {
+          "key": "C",
+          "text": "32"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ],
+      "content": "GESP活动期间，举办方从获胜者ABCDE五个⼈中选出三个⼈排成一队升国旗，其中A不能排在队首，请问\n有多少种排法？\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "11121"
+        },
+        {
+          "key": "B",
+          "text": "11122"
+        },
+        {
+          "key": "C",
+          "text": "11211"
+        },
+        {
+          "key": "D",
+          "text": "11112"
+        }
+      ],
+      "content": "7进制数235转换成3进制数是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "180"
+        },
+        {
+          "key": "B",
+          "text": "120"
+        },
+        {
+          "key": "C",
+          "text": "80"
+        },
+        {
+          "key": "D",
+          "text": "100"
+        }
+      ],
+      "content": "0,1,2,3,4,5这些数字组成一个三位数，请问没有重复数字的情况下，有多少种组法（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "有V个顶点、E条边的图的深度优先搜索遍历时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "一对夫妻生男生⼥的概率相同。已知这对夫妻有两个孩⼦，其中一个是⼥孩，另一个是男孩的概率是多少？\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "544"
+        },
+        {
+          "key": "B",
+          "text": "546"
+        },
+        {
+          "key": "C",
+          "text": "564"
+        },
+        {
+          "key": "D",
+          "text": "602"
+        }
+      ],
+      "content": "从1到2024这2024个数中，共有（ ）个包含数字6的数。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "4.25"
+        },
+        {
+          "key": "B",
+          "text": "4.125"
+        },
+        {
+          "key": "C",
+          "text": "4.5"
+        },
+        {
+          "key": "D",
+          "text": "4.75"
+        }
+      ],
+      "content": "二进制数100.001转换成十进制数是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "void BubbleSort(char a[][], int n);"
+        },
+        {
+          "key": "B",
+          "text": "void BubbleSort(char a[][20], int n);"
+        },
+        {
+          "key": "C",
+          "text": "void BubbleSort(char a[10][], int n);"
+        },
+        {
+          "key": "D",
+          "text": "void BubbleSort(char[,] a, int n);"
+        }
+      ],
+      "content": "以下函数声明，哪个是符合C++语法的？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "两个参数个数不同的函数可以重名。"
+        },
+        {
+          "key": "B",
+          "text": "两个参数类型不同的函数可以重名。"
+        },
+        {
+          "key": "C",
+          "text": "两个类的方法可以重名。"
+        },
+        {
+          "key": "D",
+          "text": "所有C++运算符均可以重载。"
+        }
+      ],
+      "content": "下面有关C++重载的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果n是质数，那么 。"
+        },
+        {
+          "key": "B",
+          "text": "两个质数一定是互质数。"
+        },
+        {
+          "key": "C",
+          "text": "两个相邻的数一定是互质数。"
+        },
+        {
+          "key": "D",
+          "text": "相邻的两个质数不一定是互质数。"
+        }
+      ],
+      "content": "小于或等于给定正整数n的数中，与n互质的数的个数，我们称为欧拉函数，记作 。下面说法错误的是\n（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "已知一棵二叉树有10个节点，则其中至多有（ ）个节点有2个⼦节点。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ],
+      "content": "二项展开式 的系数，正好满足杨辉三角的规律。当\n时，二项式展开式中 项的系数是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nbool notPrime[N] = {false};\nvoid sieve() {\n    for (int n = 2; n * n < N; n++)\n    if (!notPrime[n])\n    for (int i = n * n; i < N; i += n)\n    notPrime[i] = true;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面程序的最差时间复杂度为（ ）。\n\n```cpp\nint gcd(int m, int n) {\n    if (m == 0)\n    return n;\n    return gcd(n % m, m);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "90"
+        },
+        {
+          "key": "B",
+          "text": "91"
+        },
+        {
+          "key": "C",
+          "text": "710"
+        },
+        {
+          "key": "D",
+          "text": "711"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int cnt = 0;\n    for (int x = 0; x <= 10; x++)\n    for (int y = 0; y <= 10; y++)\n    for (int z = 0; z <= 10; z++)\n    if (x + y + z <= 15)\n    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "ABCDE五个小朋友，排成一队跑步，其中AB两⼈必须排在一起，一共有48种排法。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "已知double类型的变量a和b，则执行语句a = a + b; b = a - b; a = a - b;后，变量a和b的\n值会互换。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "一个袋⼦中有3个完全相同的红色小球、2个完全相同的蓝色小球。每次从中取出1个，再放回袋⼦，这样进\n行3次后，可能的颜色顺序有8种。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "已知int类型的变量a和b中分别存储着一个直角三角形的两条直角边的长度，则斜边的长度可以通过表\n达式sqrt(a * a + b * b)求得。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在一个包含v个顶点、e条边的带权连通简单有向图上使用Dijkstra算法求最短路径，时间复杂度为 ，\n可进一步优化至 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在 个元素的二叉排序树中查找一个元素，最差情况的时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中，可以为同一个类定义多个析构函数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "使用单链表和使用双向链表，查找元素的时间复杂度相同。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "为解决哈希函数冲突，可以使用不同的哈希函数为每个表项各建⽴一个⼦哈希表，用来管理该表项的所有冲\n突元素。这些⼦哈希表一定不会发生冲突。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "要判断无向图的连通性，在深度优先搜索和广度优先搜索中选择，深度优先的平均时间复杂度更低。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：最远点对**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表树的节点数。\n第⼆⾏包含 个⾮负整数 （对于所有的 ，均有 等于 0 或 1），其中如果 ，则节点\n的颜⾊为⽩⾊；如果 ，则节点 的颜⾊为⿊⾊。\n之后 ⾏，每⾏包含两个正整数 ，代表存在⼀条连接节点 和 的边。\n保证输⼊的树中存在不同颜⾊的点。\n\n### 输出格式\n输出⼀个整数，代表相距最远的⼀对不同颜⾊节点的距离。\n3.1.4 样例1\n1 5\n2 0 1 0 1 0\n3 1 2\n4 1 3\n5 3 4\n6 3 5\n1 3\n\n### 样例解释\n相距最远的不同颜⾊的⼀对节点为节点 和 。\n\n### 数据范围\n子任务编号 数据点占比 特殊条件\n1 30% 树的形态为⼀条链\n2 30%\n3 40%\n对于全部数据，保证有 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：空间跳跃**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表挡板数量。\n第⼆⾏包含两个正整数 ，含义如题⾯所⽰。\n之后 ⾏，每⾏包含三个正整数 ，代表第 个挡板的左右端点位置与⾼度。\n\n### 输出格式\n输出⼀个整数代表需要耗费的最少时间，如果⽆法到达则输出 。\n3.2.4 样例1\n1 3\n2 3 1\n3 5 6 3\n4 3 5 6\n5 1 4 100000\n1 100001\n3.2.5 样例范围\n耗费时间最少的移动⽅案为，从第 个挡板左端点移动到右端点，耗费 个单位时间，然后向右移动掉落到第 个\n挡板上，耗费 个单位时间，之后再向右移动 个单位长度，耗费 个单位时间，最后向右移动\n掉落到第 个挡板上，耗费 个单位时间。共耗费 个单位时间。\n\n### 数据范围\n子任务编号 数据点占比 特殊条件\n1 20%\n2 40%\n3 40%\n对于全部数据，保证有 ， ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

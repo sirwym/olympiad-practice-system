@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 5级",
+  "category": "GESP",
+  "level": "5",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 5级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "任意整数都可以分解为素数的乘积"
+        },
+        {
+          "key": "B",
+          "text": "每个合数都可以唯一分解为一系列素数的乘积"
+        },
+        {
+          "key": "C",
+          "text": "两个不同的整数可以分解为相同的素数乘积"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "唯一分解定理描述的内容是（ ）？\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "在每一步选择中都做当前状态下的最优选择"
+        },
+        {
+          "key": "B",
+          "text": "在每一步选择中都选择局部最优解"
+        },
+        {
+          "key": "C",
+          "text": "在每一步选择中都选择全局最优解"
+        },
+        {
+          "key": "D",
+          "text": "以上都对"
+        }
+      ],
+      "content": "贪心算法的核心思想是（ ）？\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "return n * factorial(n - 1);"
+        },
+        {
+          "key": "B",
+          "text": "return factorial(n - 1) / n;"
+        },
+        {
+          "key": "C",
+          "text": "return n * factorial(n);"
+        },
+        {
+          "key": "D",
+          "text": "return factorial(n / 2) * factorial(n / 2);"
+        }
+      ],
+      "content": "下面的 C++ 代码片段用于计算阶乘。请在横线处填入（ ），实现正确的阶乘计算。\n\n```cpp\nint factorial(int n) {\n    if (n == 0 || n == 1) {\n        return 1;\n    } else {\n        _________________________________ // 在此处填入代码\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "if (current->next != nullptr) current->next->prev = current->prev;"
+        },
+        {
+          "key": "B",
+          "text": "current->prev->next = current->next;"
+        },
+        {
+          "key": "C",
+          "text": "delete current->next;"
+        },
+        {
+          "key": "D",
+          "text": "current->prev = current->next;"
+        }
+      ],
+      "content": "下面的代码片段用于在双向链表中删除一个节点。请在横线处填入（ ），使其能正确实现相应功能。\n\n```cpp\nvoid deleteNode(DoublyListNode*& head, int value) {\n    DoublyListNode* current = head;\n    while (current != nullptr && current->val != value) {\n        current = current->next;\n    }\n    if (current != nullptr) {\n        if (current->prev != nullptr) {\n            ____________________________________ // 在此处填入代码\n        } else {\n            head = current->next;\n        }\n        if (current->next != nullptr) {\n            current->next->prev = current->prev;\n        }\n        delete current;\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "高斯消元法"
+        },
+        {
+          "key": "B",
+          "text": "费马定理"
+        },
+        {
+          "key": "C",
+          "text": "欧几里德算法"
+        },
+        {
+          "key": "D",
+          "text": "⽜顿迭代法"
+        }
+      ],
+      "content": "辗转相除法也被称为（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面的代码片段用于计算斐波那契数列。该代码的时间复杂度是（ ）？\n\n```cpp\nint fibonacci(int n) {\n    if (n <= 1) {\n        return n;\n    } else {\n        return fibonacci(n - 1) + fibonacci(n - 2);\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "result = to_string(sum % 10) + result;"
+        },
+        {
+          "key": "B",
+          "text": "result = to_string(carry % 10) + result;"
+        },
+        {
+          "key": "C",
+          "text": "result = to_string(sum / 10) + result;"
+        },
+        {
+          "key": "D",
+          "text": "result = to_string(sum % 10 + carry) + result;"
+        }
+      ],
+      "content": "下面的代码片段用于将两个高精度整数进行相加。请在横线处填入（ ），使其能正确实现相应功能。\n\n```cpp\nstring add(string num1, string num2) {\n    string result;\n    int carry = 0;\n    int i = num1.size() - 1, j = num2.size() - 1;\n    while (i >= 0 || j >= 0 || carry) {\n        int x = (i >= 0) ? num1[i--] - '0' : 0;\n        int y = (j >= 0) ? num2[j--] - '0' : 0;\n        int sum = x + y + carry;\n        carry = sum / 10;\n        _______________________________________\n    }\n    return result;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "给定序列：1，3，6，9，17，31，39，52，61，79，81，90，96。使用以下代码进行二分查找查找元素 82\n时，需要循环多少次，即最后输出的 times 值为（ ）。\n\n```cpp\nint binarySearch(const std::vector<int>& arr, int target) {\n    int left = 0;\n    int right = arr.size() - 1;\n    int times = 0;\n    while (left <= right) {\n        times ++;\n        int mid = left + (right - left) / 2;\n        if (arr[mid] == target) {\n            cout << times << endl;\n            return mid;\n        } else if (arr[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    cout << times << endl;\n    return -1;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "num < 2 应该改为 num <= 2"
+        },
+        {
+          "key": "B",
+          "text": "循环条件 i * i < num 应该改为 i * i <= num"
+        },
+        {
+          "key": "C",
+          "text": "循环条件应该是 i <= num"
+        },
+        {
+          "key": "D",
+          "text": "循环体中应该是 if (num % i != 0)"
+        }
+      ],
+      "content": "下面的代码片段用于判断一个正整数是否为素数。请对以下代码进行修改，使其能正确实现相应功能。（ ）\n\n```cpp\nbool isPrime(int num) {\n    if (num < 2) {\n        return false;\n    }\n    for (int i = 2; i * i < num; ++i) {\n        if (num % i == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "for (int i = 2; i <= n; ++i)"
+        },
+        {
+          "key": "B",
+          "text": "for (int i = 1; i < n; ++i)"
+        },
+        {
+          "key": "C",
+          "text": "for (int i = 2; i <= sqrt(n); ++i)"
+        },
+        {
+          "key": "D",
+          "text": "for (int i = 1; i <= sqrt(n); ++i)"
+        }
+      ],
+      "content": "在埃拉托斯特尼筛法中，要筛选出不大于 n 的所有素数，最外层循环应该遍历什么范围（ ）？\n\n```cpp\nvector<int> sieveOfEratosthenes(int n) {\n    std::vector<bool> isPrime(n + 1, true);\n    std::vector<int> primes;\n    _______________________ {\n        if (isPrime[i]) {\n            primes.push_back(i);\n            for (int j = i * i; j <= n; j += i) {\n                isPrime[j] = false;\n            }\n        }\n    }\n    for (int i = sqrt(n) + 1; i <= n; ++i) {\n        if (isPrime[i]) {\n            primes.push_back(i);\n        }\n    }\n    return primes;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "素数的线性筛法时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "动态规划"
+        },
+        {
+          "key": "B",
+          "text": "分治"
+        },
+        {
+          "key": "C",
+          "text": "贪心算法"
+        },
+        {
+          "key": "D",
+          "text": "回溯算法"
+        }
+      ],
+      "content": "归并排序的基本思想是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "不影响"
+        },
+        {
+          "key": "B",
+          "text": "时间复杂度"
+        },
+        {
+          "key": "C",
+          "text": "空间复杂度"
+        },
+        {
+          "key": "D",
+          "text": "时间复杂度和空间复杂度"
+        }
+      ],
+      "content": "在快速排序中，选择的主元素（pivot）会影响算法的（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "有终⽌条件"
+        },
+        {
+          "key": "B",
+          "text": "函数参数递减（或递增）"
+        },
+        {
+          "key": "C",
+          "text": "函数返回值固定"
+        },
+        {
+          "key": "D",
+          "text": "以上都对"
+        }
+      ],
+      "content": "递归函数在调用自身时，必须满足（ ），以避免无限递归？\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "返回 1"
+        },
+        {
+          "key": "B",
+          "text": "返回 0"
+        },
+        {
+          "key": "C",
+          "text": "死循环，无法返回"
+        },
+        {
+          "key": "D",
+          "text": "返回 -1"
+        }
+      ],
+      "content": "假设给定链表为: ，若调用 searchValue(head, 5)，函数返回值为（ ）。\n\n```cpp\nint searchValue(ListNode* head, int target) {\n    while (head != nullptr) {\n        if (head->val == target) {\n            return 1;\n        }\n        head = head->next;\n    }\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "辗转相除法用于求两个整数的最大公约数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "插入排序的时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "二分查找要求被搜索的序列是有序的，否则无法保证正确性。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "使用贪心算法解决问题时，每一步的局部最优解一定会导致全局最优解。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "分治算法的核心思想是将一个大问题分解成多个相同或相似的⼦问题进行解决，最后合并得到原问题的解。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "分治算法的典型应用之一是归并排序，其时间复杂度为 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "素数表的埃⽒筛法和线性筛法的时间复杂度都是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "贪心算法是一种可以应用于所有问题的通用解决方案。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "单链表和双链表都可以在常数时间内实现在链表头部插入或删除节点的操作。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "在C语⾔中，递归的实现方式通常会占用更多的栈空间，可能导致栈溢出。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：成绩排序**",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：-smooth 数**\n\n### 输入格式\n第⼀⾏包含两个正整数 ，含义如题⾯所⽰。\n\n### 输出格式\n输出⼀个⾮负整数，表⽰不超过 的 -smooth 数的数量。\n3.2.4 样例1\n1 10 3\n1 7\n\n### 样例解释\n在不超过 的正整数中， -smooth 数有 ，共 个。\n\n### 数据范围\n子任务编号 数据点占比\n1\n2\n3\n对于全部数据，保证有 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

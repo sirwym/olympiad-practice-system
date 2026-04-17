@@ -1,0 +1,474 @@
+{
+  "title": "2025年9月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2025-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年9月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "大电脑模型"
+        },
+        {
+          "key": "B",
+          "text": "大规模智能"
+        },
+        {
+          "key": "C",
+          "text": "智能的单位"
+        },
+        {
+          "key": "D",
+          "text": "大语⾔模型"
+        }
+      ],
+      "content": "⼈⼯智能现在非常⽕，小杨就想多了解一下，其中就经常听⼈提到“大模型”。那么请问这里说的“大模型”最\n贴切是指 ( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用循环结构"
+        },
+        {
+          "key": "B",
+          "text": "使用循环和分支的组合"
+        },
+        {
+          "key": "C",
+          "text": "仅使用顺序结构"
+        },
+        {
+          "key": "D",
+          "text": "不使用分支结构"
+        }
+      ],
+      "content": "小杨这学期刚开学就选修了一门编程课，然后就想编写程序来计算1到10001之间的所有偶数的和。他希望程\n序采用简单累加整数的方法，同时希望源程序尽可能清晰、简洁，则下面关于实现累加时采用的主要控制结构的哪\n个说法最不合适（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "XingMing 是汉语拼音，不能作为变量名称"
+        },
+        {
+          "key": "B",
+          "text": "可以将 XingMing 改为 Xing Ming"
+        },
+        {
+          "key": "C",
+          "text": "可以将 XingMing 改为 xingming"
+        },
+        {
+          "key": "D",
+          "text": "可以将 XingMing 改为 Xing-Ming"
+        }
+      ],
+      "content": "下面的C++代码用于输入姓名，然后输出姓名，正确的说法是( )。\n\n```cpp\nstring XingMing;\ncout << \"请输入您的姓名：\";\ncin >> XingMing;\ncout << XingMing;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 3"
+        },
+        {
+          "key": "B",
+          "text": "23"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "以上都不准确"
+        }
+      ],
+      "content": "下列C++代码中a和b都是整型变量，执行后，其结果是( )。\n\n```cpp\na = 13;\nb = 5;\ncout << a / b << a %// b << a % b;\na*b;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "C++表达式3 * 4 % 5 / 6的值是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "{30}"
+        },
+        {
+          "key": "B",
+          "text": "1020"
+        },
+        {
+          "key": "C",
+          "text": "{N+M}"
+        },
+        {
+          "key": "D",
+          "text": "不输出，继续等待输入"
+        }
+      ],
+      "content": "下面的C++代码中变量N和M都是整型，则执行时如果先输入10并输入一个制表符后输入20并回车，其输出\n的数值是( )。\n\n```cpp\nscanf(\"%d\", &N);\nscanf(\"%d\", &M);\nprintf(\"{%d}\",N+M);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % 12"
+        },
+        {
+          "key": "B",
+          "text": "9 + N % 12"
+        },
+        {
+          "key": "C",
+          "text": "(9 + N) / 12"
+        },
+        {
+          "key": "D",
+          "text": "(9 + N) % 12"
+        }
+      ],
+      "content": "当前是9月，编写C++代码求N个月后的月份。横线处应填入的代码是（ ）。\n\n```cpp\nint N, M;\ncin >> N;\nM = _____________;\nif (M == 0)\nprintf(\"%d个月后12月\", N);\nelse\nprintf(\"%d个月后是%d月\", N, M);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "5050"
+        },
+        {
+          "key": "B",
+          "text": "4950"
+        },
+        {
+          "key": "C",
+          "text": "50"
+        },
+        {
+          "key": "D",
+          "text": "49"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint n = 0;\nfor (int i =0; i < 100; i++)\nn += i % 2;\ncout << n;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "900"
+        },
+        {
+          "key": "B",
+          "text": "100"
+        },
+        {
+          "key": "C",
+          "text": "0"
+        },
+        {
+          "key": "D",
+          "text": "-100"
+        }
+      ],
+      "content": "下面的C++代码执行后输出是（ ）。\n\n```cpp\nint N = 0, i;\nfor (i = -100; i < 100; i++)\nN += i % 10;\ncout << N;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1#2#"
+        },
+        {
+          "key": "B",
+          "text": "1#2#END"
+        },
+        {
+          "key": "C",
+          "text": "1#2"
+        },
+        {
+          "key": "D",
+          "text": "1#2#3#4#END"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint i;\nfor(i = 1; i < 5; i++){\n    if(i % 3 == 0)\n    break;\n    printf(\"%d#\",i);\n}\nif(i > 5) printf(\"END\\n\");\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "N != 0"
+        },
+        {
+          "key": "B",
+          "text": "not (N == 0)"
+        },
+        {
+          "key": "C",
+          "text": "N = 0"
+        },
+        {
+          "key": "D",
+          "text": "N > 0"
+        }
+      ],
+      "content": "下面的C++代码用于求N的镜面数（N的个位到最高位的各位数字依次反过来出现在数字中，但高位0将被忽\n略，不输出），如输入1234，则将输出4321，⼜如输入120，则将输出21，错误的选项是（ ）。\n\n```cpp\ncout << \"请输入个位数不为0的正整数：\";\ncin >> N;\nrst = 0; // 保存逆序结果\nwhile (______________){\n    rst = rst * 10 + N % 10;\n    N = N / 10;\n}\ncout << rst << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\ncout << \"输入第一个正整数: \";\ncin >> a;\ncout <<\"输入第二个正整数: \";\ncin >> b;\ntemp = a;\na = b;\nb = temp;\ncout << \"a=\" << a << \" b=\" << b << endl;\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\ncout << \"输入第一个正整数: \";\ncin >> a;\ncout <<\"输入第二个正整数: \";\ncin >> b;\nb = a - b;\na = a - b;\nb = a + b;\ncout << \"a=\" << a << \" b=\" << b << endl;\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\ncout << \"输入第一个正整数: \";\ncin >> a;\ncout <<\"输入第二个正整数: \";\ncin >> b;\na = a + b;\nb = a - b;\na = a - b;\ncout << \"a=\" << a << \" b=\" << b << endl;\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\ncout << \"输入第一个正整数: \";\ncin >> a;\ncout <<\"输入第二个正整数: \";\ncin >> b;\na, b = b, a;\ncout << \"a=\" << a << \" b=\" << b << endl;\n```\n"
+        }
+      ],
+      "content": "下面C++代码用于交换两个正整数a和b的值，不能实现交换的代码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % div / 10"
+        },
+        {
+          "key": "B",
+          "text": "N / div / 10"
+        },
+        {
+          "key": "C",
+          "text": "N % div % 10"
+        },
+        {
+          "key": "D",
+          "text": "N / div % 10"
+        }
+      ],
+      "content": "下面C++代码用于获得正整数N的第M位数，约定个位数为第1位，如N等于1234，M等于2，则输出3。假设\nM的值是大于等于1且小于等于N的位数。横线处应填入的代码是( )。\n\n```cpp\nint N, M, div=1;\ncout << \"请输入一个正整数：\";\ncin >> N;\ncout <<\"请输入从右到左取第几位数：\";\ncin >> M;\nfor (int i =0; i < (M - 1); i++) div *= 10;\ncout << (______________);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1#2#4#5#6#"
+        },
+        {
+          "key": "B",
+          "text": "1#2#4#5#6"
+        },
+        {
+          "key": "C",
+          "text": "1#2#3#4#5#6#"
+        },
+        {
+          "key": "D",
+          "text": "1#2#3#4#5#6"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nnum = 0;\nwhile (num <= 5){\n    num += 1;\n    if (num == 3)\n    continue;\n    printf(\"%d#\", num);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "程序运行时如果第一个数输入 -999，则输出将是-999 -999"
+        },
+        {
+          "key": "B",
+          "text": "程序输入过程中，如果输入的第一个数不是 -999，则如果待输入的数据中没有 -999，则程序能求出已输\n入整数中的最大数和最小数\n"
+        },
+        {
+          "key": "C",
+          "text": "如果用于输入考试成绩，即成绩中不可能有 -999，则程序能求出已输入成绩中的最高成绩和最低成绩"
+        },
+        {
+          "key": "D",
+          "text": "可以将cin >> now_num;移动到while (now_num != -999) {下面，结果不变"
+        }
+      ],
+      "content": "下面C++代码用于记录多个输入数中的最大数和最小数（输入 -999 则输入结束），相关说法错误的是（\n）。\n\n```cpp\ncin >> now_num;\nmin_num = max_num = now_num;\nwhile (now_num != -999){\n    if (max_num < now_num)\n    max_num = now_num;\n    if (min_num > now_num)\n    min_num = now_num;\n    cin >> now_num;\n}\ncout << min_num << ' ' << max_num;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在集成开发环境里调试程序时，要注意不能修改源程序，因为如果修改，就要终⽌调试、关闭该文件并重新\n打开，才能再次开始调试。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++表达式10 % 0.5将报错，因为 0.5 所在位置只能是整数。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出 9。 ( )\n\n```cpp\nfor (i = 0; i < 10; i++)\nbreak;\ncout << i;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出 55。（ ）\n\n```cpp\nn = 0;\nfor (int i = 0; i > -10; i--)\nn = n + i * -1;\ncout << n;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "将下面C++代码中的 L1 行的i = 0修改为i = 1， 其输出与当前代码输出相同。（ ）\n\n```cpp\ncnt = 0;\nfor (int i = 0; i < 100; i++) // L1\ncnt += i;\ncout << cnt\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "将下面C++代码中的i < 10修改为i <= 10，其执行后输出相同。（ ）\n\n```cpp\nint n, i;\nn = i = 0;\nwhile (i < 10){\n    n += i;\n    i += 1;\n}\ncout << n;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的C++代码执行后将输出 45。（ ）\n\n```cpp\nint n, i;\nn = i = 0;\nwhile (i < 10){\n    i += 1;\n    n += i;\n}\ncout << n;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码cout << (12 + 12.12)将报错，因为 12 是 int 类型，⽽ 12.12 是 floa t类型，不同\n类型不能直接运算。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行时将导致无限循环（也称死循环）。（ ）\n\n```cpp\nint count = 0;\nwhile (count < 5){\n    count += 1;\n    if (count == 3)\n    continue;\n    cout << count << ' ';\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "下列C++代码用于求斐波那契数列，即第1个数为0，第2个数为1，从第三个数开始，依次是其前两个数之\n和。如果输入的值为大于1的正整数，该代码能实现所求。（ ）\n\n```cpp\ncin >> n;\na = 0, b = 1;\nfor (int j = 0; j < n; j++){\n    cout << a << \" \";\n    b = b + a;\n    a = b - a;\n}\n```\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：商店折扣**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n商店正在开展促销活动，给出了两种⽅案的折扣优惠。第⼀种⽅案是购物满 元减 元；第⼆种⽅案是直接打\n折，也就是说价格变为原先的 。这⾥的 均是正整数，并且 ， 。\n\n### 输入格式\n四⾏，四个正整数 ，含义见题⽬描述。\n\n### 输出格式\n⼀⾏，⼀个⼩数，表⽰⼩明最少需要⽀付多少钱，保留两位⼩数。\n\n### 数据范围\n对于所有测试点，保证 ， ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⾦字塔**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⾦字塔由 层⽯块垒成。从塔底向上，每层依次需要 块⽯块。请问搭建⾦\n字塔总共需要多少块⽯块？\n\n### 输入格式\n⼀⾏，⼀个正整数 ，表⽰⾦字塔的层数。\n\n### 输出格式\n⼀⾏，⼀个正整数，表⽰搭建⾦字塔所需的⽯块数量。\n\n### 数据范围\n对于所有测试点，保证 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ paper.title }}</title>
+    <link rel="icon" href="../assets/favicon.ico">
+    <!-- 本地资源，无需联网 -->
+    <script src="../assets/js/tailwind.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Prism.js 代码高亮（本地，One Light 浅色配色） -->
+    <link href="../assets/css/prism-one-light.min.css" rel="stylesheet">
+    <script src="../assets/js/prism-bundle.min.js"></script>
+    <!-- KaTeX 数学公式渲染（本地，离线可用） -->
+    <link href="../assets/css/katex.min.css" rel="stylesheet">
+    <script src="../assets/js/katex.min.js"></script>
+    <script src="../assets/js/katex-auto-render.min.js"></script>
+    <style>
+        /* 使用系统字体，无需联网 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+        }
+
+        code, pre {
+            font-family: 'Menlo', 'Consolas', 'Monaco', 'Courier New', monospace;
+        }
+
+        /* 答题卡锚点动画 */
+        .nav-dot {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .nav-dot.answered {
+            background-color: #3b82f6;
+            color: white;
+            border-color: #3b82f6;
+        }
+        .nav-dot.correct {
+            background-color: #22c55e;
+            color: white;
+            border-color: #22c55e;
+        }
+        .nav-dot.wrong {
+            background-color: #ef4444;
+            color: white;
+            border-color: #ef4444;
+        }
+
+        /* 选项卡片 */
+        .option-card {
+            transition: all 0.15s ease;
+        }
+        .option-card:hover {
+            border-color: #93c5fd;
+            background-color: #eff6ff;
+        }
+        .option-card.selected {
+            border-color: #3b82f6;
+            background-color: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        /* 判断题选项 */
+        .judge-btn {
+            transition: all 0.15s ease;
+        }
+        .judge-btn.selected {
+            border-color: #3b82f6;
+            background-color: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        /* 错误高亮 */
+        .question-card.wrong {
+            border-color: #fca5a5 !important;
+            background-color: #fef2f2 !important;
+        }
+        .question-card.correct {
+            border-color: #86efac !important;
+            background-color: #f0fdf4 !important;
+        }
+
+        /* 填空输入 */
+        .fill-input {
+            transition: border-color 0.15s ease;
+        }
+        .fill-input:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+
+        /* 进度条动画 */
+        .progress-bar {
+            transition: width 0.3s ease;
+        }
+
+        /* 代码块样式 - 基于 Prism.js One Light 浅色主题 */
+        .question-content p {
+            margin: 0 0 0.4em;
+        }
+        .question-content p:last-child {
+            margin-bottom: 0;
+        }
+        .question-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 8px 0;
+        }
+        /* NCT KITTEN 图片缩小 */
+        .nct-kitten-page .question-content img {
+            max-width: 60%;
+        }
+        .question-content pre {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 14px 16px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.5;
+            margin: 10px 0;
+            border: 1px solid #e5e7eb;
+        }
+        .question-content pre code {
+            font-family: 'Menlo', 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 13px;
+            background: none;
+            padding: 0;
+            tab-size: 4;
+            white-space: pre;
+            word-break: normal;
+            overflow-wrap: normal;
+        }
+        /* 行内代码 */
+        .question-content code {
+            font-family: 'Menlo', 'Consolas', 'Monaco', monospace;
+            background-color: #f1f5f9;
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-size: 0.88em;
+            color: #e11d48;
+        }
+        /* 覆盖 Prism 主题中可能干扰的样式 */
+        .question-content pre[class*="language-"] {
+            margin: 10px 0;
+            padding: 14px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            background-color: #fafafa;
+            border: 1px solid #e5e7eb;
+        }
+        .question-content code[class*="language-"] {
+            font-size: 13px;
+            font-family: 'Menlo', 'Consolas', 'Monaco', 'Courier New', monospace;
+        }
+
+        /* Toast 通知 */
+        .toast {
+            animation: slideIn 0.3s ease, fadeOut 0.3s ease 2.7s;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeOut {
+            from { opacity: 1; }
+            to { opacity: 0; }
+        }
+
+        /* 顶部计时器脉冲 */
+        @keyframes pulse-warning {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .timer-warning {
+            animation: pulse-warning 1s ease-in-out infinite;
+        }
+
+        /* 平滑滚动 */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen{% if is_nct_kitten %} nct-kitten-page{% endif %}">
+
+    <!-- 顶部导航栏 -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="../assets/logo.png" alt="Logo" class="w-8 h-8 rounded-lg">
+                <div>
+                    <h1 class="text-sm font-semibold text-gray-900 leading-tight">{{ paper.title }}</h1>
+                    <p class="text-xs text-gray-500">{{ paper.category }}{% if paper.level %} · {{ paper.level }}级{% endif %} · {{ paper.date }}</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <!-- 最高分徽章 -->
+                <div id="bestScoreBadge" class="hidden items-center gap-1 px-2.5 py-1 bg-amber-50 border border-amber-200 rounded-full">
+                    <svg class="w-3.5 h-3.5 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    </svg>
+                    <span class="text-xs font-medium text-amber-700" id="bestScoreText">0</span>
+                </div>
+                <!-- 计时器 -->
+                <div id="timerDisplay" class="flex items-center gap-1 text-sm font-mono text-gray-500">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span id="timerText">{{ paper.time_limit }}:00</span>
+                </div>
+            </div>
+        </div>
+        <!-- 答题进度条 -->
+        <div class="h-0.5 bg-gray-100">
+            <div id="progressBar" class="progress-bar h-full bg-brand-500" style="width: 0%"></div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-6 pb-32">
+
+        <!-- 试卷信息卡 -->
+        <div class="mb-8 p-5 bg-white rounded-xl border border-gray-200 shadow-sm">
+            <div class="flex flex-wrap gap-4 text-sm text-gray-600">
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                    </svg>
+                    满分 <span class="font-semibold text-gray-900">{{ paper.total_score }}</span> 分
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    时长 <span class="font-semibold text-gray-900">{{ paper.time_limit }}</span> 分钟
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01"/>
+                    </svg>
+                    共 <span class="font-semibold text-gray-900">{{ questions|length }}</span> 题
+                </div>
+            </div>
+            {% if paper.description %}
+            <p class="mt-3 text-sm text-gray-500">{{ paper.description }}</p>
+            {% endif %}
+        </div>
+
+        <!-- 答题卡导航 -->
+        <div class="mb-6 p-4 bg-white rounded-xl border border-gray-200 shadow-sm">
+            <div class="flex items-center justify-between mb-3">
+                <span class="text-sm font-medium text-gray-700">答题卡</span>
+                <span class="text-xs text-gray-400" id="answeredCount">已答 0/{{ questions|length }}</span>
+            </div>
+            <div class="grid grid-cols-10 gap-2" id="navGrid">
+                {% set ns2 = namespace(uid=0) %}
+                {% for q in questions %}
+                {% set ns2.uid = ns2.uid + 1 %}
+                {% if q.type == 'program' %}
+                <button
+                    class="nav-dot w-full aspect-square rounded-lg border border-gray-200 text-xs font-medium text-gray-400 flex items-center justify-center bg-gray-50"
+                    data-uid="{{ ns2.uid }}"
+                    onclick="scrollToQuestion({{ ns2.uid }})"
+                    title="编程操作题（不参与评分）"
+                >
+                    {{ q.id }}
+                </button>
+                {% else %}
+                <button
+                    class="nav-dot w-full aspect-square rounded-lg border border-gray-200 text-xs font-medium text-gray-500 flex items-center justify-center hover:border-brand-300"
+                    data-uid="{{ ns2.uid }}"
+                    onclick="scrollToQuestion({{ ns2.uid }})"
+                >
+                    {{ q.id }}
+                </button>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <div class="flex items-center gap-4 mt-3 text-xs text-gray-400">
+                <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-brand-500"></span>已答</span>
+                <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-green-500"></span>正确</span>
+                <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-red-500"></span>错误</span>
+                <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded bg-gray-300"></span>编程题</span>
+            </div>
+        </div>
+
+        <!-- ===== 题目区域 ===== -->
+        {% set ns = namespace(uid=0) %}
+
+        {# 判断是否有 section 字段（CSP 试卷有，GESP 没有）#}
+        {% set has_section = questions[0].section is defined %}
+
+        {# ===== 按 type 分组（GESP 模式）===== #}
+        {% if not has_section %}
+
+        {# 单选题 #}
+        {% set choice_questions = questions|selectattr('type', 'equalto', 'choice')|list %}
+        {% if choice_questions %}
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 bg-brand-100 text-brand-600 rounded text-xs font-bold flex items-center justify-center">选</span>
+                单选题（共 {{ choice_questions|length }} 题，每题 {{ choice_questions[0].score }} 分）
+            </h2>
+            {% for q in choice_questions %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3 mb-4">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
+                </div>
+                <div class="space-y-2 pl-10">
+                    {% for opt in q.options %}
+                    <label class="option-card flex items-center gap-3 p-3 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
+                        <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
+                        <span class="shrink-0 w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-xs font-medium text-gray-400 option-marker">{{ opt.key }}</span>
+                        <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+                <div class="answer-hint hidden mt-3 pl-10"></div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# 判断题 #}
+        {% set judge_questions = questions|selectattr('type', 'equalto', 'judge')|list %}
+        {% if judge_questions %}
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 bg-amber-100 text-amber-600 rounded text-xs font-bold flex items-center justify-center">判</span>
+                判断题（共 {{ judge_questions|length }} 题，每题 {{ judge_questions[0].score }} 分）
+            </h2>
+            {% for q in judge_questions %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3 mb-4">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
+                </div>
+                <div class="flex gap-3 pl-10">
+                    <button class="judge-btn flex-1 py-2.5 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="true" onclick="onAnswer({{ ns.uid }}, 'judge', 'true')">
+                        <span class="mr-1">✓</span> 正确
+                    </button>
+                    <button class="judge-btn flex-1 py-2.5 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="false" onclick="onAnswer({{ ns.uid }}, 'judge', 'false')">
+                        <span class="mr-1">✗</span> 错误
+                    </button>
+                </div>
+                <div class="answer-hint hidden mt-3 pl-10"></div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# 填空题 #}
+        {% set fill_questions = questions|selectattr('type', 'equalto', 'fill')|list %}
+        {% if fill_questions %}
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 bg-violet-100 text-violet-600 rounded text-xs font-bold flex items-center justify-center">填</span>
+                填空题（共 {{ fill_questions|length }} 题，每题 {{ fill_questions[0].score }} 分）
+            </h2>
+            {% for q in fill_questions %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3 mb-4">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
+                </div>
+                <div class="pl-10">
+                    <input
+                        type="text"
+                        class="fill-input w-full max-w-xs px-4 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none"
+                        oninput="onFillInput({{ ns.uid }}, this.value)"
+                        placeholder="请输入答案"
+                        id="fill-{{ ns.uid }}"
+                        oninput="onAnswer({{ ns.uid }}, 'fill', this.value)"
+                    >
+                </div>
+                <div class="answer-hint hidden mt-3 pl-10"></div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# 编程操作题/创作题（只读） #}
+        {% set program_questions = questions|selectattr('type', 'equalto', 'program')|list %}
+        {% if program_questions %}
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 bg-gray-100 text-gray-500 rounded text-xs font-bold flex items-center justify-center">编</span>
+                编程操作题（共 {{ program_questions|length }} 题，共 {% set s = namespace(v=0) %}{% for pq in program_questions %}{% set s.v = s.v + pq.score %}{% endfor %}{{ s.v }} 分）
+            </h2>
+            {% for q in program_questions %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="program" data-answer="None" data-score="0" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3">
+                    <span class="shrink-0 w-7 h-7 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-500">{{ q.id }}</span>
+                    <div class="flex-1">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="px-2 py-0.5 bg-gray-100 text-gray-500 text-xs font-medium rounded">编程操作题</span>
+                            <span class="text-xs text-gray-400">{{ q.score }}分</span>
+                        </div>
+                        <div class="question-content text-gray-800 leading-relaxed">{{ q.content }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {# ===== 按 section 分组（CSP 模式）===== #}
+        {% else %}
+
+        {# 收集所有唯一的 section #}
+        {% set sections = [] %}
+        {% for q in questions %}
+            {% if q.section not in sections %}
+                {% set _ = sections.append(q.section) %}
+            {% endif %}
+        {% endfor %}
+
+        {% for section_name in sections %}
+        {% set section_qs = questions|selectattr('section', 'equalto', section_name)|list %}
+
+        {# 判断 section 类型以决定图标和样式 #}
+        {% set is_reading = ('阅读' in section_name) %}
+        {% set is_complete = ('完善' in section_name) %}
+        {% set is_choice_only = (not is_reading and not is_complete) %}
+
+        {% if is_choice_only %}
+        {% set icon_bg = "bg-brand-100" %}
+        {% set icon_text = "bg-brand-600" %}
+        {% set icon_label = "选" %}
+        {% elif is_reading %}
+        {% set icon_bg = "bg-green-100" %}
+        {% set icon_text = "bg-green-600" %}
+        {% set icon_label = "阅" %}
+        {% else %}
+        {% set icon_bg = "bg-purple-100" %}
+        {% set icon_text = "bg-purple-600" %}
+        {% set icon_label = "完" %}
+        {% endif %}
+
+        {# 计算该 section 总分 #}
+        {% set section_total_score = 0 %}
+        {% for sq in section_qs %}
+            {% set section_total_score = section_total_score + sq.score %}
+        {% endfor %}
+
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 {{ icon_bg }} {{ icon_text }} rounded text-xs font-bold flex items-center justify-center">{{ icon_label }}</span>
+                {{ section_name }}（共 {{ section_qs|length }} 题，共 {{ section_total_score }} 分）
+            </h2>
+
+            {% if is_choice_only %}
+            {# ===== 单项选择题：普通模式（每题独立）===== #}
+            {% for q in section_qs %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3 mb-4">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
+                </div>
+                <div class="space-y-2 pl-10">
+                    {% for opt in q.options %}
+                    <label class="option-card flex items-center gap-3 p-3 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
+                        <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
+                        <span class="shrink-0 w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-xs font-medium text-gray-400 option-marker">{{ opt.key }}</span>
+                        <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+                <div class="answer-hint hidden mt-3 pl-10"></div>
+            </div>
+            {% endfor %}
+
+            {% else %}
+            {# ===== 阅读程序/完善程序：大题+子题模式 ===== #}
+            {# 按 group_id 分组 #}
+            {% set shown_groups = [] %}
+            {% for q in section_qs %}
+            {% set ns.uid = ns.uid + 1 %}
+
+            {# 判断是否是大题首题（有 shared_code）#}
+            {% set is_group_head = q.is_group_head | default(false) %}
+
+            {# 判断是否是阅读程序判断题（选项为正确/错误）#}
+            {% set is_judge_style = (is_reading and q.options and q.options|length == 2 and q.options[0].key == 'A' and q.options[1].key == 'B' and ('正确' in q.options[0].text or '错误' in q.options[1].text)) %}
+
+            {% if is_group_head %}
+            {# ===== 大题头部：显示代码块（仅一次）===== #}
+            <div class="question-group mb-6 bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                {# 代码区域 #}
+                <div class="p-5 border-b border-gray-100 bg-gray-50/50">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-0.5 {{ icon_bg }} {{ icon_text }} text-xs font-semibold rounded">程序代码</span>
+                        <span class="text-xs text-gray-400">请先阅读以下程序</span>
+                    </div>
+                    <div class="question-content text-gray-800 leading-relaxed">{{ q.shared_code }}</div>
+                </div>
+                {# 子题列表容器 #}
+                <div class="divide-y divide-gray-100">
+
+                {# 渲染第一个子题（大题头部的题）#}
+                {% if is_judge_style %}
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                    <div class="flex items-start gap-3">
+                        <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                        <div class="flex-1">
+                            <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
+                            <div class="flex gap-3">
+                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="A" onclick="onAnswer({{ ns.uid }}, 'judge', 'A')">
+                                    <span class="mr-1">✓</span> {{ q.options[0].text }}
+                                </button>
+                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="B" onclick="onAnswer({{ ns.uid }}, 'judge', 'B')">
+                                    <span class="mr-1">✗</span> {{ q.options[1].text }}
+                                </button>
+                            </div>
+                            <div class="answer-hint hidden mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                    <div class="flex items-start gap-3">
+                        <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                        <div class="flex-1">
+                            <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
+                            <div class="space-y-1.5">
+                                {% for opt in q.options %}
+                                <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
+                                    <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
+                                    <span class="shrink-0 w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker">{{ opt.key }}</span>
+                                    <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                                </label>
+                                {% endfor %}
+                            </div>
+                            <div class="answer-hint hidden mt-3"></div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
+            {% else %}
+            {# ===== 后续子题：只显示问题文字和选项（无代码）===== #}
+            {% if is_judge_style %}
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="flex-1">
+                        <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
+                        <div class="flex gap-3">
+                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="A" onclick="onAnswer({{ ns.uid }}, 'judge', 'A')">
+                                <span class="mr-1">✓</span> {{ q.options[0].text }}
+                            </button>
+                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="B" onclick="onAnswer({{ ns.uid }}, 'judge', 'B')">
+                                <span class="mr-1">✗</span> {{ q.options[1].text }}
+                            </button>
+                        </div>
+                        <div class="answer-hint hidden mt-3"></div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="flex-1">
+                        <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
+                        <div class="space-y-1.5">
+                            {% for opt in q.options %}
+                            <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
+                                <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
+                                <span class="shrink-0 w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker">{{ opt.key }}</span>
+                                <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                            </label>
+                            {% endfor %}
+                        </div>
+                        <div class="answer-hint hidden mt-3"></div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+
+            {# 关闭分组容器：如果是组内最后一题 #}
+            {% if q.is_group_last | default(false) %}
+                </div>{# 关闭 divide-y 容器 #}
+                </div>{# 关闭 question-group #}
+            {% endif %}
+
+            {% endfor %}
+            {# 阅读程序/完善程序结束 #}
+            {% endif %}
+
+        </div>
+        {% endfor %}
+
+        {% endif %}
+
+    </main>
+
+    <!-- 底部操作栏 -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="text-sm text-gray-500">
+                <span id="answeredSummary">已答 0/{{ questions|length }}</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="resetAll()" class="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-800 rounded-lg hover:bg-gray-100 transition-colors">
+                    重置
+                </button>
+                <button onclick="submitExam()" id="submitBtn" class="px-6 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg shadow-sm hover:shadow transition-all">
+                    提交试卷
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 成绩弹窗 -->
+    <div id="resultModal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" onclick="closeResult()"></div>
+        <div class="relative bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 text-center">
+            <div id="resultIcon" class="w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl"></div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-1">考试完成</h3>
+            <p class="text-gray-500 text-sm mb-4">{{ paper.title }}</p>
+            <div class="mb-6">
+                <span class="text-5xl font-bold" id="resultScore">0</span>
+                <span class="text-xl text-gray-400"> / {{ paper.total_score }}</span>
+            </div>
+            <div class="grid grid-cols-3 gap-3 mb-6 text-center">
+                <div class="p-3 bg-green-50 rounded-xl">
+                    <div class="text-2xl font-bold text-green-600" id="correctCount">0</div>
+                    <div class="text-xs text-green-500 mt-1">正确</div>
+                </div>
+                <div class="p-3 bg-red-50 rounded-xl">
+                    <div class="text-2xl font-bold text-red-600" id="wrongCount">0</div>
+                    <div class="text-xs text-red-500 mt-1">错误</div>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-xl">
+                    <div class="text-2xl font-bold text-gray-600" id="unansweredCount">0</div>
+                    <div class="text-xs text-gray-500 mt-1">未答</div>
+                </div>
+            </div>
+            <div id="newRecordBadge" class="hidden mb-4">
+                <span class="inline-flex items-center gap-1 px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium">
+                    🏆 新纪录！
+                </span>
+            </div>
+            <div class="flex gap-3">
+                <button onclick="closeResult()" class="flex-1 py-2.5 border border-gray-200 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-50 transition-colors">
+                    查看详情
+                </button>
+                <button onclick="retryExam()" class="flex-1 py-2.5 bg-brand-600 text-white rounded-lg text-sm font-semibold hover:bg-brand-700 transition-colors">
+                    重新作答
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== 数据 =====
+        const PAPER_KEY = '{{ paper_slug }}';
+        const TOTAL_QUESTIONS = {{ questions|length }};
+        const TOTAL_SCORE = {{ paper.total_score }};
+        const TIME_LIMIT = {{ paper.time_limit }}; // 分钟
+
+        // 用户答案存储
+        const userAnswers = {};
+        // 是否已提交
+        let submitted = false;
+        // 计时器
+        let timerInterval = null;
+        let remainingSeconds = TIME_LIMIT * 60;
+
+        // ===== 初始化 =====
+        document.addEventListener('DOMContentLoaded', () => {
+            loadBestScore();
+            loadAnswers();  // 从 localStorage 恢复之前的答案
+            startTimer();
+        });
+
+        // ===== 答题逻辑 =====
+        function onAnswer(uid, type, value) {
+            if (submitted) return;
+
+            userAnswers[uid] = value.trim();
+
+            // 保存到 localStorage（持久化）
+            saveAnswer(uid, value.trim());
+
+            // 更新 UI 状态
+            if (type === 'choice') {
+                const card = document.getElementById('q-' + uid);
+                card.querySelectorAll('.option-card').forEach(el => {
+                    el.classList.remove('selected');
+                    el.querySelector('.option-marker').classList.remove('border-brand-500', 'text-brand-600', 'bg-brand-50');
+                });
+                const selected = card.querySelector(`.option-card[data-key="${value}"]`);
+                selected.classList.add('selected');
+                selected.querySelector('.option-marker').classList.add('border-brand-500', 'text-brand-600');
+            } else if (type === 'judge') {
+                const card = document.getElementById('q-' + uid);
+                card.querySelectorAll('.judge-btn').forEach(el => el.classList.remove('selected'));
+                const btn = card.querySelector(`.judge-btn[data-value="${value}"]`);
+                btn.classList.add('selected');
+            }
+
+            updateNavDots();
+            updateProgress();
+        }
+
+        function updateNavDots() {
+            let answered = 0;
+            document.querySelectorAll('.nav-dot').forEach(dot => {
+                const uid = parseInt(dot.dataset.uid);
+                if (userAnswers[uid] !== undefined && userAnswers[uid] !== '') {
+                    dot.classList.add('answered');
+                    answered++;
+                } else {
+                    dot.classList.remove('answered');
+                }
+            });
+            document.getElementById('answeredCount').textContent = `已答 ${answered}/${TOTAL_QUESTIONS}`;
+            document.getElementById('answeredSummary').textContent = `已答 ${answered}/${TOTAL_QUESTIONS}`;
+        }
+
+        function updateProgress() {
+            const answered = Object.keys(userAnswers).filter(k => userAnswers[k] !== '').length;
+            const pct = Math.round((answered / TOTAL_QUESTIONS) * 100);
+            document.getElementById('progressBar').style.width = pct + '%';
+        }
+
+        function scrollToQuestion(uid) {
+            const el = document.getElementById('q-' + uid);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                el.style.boxShadow = '0 0 0 2px rgba(59, 130, 246, 0.4)';
+                setTimeout(() => { el.style.boxShadow = ''; }, 1500);
+            }
+        }
+
+        // ===== 计时器 =====
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                remainingSeconds--;
+                if (remainingSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    submitExam();
+                    return;
+                }
+                const min = Math.floor(remainingSeconds / 60);
+                const sec = remainingSeconds % 60;
+                const timerText = document.getElementById('timerText');
+                timerText.textContent = `${min}:${sec.toString().padStart(2, '0')}`;
+
+                // 不足5分钟警告
+                if (remainingSeconds < 300) {
+                    timerText.parentElement.classList.add('timer-warning', 'text-red-500');
+                    timerText.parentElement.classList.remove('text-gray-500');
+                }
+            }, 1000);
+        }
+
+        // ===== 提交试卷 =====
+        function submitExam() {
+            if (submitted) return;
+            submitted = true;
+            clearInterval(timerInterval);
+
+            let totalScore = 0;
+            let correctTotal = 0;
+            let wrongTotal = 0;
+            let unansweredTotal = 0;
+
+            document.querySelectorAll('.question-card').forEach(card => {
+                const uid = parseInt(card.dataset.uid);
+                const qid = parseInt(card.dataset.qid);
+                const type = card.dataset.type;
+                const correctAnswer = card.dataset.answer;
+                const score = parseInt(card.dataset.score);
+                const userAnswer = (userAnswers[uid] || '').trim();
+
+                // 编程操作题不参与评分
+                if (type === 'program') return;
+
+                const hintEl = card.querySelector('.answer-hint');
+                hintEl.classList.remove('hidden');
+
+                if (!userAnswer) {
+                    // 未答
+                    unansweredTotal++;
+                    card.classList.add('wrong');
+                    hintEl.innerHTML = `<span class="text-sm text-red-600 font-medium">⚠️ 未作答，正确答案：<span class="font-mono">${escapeHtml(correctAnswer)}</span></span>`;
+                    updateNavDotState(uid, 'wrong');
+                } else {
+                    const isCorrect = checkAnswer(userAnswer, correctAnswer, type);
+                    if (isCorrect) {
+                        totalScore += score;
+                        correctTotal++;
+                        card.classList.add('correct');
+                        hintEl.innerHTML = `<span class="text-sm text-green-600 font-medium">✓ 回答正确</span>`;
+                        updateNavDotState(uid, 'correct');
+                    } else {
+                        wrongTotal++;
+                        card.classList.add('wrong');
+                        hintEl.innerHTML = `<span class="text-sm text-red-600 font-medium">✗ 回答错误，正确答案：<span class="font-mono">${escapeHtml(correctAnswer)}</span></span>`;
+                        updateNavDotState(uid, 'wrong');
+                    }
+                }
+            });
+
+            // 保存最高分
+            const isNewRecord = saveBestScore(totalScore);
+
+            // 显示结果弹窗
+            showResult(totalScore, correctTotal, wrongTotal, unansweredTotal, isNewRecord);
+
+            // 禁用提交按钮
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.classList.add('opacity-50', 'cursor-not-allowed');
+            btn.textContent = '已提交';
+        }
+
+        function checkAnswer(userAnswer, correctAnswer, type) {
+            if (type === 'judge') {
+                return userAnswer.toLowerCase() === correctAnswer.toLowerCase();
+            }
+            if (type === 'fill') {
+                return userAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
+            }
+            // choice
+            return userAnswer.toUpperCase() === correctAnswer.toUpperCase();
+        }
+
+        function updateNavDotState(uid, state) {
+            const dot = document.querySelector(`.nav-dot[data-uid="${uid}"]`);
+            if (dot) {
+                dot.classList.remove('answered');
+                dot.classList.add(state);
+            }
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // ===== 结果弹窗 =====
+        function showResult(score, correct, wrong, unanswered, isNewRecord) {
+            const pct = Math.round((score / TOTAL_SCORE) * 100);
+            const icon = document.getElementById('resultIcon');
+            if (pct >= 90) {
+                icon.textContent = '🎉';
+                icon.className = 'w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl bg-green-50';
+            } else if (pct >= 60) {
+                icon.textContent = '👍';
+                icon.className = 'w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl bg-blue-50';
+            } else {
+                icon.textContent = '💪';
+                icon.className = 'w-20 h-20 mx-auto mb-4 rounded-full flex items-center justify-center text-4xl bg-amber-50';
+            }
+
+            document.getElementById('resultScore').textContent = score;
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('wrongCount').textContent = wrong;
+            document.getElementById('unansweredCount').textContent = unanswered;
+
+            if (isNewRecord) {
+                document.getElementById('newRecordBadge').classList.remove('hidden');
+            } else {
+                document.getElementById('newRecordBadge').classList.add('hidden');
+            }
+
+            document.getElementById('resultModal').classList.remove('hidden');
+        }
+
+        function closeResult() {
+            document.getElementById('resultModal').classList.add('hidden');
+        }
+
+        // ===== localStorage =====
+        function getStorageKey() {
+            return `exam_${PAPER_KEY}_best`;
+        }
+
+        // 答案持久化 key
+        const ANSWERS_KEY = 'exam_' + PAPER_KEY + '_answers';
+
+        // 保存单个答案到 localStorage
+        function saveAnswer(uid, value) {
+            try {
+                let answers = JSON.parse(localStorage.getItem(ANSWERS_KEY) || '{}');
+                answers[uid] = value;
+                localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
+            } catch (e) {
+                // localStorage 不可用时静默失败
+            }
+        }
+
+        // 填空题输入时保存
+        function onFillInput(uid, value) {
+            if (submitted) return;
+            userAnswers[uid] = value;
+            saveAnswer(uid, value);
+            updateNavDots();
+            updateProgress();
+        }
+
+        // 从 localStorage 加载答案并回填 UI
+        function loadAnswers() {
+            try {
+                const saved = localStorage.getItem(ANSWERS_KEY);
+                if (!saved) return;
+                const answers = JSON.parse(saved);
+
+                for (const uid in answers) {
+                    const value = answers[uid];
+                    if (!value && value !== 0) continue;
+                    userAnswers[uid] = value;
+
+                    // 回填选择/判断题
+                    const card = document.getElementById('q-' + uid);
+                    if (!card) continue;
+
+                    const type = card.dataset.type;
+                    if (type === 'choice' || type === 'judge') {
+                        if (type === 'choice') {
+                            card.querySelectorAll('.option-card').forEach(el => el.classList.remove('selected'));
+                        } else {
+                            card.querySelectorAll('.judge-btn').forEach(el => el.classList.remove('selected'));
+                        }
+                        // 触发 onAnswer 的 UI 更新
+                        if (type === 'choice') {
+                            const selected = card.querySelector(`.option-card[data-key="${value}"]`);
+                            if (selected) {
+                                selected.classList.add('selected');
+                                selected.querySelector('.option-marker').classList.add('border-brand-500', 'text-brand-600', 'bg-brand-50');
+                                const radio = selected.querySelector('input');
+                                if (radio) radio.checked = true;
+                            }
+                        } else if (type === 'judge') {
+                            const btn = card.querySelector(`.judge-btn[data-value="${value}"]`);
+                            if (btn) btn.classList.add('selected');
+                        }
+                    }
+
+                    // 回填填空题
+                    if (type === 'fill') {
+                        const input = card.querySelector('.fill-input');
+                        if (input) input.value = value;
+                    }
+                }
+
+                updateNavDots();
+                updateProgress();
+            } catch (e) {
+                // 解析失败时静默处理
+            }
+        }
+
+        // 清除 localStorage 中的答案（重置时调用）
+        function clearAnswers() {
+            try {
+                localStorage.removeItem(ANSWERS_KEY);
+            } catch (e) {}
+        }
+
+        function loadBestScore() {
+            const best = localStorage.getItem(getStorageKey());
+            if (best !== null) {
+                const badge = document.getElementById('bestScoreBadge');
+                badge.classList.remove('hidden');
+                badge.classList.add('flex');
+                document.getElementById('bestScoreText').textContent = `最高 ${best}分`;
+            }
+        }
+
+        function saveBestScore(score) {
+            const key = getStorageKey();
+            const prev = localStorage.getItem(key);
+            if (prev === null || score > parseInt(prev)) {
+                localStorage.setItem(key, score);
+                const badge = document.getElementById('bestScoreBadge');
+                badge.classList.remove('hidden');
+                badge.classList.add('flex');
+                document.getElementById('bestScoreText').textContent = `最高 ${score}分`;
+                return true;
+            }
+            return false;
+        }
+
+        // ===== 重置 =====
+        function resetAll() {
+            if (submitted) return;
+            if (!confirm('确定要重置所有答案吗？')) return;
+
+            Object.keys(userAnswers).forEach(k => delete userAnswers[k]);
+
+            // 清除选择状态
+            document.querySelectorAll('.option-card').forEach(el => {
+                el.classList.remove('selected');
+                el.querySelector('.option-marker').classList.remove('border-brand-500', 'text-brand-600');
+                el.querySelector('input').checked = false;
+            });
+            document.querySelectorAll('.judge-btn').forEach(el => el.classList.remove('selected'));
+            document.querySelectorAll('.fill-input').forEach(el => el.value = '');
+
+            // 清除 localStorage 中的答案
+            clearAnswers();
+
+            updateNavDots();
+            updateProgress();
+        }
+
+        function retryExam() {
+            location.reload();
+        }
+
+        // Prism.js 代码高亮
+        if (typeof Prism !== 'undefined') {
+            Prism.highlightAll();
+        }
+
+        // KaTeX 数学公式自动渲染
+        if (typeof renderMathInElement !== 'undefined') {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false}
+                ],
+                throwOnError: false
+            });
+        }
+        // ===== 浏览器历史记录（后退/前进恢复滚动位置） =====
+        (function() {
+            let scrollTimer = null;
+
+            function saveScrollState() {
+                if (!scrollTimer) {
+                    scrollTimer = setTimeout(function() {
+                        history.replaceState({ scrollTop: window.scrollY }, document.title);
+                        scrollTimer = null;
+                    }, 100);
+                }
+            }
+
+            // 监听滚动事件，防抖保存位置
+            window.addEventListener('scroll', saveScrollState, { passive: true });
+
+            // 点击题目导航也保存
+            document.querySelectorAll('.nav-dot').forEach(function(dot) {
+                dot.addEventListener('click', function() {
+                    setTimeout(saveScrollState, 300);
+                });
+            });
+
+            // 用户点后退/前进时恢复滚动位置
+            window.addEventListener('popstate', function(e) {
+                if (e.state && typeof e.state.scrollTop === 'number') {
+                    window.scrollTo(0, e.state.scrollTop);
+                }
+            });
+
+            // 初始化时记录初始状态（用于第一次后退能回到页面顶部）
+            history.replaceState({ scrollTop: 0 }, document.title);
+        })();
+    </script>
+</body>
+</html>

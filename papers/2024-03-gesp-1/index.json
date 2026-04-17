@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "-13"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "C++表达式(3 - 2) * 3 + 5的值是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 2"
+        },
+        {
+          "key": "B",
+          "text": "1 1"
+        },
+        {
+          "key": "C",
+          "text": "5%2=2"
+        },
+        {
+          "key": "D",
+          "text": "5%2=1"
+        }
+      ],
+      "content": "C++语句cout << \"5%2=\" << 5 % 2执行后的输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "变量a将被赋值为整数7"
+        },
+        {
+          "key": "B",
+          "text": "变量a将被赋值为字符串，字符串内容为5+2"
+        },
+        {
+          "key": "C",
+          "text": "语句执行将报错，不能输入表达式"
+        },
+        {
+          "key": "D",
+          "text": "依赖于变量a的类型。如果没有定义，会有编译错误"
+        }
+      ],
+      "content": "执行C++语句cin >> a时如果输入5+2，下述说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "a+1= 2"
+        },
+        {
+          "key": "B",
+          "text": "a+1=2"
+        },
+        {
+          "key": "C",
+          "text": "2=2"
+        },
+        {
+          "key": "D",
+          "text": "2= 2"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\ncout << \"a+1= \" << a+1 << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a+1= 2"
+        },
+        {
+          "key": "B",
+          "text": "a+1=2"
+        },
+        {
+          "key": "C",
+          "text": "2=2"
+        },
+        {
+          "key": "D",
+          "text": "2= 2"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\nprintf(\"a+1=%d\\n\", a+1);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码第4行被执行"
+        },
+        {
+          "key": "B",
+          "text": "第4和第7行代码都被执行"
+        },
+        {
+          "key": "C",
+          "text": "仅有代码第7行被执行"
+        },
+        {
+          "key": "D",
+          "text": "第8行代码将被执行，因为input()输入为字符串"
+        }
+      ],
+      "content": "下面C++代码执行时输入21后，有关描述正确的是（ ）。\n\n```cpp\nint N;\ncin >> N;\nif(N% 3 == 0)\ncout << \"能被3整除\";\nelse if (N % 7 == 0)\ncout << \"能被7整除\";\nelse\ncout << \"不能被3和7整除\";\ncout << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "19"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ],
+      "content": "下面C++代码第2行，总共被执行次数是（ ）。\n\n```cpp\nfor(int i=-10; i<10; i++)\ncout << i << \" \";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "18"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint tnt = 0;\nfor(int i=0; i<10; i++)\nif(i%3 && i%7)\ntnt +=i;\ncout << tnt << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "9#6#3#"
+        },
+        {
+          "key": "B",
+          "text": "9#6#3#0#"
+        },
+        {
+          "key": "C",
+          "text": "8#7#5#4#2#1#"
+        },
+        {
+          "key": "D",
+          "text": "10#8#7#5#4#2#1#"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint N = 10;\nwhile(N){\n    N -= 1;\n    if(N%3 == 0)\n    cout << N << \"#\";\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % i"
+        },
+        {
+          "key": "B",
+          "text": "N % i == 0"
+        },
+        {
+          "key": "C",
+          "text": "N / i == 0"
+        },
+        {
+          "key": "D",
+          "text": "N / i"
+        }
+      ],
+      "content": "下面C++代码用于判断键盘输入的整数是否为质数。质数是只能被1和它本身整除的数。在横线处应填入代\n码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint cnt = 0; // 记录N被整除的次数\nfor(int i=1; i<N+1; i++)\nif(________________)\ncnt +=1;\nif(cnt == 2)\ncout << N << \"是质数\";\nelse\ncout << N << \"不是质数\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "x=(3.16);"
+        },
+        {
+          "key": "B",
+          "text": "x=3.16;"
+        },
+        {
+          "key": "C",
+          "text": "x=int(3.16);"
+        },
+        {
+          "key": "D",
+          "text": "x=3.16 int;"
+        }
+      ],
+      "content": "下面关于整型变量int x的赋值语句不正确是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "printf语句"
+        },
+        {
+          "key": "B",
+          "text": "scanf语句"
+        },
+        {
+          "key": "C",
+          "text": "default语句"
+        },
+        {
+          "key": "D",
+          "text": "cout语句"
+        }
+      ],
+      "content": "C++语⾔中下面可以完成数据输入的语句是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "创建"
+        },
+        {
+          "key": "B",
+          "text": "编辑"
+        },
+        {
+          "key": "C",
+          "text": "编译"
+        },
+        {
+          "key": "D",
+          "text": "调试"
+        }
+      ],
+      "content": "在Dev C++中对一个写好的C++源文件要生成一个可执行程序需要执行下面哪个处理步骤？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "小程序"
+        },
+        {
+          "key": "B",
+          "text": "计时器"
+        },
+        {
+          "key": "C",
+          "text": "操作系统"
+        },
+        {
+          "key": "D",
+          "text": "神话⼈物"
+        }
+      ],
+      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "制造自动驾驶汽车"
+        },
+        {
+          "key": "B",
+          "text": "创⽴培训学校"
+        },
+        {
+          "key": "C",
+          "text": "发明汉字激光照排系统"
+        },
+        {
+          "key": "D",
+          "text": "成⽴方正公司"
+        }
+      ],
+      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中变量n被赋值为27，则cout << n%10执行后输出的是7。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语句printf(\"%d#%d&\",2,3)执行后输出的是2#3&。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "C++函数scanf()必须含有参数，且其参数为字符串型字面量，其功能是提⽰输入。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式\"10\"*2执行时将报错，因为\"10\"是字符串类型⽽2是整数类型，它们数据类型不同，不能在一\n起运算。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，while可能是死循环，⽽for循环不可能是死循环。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++，break语句用于提前终⽌当前层次循环，适用于while循环，但不适用于for循环。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中3.0和3的值相等，所以它们占用的存储空间也相同。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++的程序中，cin是一个合法的变量名。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视可以通过遥控器输入电视剧名称来找到想播放的电视剧，所以\n可以推知里面有交互式程序在运行。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨买书**\n\n### 输入格式\n输⼊⼀个正整数 ，表⽰⼩杨拥有的零⽤钱数。\n\n### 输出格式\n输出包含两⾏，第⼀⾏，购买图书的本书，第⼆⾏剩余的零⽤钱数。\n3.1.4 样例1\n1 100\n1 7\n2 9\n3.1.5 样例2\n1 199\n1 15\n2 4\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：找因数**",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

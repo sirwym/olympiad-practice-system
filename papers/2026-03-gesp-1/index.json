@@ -1,0 +1,474 @@
+{
+  "title": "2026年3月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2026-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2026年3月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "检测重心的重⼒传感器"
+        },
+        {
+          "key": "B",
+          "text": "预装的AI算法程序"
+        },
+        {
+          "key": "C",
+          "text": "接收动作指令的遥控器"
+        },
+        {
+          "key": "D",
+          "text": "拍摄其他机器⼈的摄像头"
+        }
+      ],
+      "content": "2026年春节联欢晚会上一个武术表演节目《武 BOT》。节目中多个⼈形机器⼈会表演空翻，它们落地可能会\n有微微踉跄，但都会迅速调整姿态站稳，并适当移动来和前后左右的其他机器⼈保持原来队列。如果将机器⼈视作\n一个计算机系统，那么在该计算机系统中下面哪一项不能作为输入设备（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "单击右键并选择弹出菜单中的“重命名”"
+        },
+        {
+          "key": "B",
+          "text": "双击左键"
+        },
+        {
+          "key": "C",
+          "text": "按功能键 F1"
+        },
+        {
+          "key": "D",
+          "text": "按回车键"
+        }
+      ],
+      "content": "小明学习编程有一段时间了，他想在图形环境下把当前目录（或文件夹）下的文本文件 20260314.txt 的\n名字改一下。他用鼠标左键点击选中该文件后，⽴即完成下面哪个操作后将处于输入新文件名的状态（ ）：\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "为了方便初学者，`cout << (PI)` 和 `cout << (pi)` 效果相同，即变量的大小写不敏感"
+        },
+        {
+          "key": "B",
+          "text": "`cout << (PI)` 修改为 `cout << (Pi)` 能正常执行"
+        },
+        {
+          "key": "C",
+          "text": "不能用 PI 做变量名，因为要保存圆周率这个常量"
+        },
+        {
+          "key": "D",
+          "text": "将程序中全部 PI 都改写为 Pai，将能正常执行，不会报错"
+        }
+      ],
+      "content": "下面C++代码可以执行，有关说法正确的是（ ）。\n\n```cpp\ndouble PI = 3.1415926;\ncout << (PI);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "81"
+        },
+        {
+          "key": "B",
+          "text": "27"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "content": "C++表达式 `3 * 3 % 2` 的值为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\n61\n43\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\n52\n34\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\n62\n44\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\n62\n32\n```\n"
+        }
+      ],
+      "content": "整型变量 a、b 的初值都是 4，则下面的C++代码执行后的输出是（ ）。\n\n```cpp\na, b = 3, 4;\ncout << (a + 2) << (b - 2) << endl;\ncout << a << b << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "执行时如输入 10，则将输出 10"
+        },
+        {
+          "key": "B",
+          "text": "执行时如输入 3.14，将报错"
+        },
+        {
+          "key": "C",
+          "text": "执行时如输入 ABC，将报错"
+        },
+        {
+          "key": "D",
+          "text": "执行时如输入 -10，将报错"
+        }
+      ],
+      "content": "下面C++代码的相关说法，正确的是（ ）。\n\n```cpp\nint N = 0;\ncin >> N;\ncout << (N);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果输入一个正数和一个负数，其输出结果肯定是大于0"
+        },
+        {
+          "key": "B",
+          "text": "不管是负整数、正整数亦或0，其结果肯定是大于等于0"
+        },
+        {
+          "key": "C",
+          "text": "如果 N 和 M 是相等的整数，将不会有输出"
+        },
+        {
+          "key": "D",
+          "text": "如果 N 和 M 输入带有小数点的数，将按整数部分计算"
+        }
+      ],
+      "content": "下面C++代码执行时，其说法正确的是（ ）。\n\n```cpp\nint M = 0, N = 0;\ncin >> M;\ncin >> N;\nif (N > M)\ncout << (N - M);\nelse\ncout << (M - N);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 24 5"
+        },
+        {
+          "key": "B",
+          "text": "1 10 5"
+        },
+        {
+          "key": "C",
+          "text": "1 0 4"
+        },
+        {
+          "key": "D",
+          "text": "1 0 5"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint i, tnt = 1;\nfor (i = 0; i < 5; i++)\ntnt *= i;\nprintf(\"%2d%2d\\n\", tnt, i);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "L1行中 i < N + 1 应该修为 i < N 才会符合预期"
+        },
+        {
+          "key": "B",
+          "text": "L2行中 i % 3 == 1 应修改为 i % 3 == 0 才会符合预期"
+        },
+        {
+          "key": "C",
+          "text": "L2行中 i % 3 == 1 修改为 i % 3 与当前程序效果相同"
+        },
+        {
+          "key": "D",
+          "text": "当前代码能实现题目所描述计算目标"
+        }
+      ],
+      "content": "执行下面C++代码段求序列 -1+2+3-4+5+6-7+8+9-10+11+12...... 之值。例如输入 4，则计算序列前4\n项的值，规律如序列所⽰，输出为 0。下面说法中正确的是（ ）。\n\n```cpp\nint N, tnt, i;\ncout << \"请输入正整数：\";\ncin >> N;\ntnt = 0;\nfor (i = 1; i < N + 1; i++) // L1\nif (i % 3 == 1) // L2\ntnt += -i;\nelse\ntnt += i;\ncout << tnt;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "上述代码执行后，其输出是 1#3#5#7#9#9END"
+        },
+        {
+          "key": "B",
+          "text": "删除 else 后的执行效果与当前代码相同"
+        },
+        {
+          "key": "C",
+          "text": "删除 else 且将 cout << i << \"#\" 移入L1行下面，则执行效果与当前代码相同"
+        },
+        {
+          "key": "D",
+          "text": "在 cout << i << \"END\" 前增加判断 if(i > 10)，其执行效果与当前代码相同"
+        }
+      ],
+      "content": "下面C++代码的相关说法，正确的是（ ）。\n\n```cpp\nint i;\nfor (i = 1; i < 10; i++){\n    if (i % 2 == 0){\n        continue; // L1\n    }\n    else\n    cout << i << \"#\";\n}\ncout << i << \"END\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\ntnt += N / 10\nN /= 10\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\ntnt += N % 10\nN /= 10\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\ntnt += N / 10\nN %= 10\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\ntnt = tnt + N % 10\nN %= 10\n```\n"
+        }
+      ],
+      "content": "一个正整数的每位都是个位数，称为数位，最高位非0。下面的C++代码用于求正整数的所有数位之和，简\n称数位和。如 123 的各数位分别是1、2、3，则其数位和为1+2+3，结果为6。为实现该目标，横线处应该填写的\n代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint tnt = 0;\nwhile (N != 0){\n    ____________;\n    ____________;\n}\ncout << \"N的数位和为：\" << tnt;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % 10 % 2 == 0"
+        },
+        {
+          "key": "B",
+          "text": "N % 10 % 2 == 1"
+        },
+        {
+          "key": "C",
+          "text": "N / 10 / 2 == 1"
+        },
+        {
+          "key": "D",
+          "text": "N / 2 / 10 == 0"
+        }
+      ],
+      "content": "小明想要快速知道任给一个正整数中有多少个奇数位(数位值是奇数)，下面的C++代码是其实现，横线处应\n该填入的代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint odd_count = 0; // 记录奇数的个数\nint old_number = N; // 保存原数\nwhile (N != 0){\n    if (_________________)\n    odd_count += 1;\n    N = (N - N % 10) / 10;\n}\ncout << old_number << \"中共有 \" << odd_count << \" 个奇数\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码段不能完成正确判断"
+        },
+        {
+          "key": "B",
+          "text": "L1行代码中条件应该改为 M <= N"
+        },
+        {
+          "key": "C",
+          "text": "L2行代码应该改为 if ((Q*10+Q/3) % 14 == 0)"
+        },
+        {
+          "key": "D",
+          "text": "代码段可以不使用变量 Q，⽽是在区分 M 和 N 大小后分别直接用它们来判断"
+        }
+      ],
+      "content": "小明和弟弟在玩一个拼数字游戏，游戏规则是：二⼈各写一个两位正整数 M 和 N；然后将较大的数字放\n在较小的前面，拼成一个4位数；将这个4位数除以3的余数添加到4位数的后面，得到一个5位数；最后判断这个5位\n数能否被14整除。下面的C++代码用于判断 M 和 N 是否符合全部要求，如果符合则输出 Y 否则输出 N。例如输\n入 85 和 79，可以拼出 85792,恰好是14的倍数，则输出 Y。关于下面代码描述正确的是（ ）。\n\n```cpp\nint M, N, Q;\ncin >> M >> N;\nif(M > N) // L1\nQ = M*100+N;\nelse\nQ = N*100+M;\nif((Q*10+Q%3) % 14 == 0) // L2\ncout << \"Y\";\nelse\ncout << \"N\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "((N % 1000) - (N / 1000)) / 314 == 0"
+        },
+        {
+          "key": "B",
+          "text": "((N / 1000) - (N % 1000)) % 314 == 0"
+        },
+        {
+          "key": "C",
+          "text": "((N % 1000) - (N / 1000)) / 314"
+        },
+        {
+          "key": "D",
+          "text": "((N / 1000) - (N % 1000)) % 314"
+        }
+      ],
+      "content": "执行下面C++代码可以判断一个6位正整数 N 的高3位和低3位的差是否是314的倍数。例如 628314 就符\n合要求。横线处应该填入（ ）。\n\n```cpp\ncin >> N;\nif (___________________________)\ncout << N << \"符合条件\" << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nN1 += N%10, N /= 10;\nN2 += N%10, N /= 10;\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nN1 += N/10, N /= 10;\nN2 += N/10, N /= 10;\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nN1 += N%10, N %= 10;\nN2 += N%10, N %= 10;\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nN1 += N/10, N %= 10;\nN2 += N/10, N %= 10;\n```\n"
+        }
+      ],
+      "content": "N 是一个正整数。如果 N 的所有奇数位的数位和等于所有偶数位的数位和，则称它是一个“双螺旋数”。\n例如 12375 的所有奇数位的数位和是9，同时它的所有偶数位的数位和也是9，则 12375 就是一个双螺旋数。下面\n的C++代码用于判断输入的 N 是否为双螺旋数。空⽩处应该填入的代码是（ ）。\n\n```cpp\nint i, N, N1=0, N2=0, N0;\ncin >> N;\nN0 = N;\nwhile (N){\n    _________________________\n    _________________________\n}\nif(N1 == N2)\ncout << N0 << \"是双螺旋数\" << endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "小明的妈妈最近刚刚给他买了一块电话手表，除了可以看时间，小明也可以用它和妈妈打电话、收发信息，\n那么可以推测这块手表中装有一款特定操作系统。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式 4 % 2 和 2 * 2 % 2 的结果相同。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码段成功执行后将输出 0。\n\n```cpp\nfor (i = 1; i < 10; i++)\nif (i % 3 == 0)\nbreak;\ncout << i;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面能够正常执行的C++代码段用于求1到N之和，N为正整数。因为 i < N + 1，所以是1到N且包含N之\n和。\n\n```cpp\ntnt = 0;\ncout << \"请输入正整数：\";\ncin >> N;\ntotal = 0;\nfor (i =1; i < N + 1; i++) ;\ntotal += i;\ncout << total;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面的C++代码段，其语句 cout << (N) 将被执行0次或无数次（即死循环）。\n\n```cpp\ncin >> N;\nwhile (N)\ncout << (N);\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的C++代码段的变量都是整型，它能用于判断输入的正整数是否为对称数。所谓对称数是指从左到右和\n从右到左读该数，其值相同。例如，121 和 414 都是对称数，⽽ 123 不是对称数。（ ）\n\n```cpp\ncout << \"请输入正整数:\";\ncin >> n;\nold_number = n;\nnew_number = 0;\nwhile (n != 0){\n    new_number = new_number * 10 + n % 10;\n    n /= 10;\n}\nif (old_number == new_number)\ncout << \"对称数\";\nelse\ncout << \"非对称数\";\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面的C++代码段，如果变量都为整型变量，输入为大于0的整数，则输出数值一定为 -N 的值。\n\n```cpp\ncin >> N;\ntotal = 0;\nfor (i = -N; i < N; i +=2)\ntotal += i;\ncout << total;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++语句 printf(\"%d\\n\", 3.14) 将报错。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面的C++代码后将输出 2500。\n\n```cpp\nint cnt = 0;\nfor (int i = 1; i < 100; i++)\ncnt += i++;\ncout << cnt;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "小明在测试C++的 printf 的功能时执行了 printf(\"%-5d\\n\", 314)，则代码输出的结果是 -5314。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：交朋友**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\nAlice 班上共有 4 个⼩朋友，⾝⾼分别为 ，其中 Alice 的⾝⾼为 。\nAlice 想要和⾝⾼最接近她的⼈交朋友，如果有多个⼈符合条件，则 Alice 想和其中较矮的那⼀⼈做朋友，你能告诉\n她这个⼈的⾝⾼是多少吗？\n\n### 输入格式\n输⼊共 ⾏，第 ⾏包含⼀个整数 ，表⽰班上⼩朋友的⾝⾼。\n\n### 输出格式\n输出 ⾏，包含⼀个整数 ，表⽰ Alice 想交的朋友的⾝⾼。\n\n### 样例解释\n样例 1 中，Alice ⾝⾼为 150，第 2、3 个⼩朋友与 Alice ⾝⾼差距为 15，同样最接近，Alice 选较矮的⼀个即第 3 个\n⾝⾼为 135 的⼩朋友交朋友。\n\n### 数据范围\n保证 且 互不相同。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数字替换**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\nAlice 不喜欢数字 4，但觉得数字 8 寓意好，她想把数中的 4 全都替换成 8，若数中不含 4 则⽆需修改，你能帮帮她\n吗？\n\n### 输入格式\n输⼊⼀⾏，包含⼀个整数 ，表⽰替换前的数。\n\n### 输出格式\n输出⼀⾏，包含⼀个整数 ，表⽰替换后的数。\n\n### 数据范围\n。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

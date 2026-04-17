@@ -1,0 +1,474 @@
+{
+  "title": "2023年9月 GESP C++ 2级",
+  "category": "GESP",
+  "level": "2",
+  "date": "2023-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年9月 GESP C++ 2级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "集成电路"
+        },
+        {
+          "key": "B",
+          "text": "大规模集成电路"
+        },
+        {
+          "key": "C",
+          "text": "晶体管"
+        },
+        {
+          "key": "D",
+          "text": "电⼦管"
+        }
+      ],
+      "content": "我国第一台大型通用电⼦计算机使用的逻辑部件是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 12"
+        },
+        {
+          "key": "B",
+          "text": "12 5"
+        },
+        {
+          "key": "C",
+          "text": "5 5"
+        },
+        {
+          "key": "D",
+          "text": "12 12"
+        }
+      ],
+      "content": "下列流程图的输出结果是（ ）？\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "顺序结构"
+        },
+        {
+          "key": "B",
+          "text": "循环结构"
+        },
+        {
+          "key": "C",
+          "text": "分支结构"
+        },
+        {
+          "key": "D",
+          "text": "跳转结构"
+        }
+      ],
+      "content": "如果要找出整数a、b中较大一个，通常要用下面哪种程序结构？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "continue"
+        },
+        {
+          "key": "B",
+          "text": "cout"
+        },
+        {
+          "key": "C",
+          "text": "break"
+        },
+        {
+          "key": "D",
+          "text": "goto"
+        }
+      ],
+      "content": "以下不是C++关键字的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "-124"
+        },
+        {
+          "key": "B",
+          "text": "-123"
+        },
+        {
+          "key": "C",
+          "text": "-13"
+        },
+        {
+          "key": "D",
+          "text": "-12"
+        }
+      ],
+      "content": "C++表达式int(-123.123 / 10)的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "; ;"
+        },
+        {
+          "key": "B",
+          "text": "int i = 1; i < N; i++"
+        },
+        {
+          "key": "C",
+          "text": "int i = N; i > 0; i--"
+        },
+        {
+          "key": "D",
+          "text": "int i = N; i > 1; i--"
+        }
+      ],
+      "content": "以下C++代码实现从大到小的顺序输出N的所有因⼦。例如，输入N = 18时输出18 9 6 3 2 1，横线处\n应填入（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "i = j"
+        },
+        {
+          "key": "B",
+          "text": "j != j"
+        },
+        {
+          "key": "C",
+          "text": "i >= j"
+        },
+        {
+          "key": "D",
+          "text": "i == j"
+        }
+      ],
+      "content": "如下图所⽰，输出N行N列的矩阵，对角线为1，横线处应填入（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "break"
+        },
+        {
+          "key": "B",
+          "text": "continue"
+        },
+        {
+          "key": "C",
+          "text": "exit"
+        },
+        {
+          "key": "D",
+          "text": "return"
+        }
+      ],
+      "content": "下面C++代码用于判断N是否为质数（素数），约定输入N为大于等于2的正整数，请在横线处填入合适的\n代码（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1#0"
+        },
+        {
+          "key": "B",
+          "text": "1#"
+        },
+        {
+          "key": "C",
+          "text": "1#1#1#1#1#1"
+        },
+        {
+          "key": "D",
+          "text": "1#1#1#1#1#1#0"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "16"
+        },
+        {
+          "key": "B",
+          "text": "28"
+        },
+        {
+          "key": "C",
+          "text": "35"
+        },
+        {
+          "key": "D",
+          "text": "36"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "没有输出"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "3,9,11"
+        },
+        {
+          "key": "C",
+          "text": "3,6,9,10"
+        },
+        {
+          "key": "D",
+          "text": "1,5,7,11,13,15"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "'A' + j / 3"
+        },
+        {
+          "key": "B",
+          "text": "(char)('A' + j / 3)"
+        },
+        {
+          "key": "C",
+          "text": "'A' + j % 3"
+        },
+        {
+          "key": "D",
+          "text": "(char)('A' + j % 3)"
+        }
+      ],
+      "content": "下面图形每一行从字母A开始，以ABC方式重复。行数为输入的整数。请在C++代码段横线处填入合适代码\n（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "(lineCount - i - 1) * 2"
+        },
+        {
+          "key": "B",
+          "text": "(lineCount - i) * 2"
+        },
+        {
+          "key": "C",
+          "text": "lineCount - i - 1"
+        },
+        {
+          "key": "D",
+          "text": "lineCount - i"
+        }
+      ],
+      "content": "输入行数，约定 ，输出以下图形。应在C++代码横线处填入（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "true"
+        },
+        {
+          "key": "B",
+          "text": "false"
+        },
+        {
+          "key": "C",
+          "text": "True"
+        },
+        {
+          "key": "D",
+          "text": "False"
+        }
+      ],
+      "content": "某班级⼈数不知，连续输入成绩直到输入负数停⽌，输入结束后求出平均成绩。在以下C++代码横线处应\n填入是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "我们常说的互联网（Internet）是一个覆盖全球的广域网络，它不属于任何一个国家。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "神威·太湖之光超级计算机是中国自主研制的超级计算机，在全球超级计算机TOP500排行榜中多次荣膺榜\n首。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式7.8 / 2的值为3.9，类型为float。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式(2 * 3) || (2 + 5)的值为67。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "如果m和n为int类型变量，则执行for (m = 0, n = 1; n < 9; ) n = ((m = 3 * n, m + 1), m -\n1);之后n的值为偶数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "如果a为int类型的变量，则表达式(a >= 5 && a <= 10)与(5 <= a <= 10)的值总是相同的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后的输出为10。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行以下C++代码后的输出为0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "执行以下C++代码后的输出为30。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "C++是一种高级程序设计语⾔。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的 X 字矩阵**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数字⿊洞**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

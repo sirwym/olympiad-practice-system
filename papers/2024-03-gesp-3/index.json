@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1005"
+        },
+        {
+          "key": "B",
+          "text": "1006"
+        },
+        {
+          "key": "C",
+          "text": "FFFA"
+        },
+        {
+          "key": "D",
+          "text": "FFFB"
+        }
+      ],
+      "content": "整数-5的16位补码表⽰是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "FF04"
+        },
+        {
+          "key": "B",
+          "text": "FFFA"
+        },
+        {
+          "key": "C",
+          "text": "FFFC"
+        },
+        {
+          "key": "D",
+          "text": "FFFH"
+        }
+      ],
+      "content": "如果16位短整数-2的二进制是\"FFFE\"，则短整数-4的十六进制是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "19"
+        },
+        {
+          "key": "D",
+          "text": "48"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是( )。\n\n```cpp\nint main()\n{\n    cout << (3|16) << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "-5"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "定义整数int x=-5，则执行C++代码cout << (x == (x<<1>>1))输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "58"
+        },
+        {
+          "key": "C",
+          "text": "154"
+        },
+        {
+          "key": "D",
+          "text": "316"
+        }
+      ],
+      "content": "已知字符'0'的ASCII编码的十进制表⽰为48，则执行下面C++代码后，输出是（ ）。\n\n```cpp\nint main()\n{\n    string s=\"316\";\n    int n=s.length();\n    int x=0;\n    for(int i = 0; i < n; i++)\n    x += s[i];\n    cout << x << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "2的倍数"
+        },
+        {
+          "key": "B",
+          "text": "3的倍数"
+        },
+        {
+          "key": "C",
+          "text": "能被2或3整除的数"
+        },
+        {
+          "key": "D",
+          "text": "能被2和3同时整除的数"
+        }
+      ],
+      "content": "下面C++代码执行后数组中大于0的数的特征是（ ）。\n\n```cpp\nint main()\n{\n    int a[20],i;\n    for(i = 0; i < 20; i++)\n    a[i] = i+1;\n    for(int i = 0; i < 20; i++)\n    if((a[i]%2)&&(a[i]%3))\n    a[i] = 0;\n    for(i = 0; i < 20; i++)\n    if(a[i])\n    cout << a[i] << \" \";\n```\n15\n\n```cpp\ncout << endl;\nreturn 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "19"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ],
+      "content": "执行下面C++代码后输出的第一个数是（ ）。\n\n```cpp\nint main()\n{\n    int a[20],i;\n    for(i = 0; i < 20; i++)\n    a[i] = i+1;\n    for( ; i > 0; i--)\n    cout << a[i-1] << \" \";\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "str[i]+='a'-'A'"
+        },
+        {
+          "key": "B",
+          "text": "str[i]+=20"
+        },
+        {
+          "key": "C",
+          "text": "str[i]+='A'-'a'"
+        },
+        {
+          "key": "D",
+          "text": "无法实现"
+        }
+      ],
+      "content": "在下列代码的横线处填写（ ），可以使得输出是GESP IS INTERESTING。\n\n```cpp\nint main()\n{\n    string str=\"gEsP is Interesting\";\n    int x = str.length();\n    for(int i = 0; i < x; i++)\n    if ((str[i]>='a') && (str[i]<='z'))\n    ________________________;\n    cout << str << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "假设英文句⼦由若⼲词构成。下面C++代码统计输出的词数是（ ）。\n\n```cpp\nint main()\n{\n    string str=\"gEsP is Interesting !\";\n    int x = str.length();\n    int nwords = 0;\n    for(int i = 0; i < x; i++)\n    if (str[i]==' '){\n        nwords++;\n        while(str[++i]==' ') ;\n    }\n    cout << nwords << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "100"
+        },
+        {
+          "key": "B",
+          "text": "075"
+        },
+        {
+          "key": "C",
+          "text": "0x70"
+        },
+        {
+          "key": "D",
+          "text": "0x60"
+        }
+      ],
+      "content": "C++的字符变量的码值是整数，下面字面量形式的字符码值最大的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ],
+      "content": "下面C++程序执行的结果是（ ）。\n\n```cpp\nint main()\n{\n    int a[20],i;\n    int cnt=0;\n    for(i = 0; i < 20; i++)\n    a[i] = i+1;\n```\n8\n\n```cpp\nfor( ; i > 1; i--)\nif((a[i-1]+a[i-2])%3)\ncnt++;\ncout << cnt << endl;\ncout << endl;\nreturn 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "19"
+        },
+        {
+          "key": "D",
+          "text": "20"
+        }
+      ],
+      "content": "定义字符数组char str[20] = {'G', 'E', 'S', 'P'};，则str的字符串长度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "大于"
+        },
+        {
+          "key": "B",
+          "text": "等于"
+        },
+        {
+          "key": "C",
+          "text": "小于"
+        },
+        {
+          "key": "D",
+          "text": "等于或小于"
+        }
+      ],
+      "content": "定义整型变量int a=3, b=16，则a|b的值和a+b的关系是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "小程序"
+        },
+        {
+          "key": "B",
+          "text": "计时器"
+        },
+        {
+          "key": "C",
+          "text": "操作系统"
+        },
+        {
+          "key": "D",
+          "text": "神话⼈物"
+        }
+      ],
+      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "制造自动驾驶汽车"
+        },
+        {
+          "key": "B",
+          "text": "创⽴培训学校"
+        },
+        {
+          "key": "C",
+          "text": "发明汉字激光照排系统"
+        },
+        {
+          "key": "D",
+          "text": "成⽴方正公司"
+        }
+      ],
+      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "任意整数a的二进制反码与补码都有1位不同。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "对整型变量int a = 3，执行C++代码a<<2将把2输出到a中。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码可以计算1到100的累加和，采用的是穷举法。\n\n```cpp\nint main()\n{\n    int i,sum=0;\n    for(int i = 1; i <= 100 ; i++)\n    sum += i;\n    cout << sum << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "一个int类型变量a，执行操作(a<<2>>2)后的值一定是a。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，(010<<1)执行结果是100。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面C++代码后将输出2。（ ）\n\n```cpp\nint main()\n{\n    string str=\"gEsP is Interesting\";\n    int x = str.find(\"s\");\n    cout << x << endl;\n    cout << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，字符数组被定义时，它的大小可以调整。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "对定义的数组int a[7]={2,0,2,4,3,1,6}，可以用简单循环就找到其中最小的整数。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒⼦才能收看节目，那这个WIFI盒\n⼦具有路由器的功能。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：字母求和**\n\n### 输入格式\n第⼀⾏⼀个正整数 ，表⽰字符串中字母的个数。\n第⼆⾏⼀个由⼤写字母和⼩写字母的字符串 ，代表加密后得到的字符串。\n\n### 输出格式\n输出⼀⾏⼀个整数，代表加密前的整数。\n3.1.4 样例1\n1 3\n2 aAc\n1 -61\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：完全平⽅数**\n\n### 输入格式\n第⼀⾏⼀个⾮负整数 ，表⽰⾮负整数个数。\n第⼆⾏包含 个⾮负整数 ，表⽰序列 包含的⾮负整数。\n\n### 输出格式\n输出⼀个⾮负整数，表⽰和是完全平⽅数的⾮负整数对数。\n3.2.4 样例1\n1 5\n2 1 4 3 3 5\n1 3\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

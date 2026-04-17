@@ -1,0 +1,474 @@
+{
+  "title": "2023年9月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2023-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年9月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "一款操作系统"
+        },
+        {
+          "key": "B",
+          "text": "一款应用软件"
+        },
+        {
+          "key": "C",
+          "text": "一种通话设备"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "⼈们所使用的手机上安装的App通常指的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "content": "下列流程图的输出结果是？( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": "以上都不正确"
+        }
+      ],
+      "content": "对包含n个元素的数组进行冒泡排序，平均时间复杂度一般为（ ）。\nA\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以定义指向int类型的指针。"
+        },
+        {
+          "key": "B",
+          "text": "可以定义指向自定义结构体类型的指针。"
+        },
+        {
+          "key": "C",
+          "text": "自定义结构体类型可以包含指针类型的元素。"
+        },
+        {
+          "key": "D",
+          "text": "不能定义指向void类型的指针，那没有意义。"
+        }
+      ],
+      "content": "下列关于C++语⾔中指针的叙述，不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "一维数组可以用来表⽰数列。"
+        },
+        {
+          "key": "B",
+          "text": "二维数组可以用来表⽰矩阵。"
+        },
+        {
+          "key": "C",
+          "text": "三维数组可以用来表⽰空间中物体的形状。"
+        },
+        {
+          "key": "D",
+          "text": "世界是三维的，所以定义四维数组没有意义。"
+        }
+      ],
+      "content": "下列关于C++语⾔中数组的叙述，不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数调用前必须定义。"
+        },
+        {
+          "key": "B",
+          "text": "函数调用时必须提供足够的实际参数。"
+        },
+        {
+          "key": "C",
+          "text": "函数定义前必须声明。"
+        },
+        {
+          "key": "D",
+          "text": "函数声明只能写在函数调用前。"
+        }
+      ],
+      "content": "下列关于C++语⾔中函数的叙述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "两个函数的声明可以相同。"
+        },
+        {
+          "key": "B",
+          "text": "两个函数的局部变量可以重名。"
+        },
+        {
+          "key": "C",
+          "text": "两个函数的参数可以重名。"
+        },
+        {
+          "key": "D",
+          "text": "两个函数可以重名。"
+        }
+      ],
+      "content": "下列关于C++语⾔中函数的叙述，不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "30"
+        },
+        {
+          "key": "C",
+          "text": "32"
+        },
+        {
+          "key": "D",
+          "text": "48"
+        }
+      ],
+      "content": "一个二维数组定义为char array[3][10];，则这个二维数组占用内存的大小为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "指针变量p的值与变量n是相同的。"
+        },
+        {
+          "key": "B",
+          "text": "指针变量p的值与变量n的地址是相同的。"
+        },
+        {
+          "key": "C",
+          "text": "指针变量p指向的值为'n'。"
+        },
+        {
+          "key": "D",
+          "text": "指针变量p指向的值与变量n的地址是相同的。"
+        }
+      ],
+      "content": "如果n为int类型的变量，一个指针变量定义为int *p = &n;，则下列说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "70字节"
+        },
+        {
+          "key": "B",
+          "text": "198字节"
+        },
+        {
+          "key": "C",
+          "text": "560字节"
+        },
+        {
+          "key": "D",
+          "text": "无法确定"
+        }
+      ],
+      "content": "一个三维数组定义为long long array[6][6][6];，则array[1][2][3]和array[3][2][1]在内存中的\n位置相差多少字节？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "-6"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "-7"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ],
+      "content": "如果a为int类型的变量，且a的值为6，则执行a = ~a;之后，a的值会是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "{1, 2, 2, 4, 5}"
+        },
+        {
+          "key": "B",
+          "text": "{1, 3, 3, 4, 5}"
+        },
+        {
+          "key": "C",
+          "text": "{1, 2, 3, 3, 5}"
+        },
+        {
+          "key": "D",
+          "text": "{1, 2, 4, 4, 5}"
+        }
+      ],
+      "content": "一个数组定义为int a[5] = {1, 2, 3, 4, 5};，一个指针定义为int * p = &a[2];，则执行*p =\na[1];后，数组a中的值会变为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "一个try⼦句可以有多个catch⼦句与之对应。"
+        },
+        {
+          "key": "B",
+          "text": "如果try⼦句在执行时发生异常，就一定会进入某一个catch⼦句执行。"
+        },
+        {
+          "key": "C",
+          "text": "如果try⼦句中没有可能发生异常的语句，会产生编译错误。"
+        },
+        {
+          "key": "D",
+          "text": "catch⼦句处理异常后，会重新执行与之对应的try⼦句。"
+        }
+      ],
+      "content": "下列关于C++语⾔中异常处理的叙述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "55"
+        },
+        {
+          "key": "D",
+          "text": "无法确定。"
+        }
+      ],
+      "content": "执行以下C++语⾔程序后，输出结果是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "int j = 1; j < n; j++"
+        },
+        {
+          "key": "B",
+          "text": "int j = 0; j < n; j++"
+        },
+        {
+          "key": "C",
+          "text": "int j = 0; j < i - 1; j++"
+        },
+        {
+          "key": "D",
+          "text": "int j = 0; j < i; j++"
+        }
+      ],
+      "content": "在下列代码的横线处填写（ ），完成对有n个int类型元素的数组array由小到大排序。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，指针变量在逻辑上指向另一个变量在内存中的位置，指针变量本身不占用内存。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "对 个元素的数组执行插入排序算法，通常的时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，每个变量都有其作用域。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，在函数调用时，通过引用传递的参数不会复制实际参数，因此不会额外占用内存。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，可以通过定义结构体，定义一个新的数据类型。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，可以定义结构体类型的数组变量，定义结构体时也可以包含数组成员。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "如果希望记录10个最长为99字节的字符串，可以将字符串数组定义为char s[10][100];。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "一个可能抛出异常的函数，调用它的位置没有在try⼦句中，会引起编译错误。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "==和:=都是C++语⾔的运算符。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "通过使用文件重定向操作，可以将程序中输出到cout的内容输出到文件中，这是常用的记录程序运行⽇志\n的方法之一。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：进制转换**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：变长编码**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+  "title": "2019年 CSP-S 第一轮（提高级）",
+  "category": "CSP-S",
+  "level": "CSP-S",
+  "date": "2019-09",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "若有定义 `int a = 7, float x = 2.5, y = 4.7;`，则表达式 `x + a % 3 * (int) (x + y) % 2` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$0.000000$"
+        },
+        {
+          "key": "B",
+          "text": "$2.750000$"
+        },
+        {
+          "key": "C",
+          "text": "$2.500000$"
+        },
+        {
+          "key": "D",
+          "text": "$3.500000$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "下列属于图像文件格式的（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "WMV"
+        },
+        {
+          "key": "B",
+          "text": "MPEG"
+        },
+        {
+          "key": "C",
+          "text": "JPEG"
+        },
+        {
+          "key": "D",
+          "text": "AVI"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "下面哪个选项是 $11 1011 1001 0111$ 和 $01 0110 1110 1011$ 进行逻辑或运算的结果 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$11\\ 1111\\ 1101\\ 1111$"
+        },
+        {
+          "key": "B",
+          "text": "$11\\ 1111\\ 1111\\ 1101$"
+        },
+        {
+          "key": "C",
+          "text": "$10\\ 1111\\ 1111\\ 1111$"
+        },
+        {
+          "key": "D",
+          "text": "$11\\ 1111\\ 1111\\ 1111$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "编译器的作用是 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "将源程序重新组合"
+        },
+        {
+          "key": "B",
+          "text": "将一种语言（通常是高级语言）翻译成另一种语言（通常是低级语言）"
+        },
+        {
+          "key": "C",
+          "text": "将低级语言翻译成高级语言"
+        },
+        {
+          "key": "D",
+          "text": "将一种编程语言翻译成自然语言"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "设变量 $x$ 为 `float` 型且已赋值，下列哪条语句能将 $x$ 中的数值保留到小数点后两位，并将第三位四舍五入 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$x = (x*100 + 0.5) / 100.0$"
+        },
+        {
+          "key": "B",
+          "text": "$x = (int)(x*100 + 0.5) / 100.0$"
+        },
+        {
+          "key": "C",
+          "text": "$x = (x / 100 + 0.5) * 100.0$"
+        },
+        {
+          "key": "D",
+          "text": "$x = x * 100 + 0.5 / 100.0$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "由数字 $1, 1, 2, 4, 8, 8$ 组成的不同的 $4$ 位数的个数是 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$104$"
+        },
+        {
+          "key": "B",
+          "text": "$98$"
+        },
+        {
+          "key": "C",
+          "text": "$100$"
+        },
+        {
+          "key": "D",
+          "text": "$102$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "排序的算法很多，若按排序的稳定性和不稳定性分类，下面算法中 ( ) 是不稳定排序。",
+      "options": [
+        {
+          "key": "A",
+          "text": "冒泡排序"
+        },
+        {
+          "key": "B",
+          "text": "直接插入排序"
+        },
+        {
+          "key": "C",
+          "text": "快速排序"
+        },
+        {
+          "key": "D",
+          "text": "归并排序"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "G 是一个非连通无向图（没有重边和自环），共有 $28$ 条边，则该图至少有 ( ) 个点。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$10$"
+        },
+        {
+          "key": "B",
+          "text": "$9$"
+        },
+        {
+          "key": "C",
+          "text": "$11$"
+        },
+        {
+          "key": "D",
+          "text": "$8$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "一些数字可以颠倒过来看，例如 $0$、$1$、$8$ 颠倒过来还是本身，$6$ 颠倒过来是 $9$，$9$ 颠倒过来看还是 $6$，其他数字颠倒过来都不构成数字。类似的，一些多位数也可以颠倒过来看，比如 $106$ 颠倒过来是 $901$。假设某个城市的车牌只由 $5$ 位数字组成，每一位都可以取 $0$ 到 $9$。请问这个城市最多有多少个车牌倒过来恰好还是原来的车牌，并且车牌上的 $5$ 位数能被 $3$ 整除 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$40$"
+        },
+        {
+          "key": "B",
+          "text": "$25$"
+        },
+        {
+          "key": "C",
+          "text": "$30$"
+        },
+        {
+          "key": "D",
+          "text": "$20$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "一次期末考试，某班有 $15$ 人数学得满分，有 $12$ 人语文得满分，共有 $4$ 人语文、数学都是满分，那么这个班至少有一门满分的同学有多少人 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$21$"
+        },
+        {
+          "key": "B",
+          "text": "$20$"
+        },
+        {
+          "key": "C",
+          "text": "$22$"
+        },
+        {
+          "key": "D",
+          "text": "$23$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "设 A 和 B 是两个长为 n 的有序数组，现在需要将 A 和 B 合并成一个排好序的数组，请问任何以元素比较作为基本运算的归并算法，在最坏情况下至少要做多少次比较( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$n^2$"
+        },
+        {
+          "key": "B",
+          "text": "$n\\log n$"
+        },
+        {
+          "key": "C",
+          "text": "$2n$"
+        },
+        {
+          "key": "D",
+          "text": "$2n - 1$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以下哪个结构可以用来存图 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "栈"
+        },
+        {
+          "key": "B",
+          "text": "二叉树"
+        },
+        {
+          "key": "C",
+          "text": "队列"
+        },
+        {
+          "key": "D",
+          "text": "邻接矩阵"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "以下哪些算法不属于贪心算法 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dijkstra 算法"
+        },
+        {
+          "key": "B",
+          "text": "Floyd 算法"
+        },
+        {
+          "key": "C",
+          "text": "Prim 算法"
+        },
+        {
+          "key": "D",
+          "text": "Kruskal 算法"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "有一个等比数列，共有奇数项，其中第一项和最后一项分别是 $2$ 和 $118098$，中间一项是 $486$，请问以下那个数是可能的公比 ( )。",
+      "options": [
+        {
+          "key": "A",
+          "text": "$5$"
+        },
+        {
+          "key": "B",
+          "text": "$3$"
+        },
+        {
+          "key": "C",
+          "text": "$4$"
+        },
+        {
+          "key": "D",
+          "text": "$2$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "section": "单项选择题",
+      "score": 2,
+      "answer": "None",
+      "content": "由正实数构成的数字三角形排列如图所示，第一行为数字 $a_{1,1}$，第二行的数从左到右依次为 $a_{2,1}$、 $a_{2,2}$，第 $n$ 行的数为 $a_{n,1}$、 $a_{n,2}…a_{n,n}$。从 $a_{1,1}$ 开始，每一行的数 $a_{i,j}$ 只有两条边可以分别通向下一行的两个数 $a_{i + 1,j}$ 和 $a_{i + 1,j + 1}$。用动态规划算法找出一条从 $a_{1,1}$ 向下通到 $a_{n,1}$、 $a_{n,2}…a_{n,n}$ 中的某个路径，使得该路径上的数之和最大。\n\n[图片]\n\n令 $C[i][j]$ 是从 $a_{1,1}$ 到 $a_{i,j}$ 的路径上的数的最大和，并且 $C[i][0] = C[0][j] = 0$，则 $C[i][j] =$ ( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\max(C[i-1][j-1],C[i-1][j])+a_{i,j}$"
+        },
+        {
+          "key": "B",
+          "text": "$C[i-1][j-1]+C[i-1][j]$"
+        },
+        {
+          "key": "C",
+          "text": "$\\max(C[i-1][j-1],C[i-1][j])+ 1$"
+        },
+        {
+          "key": "D",
+          "text": "$\\max(C[i][j-1],C[i-1][j])+a_{i,j}$"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n第 $16$ 行输出 $ans$ 时，$ans$ 的值一定大于 $i$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n程序输出的 $ans$ 小于等于 $n$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n若将第 $12$ 行的 “<” 改为 “!=” 程序输出的结果不会改变。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n当程序执行到第 $16$ 行时，若 $ans - i > 2$，则 $a[i+1] \\le a[i]$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "section": "阅读程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n若输入的 $a$ 数组是一个严格单调递增的数列，此程序的时间复杂度是",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\mathcal{O}(\\log n)$"
+        },
+        {
+          "key": "B",
+          "text": "$\\mathcal{O}(n^2)$"
+        },
+        {
+          "key": "C",
+          "text": "$\\mathcal{O}(n\\log n)$"
+        },
+        {
+          "key": "D",
+          "text": "$\\mathcal{O}(n)$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\nusing namespace std;\nint n;\nint a[100];\n\nint main() {\n   scanf(\"%d\", &n);\n   for (int i = 1; i <= n; ++i)\n       scanf(\"%d\", &a[i]);\n   int ans = 1;\n   for (int i = 1; i <= n; ++i) {\n       if (i > 1 && a[i] < a[i - 1])\n            ans = i;\n        while (ans < n && a[i] >= a[ans + 1])\n            ++ans;\n        printf(\"%d\\n\", ans);\n   }\n   return 0;\n}\n```\n\n最坏情况下，此程序的时间复杂度为：",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\mathcal{O}(n^2)$"
+        },
+        {
+          "key": "B",
+          "text": "$\\mathcal{O}(\\log n)$"
+        },
+        {
+          "key": "C",
+          "text": "$\\mathcal{O}(n)$"
+        },
+        {
+          "key": "D",
+          "text": "$\\mathcal{O}(n\\log n)$"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n输入的 $a$ 和 $b$ 的值应在 $[0, n - 1]$ 的范围内",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n第 $16$ 行改成 `fa[i]=0;`，不影响程序运行结果",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n若输入的 $a$ 和 $b$ 值均在 $[0, n-1]$ 的范围内，则对于任意 $0\\le i<n$，都有 $0 \\le fa[i]< n$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "section": "阅读程序",
+      "score": 1.5,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n若输入的 $a$ 和 $b$ 值均在 $[0, n-1]$ 的范围内，则对于任意 $0 \\le i<n$，都有 $1\\le cnt[i] \\le n$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 26,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n当 $n$ 等于 $50$ 时，若 $a$、$b$ 的值都在 $[0,49]$ 的范围内，且在第 $25$ 行时 $x$总是不等于 $y$，那么输出为 ( )",
+      "options": [
+        {
+          "key": "A",
+          "text": "1276"
+        },
+        {
+          "key": "B",
+          "text": "1176"
+        },
+        {
+          "key": "C",
+          "text": "1225"
+        },
+        {
+          "key": "D",
+          "text": "1250"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 27,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\nusing namespace std;\nconst int maxn = 1000;\nint n;\nint fa[maxn], cnt[maxn];\n\nint getRoot(int v) {\n    if (fa[v] == v) return v;\n    return getRoot(fa[v]);\n}\n\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; ++i) {\n        fa[i] = i;\n        cnt[i] = 1;\n    }\n    int ans = 0;\n    for (int i = 0; i < n - 1; ++i) {\n        int a, b, x, y;\n        cin >> a >> b;\n        x = getRoot(a);\n        y = getRoot(b);\n        ans += cnt[x] * cnt[y];\n        fa[x] = y;\n        cnt[y] += cnt[x];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n此程序的时间复杂度是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "$\\mathcal{O}(n)$"
+        },
+        {
+          "key": "B",
+          "text": "$\\mathcal{O}(\\log n)$"
+        },
+        {
+          "key": "C",
+          "text": "$\\mathcal{O}(n^2)$"
+        },
+        {
+          "key": "D",
+          "text": "$\\mathcal{O}(n\\log n)$"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 28,
+      "section": "阅读程序",
+      "score": 1,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n程序输出时，`suf`数组满足：对任意 $0 \\le i<slen$，$suf[i] \\le suf[i+1]$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 29,
+      "section": "阅读程序",
+      "score": 2,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n当 `t` 是 `s` 的子序列时，输出一定不为 $0$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 30,
+      "section": "阅读程序",
+      "score": 2,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n程序运行到第 $23$ 行时，`j - i- 1` 一定不小于 $0$",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 31,
+      "section": "阅读程序",
+      "score": 2,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n当 `t` 是 `s` 的子序列时，pre 数组和 suf 数组满足：对任意 $0\\le i<slen$，$pre[i]>suf[i+1]$。",
+      "options": [
+        {
+          "key": "A",
+          "text": "正确"
+        },
+        {
+          "key": "B",
+          "text": "错误"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 32,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n若 tlen = 10，输出为 $0$ ，则 slen 最小为：",
+      "options": [
+        {
+          "key": "A",
+          "text": "$10$"
+        },
+        {
+          "key": "B",
+          "text": "$12$"
+        },
+        {
+          "key": "C",
+          "text": "$0$"
+        },
+        {
+          "key": "D",
+          "text": "$1$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 33,
+      "section": "阅读程序",
+      "score": 4,
+      "answer": "None",
+      "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\nconst int max1 = 202;\nstring s, t;\nint pre[max1], suf[max1];\n\nint main() {\n    cin >> s >> t;\n    int slen = s.length(), tlen= t.length();\n    for (int i = 0, j = 0; i < slen; ++i) {\n        if (j < tlen && s[i] == t[j]) ++j;\n        pre[i] = j;// t[0..j-1]是s[0..i]的子序列\n    }\n\n    for (int i = slen - 1, j = tlen - 1; i >= 0; --i) {\n        if(j >= 0 && s[i] == t[j]) --j;\n        suf[i]= j; //t[j+1..tlen-1]是s[i..slen-1]的子序列\n    }\n\n    suf[slen] = tlen -1;\n    int ans = 0;\n    for (int i = 0, j = 0, tmp= 0; i <= slen; ++i) {\n        while (j <= slen && tmp >= suf[j] + 1) ++j;\n        ans = max(ans, j - i - 1);\n        tmp = pre[i];\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n\n本题`t`是`s`的子序列的意思是：从`s`中删去若干个字符，可以得到`t`。特别的，如果`s = t`，那么`t`也是`s`的子序列；空串是任何串的子序列。例如“acd”是“abcde”的子序列，“acd”是“acd”的子序列，但“adc”不是“abcde”的子序列。\n\n`S[x..y]`表示`s[x]`…`s[y]`共 $y-x+1$ 个字符构成的字符串，若 $x>y$ 则`s[x..y]`是空串。`t[x..y]`同理。\n\n提示：\n\n`t[0..pre[i]-1]`是`s[0..i]`的子序列；\n\n`t[suf[i]+1..tlen-1]`是`s[i..slen-1]`的子序列。\n\n若 tlen = 10， 输出为 $2$，则 slen 最小为",
+      "options": [
+        {
+          "key": "A",
+          "text": "$0$"
+        },
+        {
+          "key": "B",
+          "text": "$10$"
+        },
+        {
+          "key": "C",
+          "text": "$12$"
+        },
+        {
+          "key": "D",
+          "text": "$1$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 34,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<cstdio>\nusing namespace std;\nconst int maxn = 1001;\n\nint n;\nint cnt[maxn];\nint child [maxn][maxn];\nint unlock[maxn];\nint points;\nint threshold[maxn],bonus[maxn];\n\nbool find(){\n    int target=-1;\n    for (int i = 1;i<=n;++i)\n        if(① && ②){\n            target = i;\n            break;\n    }\n    if(target==-1)\n        return false;\n    unlock[target]=-1;\n    ③\n    for (int i=0;i<cnt[target];++i)\n        ④\n    return true;\n}\n\nint main(){\n    scanf(\"%d%d\",&n, &points);\n    for (int i =1; i<=n;++i){\n        cnt [i]=0;\nscanf(\"%d%d\",&threshold[i],&bonus[i]);\n    }\n    for (int i=1;i<=n;++i){\n        int m;\n        scanf(\"%d\",&m);\n        ⑤\n        for (int j=0; j<m ;++j){\n            int fa;\n            scanf(\"%d\", &fa);\n            child [fa][cnt[fa]]=i;\n            ++cnt[fa];\n        }\n    }\n\n    int ans = 0;\n    while(find())\n        ++ans;\n\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n（匠人的自我修养）一个匠人决定要学习 $n$ 个新技术，要想成功学习一个新技术，他不仅要拥有一定的经验值，而且还必须要先学会若干个相关的技术。学会一个新技术之后，他的经验值会增加一个对应的值。给定每个技术的学习条件和习得后获得的经验值，给定他已有的经验值，请问他最多能学会多少个新技术。\n\n输入第一行有两个数，分别为新技术个数 $n(1 \\leq n \\leq 10^3)$，以及已有经验值 $(\\leq 10^7)$。\n\n接下来 $n$ 行。第 $i$ 行的两个正整数，分别表示学习第 $i$ 个技术所需的最低经验值 $(\\leq 10^7)$，以及学会第 $i$ 个技术后可获得的经验值 $(\\leq 10^4)$。\n\n接下来 $n$ 行。第 $i$ 行的第一个数 $m_i(0 \\leq m_i < n)$，表示第 $i$ 个技术的相关技术数量。紧跟着 $m$ 个两两不同的数，表示第 $i$ 个技术的相关技术编号，输出最多能学会的新技术个数。\n\n下面的程序以 $O(n^2)$的时间复杂度完成这个问题，试补全程序。\n\n请选择 ① 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`unlock[i]＜=0`"
+        },
+        {
+          "key": "B",
+          "text": "`unlock[i]＞=0`"
+        },
+        {
+          "key": "C",
+          "text": "`unlock[i]==0`"
+        },
+        {
+          "key": "D",
+          "text": "`unlock[i]==-1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 35,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<cstdio>\nusing namespace std;\nconst int maxn = 1001;\n\nint n;\nint cnt[maxn];\nint child [maxn][maxn];\nint unlock[maxn];\nint points;\nint threshold[maxn],bonus[maxn];\n\nbool find(){\n    int target=-1;\n    for (int i = 1;i<=n;++i)\n        if(① && ②){\n            target = i;\n            break;\n    }\n    if(target==-1)\n        return false;\n    unlock[target]=-1;\n    ③\n    for (int i=0;i<cnt[target];++i)\n        ④\n    return true;\n}\n\nint main(){\n    scanf(\"%d%d\",&n, &points);\n    for (int i =1; i<=n;++i){\n        cnt [i]=0;\nscanf(\"%d%d\",&threshold[i],&bonus[i]);\n    }\n    for (int i=1;i<=n;++i){\n        int m;\n        scanf(\"%d\",&m);\n        ⑤\n        for (int j=0; j<m ;++j){\n            int fa;\n            scanf(\"%d\", &fa);\n            child [fa][cnt[fa]]=i;\n            ++cnt[fa];\n        }\n    }\n\n    int ans = 0;\n    while(find())\n        ++ans;\n\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n（匠人的自我修养）一个匠人决定要学习 $n$ 个新技术，要想成功学习一个新技术，他不仅要拥有一定的经验值，而且还必须要先学会若干个相关的技术。学会一个新技术之后，他的经验值会增加一个对应的值。给定每个技术的学习条件和习得后获得的经验值，给定他已有的经验值，请问他最多能学会多少个新技术。\n\n输入第一行有两个数，分别为新技术个数 $n(1 \\leq n \\leq 10^3)$，以及已有经验值 $(\\leq 10^7)$。\n\n接下来 $n$ 行。第 $i$ 行的两个正整数，分别表示学习第 $i$ 个技术所需的最低经验值 $(\\leq 10^7)$，以及学会第 $i$ 个技术后可获得的经验值 $(\\leq 10^4)$。\n\n接下来 $n$ 行。第 $i$ 行的第一个数 $m_i(0 \\leq m_i < n)$，表示第 $i$ 个技术的相关技术数量。紧跟着 $m$ 个两两不同的数，表示第 $i$ 个技术的相关技术编号，输出最多能学会的新技术个数。\n\n下面的程序以 $O(n^2)$的时间复杂度完成这个问题，试补全程序。\n\n请选择 ② 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`threshold[i]＞points`"
+        },
+        {
+          "key": "B",
+          "text": "`threshold[i]＞=points`"
+        },
+        {
+          "key": "C",
+          "text": "`points＞threshold[i]`"
+        },
+        {
+          "key": "D",
+          "text": "`points＞=threshold[i]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 36,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<cstdio>\nusing namespace std;\nconst int maxn = 1001;\n\nint n;\nint cnt[maxn];\nint child [maxn][maxn];\nint unlock[maxn];\nint points;\nint threshold[maxn],bonus[maxn];\n\nbool find(){\n    int target=-1;\n    for (int i = 1;i<=n;++i)\n        if(① && ②){\n            target = i;\n            break;\n    }\n    if(target==-1)\n        return false;\n    unlock[target]=-1;\n    ③\n    for (int i=0;i<cnt[target];++i)\n        ④\n    return true;\n}\n\nint main(){\n    scanf(\"%d%d\",&n, &points);\n    for (int i =1; i<=n;++i){\n        cnt [i]=0;\nscanf(\"%d%d\",&threshold[i],&bonus[i]);\n    }\n    for (int i=1;i<=n;++i){\n        int m;\n        scanf(\"%d\",&m);\n        ⑤\n        for (int j=0; j<m ;++j){\n            int fa;\n            scanf(\"%d\", &fa);\n            child [fa][cnt[fa]]=i;\n            ++cnt[fa];\n        }\n    }\n\n    int ans = 0;\n    while(find())\n        ++ans;\n\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n（匠人的自我修养）一个匠人决定要学习 $n$ 个新技术，要想成功学习一个新技术，他不仅要拥有一定的经验值，而且还必须要先学会若干个相关的技术。学会一个新技术之后，他的经验值会增加一个对应的值。给定每个技术的学习条件和习得后获得的经验值，给定他已有的经验值，请问他最多能学会多少个新技术。\n\n输入第一行有两个数，分别为新技术个数 $n(1 \\leq n \\leq 10^3)$，以及已有经验值 $(\\leq 10^7)$。\n\n接下来 $n$ 行。第 $i$ 行的两个正整数，分别表示学习第 $i$ 个技术所需的最低经验值 $(\\leq 10^7)$，以及学会第 $i$ 个技术后可获得的经验值 $(\\leq 10^4)$。\n\n接下来 $n$ 行。第 $i$ 行的第一个数 $m_i(0 \\leq m_i < n)$，表示第 $i$ 个技术的相关技术数量。紧跟着 $m$ 个两两不同的数，表示第 $i$ 个技术的相关技术编号，输出最多能学会的新技术个数。\n\n下面的程序以 $O(n^2)$的时间复杂度完成这个问题，试补全程序。\n\n请选择 ③ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`target = -1`"
+        },
+        {
+          "key": "B",
+          "text": "`–cnt[target]`"
+        },
+        {
+          "key": "C",
+          "text": "`bonus[target] = 0`"
+        },
+        {
+          "key": "D",
+          "text": "`points += bonus[target]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 37,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<cstdio>\nusing namespace std;\nconst int maxn = 1001;\n\nint n;\nint cnt[maxn];\nint child [maxn][maxn];\nint unlock[maxn];\nint points;\nint threshold[maxn],bonus[maxn];\n\nbool find(){\n    int target=-1;\n    for (int i = 1;i<=n;++i)\n        if(① && ②){\n            target = i;\n            break;\n    }\n    if(target==-1)\n        return false;\n    unlock[target]=-1;\n    ③\n    for (int i=0;i<cnt[target];++i)\n        ④\n    return true;\n}\n\nint main(){\n    scanf(\"%d%d\",&n, &points);\n    for (int i =1; i<=n;++i){\n        cnt [i]=0;\nscanf(\"%d%d\",&threshold[i],&bonus[i]);\n    }\n    for (int i=1;i<=n;++i){\n        int m;\n        scanf(\"%d\",&m);\n        ⑤\n        for (int j=0; j<m ;++j){\n            int fa;\n            scanf(\"%d\", &fa);\n            child [fa][cnt[fa]]=i;\n            ++cnt[fa];\n        }\n    }\n\n    int ans = 0;\n    while(find())\n        ++ans;\n\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n（匠人的自我修养）一个匠人决定要学习 $n$ 个新技术，要想成功学习一个新技术，他不仅要拥有一定的经验值，而且还必须要先学会若干个相关的技术。学会一个新技术之后，他的经验值会增加一个对应的值。给定每个技术的学习条件和习得后获得的经验值，给定他已有的经验值，请问他最多能学会多少个新技术。\n\n输入第一行有两个数，分别为新技术个数 $n(1 \\leq n \\leq 10^3)$，以及已有经验值 $(\\leq 10^7)$。\n\n接下来 $n$ 行。第 $i$ 行的两个正整数，分别表示学习第 $i$ 个技术所需的最低经验值 $(\\leq 10^7)$，以及学会第 $i$ 个技术后可获得的经验值 $(\\leq 10^4)$。\n\n接下来 $n$ 行。第 $i$ 行的第一个数 $m_i(0 \\leq m_i < n)$，表示第 $i$ 个技术的相关技术数量。紧跟着 $m$ 个两两不同的数，表示第 $i$ 个技术的相关技术编号，输出最多能学会的新技术个数。\n\n下面的程序以 $O(n^2)$的时间复杂度完成这个问题，试补全程序。\n\n请选择 ④ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`cnt[child[target][i]] -= 1`"
+        },
+        {
+          "key": "B",
+          "text": "`cnt[child[target][i]] = 0`"
+        },
+        {
+          "key": "C",
+          "text": "`unlock[child[target][i]] -= 1`"
+        },
+        {
+          "key": "D",
+          "text": "`unlock[child[target][i]] = 0`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 38,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include<cstdio>\nusing namespace std;\nconst int maxn = 1001;\n\nint n;\nint cnt[maxn];\nint child [maxn][maxn];\nint unlock[maxn];\nint points;\nint threshold[maxn],bonus[maxn];\n\nbool find(){\n    int target=-1;\n    for (int i = 1;i<=n;++i)\n        if(① && ②){\n            target = i;\n            break;\n    }\n    if(target==-1)\n        return false;\n    unlock[target]=-1;\n    ③\n    for (int i=0;i<cnt[target];++i)\n        ④\n    return true;\n}\n\nint main(){\n    scanf(\"%d%d\",&n, &points);\n    for (int i =1; i<=n;++i){\n        cnt [i]=0;\nscanf(\"%d%d\",&threshold[i],&bonus[i]);\n    }\n    for (int i=1;i<=n;++i){\n        int m;\n        scanf(\"%d\",&m);\n        ⑤\n        for (int j=0; j<m ;++j){\n            int fa;\n            scanf(\"%d\", &fa);\n            child [fa][cnt[fa]]=i;\n            ++cnt[fa];\n        }\n    }\n\n    int ans = 0;\n    while(find())\n        ++ans;\n\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n（匠人的自我修养）一个匠人决定要学习 $n$ 个新技术，要想成功学习一个新技术，他不仅要拥有一定的经验值，而且还必须要先学会若干个相关的技术。学会一个新技术之后，他的经验值会增加一个对应的值。给定每个技术的学习条件和习得后获得的经验值，给定他已有的经验值，请问他最多能学会多少个新技术。\n\n输入第一行有两个数，分别为新技术个数 $n(1 \\leq n \\leq 10^3)$，以及已有经验值 $(\\leq 10^7)$。\n\n接下来 $n$ 行。第 $i$ 行的两个正整数，分别表示学习第 $i$ 个技术所需的最低经验值 $(\\leq 10^7)$，以及学会第 $i$ 个技术后可获得的经验值 $(\\leq 10^4)$。\n\n接下来 $n$ 行。第 $i$ 行的第一个数 $m_i(0 \\leq m_i < n)$，表示第 $i$ 个技术的相关技术数量。紧跟着 $m$ 个两两不同的数，表示第 $i$ 个技术的相关技术编号，输出最多能学会的新技术个数。\n\n下面的程序以 $O(n^2)$的时间复杂度完成这个问题，试补全程序。\n\n请选择 ⑤ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`unlock[i] = cnt[i]`"
+        },
+        {
+          "key": "B",
+          "text": "`unlock[i] = m`"
+        },
+        {
+          "key": "C",
+          "text": "`unlock[i] = 0`"
+        },
+        {
+          "key": "D",
+          "text": "`unlock[i] =-1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 39,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\n#include<algorithm>\nusing namespace std ;\n\nconst int maxn =64;\n\nint n,m;\nint a[maxn], b[maxn];\nunsigned long long status, trans;\nbool win；\n\nint main() {\n    scanf(“%d%d”,＆n, ＆m);\n    for (int i = 0; i < n; ++i)\n        scanf(“%d%d”, ＆a[i], ＆b[i]);\n    for (int  i = 0; i < n; ++i)\n         for (int j = i + 1; j < n; ++j)\n            if (a[i] > a[j]) {\n                swap(a[i], a[j]);\n                swap(b[i], b[j]);\n            }\n    status = ①;\n    trans = 0;\n    for (int i = 1, j = 0; i <= m; ++i) {\n        while (j < n && ②) {\n            ③;\n            ++j;\n        }\n        win = ④;\n        ⑤;\n    }\n\n    puts(win ? “Win” : “Loss”)；\n\n    return 0;\n}\n```\n\n（取石子）Alice 和 Bob 两个人在玩取石子游戏，他们制定了 $n$ 条取石子的规则，第 $i$ 条规则为：如果剩余的石子个数大于等于 $a[i]$ 且大于等于 $b[i]$，那么她们可以取走 $b[i]$ 个石子。他们轮流取石子。如果轮到某个人取石子，而他无法按照任何规则取走石子，那么他就输了，一开始石子有 $m$ 个。请问先取石子的人是否有必胜的方法？\n\n输入第一行有两个正整数，分别为规则个数 $n ( 1 \\leq n \\leq 64)$，以及石子个数 $m(\\leq 10^7)$。\n\n接下来 $n$ 行。第i行有两个正整数 $a[i]$ 和 $b[i]$。$1 \\leq a[i] \\leq 10^7, b[i] \\leq 64$\n\n如果先取石子的人必胜，那么输出“Win”，否则输出“Loss”\n\n提示：\n\n可以使用动态规划解决这个问题。由于 $b[i]$ 不超过 $64$，所以可以使用64位无符号整数去压缩必要的状态。\n\nStatus 是胜负状态的二进制压缩，trans 是状态转移的二进制压缩。\n\n代码说明：\n\n“~”表示二进制补码运算符，它将每个二进制位的 $0$ 变成 $1$、$1$ 变为 $0$；\n\n而“^”表示二进制异或运算符，它将两个参与运算的数重的每个对应的二进制位一一进行比较，若两个二进制位相同，则运算结果的对应二进制位为 $0$，反之为 $1$。\n\null 标识符表示它前面的数字是 unsigned long long 类型。\n\n试补全程序\n\n请选择 ① 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`0`"
+        },
+        {
+          "key": "B",
+          "text": "`~0ull`"
+        },
+        {
+          "key": "C",
+          "text": "`~0ull^1`"
+        },
+        {
+          "key": "D",
+          "text": "`1`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 40,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\n#include<algorithm>\nusing namespace std ;\n\nconst int maxn =64;\n\nint n,m;\nint a[maxn], b[maxn];\nunsigned long long status, trans;\nbool win；\n\nint main() {\n    scanf(“%d%d”,＆n, ＆m);\n    for (int i = 0; i < n; ++i)\n        scanf(“%d%d”, ＆a[i], ＆b[i]);\n    for (int  i = 0; i < n; ++i)\n         for (int j = i + 1; j < n; ++j)\n            if (a[i] > a[j]) {\n                swap(a[i], a[j]);\n                swap(b[i], b[j]);\n            }\n    status = ①;\n    trans = 0;\n    for (int i = 1, j = 0; i <= m; ++i) {\n        while (j < n && ②) {\n            ③;\n            ++j;\n        }\n        win = ④;\n        ⑤;\n    }\n\n    puts(win ? “Win” : “Loss”)；\n\n    return 0;\n}\n```\n\n（取石子）Alice 和 Bob 两个人在玩取石子游戏，他们制定了 $n$ 条取石子的规则，第 $i$ 条规则为：如果剩余的石子个数大于等于 $a[i]$ 且大于等于 $b[i]$，那么她们可以取走 $b[i]$ 个石子。他们轮流取石子。如果轮到某个人取石子，而他无法按照任何规则取走石子，那么他就输了，一开始石子有 $m$ 个。请问先取石子的人是否有必胜的方法？\n\n输入第一行有两个正整数，分别为规则个数 $n ( 1 \\leq n \\leq 64)$，以及石子个数 $m(\\leq 10^7)$。\n\n接下来 $n$ 行。第i行有两个正整数 $a[i]$ 和 $b[i]$。$1 \\leq a[i] \\leq 10^7, b[i] \\leq 64$\n\n如果先取石子的人必胜，那么输出“Win”，否则输出“Loss”\n\n提示：\n\n可以使用动态规划解决这个问题。由于 $b[i]$ 不超过 $64$，所以可以使用64位无符号整数去压缩必要的状态。\n\nStatus 是胜负状态的二进制压缩，trans 是状态转移的二进制压缩。\n\n代码说明：\n\n“~”表示二进制补码运算符，它将每个二进制位的 $0$ 变成 $1$、$1$ 变为 $0$；\n\n而“^”表示二进制异或运算符，它将两个参与运算的数重的每个对应的二进制位一一进行比较，若两个二进制位相同，则运算结果的对应二进制位为 $0$，反之为 $1$。\n\null 标识符表示它前面的数字是 unsigned long long 类型。\n\n试补全程序\n\n请选择 ② 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`a[j]< i`"
+        },
+        {
+          "key": "B",
+          "text": "`a[j] ==i`"
+        },
+        {
+          "key": "C",
+          "text": "`a[j] !=i`"
+        },
+        {
+          "key": "D",
+          "text": "`a[j] >i`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 41,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\n#include<algorithm>\nusing namespace std ;\n\nconst int maxn =64;\n\nint n,m;\nint a[maxn], b[maxn];\nunsigned long long status, trans;\nbool win；\n\nint main() {\n    scanf(“%d%d”,＆n, ＆m);\n    for (int i = 0; i < n; ++i)\n        scanf(“%d%d”, ＆a[i], ＆b[i]);\n    for (int  i = 0; i < n; ++i)\n         for (int j = i + 1; j < n; ++j)\n            if (a[i] > a[j]) {\n                swap(a[i], a[j]);\n                swap(b[i], b[j]);\n            }\n    status = ①;\n    trans = 0;\n    for (int i = 1, j = 0; i <= m; ++i) {\n        while (j < n && ②) {\n            ③;\n            ++j;\n        }\n        win = ④;\n        ⑤;\n    }\n\n    puts(win ? “Win” : “Loss”)；\n\n    return 0;\n}\n```\n\n（取石子）Alice 和 Bob 两个人在玩取石子游戏，他们制定了 $n$ 条取石子的规则，第 $i$ 条规则为：如果剩余的石子个数大于等于 $a[i]$ 且大于等于 $b[i]$，那么她们可以取走 $b[i]$ 个石子。他们轮流取石子。如果轮到某个人取石子，而他无法按照任何规则取走石子，那么他就输了，一开始石子有 $m$ 个。请问先取石子的人是否有必胜的方法？\n\n输入第一行有两个正整数，分别为规则个数 $n ( 1 \\leq n \\leq 64)$，以及石子个数 $m(\\leq 10^7)$。\n\n接下来 $n$ 行。第i行有两个正整数 $a[i]$ 和 $b[i]$。$1 \\leq a[i] \\leq 10^7, b[i] \\leq 64$\n\n如果先取石子的人必胜，那么输出“Win”，否则输出“Loss”\n\n提示：\n\n可以使用动态规划解决这个问题。由于 $b[i]$ 不超过 $64$，所以可以使用64位无符号整数去压缩必要的状态。\n\nStatus 是胜负状态的二进制压缩，trans 是状态转移的二进制压缩。\n\n代码说明：\n\n“~”表示二进制补码运算符，它将每个二进制位的 $0$ 变成 $1$、$1$ 变为 $0$；\n\n而“^”表示二进制异或运算符，它将两个参与运算的数重的每个对应的二进制位一一进行比较，若两个二进制位相同，则运算结果的对应二进制位为 $0$，反之为 $1$。\n\null 标识符表示它前面的数字是 unsigned long long 类型。\n\n试补全程序\n\n请选择 ③ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`trans |= 1ull <<(b[j] - 1)`"
+        },
+        {
+          "key": "B",
+          "text": "`status |=1ull << (b[j]- 1)`"
+        },
+        {
+          "key": "C",
+          "text": "`status +=1ull << (b[j]-1)`"
+        },
+        {
+          "key": "D",
+          "text": "`trans +=1ull<< (b[j]-1)`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 42,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\n#include<algorithm>\nusing namespace std ;\n\nconst int maxn =64;\n\nint n,m;\nint a[maxn], b[maxn];\nunsigned long long status, trans;\nbool win；\n\nint main() {\n    scanf(“%d%d”,＆n, ＆m);\n    for (int i = 0; i < n; ++i)\n        scanf(“%d%d”, ＆a[i], ＆b[i]);\n    for (int  i = 0; i < n; ++i)\n         for (int j = i + 1; j < n; ++j)\n            if (a[i] > a[j]) {\n                swap(a[i], a[j]);\n                swap(b[i], b[j]);\n            }\n    status = ①;\n    trans = 0;\n    for (int i = 1, j = 0; i <= m; ++i) {\n        while (j < n && ②) {\n            ③;\n            ++j;\n        }\n        win = ④;\n        ⑤;\n    }\n\n    puts(win ? “Win” : “Loss”)；\n\n    return 0;\n}\n```\n\n（取石子）Alice 和 Bob 两个人在玩取石子游戏，他们制定了 $n$ 条取石子的规则，第 $i$ 条规则为：如果剩余的石子个数大于等于 $a[i]$ 且大于等于 $b[i]$，那么她们可以取走 $b[i]$ 个石子。他们轮流取石子。如果轮到某个人取石子，而他无法按照任何规则取走石子，那么他就输了，一开始石子有 $m$ 个。请问先取石子的人是否有必胜的方法？\n\n输入第一行有两个正整数，分别为规则个数 $n ( 1 \\leq n \\leq 64)$，以及石子个数 $m(\\leq 10^7)$。\n\n接下来 $n$ 行。第i行有两个正整数 $a[i]$ 和 $b[i]$。$1 \\leq a[i] \\leq 10^7, b[i] \\leq 64$\n\n如果先取石子的人必胜，那么输出“Win”，否则输出“Loss”\n\n提示：\n\n可以使用动态规划解决这个问题。由于 $b[i]$ 不超过 $64$，所以可以使用64位无符号整数去压缩必要的状态。\n\nStatus 是胜负状态的二进制压缩，trans 是状态转移的二进制压缩。\n\n代码说明：\n\n“~”表示二进制补码运算符，它将每个二进制位的 $0$ 变成 $1$、$1$ 变为 $0$；\n\n而“^”表示二进制异或运算符，它将两个参与运算的数重的每个对应的二进制位一一进行比较，若两个二进制位相同，则运算结果的对应二进制位为 $0$，反之为 $1$。\n\null 标识符表示它前面的数字是 unsigned long long 类型。\n\n试补全程序\n\n请选择 ④ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`~status | trans`"
+        },
+        {
+          "key": "B",
+          "text": "`status ＆ trans`"
+        },
+        {
+          "key": "C",
+          "text": "`status | trans`"
+        },
+        {
+          "key": "D",
+          "text": "`~status ＆ trans`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 43,
+      "section": "完善程序",
+      "score": 3,
+      "answer": "None",
+      "content": "```\n#include <cstdio>\n#include<algorithm>\nusing namespace std ;\n\nconst int maxn =64;\n\nint n,m;\nint a[maxn], b[maxn];\nunsigned long long status, trans;\nbool win；\n\nint main() {\n    scanf(“%d%d”,＆n, ＆m);\n    for (int i = 0; i < n; ++i)\n        scanf(“%d%d”, ＆a[i], ＆b[i]);\n    for (int  i = 0; i < n; ++i)\n         for (int j = i + 1; j < n; ++j)\n            if (a[i] > a[j]) {\n                swap(a[i], a[j]);\n                swap(b[i], b[j]);\n            }\n    status = ①;\n    trans = 0;\n    for (int i = 1, j = 0; i <= m; ++i) {\n        while (j < n && ②) {\n            ③;\n            ++j;\n        }\n        win = ④;\n        ⑤;\n    }\n\n    puts(win ? “Win” : “Loss”)；\n\n    return 0;\n}\n```\n\n（取石子）Alice 和 Bob 两个人在玩取石子游戏，他们制定了 $n$ 条取石子的规则，第 $i$ 条规则为：如果剩余的石子个数大于等于 $a[i]$ 且大于等于 $b[i]$，那么她们可以取走 $b[i]$ 个石子。他们轮流取石子。如果轮到某个人取石子，而他无法按照任何规则取走石子，那么他就输了，一开始石子有 $m$ 个。请问先取石子的人是否有必胜的方法？\n\n输入第一行有两个正整数，分别为规则个数 $n ( 1 \\leq n \\leq 64)$，以及石子个数 $m(\\leq 10^7)$。\n\n接下来 $n$ 行。第i行有两个正整数 $a[i]$ 和 $b[i]$。$1 \\leq a[i] \\leq 10^7, b[i] \\leq 64$\n\n如果先取石子的人必胜，那么输出“Win”，否则输出“Loss”\n\n提示：\n\n可以使用动态规划解决这个问题。由于 $b[i]$ 不超过 $64$，所以可以使用64位无符号整数去压缩必要的状态。\n\nStatus 是胜负状态的二进制压缩，trans 是状态转移的二进制压缩。\n\n代码说明：\n\n“~”表示二进制补码运算符，它将每个二进制位的 $0$ 变成 $1$、$1$ 变为 $0$；\n\n而“^”表示二进制异或运算符，它将两个参与运算的数重的每个对应的二进制位一一进行比较，若两个二进制位相同，则运算结果的对应二进制位为 $0$，反之为 $1$。\n\null 标识符表示它前面的数字是 unsigned long long 类型。\n\n试补全程序\n\n请选择 ⑤ 应该填写的代码",
+      "options": [
+        {
+          "key": "A",
+          "text": "`trans = status | trans ^win`"
+        },
+        {
+          "key": "B",
+          "text": "`status = trans >> 1^win`"
+        },
+        {
+          "key": "C",
+          "text": "`trans = status ^trans |win`"
+        },
+        {
+          "key": "D",
+          "text": "`status =status <<1^win`"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "title": "NCT C++ 2级 C2模拟卷2",
+  "category": "NCT-C++",
+  "level": "2",
+  "date": "2026-04",
+  "time_limit": 90,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "content": "在 C++ 中，选项中能够准确初始化多维数组的语句是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "int rc[][] = [1,2,3,4];"
+        },
+        {
+          "key": "B",
+          "text": "int rc[][] = [[1,2,3,4],[1,2,3,4]];"
+        },
+        {
+          "key": "C",
+          "text": "int rc[][] = {{1,2},{3,4}};"
+        },
+        {
+          "key": "D",
+          "text": "int rc[2][2] = {{1,2},{3,4}};"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "content": "运行代码，输出的结果是（）![img](../assets/images/nct/16385244583191217.png)\n\n![img](../assets/images/nct/16385244583191217.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 2 3 4"
+        },
+        {
+          "key": "B",
+          "text": "1\n2\n3\n4"
+        },
+        {
+          "key": "C",
+          "text": "{1,2} {3,4}"
+        },
+        {
+          "key": "D",
+          "text": "1\n3\n2\n4"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "content": "在 C++ 中，已知程序如下，现在在主函数的最末位添加一句代码，输出结果为15，应该填入的语句是（）![img](../assets/images/nct/16385241874674466.png)\n\n![img](../assets/images/nct/16385241874674466.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout"
+        },
+        {
+          "key": "B",
+          "text": "cout"
+        },
+        {
+          "key": "C",
+          "text": "cout"
+        },
+        {
+          "key": "D",
+          "text": "cout"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "content": "在 C++ 中，指针内存放的是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "指向变量的地址"
+        },
+        {
+          "key": "B",
+          "text": "指向变量的值"
+        },
+        {
+          "key": "C",
+          "text": "指向变量值数据的长度"
+        },
+        {
+          "key": "D",
+          "text": "指针自身的地址"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "content": "运行程序输出的结果是（）![img](../assets/images/nct/16385240238611065.png)\n\n![img](../assets/images/nct/16385240238611065.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "0x61fe14"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "0x63fe14"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "C",
+      "content": "运行程序输出的结果是是（）![img](../assets/images/nct/16385239712132824.png)\n\n![img](../assets/images/nct/16385239712132824.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "C",
+      "content": "运行代码并且输入abcdef，请问输出的是（）![img](../assets/images/nct/16385237174215301.png)\n\n![img](../assets/images/nct/16385237174215301.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "abcde"
+        },
+        {
+          "key": "B",
+          "text": "abcdef"
+        },
+        {
+          "key": "C",
+          "text": "abcd"
+        },
+        {
+          "key": "D",
+          "text": "abc"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "D",
+      "content": "选项中正确定义C语言风格字符串的是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "char a[] = {\"a\",\"b\",\"c\"};"
+        },
+        {
+          "key": "B",
+          "text": "char a[] = {'a','b','c'};"
+        },
+        {
+          "key": "C",
+          "text": "char a[] = {\"a\",\"b\",\"c\",\"\\0\"};"
+        },
+        {
+          "key": "D",
+          "text": "char a[] = {'a','b','c','\\0'};"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "C",
+      "content": "运行程序，输入abcde可以得到的结果是（）![img](../assets/images/nct/16384382295409401.png)\n\n![img](../assets/images/nct/16384382295409401.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "abcde"
+        },
+        {
+          "key": "B",
+          "text": "abc"
+        },
+        {
+          "key": "C",
+          "text": "ab"
+        },
+        {
+          "key": "D",
+          "text": "a"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 4,
+      "answer": "A",
+      "content": "运行代码并且输入ABC CDF EFG（注意每三个字母中间有空格），请问输出的是（）![img](../assets/images/nct/16384381418557600.png)\n\n![img](../assets/images/nct/16384381418557600.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "ABC CDF EFG"
+        },
+        {
+          "key": "B",
+          "text": "ABC CDF"
+        },
+        {
+          "key": "C",
+          "text": "ABC"
+        },
+        {
+          "key": "D",
+          "text": "A"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 4,
+      "answer": "C",
+      "content": "运行下列程序，如果输入：123 222，则输出的结果是（）![img](../assets/images/nct/16384380829174459.png)\n\n![img](../assets/images/nct/16384380829174459.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "345"
+        },
+        {
+          "key": "B",
+          "text": "99"
+        },
+        {
+          "key": "C",
+          "text": "-99"
+        },
+        {
+          "key": "D",
+          "text": "123222"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 4,
+      "answer": "A",
+      "content": "运行下列程序，输出的结果是（）![img](../assets/images/nct/16384380141970668.png)\n\n![img](../assets/images/nct/16384380141970668.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "01-10-2-1"
+        },
+        {
+          "key": "B",
+          "text": "234567"
+        },
+        {
+          "key": "C",
+          "text": "0-11021"
+        },
+        {
+          "key": "D",
+          "text": "222333"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 4,
+      "answer": "C",
+      "content": "程序中定义了sum函数用来计算两个参数之和，但是在这个自定义函数中有一处地方写错了，请问具体的错误是（）![img](../assets/images/nct/16384378735282627.png)\n\n![img](../assets/images/nct/16384378735282627.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数没有返回值"
+        },
+        {
+          "key": "B",
+          "text": "函数没有定义返回值类型"
+        },
+        {
+          "key": "C",
+          "text": "函数形式参数没有定义类型"
+        },
+        {
+          "key": "D",
+          "text": "没有定义函数名称"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 4,
+      "answer": "B",
+      "content": "关于函数的说法不正确的是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "main函数也是函数"
+        },
+        {
+          "key": "B",
+          "text": "返回值类型是void代表有返回值"
+        },
+        {
+          "key": "C",
+          "text": "当函数的定义和使用在不同的文件中时，需要在调用的文件内写好函数声明"
+        },
+        {
+          "key": "D",
+          "text": "函数内声明和定义的局部变量函数外部无法访问"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 4,
+      "answer": "D",
+      "content": "运行程序输出的结果是（）![img](../assets/images/nct/16582130456408592.png)\n\n![img](../assets/images/nct/16582130456408592.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "12\n21"
+        },
+        {
+          "key": "B",
+          "text": "12\n11"
+        },
+        {
+          "key": "C",
+          "text": "21\n21"
+        },
+        {
+          "key": "D",
+          "text": "21\n22"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 4,
+      "answer": "B",
+      "content": "func函数传入两个变量，并且交换两个变量的值。那么选项中正确的声明是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "void func(int x, int y);"
+        },
+        {
+          "key": "B",
+          "text": "void func(int *x, int *y);"
+        },
+        {
+          "key": "C",
+          "text": "void func(int &x, int y);"
+        },
+        {
+          "key": "D",
+          "text": "void func(int *x, int y);"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 4,
+      "answer": "D",
+      "content": "运行程序，请问函数func被调用的次数是（）![img](../assets/images/nct/16582132942892090.png)\n\n![img](../assets/images/nct/16582132942892090.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "6次"
+        },
+        {
+          "key": "B",
+          "text": "7次"
+        },
+        {
+          "key": "C",
+          "text": "8次"
+        },
+        {
+          "key": "D",
+          "text": "9次"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 4,
+      "answer": "B",
+      "content": "下列程序运行后，输出的结果是（）![img](../assets/images/nct/16383539008304673.png)\n\n![img](../assets/images/nct/16383539008304673.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "ETA0101"
+        },
+        {
+          "key": "B",
+          "text": "Teacher"
+        },
+        {
+          "key": "C",
+          "text": "Student"
+        },
+        {
+          "key": "D",
+          "text": "UNDEINE"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 4,
+      "answer": "D",
+      "content": "运行下列程序，输出的结果是（）![img](../assets/images/nct/16383537868214047.png)\n\n![img](../assets/images/nct/16383537868214047.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 4,
+      "answer": "A",
+      "content": "运行程序输出的结果是（）![img](../assets/images/nct/16383535289872884.png)\n\n![img](../assets/images/nct/16383535289872884.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/16383535445821828.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/16383535515236505.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/16383535645546991.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/16383535724446026.png)"
+        }
+      ]
+    },
+    {
+      "type": "program",
+      "id": 21,
+      "score": 10,
+      "answer": "None",
+      "content": "请按照要求完善func函数：使其接受两个参数，其中A参数是一个int类型的数组，B参数是一个正整数，函数返回一个整数C。整数C是A数组的前B项相加之和。输入格式 ：一行内输入一个整数，表示题目中的B参数。输出格式 ：输出一行一个整数，表示题目中的整数C。【注：程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。】输入输出示例：![img](../assets/images/nct/17590307224719636.png)数据范围：1 ≤ d ≤ 10\n\n![img](../assets/images/nct/17590307224719636.png)",
+      "section": "C++ 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 22,
+      "score": 10,
+      "answer": "None",
+      "content": "请按照要求编写递归函数，函数接收一个整数值，返回这个数中数字逆序后的结果值。输入格式：一行内输入一个整数，表示函数的接收值。输出格式：输出一行一个整数，表示函数接收数字逆序后的结果值。【注：程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。】输入输出示例：![img](../assets/images/nct/17599756905853592.png)数据范围：1 ≤ 输入的整数 ≤ 1000000\n\n![img](../assets/images/nct/17599756905853592.png)",
+      "section": "C++ 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 23,
+      "score": 10,
+      "answer": "None",
+      "content": "编写代码，输出 10 到 n（包括 10 和 n 本身） 之间中，个位数能被十位数整除的数字。输入格式：一行输入一个正整数n，表示遍历的范围。输出格式：一行输出若干个整数，以空格分隔，表示符合题目条件中的数字。注意：最后一个数字有空格。【注：程序输出必须严格匹配题目要求，禁止出现题目要求以外的多余字符（如\"请输入一个整数：\"），否则不得分。】输入输出示例：![img](../assets/images/nct/17590385230198900.png)数据范围：10 ≤ n ≤ 99\n\n![img](../assets/images/nct/17590385230198900.png)",
+      "section": "C++ 编程操作题"
+    }
+  ]
+}

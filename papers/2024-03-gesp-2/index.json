@@ -1,0 +1,474 @@
+{
+  "title": "2024年3月 GESP C++ 2级",
+  "category": "GESP",
+  "level": "2",
+  "date": "2024-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年3月 GESP C++ 2级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "优秀"
+        },
+        {
+          "key": "B",
+          "text": "良好"
+        },
+        {
+          "key": "C",
+          "text": "不及格"
+        },
+        {
+          "key": "D",
+          "text": "没有输出"
+        }
+      ],
+      "content": "下列流程图的输出结果是？( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "student"
+        },
+        {
+          "key": "B",
+          "text": "2_from"
+        },
+        {
+          "key": "C",
+          "text": "_to"
+        },
+        {
+          "key": "D",
+          "text": "Text"
+        }
+      ],
+      "content": "以下选项中不符合 C++变量命名规则的是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "switch"
+        },
+        {
+          "key": "B",
+          "text": "return"
+        },
+        {
+          "key": "C",
+          "text": "else"
+        },
+        {
+          "key": "D",
+          "text": "if"
+        }
+      ],
+      "content": "以下选项中，不能用于表⽰分支结构的C++保留字是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "while循环满足循环条件时不断地运行，直到指定的条件不满足为⽌"
+        },
+        {
+          "key": "B",
+          "text": "if语句通常用于执行条件判断"
+        },
+        {
+          "key": "C",
+          "text": "在C++中可以使用foreach循环"
+        },
+        {
+          "key": "D",
+          "text": "break和continue语句都可以用在for循环和while循环中"
+        }
+      ],
+      "content": "下列说法错误的是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "abs(-8)"
+        },
+        {
+          "key": "B",
+          "text": "min(max(8, 9), 10)"
+        },
+        {
+          "key": "C",
+          "text": "int(8.88)"
+        },
+        {
+          "key": "D",
+          "text": "sqrt(64)"
+        }
+      ],
+      "content": "下列4个表达式中，答案不是整数8的是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "14"
+        },
+        {
+          "key": "C",
+          "text": "26"
+        },
+        {
+          "key": "D",
+          "text": "50"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n,a,m,i;\nn=3, a = 5;\nm = (a - 1) * 2;\nfor (i=0; i<n-1; i++)\nm = (m - 1) * 2;\ncout << m;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "16"
+        },
+        {
+          "key": "B",
+          "text": "36"
+        },
+        {
+          "key": "C",
+          "text": "49"
+        },
+        {
+          "key": "D",
+          "text": "81"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n,i,result;\nn = 81;\ni = 1, result = 1;\nwhile (i * i <= n){\n    if (n % (i * i) == 0)\n    result = i * i;\n    i += 1;\n}\ncout << result;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint s,t,ans;\ns = 2, t = 10;\nans = 0;\nwhile (s != t){\n    if (t % 2 == 0 && t / 2 >= s)\n    t /= 2;\n    else\n    t -= 1;\n    ans += 1;\n}\ncout << ans;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n, masks, days,cur;\nn = 17, masks = 10, days = 0;\ncur = 2;\nwhile (masks != n){\n    if (cur == 0 || cur == 1)\n    masks += 7;\n    masks -= 1;\n    days += 1;\n    cur = (cur + 1) % 7;\n}\ncout << days;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "break"
+        },
+        {
+          "key": "B",
+          "text": "continue"
+        },
+        {
+          "key": "C",
+          "text": "N = N / 10"
+        },
+        {
+          "key": "D",
+          "text": "N = N % 10"
+        }
+      ],
+      "content": "以下C++代码判断一个正整数N的各个数位是否都是偶数。如果都是，则输出“是”，否则输出“否”。例如\nN=2024时输出“是”。则横线处应填入（ ）。\n\n```cpp\nint N,Flag;\ncin >> N;\nFlag = true;\nwhile (N != 0){\n    if (N %2 != 0){\n        Flag = false;\n        _____________\n    }\n    else\n    N /= 10;\n}\nif(Flag == true)\ncout << \"是\";\nelse\ncout << \"否\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "i == 0"
+        },
+        {
+          "key": "B",
+          "text": "i == 4"
+        },
+        {
+          "key": "C",
+          "text": "i == 0 && i == 4"
+        },
+        {
+          "key": "D",
+          "text": "i == 0 || i == 4"
+        }
+      ],
+      "content": "有句俗话叫“三天打渔，两天晒网”。如果小杨前三天打渔，后两天晒网，一直重复这个过程，以下程序代码\n用于判断，第n天小杨是在打鱼还是晒网，横线处应填写？（ ）\n\n```cpp\nint n,i;\ncin >> n;\ni = n % 5;\nif (__________________) // 在此处填写代码\ncout << \"晒网\";\nelse\ncout << \"打鱼\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 * a + n % 10"
+        },
+        {
+          "key": "B",
+          "text": "a + n % 10"
+        },
+        {
+          "key": "C",
+          "text": "10 * a + n / 10"
+        },
+        {
+          "key": "D",
+          "text": "a + n / 10"
+        }
+      ],
+      "content": "一个数的所有数字倒序排列后这个数的大小保持不变，这个数就是回文数，比如 101 与 6886 都是回文数，\n⽽ 100 不是回文数。以下程序代码用于判断一个数是否为回文数，横线处应填写？（ ）\n\n```cpp\nint n,a,k;\ncin >> n;\na = 0;\nk = n;\nwhile (n > 0){\n    a = __________; // 在此处填写代码\n    n /= 10;\n}\nif (a == k)\ncout << \"是回文数\";\nelse\ncout << \"不是回文数\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout << '+' << endl;"
+        },
+        {
+          "key": "B",
+          "text": "cout << '+' << ' ' << endl;"
+        },
+        {
+          "key": "C",
+          "text": "cout << '+';"
+        },
+        {
+          "key": "D",
+          "text": "cout << '+' << ' ';"
+        }
+      ],
+      "content": "给定两个整数 与 ，打印出一个栅栏图形，这个栅栏应该分成 段，段与段之间的间隔为 +， 段内的填\n充为 个 -。形如 ， 时，图形如下：\n\n```cpp\n+------+------+------+------+------+\n```\n以下程序代码用于绘制该图形，横线处应填写？（ ）\n\n```cpp\nint n, k, i, j;\nn = 5, k = 6;\nfor (i = 0; i < n; i++){\n    __________ // 在此处填写代码\n    for (j = 1; j < k; j++)\n    cout << '-' ;\n}\ncout << '+';\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "小程序"
+        },
+        {
+          "key": "B",
+          "text": "计时器"
+        },
+        {
+          "key": "C",
+          "text": "操作系统"
+        },
+        {
+          "key": "D",
+          "text": "神话⼈物"
+        }
+      ],
+      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是。（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "制造自动驾驶汽车"
+        },
+        {
+          "key": "B",
+          "text": "创⽴培训学校"
+        },
+        {
+          "key": "C",
+          "text": "发明汉字激光照排系统"
+        },
+        {
+          "key": "D",
+          "text": "成⽴方正公司"
+        }
+      ],
+      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "如果有以下C++代码：\n\n```cpp\ndouble s;\nint t;\ns = 18.5;\nt = int(s) + 10;\n```\n那么cout << t的结果为 28.5。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "Xyz，xYz，xyZ是三个不同的变量。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "cout << (8< 9< 10)的输出结果为true。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "for (i = 0; i < 100; i+=2) ;语句中变量i的取值范围是0到99。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "C++中cout << float(2022)与 cout << float('2022')运行后的输出结果均为2022。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "已知A的ASCII码值为65，表达式int('C')+abs(-5.8)的值为72.8。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "bool() 函数用于将给定参数或表达式转换为布尔类型。语句 bool(-1) 返回的是 false 值。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "如果变量a的值使得C++表达式sqrt(a)==abs(a)，则a的值为0。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒⼦才能收看节目，那这个WIFI盒\n⼦具有路由器的功能。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：乘法问题**",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的⽇字矩阵**",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

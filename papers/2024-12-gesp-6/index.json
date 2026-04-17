@@ -1,0 +1,538 @@
+{
+  "title": "2024年12月 GESP C++ 6级",
+  "category": "GESP",
+  "level": "6",
+  "date": "2024-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年12月 GESP C++ 6级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "抽象"
+        },
+        {
+          "key": "B",
+          "text": "封装"
+        },
+        {
+          "key": "C",
+          "text": "继承"
+        },
+        {
+          "key": "D",
+          "text": "模块化"
+        }
+      ],
+      "content": "面向对象编程(OOP)是一种特殊的程序设计方法。下面( )不是重要的OOP特性。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "类中定义的所有成员变量和成员函数默认是public访问权限。"
+        },
+        {
+          "key": "B",
+          "text": "类的构造函数必须显式声明返回类型为void。"
+        },
+        {
+          "key": "C",
+          "text": "在C++中，类的数据一般设置为私有，其公有成员函数提供访问私有数据的唯一途径。"
+        },
+        {
+          "key": "D",
+          "text": "同一个类的实例有各自的成员数据和成员函数。"
+        }
+      ],
+      "content": "以下关于C++中类的说法，哪一项是正确的？\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "NULL 在C++中无法用于指针初始化，应使用 nullptr。"
+        },
+        {
+          "key": "B",
+          "text": "obj 的定义应该是 MyClass obj; ⽽不是指针类型。"
+        },
+        {
+          "key": "C",
+          "text": "obj->display() 语句存在空指针访问错误，obj 应该初始化为一个有效的对象。"
+        },
+        {
+          "key": "D",
+          "text": "obj->display() 语句会调用 display() 函数，但它没有输出任何内容。"
+        }
+      ],
+      "content": "以下C++代码段中存在语法错误或逻辑错误，（ ）是正确的。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass MyClass {\n    public:\n    MyClass() {\n        cout << \"Constructor called!\" << endl;\n    }\n    void display() {\n        cout << \"Display function called!\" << endl;\n    }\n};\nint main() {\n    MyClass* obj = NULL;\n    obj->display();\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "栈s的输出顺序是 1 2 3 4 5，队列q的输出顺序是 5 4 3 2 1。"
+        },
+        {
+          "key": "B",
+          "text": "栈s的输出顺序是 5 4 3 2 1，队列q的输出顺序是 1 2 3 4 5。"
+        },
+        {
+          "key": "C",
+          "text": "栈s的输出顺序是 1 2 3 4 5，队列q的输出顺序是 1 2 3 4 5。"
+        },
+        {
+          "key": "D",
+          "text": "栈s的输出顺序是 1 2 3 4 5，队列q的输出顺序是 1 2 3 4 5，程序不会正常执行。"
+        }
+      ],
+      "content": "阅读以下代码，下面哪一项是正确的？\n\n```cpp\nvoid processData() {\n    stack<int> s;\n    queue<int> q;\n    for (int i = 1; i <= 5; ++i) {\n        s.push(i);\n        q.push(i);\n    }\n    while (!s.empty()) {\n        cout << \"Stack pop: \" << s.top() << endl;\n        s.pop();\n    }\n    while (!q.empty()) {\n        cout << \"Queue pop: \" << q.front() << endl;\n        q.pop();\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "个节点的双向循环链，在其中查找某个节点的平均时间复杂度是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "在 一棵二叉树中，叶⼦结点的度一定是2。"
+        },
+        {
+          "key": "B",
+          "text": "满 二叉树中每一层的结点数等于 层数 。"
+        },
+        {
+          "key": "C",
+          "text": "在 一棵树中，所有结点的度之和等于所有叶⼦结点的度之和。"
+        },
+        {
+          "key": "D",
+          "text": "一 棵二叉树的先序遍历结果和中序遍历结果一定相同。"
+        }
+      ],
+      "content": "以下关于树的说法，（ ）是正确的。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nABCD\n/ \\\nA BCD\n/ \\\nD BC\n/ \\\nB C\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nABCD\n/ \\\nA BCD\n/ \\\nB CD\n/ \\\nC D\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nABCD\n/ \\\nD ABC\n/ \\\nA BC\n/ \\\nB C\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nABCD\n/ \\\nC ABC\n/ \\\nB AD\n/ \\\nA D\n```\n"
+        }
+      ],
+      "content": "已知字符集 {A, B, C, D} 的出现频率如下表所⽰：\n字符 频率\nA 8\nB 3\nC 1\nD 6\n根据哈夫曼编码法，下面（ ）是正确的哈夫曼树。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "A",
+          "text": "0,"
+        },
+        {
+          "key": "B",
+          "text": "10,"
+        },
+        {
+          "key": "C",
+          "text": "110,"
+        },
+        {
+          "key": "D",
+          "text": "111"
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "A",
+          "text": "0,"
+        },
+        {
+          "key": "B",
+          "text": "10,"
+        },
+        {
+          "key": "C",
+          "text": "11,"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "A",
+          "text": "0,"
+        },
+        {
+          "key": "B",
+          "text": "101,"
+        },
+        {
+          "key": "C",
+          "text": "100,"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        },
+        {
+          "key": "D",
+          "text": ""
+        },
+        {
+          "key": "A",
+          "text": "11,"
+        },
+        {
+          "key": "B",
+          "text": "10,"
+        },
+        {
+          "key": "C",
+          "text": "01,"
+        },
+        {
+          "key": "D",
+          "text": "00"
+        }
+      ],
+      "content": "上一题中各字符的哈夫曼编码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "000 001 011 010 110 111 101 100"
+        },
+        {
+          "key": "B",
+          "text": "000 001 010 011 100 101 110 111"
+        },
+        {
+          "key": "C",
+          "text": "000 001 100 101 011 010 111 110"
+        },
+        {
+          "key": "D",
+          "text": "000 010 001 011 100 110 101 111"
+        }
+      ],
+      "content": "( )是 位格雷编码。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "根据下面二叉树和给定的代码，\n\n```cpp\n#include <iostream>\nusing namespace std;\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n};\nTreeNode* search(TreeNode* root, int val) {\n    cout << root->val << \" \";\n    if (root == NULL || root->val == val) return root;\n    if (val < root->val)\n    return search(root->left, val);\n    else\n    return search(root->right, val);\n}\n```\n给定以下二叉搜索树，调用函数 search(root,7) 时，输出的结果是（ ）。\n\n```cpp\n5\n/ \\\n3 7\n/ \\ / \\\n2 4 6 8\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "TreeNode* node = s.top();"
+        },
+        {
+          "key": "B",
+          "text": "TreeNode* node = s.top(); s.pop();"
+        },
+        {
+          "key": "C",
+          "text": "TreeNode* node = s.front();"
+        },
+        {
+          "key": "D",
+          "text": "TreeNode* node = s.front(); s.pop();"
+        }
+      ],
+      "content": "阅读以下二叉树的深度优先搜索算法，横线上应填写（ ）。\n\n```cpp\nvoid dfs(TreeNode* root) {\n    if (root == nullptr)\n    return;\n    stack<TreeNode*> s;\n    s.push(root);\n    while (!s.empty()) {\n        ———————————————————————— // 在此处填入代码\n        cout << node->value << \" \";\n        if (node->right) s.push(node->right);\n        if (node->left) s.push(node->left);\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "TreeNode* node = q.top();"
+        },
+        {
+          "key": "B",
+          "text": "TreeNode* node = q.top(); q.pop();"
+        },
+        {
+          "key": "C",
+          "text": "TreeNode* node = q.front();"
+        },
+        {
+          "key": "D",
+          "text": "TreeNode* node = q.front(); q.pop();"
+        }
+      ],
+      "content": "阅读以下二叉树的广度优先搜索的代码，横线上应填写（ ）。\n\n```cpp\n#include <queue>\nvoid bfs(TreeNode* root) {\n    if (root == NULL) return;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        ———————————————————————— // 在此处填入代码\n        cout << node->val << \" \";\n        if (node->left) {\n            q.push(node->left);\n        }\n        if (node->right) {\n            q.push(node->right);\n        }\n    }\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "使用上题中的宽度优先搜索算法遍历以下这棵树，可能的输出是( )。\n\n```cpp\n1\n/ \\\n2 3\n/ \\ \\\n8 9 6\n/ \\ \\\n4 5 7\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "动态规划适用于没有重叠⼦问题的优化问题。"
+        },
+        {
+          "key": "B",
+          "text": "动态规划要求问题具有最优⼦结构和无后效性。"
+        },
+        {
+          "key": "C",
+          "text": "动态规划通常通过递归来实现。"
+        },
+        {
+          "key": "D",
+          "text": "动态规划与贪心算法不同，贪心算法不适用于有重叠⼦问题的问题。"
+        }
+      ],
+      "content": "以下关于动态规划的描述，（ ）是正确的。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "70"
+        },
+        {
+          "key": "B",
+          "text": "90"
+        },
+        {
+          "key": "C",
+          "text": "100"
+        },
+        {
+          "key": "D",
+          "text": "120"
+        }
+      ],
+      "content": "假设背包的最大容量 ，共有有 个物品可供选择，4个物品的重量分别为 ，对应\n的价值分别为 ，则该0/1背包问题中，背包的最大价值为（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "构造函数是一种特殊的类成员函数，构造函数的名称和类名相同。但通过函数重载，可以创建多个同名的构\n造函数，条件是每个构造函数的参数列表不同。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "类的静态成员函数既能访问类的静态数据成员，也能访问非静态数据成员。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "栈中元素的插入和删除操作都在栈的顶端进行，所以方便用单向链表实现。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面代码构建的树一定是完全二叉树：\n\n```cpp\nstruct TreeNode {\n    int value;\n    TreeNode* left;\n    TreeNode* right;\n};\nTreeNode* buildCompleteBinaryTree() {\n    TreeNode* root = new TreeNode{1};\n    root->left = new TreeNode{2};\n    root->right = new TreeNode{3};\n    root->left->left = new TreeNode{4};\n    root->left->right = new TreeNode{5};\n    root->right->left = new TreeNode{6};\n    return root;\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在二叉排序树中，左⼦树所有节点的值都大于根节点的值，右⼦树所有节点的值都小于根节点的值。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在生成一个派生类的对象时，只调用派生类的构造函数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的代码实现了二叉树的前序遍历，它通过递归方法访问每个节点并打印节点值。\n\n```cpp\nvoid preorder(TreeNode* root) {\n    if (root == NULL) return;\n    cout << root->val << \" \";\n    preorder(root->left);\n    preorder(root->right);\n}\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在二叉树中，宽度优先搜索算法（BFS）保证从起点到每个节点的访问路径是边数最少的路径（即最短路径）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在解决简单背包问题时，动态规划的状态转移方程如下：\n\n```cpp\ndp[i][w] = max(dp[i-1][w], dp[i-1][w - weights[i-1]] + values[i-1]);\n```\n该方程表⽰：在考虑第 i 个物品时，当前背包容量为 w，如果不放物品 i，则最大价值是 dp[i-1][w]；如果\n放入物品 i，则最大价值是 dp[i-1][w - weights[i-1]] + values[i-1]，其中数组weights和values分\n别表⽰所有物品的重量和价值，数组下标从0开始。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "栈中元素的插入和删除操作都在栈的顶端进行，所以方便用双向链表比单向链表更合适表实现。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：树上游⾛**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表移动次数和初始节点编号。\n第⼆⾏包含⼀个长度为 且仅包含⼤写字母 的字符串，代表每次移动的⽅式，其中 代表第1种移动⽅式，\n代表第2种移动⽅式， 代表第3种移动⽅式。\n\n### 输出格式\n输出⼀个正整数，代表最后所处的节点编号。\n\n### 样例解释\n⼩杨的移动路线为 2-1-3-7。\n子任务编号 数据点占比\n1 20%\n2 20%\n3 60%\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：运送物资**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含三个正整数 ，代表运输站点数量，货车数量和两市距离。\n之后 ⾏，每⾏包含两个正整数 ，代表第 个运输站点的位置和最多容纳车辆数。\n之后 ⾏，每⾏包含两个正整数 ，代表第 辆货车每天需要向 A 市运送 次物资，向 B 市运送 次物资。\n\n### 输出格式\n输出⼀个正整数，代表所有货车每天的最短总⾏驶路程。\n\n### 样例解释\n第 辆车的初始运输站点为站点 ，第 辆车的初始运输站点为站点 。第 辆车的初始运输站点为站点 ，第 辆\n车的初始运输站点为站点 。此时总⾏驶路程最短，为 40186。\n子任务编号 数据点占比\n1 20%\n2 20%\n3 60%\n对于全部数据，保证有 。数据保证\n。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

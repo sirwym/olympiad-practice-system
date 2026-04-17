@@ -1,0 +1,472 @@
+{
+  "title": "NCT KITTEN 1级 K1模拟卷1",
+  "category": "NCT-KITTEN",
+  "level": "1",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 3,
+      "answer": "D",
+      "content": "以下说法中合理的是（     ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "将自己和家人的重要信息暴露在社交网站上，欢迎大家联系"
+        },
+        {
+          "key": "B",
+          "text": "在评论中使用不文明用语"
+        },
+        {
+          "key": "C",
+          "text": "为了方便记忆，可以将银行卡号的密码设置为123456"
+        },
+        {
+          "key": "D",
+          "text": "遇到剽窃行为，要合理地使用法律的武器来保护自己的合法权益"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 3,
+      "answer": "C",
+      "content": "能使角色旋转30度的选项是（       ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/B1Ofe9m5v.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/rJ3fx975v.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/HJx7gcQcD.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/r1QXg9QqP.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 3,
+      "answer": "B",
+      "content": "下列选项中，实现效果与“呆鲤鱼”的脚本效果一致的是（      ）。“呆鲤鱼”的脚本：![img](../assets/images/nct/rkxb9xcQ9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/BJGRxqQqw.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/SkwRxcQ5D.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/r1jCxcQ9P.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/S1WACg5X9v.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 3,
+      "answer": "C",
+      "content": "下图是角色“星能猫”的属性栏。关于“星能猫”的初始状态，说法不正确的是（     ）。![img](../assets/images/nct/Sy58Wcm5v.png)![img](../assets/images/nct/16262606583657337.png)![img](../assets/images/nct/16262607401362503.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "“星能猫”是自由旋转模式"
+        },
+        {
+          "key": "B",
+          "text": "“星能猫”坐标值是（119，-300）"
+        },
+        {
+          "key": "C",
+          "text": "“星能猫”的面向角度是70"
+        },
+        {
+          "key": "D",
+          "text": "“星能猫”在舞台区的初始状态是显示"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 3,
+      "answer": "A",
+      "content": "已知“钻石”的坐标是（-200,-100），“金币”的坐标是（-200,200）。为角色“涂鸦狐”添加脚本（       ）可以帮助“涂鸦狐”先收集“钻石”再收集“金币”。![img](../assets/images/nct/16565583593546611.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/H1u4NkhZO.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/HkqV4yhWu.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/Sk3EEJhWO.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/ryCV4yhZO.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 3,
+      "answer": "C",
+      "content": "能绘制出下图所示三角形的脚本是（        ）。![img](../assets/images/nct/BkliPzqmqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/ryMTsz975P.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/rklbhGcX5w.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/rklBhz9Q9w.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/ByvAF2yjw.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 3,
+      "answer": "B",
+      "content": "两个角色的脚本如图所示。要实现“大红包”抖动的效果，脚本中“？”处最小可以填（        ）。\n![img](../assets/images/nct/Bk0z7575D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 3,
+      "answer": "D",
+      "content": "能绘制出以下图形的脚本是（      ）。注：角色初始面向0度![img](../assets/images/nct/B1leDm5X9P.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/By4dQqX9w.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/HJOOOmq7cw.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/ryhum9mcP.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/HyxJYmqQ9D.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 3,
+      "answer": "C",
+      "content": "下列选项中，能使角色“草灵灵”的中心点只出现在红色方框中随机位置的是（       ）。![img](../assets/images/nct/B1CnmqmcD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/SkFPyL1Xu.jpg)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/r1eF21IJQd.jpg)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/H1DWgLyQ_.jpg)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/16261756834019188.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 3,
+      "answer": "A",
+      "content": "角色“花瓣”的中心点如图一所示。运行脚本后，按下空格键，能绘制出图二的是（       ）。![img](../assets/images/nct/SkDdE5Xcv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/rJgfWLk7_.jpg)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/rJsz-UJQ_.jpg)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/ryDQWLyXd.jpg)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/S1KmbUym_.jpg)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 3,
+      "answer": "B",
+      "content": "舞台效果：角色“猴子”一直移动，当碰到“桃子”之后，说“哇！桃子！”，程序停止。角色“猴子”脚本如下图所示，“？”处应拼接（      ）。![img](../assets/images/nct/ByrMrc7qP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/HyeR-U1QO.jpg)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/BkO0AZL17O.jpg)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/HkcRWUymO.jpg)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/B1eZJMLkmO.jpg)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 3,
+      "answer": "D",
+      "content": "角色重复实现以下效果：上升至舞台区上边缘，然后移动到舞台下边缘随机位置，并再次上升。则该角色的脚本是（        ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/r1xmjBcmqD.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/HJ-viH9mcD.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/r1soBq75P.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/S17e3r9m5D.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 3,
+      "answer": "D",
+      "content": "运行下图脚本，对话框显示的内容是（       ）。\n![img](../assets/images/nct/Sk5xUqXqv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "64"
+        },
+        {
+          "key": "B",
+          "text": "最终的得分是：64"
+        },
+        {
+          "key": "C",
+          "text": "63"
+        },
+        {
+          "key": "D",
+          "text": "最终的得分是：63"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 3,
+      "answer": "D",
+      "content": "运行程序，每当按下鼠标，角色对话显示“欢迎光临”，放开鼠标，角色对话显示“欢迎下次再来”。则正确的脚本是（      ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/rJXdU9mcw.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/ryevdI579w.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/HJbgR5jGu.jpg)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/H11FI5m9D.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 3,
+      "answer": "A",
+      "content": "可以实现每按一次空格键，变量“上升高度”增加1的脚本是（      ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/nct/rJZaL5m5D.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/nct/ryTpIcmqw.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/nct/r1A1D5Q9w.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/nct/H1fxPcQqw.png)"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 16,
+      "score": 5,
+      "answer": "80",
+      "content": "运行下图脚本，点击四次鼠标，角色移动的总步数是____。注：仅填写数字，勿填写空格、换行或其他字符\n![img](../assets/images/nct/Hkej6J4cD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "80"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 17,
+      "score": 5,
+      "answer": "3",
+      "content": "《十面埋伏》是一首著名的大型琵琶曲，堪称曲中经典。乐曲内容壮丽辉煌，风格雄伟奇特，在古典音乐中非常罕见，出色地表现了垓下之战的激烈战况，向世人展现了一幅生动感人的古战场画面。小可编写了一段积木，考查阿短的音乐知识。脚本中“？”处应填写的是 ____。注：勿填写空格、换行或其他字符\n![img](../assets/images/nct/rygzCT14cP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 18,
+      "score": 5,
+      "answer": "4",
+      "content": "运行下图脚本，角色旋转1圈（360度），则“？”处应填写____。注：仅填写数字，勿填写空格、换行或其他字符\n![img](../assets/images/nct/rkbbC1Vqw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 5,
+      "answer": "17",
+      "content": "运行下图脚本，新建对话框输出的内容是____。注：仅填写数字，勿填写空格、换行或其他字符\n![img](../assets/images/nct/rk0QAyVqv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "17"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 5,
+      "answer": "15",
+      "content": "下图中的脚本与流程图对应，则“？”处应填写_____。注：仅填写数字，勿填写空格、换行或其他字符![img](../assets/images/nct/16952068994455337.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 21,
+      "score": 10,
+      "answer": "None",
+      "content": "程序预期效果：\na.每隔1秒“黄气球”移动到舞台区的随机位置。当鼠标点击角色“黄气球”，角色持续显示对话“哎呀”1秒后，抖动1秒，最后逐渐消失。\nb.“气球群”重复以下效果：鼠标点击角色“气球群”，角色逐渐变小，直至消失，随后显示在舞台随机位置。![img](../assets/images/nct/rJAAox4cP.gif)\n然而，运行程序后，存在以下问题，请你进行完善：\n1.角色“黄气球”的积木脚本是散开的，请你进行拼接，实现效果a；注：请勿更改积木参数（如数值）；请勿自行添加或删除积木\n2.“气球群”的效果存在一些问题，请你修改脚本，实现效果b。注：勿添加其他未作要求的效果",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 22,
+      "score": 20,
+      "answer": "None",
+      "content": "使用给定素材进行创作。![img](../assets/images/nct/r1Rqhe49P.gif)作品要求：\n1.程序启动后，角色“阿短”一直跟随鼠标移动，并不断切换造型形成走动的动画效果；\n2.“蓝雀”、“妙音龙”、“气球鼠”持续在舞台区随机移动，间隔时间分别为0.5秒、1秒、2秒；\n3.“蓝雀”、“妙音龙”、“气球鼠”分别被“阿短”碰到，就逐渐隐藏消失，并且变量“得分”加1；\n4.使用画板编辑器绘制角色“游戏结束”，参考如下，并将其初始状态设置为隐藏；![img](../assets/images/nct/BkSFC3BQ_.jpg)5.变量“得分”大于等于2，显示“游戏结束”。",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

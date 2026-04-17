@@ -1,0 +1,474 @@
+{
+  "title": "2025年3月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2025-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年3月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数multiply的定义应该放到函数main之前。"
+        },
+        {
+          "key": "B",
+          "text": "函数声明int multiply(int x, int y);中明确指定了函数multiply()的返回值为整数类型。"
+        },
+        {
+          "key": "C",
+          "text": "在main函数中，函数multiply通过multiply(a, b)被调用，其中a和b是定义在main函数中的变\n量，它们作为实参传递给了multiply函数的形参x和y。\n"
+        },
+        {
+          "key": "D",
+          "text": "运行上述代码，将输出The result is: 20。"
+        }
+      ],
+      "content": "关于下述代码，说法错误的是（ ）。\n\n```cpp\nint multiply(int x, int y);\nint main() {\n    int a = 4;\n    int b = 5;\n    int result = multiply(a, b);\n    std::cout << \"The result is: \" << result << std::endl;\n    return 0;\n}\nint multiply(int x, int y) {\n    return x * y;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2020"
+        },
+        {
+          "key": "B",
+          "text": "2010"
+        },
+        {
+          "key": "C",
+          "text": "1010"
+        },
+        {
+          "key": "D",
+          "text": "编译错误"
+        }
+      ],
+      "content": "执行下述代码将输出（ ）。\n\n```cpp\nint x = 10;\nvoid func() { int x = 20; std::cout << x; }\nint main() {\n    func();\n    std::cout << x;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "随机值"
+        },
+        {
+          "key": "D",
+          "text": "编译错误"
+        }
+      ],
+      "content": "执行下述代码后，变量a的值为（ ）。\n\n```cpp\nint a = 10;\nint* p = &a;\n*p = 20\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "只能用值传递"
+        },
+        {
+          "key": "B",
+          "text": "只能用引用传递"
+        },
+        {
+          "key": "C",
+          "text": "只能用指针传递"
+        },
+        {
+          "key": "D",
+          "text": "引用传递和指针传递均可"
+        }
+      ],
+      "content": "以下哪种参数传递方式可以避免拷贝大型对象？\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "21"
+        },
+        {
+          "key": "C",
+          "text": "22"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ],
+      "content": "执行下述代码，将输出（ ）。\n\n```cpp\nvoid swap(int a, int &b) {\n    int temp = a;\n    a = b;\n    b = temp;\n}\nint main() {\n    int x = 1, y = 2;\n    swap(x, y);\n    std::cout << x << y;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nstruct Person {\n    string name;\n    int age;\n};\nPerson p(\"Yang\", 10);\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nstruct Person {\n    string name,\n    int age;\n};\nPerson p;\np.name = \"Yang\";\np.age = 10;\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nstruct Person {\n    string name;\n    int age;\n};\nPerson p = { \"Yang\", 10 };\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nstruct Person {\n    string name;\n    int age;\n};\nPerson p = new Person(\"Yang\", 10);\n```\n"
+        }
+      ],
+      "content": "下面的描述中，（ ）正确定义一个名为Person的结构体并正确初始化了一个Person结构体的变量p。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "结构Person内嵌套结构Address"
+        },
+        {
+          "key": "B",
+          "text": "Person 有一个Address 类型的 address 成员"
+        },
+        {
+          "key": "C",
+          "text": "一个Person类型的变量p的address的初始化可以写成：p.address.street = \"123 Main St\";\np.address.city = \"Anytown\";\n"
+        },
+        {
+          "key": "D",
+          "text": "结构的嵌套可以减少命名冲突，因此可以不必控制嵌套层次"
+        }
+      ],
+      "content": "给定如下代码，\n\n```cpp\nstruct Person {\n    std::string name;\n    int age;\n    struct Address {\n        std::string street;\n        std::string city;\n    };\n    Address address;\n};\n```\n下面描述错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ],
+      "content": "假设int arr[2][3] = {{1,2,3},{4,5,6}};，则arr[1][2]的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "int arr[3,4];"
+        },
+        {
+          "key": "B",
+          "text": "int arr[3][4];"
+        },
+        {
+          "key": "C",
+          "text": "int arr(3,4);"
+        },
+        {
+          "key": "D",
+          "text": "int a[3-4];"
+        }
+      ],
+      "content": "下面（ ）正确定义了二维数组。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nres += f1 + f2;\nf1 = f2;\nf2 = res;\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nres = f1 + f2;\nf1 = f2;\nf2 = res;\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nres += f1 + f2;\nf2 = res;\nf1 = f2;\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nres = f1 + f2;\nf2 = res;\nf1 = f2;\n```\n"
+        }
+      ],
+      "content": "小杨正在爬楼梯，需要爬 阶才能到达楼顶。如果每次可以爬 个或 个台阶，下面代码采用递推算法来计算\n一共有多少种不同的方法可以爬到楼顶，则横线上应填写（ ）。\n\n```cpp\nint f(int n) {\n    if (n == 1 || n == 2)\n    return n;\n    int f1 = 1;\n    int f2 = 2;\n    int res = 0;\n    for (int i = 3; i <= n; i++) {\n        ________________________________ // 在此处填入代码\n    }\n    return res;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "给定如下算法，其时间复杂度为（ ）。\n\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < (1 << n); i++) {\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if (i & (1 << j)) {\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "稳定性指算法的时间复杂度恒定"
+        },
+        {
+          "key": "B",
+          "text": "稳定排序保证相同元素的相对顺序不变"
+        },
+        {
+          "key": "C",
+          "text": "选择排序是稳定排序"
+        },
+        {
+          "key": "D",
+          "text": "插入排序不是稳定排序"
+        }
+      ],
+      "content": "下面关于排序稳定性的描述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "3, 5, 1, 8"
+        },
+        {
+          "key": "B",
+          "text": "3, 1, 5, 8"
+        },
+        {
+          "key": "C",
+          "text": "3, 5, 8, 1"
+        },
+        {
+          "key": "D",
+          "text": "5, 3, 8, 1"
+        }
+      ],
+      "content": "对数组arr[]={5, 3, 8, 1}进行升序排序，执行第一轮冒泡排序后数组arr中的内容为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "屏幕上输出Caught: Runtime error occurred."
+        },
+        {
+          "key": "B",
+          "text": "屏幕上输出Caught an unknown exception."
+        },
+        {
+          "key": "C",
+          "text": "程序调用 std::terminate()"
+        },
+        {
+          "key": "D",
+          "text": "编译错误"
+        }
+      ],
+      "content": "运行下面的代码，将出现（ ）。\n\n```cpp\ndouble hmean(double a, double b) {\n    if (a == -b )\n    throw runtime_error(\"Runtime error occurred.\");\n    return 2.0*a*b/(a + b);\n}\nint main() {\n    double x = 10;\n    double y = -10;\n    try {\n        int result = hmean(x, y);\n        cout << \"hmean: \" << result << endl;\n    }\n    catch (const runtime_error& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    } catch (...) {\n        cout << \"Caught an unknown exception.\" << endl;\n    }\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nfreopen(\"log.txt\", \"w\", stdout);\ncout << \"Happy Spring!\" << endl;\nfclose(stdout);\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\noutFile << \"Happy Spring!\" << endl;\noutFile.close();\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\ncout << \"Happy Spring!\" << endl;\noutFile.close();\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nofstream log_file(\"log.txt\");\nstreambuf* org_cout = cout.rdbuf();\ncout.rdbuf(log_file.rdbuf());\ncout << \"Happy Spring!\" << endl;\ncout.rdbuf(org_cout);\n```\n"
+        }
+      ],
+      "content": "下面哪种方式不能实现将字符串\"Happy Spring!\"输出重定向到文件log.txt（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "函数是C++中的核心概念，用于封装可重用的代码块。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，函数的返回类型可以省略，默认为int。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "结构体的成员默认是public访问权限。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "假设整数数组arr[4]= {0, 1, 2, 3};的第一个元素在内存中的地址为0x7ffee4065820, 经过int* p\n= arr; p += 1;后，指针p的值是1。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "二维数组作为函数参数时，必须显式指定所有维度的大小。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "考虑最坏情况下冒泡排序算法的时间复杂度， 为待排序数字的数目为 的复杂度，则其递推关系式为\n， 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "插入排序在最好情况（已有序）下的时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "对数组arr[]={4, 3, 1, 5, 2}进行升序排序，执行第一轮选择排序后数组arr中的内容是{1, 4, 3, 5,\n2}。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "未捕获异常会调用std::terminate终⽌程序。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：荒地开垦**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含两个正整数 ，含义如题⾯所⽰。\n之后 ⾏，每⾏包含⼀个长度为 且仅包含字符 . 和 # 的字符串。如果为 .，代表该位置为荒地，如果为 #，\n代表该位置为杂物。\n\n### 输出格式\n输出⼀个整数，代表在清除⾄多⼀个位置的杂物的情况下，最多能够开垦的荒地块数。\n\n### 样例解释\n移除第⼆⾏从左数第⼆块空地的杂物后：\n1 .....\n2 ....#\n3 .....\n第⼀⾏从左数前 块荒地，第⼆⾏从左数前 块荒地，第三⾏从左数前 块荒地，均可开垦， 。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：二阶矩阵**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 有⼀个 ⾏ 列的矩阵 。\n⼩ A 认为⼀个 的矩阵 是好的，当且仅当 。其中 表⽰矩阵 的第 ⾏第 列\n的元素。\n⼩ A 想知道 中有多少个好的⼦矩阵。\n\n### 输入格式\n第⼀⾏，两个正整数 。\n接下来 ⾏，每⾏ 个整数 。\n\n### 输出格式\n⼀⾏，⼀个整数，表⽰ 中好的⼦矩阵的数量。\n\n### 数据范围\n对于所有测试点，保证 ， ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

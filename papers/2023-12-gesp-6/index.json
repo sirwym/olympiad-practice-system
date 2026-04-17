@@ -1,0 +1,474 @@
+{
+  "title": "2023年12月 GESP C++ 6级",
+  "category": "GESP",
+  "level": "6",
+  "date": "2023-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年12月 GESP C++ 6级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "在C++中，一切皆对象，即便是字面量如整数5等也是对象"
+        },
+        {
+          "key": "B",
+          "text": "在C++中，可以自定义新的类，并实例化为新的对象"
+        },
+        {
+          "key": "C",
+          "text": "在C++中，内置函数和自定义函数，都是类或者对象"
+        },
+        {
+          "key": "D",
+          "text": "在C++中，可以在自定义函数中嵌套定义新的函数"
+        }
+      ],
+      "content": "关于C++类和对象的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "C++中类内部可以嵌套定义类"
+        },
+        {
+          "key": "B",
+          "text": "在类中定义的类被称为内部类，定义类的类被称为外部类"
+        },
+        {
+          "key": "C",
+          "text": "内部类可以随便访问，不需要通过外部类来访问"
+        },
+        {
+          "key": "D",
+          "text": "代码中Point被称为内部类，可以通过外部类Rectangle来访问，Rectangle::Point"
+        }
+      ],
+      "content": "有关下面C++代码的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "第14行代码错误，第15行正确"
+        },
+        {
+          "key": "B",
+          "text": "第15行代码错误，第14行代码正确"
+        },
+        {
+          "key": "C",
+          "text": "第14、15两行代码都正确"
+        },
+        {
+          "key": "D",
+          "text": "第6行代码可修改为objCounter += 1"
+        }
+      ],
+      "content": "有关下面C++代码的说法，正确的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "上列C++代码适用于构造各种二叉树"
+        },
+        {
+          "key": "B",
+          "text": "代码struct BiNode用于构造二叉树的节点"
+        },
+        {
+          "key": "C",
+          "text": "代码BiTree(){root=Creat();}用于构造二叉树"
+        },
+        {
+          "key": "D",
+          "text": "析构函数不可以省略"
+        }
+      ],
+      "content": "有关下面C++代码的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码中Order( )函数是中序遍历二叉树的方法"
+        },
+        {
+          "key": "B",
+          "text": "代码中Order( )先访问根节点，然后对左⼦树进行前序遍历，再对右⼦树前序遍历"
+        },
+        {
+          "key": "C",
+          "text": "代码中Order( )先访问中序遍历左⼦树，然后访问根节点，最后则是中序遍历右⼦树"
+        },
+        {
+          "key": "D",
+          "text": "代码中Order( )先后序遍历左⼦树，然后后序遍历右⼦树，最后访问根节点"
+        }
+      ],
+      "content": "的定义，有关下面C++代码的说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "上述代码构成单向链表"
+        },
+        {
+          "key": "B",
+          "text": "上述代码构成双向链表"
+        },
+        {
+          "key": "C",
+          "text": "上述代码构成循环链表"
+        },
+        {
+          "key": "D",
+          "text": "上述代码构成指针链表"
+        }
+      ],
+      "content": "有关下面C++代码的说法正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "32"
+        },
+        {
+          "key": "C",
+          "text": "64"
+        },
+        {
+          "key": "D",
+          "text": "88"
+        }
+      ],
+      "content": "对 hello world 使用霍夫曼编码（Huffman Coding），最少bit（比特）为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "fiboA() 采用递归方式实现斐波那契数列"
+        },
+        {
+          "key": "B",
+          "text": "fiboB() 采用动态规划算法实现斐波那契数列"
+        },
+        {
+          "key": "C",
+          "text": "当N值较大时，fiboA() 存在大量重复计算"
+        },
+        {
+          "key": "D",
+          "text": "由于 fiboA() 代码较短，其执行效率较高"
+        }
+      ],
+      "content": "下面的 fiboA() 和 fiboB() 两个函数分别实现斐波那契数列，该数列第1、第2项值为1，其余各项分别\n为前两项之和。下面有关说法错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "该代码可用于求解二叉树的深度"
+        },
+        {
+          "key": "B",
+          "text": "代码中函数 Depth( ) 的参数 T 表⽰根节点，非根节点不可以作为参数"
+        },
+        {
+          "key": "C",
+          "text": "代码中函数 Depth( ) 采用了递归方法"
+        },
+        {
+          "key": "D",
+          "text": "代码中函数 Depth( ) 可用于求解各种形式的二叉树深度，要求该二叉树节点至少有 left 和 right 属\n性\n"
+        }
+      ],
+      "content": "有关下面C++代码不正确的说法是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "完全二叉树可以用 list 存储"
+        },
+        {
+          "key": "B",
+          "text": "一般二叉树都可以用 list 存储，空⼦树位置可以用 None 表⽰"
+        },
+        {
+          "key": "C",
+          "text": "满二叉树可以用 list 存储"
+        },
+        {
+          "key": "D",
+          "text": "树数据结构，都可以用 list 存储"
+        }
+      ],
+      "content": "下面有关树的存储，错误的是（ ）.\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1(2()(4))(3)"
+        },
+        {
+          "key": "B",
+          "text": "1(2(3)())(4)"
+        },
+        {
+          "key": "C",
+          "text": "(1,2(3),(4))"
+        },
+        {
+          "key": "D",
+          "text": "(1,(2)(3),(4))"
+        }
+      ],
+      "content": "构造二叉树 [1,2,3,null,4]（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "bool 类型函数只能返回0或者1两种值"
+        },
+        {
+          "key": "B",
+          "text": "bool 类型函数可以返回任何整数值"
+        },
+        {
+          "key": "C",
+          "text": "bool 类型函数必须有参数传递"
+        },
+        {
+          "key": "D",
+          "text": "bool 类型函数没有返回值"
+        }
+      ],
+      "content": "下面有关布尔类型的函数的说法，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "信息过滤"
+        },
+        {
+          "key": "B",
+          "text": "信号中继"
+        },
+        {
+          "key": "C",
+          "text": "避免攻击"
+        },
+        {
+          "key": "D",
+          "text": "数据加密"
+        }
+      ],
+      "content": "通讯卫星在通信网络系统中主要起到（ ）的作用。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "埃⽒筛法"
+        },
+        {
+          "key": "B",
+          "text": "线性筛法"
+        },
+        {
+          "key": "C",
+          "text": "二分答案"
+        },
+        {
+          "key": "D",
+          "text": "枚举法"
+        }
+      ],
+      "content": "小杨想编写一个判断任意输入的整数N是否为素数的程序，下面哪个方法不合适？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "希尔排序"
+        },
+        {
+          "key": "B",
+          "text": "快速排序"
+        },
+        {
+          "key": "C",
+          "text": "堆排序"
+        },
+        {
+          "key": "D",
+          "text": "插入排序"
+        }
+      ],
+      "content": "内排序有不同的类别，下面哪种排序算法和冒泡排序是同一类？（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在面向对象中，方法在C++的class中表现为class内定义的函数。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++类的定义中，可以没有构造函数，会给出默认的构造函数（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "如果某个C++对象（object）支持下标运算符（方括号运算符），则该对象在所对应class中以成员函数的形式\n进行了重载。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "深度优先搜索（DFS，Depth First Search的简写）属于图算法，其过程是对每一个可能的分支路径深入到不\n能再深入为⽌，⽽且每个节点只能访问一次。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "哈夫曼编码（Huffman Coding）具有唯一性，因此有确定的压缩率。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面C++代码中，由于删除了变量 ptr，因此 ptr 所对应的数据也随之删除，故第8行代码被执行时，\n将报错。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "二叉搜索树查找的平均时间复杂度为 。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "二叉搜索树可以是空树（没有任何节点）或者单节点树（只有一个节点），或者多节点。如果是多节点，则\n左节点的值小于⽗节点的值，右节点的值大于⽗节点的值，由此推理，右节点树的值都大于根节点的值，左节点树\n的值都小于根节点的值。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨想写一个程序来算出正整数N有多少个因数，经过思考他写出了一个重复没有超过N/2次的循环就能够算\n出来了。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "同样的整数序列分别保存在单链表和双向链中，这两种链表上的简单冒泡排序的复杂度相同。（ ）\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：闯关游戏**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n请注意，⼀些关卡的得分可能是负数。\n3.1.11 数据规模\n对于20%的测试点，保证 。\n对于40%的测试点，保证 ；保证 。\n对于所有测试点，保证 ；保证 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼯作沟通**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n对于第⼀场合作，员⼯ 有共同领导 ，可以主持合作。\n对于第⼆场合作，员⼯ 本⼈即可以管理所有参与者。\n对于第三场合作，只有 号⽼板才能管理所有员⼯。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

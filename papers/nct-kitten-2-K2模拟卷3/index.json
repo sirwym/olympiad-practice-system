@@ -1,0 +1,347 @@
+{
+  "title": "NCT KITTEN 2级 K2模拟卷3",
+  "category": "NCT-KITTEN",
+  "level": "2",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 5,
+      "answer": "D",
+      "content": "下列说法正确的是（     ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "网络上下载的资源都可以拿来售卖"
+        },
+        {
+          "key": "B",
+          "text": "在公用电脑上登录私人账号时，将密码保存在该电脑上"
+        },
+        {
+          "key": "C",
+          "text": "网络上搜索到的信息和数据都是真实可靠的"
+        },
+        {
+          "key": "D",
+          "text": "在网络社区内不传播不健康信息"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 5,
+      "answer": "C",
+      "content": "如图是四个角色及其脚本。运行这些脚本，舞台效果是（       ）。\n\n![img](../assets/images/nct/S1bTnAIeP.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "所有角色说“Hi”"
+        },
+        {
+          "key": "B",
+          "text": "“蓝雀”和“涂鸦狐”一起说“Hi”"
+        },
+        {
+          "key": "C",
+          "text": "“蓝雀”先说“Hi”，1秒后“涂鸦狐”说“Hi”"
+        },
+        {
+          "key": "D",
+          "text": "“涂鸦狐”先说“Hi”，1秒后“蓝雀”说“Hi”"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 5,
+      "answer": "C",
+      "content": "在程序中，有时需要按照一定的格式输入数据，然后对其进行处理。运行脚本，输入：小可-9-三年级，则新建对话框输出的是（      ）。\n\n![img](../assets/images/nct/S1hZTRLlv.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "小可"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "三年级"
+        },
+        {
+          "key": "D",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 5,
+      "answer": "B",
+      "content": "圆周率（Pi）是圆的周长与直径的比值。使用下列脚本对变量“Pi”的值进行处理，新建对话框输出的是（        ）。\n\n![img](../assets/images/nct/SyeJ8aRIlv.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.141"
+        },
+        {
+          "key": "B",
+          "text": "3.142"
+        },
+        {
+          "key": "C",
+          "text": "3000"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 5,
+      "answer": "B",
+      "content": "列表“数据”的初始值如下图所示。使用下列脚本对其进行处理，则新建对话框输出的是（     ）。\n\n![img](../assets/images/nct/r1wkCA8xP.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 5,
+      "answer": "A",
+      "content": "舞台中有四个角色。图中所示脚本是角色“阿短”的脚本。执行该脚本，“阿短”将（      ）。\n\n![img](../assets/images/nct/rJ3MC08ev.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "碰到“大黄鸡”，说“你好大黄鸡”"
+        },
+        {
+          "key": "B",
+          "text": "碰到“雷电猴”，说“你好雷电猴”"
+        },
+        {
+          "key": "C",
+          "text": "碰到“呆鲤鱼”，然后离开舞台"
+        },
+        {
+          "key": "D",
+          "text": "碰到“大黄鸡”，然后离开舞台"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 5,
+      "answer": "A",
+      "content": "苹果树上结满了苹果，“雷电猴”碰到“苹果”后，“苹果”掉落在台面或地面（Y坐标为-350的位置）上。  下图中是角色“苹果”的脚本。则脚本中“？”代表的内容是（    ）。\n\n![img](../assets/images/nct/Bk2URCIgD.jpg)\n![img](../assets/images/nct/BkxLkqro_.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 5,
+      "answer": "C",
+      "content": "列表“水果”的初始值如图中所示。运行下列脚本，新建对话框输出的是（    ）。\n\n![img](../assets/images/nct/rJX5A08lD.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "西瓜香蕉哈密瓜芒果"
+        },
+        {
+          "key": "B",
+          "text": "芒果+哈密瓜+香蕉+西瓜"
+        },
+        {
+          "key": "C",
+          "text": "芒果哈密瓜香蕉西瓜"
+        },
+        {
+          "key": "D",
+          "text": "脚本有错误，无法运行"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 5,
+      "answer": "A",
+      "content": "下列脚本绘制的图形是（    ）。\n\n![img](../assets/images/nct/ByECACLxw.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 5,
+      "answer": "D",
+      "content": "“呆鲤鱼”的脚本如图所示。脚本中的变量“速度”为角色变量。运行脚本，下列说法正确的是（    ）。\n\n![img](../assets/images/nct/SkAZJyveD.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "舞台上有5只“呆鲤鱼”"
+        },
+        {
+          "key": "B",
+          "text": "所有“呆鲤鱼”都在Y方向上往返移动"
+        },
+        {
+          "key": "C",
+          "text": "所有“呆鲤鱼”的移动速度都一样"
+        },
+        {
+          "key": "D",
+          "text": "所有“呆鲤鱼”的大小都不一样"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 11,
+      "score": 4,
+      "answer": "60",
+      "content": "运行下列脚本，新建对话框输出的值是____。\n\n![img](../assets/images/nct/Bkm_0FHju.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "60"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 12,
+      "score": 4,
+      "answer": "45",
+      "content": "角色在舞台上做加速运动，其脚本如下。则该角色最终的X坐标是____。\n\n![img](../assets/images/nct/r1mYkyweD.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "45"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 13,
+      "score": 4,
+      "answer": "7",
+      "content": "下面流程图输出b的值是____。\n\n![img](../assets/images/nct/r1V5N9Hjd.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 14,
+      "score": 4,
+      "answer": "56",
+      "content": "运行下列脚本，新建对话框输出的是____。\n\n![img](../assets/images/nct/S1fCkywgP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "54"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 15,
+      "score": 4,
+      "answer": "40",
+      "content": "下列脚本可用于统计同一小时内的运行时间。运行脚本，一段时间后点击角色，列表“时间”的值如下图所示，则脚本运行的时长是____秒。\n\n![img](../assets/images/nct/S1JxgJwgP.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "40"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 16,
+      "score": 15,
+      "answer": "None",
+      "content": "程序的预期效果如下：1.启动程序后，在舞台上随机产生若干“苹果”（数量在5到10之间，包含5和10）；2.使用鼠标点击“苹果”，“苹果”消失；3.变量“苹果数量”实时显示舞台上的“苹果”数量；然而，运行程序后，发现存在以下问题，请你进行完善：1）生成的“苹果”的数量不是随机的，修改脚本实现效果1。2）点击“苹果”，“苹果”没有消失，修改脚本实现效果2。3）变量“苹果数量”显示与舞台上“苹果”数量不一致，修改脚本，实现效果3。\n\n![img](../assets/images/nct/SyiubsN6H.gif)",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 17,
+      "score": 15,
+      "answer": "None",
+      "content": "根据给定素材，完成“趣味加法”程序。作品要求：1）等号右边随机产生一个3到24之间的数字（包含3和24）；2）分别点击数字“小球”，“小球”将依次移到舞台上方的三个灰色圆形内；3）三个“小球”的和不等于等号右边的数字，提示“错误”；4）三个“小球”的和等于等号右边的数字，提示“正确”；5）提示“错误”或“正确”后，“小球”回到紫色圆盘上，重新进行游戏。\n\n![img](../assets/images/nct/Syu_BsNTH.gif)",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

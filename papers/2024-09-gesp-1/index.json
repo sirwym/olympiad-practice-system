@@ -1,0 +1,474 @@
+{
+  "title": "2024年9月 GESP C++ 1级",
+  "category": "GESP",
+  "level": "1",
+  "date": "2024-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年9月 GESP C++ 1级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "内存"
+        },
+        {
+          "key": "B",
+          "text": "磁盘"
+        },
+        {
+          "key": "C",
+          "text": "CPU"
+        },
+        {
+          "key": "D",
+          "text": "显⽰器"
+        }
+      ],
+      "content": "据有关资料，⼭东大学于1972年研制成功DJL-1计算机，并于1973年投入运行，其综合性能居当时全国第三\n位。DJL-1计算机运算控制部分所使用的磁心存储元件由磁心颗粒组成，设计存贮周期为2μs（微秒）。那么该磁心\n存储元件相当于现代计算机的（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "阅读源代码"
+        },
+        {
+          "key": "B",
+          "text": "单步调试"
+        },
+        {
+          "key": "C",
+          "text": "输出执行中间结果"
+        },
+        {
+          "key": "D",
+          "text": "跟踪汇编码"
+        }
+      ],
+      "content": "C++程序执行出现错误，不太常见的调试手段是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout << \"Hello,GESP!\" << endl;"
+        },
+        {
+          "key": "B",
+          "text": "cout << 'Hello,GESP!' << endl;"
+        },
+        {
+          "key": "C",
+          "text": "cout << \"\"\"Hello,GESP!\"\"\" << endl;"
+        },
+        {
+          "key": "D",
+          "text": "cout << \"Hello,GESP!' << endl;"
+        }
+      ],
+      "content": "在C++中，下列表达式错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "14"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "C++表达式10 - 3 * 2的值是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "4.3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ],
+      "content": "在C++中，假设N为正整数10，则cout <<(N / 3 + N % 3)将输出( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "\"6%2={6%2}\""
+        },
+        {
+          "key": "B",
+          "text": "6%2={6%2}"
+        },
+        {
+          "key": "C",
+          "text": "0=0"
+        },
+        {
+          "key": "D",
+          "text": "6%2={0}"
+        }
+      ],
+      "content": "C++语句printf(\"6%2={%d}\", 6%2)执行后的输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "将输出整数7"
+        },
+        {
+          "key": "B",
+          "text": "将输出52，5和2之间没有空格"
+        },
+        {
+          "key": "C",
+          "text": "将输出5和2，5和2之间有空格"
+        },
+        {
+          "key": "D",
+          "text": "执行结果不确定，因为代码段没有显⽰a和b的数据类型"
+        }
+      ],
+      "content": "成功执行下面的C++代码，先后从键盘上输入5回车和2回车，输出是（ ）。\n\n```cpp\ncin >> a;\ncin >> b;\ncout << a + b;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "55"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint Sum = 0;\nfor (int i = 0; i < 10; i++)\nSum += i;\ncout << Sum;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "55"
+        },
+        {
+          "key": "B",
+          "text": "45"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        }
+      ],
+      "content": "下面C++代码执行后输出的是（ ）。\n\n```cpp\nint N = 0;\nfor (int i = 0; i < 10; i++)\nN += 1;\ncout << N;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "content": "下面C++代码执行后输出的是（ ）。\n\n```cpp\nint N = 0;\nfor (int i = 1; i < 10; i +=2){\n    if (i % 2 == 1)\n    continue;\n    N += 1;\n}\ncout << N;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "第5行代码2, 0"
+        },
+        {
+          "key": "B",
+          "text": "第5行代码1, 0"
+        },
+        {
+          "key": "C",
+          "text": "第7行代码 1"
+        },
+        {
+          "key": "D",
+          "text": "第7行代码 0"
+        }
+      ],
+      "content": "下面C++代码执行时输入14+7后，正确的输出是（ ）。\n\n```cpp\nint P;\nprintf(\"请输入正整数P: \");\nscanf(\"%d\", &P);\nif (P % 3 || P % 7)\nprintf(\"第5行代码%d, %d\", P % 3, P % 7);\nelse\nprintf(\"第7行代码%2d\", P % 3 && P % 7);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "190 20"
+        },
+        {
+          "key": "B",
+          "text": "95 10"
+        },
+        {
+          "key": "C",
+          "text": "90 19"
+        },
+        {
+          "key": "D",
+          "text": "90 10"
+        }
+      ],
+      "content": "执行下面C++代码后得到的输出是（ ）。\n\n```cpp\nint count= 0, i, s;\nfor (i = 0, s = 0 ; i < 20; i++, count++)\ns += i++;\ncout << s << \" \" << count;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "变量N0占用额外空间，可以去掉"
+        },
+        {
+          "key": "B",
+          "text": "代码对所有整数都能计算出正确位数"
+        },
+        {
+          "key": "C",
+          "text": "L11标记的代码行简单修改后可以对正整数给出正确输出"
+        },
+        {
+          "key": "D",
+          "text": "L11标记的代码行的输出格式有误"
+        }
+      ],
+      "content": "下面C++代码拟用于计算整数N的位数，比如对123则输出123是3位整数，但代码中可能存在bug。下面\n有关描述正确的是（ ）。\n\n```cpp\nint N, N0, rc=0;\ncout << \"请输入整数：\";\ncin >> N;\nN0 = N;\nwhile (N){\n    rc++;\n    N /= 10;\n}\nprintf(\"%d是%d位整数\\n\", N, rc); // L11\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "执行代码时如果输入23221 23453 12345 11111 0，则最后一行Sum的值是10"
+        },
+        {
+          "key": "B",
+          "text": "执行代码时如果输入2322 2345 1234 1111 0，程序也能运行"
+        },
+        {
+          "key": "C",
+          "text": "将代码标记为L6那行改为M = (M % 1000 / 100);，同样能实现题目要求"
+        },
+        {
+          "key": "D",
+          "text": "将代码标记为L6那行改为M = (M % 100 / 10);，同样能实现题目要求"
+        }
+      ],
+      "content": "下面的C++代码用于求连续输入的若⼲正五位数的百位数之和。例如输入32488 25731 41232 0，则输\n出3个正五位数的百位数之和为13。有关描述错误的是（ ）。\n\n```cpp\nint M, Sum=0, rc=0;\ncout << \"请输入正整数：\";\ncin >> M;\nwhile (M){\n    M = (M / 100 % 10); // L6\n    Sum += M;\n    rc++;\n    cin >> M;\n}\ncout << rc << \"个正五位数的百位数之和为\" << Sum;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "如果一个正整数N能够表⽰为X*(X+1)的形式，这里称它是一个“兄弟数”。例如，输入6，则输出“6是一个兄\n弟数”。下面C++代码用来判断N是否为一个“兄弟数”，在横线处应填入的代码可从i)-iv)中选择，则有几个能完成功\n能？（ ）。\n\n```cpp\nint N;\ncin >> N;\nfor(int i = 0; i <= N; i++)\nif(___________________)\ncout << N << \"是一个兄弟数\\n\";\ni) N==i*(i+1) ii) N==i*(i-1) iii) N/(i+1)==i iv) N/(i-1)==i\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨最近开始学习C++编程，老师说C++是一门面向对象的编程语⾔,也是一门高级语⾔。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，表达式10/4和10%4的值相同，都是整数2，说明/和%可以互相替换。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "N是C++程序中的整型变量，则语句scanf(\"%d\", &N)能接收形如正整数、负整数和0输入，但如果输入含\n字母或带小数点数，将导致无法执行。 ( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码能够执行，则将输出45。（ ）\n\n```cpp\nfor (int i = 0; i < 10; i++)\nSum += i;\ncout << Sum;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中整型变量X被赋值为20.24，则cout << (X++, X+1) / 10执行后输出的是2.124。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后，最后一次输出是10。（ ）\n\n```cpp\nfor (int i = 1; i < 10; i+=3)\ncout << i << endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++，break语句通常与if语句配合使用。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中，不可以将变量命名为five-star，因为变量名中不可以出现-（减号）符号。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，整型、实数型、字符型、布尔型是不同数据类型，但这四种类型的变量间都可以比较大小。\n（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "C++中，定义变量int a=5,b=4,c=3，则表达式(a<b<c)的值为逻辑假。 ( )\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨购物**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表⼩杨⽤于购物的钱的⾦额。\n第⼆⾏包含⼀个正整数 ，代表商品 的单价。\n第三⾏包含⼀个正整数 ，代表商品 的单价。\n\n### 输出格式\n输出⼀⾏，包含⼀个整数，代表⼩杨最多能够购买的商品 和商品 的数量。\n3.1.4 样例1\n1 12\n2 1\n3 2\n1 4\n对于样例1，由于需要购买相同数量的两种商品，因此⼩杨最多能够购买 件商品 和 件商品 ，共花费\n元。因此，样例1的答案为 。\n3.1.5 样例2\n1 13\n2 1\n3 2\n1 4\n对于样例2，由于需要购买相同数量的两种商品，因此⼩杨最多能够购买 件商品 和 件商品 ，共花费\n元。如果⼩杨想购买 件商品 和 件商品 ，则需花费 元，超过了⼩杨的\n预算 元。因此，样例2的答案为 。\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：美丽数字**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表正整数个数。\n第⼆⾏包含 个正整数 。\n\n### 输出格式\n输出⼀个整数，代表其中美丽数字的数量。\n3.2.4 样例1\n1 3\n2 1\n3 9\n4 72\n1 1\n对于样例1：\n既不是 的倍数，也不是 的倍数；\n是 的倍数，不是 的倍数；\n既是 的倍数，也是 的倍数；\n因此答案为 。\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

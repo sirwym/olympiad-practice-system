@@ -1,0 +1,474 @@
+{
+  "title": "2025年6月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2025-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年6月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "-127"
+        },
+        {
+          "key": "B",
+          "text": "-128"
+        },
+        {
+          "key": "C",
+          "text": "-255"
+        },
+        {
+          "key": "D",
+          "text": "-256"
+        }
+      ],
+      "content": "8位二进制原码能表⽰的最小整数是：（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1种"
+        },
+        {
+          "key": "B",
+          "text": "2种"
+        },
+        {
+          "key": "C",
+          "text": "8种"
+        },
+        {
+          "key": "D",
+          "text": "16种"
+        }
+      ],
+      "content": "反码表⽰中，零的表⽰形式有：\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "-69"
+        },
+        {
+          "key": "B",
+          "text": "-59"
+        },
+        {
+          "key": "C",
+          "text": "-68"
+        },
+        {
+          "key": "D",
+          "text": "-58"
+        }
+      ],
+      "content": "补码 1011 1011 对应的真值是( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "0000 0101"
+        },
+        {
+          "key": "B",
+          "text": "1000 0101"
+        },
+        {
+          "key": "C",
+          "text": "0000 0101 或 1000 0101"
+        },
+        {
+          "key": "D",
+          "text": "算术右移后结果取决于符号位"
+        }
+      ],
+      "content": "若X的8位补码为 0000 1010，则 X/2 的补码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "13.625"
+        },
+        {
+          "key": "B",
+          "text": "12.75"
+        },
+        {
+          "key": "C",
+          "text": "11.875"
+        },
+        {
+          "key": "D",
+          "text": "14.5"
+        }
+      ],
+      "content": "二进制数 1101.101 对应的十进制数是( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "结果正确"
+        },
+        {
+          "key": "B",
+          "text": "发生上溢"
+        },
+        {
+          "key": "C",
+          "text": "发生下溢"
+        },
+        {
+          "key": "D",
+          "text": "结果符号位错误"
+        }
+      ],
+      "content": "补码加法中，若符号位无进位⽽次高位有进位，则说 明（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "29.75"
+        },
+        {
+          "key": "B",
+          "text": "28.5"
+        },
+        {
+          "key": "C",
+          "text": "27.625"
+        },
+        {
+          "key": "D",
+          "text": "30.25"
+        }
+      ],
+      "content": "八进制数 35.6 对应的十进制数是( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1000"
+        },
+        {
+          "key": "B",
+          "text": "1110"
+        },
+        {
+          "key": "C",
+          "text": "1010"
+        },
+        {
+          "key": "D",
+          "text": "1100"
+        }
+      ],
+      "content": "二进制数 1010 | 1100 的结果是（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "a = a ^ b; b = a ^ b; a = a ^ b;"
+        },
+        {
+          "key": "B",
+          "text": "a = a & b; b = a | b; a = a & b;"
+        },
+        {
+          "key": "C",
+          "text": "a = a | b; b = a ^ b; a = a ^ b;"
+        },
+        {
+          "key": "D",
+          "text": "a = ~a; b = ~b; a = ~a;"
+        }
+      ],
+      "content": "以下哪个位运算可以交换两个变量的值（无需临时变量）( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "int array = new int[5];"
+        },
+        {
+          "key": "B",
+          "text": "array int[5];"
+        },
+        {
+          "key": "C",
+          "text": "int[] array = {1,2,3,4,5};"
+        },
+        {
+          "key": "D",
+          "text": "int array[5];"
+        }
+      ],
+      "content": "如何正确定义一个长度为5的整型数组( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "int b = (i / 10) / 10;"
+        },
+        {
+          "key": "B",
+          "text": "int b = (i / 10) % 10;"
+        },
+        {
+          "key": "C",
+          "text": "int b = (i % 10) / 10;"
+        },
+        {
+          "key": "D",
+          "text": "int b = (i % 10) % 10;"
+        }
+      ],
+      "content": "以下程序使用枚举法（穷举法）求解满足条件的三位数，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int count = 0;\n    for (int i = 100; i <= 999; i++) {\n        int a = i / 100;\n        ————————————————————\n        int c = i % 10;\n        if (a * a + b * b == c * c) {\n            count++;\n        }\n    }\n    cout << count << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "distance += height/2;"
+        },
+        {
+          "key": "B",
+          "text": "distance += height;"
+        },
+        {
+          "key": "C",
+          "text": "distance += height*2;"
+        },
+        {
+          "key": "D",
+          "text": "distance += height+1;"
+        }
+      ],
+      "content": "以下程序模拟了一个简单的小球反弹过程，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int height = 10;\n    int distance = 0;\n    for (int i = 1; i <= 5; i++) { // 模拟5次落地\n        ——————————————————————\n        height /= 2;\n        distance += height;\n    }\n    cout << distance << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "8或10"
+        },
+        {
+          "key": "D",
+          "text": "取决于计算机采用什么编码"
+        }
+      ],
+      "content": "C++代码string s = \"GESP考试\";，s占据的字节数是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "C++语句string s=\"Gesp Test\";执行s.rfind(\"e\")以后,输出的是（）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "字符数多少取决于编码"
+        }
+      ],
+      "content": "字符串\"Gesp考试\",字符数是（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "C++中string的==运算符比较的是字符串的内存地址，⽽非内容\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "string的substr(1, 3)返回从下标1开始的3个字符的⼦串。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "x是浮点数，(x >> 1) 等价于 x / 2\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "string(\"hello\") == \"hello\" 的比较结果为true。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "sort可以直接用于排序set中的元素。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "(x & 1) == 0 可以判断整数x是否为偶数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "string的substr(2, 10)在字符串长度不足时会抛出异常。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在数学纸面计算中，pow(2, 3)的计算结果一定是8，但是在C++中，如果遇到数据类型是浮点数，那就不\n一定正确。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在 C++ 中，枚举的底层类型可以是非整型（如 float 或 double）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "函数声明 double f(); 返回 int 时，会自动转换为 double\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：奇偶校验**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n数据在传输过程中可能出错，因此接收⽅收到数据后通常会校验传输的数据是否正确，奇偶校验是经典的校验⽅式\n之⼀。\n给定 个⾮负整数 代表所传输的数据，它们的校验码取决于这些整数在⼆进制下 的数量之和的奇偶\n性。如果这些整数在⼆进制下共有奇数个 ，那么校验码为 ；否则校验码为 。你能求出这些整数的校验码吗？\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰所传输的数据量。\n第⼆⾏， 个⾮负整数 ，表⽰所传输的数据。\n\n### 输出格式\n输出⼀⾏，两个整数，以⼀个空格分隔：\n第⼀个整数表⽰ 在⼆进制下 的总数量；\n第⼆个整数表⽰校验码（0或1）。\n\n### 数据范围\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：分糖果**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n有 位⼩朋友排成⼀队等待⽼师分糖果。第 位⼩朋友想要⾄少 颗糖果，并且分给他的糖果数量必须⽐分给前⼀\n位⼩朋友的糖果数量更多，不然他就会不开⼼。\n⽼师想知道⾄少需要准备多少颗糖果才能让所有⼩朋友都开⼼。你能帮帮⽼师吗？\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰⼩朋友的⼈数。\n第⼆⾏， 个正整数 ，依次表⽰每位⼩朋友⾄少需要的糖果数量。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰最少需要准备的糖果数量。\n\n### 数据范围\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "title": "2024年9月 GESP C++ 2级",
+  "category": "GESP",
+  "level": "2",
+  "date": "2024-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年9月 GESP C++ 2级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "内存"
+        },
+        {
+          "key": "B",
+          "text": "磁盘"
+        },
+        {
+          "key": "C",
+          "text": "CPU"
+        },
+        {
+          "key": "D",
+          "text": "显⽰器"
+        }
+      ],
+      "content": "据有关资料，⼭东大学于1972年研制成功DJL-1计算机，并于1973年投入运行，其综合性能居当时全国第三\n位。DJL-1计算机运算控制部分所使用的磁心存储元件由磁心颗粒组成，设计存贮周期为2μs（微秒）。那么该磁心\n存储元件相当于现代计算机的（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "65000"
+        },
+        {
+          "key": "B",
+          "text": "200万"
+        },
+        {
+          "key": "C",
+          "text": "126"
+        },
+        {
+          "key": "D",
+          "text": "128"
+        }
+      ],
+      "content": "IPv4版本的因特网总共有（ ）个A类地址网络。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "ccf-gesp"
+        },
+        {
+          "key": "B",
+          "text": "ccf_gesp"
+        },
+        {
+          "key": "C",
+          "text": "ccfGesp"
+        },
+        {
+          "key": "D",
+          "text": "_ccfGesp"
+        }
+      ],
+      "content": "在C++中，下列不可做变量的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "for (int i = 0; i < 10; i++)"
+        },
+        {
+          "key": "B",
+          "text": "for (int i = 0; i < 11; i++)"
+        },
+        {
+          "key": "C",
+          "text": "for (int i = 1; i < 10; ++i)"
+        },
+        {
+          "key": "D",
+          "text": "for (int i = 0; i < 11; ++i)"
+        }
+      ],
+      "content": "在C++中，与for (int i = 1; i < 10; i++)效果相同的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "在C++中，cout << (5 / 2 + 5 % 3)的输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "1.14"
+        },
+        {
+          "key": "C",
+          "text": "47"
+        },
+        {
+          "key": "D",
+          "text": "将触发异常"
+        }
+      ],
+      "content": "假定变量a和b可能是整型、字符型或浮点型，则下面C++代码执行时先后输入-2和3.14后，其输出不可能\n是( )。[已知字符'+'、'-'、'='的ASCII码值分别是43、45和61]\n\n```cpp\ncin >> a;\ncin >> b;\ncout << (a + b);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "N % 10"
+        },
+        {
+          "key": "B",
+          "text": "N / 10"
+        },
+        {
+          "key": "C",
+          "text": "N && 10"
+        },
+        {
+          "key": "D",
+          "text": "以上选项均不正确"
+        }
+      ],
+      "content": "在C++代码中假设N为正整数，则下面代码能获得个位数的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "0#"
+        },
+        {
+          "key": "B",
+          "text": "1#"
+        },
+        {
+          "key": "C",
+          "text": "0#0#1"
+        },
+        {
+          "key": "D",
+          "text": "没有输出"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++){\n    if (i % 2)\n    break;\n    cout << \"0#\";\n}\nif(i==10) cout << \"1#\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "执行下面C++代码并输入1和0，有关说法正确的是（ ）。\n\n```cpp\nint a,b;\ncin >> a >> b;\nif(a&&b)\ncout << (\"1\");\nelse if(!(a||b))\ncout << (\"2\");\nelse if(a || b)\ncout << (\"3\");\nelse\ncout << (\"4\");\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint loopCount = 0;\nfor (int i = 1; i < 5; i += 2)\nloopCount += 1;\ncout << (loopCount);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "j = i; j < i; j++"
+        },
+        {
+          "key": "B",
+          "text": "j = 1; j < i; j++"
+        },
+        {
+          "key": "C",
+          "text": "j = i; j < i*2; j++"
+        },
+        {
+          "key": "D",
+          "text": "j = i+1; j < i+i; j++"
+        }
+      ],
+      "content": "下图是C++程序执行后的输出。为实现其功能，横线处应填入代码是（ ）。\n\n```cpp\n7\n1\n2 3\n3 4 5\n4 5 6 7\n5 6 7 8 9\n6 7 8 9 10 11\n7 8 9 10 11 12 13\n//////////////////////////////\nint lineNum;\ncin >> lineNum;\nfor (int i= 1; i < lineNum+1; i++){\n    for(int __________________)\n    cout << j << \" \";\n    cout << endl;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "rst = rst * 10 + N % 10 N = N / 10"
+        },
+        {
+          "key": "B",
+          "text": "rst += N % 10 N = N / 10"
+        },
+        {
+          "key": "C",
+          "text": "rst = rst * 10 + N / 10 N = N % 10"
+        },
+        {
+          "key": "D",
+          "text": "rst += N / 10 N = N % 10"
+        }
+      ],
+      "content": "下面C++代码执行后输出逆序数，如输入123则输出321。如输入120则输出21。横线处先后应填入的\n代码是（ ） 。\n\n```cpp\nint N;\ncin >> N;\nint rst = 0;\nwhile (N){\n    ____________________;\n    ____________________;\n}\ncout << (rst);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码while (1)写法错误"
+        },
+        {
+          "key": "B",
+          "text": "如果输入负数，将结束输入，并正确输出"
+        },
+        {
+          "key": "C",
+          "text": "如果输入的学生成绩含有小数，程序将无法正常执行"
+        },
+        {
+          "key": "D",
+          "text": "变量int score初始值不确定，但不影响程序执行"
+        }
+      ],
+      "content": "下面的C++代码用于输入学生成绩，并根据⼈数计算出平均成绩，有关说法错误的是（ ）。\n\n```cpp\nfloat Sum = 0; // 保存总成绩\nint cnt = 0; // 保存学生人数\nwhile (1){\n    int score;\n    cin >> score;\n    if (score < 0)\n    break;\n    cnt += 1;\n    Sum += score;\n}\ncout << \"总学生数：\" << cnt << \"平均分：\" << Sum/cnt;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "num % i"
+        },
+        {
+          "key": "B",
+          "text": "num % i == 0"
+        },
+        {
+          "key": "C",
+          "text": "num / i"
+        },
+        {
+          "key": "D",
+          "text": "num / i == 0"
+        }
+      ],
+      "content": "以下C++代码判断输入的正整数是否为质数，如果该数字是质数，则输出YES，否则输出NO。质数是指仅\n能被1和它本身整除的正整数。请在横线上填写代码。（ ）\n\n```cpp\nint num, i;\ncin >> num;\nfor(i = 2; i < num; i++)\nif (__________){\n    cout << (\"NO\");\n    break;\n}\nif(i == num)\ncout << (\"YES\");\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "删除break语句不会导致死循环，但有时会导致结果错误"
+        },
+        {
+          "key": "B",
+          "text": "删除M /= 10将可能导致死循环"
+        },
+        {
+          "key": "C",
+          "text": "删除M = N并将其后代码中的M变量改为N，并调整输出同样能完成相关功能"
+        },
+        {
+          "key": "D",
+          "text": "删除break语句不会导致死循环，但有时会影响效率"
+        }
+      ],
+      "content": "一个数如果能被某个数（比如7）整除，或者含有该数，则说该数是某个数的相关数。下面C++代码用于判\n定输入的数与7是否有关。下列说法错误的是（ ）。\n\n```cpp\nint N, M;\nbool Flag = false;\ncin >> N;\nM = N;\nif (M % 7 == 0)\nFlag = true;\nwhile (!Flag && M){\n    if (M % 10 == 7){\n        Flag = true;\n        break;\n    }\n    M /= 10;\n}\nif (Flag)\ncout << N << \"与7有关\";\nelse\ncout << N << \"与7无关\";\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨最近开始学习C++编程，老师说C++是一门面向对象的编程语⾔,也是一门高级语⾔。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，cout << (3, 4, 5)可以输出3 4 5，且每个输出项之间用空格分开。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式12 % 10 % 10的值为2。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语句cout << rand() << ' ' << rand();的第二个输出值较大。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "定义C++的int类型的变量ch，⽽且值为'1'，则语句cout << int(ch);的输出为1。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出10。（ ）\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++)\ncontinue;\nif(i == 10)\ncout << i;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码能求整数N和M之间所有整数之和，包含N和M。（ ）\n\n```cpp\nint N, M, Sum;\ncin >> N >> M;\nif (N > M){\n    int tmp = N;\n    N = M, M = tmp;\n}\nfor (int i = N; i < M+1; i++)\nSum += i;\ncout << Sum;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "将下面C++代码中的L3标记的代码行调整为for (int i = 0; i < 5; i++)后输出结果相同。（ ）\n\n```cpp\nint loopCount = 0;\nfor (int i = 1; i < 5; i++) // L3\nfor (int j = 0; j < i; j++)\nloopCount += 1;\ncout << loopCount;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "某一系列数据的规律是从第3个数值开始是前两个数之和。下面的代码求第N个数的值，N限定为大于2。（\n）\n\n```cpp\nint start1; // 第1个数\nint start2; // 第2个数\nint N; //求N个数的值\nint tmp;\ncin >> start1 >> start2 >> N;\nfor (int i = 2; i < N; i++){\n    tmp = start1 + start2;\n    start1 = start2;\n    start2 = tmp;\n}\ncout << start2;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行时如果输入2024，则输出是4202。（ ）\n\n```cpp\nint N, flag=0;\ncin >> N;\nwhile (N){\n    if(!flag) cout << N % 10;\n    N /= 10;\n    flag = (flag + 1)%2;\n}\n```\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数位之和**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表正整数个数。\n之后 ⾏，每⾏包含⼀个正整数。\n\n### 输出格式\n对于每个正整数，如果是美丽数字则输出 Yes，否则输出 No。\n3.1.4 样例1\n1 3\n2 7\n3 52\n4 103",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 。\n\n### 输出格式\n输出对应的 N 字矩阵。\n3.2.4 样例1\n1 5\n1 +---+\n2 ++--+\n3 +-+-+\n4 +--++\n5 +---+\n对于全部数据，保证有 且 为奇数。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

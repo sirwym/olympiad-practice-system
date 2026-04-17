@@ -1,0 +1,478 @@
+{
+  "title": "2024年12月 GESP C++ 8级",
+  "category": "GESP",
+  "level": "8",
+  "date": "2024-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年12月 GESP C++ 8级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "100,000"
+        },
+        {
+          "key": "B",
+          "text": "1,060,000"
+        },
+        {
+          "key": "C",
+          "text": "1,360,000"
+        },
+        {
+          "key": "D",
+          "text": "1,460,000"
+        }
+      ],
+      "content": "小杨家响应国家“以旧换新”政策，将自家的汽油车置换为新能源汽车，正在准备自编车牌。自编车牌包括5\n位数字或英文字母，要求第5位必须是数字，前4位中可以有最多1位英文字母。英文字母必须是大写，⽽且不能是O\n或I（因为容易与数字0或1混淆）。请问自编车牌共有多少种可能性？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "8640"
+        },
+        {
+          "key": "B",
+          "text": "6912"
+        },
+        {
+          "key": "C",
+          "text": "144"
+        },
+        {
+          "key": "D",
+          "text": "60"
+        }
+      ],
+      "content": "新年到，四家⼈在一起聚会。其中两家有三⼝⼈，另外两家有两⼝⼈。现在要安排大家在一张十⼈圆桌坐\n下，要求一家⼈必须相邻就座。由于有“主座”的习俗，每个座位都被认为是不同的。请问共有多少种就座方案？（\n）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "一个类可以继承多个类。"
+        },
+        {
+          "key": "B",
+          "text": "一个类可以被多个类继承。"
+        },
+        {
+          "key": "C",
+          "text": "一个类可以继承另一个类的⼦类。"
+        },
+        {
+          "key": "D",
+          "text": "抽象类必须被至少一个类继承，否则会编译错误。"
+        }
+      ],
+      "content": "下面关于C++类继承的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "使用邻接表表达一个简单有向图，图中包含v个顶点、e条边，则该出边表中边节点的个数为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "void Bubble(int a[10][], int m);"
+        },
+        {
+          "key": "B",
+          "text": "void Bubble(int a[][], int n, int m);"
+        },
+        {
+          "key": "C",
+          "text": "void Bubble(int (*a)[20], int n);"
+        },
+        {
+          "key": "D",
+          "text": "void Bubble(int * a[20], int n);"
+        }
+      ],
+      "content": "以下将二维数组作为参数的函数声明，哪个是符合语法的？（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "B在平面直角坐标系下的坐标分别为 和 ，并分别定义变量double xa, ya,\nxb, yb;存储坐标。假设直线AB的斜率存在，下列哪个表达式可以用来表达它？（ ）。\n"
+        },
+        {
+          "key": "A",
+          "text": "(xa - xb) / (ya - yb)"
+        },
+        {
+          "key": "B",
+          "text": "(xa - xb) / (yb - ya)"
+        },
+        {
+          "key": "C",
+          "text": "(ya - yb) / (xa - xb)"
+        },
+        {
+          "key": "D",
+          "text": "(ya - yb) / (xb - xa)"
+        }
+      ],
+      "content": "已知两个点\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "120"
+        }
+      ],
+      "content": "二项式 的展开式中 项的系数是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "动态规划方法有递推和递归两种实现形式。"
+        },
+        {
+          "key": "B",
+          "text": "递归实现动态规划方法的时间复杂度总是不低于递推实现。"
+        },
+        {
+          "key": "C",
+          "text": "动态规划方法将原问题分解为一个或多个相似的⼦问题。"
+        },
+        {
+          "key": "D",
+          "text": "动态规划方法通常能够列出递推公式。"
+        }
+      ],
+      "content": "以下关于动态规划的说法中，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "((c - 1) ^ c)"
+        },
+        {
+          "key": "B",
+          "text": "(((c - 1) ^ c) + 1)"
+        },
+        {
+          "key": "C",
+          "text": "(((c - 1) ^ c) >> 1)"
+        },
+        {
+          "key": "D",
+          "text": "((((c - 1) ^ c) + 1) >> 1)"
+        }
+      ],
+      "content": "在下面的程序中，使用整数表⽰一种组合。整数二进制表⽰的某一位为1，表⽰该位对应的数被选中，反之\n为0表⽰未选中。例如，从0 - 5这6个数中选出3个，则0b111000代表选中3, 4, 5三个数，0b011001代表\n选中0, 3, 4三个数。zuhe_next函数按组合对应的整数由大到小的顺序，求出组合c的下一个组合。横线处可\n以填入的是（ ）。\n\n```cpp\nint intlow2(int c) {\n    return ________; // 在此处填入选项\n}\nint zuhe_next_incur(int c, int n, int l) {\n    if (n == 1) return c;\n    if ((c & (1 << l)) == 0) {\n        int d = intlow2(c);\n        c = (c & ~d);\n        c = (c | (d >> 1));\n    } else {\n        c = (c & ~(1 << l));\n        c = zuhe_next_incur(c, n - 1, l + 1);\n        int d = intlow2(c);\n        c = (c | (d >> 1));\n    }\n    return c;\n}\n// 从n个数中选m个，当前组合为c\nint zuhe_next(int c, int n, int m) {\n    return zuhe_next_incur(c, n, 0);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "174"
+        },
+        {
+          "key": "B",
+          "text": "447"
+        },
+        {
+          "key": "C",
+          "text": "816"
+        },
+        {
+          "key": "D",
+          "text": "4096"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int N = 15, cnt = 0;\n    for (int x = 0; x + x + x <= N; x++)\n    for (int y = x; x + y + y <= N; y++)\n    for (int z = y; x + y + z <= N; z++)\n    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "dp[i + 1][j + 1] = dp[i][j + 1] + dp[i + 1][j]"
+        },
+        {
+          "key": "B",
+          "text": "dp[i + 1][j + 1] = MIN(dp[i][j + 1], dp[i + 1][j])"
+        },
+        {
+          "key": "C",
+          "text": "dp[i + 1][j + 1] = MAX(dp[i][j + 1], dp[i + 1][j])"
+        },
+        {
+          "key": "D",
+          "text": "dp[i + 1][j + 1] = MAX(dp[i][j + 1], dp[i + 1][j]) + 1"
+        }
+      ],
+      "content": "下面最长公共⼦序列程序中，横线处应该填入的是（ ）。\n\n```cpp\n#define MAX(A, B) (((A) > (B)) ? (A) : (B))\n#define MIN(A, B) (((A) < (B)) ? (A) : (B))\nint dp[MAX_L + 1][MAX_L + 1];\nint LCS(char str1[], char str2[]) {\n    int len1 = strlen(str1);\n    int len2 = strlen(str2);\n    for (int i = 0; i < len1; i++)\n    for(int j = 0; j < len2; j++)\n    if (str1[i] == str2[j])\n    dp[i + 1][j + 1] = dp[i][j] + 1;\n    else\n    ________; // 在此处填入选项\n    return dp[len1][len2];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nif (dis[e->out] > e->len)\ndis[e->out] = e->len;\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nif (dis[e->out] > min + e->len)\ndis[e->out] = min + e->len;\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nif (dis[e->in] > e->len)\ndis[e->in] = e->len;\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nif (dis[e->in] > min + e->len)\ndis[e->in] = min + e->len;\n```\n"
+        }
+      ],
+      "content": "下列Dijkstra算法中，横线处应该填入的是（ ）。\n\n```cpp\ntypedef struct Edge {\n    int in, out; // 从下标in顶点到下标out顶点的边\n    int len; // 边长度\n    struct Edge * next;\n} Edge;\n// v：顶点个数，graph：出边邻接表，start：起点下标，dis：输出每个顶点的最短距离\nvoid dijkstra(int v, Edge * graph[], int start, int * dis) {\n    const int MAX_DIS = 0x7fffff;\n    for (int i = 0; i < v; i++)\n    dis[i] = MAX_DIS;\n    dis[start] = 0;\n    int * visited = new int[v];\n    for (int i = 0; i < v; i++)\n    visited[i] = 0;\n    visited[start] = 1;\n    for (int t = 0; ; t++) {\n        int min = MAX_DIS, minv = -1;\n        for (int i = 0; i < v; i++) {\n            if (visited[i] == 0 && min > dis[i]) {\n                min = dis[i];\n                minv = i;\n            }\n        }\n        if (minv < 0)\n        break;\n        visited[minv] = 1;\n        for (Edge * e = graph[minv]; e != NULL; e = e->next) {\n            ________; // 在此处填入选项\n        }\n    }\n    delete[] visited;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "假设图graph中顶点数v、边数e，上题程序的时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\nl < r\na + pivot + 1, n - pivot - 1\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nl < r\na + pivot + 1, n - pivot\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\nl <= r\na + pivot + 1, n - pivot - 1\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nl <= r\na + pivot + 1, n - pivot\n```\n"
+        }
+      ],
+      "content": "下面的快速排序程序中，两处横线处分别应填入的是（ ）。\n\n```cpp\nvoid quick_sort(int a[], int n) {\n    if (n <= 1)\n    return;\n    int pivot = 0, l = 0, r = n - 1;\n    while (________) { // 在此处填入选项\n        while (r > pivot && a[r] >= a[pivot])\n        r--;\n        if (r > pivot) {\n            int temp = a[pivot];\n            a[pivot] = a[r];\n            a[r] = temp;\n            pivot = r;\n        }\n        while (l < pivot && a[l] <= a[pivot])\n        l++;\n        if (l < pivot) {\n            int temp = a[pivot];\n            a[pivot] = a[l];\n            a[l] = temp;\n            pivot = l;\n        }\n    }\n    quick_sort(a, pivot);\n    quick_sort(________); // 在此处填入选项\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "上题程序的时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式'3' + '5'的结果为'8'，类型为char。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，可以在函数内定义结构体，但该结构体类型只能在该函数内使用。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "对 个元素的数组进行排序，快速排序和归并排序的平均时间复杂度都为 。但快速排序存在退化情\n况，使得时间复杂度升高至 ；归并排序需要额外的空间开销。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "二维数组的最后一维在内存中一定是连续的，但第一维在内存中可能不连续。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "使用math.h或cmath头文件中的函数，表达式log(1000)的结果类型为double、值约为3。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "你有三种硬币，分别面值2元、5元和7元，每种硬币都有足够多。买一本书需要27元，则有8种硬币组合（组\n合与顺序无关，“1个2元+1个5元+1个2元”与“1个5元+2个2元”认为是同样的组合）可以正好付清，且不需要对方找\n钱。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "使用哈希函数f(x) = x % p建⽴键值为int类型的哈希表，只要p取小于等于哈希表大小的素数，可保\n证不发生碰撞。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "杨辉三角中的第 行、第 项，即为将二项式 展开后 项的系数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "判断图是否连通，可以通过广度优先搜索实现。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "要求解一元二次方程 ，需要先判断表达式a ^ 2 - b * 4 >= 0是否为真。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：树上移动**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含两个正整数 ，代表节点数量和⾄多经过的⿊⾊节点数。\n第⼆⾏包含 个正整数 ，代表节点颜⾊，如果 ，代表节点颜⾊为⽩⾊，如果 ，代表节点\n颜⾊为⿊⾊。\n之后 ⾏，每⾏包含两个正整数 ，代表存在⼀条连接节点 和 的边。\n\n### 输出格式\n输出⼀个正整数，代表最多经过的节点数。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：排队**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩杨所在班级共有 位同学，依次以 标号。这 位同学想排成⼀⾏队伍，其中有些同学之间关系⾮常\n好，在队伍⾥需要排在相邻的位置。具体来说，有 对这样的关系（ 是⼀个⾮负整数）。当 时，第 对关\n系（ ）给出 ，表⽰排队时编号为 的同学需要排在编号为 的同学前⾯，并且两⼈在队伍中相邻。\n现在⼩杨想知道总共有多少种排队⽅式。由于答案可能很⼤，你只需要求出答案对 取模的结果。\n\n### 输入格式\n第⼀⾏，两个整数 ，分别表⽰同学们的数量与关系数量。\n接下来 ⾏，每⾏两个整数 ，表⽰⼀对关系。\n\n### 输出格式\n⼀⾏，⼀个整数，表⽰答案对 取模的结果。\n\n### 数据范围\n对于 20% 的测试数据点，保证 ， 。\n对于另外 20% 的测试数据点，保证 ， 。\n对于所有测试数据点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

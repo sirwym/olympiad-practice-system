@@ -1,0 +1,474 @@
+{
+  "title": "2023年12月 GESP C++ 4级",
+  "category": "GESP",
+  "level": "4",
+  "date": "2023-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年12月 GESP C++ 4级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数参数传递时，主函数当中采用值传递方式将参数传递给⼦函数时，若⼦函数将参数值改变，主函数当中\n的参数值不变。\n"
+        },
+        {
+          "key": "B",
+          "text": "函数参数传递时，主函数当中采用值传递方式将参数传递给⼦函数时，若⼦函数将参数值改变，主函数当中\n的参数值将随⼦函数一样改变⽽改变。\n"
+        },
+        {
+          "key": "C",
+          "text": "函数参数传递时，主函数如果将参数的地址传递给⼦函数，若⼦函数将参数值改变，主函数当中的参数值将\n不改变。\n"
+        },
+        {
+          "key": "D",
+          "text": "函数参数传递可以不满足⼦函数的参数个数要求。"
+        }
+      ],
+      "content": "下面有关函数参数的说法，正确的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "chen"
+        },
+        {
+          "key": "B",
+          "text": "c"
+        },
+        {
+          "key": "C",
+          "text": "chen a dai"
+        },
+        {
+          "key": "D",
+          "text": "dai"
+        }
+      ],
+      "content": "下面C++代码执行后，输出的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "下面C++代码最后执行后输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面C++代码执行后的结果是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "1,2,3"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "0x6ffe11"
+        },
+        {
+          "key": "B",
+          "text": "0x6ffe14"
+        },
+        {
+          "key": "C",
+          "text": "0x6ffe18"
+        },
+        {
+          "key": "D",
+          "text": "0x6ffe15"
+        }
+      ],
+      "content": "如果变量x的地址是0x6ffe14,下面C++代码执行以后输出的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "400"
+        },
+        {
+          "key": "B",
+          "text": "200"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "100"
+        }
+      ],
+      "content": "在C++中,执行下面代码后，输出的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "3&&false"
+        },
+        {
+          "key": "B",
+          "text": "5&&2"
+        },
+        {
+          "key": "C",
+          "text": "101&&000"
+        },
+        {
+          "key": "D",
+          "text": "4&true"
+        }
+      ],
+      "content": "下列C++语句执行以后结果是true的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "alpha[i]=alpha[i-1]+1;"
+        },
+        {
+          "key": "B",
+          "text": "alpha[i]=alpha[i]+1;"
+        },
+        {
+          "key": "C",
+          "text": "alpha[i+1]=alpha[i]+1;"
+        },
+        {
+          "key": "D",
+          "text": "alpha[i-1]=alpha[i]+1;"
+        }
+      ],
+      "content": "在如下的C++代码中实现了对字符串中出现的26个字母的个数统计，横线处应填入是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "40"
+        },
+        {
+          "key": "D",
+          "text": "24"
+        }
+      ],
+      "content": "下面C++代码执行后生成的文件其字节数为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "1#4#"
+        },
+        {
+          "key": "B",
+          "text": "1#3#"
+        },
+        {
+          "key": "C",
+          "text": "1#2#3#4#"
+        },
+        {
+          "key": "D",
+          "text": "1#2#3#4"
+        }
+      ],
+      "content": "下列C++代码输入1,2,3,4，执行后，将输出的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "if(n%i==0)"
+        },
+        {
+          "key": "B",
+          "text": "if(n/i==0)"
+        },
+        {
+          "key": "C",
+          "text": "if(n%i!=0)"
+        },
+        {
+          "key": "D",
+          "text": "if(n/i!=0)"
+        }
+      ],
+      "content": "以下C++代码用于实现每个整数对应的因数，如输入12，则输出1 2 3 4 6 12；如输入18，则输出1\n\n```cpp\n3 6 9 18。横线处应填入代码是（ ）。\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "麦克风"
+        },
+        {
+          "key": "B",
+          "text": "扬声器"
+        },
+        {
+          "key": "C",
+          "text": "油量表"
+        },
+        {
+          "key": "D",
+          "text": "传感器"
+        }
+      ],
+      "content": "某公司新出了一款无⼈驾驶的小汽车，通过声控智能驾驶系统，乘客只要告诉汽车目的地，车⼦就能自动\n选择一条优化路线，告诉乘客后驶达那里。请问下面哪项不是驾驶系统完成选路所必须的。（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "艾伦·图灵"
+        },
+        {
+          "key": "B",
+          "text": "冯·诺依曼"
+        },
+        {
+          "key": "C",
+          "text": "阿塔纳索夫"
+        },
+        {
+          "key": "D",
+          "text": "埃克特-莫克利"
+        }
+      ],
+      "content": "现代计算机是指电⼦计算机，它所基于的是（ ）体系结构。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "for(i=1;i<N;i++) if(!(N%i) && !(N%(i+1))) printf(\"(%d,%d)\\n\", i, i+1);"
+        },
+        {
+          "key": "B",
+          "text": "for(i=2;i<N;i++) if(!(N%i) && !(N%(i+1))) printf(\"(%d,%d)\\n\", i, i+1);"
+        },
+        {
+          "key": "C",
+          "text": "for(i=2;i<N/2;i++) if(!(N%(i-1)) && !(N%i)) printf(\"(%d,%d)\\n\", i-1, i);"
+        },
+        {
+          "key": "D",
+          "text": "for(i=1;i<N/2;i++) if(!(N%i) && !(N%(i+1))) printf(\"(%d,%d)\\n\", i, i+1);"
+        }
+      ],
+      "content": "输入一个正整数N（N>=7)，想找出它所有相邻的因数对，比如，输入12，因数对有(1,2)、(2,3)、(3.4)\n。下面哪段代码找不到所有 的 因数对?()\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "C++的内置函数sort()支持数组的局部排序。例如int a={10,9,8,7,6,5,4,3,2,1}，可以用\nsort(a,a+5),排序成{6,7,8,9,10,5,4,3,2,1}。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "用递归法求 的阶乘，时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "[(1,2)*2]*3在C++中是合法的表达式。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "在下面的C++代码中，将对1.txt文件写入hello。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "文本文件1.txt第1行由01234共5个字符组成其间没有空格，当用C++代码正常打开文件成功并执行如下\n代码以后，第1行长度为5（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码cout<<(5||2);后将输出1。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，两个字符串相加的运算符为+相当于字符串的合并运算。下面C++代码执行后，将输出\nchenadai。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "C++内置函数sort()可以对整数、浮点数、字符数组进行从大到小，从小到大，局部排序。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨最近在准备考GESP，他用的Dev C++来练习和运行程序，所以Dev C++也是一个小型操作系统。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个while循环都可以转化为等价的for循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的字典**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⽥忌赛马**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n第 1 轮，⽥忌派出速度为 的马匹，你可以派出速度为 的马匹迎战，本轮你获胜。\n第 2 轮，⽥忌派出速度为 的马匹，你可以派出速度为 的马匹迎战，本轮你获胜。\n第 3 轮，⽥忌派出速度为 的马匹，你可以派出速度为 的马匹迎战，本轮⽥忌获胜。\n如此，你可以赢得 2 轮⽐赛。\n3.2.8 样例输入 2\n1 5\n2 10 3 5 8 7\n3 4 6 1 2 9\n3.2.9 样例输出 2\n1 5",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

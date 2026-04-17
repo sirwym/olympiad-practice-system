@@ -1,0 +1,474 @@
+{
+  "title": "2024年9月 GESP C++ 7级",
+  "category": "GESP",
+  "level": "7",
+  "date": "2024-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年9月 GESP C++ 7级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "b"
+        },
+        {
+          "key": "B",
+          "text": "c"
+        },
+        {
+          "key": "C",
+          "text": "98"
+        },
+        {
+          "key": "D",
+          "text": "99"
+        }
+      ],
+      "content": "已知小写字母b的ASCII码为98，下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b';\n    a++;\n    cout << a;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "&a + 3"
+        },
+        {
+          "key": "B",
+          "text": "+a & 3"
+        },
+        {
+          "key": "C",
+          "text": "a - - 4"
+        },
+        {
+          "key": "D",
+          "text": "a++3"
+        }
+      ],
+      "content": "已知a为int类型变量，下列表达式不符合语法的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "指针变量中存储的是内存地址。"
+        },
+        {
+          "key": "B",
+          "text": "指针变量指向的内存地址不一定能够合法访问。"
+        },
+        {
+          "key": "C",
+          "text": "结构类型中的指针成员不能指向该结构类型。"
+        },
+        {
+          "key": "D",
+          "text": "定义指针变量时必须指定其指向的类型。"
+        }
+      ],
+      "content": "下列关于C++语⾔中指针的叙述，不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "将C++类对象通过值传递给函数参数时，会自动调用复制构造函数。"
+        },
+        {
+          "key": "B",
+          "text": "将一个类的对象赋值给该类的另一个对象时，不会自动调用构造函数。"
+        },
+        {
+          "key": "C",
+          "text": "定义C++类对象时，一定会调用默认构造函数。"
+        },
+        {
+          "key": "D",
+          "text": "构造派生类的对象时，一定会调用基类的构造函数。"
+        }
+      ],
+      "content": "下列关于C++类的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "T的高为5"
+        },
+        {
+          "key": "B",
+          "text": "T有4个叶节点"
+        },
+        {
+          "key": "C",
+          "text": "T是平衡树"
+        },
+        {
+          "key": "D",
+          "text": "以上说法都不对"
+        }
+      ],
+      "content": "某二叉树T的先序遍历序列为：{A B D C E G H F}，中序遍历序列为：{D B A H G E C F}，则下列说法中正\n确的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "176"
+        },
+        {
+          "key": "B",
+          "text": "215"
+        },
+        {
+          "key": "C",
+          "text": "216"
+        },
+        {
+          "key": "D",
+          "text": "255"
+        }
+      ],
+      "content": "一棵完全二叉树有431个结点，则叶结点有多少个？( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "二叉树的中序遍历与其深度优先遍历总是相同的。"
+        },
+        {
+          "key": "B",
+          "text": "所有树都可以构造一颗二叉树与之一一对应。"
+        },
+        {
+          "key": "C",
+          "text": "如果树的一个叶结点有两个不同的祖先结点，那么其中一个一定是另一个的祖先结点。"
+        },
+        {
+          "key": "D",
+          "text": "树的结点不能有两个⽗结点。"
+        }
+      ],
+      "content": "下列关于树的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "51"
+        },
+        {
+          "key": "D",
+          "text": "60"
+        }
+      ],
+      "content": "一个简单无向图有10个结点、30条边。再增加多少条边可以成为完全图。（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "丢弃发生冲突的新元素。"
+        },
+        {
+          "key": "B",
+          "text": "用新元素覆盖发生冲突的元素。"
+        },
+        {
+          "key": "C",
+          "text": "用新元素覆盖在冲突位置的下一个位置。"
+        },
+        {
+          "key": "D",
+          "text": "将新元素放置在冲突位置之后的第一个空位。"
+        }
+      ],
+      "content": "以下哪个方案可以合理解决或缓解哈希表冲突（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以使用深度优先搜索找到这条路径。"
+        },
+        {
+          "key": "B",
+          "text": "可以使用广度优先搜索找到这条路径。"
+        },
+        {
+          "key": "C",
+          "text": "该迷宫内与起点连通的结点，一定也与终点连通。"
+        },
+        {
+          "key": "D",
+          "text": "该迷宫内与起点连通的结点及它们之间的路径可以抽象为无向无环图。"
+        }
+      ],
+      "content": "一个迷宫，已知从起点不经过重复结点到达终点的路径有且仅有一条，则下面说法错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "无法通过编译。"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << (int)log(8) << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "84"
+        },
+        {
+          "key": "B",
+          "text": "495"
+        },
+        {
+          "key": "C",
+          "text": "1012"
+        },
+        {
+          "key": "D",
+          "text": "结果是随机的。"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#define N 10\nusing namespace std;\nint path[N][N];\nint main() {\n    for (int i = 1; i < N; i++)\n    path[i][0] = i;\n    for (int j = 1; j < N; j++)\n    path[0][j] = j;\n    for (int i = 1; i < N; i++)\n    for (int j = 1; j < N; j++)\n    path[i][j] = path[i - 1][j] + path[i][j - 1];\n    cout << path[8][4] << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "上题中程序的时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ","
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": "无法正常结束。"
+        }
+      ],
+      "content": "下面fib函数的时间复杂度为( )。\n\n```cpp\nint fib_rcd[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n    return 1;\n    if (fib_rcd[n] > 0)\n    return fib_rcd[n];\n    return fib(n - 1) + fib(n - 2);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1, 3, 5, 7, 4, 2, 6, 8, 9"
+        },
+        {
+          "key": "B",
+          "text": "9, 4, 2, 1, 3, 7, 5, 6, 8"
+        },
+        {
+          "key": "C",
+          "text": "1, 3, 5, 7, 6, 8, 9, 4, 2"
+        },
+        {
+          "key": "D",
+          "text": "9, 4, 7, 2, 1, 3, 5, 6, 8"
+        }
+      ],
+      "content": "下列选项中，哪个可能是下图的广度优先遍历序列（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式'a' << 1的结果为'a '。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，函数可以定义在另一个函数定义之内。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "选择排序一般是不稳定的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "埃⽒筛法和欧拉筛法都是使用筛法思想生成素数表的算法，欧拉筛法的时间复杂度更低。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "使用math.h或cmath头文件中的正弦函数，表达式sin(30)的结果类型为double、值约为0.5。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "一颗 层的完全二叉树，一定有 个结点。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "一个图，不管是否连通，都可以使用深度优先搜索算法进行遍历。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "某个哈希表键值x为整数，H(x) = x % p是常用的哈希函数之一，要求p选择素数是因为这样不会产生\n冲突。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "使用单链表实现队列时，链表头结点作为队首比链表头结点作为队尾更便于操作。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "一个图中，每个结点表达一个⼈，连接两个结点的边表达两个结点对应的⼈相互认识，则这个图可以用来\n表达社交网络。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨寻宝**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表测试⽤例组数。\n接下来是 组测试⽤例。对于每组测试⽤例，⼀共 ⾏。\n第⼀⾏包含⼀个正整数 ，代表树的节点数。\n第⼆⾏包含 个⾮负整数 ，其中如果 ，则节点 放置有宝物，若 ，则节点 没有宝物。\n之后 ⾏，每⾏包含两个正整数 ，代表存在⼀条连接节点 和 的边。\n\n### 输出格式\n对于每组测试数据，如果⼩杨能成功取得所有宝物，输出 Yes，否则输出 No。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：矩阵移动**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表测试⽤例组数。\n接下来是 组测试⽤例。对于每组测试⽤例，⼀共 ⾏。\n第⼀⾏包含三个正整数 ，含义如题⾯所⽰。\n\n### 输出格式\n对于每组测试⽤例，输出⼀⾏⼀个整数，代表最优策略下⼩杨的得分最多是多少。\n3.2.4 样例1\n1 2\n2 3 3 1\n3 000\n4 111\n5 01?\n6 3 3 1\n7 000\n8 ?0?\n9 01?\n1 4\n2 2\n对于第⼆组测试⽤例，将（ ）或者 （ ）变成 均是最优策略。\n子任务编号 数据点占比\n1 30%\n2 30%\n3 40%\n对于全部数据，保证有 ， ，同时保证所有测试⽤例 的总和不超过\n。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

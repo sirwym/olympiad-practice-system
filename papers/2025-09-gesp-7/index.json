@@ -1,0 +1,474 @@
+{
+  "title": "2025年9月 GESP C++ 7级",
+  "category": "GESP",
+  "level": "7",
+  "date": "2025-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年9月 GESP C++ 7级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "b"
+        },
+        {
+          "key": "B",
+          "text": "c"
+        },
+        {
+          "key": "C",
+          "text": "98"
+        },
+        {
+          "key": "D",
+          "text": "99"
+        }
+      ],
+      "content": "已知小写字母b的ASCII码为98，下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b' + 1;\n    cout << a;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a * a"
+        },
+        {
+          "key": "B",
+          "text": "p * p"
+        },
+        {
+          "key": "C",
+          "text": "a && a"
+        },
+        {
+          "key": "D",
+          "text": "p && p"
+        }
+      ],
+      "content": "已知a为int类型变量，p为int *类型变量，下列表达式不符合语法的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果一个类包含纯虚函数，则它不能包含成员变量。"
+        },
+        {
+          "key": "B",
+          "text": "如果一个类包含纯虚函数，则不能用它定义对象。"
+        },
+        {
+          "key": "C",
+          "text": "派生类对象占用的内存总是不小于基类对象。"
+        },
+        {
+          "key": "D",
+          "text": "派生类可以不实现基类的虚函数。"
+        }
+      ],
+      "content": "下列关于C++类的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "数组a至少占用10个int大小的内存，一般为40个字节。"
+        },
+        {
+          "key": "B",
+          "text": "数组a的所有元素均被初始化为-1。"
+        },
+        {
+          "key": "C",
+          "text": "语句a[-1] = 0;不会产生编译错误，但会导致难以预测的运行结果。"
+        },
+        {
+          "key": "D",
+          "text": "语句a[13] = 0;不会产生编译错误，但会导致难以预测的运行结果。"
+        }
+      ],
+      "content": "已知数组a的定义int a[10] = {-1};，下列说法不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "38"
+        },
+        {
+          "key": "B",
+          "text": "82"
+        },
+        {
+          "key": "C",
+          "text": "83"
+        },
+        {
+          "key": "D",
+          "text": "84"
+        }
+      ],
+      "content": "一棵完全二叉树有165个结点，则叶结点有多少个？( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "二叉排序树的中序遍历顺序与元素排序的顺序是相同的。"
+        },
+        {
+          "key": "B",
+          "text": "自平衡二叉查找树（AVL树）是一种二叉排序树。"
+        },
+        {
+          "key": "C",
+          "text": "个元素的二叉排序树，其高一定为 。"
+        },
+        {
+          "key": "D",
+          "text": "任意的森林，都可以映射为一颗二叉树进行表达和存储。"
+        }
+      ],
+      "content": "下列关于二叉树的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "保留树的所有节点，并把树的每个节点指向其⽗节点，则可以将树转换为一个有向弱连通图。"
+        },
+        {
+          "key": "B",
+          "text": "保留树的所有节点，并把树的每个节点指向其⼦节点，则可以将树转换为一个有向无环图。"
+        },
+        {
+          "key": "C",
+          "text": "每个连通图都存在生成树。"
+        },
+        {
+          "key": "D",
+          "text": "每个存在生成树的有向图，都一定是强连通的。"
+        }
+      ],
+      "content": "下列关于树和图的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "对一个包含 个顶点、 条边的图，执行广度优先搜索，其最优时间复杂度是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "用新元素覆盖发生冲突的哈希表项。"
+        },
+        {
+          "key": "B",
+          "text": "在每个哈希表项处，使用单链表管理该表项的冲突元素。"
+        },
+        {
+          "key": "C",
+          "text": "建⽴额外的单链表，用来管理所有发生冲突的元素。"
+        },
+        {
+          "key": "D",
+          "text": "使用不同的哈希函数再建⽴一个哈希表，用来管理所有发生冲突的元素。"
+        }
+      ],
+      "content": "以下哪个方案不能合理解决或缓解哈希表冲突（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "对特定的问题，贪心法不一定适用。"
+        },
+        {
+          "key": "B",
+          "text": "当特定的问题适用贪心法时，通常比动态规划的时间复杂度更低。"
+        },
+        {
+          "key": "C",
+          "text": "对很多问题，递推实现和递归实现动态规划方法的时间复杂度相当。"
+        },
+        {
+          "key": "D",
+          "text": "采用动态规划的算法一定具有多项式时间复杂度。"
+        }
+      ],
+      "content": "以下关于贪心法和动态规划的说法中，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "13"
+        },
+        {
+          "key": "C",
+          "text": "21"
+        },
+        {
+          "key": "D",
+          "text": "无法正常结束。"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint fib(int n) {\n    if (n == 0)\n    return 1;\n    return fib(n - 1) + fib(n - 2);\n}\nint main() {\n    cout << fib(6) << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint rec_fib[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n    return n;\n    if (rec_fib[n] != 0)\n    return rec_fib[n];\n    return fib(n - 1) + fib(n - 2);\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面init_sieve函数的时间复杂度为( )。\n\n```cpp\nint sieve[MAX_N];\nvoid init_sieve(int n) {\n    for (int i = 1; i <= n; i++)\n    sieve[i] = i;\n    for (int i = 2; i <= n; i++)\n    for (int j = i; j <= n; j += i)\n    sieve[j]--;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "下面count_triple函数的时间复杂度为( )。\n\n```cpp\nint gcd(int m, int n) {\n    if (m == 0) return n;\n    return gcd(n % m, m);\n}\nint count_triple(int n) {\n    int cnt = 0;\n    for (int v = 1; v * v * 4 <= n; v++)\n    for (int u = v + 1; u * (u + v) * 2 <= n; u += 2)\n    if (gcd(u, v) == 1) {\n        int a = u * u - v * v;\n        int b = u * v * 2;\n        int c = u * u + v * v;\n        cnt += n / (a + b + c);\n    }\n    return cnt;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "2, 3, 5, 7, 8, 9, 6, 4, 1"
+        },
+        {
+          "key": "B",
+          "text": "5, 7, 8, 9, 1, 2, 4, 3, 6"
+        },
+        {
+          "key": "C",
+          "text": "6, 8, 9, 5, 7, 1, 2, 3, 4"
+        },
+        {
+          "key": "D",
+          "text": "8, 5, 7, 9, 1, 2, 3, 6, 4"
+        }
+      ],
+      "content": "下列选项中，哪个不可能是下图的深度优先遍历序列（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中，表达式9 && 12的结果类型为int、值为8。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中，在有int a[10];定义的范围内，通过表达式a[-1]进行访问将导致编译错误。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "选择排序一般是不稳定的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中，float和int类型一般都是4字节，因此float类型能够表达不同的浮点数值的数量，与\nint类型能够表达不同的整数值的数量是相同的。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "使用math.h或cmath头文件中的对数函数，表达式log(256)的结果类型为double、值约为8.0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "一棵有 个节点的完全二叉树，则树的深度为 。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "邻接表和邻接矩阵都是图的存储形式。通常，使用邻接表比使用邻接矩阵的时间复杂度更低。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语⾔中，类的构造函数可以声明为私有（private）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "泛洪算法的递归实现容易造成溢出，因此大的二维地图算法中，一般使用广度优先搜索实现。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "很多游戏中为玩家设置多种可供学习的技能，要学习特定技能⼜往往需要先学习1个或以上的前置技能。尽\n管这样的技能间依赖关系常被玩家称为“技能树”，但它并不一定是树，更可能是有向无环图。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：连通图**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n给定⼀张包含 个结点与 条边的⽆向图，结点依次以 编号，第 条边（ ）连接结点 与结\n点 。如果从⼀个结点经过若⼲条边可以到达另⼀个结点，则称这两个结点是连通的。\n你需要向图中加⼊若⼲条边，使得图中任意两个结点都是连通的。请你求出最少需要加⼊的边的条数。\n注意给出的图中可能包含重边与⾃环。\n\n### 输入格式\n第⼀⾏，两个正整数 ，表⽰图的点数与边数。\n接下来 ⾏，每⾏两个正整数 ，表⽰图中⼀条连接结点 与结点 的边。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰使得图中任意两个结点连通所需加⼊的边的最少数量。\n\n### 数据范围\n对于 % 的测试点，保证 ， 。\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⾦币收集**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 正在游玩收集⾦币的游戏。具体来说，在数轴上将会出现 枚⾦币，其中第 枚（ ）⾦币将会在时刻\n出现在数轴上坐标为 的位置。⼩ A 必须在时刻 恰好位于坐标 ，才可以获得第 枚⾦币。\n游戏开始时为时刻 ，此时⼩ A 的坐标为 。正常来说，⼩ A 可以按游戏机的按键在数轴上左右移动，但不幸的是\n游戏机的左⽅向键失灵了。⼩ A 每个时刻只能选择保持不动，或是向右移动⼀个单位。换⾔之，如果⼩ A 在时刻\n的坐标为 ，那么他在时刻 的坐标只能是 或是 ⼆者之⼀，分别对应保持不动和向右移动。\n⼩ A 想知道他最多能收集多少枚⾦币。你能帮他收集最多的⾦币吗？\n\n### 输入格式\n第⼀⾏，⼀个正整数 ，表⽰⾦币的数量。\n接下来 ⾏，每⾏两个正整数 ，分别表⽰⾦币出现的坐标与时刻。\n\n### 输出格式\n输出⼀⾏，⼀个整数，表⽰⼩ A 最多能收集的⾦币数量。\n\n### 数据范围\n对于 % 的测试点，保证 。\n对于另外 % 的测试点，保证 ， ， 。\n对于所有测试点，保证 ， ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

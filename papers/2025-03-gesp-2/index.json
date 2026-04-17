@@ -1,0 +1,474 @@
+{
+  "title": "2025年3月 GESP C++ 2级",
+  "category": "GESP",
+  "level": "2",
+  "date": "2025-03",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2025年3月 GESP C++ 2级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "《哪吒2》是一款新型操作系统"
+        },
+        {
+          "key": "B",
+          "text": "DeepSeek是深海钻探软件"
+        },
+        {
+          "key": "C",
+          "text": "《哪吒2》可以生成新的软件"
+        },
+        {
+          "key": "D",
+          "text": "DeepSeek可以根据《哪吒2》的场景生成剧情脚本"
+        }
+      ],
+      "content": "2025年春节有两件轰动全球的事件，一个是DeepSeek横空出世，另一个是贺岁片《哪吒2》票房惊⼈，入了\n全球票房榜。下面关于DeepSeek与《哪吒2》的描述成⽴的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "圆形框"
+        },
+        {
+          "key": "B",
+          "text": "椭圆形框"
+        },
+        {
+          "key": "C",
+          "text": "平行四边形框"
+        },
+        {
+          "key": "D",
+          "text": "菱形框"
+        }
+      ],
+      "content": "对整型变量N，如果它能够同时被3和5整除，则输出N是含有至少两个质因数。如果用流程图来描述处理过\n程，则输出语句应该在哪种图形框中（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "3 4"
+        },
+        {
+          "key": "B",
+          "text": "3 3"
+        },
+        {
+          "key": "C",
+          "text": "4 4"
+        },
+        {
+          "key": "D",
+          "text": "4 3"
+        }
+      ],
+      "content": "下面C++代码执行，其输出是( )。\n\n```cpp\nint a=3, b = 4;\na == b;\nb == a;\ncout << a << ' ' << b << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "将else if ((remainder == 9) || (remainder == 0))修改为else效果相同"
+        },
+        {
+          "key": "B",
+          "text": "将((1 <= remainder) && (remainder<= 5))修改为(remainder <= 5)效果相同"
+        },
+        {
+          "key": "C",
+          "text": "else if ((6 <= remainder) && (remainder <= 8))写法错误，应修改为else if (6 <=\nremainder <= 8)\n"
+        },
+        {
+          "key": "D",
+          "text": "根据题意remainder = N % 10应修改为remainder = N / 10"
+        }
+      ],
+      "content": "求三色彩球的颜色。有数量无限的红(Red)绿(Green)蓝(Blue)三种彩球排成一行，每组先为5个红色球，随后3\n个绿色，最后为2个蓝色。每个球都有编号，从左到右依次为1,2,3……。输入整数代表编号，求该编号球的颜色。下\n面是C++代码是实现，正确说法是( )。\n\n```cpp\nint N, remainder;\ncin >> N;\nremainder = N % 10; // remainder变量保存余数\nif((1 <= remainder) && (remainder<= 5))\ncout << \"Red\";\nelse if ((6 <= remainder) && (remainder <= 8))\ncout << \"Green\";\nelse if ((remainder == 9) || (remainder == 0))\ncout << \"Blue\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "18"
+        },
+        {
+          "key": "B",
+          "text": "17"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "14"
+        }
+      ],
+      "content": "下面C++代码执行后其输出是( )。\n\n```cpp\nint tnt = 0;\nfor (int i = 0; i < 10;i ++)\nif (i % 3)\ntnt += 1;\nelse\ntnt += 2;\ncout << tnt;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "0"
+        },
+        {
+          "key": "D",
+          "text": "因为循环执行时会执行break语句⽽终⽌循环，所以i的值不确定"
+        }
+      ],
+      "content": "下面C++代码执行后输出是( )。\n\n```cpp\nint i;\nfor (i = 10; i > 0; i -= 2)\nbreak;\ncout << i;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0#0#0#0#0#0#"
+        },
+        {
+          "key": "B",
+          "text": "0#0#0#0#0#0#0#1#"
+        },
+        {
+          "key": "C",
+          "text": "0#0#0#0#1#"
+        },
+        {
+          "key": "D",
+          "text": "0#0#0#0#0#0#1#"
+        }
+      ],
+      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint i;\nfor (i =0; i < 10; i++){\n    if (i % 3 == 0)\n    continue;\n    cout << \"0\" << \"#\";\n}\nif (i >= 10)\ncout << \"1\" << \"#\";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-2-1-3-2-1-4-3-2-1-"
+        },
+        {
+          "key": "B",
+          "text": "1-2-1-3-2-1-4-3-2-1"
+        },
+        {
+          "key": "C",
+          "text": "0-0-1-0-1-2-0-1-2-3-"
+        },
+        {
+          "key": "D",
+          "text": "0-0-1-0-1-2-0-1-2-3"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint i,j;\nfor (i = 0; i < 5; i++)\nfor (j = i; j > 0; j -= 1)\nprintf(\"%d-\",j);\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "((i % 2 == 0) && (i % 7 == 2))"
+        },
+        {
+          "key": "B",
+          "text": "((!(i % 2)) && (i % 7 == 2))"
+        },
+        {
+          "key": "C",
+          "text": "((!(i % 2)) && (!(i % 7)))"
+        },
+        {
+          "key": "D",
+          "text": "((i % 2 != 1) && (i % 7 == 2))"
+        }
+      ],
+      "content": "下面C++代码执行后，将输出能被2整除且除以7余数为2的数。下列选项不能实现的是（ ）。\n\n```cpp\nfor (int i = 0; i < 100; i++)\nif _______________________\ncout << i << \" \";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "\n```cpp\ncontinue\nj /= 10\n```\n"
+        },
+        {
+          "key": "B",
+          "text": "\n```cpp\nbreak\nj /= 10\n```\n"
+        },
+        {
+          "key": "C",
+          "text": "\n```cpp\ncontinue\nj %= 10\n```\n"
+        },
+        {
+          "key": "D",
+          "text": "\n```cpp\nbreak\nj %= 10\n```\n"
+        }
+      ],
+      "content": "下面C++代码用于求1到N之间正整数中含有3的数的个数，比如123和32都是符合条件的数。则前后两处\n横线应填入代码分别是（ ）。\n\n```cpp\nint i,j;\nint cnt = 0, N;\ncout << \"请输入正整数N：\";\ncin >> N;\nfor (i = 1; (j=i) < N; i++)\nwhile (j != 0)\nif (j % 10 == 3){\n    cnt +=1;\n    __________;\n}\nelse\n__________;\ncout << cnt << \" \";\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "虽然实现1的代码短小，但效率并不高"
+        },
+        {
+          "key": "B",
+          "text": "实现2的代码效率更高，且更易于理解"
+        },
+        {
+          "key": "C",
+          "text": "实现1因为应用了前项计算结果，计算量更小，因此效率高"
+        },
+        {
+          "key": "D",
+          "text": "两种实现，效率几乎一致"
+        }
+      ],
+      "content": "在数学中N!表⽰N的阶乘，即1到N的乘积，如3!=1*2*3，且0! = 1。下面的两段C++代码用于求1到N\n的阶乘之和，如N为3，则结果是9（1!+2!+3!的值）。选项中的说法正确的是（ ）。\n\n```cpp\n// 实现1\nint i,N;\ncin >> N;\nint tnt = 0, last = 1;\nfor (i = 1; i < N + 1; i++){\n    last *= i;\n    tnt += last;\n}\ncout << tnt << endl;\n// 实现2\nint i,N;\ncin >> N;\nint tnt = 0, tmp;\nfor (i = 1; i < N + 1; i++){\n    tmp = 1;\n    for (int j = 1; j < i + 1; j++)\n    tmp *= j;\n    tnt += tmp;\n}\ncout << tnt << endl;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "将代码isPrime(j) && isPrime(i-j)修改为\nisPrime(j) == true && isPrime(i-j) == true效果相同\n"
+        },
+        {
+          "key": "B",
+          "text": "代码执行后，输出的一对质数，一定是小的数在前"
+        },
+        {
+          "key": "C",
+          "text": "即便将外层循环中i的上界1000修改为很大的整数，也不能说从数学上证明了哥德巴赫猜想"
+        },
+        {
+          "key": "D",
+          "text": "根据题意，break语句应该移到if语句块之外"
+        }
+      ],
+      "content": "哥德巴赫猜想是指大于2的偶数都可以分解为两个质数之和，下面的代码用于验证4-1000之内的偶数能否分\n解为两个质数之和。下面C++代码中假设isPrime()是已经定义好用于判断正整数N是否为质数, 返回bool值。对该段代\n码，错误的说法是（ ）。\n\n```cpp\nfor (i = 4; i < 1000; i += 2)\nfor (j = 2; j < i; j++)\nif (isPrime(j) && isPrime(i-j)){\n    printf(\"%d=%d+%d\\n\", i, j, i-j);\n    break;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "倒数第二行的printf(\"\\n\")有错，应该修改为cout << endl;，printf( )函数不能输出换行"
+        },
+        {
+          "key": "B",
+          "text": "last += 1修改为last = last + 1执行效果相同"
+        },
+        {
+          "key": "C",
+          "text": "代码中L1标记行中的j < i + 1应修改为j < i"
+        },
+        {
+          "key": "D",
+          "text": "外层for循环前的last = 1修改为last = 0执行效果相同"
+        }
+      ],
+      "content": "已知C++代码和执行后的期望输出如下，相关说法正确的是（ ）。\n\n```cpp\nint i,j;\nint last, N;\ncout << \"请输入层数N：\";\ncin >> N;\nlast = 1;\nfor (i = 1; i < N; i++){\n    for (j = 1; j < i + 1; j++){ // L1\n        if (last > 9)\n        last = 1;\n        cout << last << \" \";\n        last += 1;\n    }\n    printf(\"\\n\");\n}\n请输入层数N：10\n1\n2 3\n4 5 6\n7 8 9 1\n2 3 4 5 6\n7 8 9 1 2 3\n4 5 6 7 8 9 1\n2 3 4 5 6 7 8 9\n1 2 3 4 5 6 7 8 9\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "rand( ) % 11"
+        },
+        {
+          "key": "B",
+          "text": "rand( ) % 10"
+        },
+        {
+          "key": "C",
+          "text": "rand( ) % 10 + 1"
+        },
+        {
+          "key": "D",
+          "text": "rand() % 9 + 1"
+        }
+      ],
+      "content": "在C++中，（ ）最适合填入横线处连续5次正确生成1到10之间的随机整数？\n\n```cpp\nfor(int i=0; i<5; i++)\n__________________;\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "((b-a) < 0.000001 )"
+        },
+        {
+          "key": "B",
+          "text": "((b-a) <= 0.000001 )"
+        },
+        {
+          "key": "C",
+          "text": "(abs(b-a) <= 0.000001 )"
+        },
+        {
+          "key": "D",
+          "text": "(sqrt(b-a) <= 0.000001 )"
+        }
+      ],
+      "content": "在C++中，如果a和b均为float类型的变量，那么二者如果相差足够小（比如0.000001），就可以视作\n相等。比如2.2345676和2.2345677就可以视作相等。下列哪个表达式能用来正确判断“a等于b” ( )。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "C++、Python都是高级编程语⾔，它们的每条语句最终都要通过机器指令来完成。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++代码中，假设N为正整数，则N - N / 10 * 10与N % 10都将获得N的个位数。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "C++语句cout << ((10 <= N <= 12)? \"true\":\"false\")中，假设整型变量N为12，则其输出为\ntrue。原因是执行10 <= N后其值为true，true与12相比仍然是true。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++表达式(sqrt(N) * sqrt(N)) == N中的N如果为正整数，则表达式的值为true，相当于开平方后平方\n是本身。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++执行后将输出3*2=6。 ( )\n\n```cpp\nint a=2, b = 3;\na=a-b;\nb=a+b;\na=b-a;\nprintf(\"%d*%d=%d\\n\", a, b, a*b);\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出10。（ ）\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++)\ncontinue;\ncout << i << endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出1。（ ）\n\n```cpp\nint i;\nfor (i = 1; i < 10; i++){\n    break;\n    continue;\n}\ncout << i << endl;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "下面的C++代码执行后将输出10行\"OK\"。（ ）\n\n```cpp\nfor (int i = 0; i < 5; i++)\nfor(int j = 0; j < i; j++)\nprintf(\"OK\\n\");\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "将下面C++代码中的for循环中的i = 1调整为i = 0的输出结果相同。（ ）\n\n```cpp\nint tnt = 0;\nfor (int i = 1; i < 5; i++) // i=1\ntnt += i;\ncout << tnt;\n```\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码执行后将输出0123。（ ）\n\n```cpp\nfor (i = 0; i < 5; i++)\nfor (i = 0; i < i; i++)\ncontinue;\nprintf(\"%d\\n\", i);\n```\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：等差矩阵**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 想构造⼀个 ⾏ 列的矩阵，使得矩阵的每⼀⾏与每⼀列均是等差数列。⼩ A 发现，在矩阵的第 ⾏第 列填\n⼊整数 ，得到的矩阵能满⾜要求。你能帮⼩ A 输出这个矩阵吗？\n\n### 输入格式\n⼀⾏，两个正整数 。\n\n### 输出格式\n共 ⾏，每⾏ 个由空格分割的整数，表⽰⼩ A 需要构造的矩阵。\n\n### 数据范围\n对于所有测试点，保证 ， 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：时间跨越**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n输⼊包含五⾏，每⾏⼀个正整数，分别代表 。\n\n### 输出格式\n输出四个正整数，代表 。\n\n### 数据范围\n对于全部数据，保证有 。数据保证为合法时间。\n3.2.13 提示\n闰年判断规则\n普通闰年：年份能被 4 整除，但不能被 100 整除。\n世纪闰年：年份能被 400 整除。\n满⾜以上任意⼀条规则的年份就是闰年，否则是平年。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

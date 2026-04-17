@@ -1,0 +1,474 @@
+{
+  "title": "2023年12月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2023-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年12月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "char dict_key[] = {'p','t','o'};"
+        },
+        {
+          "key": "B",
+          "text": "int dict_value[] = {33,22,11};"
+        },
+        {
+          "key": "C",
+          "text": "char dict_name[]={'chen','wang','zhou'};"
+        },
+        {
+          "key": "D",
+          "text": "float dict_value[]={3,2,1};"
+        }
+      ],
+      "content": "下面C++数组的定义中，会丢失数据的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "（221）10进制"
+        },
+        {
+          "key": "B",
+          "text": "（335）8进制"
+        },
+        {
+          "key": "C",
+          "text": "（dd）16进制"
+        },
+        {
+          "key": "D",
+          "text": "（5d）16进制"
+        }
+      ],
+      "content": "在下列编码中，不能够和二进制\"1101 1101\"相等的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "string str(\"GESP\"); cout<<str<<endl;"
+        },
+        {
+          "key": "B",
+          "text": "string str=\"GESP\"; cout<<str<<endl;"
+        },
+        {
+          "key": "C",
+          "text": "string str(\"GESP\"); cout<<str[1]<<str[2]<<str[3]<<str[4]<<endl;"
+        },
+        {
+          "key": "D",
+          "text": "string str{\"GESP\"}; cout<<str<<endl;"
+        }
+      ],
+      "content": "下面C++代码执行后不能输出\"GESP\"的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "执行下面C++代码输出是（ ）。\nA 10\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "content": "执行下面C++代码后，输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "执行下面C++代码后输出的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出未知的数"
+        },
+        {
+          "key": "B",
+          "text": "输出'n'"
+        },
+        {
+          "key": "C",
+          "text": "输出'\\0'"
+        },
+        {
+          "key": "D",
+          "text": "输出空格"
+        }
+      ],
+      "content": "执行下面C++代码后输出的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "输出空格"
+        },
+        {
+          "key": "D",
+          "text": "什么也不输出"
+        }
+      ],
+      "content": "下面C++代码执行后的输出是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "str[i]=='o'"
+        },
+        {
+          "key": "B",
+          "text": "str[i]=='a'+14"
+        },
+        {
+          "key": "C",
+          "text": "str[i]==115"
+        },
+        {
+          "key": "D",
+          "text": "str[i]==111"
+        }
+      ],
+      "content": "下面C++代码用于统计每种字符出现的次数，当输出为3时，横线上不能填入的代码是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "2^31~(2^31)-1"
+        },
+        {
+          "key": "B",
+          "text": "2^32"
+        },
+        {
+          "key": "C",
+          "text": "-2^31~+(2^31)-1"
+        },
+        {
+          "key": "D",
+          "text": "-(2^31)+1~2^31"
+        }
+      ],
+      "content": "32位计算机中，C++的整型变量int能够表⽰的数据范围是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "下面C++程序执行的结果是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.5"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "1.50"
+        }
+      ],
+      "content": "C++的数据类型转换让⼈很难琢磨透，下列代码输出的值是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "代码将换行输出各个含有数字的电话号码。"
+        },
+        {
+          "key": "B",
+          "text": "代码将不换行输出各个含有数字的电话号码，号码中间没有分隔。"
+        },
+        {
+          "key": "C",
+          "text": "代码将不换行输出各个含有数字的电话号码，号码中间有分隔。"
+        },
+        {
+          "key": "D",
+          "text": "不能够输出数字电话号码。"
+        }
+      ],
+      "content": "C++代码用于抽取字符串中的电话号码。约定：电话号码全部是数字，数字之间没有其他符号如连字符或\n空格等。代码中变量strSrc仅仅是⽰例，可以包含更多字符。下面有关代码说法，正确的说法是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "麦克风"
+        },
+        {
+          "key": "B",
+          "text": "扬声器"
+        },
+        {
+          "key": "C",
+          "text": "油量表"
+        },
+        {
+          "key": "D",
+          "text": "传感器"
+        }
+      ],
+      "content": "某公司新出了一款无⼈驾驶的小汽车，通过声控智能驾驶系统，乘客只要告诉汽车目的地，车⼦就能自动\n选择一条优化路线，告诉乘客后驶达那里。请问下面哪项不是驾驶系统完成选路所必须的。（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "艾伦·图灵"
+        },
+        {
+          "key": "B",
+          "text": "冯·诺依曼"
+        },
+        {
+          "key": "C",
+          "text": "阿塔纳索夫"
+        },
+        {
+          "key": "D",
+          "text": "埃克特-莫克利"
+        }
+      ],
+      "content": "现代计算机是指电⼦计算机，它所基于的是（ ）体系结构。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码cout<<(5&&2)<<endl;后将输出1。( )\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++程序执行后，输入chen a dai输出应该为：chen。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码cout<<(5||2);后将输出1。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "执行下面C++代码后将输出\"China\"。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码将输出0 5，5之后还有一个空格。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++代码将输出1（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "下面C++程序将输出1。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "执行C++代码，将输出1 3 5 7 9，9之后还有一个空格。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "小杨最近在准备考GESP，他用的Dev C++来练习和运行程序，所以Dev C++也是一个小型操作系统。（ ）\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "任何一个while循环都可以转化为等价的for循环（ ）。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩猫分鱼**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n三只⼩猫来分鱼 ，每次扔掉鱼的数量为 ，为了每只⼩猫都可吃到鱼，可令第三只⼩猫需要拿⾛3条鱼（拿\n⾛1条和2条不满⾜要求），则此时待分配的有10条鱼。第⼆只⼩猫待分配的鱼有 条。第⼀只⼩猫\n待分配的鱼有 条。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：单位转换**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

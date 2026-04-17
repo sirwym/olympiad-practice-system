@@ -1,0 +1,347 @@
+{
+  "title": "NCT KITTEN 2级 K2模拟卷1",
+  "category": "NCT-KITTEN",
+  "level": "2",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 5,
+      "answer": "D",
+      "content": "下列选项中的做法，正确的是（    ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "将自己的家庭地址和家庭成员信息告诉陌生网友"
+        },
+        {
+          "key": "B",
+          "text": "因为电脑上安装了杀毒软件，所以陌生人发来的任何链接都可以随便点开"
+        },
+        {
+          "key": "C",
+          "text": "社交网站上与人交流，不高兴的时候可以随意辱骂他人"
+        },
+        {
+          "key": "D",
+          "text": "对于有版权的图片和音乐，使用时需要先征求版权方的同意"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 5,
+      "answer": "B",
+      "content": "运行脚本，输入3.7，则新建对话框输出的内容是（    ）\n\n![img](../assets/images/nct/H1qx0679D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3.7"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "3.5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 5,
+      "answer": "C",
+      "content": "已知角色初始位置是坐标系原点(0,0)。运行脚本，则角色最终的坐标是（    ）。\n\n![img](../assets/images/nct/Hk04RpQcv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "（40,100）"
+        },
+        {
+          "key": "B",
+          "text": "（40,600）"
+        },
+        {
+          "key": "C",
+          "text": "（240,100）"
+        },
+        {
+          "key": "D",
+          "text": "（240,600）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 5,
+      "answer": "C",
+      "content": "小可制作了一个计时器程序，效果如下。可以实现效果的程序是（   ）。\n\n![img](../assets/images/nct/ryB_A67cw.gif)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 5,
+      "answer": "A",
+      "content": "已知变量“人数”等于4，如果变量“苹果”的数量在4到8范围内，则对话框显示“每个人最少可以分1个苹果，最多可以分2个苹果”。\n下图脚本中，“ ？”应补充的积木是（  ）。\n\n![img](../assets/images/nct/ByjTRp7cP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 5,
+      "answer": "D",
+      "content": "“木叶龙”、“雷电猴”和“涂鸦狐”进行赛跑，一开始它们在同一起跑线，游戏开始后，下列说法正确的是（    ）。\n\n![img](../assets/images/nct/SkPVgAbBd.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1秒后，“木叶龙”跑在最前面"
+        },
+        {
+          "key": "B",
+          "text": "2秒后，“涂鸦狐”跑在最前面"
+        },
+        {
+          "key": "C",
+          "text": "无论几秒后，“雷电猴”一直跑在最前面"
+        },
+        {
+          "key": "D",
+          "text": "无论几秒后，“涂鸦狐”一直停在原地没有动"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 5,
+      "answer": "C",
+      "content": "有一个“鲜花”列表，目前列表中存在三项数据，分别是“玫瑰花”、“牡丹花”、“康乃馨”（如下图）。运行下图脚本，对话框最终显示的内容是（  ）。\n\n![img](../assets/images/nct/rJGi10mcP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "玫瑰花"
+        },
+        {
+          "key": "B",
+          "text": "牡丹花"
+        },
+        {
+          "key": "C",
+          "text": "金菊花"
+        },
+        {
+          "key": "D",
+          "text": "康乃馨"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 5,
+      "answer": "D",
+      "content": "已知“成语接龙”的脚本如下，则“ ？”处应该填写的是（  ）。\n\n![img](../assets/images/nct/HJHJg079D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 5,
+      "answer": "C",
+      "content": "选项中，能够画出下图所示图形的脚本是（   ）。\n\n![img](../assets/images/nct/rJlp7gAXqw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 5,
+      "answer": "B",
+      "content": "有一个“飞机大战”游戏，游戏中角色“飞机”的一部分流程图如下，能正确实现流程图逻辑的脚本是（   ）\n\n![img](../assets/images/nct/ryCdlA7cw.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 11,
+      "score": 4,
+      "answer": "9",
+      "content": "已知角色“星能猫”有以下脚本，程序运行结束后，舞台上最多出现______个“星能猫”。\n\n![img](../assets/images/nct/rJrKxe4cv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 12,
+      "score": 4,
+      "answer": "5",
+      "content": "3月5日是“学雷锋”纪念日，老师鼓励同学们在这个月参加志愿者活动，并给予小红旗奖励。奖励规则如下图脚本所示，“小可”这个月参加了4次志愿者活动，则新建对话框最后输出的是_____。\n\n![img](../assets/images/nct/S1mRxe4qP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 13,
+      "score": 4,
+      "answer": "8",
+      "content": "角色“精灵”有以下脚本，已知程序运行后，角色切换到“大黄鸡”造型和“雷电猴”造型的概率一样大，则“ ？”处应该填写的数字是_______。\n\n![img](../assets/images/nct/BJXXZxEcw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 14,
+      "score": 4,
+      "answer": "1",
+      "content": "学习“函数”后，小可使用函数快速绘制了如下图形，则脚本中“ ？”处调用的函数是“图形______”。\n\n![img](../assets/images/nct/ryxPbl4qw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 15,
+      "score": 4,
+      "answer": "9",
+      "content": "运行下列脚本，变量“X”最终的值为_______。\n\n![img](../assets/images/nct/S1LsbeVcD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 16,
+      "score": 15,
+      "answer": "None",
+      "content": "“四季变化”程序预期效果如下：a. 程序运行后，将四个成语按照“春夏秋冬”的顺序添加到列表“四季成语”中，如下图所示；b. 每次点击“背景”，“背景”会随意切换到“春”、“夏”、“秋”、“冬”任意一个造型；c. 点击角色“小可”后，“小可”会调用列表中对应季节的成语，并用对话框的形式显示出来。运行程序后，存在以下问题，请你帮助小可完善程序：（1）“背景”的脚本是散开的，请你进行拼接，实现效果a；（2）“背景”的脚本存在问题，请你进行修改，实现效果b；（3）“小可”的脚本存在问题，请你进行修改，实现效果c。\n\n![img](../assets/images/nct/rJCsFgNqP.png)\n![img](../assets/images/nct/Hk5Qgc2E_.gif)",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 17,
+      "score": 15,
+      "answer": "None",
+      "content": "程序预期效果如下，请使用给定素材完成创作作品要求：（1）程序开始，“甜甜圈”不停地顺时针转动，转动角度为5；（2）鼠标每点击一次，“魔法箭”克隆出一个克隆体；（3）克隆体“魔法箭”不断向上移动，直到碰到“甜甜圈”；在这个过程中如果碰到“红色阵营角色”，则发送失败广播；（4）当克隆体碰到“甜甜圈”后，“得分”增加1。同时，将克隆体设置成“红色阵营”角色，跟随“甜甜圈”一起转动；（5）如果“得分”≥7，游戏胜利，“胜利-失败”角色切换到对应的造型并播放胜利音效，游戏停止；（6）当游戏失败时，“胜利-失败”角色切换到对应的造型并播放失败音效，游戏停止。\n\n![img](../assets/images/nct/16488861888486785.gif)",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

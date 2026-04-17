@@ -1,0 +1,93 @@
+/*
+ * Prism.js VSCode Dark+ 配色主题
+ * 模拟 Visual Studio Code 默认深色主题
+ */
+code[class*=language-],pre[class*=language-]{
+  color:#d4d4d4;
+  background:0 0;
+  font-family:Menlo,Consolas,Monaco,'Courier New',monospace;
+  font-size:1em;
+  text-align:left;
+  white-space:pre;
+  word-spacing:normal;
+  word-break:normal;
+  word-wrap:normal;
+  line-height:1.5;
+  tab-size:4;
+  hyphens:none
+}
+pre[class*=language-]{
+  padding:1em;
+  margin:.5em 0;
+  overflow:auto
+}
+:not(pre)>code[class*=language-],pre[class*=language-]{
+  background:#1e1e1e
+}
+:not(pre)>code[class*=language-]{
+  padding:.1em;
+  border-radius:.3em;
+  white-space:normal
+}
+
+/* VSCode Dark+ Token Colors */
+
+/* 注释 - 绿色 */
+.token.comment,.token.prolog,.token.doctype,.token.cdata{
+  color:#6a9955
+}
+/* 标点 - 浅灰 */
+.token.punctuation{
+  color:#d4d4d4
+}
+/* 属性名/命名空间/标签 - 浅蓝 */
+.token.property,.token.tag,.token.boolean,.token.number,.token.constant,.token.symbol,.token.deleted{
+  color:#b5cea8
+}
+/* 选择器/attr-name - 浅绿 */
+.token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted{
+  color:#ce9178
+}
+/* 运算符 */
+.token.operator,.token.entity,.token.url{
+  color:#d4d4d4
+}
+/* 关键字 - 蓝紫色 */
+.token.atrule,.token.attr-value,.token.keyword{
+  color:#569cd6
+}
+/* 函数 - 黄色 */
+.token.function{
+  color:#dcdcaa
+}
+/* 类名/类型 - 青绿 */
+.token.class-name,.token.type{
+  color:#4ec9b0
+}
+/* 变量/正则 - 浅橙 */
+.token.variable,.token.regex{
+  color:#d16969
+}
+/* 重要 */
+.token.important,.token.bold{
+  font-weight:700
+}
+.token.italic{
+  font-style:italic
+}
+.token.entity{
+  cursor:help
+}
+
+/* C++ 特殊: 预处理指令 - 蓝紫 */
+.token.directive{
+  color:#c586c0
+}
+/* 字符串 - 橙色 */
+.token.string{
+  color:#ce9178
+}
+/* 数字 - 浅绿 */
+.token.number{
+  color:#b5cea8
+}

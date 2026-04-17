@@ -1,0 +1,347 @@
+{
+  "title": "NCT KITTEN 2级 K2模拟卷2",
+  "category": "NCT-KITTEN",
+  "level": "2",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NCT 全国青少年编程能力等级测试",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 5,
+      "answer": "C",
+      "content": "下列选项中的做法正确的是（    ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "在网络上搜索到的信息都是真实的，可以完全按照上面去做"
+        },
+        {
+          "key": "B",
+          "text": "把带有电脑病毒的链接转发给他人，让他人感受一下电脑病毒的威力"
+        },
+        {
+          "key": "C",
+          "text": "即使网络社区是虚拟社区，我们也需要遵守相关道德和礼仪规范"
+        },
+        {
+          "key": "D",
+          "text": "使用他人有版权的素材不需要征求他人同意，只需在作品中写一个致谢就行"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 5,
+      "answer": "B",
+      "content": "运行下图脚本，变量“A”最终的值是（   ）。\n\n![img](../assets/images/nct/rJ1OLo45v.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "3.2"
+        },
+        {
+          "key": "D",
+          "text": "4.2"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 5,
+      "answer": "A",
+      "content": "已知变量“倒计时”的初始值为0，若想实现计时10秒效果，则“ ？”处应拼接的是（   ）。\n\n![img](../assets/images/nct/rk5ZDoE9v.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 5,
+      "answer": "C",
+      "content": "已知角色的初始坐标是（200,200），若按照流程图步骤运行脚本，角色最终的坐标是（    ）。\n\n![img](../assets/images/nct/HkXdKiNqD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "（200,250）"
+        },
+        {
+          "key": "B",
+          "text": "（200,150）"
+        },
+        {
+          "key": "C",
+          "text": "（300,250）"
+        },
+        {
+          "key": "D",
+          "text": "（300,150）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 5,
+      "answer": "D",
+      "content": "源码学校举办了一场团队跑步比赛，“涂鸦狐”和“星能猫”是一组，游戏规则是：当它们两个全部到达红色终点线后，计时结束，开始计算总成绩，以下脚本能正确实现要求的是（ ）。\n\n![img](../assets/images/nct/16264071601629761.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 5,
+      "answer": "C",
+      "content": "运行下图脚本，角色“涂鸦狐”执行的动作是（    ）。\n\n![img](../assets/images/nct/H1Ot9jN9D.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "移动200步"
+        },
+        {
+          "key": "B",
+          "text": "旋转30度"
+        },
+        {
+          "key": "C",
+          "text": "先移动200步，再旋转30度"
+        },
+        {
+          "key": "D",
+          "text": "先抖动1秒，再旋转30度"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 5,
+      "answer": "D",
+      "content": "小佳建立了一个“水果”列表，想要把自己喜欢的水果按照：“葡萄”、“西瓜”、“草莓”、“香蕉”的顺序排列在列表中，如下图所示，则“ ①”、“②”处分别是（   ）。\n\n![img](../assets/images/nct/SkTwF9Bid.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "①2  ②2"
+        },
+        {
+          "key": "B",
+          "text": "①2  ②3"
+        },
+        {
+          "key": "C",
+          "text": "①3  ②3"
+        },
+        {
+          "key": "D",
+          "text": "①3  ②2"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 5,
+      "answer": "B",
+      "content": "已知角色“飞船”初始位置及脚本如下，运行下图脚本，最终“飞船”的坐标是（   ）。\n\n![img](../assets/images/nct/rJPXojVqv.png)\n![img](../assets/images/nct/HJfEosNqw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "（300,300）"
+        },
+        {
+          "key": "B",
+          "text": "（300,100）"
+        },
+        {
+          "key": "C",
+          "text": "（200,300）"
+        },
+        {
+          "key": "D",
+          "text": "（200,100）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 5,
+      "answer": "B",
+      "content": "运行下图脚本，画笔最终画出的图形是（   ）。\n\n![img](../assets/images/nct/rkWoiiN9P.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 5,
+      "answer": "D",
+      "content": "已知“成语接龙”的脚本如下，运行下图脚本，依次输入“以逸待劳”、“劳苦功高”、“高山景行”。则最终对话框输出的是（   ）。\n\n![img](../assets/images/nct/SylXe2iNcD.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "劳"
+        },
+        {
+          "key": "B",
+          "text": "高"
+        },
+        {
+          "key": "C",
+          "text": "山"
+        },
+        {
+          "key": "D",
+          "text": "行"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 11,
+      "score": 4,
+      "answer": "3",
+      "content": "已知角色“爱心”的舞台运行效果及脚本如下，则“ ？”处应填写的是____。\n\n![img](../assets/images/nct/ByS8ns4cw.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 12,
+      "score": 4,
+      "answer": "20",
+      "content": "运行下图脚本，则变量“B”最大值为____。\n\n![img](../assets/images/nct/r1zt3j4qv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 13,
+      "score": 4,
+      "answer": "180",
+      "content": "已知角色初始面向0度，运行下图脚本，最终对话框输出的是____。\n\n![img](../assets/images/nct/BJ-bajNcP.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "180"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 14,
+      "score": 4,
+      "answer": "1",
+      "content": "若想实现左图“早餐清单”的列表效果，则右边积木的“？”处应填写的是____。\n\n![img](../assets/images/nct/BJdlw2cHsu.jpg)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "fill",
+      "id": 15,
+      "score": 4,
+      "answer": "0",
+      "content": "运行下图脚本，最终新建对话框输出的是____。\n\n![img](../assets/images/nct/H10vai4qv.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        }
+      ],
+      "section": "填空题"
+    },
+    {
+      "type": "program",
+      "id": 16,
+      "score": 15,
+      "answer": "None",
+      "content": "“古诗猜一猜”程序总共分为三关，分别对应三首古诗，正确的诗句如下：程序预期效果如下：a. 程序运行后，每一关显示一首诗，“小精灵”通过提问的方式要求我们选择正确的诗句；b. 如果选择正确，则进入下一关；选择错误，则重新选择；每通过一关，游戏“得分”增加1；d. 当三首诗全部选择正确，游戏胜利，显示“成功”角色，游戏停止。运行程序后，存在以下问题，请你帮助小可进行修改，完善程序：（1）“长歌行”脚本存在问题，请你进行修改，实现效果a；（2）“小精灵”脚本存在问题，请你进行修改，实现效果b；（3）“成功”的脚本是散开的，请你进行拼接，实现效果c。\n\n![img](../assets/images/nct/HkgEiTiEqD.jpg)\n![img](../assets/images/nct/B1lR36jV9w.gif)",
+      "section": "Kitten 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 17,
+      "score": 15,
+      "answer": "None",
+      "content": "程序预期效果如下，请你使用给定素材完成创作。作品要求：（1）键盘的“←”、“→”键控制“小可”左右移动，碰到边缘就反弹。（2）键盘的“A”、“D”键控制“阿短”左右移动，碰到边缘就反弹。（3）游戏开始后，“雪花”隐藏，并每隔0.3秒克隆出一个克隆体。（4）克隆体“雪花”的大小随机在40到65之间，当它从舞台上方的任意位置下落时，边下落边旋转。（5）当克隆体“雪花”碰到“阿短”或“小可”时，“阿短得分”或“小可得分”增加1，克隆体“雪花”删除自己；如果碰到舞台下边缘，则直接删除自己。（6）如果“阿短”先得到20分，角色“挑战成功”显示出来，并用文字印章在角色上层印出“恭喜阿短获胜”的文字，游戏停止。（7）如果“小可”先得到20分，角色“挑战成功”显示出来，并用文字印章在角色上层印出“恭喜小可获胜”的文字，游戏停止。\n\n![img](../assets/images/nct/BkgcRsN9D.gif)",
+      "section": "Kitten 编程操作题"
+    }
+  ]
+}

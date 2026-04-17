@@ -1,0 +1,474 @@
+{
+  "title": "2023年9月 GESP C++ 3级",
+  "category": "GESP",
+  "level": "3",
+  "date": "2023-09",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2023年9月 GESP C++ 3级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "一款操作系统"
+        },
+        {
+          "key": "B",
+          "text": "一款应用软件"
+        },
+        {
+          "key": "C",
+          "text": "一种通话设备"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "⼈们所使用的手机上安装的App通常指的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "60"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ],
+      "content": "下列流程图的输出结果是？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "4A"
+        },
+        {
+          "key": "B",
+          "text": "4B"
+        },
+        {
+          "key": "C",
+          "text": "4C"
+        },
+        {
+          "key": "D",
+          "text": "52"
+        }
+      ],
+      "content": "已知大写字符'A'的ASCII编码的十六进制表⽰为0x41，则字符'L'的ASCII编码的十六进制表⽰为（\n）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "~"
+        },
+        {
+          "key": "B",
+          "text": "~~"
+        },
+        {
+          "key": "C",
+          "text": "<"
+        },
+        {
+          "key": "D",
+          "text": "<<"
+        }
+      ],
+      "content": "以下哪个不是C++语⾔中的运算符？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "32"
+        },
+        {
+          "key": "B",
+          "text": "16"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "content": "如果数组定义为long long array[] = {3, 5, 7, 2};，则数组array占用的字节数为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "23"
+        },
+        {
+          "key": "D",
+          "text": "24"
+        }
+      ],
+      "content": "一个数组定义为double array[3];，则可合理访问这个数组的元素的下标最大为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "double a[];"
+        },
+        {
+          "key": "B",
+          "text": "double b[] = {1, 2.0, '3'};"
+        },
+        {
+          "key": "C",
+          "text": "double c[3.0];"
+        },
+        {
+          "key": "D",
+          "text": "double[] d = new double[3];"
+        }
+      ],
+      "content": "以下数组定义，符合C++语⾔语法的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "只有十进制和二进制能够用来表⽰小数，八进制和十六进制不可以。"
+        },
+        {
+          "key": "B",
+          "text": "常用的进制包括二进制、八进制、十进制、十六进制，其他进制在⽇常生活中很少使用。"
+        },
+        {
+          "key": "C",
+          "text": "对任意正整数，其二进制表⽰不会比它的十进制表⽰更短。"
+        },
+        {
+          "key": "D",
+          "text": "正整数的八进制表⽰中，每一位可能出现的最大数字是8。"
+        }
+      ],
+      "content": "下列关于进制的叙述，正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以定义0个元素的数组。"
+        },
+        {
+          "key": "B",
+          "text": "不能定义-1个元素的数组。"
+        },
+        {
+          "key": "C",
+          "text": "数组下标越界访问会产生编译错误。"
+        },
+        {
+          "key": "D",
+          "text": "程序运行时发生数组下标的越界访问，程序依然可能正常结束。"
+        }
+      ],
+      "content": "下列关于C++语⾔中数组的叙述，不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "a + 1000 - 1000 == a"
+        },
+        {
+          "key": "B",
+          "text": "a * 2 / 2 == a"
+        },
+        {
+          "key": "C",
+          "text": "(a & 1) == 1"
+        },
+        {
+          "key": "D",
+          "text": "(a | 1) == a + 1"
+        }
+      ],
+      "content": "如果a是int类型的变量，下列哪个表达式的值一定为true？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "((a >= b) && (a <= b))"
+        },
+        {
+          "key": "B",
+          "text": "((a >> 1) == (b >> 1))"
+        },
+        {
+          "key": "C",
+          "text": "((a + b) == (a + a))"
+        },
+        {
+          "key": "D",
+          "text": "((a ^ b) == 0)"
+        }
+      ],
+      "content": "如果a和b均为int类型的变量，下列表达式不能正确判断“a等于b”的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "a - 'A' <= 26"
+        },
+        {
+          "key": "B",
+          "text": "'A' <= a <= 'Z'"
+        },
+        {
+          "key": "C",
+          "text": "'A' <= 'a' <= 'Z'"
+        },
+        {
+          "key": "D",
+          "text": "('A' <= a) && (a <= 'Z')"
+        }
+      ],
+      "content": "如果a为char类型的变量，下列哪个表达式可以正确判断“a是大写字母”？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "a = a >> 8; b = a & 0xff"
+        },
+        {
+          "key": "B",
+          "text": "b = a >> 8; a = a & 0xff;"
+        },
+        {
+          "key": "C",
+          "text": "a = b; b = a & 0xff;"
+        },
+        {
+          "key": "D",
+          "text": "b = a; a = b;"
+        }
+      ],
+      "content": "在下列代码的横线处填写（ ），可以使得输出是“20 10”。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "res += array[i];"
+        },
+        {
+          "key": "B",
+          "text": "res *= array[i]"
+        },
+        {
+          "key": "C",
+          "text": "res = array[i]"
+        },
+        {
+          "key": "D",
+          "text": "以上均不对。"
+        }
+      ],
+      "content": "在下列代码的横线处填写（ ），可以使得输出是“120”。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "28"
+        },
+        {
+          "key": "C",
+          "text": "45"
+        },
+        {
+          "key": "D",
+          "text": "55"
+        }
+      ],
+      "content": "在下列代码的输出是（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "二进制数101.101在十进制下是 5.005。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，位运算符也有类似“先乘除、后加减”的优先级规则。因此，使用时应注意合理使用括号。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "字符常量'3'的值和int类型常量3的值是相同的，只是占用的字节数不同。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，长度为 的数组，访问下标为 的元素会引起编译错误。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，所有int类型的值，经过若⼲次左移操作（<<）后，它们的值总会变为0。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，数组下标的大小决定元素在逻辑上的先后顺序，与元素在内存中位置的先后顺序无关。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，定义数组时，[]中必须指定元素个数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "著名的哥德巴赫猜想：任一大于2的偶数都可写成两个素数之和。我们可以通过枚举法来证明它。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，表达式(0xff == 255)的值为true。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "如果a为int类型的变量，且表达式((a & 1) == 0)的值为true，则说明a是偶数。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼩杨的储蓄**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB\n\n### 样例解释\n⼩杨在第 天、第 天、第 天分别向 号、 号、 号存钱罐存了 元钱、 元钱、 元钱，因此 号存钱罐有\n元钱，⽽ 号存钱罐有 元钱。\n3.1.8 样例输入 2\n1 3 5\n2 0 0 0 2 0\n3.1.9 样例输出 2\n1 11 0 4",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：进制判断**\n\n> 时间限制：1.0 s | 内存限制：128.0 MB",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

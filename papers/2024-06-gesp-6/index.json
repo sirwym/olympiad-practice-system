@@ -1,0 +1,474 @@
+{
+  "title": "2024年6月 GESP C++ 6级",
+  "category": "GESP",
+  "level": "6",
+  "date": "2024-06",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年6月 GESP C++ 6级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "贪心、动态规划、回溯"
+        },
+        {
+          "key": "B",
+          "text": "并发、并行、异步"
+        },
+        {
+          "key": "C",
+          "text": "递归、循环、分治"
+        },
+        {
+          "key": "D",
+          "text": "封装、继承、多态"
+        }
+      ],
+      "content": "面向对象的编程思想主要包括（ ）原则。\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 1 1"
+        },
+        {
+          "key": "B",
+          "text": "1 2 3"
+        },
+        {
+          "key": "C",
+          "text": "1 1 2"
+        },
+        {
+          "key": "D",
+          "text": "1 2 2"
+        }
+      ],
+      "content": "运行下列代码，屏幕上输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass my_class {\n    public:\n    static int count;\n    my_class() {\n        count++;\n    }\n    ~my_class() {\n        count--;\n    }\n    static void print_count() {\n        cout << count << \" \";\n    }\n};\nint my_class::count = 0;\nint main() {\n    my_class obj1;\n    my_class::print_count();\n    my_class obj2;\n    obj2.print_count();\n    my_class obj3;\n    obj3.print_count();\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "rectangle area: triangle area:"
+        },
+        {
+          "key": "B",
+          "text": "parent class area: parent class area:"
+        },
+        {
+          "key": "C",
+          "text": "运行时报错"
+        },
+        {
+          "key": "D",
+          "text": "编译时报错"
+        }
+      ],
+      "content": "运行下列代码，屏幕上输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass shape {\n    protected:\n    int width, height;\n    public:\n    shape(int a = 0, int b = 0) {\n        width = a;\n        height = b;\n    }\n    virtual int area() {\n        cout << \"parent class area: \" <<endl;\n        return 0;\n    }\n};\nclass rectangle: public shape {\n    public:\n    rectangle(int a = 0, int b = 0) : shape(a, b) { }\n    int area () {\n        cout << \"rectangle area: \";\n        return (width * height);\n    }\n};\nclass triangle: public shape {\n    public:\n    triangle(int a = 0, int b = 0) : shape(a, b) { }\n    int area () {\n        cout << \"triangle area: \";\n        return (width * height / 2);\n    }\n};\nint main() {\n    shape *pshape;\n    rectangle rec(10, 7);\n    triangle tri(10, 5);\n    pshape = &rec;\n    pshape->area();\n    pshape = &tri;\n    pshape->area();\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "hs->next = s;"
+        },
+        {
+          "key": "B",
+          "text": "s->next = hs; hs = s;"
+        },
+        {
+          "key": "C",
+          "text": "s->next = hs->next; hs->next = s;"
+        },
+        {
+          "key": "D",
+          "text": "s->next = hs; hs = hs->next;"
+        }
+      ],
+      "content": "向一个栈顶为hs的链式栈中插入一个指针为s的结点时，应执行（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "先进先出"
+        },
+        {
+          "key": "B",
+          "text": "先进后出"
+        },
+        {
+          "key": "C",
+          "text": "最小值先出"
+        },
+        {
+          "key": "D",
+          "text": "随机顺序"
+        }
+      ],
+      "content": "在栈数据结构中，元素的添加和删除是按照什么原则进行的？\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout << bin.top(); bin.pop();"
+        },
+        {
+          "key": "B",
+          "text": "bin.pop(); cout << bin.top();"
+        },
+        {
+          "key": "C",
+          "text": "cout << bin.back(); bin.pop();"
+        },
+        {
+          "key": "D",
+          "text": "cout << bin.front(); bin.pop();"
+        }
+      ],
+      "content": "要实现将一个输入的十进制正整数转化为二进制表⽰，下面横线上应填入的代码为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nstack<int> ten2bin(int n) {\n    stack<int> st;\n    int r, m;\n    r = n % 2;\n    m = n / 2;\n    st.push(r);\n    while (m != 1) {\n        r = m % 2;\n        st.push(r);\n        m = m / 2;\n    }\n    st.push(m);\n    return st;\n}\nint main() {\n    int n;\n    cin >> n;\n    stack<int> bin;\n    bin = ten2bin(n);\n    while (!bin.empty()) {\n        _____________________ // 在此处填入代码\n    }\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "return (rear + 1) % capacity == front;"
+        },
+        {
+          "key": "B",
+          "text": "return rear % capacity == front;"
+        },
+        {
+          "key": "C",
+          "text": "return rear == front;"
+        },
+        {
+          "key": "D",
+          "text": "return (rear + 1) == front;"
+        }
+      ],
+      "content": "下面定义了一个循环队列的类，请补全判断队列是否满的函数，横向上应填写（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass circular_queue {\n    private:\n    int *arr; // 数组用于存储队列元素\n    int capacity; // 队列容量\n    int front; // 队头指针\n    int rear; // 队尾指针\n    public:\n    circular_queue(int size) {\n        capacity = size + 1; // 为了避免队列满时与队列空时指针相等的情况，多预留一个空间\n        arr = new int[capacity];\n        front = 0;\n        rear = 0;\n    }\n    ~circular_queue() {\n        delete[] arr;\n    }\n    bool is_empty() {\n        return front == rear;\n    }\n    bool is_full() {\n        ________________ // 在此处填入代码\n    }\n    void en_queue(int data) {\n        if (is_full()) {\n            cout << \"队列已满，无法入队！\" << endl;\n            return -1;\n        }\n        arr[rear] = data;\n        rear = (rear + 1) % capacity;\n        return 1;\n    }\n    int de_queue() {\n        if (is_empty()) {\n            cout << \"队列为空，无法出队！\" << endl;\n            return -1; // 出队失败，返回一个特殊值\n        }\n        int data = arr[front];\n        front = (front + 1) % capacity;\n        return data;\n    }\n};\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "20"
+        },
+        {
+          "key": "C",
+          "text": "25"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ],
+      "content": "对“classmycls”使用哈夫曼（Huffman）编码，最少需要（ ）比特。\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "先序遍历"
+        },
+        {
+          "key": "B",
+          "text": "中序遍历"
+        },
+        {
+          "key": "C",
+          "text": "后序遍历"
+        },
+        {
+          "key": "D",
+          "text": "以上都是"
+        }
+      ],
+      "content": "二叉树的（ ）第一个访问的节点是根节点。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "31"
+        },
+        {
+          "key": "B",
+          "text": "32"
+        },
+        {
+          "key": "C",
+          "text": "33"
+        },
+        {
+          "key": "D",
+          "text": "16"
+        }
+      ],
+      "content": "一棵5层的满二叉树中节点数为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "重叠⼦问题"
+        },
+        {
+          "key": "B",
+          "text": "分治法"
+        },
+        {
+          "key": "C",
+          "text": "贪心策略"
+        },
+        {
+          "key": "D",
+          "text": "回溯算法"
+        }
+      ],
+      "content": "在求解最优化问题时，动态规划常常涉及到两个重要性质，即最优⼦结构和( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数jump_recur()采用递归方式。"
+        },
+        {
+          "key": "B",
+          "text": "函数jump_dp()采用动态规划方法。"
+        },
+        {
+          "key": "C",
+          "text": "当n较大时，函数jump_recur()存在大量重复计算，执行效率低。"
+        },
+        {
+          "key": "D",
+          "text": "函数jump_recur()代码量小，执行效率高。"
+        }
+      ],
+      "content": "青蛙每次能跳1或2步，下面代码计算青蛙跳到第n步台阶有多少种不同跳法。则下列说法，错误的是( )。\n\n```cpp\nint jump_recur(int n) {\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return jump_recur(n - 1) + jump_recur(n - 2);\n}\nint jump_dp(int n) {\n    vector<int> dp(n + 1); // 创建一个动态规划数组，用于保存已计算的值\n    // 初始化前两个数\n    dp[1] = 1;\n    dp[2] = 2;\n    // 从第三个数开始计算斐波那契数列\n    for (int i = 3; i <= n; ++i) {\n        dp[i] = dp[i - 1] + dp[i - 2];\n    }\n    return dp[n];\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 2 -4 3 17 9"
+        },
+        {
+          "key": "B",
+          "text": "-4 2 3 5 9 17"
+        },
+        {
+          "key": "C",
+          "text": "5 2 17 -4 3 9"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "阅读以下二叉树的广度优先搜索代码:\n\n```cpp\n#include <iostream>\n#include <queue>\nusing namespace std;\n// 二叉树节点的定义\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n// 宽度优先搜索（BFS）迭代实现\nTreeNode* bfs(TreeNode* root, int a) {\n    if (root == nullptr) return nullptr;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        TreeNode* node = q.front();\n        q.pop();\n        if (node->val == a)\n        return node;\n        cout << node->val << \" \"; // 先访问当前节点\n        if (node->left) q.push(node->left); // 将左子节点入队\n        if (node->right) q.push(node->right); // 将右子节点入队\n    }\n    return nullptr;\n}\n```\n使用以上算法，在以下这棵树搜索数值 时，可能的输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 2 -4 3 17 9"
+        },
+        {
+          "key": "B",
+          "text": "-4 2 3 5 9 17"
+        },
+        {
+          "key": "C",
+          "text": "5 2 17 -4 3 9"
+        },
+        {
+          "key": "D",
+          "text": "以上都不对"
+        }
+      ],
+      "content": "同上题中的二叉树，阅读以下二叉树的深度优先搜索代码:\n\n```cpp\n#include <iostream>\n#include <stack>\nusing namespace std;\n// 非递归深度优先搜索（DFS）\nTreeNode* dfs(TreeNode* root, int a) {\n    if (root == nullptr) return nullptr;\n    stack<TreeNode*> stk;\n    stk.push(root);\n    while (!stk.empty()) {\n        TreeNode* node = stk.top();\n        stk.pop();\n        if (node->val == a)\n        return node;\n        cout << node->val << \" \"; // 访问当前节点\n        if (node->right) stk.push(node->right); // 先压入右子节点\n        if (node->left) stk.push(node->left); // 再压入左子节点\n    }\n    return nullptr;\n}\n```\n使用以上算法，在二叉树搜索数值 时，可能的输出是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "content": "在上题的树中搜索数值 时，采用深度优先搜索一共比较的节点数为（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "哈夫曼编码本质上是一种贪心策略。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "创建一个对象时，会自动调用该对象所属类的构造函数。如果没有定义构造函数，编译器会自动生成一个默\n认的构造函数。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "定义一个类时，必须手动定义一个析构函数，用于释放对象所占用的资源。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "C++中类内部可以嵌套定义类。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "000, 001, 011, 010, 110, 111, 101, 100是一组格雷码。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "n个节点的双向循环链表，在其中查找某个节点的平均时间复杂度是 。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "完全二叉树可以用数组存储数据。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，静态成员函数只能访问静态成员变量。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在深度优先搜索中，通常使用队列来辅助实现。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "对0-1背包问题，贪心算法一定能获得最优解。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：计算得分**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表计分序列 的长度。\n第⼆⾏包含 个正整数，代表计分序列 。\n第三⾏包含⼀个正整数 ，代表字符串的长度。\n第四⾏包含⼀个由 个⼩写字母组成的字符串。\n\n### 输出格式\n输出⼀个整数，代表给定字符串的最⼤总得分。\n3.1.4 样例1\n1 3\n2 3 1 2\n3 13\n4 dabcabcabcabz\n1 9\n\n### 样例解释\n最优的计分⽅式为 d+abc+abc+abc+abz，总得分为 ，共 分。\n\n### 数据范围\n子任务编号 数据点占比 特殊条件\n1 20% 对于所有的 ( ),存在\n2 40%\n3 40%\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：⼆叉树**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏⼀个正整数 ，表⽰⼆叉树的节点数量。\n第⼆⾏ 个正整数，第 （ ）个数表⽰编号为 的节点的⽗亲节点编号，数据保证是⼀棵⼆叉\n树。\n第三⾏⼀个长度为 的 串，从左到右第 （ ）位如果为 ，表⽰编号为 的节点颜⾊为⽩⾊，否则为⿊\n⾊。\n第四⾏⼀个正整数 ，表⽰操作次数。\n\n### 输出格式\n输出⼀⾏⼀个长度为 的 串，表⽰ 次操作全部完成之后每个节点的颜⾊。从左到右第 （ ） 位如果为\n，表⽰编号为 的节点颜⾊为⽩⾊，否则为⿊⾊。\n3.2.4 样例1\n1 6\n2 3 1 1 3 4\n3 100101\n4 3\n5 1\n6 3\n7 2\n1 010000\n\n### 样例解释\n第⼀次操作后，节点颜⾊为：011010\n第⼆次操作后，节点颜⾊为：000000\n第三次操作后，节点颜⾊为：010000\n\n### 数据范围\n子任务编号 数据点占比 特殊条件\n1 20% 对于所有 ，节点 的⽗亲节点编号为\n2 40%\n3 40%\n对于全部数据，保证有 。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

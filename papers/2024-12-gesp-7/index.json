@@ -1,0 +1,474 @@
+{
+  "title": "2024年12月 GESP C++ 7级",
+  "category": "GESP",
+  "level": "7",
+  "date": "2024-12",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "2024年12月 GESP C++ 7级认证考试真题（含编程操作题部分）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "b"
+        },
+        {
+          "key": "B",
+          "text": "c"
+        },
+        {
+          "key": "C",
+          "text": "98"
+        },
+        {
+          "key": "D",
+          "text": "99"
+        }
+      ],
+      "content": "已知小写字母b的ASCII码为98，下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b';\n    cout << a + 1;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "+a = *p;"
+        },
+        {
+          "key": "B",
+          "text": "*p = +a;"
+        },
+        {
+          "key": "C",
+          "text": "a = *(p + a);"
+        },
+        {
+          "key": "D",
+          "text": "*(p + a) = a;"
+        }
+      ],
+      "content": "已知a为int类型变量，p为int *类型变量，下列赋值语句不符合语法的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "语句a[-1] = 0;会产生编译错误。"
+        },
+        {
+          "key": "B",
+          "text": "数组a的所有元素均被初始化为0。"
+        },
+        {
+          "key": "C",
+          "text": "数组a至少占用10个int大小的内存，一般为40个字节。"
+        },
+        {
+          "key": "D",
+          "text": "语句a[13] = 0;不会产生编译错误，但会导致难以预测的运行结果。"
+        }
+      ],
+      "content": "已知数组a的定义int a[10] = {0};，下列说法不正确的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "构造函数不能声明为虚函数，但析构函数可以。"
+        },
+        {
+          "key": "B",
+          "text": "函数参数如声明为类的引用类型，调用时不会调用该类的复制构造函数。"
+        },
+        {
+          "key": "C",
+          "text": "静态方法属于类、不属于对象，因此不能使用对象.方法(...)的形式调用静态方法。"
+        },
+        {
+          "key": "D",
+          "text": "析构派生类的对象时，一定会调用基类的析构函数。"
+        }
+      ],
+      "content": "下列关于C++类的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "个顶点的弱连通有向图，最少有 条边。"
+        },
+        {
+          "key": "B",
+          "text": "个顶点的强连通有向图，最少有 条边。"
+        },
+        {
+          "key": "C",
+          "text": "个顶点的有向图，最多有 条边。"
+        },
+        {
+          "key": "D",
+          "text": "个顶点的有向完全图，有 条边。"
+        }
+      ],
+      "content": "下列关于有向图的说法，错误的是( )。\n"
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "98"
+        },
+        {
+          "key": "B",
+          "text": "99"
+        },
+        {
+          "key": "C",
+          "text": "不存在这样的树。"
+        },
+        {
+          "key": "D",
+          "text": "无法确定叶结点数量。"
+        }
+      ],
+      "content": "一棵二叉树的每个结点均满足：结点的左⼦树和右⼦树，要么同时存在，要么同时不存在。该树有197个结\n点，则其叶结点有多少个？( )\n"
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "二叉排序树的中序遍历顺序与元素排序的顺序是相同的。"
+        },
+        {
+          "key": "B",
+          "text": "个元素的二叉排序树，其高一定为 。"
+        },
+        {
+          "key": "C",
+          "text": "自平衡二叉查找树（AVL树）是一种二叉排序树。"
+        },
+        {
+          "key": "D",
+          "text": "任意的森林，都可以映射为一颗二叉树进行表达和存储。"
+        }
+      ],
+      "content": "下列关于二叉树的说法，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "9"
+        }
+      ],
+      "content": "一个简单无向图有10个结点、6条边。在最差情况，至少增加多少条边可以使其连通？（ ）\n"
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "如果哈希函数取值范围为0 ~ (n-1)，且当发生哈希函数碰撞时循环向后寻找空位，则查询操作的最差时间复杂\n度为 。（“循环向后”指：0向后一位为1，1向后一位为2，……，(n-2)向后一位为(n-1)，(n-1)向后一位为0）\n"
+        },
+        {
+          "key": "B",
+          "text": "如果哈希函数取值范围为0 ~ (n-1)，且当发生哈希函数碰撞时仅循环向后一个位置寻找空位，则查询操作的最\n差时间复杂度为 。\n"
+        },
+        {
+          "key": "C",
+          "text": "如果哈希函数取值范围为0 ~ (m-1)（m < n），且当发生哈希函数碰撞时仅在m ~ (n-1)的范围内寻找空位，则\n查询操作的最差时间复杂度为 。\n"
+        },
+        {
+          "key": "D",
+          "text": "查询操作时，如果发现查询元素经哈希函数对应的位置为空位，该查询元素仍可能出现在哈希表内。"
+        }
+      ],
+      "content": "一个哈希表，包括n个位置（分别编号0~(n-1)），每个位置最多仅能存储一个元素。该哈希表只有插入元素\n和查询两种操作，没有删除或修改元素的操作。以下说法错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": "动态规划方法将原问题分解为一个或多个相似的⼦问题。"
+        },
+        {
+          "key": "B",
+          "text": "动态规划方法通常能够列出递推公式。"
+        },
+        {
+          "key": "C",
+          "text": "动态规划方法有递推和递归两种实现形式。"
+        },
+        {
+          "key": "D",
+          "text": "递推实现动态规划方法的时间复杂度总是不低于递归实现。"
+        }
+      ],
+      "content": "以下关于动态规划的说法中，错误的是（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "100"
+        },
+        {
+          "key": "D",
+          "text": "无法通过编译。"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << (int)exp(2) << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "132"
+        },
+        {
+          "key": "B",
+          "text": "1430"
+        },
+        {
+          "key": "C",
+          "text": "16796"
+        },
+        {
+          "key": "D",
+          "text": "结果是随机的。"
+        }
+      ],
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#define N 10\nusing namespace std;\nint h[N];\nint main() {\n    h[0] = h[1] = 1;\n    for (int n = 2; n < N; n++)\n    for (int j = 0; j < n; j++)\n    h[n] += h[j] * h[n - j - 1];\n    cout << h[6] << endl;\n    return 0;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": ""
+        }
+      ],
+      "content": "上题中程序的时间复杂度为（ ）。\n"
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "options": [
+        {
+          "key": "A",
+          "text": ""
+        },
+        {
+          "key": "B",
+          "text": ""
+        },
+        {
+          "key": "C",
+          "text": ""
+        },
+        {
+          "key": "D",
+          "text": "无法正常结束。"
+        }
+      ],
+      "content": "下面init_sieve函数的时间复杂度为( )。\n\n```cpp\nint sieve[MAX_N];\nvoid init_sieve(int n) {\n    for (int i = 1; i <= n; i++)\n    sieve[i] = i;\n    for (int i = 2; i <= n; i++)\n    for (int j = i; j <= n; j += i)\n    sieve[j]--;\n}\n```\n"
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "options": [
+        {
+          "key": "A",
+          "text": "1, 2, 3, 5, 7, 8, 6, 9, 4"
+        },
+        {
+          "key": "B",
+          "text": "1, 4, 7, 8, 9, 5, 2, 3, 6"
+        },
+        {
+          "key": "C",
+          "text": "1, 5, 7, 8, 9, 4, 2, 3, 6"
+        },
+        {
+          "key": "D",
+          "text": "1, 2, 3, 6, 9, 8, 5, 7, 4"
+        }
+      ],
+      "content": "下列选项中，哪个不可能是下图的深度优先遍历序列（ ）。\n"
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式5 ^ 3的结果为125。\n"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++语⾔中，函数定义和函数调用可以不在同一个文件内。\n"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "在 个元素中进行二分查找，平均时间复杂度是 ，但须要事先进行排序。\n"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "unsigned long long类型是C++语⾔中表达范围最大的非负整数类型之一，其表达范围是 。超\n出该范围的非负整数运算，将无法使用C++语⾔进行计算。\n"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "使用math.h或cmath头文件中的函数，表达式log2(32)的结果为5、类型为int。\n"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "False",
+      "content": "C++是一种面向对象编程语⾔，C则不是。继承是面向对象三大特性之一。因此，使用C语⾔无法实现继承。\n"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "邻接表和邻接矩阵都是图的存储形式。邻接表在遍历单个顶点的所有边时，时间复杂度更低；邻接矩阵在判\n断两个顶点之间是否有边时，时间复杂度更低。\n"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "MD5是一种常见的哈希函数，可以由任意长度的数据生成128位的哈希值，曾广泛应用于数据完整性校验。\n中国科学家的系列⼯作首次发现了可实用的MD5破解方法。之后，MD5逐渐被其他哈希函数所取代。\n"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "递归调用在运行时会由于层数过多导致程序崩溃，可以通过循环配合栈缓解这一问题。\n"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "一个图中，每个顶点表达一个城市，连接两个顶点的边表达从一个城市到达另一个城市的一种交通方式。\n这个图可以用来表达交通网络，且是简单有向图。\n"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：武器购买**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表测试数据组数。\n对于每组测试数据，第⼀⾏包含三个正整数 ，含义如题⾯所⽰。\n之后 ⾏，每⾏包含两个正整数 ，代表武器的强度和花费。\n\n### 输出格式\n对于每组测试数据，如果存在满⾜条件的购买⽅案，输出最少花费，否则输出 -1。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：燃烧**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表节点数量。\n第⼆⾏包含 个正整数 ，代表节点权值。\n之后 ⾏，每⾏包含两个正整数 ，代表存在⼀条连接节点 和 的边。\n\n### 输出格式\n输出⼀个正整数，代表最多燃烧的节点个数。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}
