@@ -36,6 +36,7 @@ jobs:
       - name: Build static files
         run: |
           python build.py
+          cp CNAME dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5 # 升级到 v5 以匹配 2026 环境

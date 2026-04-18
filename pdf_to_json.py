@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-将GESP C++试卷PDF批量转换为JSON格式 v3
-输出 index.json，避免 YAML 转义、缩进等格式问题
+将GESP C++试卷PDF批量转换为JSON格式
+解析客观题（选择题+判断题），输出 papers/*/index.json
 """
 
 import os
@@ -401,14 +401,38 @@ def process_pdf(pdf_path):
 
 
 def main():
-    pdf_files = sorted([f for f in os.listdir(PDF_DIR) if f.endswith(".pdf") and "gesp-cpp" in f])
-    print(f"Found {len(pdf_files)} GESP C++ PDF files\n")
+    import argparse
+    parser = argparse.ArgumentParser(description='将GESP C++试卷PDF批量转换为JSON格式')
+    parser.add_argument('--force', action='store_true', help='强制重新解析（覆盖已有JSON）')
+    parser.add_argument('--file', type=str, help='只解析指定PDF文件')
+    args = parser.parse_args()
+
+    if args.file:
+        pdf_files = [args.file]
+    else:
+        pdf_files = sorted([f for f in os.listdir(PDF_DIR) if f.endswith(".pdf") and "gesp-cpp" in f])
+
+    print(f"Found {len(pdf_files)} GESP C++ PDF files")
+    if not args.force:
+        print("(增量模式：跳过已有JSON，使用 --force 强制重新解析)")
+    print()
 
     success = 0
+    skipped = 0
     failed = []
 
     for i, filename in enumerate(pdf_files, 1):
-        pdf_path = os.path.join(PDF_DIR, filename)
+        # 增量检测：如果已有对应 JSON，跳过
+        if not args.force:
+            info = parse_filename(filename)
+            if info:
+                slug = f"{info['year']}-{str(info['month']).zfill(2)}-gesp-{info['level']}"
+                json_path = os.path.join(PAPERS_DIR, slug, "index.json")
+                if os.path.exists(json_path):
+                    skipped += 1
+                    continue
+
+        pdf_path = os.path.join(PDF_DIR, filename) if not os.path.isabs(filename) else filename
         print(f"[{i}/{len(pdf_files)}] {filename}...", end=" ")
         try:
             if process_pdf(pdf_path):
@@ -421,7 +445,7 @@ def main():
             traceback.print_exc()
             failed.append(filename)
 
-    print(f"\nDone: {success}/{len(pdf_files)} succeeded")
+    print(f"\nDone: {success} parsed, {skipped} skipped, {len(failed)} failed")
     if failed:
         print(f"Failed ({len(failed)}):")
         for f in failed:

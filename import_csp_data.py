@@ -70,7 +70,7 @@ def convert_paper(data: dict) -> dict:
                     "id": sub_q.get("sub_id", question_id),
                     "section": section_name,
                     "score": sub_q.get("score", 2),
-                    "answer": sub_q.get("answer") if sub_q.get("answer") is not None else "None",
+                    "answer": sub_q.get("answer"),
                     "content": sub_q.get("content", ""),
                     "options": sub_q.get("options", []),
                 }
@@ -111,7 +111,7 @@ def convert_paper(data: dict) -> dict:
                         "id": sub_q.get("sub_id", question_id),
                         "section": section_name,
                         "score": sub_q.get("score", 2),
-                        "answer": sub_q.get("answer") if sub_q.get("answer") is not None else "None",
+                        "answer": sub_q.get("answer"),
                         "content": content,
                         "options": sub_q.get("options", []),
                     }

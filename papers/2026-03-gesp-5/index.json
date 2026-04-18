@@ -402,14 +402,14 @@
       "type": "judge",
       "id": 16,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "有一个存储了 个整数的线性表，分别用数组和单链表两种方式实现。在已知下标（或结点指针）的前提\n下，数组的随机访问是 ， ⽽在链表中已知某结点的指针时，在该结点之后插入一个新结点的操作也是 。\n"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "若数组 a 已按升序排列，则下面代码可以正确实现 “在 a 中查找第一个大于等于 x 的元素的位置”。\n\n```cpp\nint lowerBound(vector<int>& a,int x){\n    int l=0, r=a.size();\n    while(l < r) {\n        int mid = (l + r) / 2;\n        if( a[mid] >= x) r = mid;\n        else l = mid + 1;\n    }\n    return l;\n}\n```\n"
     },
     {
@@ -423,7 +423,7 @@
       "type": "judge",
       "id": 19,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "若某算法满足递推式： ，则其时间复杂度为 。\n"
     },
     {
@@ -437,14 +437,14 @@
       "type": "judge",
       "id": 21,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "根据唯一分解定理，如果大于1的整数不能被任何不超其平方根的质数整除，那么n 必定是质数。\n"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "假设数组 的值域范围是 ，以下程序的时间复杂度是 。\n\n```cpp\nbool check(int n, int a[], int k, int dist) {\n    int cnt = 1;\n    int last = a[0];\n    for (int i = 1; i < n; i++) {\n        if (a[i] - last >= dist) {\n            cnt++;\n            last = a[i];\n        }\n    }\n    return cnt >= k;\n}\nint solve(int n, int a[], int k) {\n    std::sort(a, a + n);\n    int l = 0;\n    int r = a[n - 1] - a[0];\n    while (l < r) {\n        int mid = (l + r + 1) / 2;\n        if (check(n, a, k, mid))\n        l = mid;\n        else\n        r = mid - 1;\n    }\n    return l;\n}\nint main() {\n    int a[] = {1, 2, 8, 4, 9};\n    int n = 5;\n    int k = 3;\n    std::cout << solve(n, a, k) << std::endl;\n    return 0;\n}\n```\n"
     },
     {
@@ -473,7 +473,7 @@
       "id": 26,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：有限不循环⼩数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n若 可化为⼀个有限的，不循环的⼩数，则称 为终⽌数。\n请你求出在 到 中终⽌数的数量。\n\n### 输入格式\n输⼊⼀⾏，包含两个整数 。\n\n### 输出格式\n输出⼀⾏，包含⼀个整数，表⽰ 到 中终⽌数的数量。\n\n### 样例解释\n在 终⽌数有 、 、 、 、 。\n\n### 数据范围\n保证 。",
+      "content": "**试题名称：有限不循环小数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n\n若 $\\frac{1}{a}$ 可化为一个有限的，不循环的小数，则称 $a$ 为**终止数**。\n\n请你求出在 $L$ 到 $R$ 中终止数的数量。\n\n\n**输入格式**\n\n\n输入一行，包含两个整数 $L,R$。\n\n**输出格式**\n\n\n输出一行，包含一个整数，表示 $L$ 到 $R$ 中终止数的数量。\n\n**样例输入 #1**\n```\n2 11\n```\n\n**样例输出 #1**\n```\n5\n```\n\n**说明/提示**\n\n\n### 样例解释\n\n在 $[2,11]$ 终止数有 $2$、$4$、$5$、$8$、$10$。\n\n### 数据范围\n\n\n保证 $1 \\le L \\le R \\le 10^6$。",
       "options": [],
       "section": "GESP 编程操作题"
     },
@@ -482,7 +482,7 @@
       "id": 27,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：找数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n给定⼀个包含 个互不相同的正整数的数组 与⼀个包含 个互不相同的正整数的数组 ，请你帮忙计算有多少数\n在数组 与 数组 中均出现。\n\n### 输入格式\n第⼀⾏包含两个整数 。\n第⼆⾏包含 个正整数 表⽰数组 。\n第⼆⾏包含 个正整数 表⽰数组 。\n\n### 输出格式\n输出⼀个整数，表⽰在数组 与 数组 中均出现的数的个数。\n\n### 样例解释\n样例 1 中， 、 在数组 与 中均出现。\n\n### 数据范围\n对于 的数据，保证 。\n对于 的数据，保证 ， 。",
+      "content": "**试题名称：找数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n\n给定一个包含 $n$ 个互不相同的正整数的数组 $A$ 与一个包含 $m$ 个互不相同的正整数的数组 $B$，请你帮忙计算有多少个数在数组 $A$ 与数组 $B$ 中均出现。\n\n\n**输入格式**\n\n\n第一行包含两个整数 $n,m$。\n\n第二行包含 $n$ 个正整数 $a_1,a_2,\\cdots,a_n$ 表示数组 $A$。\n\n第三行包含 $m$ 个正整数 $b_1,b_2,\\cdots,b_m$ 表示数组 $B$。\n\n**输出格式**\n\n\n输出一个整数，表示在数组 $A$ 与数组 $B$ 中均出现的数的个数。\n\n**样例输入 #1**\n```\n3 5\n4 2 3\n3 1 5 4 6\n```\n\n**样例输出 #1**\n```\n2\n```\n\n**说明/提示**\n\n\n### 样例解释\n\n\n样例 1 中，$4$、$3$ 在数组 $A$ 与 $B$ 中均出现。\n\n\n### 数据范围\n\n对于 $40\\%$ 的数据，保证 $1 \\leq n,m \\leq 1000$。\n\n对于 $100\\%$ 的数据，保证 $1 \\leq n,m \\leq 10^5$，$1 \\leq a_i,b_i \\leq 10^9$。",
       "options": [],
       "section": "GESP 编程操作题"
     }

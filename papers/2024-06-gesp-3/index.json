@@ -386,21 +386,21 @@
       "type": "judge",
       "id": 16,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "GESP测试是对认证者的编程能⼒进行等级认证，同一级别的能⼒基本上与编程语⾔无关。\n"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "整数-6的16位补码可用十六进制表⽰为FFFA。\n"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "补码的优点是可以将减法运算转化为加法运算，从⽽简化计算机的硬件设计。\n"
     },
     {
@@ -428,7 +428,7 @@
       "type": "judge",
       "id": 22,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "如果 为int类型的变量，且表达式((a | 3) == 3)的值为true，则说明 在从0到3之间（可能为0、可\n能为3）。\n"
     },
     {
@@ -442,14 +442,14 @@
       "type": "judge",
       "id": 24,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "执行下面C++代码后，输出的结果不可能是89781。（ ）\n\n```cpp\n#include <iostream>\n#include <cstdlib> // 为了使用 rand() 和 srand()\n#include <ctime> // 为了使用 time()\nusing namespace std;\nint main() {\n    // 设置随机种子\n    srand(time(NULL));\n    int i = 1;\n    int s[5];\n    while(i <= 5)\n    {\n        int a = rand() % 10;\n        if(a % 3 == (i + 1) % 3)\n        s[i++] = a;\n    }\n    for(int i = 1; i <= 5; i++)\n    cout << s[i];\n    cout << endl;\n    return 0;\n}\n```\n"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "把整数3025从中剪开分为30和25两个数，此时再将这两数之和平方，计算结果⼜等于原数。(30 + 25) × (30\n+ 25) = 55 × 55 = 3025，这样的数叫“雷劈数”。可以使用枚举的方法求出所有符合这样条件的四位数。（ ）\n"
     },
     {
@@ -457,7 +457,7 @@
       "id": 26,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：移位**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 。\n\n### 输出格式\n输出在偏移量为 的情况下，⼤写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 移位替换后的结果。\n3.1.4 样例1\n1 3\n1 DEFGHIJKLMNOPQRSTUVWXYZABC\n\n### 样例解释\n当偏移量是3的时候，⼤写字母 A 会替换成 D，⼤写字母 Z 会替换成 C，总体来看，⼤写字母表\nABCDEFGHIJKLMNOPQRSTUVWXYZ 会被替换成 DEFGHIJKLMNOPQRSTUVWXYZABC。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "content": "**试题名称：移位**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n小杨学习了加密技术移位，所有大写字母都向后按照⼀个固定数目进行偏移。偏移过程会将字母表视作首尾相接的环，例如，当偏移量是 $3$ 的时候，大写字母 A 会替换成 D，大写字母 Z 会替换成 C，总体来看，大写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 会被替换成 DEFGHIJKLMNOPQRSTUVWXYZABC。\n\n注：当偏移量是 $26$ 的倍数时，每个大写字母经过偏移后会恰好回到原来的位置，即大写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 经过偏移后会保持不变。\n\n**输入格式**\n\n第一行包含一个正整数 $n$。\n\n**输出格式**\n\n输出在偏移量为 $n$ 的情况下，大写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 移位替换后的结果。\n\n**样例输入 #1**\n```\n3\n```\n\n**样例输出 #1**\n```\nDEFGHIJKLMNOPQRSTUVWXYZABC\n```\n\n**说明/提示**\n\n**【样例解释】**\n\n当偏移量是 $3$ 的时候，大写字母 A 会替换成 D，大写字母 Z 会替换成 C，总体来看，大写字母表 ABCDEFGHIJKLMNOPQRSTUVWXYZ 会被替换成 DEFGHIJKLMNOPQRSTUVWXYZABC。\n\n**【数据范围】**\n\n对于全部数据，保证有 $1\\leq n\\leq 100$。",
       "options": [],
       "section": "GESP 编程操作题"
     },
@@ -466,7 +466,7 @@
       "id": 27,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：寻找倍数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n第⼀⾏包含⼀个正整数 ，代表测试⽤例组数。\n接下来是 组测试⽤例。\n对于每组测试⽤例，⼀共两⾏。其中，第⼀⾏包含⼀个正整数 ；第⼆⾏包含 个正整数，代表序列 。\n\n### 输出格式\n对于每组测试⽤例，如果存在 ( )满⾜对于所有 ( ) 是 的倍数，输出 Yes，否则输出 No。\n3.2.4 样例1\n1 2\n2 3\n3 1 2 4\n4 5\n5 1 2 3 4 5\n1 Yes\n2 No\n\n### 样例解释\n对于第⼀组数据，对于 ，满⾜ 是 和 的倍数。\n\n### 数据范围\n对于全部数据，保证有 。",
+      "content": "**试题名称：寻找倍数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n小杨有一个包含 $n$ 个正整数的序列 $A=[a_1,a_2,\\dots,a_n]$，他想知道是否存在 $i(1\\leq i\\leq n)$ 使得 $a_i$ 是序列 $A$ 中所有数的倍数。\n\n**输入格式**\n\n第一行包含一个正整数 $t$，代表测试用例组数。\n\n接下来是 $t$ 组测试用例。对于每组测试用例，一共两行。\n\n其中，第一行包含一个正整数 $n$；第二行包含 $n$ 个正整数，代表序列 $A$。\n\n**输出格式**\n\n对于每组测试用例，如果存在 $i(1\\leq i\\leq n)$ ，满足对于所有 $k(1\\leq k\\leq n)$ $a_i$ 是 $a_k$ 的倍数，输出 `Yes`，否则输出 `No`。\n\n**样例输入 #1**\n```\n2\n3\n1 2 4\n5\n1 2 3 4 5\n```\n\n**样例输出 #1**\n```\nYes\nNo\n```\n\n**说明/提示**\n\n**【样例解释】**\n\n对于第⼀组数据，对于 $a_3=4$，满足 $a_3$ 是 $a_1$ 和 $a_2$ 的倍数。\n\n**【数据范围】**\n\n对于全部数据，保证有 $1\\leq t\\leq 10$，$1\\leq n\\leq 10^5$，$1\\leq a_i\\leq 10^9$。",
       "options": [],
       "section": "GESP 编程操作题"
     }

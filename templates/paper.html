@@ -502,7 +502,7 @@
             {% set is_group_head = q.is_group_head | default(false) %}
 
             {# 判断是否是阅读程序判断题（选项为正确/错误）#}
-            {% set is_judge_style = (is_reading and q.options and q.options|length == 2 and q.options[0].key == 'A' and q.options[1].key == 'B' and ('正确' in q.options[0].text or '错误' in q.options[1].text)) %}
+            {% set is_judge_style = (is_reading and q.options and q.options|length == 2 and q.options[0].key == 'A' and q.options[1].key == 'B' and ('正确' in q.options[0].text + q.options[1].text or '错误' in q.options[0].text + q.options[1].text)) %}
 
             {% if is_group_head %}
             {# ===== 大题头部：显示代码块（仅一次）===== #}
@@ -520,16 +520,16 @@
 
                 {# 渲染第一个子题（大题头部的题）#}
                 {% if is_judge_style %}
-                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                     <div class="flex items-start gap-3">
                         <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                         <div class="flex-1">
                             <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
                             <div class="flex gap-3">
-                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="A" onclick="onAnswer({{ ns.uid }}, 'judge', 'A')">
+                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="true" onclick="onAnswer({{ ns.uid }}, 'judge', 'true')">
                                     <span class="mr-1">✓</span> {{ q.options[0].text }}
                                 </button>
-                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="B" onclick="onAnswer({{ ns.uid }}, 'judge', 'B')">
+                                <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="false" onclick="onAnswer({{ ns.uid }}, 'judge', 'false')">
                                     <span class="mr-1">✗</span> {{ q.options[1].text }}
                                 </button>
                             </div>
@@ -538,7 +538,7 @@
                     </div>
                 </div>
                 {% else %}
-                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower if q.type == 'judge' else q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                     <div class="flex items-start gap-3">
                         <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                         <div class="flex-1">
@@ -561,16 +561,16 @@
             {% else %}
             {# ===== 后续子题：只显示问题文字和选项（无代码）===== #}
             {% if is_judge_style %}
-            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="flex-1">
                         <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
                         <div class="flex gap-3">
-                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="A" onclick="onAnswer({{ ns.uid }}, 'judge', 'A')">
+                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-green-300" data-value="true" onclick="onAnswer({{ ns.uid }}, 'judge', 'true')">
                                 <span class="mr-1">✓</span> {{ q.options[0].text }}
                             </button>
-                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="B" onclick="onAnswer({{ ns.uid }}, 'judge', 'B')">
+                            <button class="judge-btn flex-1 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-300" data-value="false" onclick="onAnswer({{ ns.uid }}, 'judge', 'false')">
                                 <span class="mr-1">✗</span> {{ q.options[1].text }}
                             </button>
                         </div>
@@ -579,7 +579,7 @@
                 </div>
             </div>
             {% else %}
-            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower if q.type == 'judge' else q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="flex-1">
@@ -1011,7 +1011,13 @@
 
         // ===== 重置 =====
         function resetAll() {
-            if (submitted) return;
+            if (submitted) {
+                // 提交后重置 = 清除答案 + 重新作答
+                if (!confirm('确定要重新作答吗？所有答题记录将被清除。')) return;
+                clearAnswers();
+                location.reload();
+                return;
+            }
             if (!confirm('确定要重置所有答案吗？')) return;
 
             Object.keys(userAnswers).forEach(k => delete userAnswers[k]);

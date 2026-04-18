@@ -12,7 +12,7 @@
       "id": 1,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "在 C++ 中，下面哪个关键字用于声明一个变量，其值不能被修改",
       "options": [
         {
@@ -38,7 +38,7 @@
       "id": 2,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "八进制数 $12345670_8$ 和 $07654321_8$ 的和为",
       "options": [
         {
@@ -64,7 +64,7 @@
       "id": 3,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "阅读下述代码，请问修改 `data` 的 `value` 成员以存储 `3.14`，正确的方式是\n\n```\nunion Data {\n    int num;\n    float value;\n    char symbol;\n}；\nunion Data data;\n```",
       "options": [
         {
@@ -90,7 +90,7 @@
       "id": 4,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "假设有一个链表的节点定义如下:\n\n```\nstruct Node {\n    int data;\n    Node* next;\n};\n```\n\n现在有一个指向链表头部的指针: `Node* head`。如果想要在链表中插入一个新节点，其成员 `data` 的值为 $42$，并使新节点成为链表的第一个节点，下面哪个操作是正确的?",
       "options": [
         {
@@ -116,7 +116,7 @@
       "id": 5,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "根节点的高度为 $1$，一棵拥有 $2023$ 个节点的三叉树高度至少为",
       "options": [
         {
@@ -142,7 +142,7 @@
       "id": 6,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "小明在某一天中依次有七个空闲时间段，他想要选出至少一个空闲时间段来练习唱歌，但他希望任意两个练习的时间段之间都有至少两个空闲的时间段让他休息，则小明一共有（ ）种选择时间段的方案。",
       "options": [
         {
@@ -168,7 +168,7 @@
       "id": 7,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "以下关于高精度运算的说法错误的是（ ）",
       "options": [
         {
@@ -194,7 +194,7 @@
       "id": 8,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "后缀表达式 `6 2 3 + - 3 8 2 / + * 2 ^ 3 +` 对应的中缀表达式是（ ）",
       "options": [
         {
@@ -220,7 +220,7 @@
       "id": 9,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "数 $101010_2$ 和 $166_8$ 的和为（ ）",
       "options": [
         {
@@ -246,7 +246,7 @@
       "id": 10,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "假设有一组字符 $\\{a,b,c,d,e,f\\}$,对应的频率为 $5$%、$9$%、$12$%、$13$%、$16$%、$45$%。请问以下哪个选项是字符 $a,b,c,d,e,f$ 分别对应的一组哈夫曼编码？",
       "options": [
         {
@@ -272,7 +272,7 @@
       "id": 11,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "给定一棵二叉树，其前序遍历结果为：`ABDECFG`，中序遍历结果为：`DEBACFG`。请问这棵树的正确后序遍历结果是什么?",
       "options": [
         {
@@ -298,7 +298,7 @@
       "id": 12,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "考虑一个有向无环图，该图包含 $4$ 条有向边：$(1, 2)$，$(1, 3)$，$(2,4)$ 和 $(3, 4)$。以下哪个选顶是这个有向无环图的一个有效的拓扑排序?\n\n[图片]",
       "options": [
         {
@@ -324,7 +324,7 @@
       "id": 13,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "在计算机中，以下哪个选项描述的数据存储容量最小?",
       "options": [
         {
@@ -350,7 +350,7 @@
       "id": 14,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "一个班级有 $10$ 个男生和 $12$ 个女生，如果要选出一个 $3$ 人的小组，并且小组中必须至少包含 $1$ 个女生，那么有多少种可能的组合?",
       "options": [
         {
@@ -376,7 +376,7 @@
       "id": 15,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "以下哪个不是操作系统?",
       "options": [
         {
@@ -402,7 +402,7 @@
       "id": 16,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\ndouble f(double a, double b, double c){\n    double s = (a + b + c) / 2;\n    return sqrt(s * (s - a) * (s - b) * (s - c));\n}\n\nint main(){\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    \n    int a, b, c;\n    cin >> a >> b >> c;\n    cout << f(a, b, c) << endl;\n    return 0;\n}\n```\n\n输入的所有数都为不超过 $1000$ 的正整数。完成下面的判断题。\n\n当输入为 `2 2 2` 时，输出为 `1.7321`。",
       "options": [
         {
@@ -420,7 +420,7 @@
       "id": 17,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\ndouble f(double a, double b, double c){\n    double s = (a + b + c) / 2;\n    return sqrt(s * (s - a) * (s - b) * (s - c));\n}\n\nint main(){\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    \n    int a, b, c;\n    cin >> a >> b >> c;\n    cout << f(a, b, c) << endl;\n    return 0;\n}\n```\n\n输入的所有数都为不超过 $1000$ 的正整数。完成下面的判断题。\n\n将第 7 行中的 `(s - b) * (s - c)` 改为 `(s - c) * (s - b)` 不会影响程序运行的结果。",
       "options": [
         {
@@ -438,7 +438,7 @@
       "id": 18,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\ndouble f(double a, double b, double c){\n    double s = (a + b + c) / 2;\n    return sqrt(s * (s - a) * (s - b) * (s - c));\n}\n\nint main(){\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    \n    int a, b, c;\n    cin >> a >> b >> c;\n    cout << f(a, b, c) << endl;\n    return 0;\n}\n```\n\n输入的所有数都为不超过 $1000$ 的正整数。完成下面的判断题。\n\n程序总是输出四位小数。",
       "options": [
         {
@@ -456,7 +456,7 @@
       "id": 19,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\ndouble f(double a, double b, double c){\n    double s = (a + b + c) / 2;\n    return sqrt(s * (s - a) * (s - b) * (s - c));\n}\n\nint main(){\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    \n    int a, b, c;\n    cin >> a >> b >> c;\n    cout << f(a, b, c) << endl;\n    return 0;\n}\n```\n\n输入的所有数都为不超过 $1000$ 的正整数。完成下面的选择题。\n\n当输入为 `3 4 5` 时，输出为（ ）",
       "options": [
         {
@@ -482,7 +482,7 @@
       "id": 20,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\ndouble f(double a, double b, double c){\n    double s = (a + b + c) / 2;\n    return sqrt(s * (s - a) * (s - b) * (s - c));\n}\n\nint main(){\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    \n    int a, b, c;\n    cin >> a >> b >> c;\n    cout << f(a, b, c) << endl;\n    return 0;\n}\n```\n\n输入的所有数都为不超过 $1000$ 的正整数。完成下面的选择题。\n\n当输入为 `5 12 13` 时，输出为（ ）",
       "options": [
         {
@@ -508,7 +508,7 @@
       "id": 21,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n`f` 函数的返回值小于等于 `min(n, m)`。",
       "options": [
         {
@@ -526,7 +526,7 @@
       "id": 22,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n`f` 函数的返回值等于两个输入字符串的最长公共子串的长度。",
       "options": [
         {
@@ -544,7 +544,7 @@
       "id": 23,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n当输入两个完全相同的字符串时，`g` 函数的返回值总是 `true`。",
       "options": [
         {
@@ -562,7 +562,7 @@
       "id": 24,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n将第 19 行中的 `v[m][n]` 替换为 `v[n][m]`，那么该程序（ ）",
       "options": [
         {
@@ -588,7 +588,7 @@
       "id": 25,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n当输入为 `csp-j p-jcs` 时，输出为（ ）",
       "options": [
         {
@@ -614,7 +614,7 @@
       "id": 26,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n\nint f(string x, string y) {\n    int m = x.size();\n    int n = y.size();\n    vector<vector<int>> v(m + 1, vector<int>(n + 1, 0));\n    for (int i = 1; i <= m; i++){\n        for (int j = 1; j <= n; j++){\n            if (x[i-1] == y[j-1]){\n                v[i][j] = v[i-1][j-1] + 1;\n            } else {\n                v[i][j] = max(v[i-1][j], v[i][j-1]);\n            }\n        }\n    }\n    return v[m][n];\n}\n\nbool g(string x, string y) {\n    if(x.size() != y.size()){\n        return false;\n    }\n    return f(x + x, y) == y.size();\n}\n\nint main() {\n    string x, y;\n    cin >> x >> y;\n    cout << g(x, y) << endl;\n    return 0;\n}\n```\n\n当输入为 `csppsc spsccp` 时，输出为（ ）。",
       "options": [
         {
@@ -640,7 +640,7 @@
       "id": 27,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的判断题。\n\n如果输入的 `n` 为正整数，`solve2` 函数的作用是计算 `n` 所有的因子的平方和。",
       "options": [
         {
@@ -658,7 +658,7 @@
       "id": 28,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的判断题。\n\n第 13~14 行的作用是避免 `n` 的平方根因子 `i`（或 `n / i`）进入第 16 行而被计算两次。",
       "options": [
         {
@@ -676,7 +676,7 @@
       "id": 29,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的判断题。\n\n如果输入的 `n` 为质数，`solve2(n)` 的返回值为 $n^{2} + 1$。",
       "options": [
         {
@@ -694,7 +694,7 @@
       "id": 30,
       "section": "阅读程序",
       "score": 4,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的选择题。\n\n如果输入的 `n` 为质数 $p$ 的平方，那么 `solve2(n)` 的返回值为（ ）。",
       "options": [
         {
@@ -720,7 +720,7 @@
       "id": 31,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的选择题。\n\n当输入为正整数时，第一项减去第二项的差值一定（ ）。",
       "options": [
         {
@@ -746,7 +746,7 @@
       "id": 32,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nint solve1(int n) {\n    return n * n;\n}\n\nint solve2(int n) {\n    int sum = 0;\n    for (int i = 1; i <= sqrt(n); i++) {\n        if (n % i == 0) {\n            if (n / i == i) {\n                sum += i * i;\n            } else {\n                sum += i * i + (n / i) * (n / i);\n            }\n        }\n    }\n    return sum;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cout << solve2(solve1(n)) << \" \" << solve1(solve2(n)) << endl;\n    return 0;\n}\n```\n\n假设输入的 `n` 是绝对值不超过 $1000$ 的整数。完成下面的选择题。\n\n当输入为 `5` 时，输出为（ ）。",
       "options": [
         {
@@ -772,7 +772,7 @@
       "id": 33,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint find_missing(vector<int>& nums) {\n    int left = 0, right = nums.size() - 1;\n    while (left < right) {\n        int mid = left + (right - left) / 2;\n        if (nums[mid] == mid + ①) {\n            ②;\n        } else {\n            ③;\n        }\n    }\n    return ④;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector <int> nums(n);\n    for (int i = 0; i < n; i++) cin >> nums[i];\n    int missing_number = find_missing(nums);\n    if (missing_number == ⑤) {\n        cout << \"Sequence is consecutive\" << endl;\n    } else {\n        cout << \"Missing number is \" << missing_number << endl;\n    }\n    return 0;\n}\n```\n\n（寻找被移除的元素）问题：原有长度为 $n+1$，公差为 $1$ 的等差升序数列：将数列输入到程序的数组时移除了一个元素，导致长度为 $n$ 的升序数组可能不再连续，除非被移除的是第一个或最后一个元素。需要在数组不连续时，找出被移除的元素。\n\n试补全程序。\n\n① 处应该填 ( )",
       "options": [
         {
@@ -798,7 +798,7 @@
       "id": 34,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint find_missing(vector<int>& nums) {\n    int left = 0, right = nums.size() - 1;\n    while (left < right) {\n        int mid = left + (right - left) / 2;\n        if (nums[mid] == mid + ①) {\n            ②;\n        } else {\n            ③;\n        }\n    }\n    return ④;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector <int> nums(n);\n    for (int i = 0; i < n; i++) cin >> nums[i];\n    int missing_number = find_missing(nums);\n    if (missing_number == ⑤) {\n        cout << \"Sequence is consecutive\" << endl;\n    } else {\n        cout << \"Missing number is \" << missing_number << endl;\n    }\n    return 0;\n}\n```\n\n（寻找被移除的元素）问题：原有长度为 $n+1$， 公差为 $1$ 的等差升序数列：将数列输入到程序的数组时移除了一个元素，导致长度为 $n$ 的升序数组可能不再连续，除非被移除的是第一个或最后一个元素。需要在数组不连续时，找出被移除的元素。\n\n试补全程序。\n\n② 处应该填 ( )",
       "options": [
         {
@@ -824,7 +824,7 @@
       "id": 35,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint find_missing(vector<int>& nums) {\n    int left = 0, right = nums.size() - 1;\n    while (left < right) {\n        int mid = left + (right - left) / 2;\n        if (nums[mid] == mid + ①) {\n            ②;\n        } else {\n            ③;\n        }\n    }\n    return ④;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector <int> nums(n);\n    for (int i = 0; i < n; i++) cin >> nums[i];\n    int missing_number = find_missing(nums);\n    if (missing_number == ⑤) {\n        cout << \"Sequence is consecutive\" << endl;\n    } else {\n        cout << \"Missing number is \" << missing_number << endl;\n    }\n    return 0;\n}\n```\n\n（寻找被移除的元素）问题：原有长度为 $n+1$， 公差为 $1$ 的等差升序数列：将数列输入到程序的数组时移除了一个元素，导致长度为 $n$ 的升序数组可能不再连续，除非被移除的是第一个或最后一个元素。需要在数组不连续时，找出被移除的元素。\n\n试补全程序。\n\n③ 处应该填 ( )",
       "options": [
         {
@@ -850,7 +850,7 @@
       "id": 36,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint find_missing(vector<int>& nums) {\n    int left = 0, right = nums.size() - 1;\n    while (left < right) {\n        int mid = left + (right - left) / 2;\n        if (nums[mid] == mid + ①) {\n            ②;\n        } else {\n            ③;\n        }\n    }\n    return ④;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector <int> nums(n);\n    for (int i = 0; i < n; i++) cin >> nums[i];\n    int missing_number = find_missing(nums);\n    if (missing_number == ⑤) {\n        cout << \"Sequence is consecutive\" << endl;\n    } else {\n        cout << \"Missing number is \" << missing_number << endl;\n    }\n    return 0;\n}\n```\n\n（寻找被移除的元素）问题：原有长度为 $n+1$， 公差为 $1$ 的等差升序数列：将数列输入到程序的数组时移除了一个元素，导致长度为 $n$ 的升序数组可能不再连续，除非被移除的是第一个或最后一个元素。需要在数组不连续时，找出被移除的元素。\n\n试补全程序。\n\n④ 处应该填 ( )",
       "options": [
         {
@@ -876,7 +876,7 @@
       "id": 37,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint find_missing(vector<int>& nums) {\n    int left = 0, right = nums.size() - 1;\n    while (left < right) {\n        int mid = left + (right - left) / 2;\n        if (nums[mid] == mid + ①) {\n            ②;\n        } else {\n            ③;\n        }\n    }\n    return ④;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    vector <int> nums(n);\n    for (int i = 0; i < n; i++) cin >> nums[i];\n    int missing_number = find_missing(nums);\n    if (missing_number == ⑤) {\n        cout << \"Sequence is consecutive\" << endl;\n    } else {\n        cout << \"Missing number is \" << missing_number << endl;\n    }\n    return 0;\n}\n```\n\n（寻找被移除的元素）问题：原有长度为 $n+1$， 公差为 $1$ 的等差升序数列：将数列输入到程序的数组时移除了一个元素，导致长度为 $n$ 的升序数组可能不再连续，除非被移除的是第一个或最后一个元素。需要在数组不连续时，找出被移除的元素。\n\n试补全程序。\n\n⑤ 处应该填 ( )",
       "options": [
         {
@@ -902,7 +902,7 @@
       "id": 38,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint min(int x, int y, int z) {\n    return min(min(x, y), z);\n}\n\nint edit_dist_dp(string str1, string str2) {\n    int m = str1.length();\n    int n = str2.length();\n    vector<vector<int>> dp(m + 1, vector<int>(n + 1));\n    \n    for (int i = 0; i <= m; i++) {\n        for (int j = 0; j <= n; j++) {\n            if (i == 0)\n                dp[i][j] = ①;\n            else if (j == 0)\n                dp[i][j] = ②;\n            else if (③)\n                dp[i][j] = ④;\n            else\n                dp[i][j] =  1 + min(dp[i][j - 1], dp[i - 1][j], ⑤);\n        }\n    }\n    return dp[m][n];\n}\n\nint main() {\n    string str1, str2;\n    cin >> str1 >> str2;\n    cout << \"Minimum number of operations: \"\n         << edit_dist_dp(str1, str2) << endl;\n    return 0;\n}\n```\n\n（编辑距离）给定两个字符串，毎次操作可以选择删除（Delete）、插入（Insert)、替换（Replace）\n\n一个字符，求将第一个字符串转换为第二个字符串所需要的最少操作次数。\n\n试补全动态规划算法。\n\n①处应填（ ）",
       "options": [
         {
@@ -928,7 +928,7 @@
       "id": 39,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint min(int x, int y, int z) {\n    return min(min(x, y), z);\n}\n\nint edit_dist_dp(string str1, string str2) {\n    int m = str1.length();\n    int n = str2.length();\n    vector<vector<int>> dp(m + 1, vector<int>(n + 1));\n    \n    for (int i = 0; i <= m; i++) {\n        for (int j = 0; j <= n; j++) {\n            if (i == 0)\n                dp[i][j] = ①;\n            else if (j == 0)\n                dp[i][j] = ②;\n            else if (③)\n                dp[i][j] = ④;\n            else\n                dp[i][j] =  1 + min(dp[i][j - 1], dp[i - 1][j], ⑤);\n        }\n    }\n    return dp[m][n];\n}\n\nint main() {\n    string str1, str2;\n    cin >> str1 >> str2;\n    cout << \"Minimum number of operations: \"\n         << edit_dist_dp(str1, str2) << endl;\n    return 0;\n}\n```\n\n（编辑距离）给定两个字符串，毎次操作可以选择删除（Delete）、插入（Insert)、替换（Replace）\n\n一个字符，求将第一个字符串转换为第二个字符串所需要的最少操作次数。\n\n试补全动态规划算法。\n\n②处应填（ ）",
       "options": [
         {
@@ -954,7 +954,7 @@
       "id": 40,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint min(int x, int y, int z) {\n    return min(min(x, y), z);\n}\n\nint edit_dist_dp(string str1, string str2) {\n    int m = str1.length();\n    int n = str2.length();\n    vector<vector<int>> dp(m + 1, vector<int>(n + 1));\n    \n    for (int i = 0; i <= m; i++) {\n        for (int j = 0; j <= n; j++) {\n            if (i == 0)\n                dp[i][j] = ①;\n            else if (j == 0)\n                dp[i][j] = ②;\n            else if (③)\n                dp[i][j] = ④;\n            else\n                dp[i][j] =  1 + min(dp[i][j - 1], dp[i - 1][j], ⑤);\n        }\n    }\n    return dp[m][n];\n}\n\nint main() {\n    string str1, str2;\n    cin >> str1 >> str2;\n    cout << \"Minimum number of operations: \"\n         << edit_dist_dp(str1, str2) << endl;\n    return 0;\n}\n```\n\n（编辑距离）给定两个字符串，毎次操作可以选择删除（Delete）、插入（Insert)、替换（Replace）\n\n一个字符，求将第一个字符串转换为第二个字符串所需要的最少操作次数。\n\n试补全动态规划算法。\n\n③处应填（ ）",
       "options": [
         {
@@ -980,7 +980,7 @@
       "id": 41,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint min(int x, int y, int z) {\n    return min(min(x, y), z);\n}\n\nint edit_dist_dp(string str1, string str2) {\n    int m = str1.length();\n    int n = str2.length();\n    vector<vector<int>> dp(m + 1, vector<int>(n + 1));\n    \n    for (int i = 0; i <= m; i++) {\n        for (int j = 0; j <= n; j++) {\n            if (i == 0)\n                dp[i][j] = ①;\n            else if (j == 0)\n                dp[i][j] = ②;\n            else if (③)\n                dp[i][j] = ④;\n            else\n                dp[i][j] =  1 + min(dp[i][j - 1], dp[i - 1][j], ⑤);\n        }\n    }\n    return dp[m][n];\n}\n\nint main() {\n    string str1, str2;\n    cin >> str1 >> str2;\n    cout << \"Minimum number of operations: \"\n         << edit_dist_dp(str1, str2) << endl;\n    return 0;\n}\n```\n\n（编辑距离）给定两个字符串，毎次操作可以选择删除（Delete）、插入（Insert)、替换（Replace）\n\n一个字符，求将第一个字符串转换为第二个字符串所需要的最少操作次数。\n\n试补全动态规划算法。\n\n④处应填（ ）",
       "options": [
         {
@@ -1006,7 +1006,7 @@
       "id": 42,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\n#include <vector>\nusing namespace std;\n\nint min(int x, int y, int z) {\n    return min(min(x, y), z);\n}\n\nint edit_dist_dp(string str1, string str2) {\n    int m = str1.length();\n    int n = str2.length();\n    vector<vector<int>> dp(m + 1, vector<int>(n + 1));\n    \n    for (int i = 0; i <= m; i++) {\n        for (int j = 0; j <= n; j++) {\n            if (i == 0)\n                dp[i][j] = ①;\n            else if (j == 0)\n                dp[i][j] = ②;\n            else if (③)\n                dp[i][j] = ④;\n            else\n                dp[i][j] =  1 + min(dp[i][j - 1], dp[i - 1][j], ⑤);\n        }\n    }\n    return dp[m][n];\n}\n\nint main() {\n    string str1, str2;\n    cin >> str1 >> str2;\n    cout << \"Minimum number of operations: \"\n         << edit_dist_dp(str1, str2) << endl;\n    return 0;\n}\n```\n\n（编辑距离）给定两个字符串，毎次操作可以选择删除（Delete）、插入（Insert)、替换（Replace）\n\n一个字符，求将第一个字符串转换为第二个字符串所需要的最少操作次数。\n\n试补全动态规划算法。\n\n⑤处应填（ ）",
       "options": [
         {

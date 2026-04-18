@@ -12,7 +12,7 @@
       "id": 1,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "有 $5$ 个红色球和 $5$ 个蓝色球，它们除了颜色之外完全相同。将这 $10$ 个球排成一排，要求任意两个蓝色球都不能相邻，有多少种不同的排列方法？",
       "options": [
         {
@@ -38,7 +38,7 @@
       "id": 2,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "在 KMP 算法中，对于模式串 $P=$`abacaba`，其 `next` 数组（`next[i]` 定义为模式串 `P[O...i]`\n\n最长公共前后缀的长度，且数组下标从 `0` 开始）的值是什么？（）",
       "options": [
         {
@@ -64,7 +64,7 @@
       "id": 3,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "对一个大小为 $16$（下标 `0`-`15`）的数组上构建满线段树。查询区间 $[3，11]$ 时，最少需要访问多少个树结点（包括路径上的父结点和完全包含在查询区间内的结点）？（）",
       "options": [
         {
@@ -90,7 +90,7 @@
       "id": 4,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "将字符串 `cat`，`car`，`cart`，`case`，`dog`，`do` 插入一个空的 Trie 树（前缀树）中。构建完成的 Trie 树（包括根结点）共有多少个结点？",
       "options": [
         {
@@ -116,7 +116,7 @@
       "id": 5,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "对于一个包含 $n$ 个顶点和 $m$ 条边的有向无环图（DAG），其拓扑排序的结果有多少种可能？（)",
       "options": [
         {
@@ -142,7 +142,7 @@
       "id": 6,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "在一个大小为 $13$ 的哈希表中，使用闭散列法的线性探查来解决冲突。哈希函数为 $\\text{H}(key)=key \\mod 13$。依次插入关键字 $18$，$26$，$35$，$9$，$68$，$74$。插入 $74 $后，它最终被放置在哪个索引位置？",
       "options": [
         {
@@ -168,7 +168,7 @@
       "id": 7,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "一个包含 $8$ 个顶点的完全图（顶点的编号为 $1$ 到$8$），任意两点之间的边权重等于两顶点编号的差的绝对值。例如，顶点 $3$ 和 $7$ 之间的边权重为 $|7 - 3|=4$。该图的最小生成树的总权重是多少？",
       "options": [
         {
@@ -194,7 +194,7 @@
       "id": 8,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "如果一棵二叉搜索树的后序遍历序列是 $2$，$5$，$4$，$8$，$12$，$10$，$6$，那么该树的前序遍历序列是什么？（)",
       "options": [
         {
@@ -220,7 +220,7 @@
       "id": 9,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "一个 0-1 背包问题，背包容量为 $20$。现有 $5$ 个物品，其重量和价值分别为 $7, 5, 4, 3, 6$ 和 $15,12,9,7,13$。装入背包的物品能获得的最大总价值是多少？（）",
       "options": [
         {
@@ -246,7 +246,7 @@
       "id": 10,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "在一棵以结点 $1$ 为根的树中，结点 $12$ 和结点 $18$ 的最近公共祖先（LCA）是结点 $4$。那么下列哪个结点的 LCA 组合是不可能出现的？",
       "options": [
         {
@@ -272,7 +272,7 @@
       "id": 11,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "递归关系式 $\\text{T}(n）=2\\text{T}(n/2) + \\mathcal{O}(n^2）$ 描述了某个分治算法的时间复杂度。请问该算法的时间复杂度是多少？",
       "options": [
         {
@@ -298,7 +298,7 @@
       "id": 12,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "在一个初始为空的最小堆（min-heap）中，依次插入元素 $20,12,15,8,10,5$。然后连续执行两次“删除最小值”(delete-min）操作。请问此时堆顶元素是什么？()",
       "options": [
         {
@@ -324,7 +324,7 @@
       "id": 13,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "$1$ 到 $1000$ 之间，不能被 $2$、$3$、$5$ 中任意一个数整除的整数有多少个？（ ）",
       "options": [
         {
@@ -350,7 +350,7 @@
       "id": 14,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "斐波那契数列的定义为 $F(0)=0$，$F(1)=1$，$F(n)=F(n-1)+F(n-2)$。使用朴素递归方法计算 $F(n)$ 的时间复杂度是指数级的。而使用动态规划(或迭代）方法的时间复杂度是线性的。造成这种巨大差异的根本原因是？",
       "options": [
         {
@@ -376,7 +376,7 @@
       "id": 15,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "有 $5$ 个独立的、不可抢占的任务 A1，A2，A3，A4，A5 需要在一台机器上执行（从时间 $0$ 开始执行），每个任务都有对应的处理时长和截止时刻，按顺序分别为 $3,4,2,5,1$ 和 $5,10,3,15,11$。如果某一个任务超时，相应的惩罚等于其处理时长。为了最小化总惩罚，应该优先执行哪个任务？",
       "options": [
         {
@@ -402,7 +402,7 @@
       "id": 16,
       "section": "阅读程序",
       "score": 1,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n当输入的 $n=$ `3` 的时候，程序输出的答案为 `3`。()",
       "options": [
         {
@@ -420,7 +420,7 @@
       "id": 17,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n在 dfs 函数运行过程中，`k` 的取值会满足 $1\\leq k\\leq n+1$。()",
       "options": [
         {
@@ -438,7 +438,7 @@
       "id": 18,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n删除第19行的 `flag[i] = false;`，对答案不会产生影响。()",
       "options": [
         {
@@ -456,7 +456,7 @@
       "id": 19,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n当输入的 $n=$`4`的时候，程序输出的答案为()。",
       "options": [
         {
@@ -482,7 +482,7 @@
       "id": 20,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n如果因为某些问题,导致程序运行第 25 行的 `dfs` 函数之前，数组 `p` 的初值并不全为 $0$，则对程序的影响是()。",
       "options": [
         {
@@ -508,7 +508,7 @@
       "id": 21,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\nbool flag[27];\nint n;\nint p[27];\nint ans = 0;\nvoid dfs(int k) {\n    if (k == n + 1) {\n        ++ans;\n        return;\n    }\n    for (int i = 1; i <= n; ++i) {\n        if (flag[i]) continue;\n        if (k > 1 && i == p[k - 1] + 1) continue;\n        p[k] = i;\n        flag[i] = true;\n        dfs(k + 1);\n        flag[i] = false;\n    }\n    return;\n}\nint main() {\n    scanf(\"%d\", &n);\n    dfs(1);\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n假如删去第 14 行的 `if (flag[i]) continue;`，输入 `3`，得到的输出答案是()。",
       "options": [
         {
@@ -534,7 +534,7 @@
       "id": 22,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n当输入为 `6 5 1` 时，猜测次数为 $5$；当输入 `6 5 2` 时，猜测次数为 $3$。()",
       "options": [
         {
@@ -552,7 +552,7 @@
       "id": 23,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n不管输入的 $n$ 和 $k$ 具体为多少，$t=2$ 时的猜测数总是小于等于 $t=1$ 时的猜测数。()",
       "options": [
         {
@@ -570,7 +570,7 @@
       "id": 24,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n不管 $t=1$ 或 $t=2$，程序都一定会猜到正确结果。( )",
       "options": [
         {
@@ -588,7 +588,7 @@
       "id": 25,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n函数 `guess1` 在运行过程中，`cnt_broken` 的值最多为()。",
       "options": [
         {
@@ -614,7 +614,7 @@
       "id": 26,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n函数 `guess2` 在运行过程中，最多使用的猜测次数的量级为()。",
       "options": [
         {
@@ -640,7 +640,7 @@
       "id": 27,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint cnt_broken = 0;\nint cnt_check = 0;\nint n, k;\ninline bool check(int h) {\n    printf(\"now check:%d\\n\", h);\n    ++cnt_check;\n    if (cnt_broken == 2) {\n        printf(\"You have no egg!\\n\");\n        return false;\n    }\n    if (h >= k) {\n        ++cnt_broken;\n        return true;\n    } else {\n        return false;\n    }\n}\ninline bool assert_ans(int h) {\n    if (h == k) {\n        printf(\"You are Right using %d checks\\n\", cnt_check);\n        return true;\n    } else {\n        printf(\"Wrong answer!\\n\");\n        return false;\n    }\n}\ninline void guess1(int n) {\n    for (int i = 1; i <= n; ++i) {\n        if (check(i)) {\n            assert_ans(i);\n            return;\n        }\n    }\n}\ninline void guess2(int n) {\n    int w = 0;\n    for (w = 1; w * (w + 1) / 2 < n; ++w);\n    for (int ti = w, nh = w; ti > 0; --ti, nh += ti) {\n        nh = std::min(nh, n);\n        if (check(nh)) {\n            for (int j = nh - ti + 1; j < nh; ++j) {\n                if (check(j)) {\n                    assert_ans(j);\n                    return;\n                }\n            }\n            assert_ans(nh);\n            return;\n        }\n    }\n}\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    int t;\n    scanf(\"%d\", &t);\n    if (t == 1) {\n        guess1(n);\n    } else {\n        guess2(n);\n    }\n    return 0;\n}\n```\n\n当输入的 $n=$`100` 的时候，代码中 $t=1$ 和 $t=2$ 分别需要的猜测次数最多分别为()。",
       "options": [
         {
@@ -666,7 +666,7 @@
       "id": 28,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n删除第 51 行的 `std::sort(ans2. begin(), ans2.end());` 后,代码输出的结果不会受到影响。()",
       "options": [
         {
@@ -684,7 +684,7 @@
       "id": 29,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n假设计算过程中不发生溢出，函数 `mpow(x,k)` 的功能是求出 $x^k$ 的取值。()",
       "options": [
         {
@@ -702,7 +702,7 @@
       "id": 30,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n代码中第 39 行到第 50 行的目的是为了将 `ans1` 数组进行“去重”操作。()",
       "options": [
         {
@@ -720,7 +720,7 @@
       "id": 31,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n当输入为 `3 15 12 -1 2 1 2` 时，输出结果为()。",
       "options": [
         {
@@ -746,7 +746,7 @@
       "id": 32,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n记程序结束前 $p$ 数组元素的最大值为 $P$，则该代码的时间复杂度是()。",
       "options": [
         {
@@ -772,7 +772,7 @@
       "id": 33,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#include <vector>\n#define ll long long\nint n, m;\nstd::vector<int> k, p;\ninline int mpow(int x, int k) {\n    int ans = 1;\n    for (; k; k = k >> 1, x = x * x) {\n        if (k & 1)\n            ans = ans * x;\n    }\n    return ans;\n}\nstd::vector<int> ans1, ans2;\nint cnt1, cnt2;\ninline void dfs(std::vector<int>& ans, int& cnt, int l, int r, int v) {\n    if (l > r) {\n        ++cnt;\n        ans.push_back(v);\n        return;\n    }\n    for (int i = 1; i <= m; ++i) {\n        dfs(ans, cnt, l + 1, r, v + k[l] * mpow(m, p[l]));\n    }\n    return;\n}\nstd::vector<int> cntans1;\nint main() {\n    scanf(\"%d%d\", &n, &m);\n    k.resize(n + 1);\n    p.resize(n + 1);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d%d\", &k[i], &p[i]);\n    }\n    dfs(ans1, cnt1, 1, n >> 1, 0);\n    dfs(ans2, cnt2, (n >> 1) + 1, n, 0);\n    std::sort(ans1.begin(), ans1.end());\n    int newcnt1 = 1;\n    cntans1.push_back(1);\n    for (int i = 1; i < cnt1; ++i) {\n        if (ans1[i] == ans1[newcnt1 - 1]) {\n            ++cntans1[newcnt1 - 1];\n        } else {\n            ans1[newcnt1++] = ans1[i];\n            cntans1.push_back(1);\n        }\n    }\n    cnt1 = newcnt1;\n    std::sort(ans2.begin(), ans2.end());\n    int las = 0;\n    ll res = 0;\n    for (int i = cnt2 - 1; i >= 0; --i) {\n        for (; las < cnt1 && ans1[las] + ans2[i] < 0; ++las)\n            ;\n        if (las < cnt1 && ans1[las] + ans2[i] == 0)\n            ans += cntans1[las];\n    }\n    printf(\"%lld\\n\", res);\n    return 0;\n}\n```\n\n本题所求出的是( )。",
       "options": [
         {
@@ -798,7 +798,7 @@
       "id": 34,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nconst long long INF = 1e18;\n\nstruct Edge {\n    int to;\n    int weight;\n};\n\nstruct State {\n    long long dist;\n    int u;\n    int used_freebie; // 0 for not used, 1 for used\n    bool operator>(const State &other) const {\n        return dist > other.dist;\n    }\n};\n\nint main() {\n    int n, m, s, t;\n    cin >> n >> m >> s >> t;\n\n    vector<vector<Edge>> adj(n + 1);\n    for (int i = 0; i < m; ++i) {\n        int u, v, w;\n        cin >> u >> v >> w;\n        adj[u].push_back({v, w});\n        adj[v].push_back({u, w});\n    }\n\n    vector<vector<long long>> d(n + 1, vector<long long>(2, INF));\n    priority_queue<State, vector<State>, greater<State>> pq;\n\n    d[s][0] = 0;\n    pq.push({0, s, ①});\n\n    while (!pq.empty()) {\n        State current = pq.top();\n        pq.pop();\n\n        long long dist = current.dist;\n        int u = current.u;\n        int used = current.used_freebie;\n\n        if (dist > ②) {\n            continue;\n        }\n\n        for (const auto &edge : adj[u]) {\n            int v = edge.to;\n            int w = edge.weight;\n\n            if (d[u][used] + w < ③) {\n                ③ = d[u][used]+ w;\n                pq.push({③, v, used});\n            }\n\n            if (used == 0) {\n                if (④ < d[v][1]) {\n                    d[v][1] = ④;\n                    pq.push({d[v][1], v, 1});\n                }\n            }\n        }\n    }\n\n    cout << ⑤ << endl;\n    return 0;\n}\n```\n\n①处应填()",
       "options": [
         {
@@ -824,7 +824,7 @@
       "id": 35,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nconst long long INF = 1e18;\n\nstruct Edge {\n    int to;\n    int weight;\n};\n\nstruct State {\n    long long dist;\n    int u;\n    int used_freebie; // 0 for not used, 1 for used\n    bool operator>(const State &other) const {\n        return dist > other.dist;\n    }\n};\n\nint main() {\n    int n, m, s, t;\n    cin >> n >> m >> s >> t;\n\n    vector<vector<Edge>> adj(n + 1);\n    for (int i = 0; i < m; ++i) {\n        int u, v, w;\n        cin >> u >> v >> w;\n        adj[u].push_back({v, w});\n        adj[v].push_back({u, w});\n    }\n\n    vector<vector<long long>> d(n + 1, vector<long long>(2, INF));\n    priority_queue<State, vector<State>, greater<State>> pq;\n\n    d[s][0] = 0;\n    pq.push({0, s, ①});\n\n    while (!pq.empty()) {\n        State current = pq.top();\n        pq.pop();\n\n        long long dist = current.dist;\n        int u = current.u;\n        int used = current.used_freebie;\n\n        if (dist > ②) {\n            continue;\n        }\n\n        for (const auto &edge : adj[u]) {\n            int v = edge.to;\n            int w = edge.weight;\n\n            if (d[u][used] + w < ③) {\n                ③ = d[u][used]+ w;\n                pq.push({③, v, used});\n            }\n\n            if (used == 0) {\n                if (④ < d[v][1]) {\n                    d[v][1] = ④;\n                    pq.push({d[v][1], v, 1});\n                }\n            }\n        }\n    }\n\n    cout << ⑤ << endl;\n    return 0;\n}\n```\n\n②处应填()",
       "options": [
         {
@@ -850,7 +850,7 @@
       "id": 36,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nconst long long INF = 1e18;\n\nstruct Edge {\n    int to;\n    int weight;\n};\n\nstruct State {\n    long long dist;\n    int u;\n    int used_freebie; // 0 for not used, 1 for used\n    bool operator>(const State &other) const {\n        return dist > other.dist;\n    }\n};\n\nint main() {\n    int n, m, s, t;\n    cin >> n >> m >> s >> t;\n\n    vector<vector<Edge>> adj(n + 1);\n    for (int i = 0; i < m; ++i) {\n        int u, v, w;\n        cin >> u >> v >> w;\n        adj[u].push_back({v, w});\n        adj[v].push_back({u, w});\n    }\n\n    vector<vector<long long>> d(n + 1, vector<long long>(2, INF));\n    priority_queue<State, vector<State>, greater<State>> pq;\n\n    d[s][0] = 0;\n    pq.push({0, s, ①});\n\n    while (!pq.empty()) {\n        State current = pq.top();\n        pq.pop();\n\n        long long dist = current.dist;\n        int u = current.u;\n        int used = current.used_freebie;\n\n        if (dist > ②) {\n            continue;\n        }\n\n        for (const auto &edge : adj[u]) {\n            int v = edge.to;\n            int w = edge.weight;\n\n            if (d[u][used] + w < ③) {\n                ③ = d[u][used]+ w;\n                pq.push({③, v, used});\n            }\n\n            if (used == 0) {\n                if (④ < d[v][1]) {\n                    d[v][1] = ④;\n                    pq.push({d[v][1], v, 1});\n                }\n            }\n        }\n    }\n\n    cout << ⑤ << endl;\n    return 0;\n}\n```\n\n③ 处应填()",
       "options": [
         {
@@ -876,7 +876,7 @@
       "id": 37,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <algorithm>\n#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nconst long long INF = 1e18;\n\nstruct Edge {\n    int to;\n    int weight;\n};\n\nstruct State {\n    long long dist;\n    int u;\n    int used_freebie; // 0 for not used, 1 for used\n    bool operator>(const State &other) const {\n        return dist > other.dist;\n    }\n};\n\nint main() {\n    int n, m, s, t;\n    cin >> n >> m >> s >> t;\n\n    vector<vector<Edge>> adj(n + 1);\n    for (int i = 0; i < m; ++i) {\n        int u, v, w;\n        cin >> u >> v >> w;\n        adj[u].push_back({v, w});\n        adj[v].push_back({u, w});\n    }\n\n    vector<vector<long long>> d(n + 1, vector<long long>(2, INF));\n    priority_queue<State, vector<State>, greater<State>> pq;\n\n    d[s][0] = 0;\n    pq.push({0, s, ①});\n\n    while (!pq.empty()) {\n        State current = pq.top();\n        pq.pop();\n\n        long long dist = current.dist;\n        int u = current.u;\n        int used = current.used_freebie;\n\n        if (dist > ②) {\n            continue;\n        }\n\n        for (const auto &edge : adj[u]) {\n            int v = edge.to;\n            int w = edge.weight;\n\n            if (d[u][used] + w < ③) {\n                ③ = d[u][used]+ w;\n                pq.push({③, v, used});\n            }\n\n            if (used == 0) {\n                if (④ < d[v][1]) {\n                    d[v][1] = ④;\n                    pq.push({d[v][1], v, 1});\n                }\n            }\n        }\n    }\n\n    cout << ⑤ << endl;\n    return 0;\n}\n```\n\n④处应填()",
       "options": [
         {
@@ -902,7 +902,7 @@
       "id": 38,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <algorithm>\n#include <iostream>\n#include <queue>\n#include <vector>\nusing namespace std;\n\nconst long long INF = 1e18;\n\nstruct Edge {\n    int to;\n    int weight;\n};\n\nstruct State {\n    long long dist;\n    int u;\n    int used_freebie; // 0 for not used, 1 for used\n    bool operator>(const State &other) const {\n        return dist > other.dist;\n    }\n};\n\nint main() {\n    int n, m, s, t;\n    cin >> n >> m >> s >> t;\n\n    vector<vector<Edge>> adj(n + 1);\n    for (int i = 0; i < m; ++i) {\n        int u, v, w;\n        cin >> u >> v >> w;\n        adj[u].push_back({v, w});\n        adj[v].push_back({u, w});\n    }\n\n    vector<vector<long long>> d(n + 1, vector<long long>(2, INF));\n    priority_queue<State, vector<State>, greater<State>> pq;\n\n    d[s][0] = 0;\n    pq.push({0, s, ①});\n\n    while (!pq.empty()) {\n        State current = pq.top();\n        pq.pop();\n\n        long long dist = current.dist;\n        int u = current.u;\n        int used = current.used_freebie;\n\n        if (dist > ②) {\n            continue;\n        }\n\n        for (const auto &edge : adj[u]) {\n            int v = edge.to;\n            int w = edge.weight;\n\n            if (d[u][used] + w < ③) {\n                ③ = d[u][used]+ w;\n                pq.push({③, v, used});\n            }\n\n            if (used == 0) {\n                if (④ < d[v][1]) {\n                    d[v][1] = ④;\n                    pq.push({d[v][1], v, 1});\n                }\n            }\n        }\n    }\n\n    cout << ⑤ << endl;\n    return 0;\n}\n```\n\n⑤处应填()",
       "options": [
         {
@@ -928,7 +928,7 @@
       "id": 39,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstddef>\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nlong long comb(int w, int i) {\n    if (i < 0 || i > w) {\n        return 0;\n    }\n    long long res = 1;\n    for (int t = 1; t <= i; ++t) {\n        res = res * (w - t + 1) / t;\n    }\n    return res;\n}\n\n// 计算长度为w、1的个数≤k的码字总数\nlong long count_patterns(int w, int k) {\n    long long total = 0;\n    for (int t = 0; t <= min(w, k); ++t) {\n        total += comb(w, t);\n    }\n    return total;\n}\n\n// 抽象测试接口\nint test_subset(const vector<vector<int>> &plan);\n\nint solve(int n, int k) {\n    // === 第1步：求最小w ===\n    int w = 1;\n    while (①) {\n        ++w;\n    }\n    cout << w << endl;\n\n    // === 第2步：生成测试方案 ===\n    vector<vector<int>> code(n, vector<int>(w, 0));\n    int idx = 0;\n    for (int ones = 0; ones <= k && idx < n; ++ones) {\n        vector<int> bits(w, 0);\n        fill(bits.begin(), bits.begin() + ones, 1);\n        do {\n            for (int b = 0; b < w; ++b) {\n                code[idx][b] = bits[b];\n            }\n            ++idx;\n            if (idx >= n) {\n                break;\n            }\n        } while (std::②);\n    }\n\n    vector<vector<int>> plan(w);\n    for (int i = 0; i < w; ++i) {\n        for (int j = 0; j < n; ++j) {\n            if (③) {\n                plan[i].push_back(j);\n            }\n        }\n    }\n\n    // === 第3步：调用测试接口 ===\n    int signature = test_subset(plan);\n\n    // === 第4步：结果解码 ===\n    vector<int> sig_bits(w, 0);\n    for (int i = 0; i < w; ++i) {\n        if (④) {\n            sig_bits[i] = 1;\n        }\n    }\n\n    for (int j = 0; j < n; ++j) {\n        if (⑤) return j;\n    }\n}\n\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int ans = solve(n, k);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n①处应填()",
       "options": [
         {
@@ -954,7 +954,7 @@
       "id": 40,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstddef>\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nlong long comb(int w, int i) {\n    if (i < 0 || i > w) {\n        return 0;\n    }\n    long long res = 1;\n    for (int t = 1; t <= i; ++t) {\n        res = res * (w - t + 1) / t;\n    }\n    return res;\n}\n\n// 计算长度为w、1的个数≤k的码字总数\nlong long count_patterns(int w, int k) {\n    long long total = 0;\n    for (int t = 0; t <= min(w, k); ++t) {\n        total += comb(w, t);\n    }\n    return total;\n}\n\n// 抽象测试接口\nint test_subset(const vector<vector<int>> &plan);\n\nint solve(int n, int k) {\n    // === 第1步：求最小w ===\n    int w = 1;\n    while (①) {\n        ++w;\n    }\n    cout << w << endl;\n\n    // === 第2步：生成测试方案 ===\n    vector<vector<int>> code(n, vector<int>(w, 0));\n    int idx = 0;\n    for (int ones = 0; ones <= k && idx < n; ++ones) {\n        vector<int> bits(w, 0);\n        fill(bits.begin(), bits.begin() + ones, 1);\n        do {\n            for (int b = 0; b < w; ++b) {\n                code[idx][b] = bits[b];\n            }\n            ++idx;\n            if (idx >= n) {\n                break;\n            }\n        } while (std::②);\n    }\n\n    vector<vector<int>> plan(w);\n    for (int i = 0; i < w; ++i) {\n        for (int j = 0; j < n; ++j) {\n            if (③) {\n                plan[i].push_back(j);\n            }\n        }\n    }\n\n    // === 第3步：调用测试接口 ===\n    int signature = test_subset(plan);\n\n    // === 第4步：结果解码 ===\n    vector<int> sig_bits(w, 0);\n    for (int i = 0; i < w; ++i) {\n        if (④) {\n            sig_bits[i] = 1;\n        }\n    }\n\n    for (int j = 0; j < n; ++j) {\n        if (⑤) return j;\n    }\n}\n\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int ans = solve(n, k);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n②处应填()",
       "options": [
         {
@@ -980,7 +980,7 @@
       "id": 41,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstddef>\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nlong long comb(int w, int i) {\n    if (i < 0 || i > w) {\n        return 0;\n    }\n    long long res = 1;\n    for (int t = 1; t <= i; ++t) {\n        res = res * (w - t + 1) / t;\n    }\n    return res;\n}\n\n// 计算长度为w、1的个数≤k的码字总数\nlong long count_patterns(int w, int k) {\n    long long total = 0;\n    for (int t = 0; t <= min(w, k); ++t) {\n        total += comb(w, t);\n    }\n    return total;\n}\n\n// 抽象测试接口\nint test_subset(const vector<vector<int>> &plan);\n\nint solve(int n, int k) {\n    // === 第1步：求最小w ===\n    int w = 1;\n    while (①) {\n        ++w;\n    }\n    cout << w << endl;\n\n    // === 第2步：生成测试方案 ===\n    vector<vector<int>> code(n, vector<int>(w, 0));\n    int idx = 0;\n    for (int ones = 0; ones <= k && idx < n; ++ones) {\n        vector<int> bits(w, 0);\n        fill(bits.begin(), bits.begin() + ones, 1);\n        do {\n            for (int b = 0; b < w; ++b) {\n                code[idx][b] = bits[b];\n            }\n            ++idx;\n            if (idx >= n) {\n                break;\n            }\n        } while (std::②);\n    }\n\n    vector<vector<int>> plan(w);\n    for (int i = 0; i < w; ++i) {\n        for (int j = 0; j < n; ++j) {\n            if (③) {\n                plan[i].push_back(j);\n            }\n        }\n    }\n\n    // === 第3步：调用测试接口 ===\n    int signature = test_subset(plan);\n\n    // === 第4步：结果解码 ===\n    vector<int> sig_bits(w, 0);\n    for (int i = 0; i < w; ++i) {\n        if (④) {\n            sig_bits[i] = 1;\n        }\n    }\n\n    for (int j = 0; j < n; ++j) {\n        if (⑤) return j;\n    }\n}\n\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int ans = solve(n, k);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n③处应填()",
       "options": [
         {
@@ -1006,7 +1006,7 @@
       "id": 42,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstddef>\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nlong long comb(int w, int i) {\n    if (i < 0 || i > w) {\n        return 0;\n    }\n    long long res = 1;\n    for (int t = 1; t <= i; ++t) {\n        res = res * (w - t + 1) / t;\n    }\n    return res;\n}\n\n// 计算长度为w、1的个数≤k的码字总数\nlong long count_patterns(int w, int k) {\n    long long total = 0;\n    for (int t = 0; t <= min(w, k); ++t) {\n        total += comb(w, t);\n    }\n    return total;\n}\n\n// 抽象测试接口\nint test_subset(const vector<vector<int>> &plan);\n\nint solve(int n, int k) {\n    // === 第1步：求最小w ===\n    int w = 1;\n    while (①) {\n        ++w;\n    }\n    cout << w << endl;\n\n    // === 第2步：生成测试方案 ===\n    vector<vector<int>> code(n, vector<int>(w, 0));\n    int idx = 0;\n    for (int ones = 0; ones <= k && idx < n; ++ones) {\n        vector<int> bits(w, 0);\n        fill(bits.begin(), bits.begin() + ones, 1);\n        do {\n            for (int b = 0; b < w; ++b) {\n                code[idx][b] = bits[b];\n            }\n            ++idx;\n            if (idx >= n) {\n                break;\n            }\n        } while (std::②);\n    }\n\n    vector<vector<int>> plan(w);\n    for (int i = 0; i < w; ++i) {\n        for (int j = 0; j < n; ++j) {\n            if (③) {\n                plan[i].push_back(j);\n            }\n        }\n    }\n\n    // === 第3步：调用测试接口 ===\n    int signature = test_subset(plan);\n\n    // === 第4步：结果解码 ===\n    vector<int> sig_bits(w, 0);\n    for (int i = 0; i < w; ++i) {\n        if (④) {\n            sig_bits[i] = 1;\n        }\n    }\n\n    for (int j = 0; j < n; ++j) {\n        if (⑤) return j;\n    }\n}\n\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int ans = solve(n, k);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n④处应填()",
       "options": [
         {
@@ -1032,7 +1032,7 @@
       "id": 43,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstddef>\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nlong long comb(int w, int i) {\n    if (i < 0 || i > w) {\n        return 0;\n    }\n    long long res = 1;\n    for (int t = 1; t <= i; ++t) {\n        res = res * (w - t + 1) / t;\n    }\n    return res;\n}\n\n// 计算长度为w、1的个数≤k的码字总数\nlong long count_patterns(int w, int k) {\n    long long total = 0;\n    for (int t = 0; t <= min(w, k); ++t) {\n        total += comb(w, t);\n    }\n    return total;\n}\n\n// 抽象测试接口\nint test_subset(const vector<vector<int>> &plan);\n\nint solve(int n, int k) {\n    // === 第1步：求最小w ===\n    int w = 1;\n    while (①) {\n        ++w;\n    }\n    cout << w << endl;\n\n    // === 第2步：生成测试方案 ===\n    vector<vector<int>> code(n, vector<int>(w, 0));\n    int idx = 0;\n    for (int ones = 0; ones <= k && idx < n; ++ones) {\n        vector<int> bits(w, 0);\n        fill(bits.begin(), bits.begin() + ones, 1);\n        do {\n            for (int b = 0; b < w; ++b) {\n                code[idx][b] = bits[b];\n            }\n            ++idx;\n            if (idx >= n) {\n                break;\n            }\n        } while (std::②);\n    }\n\n    vector<vector<int>> plan(w);\n    for (int i = 0; i < w; ++i) {\n        for (int j = 0; j < n; ++j) {\n            if (③) {\n                plan[i].push_back(j);\n            }\n        }\n    }\n\n    // === 第3步：调用测试接口 ===\n    int signature = test_subset(plan);\n\n    // === 第4步：结果解码 ===\n    vector<int> sig_bits(w, 0);\n    for (int i = 0; i < w; ++i) {\n        if (④) {\n            sig_bits[i] = 1;\n        }\n    }\n\n    for (int j = 0; j < n; ++j) {\n        if (⑤) return j;\n    }\n}\n\nint main() {\n    int n, k;\n    cin >> n >> k;\n    int ans = solve(n, k);\n    cout << ans << endl;\n    return 0;\n}\n```\n\n⑤处应填()",
       "options": [
         {

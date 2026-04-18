@@ -12,7 +12,7 @@
       "id": 1,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "以下不属于面向对象程序设计语言的是（ ）。",
       "options": [
         {
@@ -38,7 +38,7 @@
       "id": 2,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "以下奖项与计算机领域最相关的是（ ）。",
       "options": [
         {
@@ -64,7 +64,7 @@
       "id": 3,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "目前主流的计算机储存数据最终都是转换成（ ）数据进行储存。",
       "options": [
         {
@@ -90,7 +90,7 @@
       "id": 4,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "以比较作为基本运算，在 $N$ 个数中找出最大数， 最坏情况下所需要的最少的比较次数为（ ）。",
       "options": [
         {
@@ -116,7 +116,7 @@
       "id": 5,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "对于入栈顺序为 $a,b,c,d,e$ 的序列，下列（ ）不是合法的出栈序列。",
       "options": [
         {
@@ -142,7 +142,7 @@
       "id": 6,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "对于有 $n$ 个顶点 $m$ 条边的无向连通图 ($m>n$)，需要删掉（ ）条边才能使其成为一棵树。",
       "options": [
         {
@@ -168,7 +168,7 @@
       "id": 7,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "二进制数 $101.11$ 对应的十进制数是( )。",
       "options": [
         {
@@ -194,7 +194,7 @@
       "id": 8,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "如果一棵二叉树只有根结点，那么这棵二叉树高度为 $1$。请问高度为 $5$ 的完全二叉树有（ ）种不同的形态?",
       "options": [
         {
@@ -220,7 +220,7 @@
       "id": 9,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "表达式 $a*(b+c)*d$ 的后缀表达式为（ ），其中 $*$ 和 $+$ 是运算符。",
       "options": [
         {
@@ -246,7 +246,7 @@
       "id": 10,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "$6$ 个人，两个人组一队，总共组成三队，不区分队伍的编号。不同的组队情况有（ ）。",
       "options": [
         {
@@ -272,7 +272,7 @@
       "id": 11,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "在数据压缩编码中的哈夫曼编码方法，在本质上是一种（ ）的策略。",
       "options": [
         {
@@ -298,7 +298,7 @@
       "id": 12,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "由 $1, 1, 2, 2, 3$ 这五个数字组成不同的三位数有（ ）种。",
       "options": [
         {
@@ -324,7 +324,7 @@
       "id": 13,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "考虑如下递归算法：\n\n```\nsolve(n)\n    if n = 5  return n * solve(n - 2)\n    else return n * solve(n-1)\n```\n\n则调用 `solve(7)` 得到的返回结果为（ ）",
       "options": [
         {
@@ -350,7 +350,7 @@
       "id": 14,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "以 $a$ 为起点，对右边的无向图进行深度优先遍历，则 $b$、$c$、$d$、$e$ 四个点中有可能作为最后一个遍历到的点的个数为（ ）。\n\n[图片]",
       "options": [
         {
@@ -376,7 +376,7 @@
       "id": 15,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "有四个人要从 $A$ 点坐一条船过河到 $B$ 点，船一开始在 $A$ 点，该船一次最多可坐两个人，己知这四个人中每个人独自坐船的过河时间分别为 $1, 2, 4, 8$，且两个人坐船的过河时间为两人独自过河时间的较大者。则最短（ ）时间可以让四个人都过河到 $B$ 点（包括从 $B$ 点把船开回 $A$ 点的时间）。",
       "options": [
         {
@@ -402,7 +402,7 @@
       "id": 16,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n判断：输入的 $n$ 等于 $1001$ 时，程序不会发生下标越界。（ ）",
       "options": [
         {
@@ -420,7 +420,7 @@
       "id": 17,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n判断：输入的 `a[i]` 必须全为正整数，否则程序将陷入死循环。（ ）",
       "options": [
         {
@@ -438,7 +438,7 @@
       "id": 18,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n判断：当输入为 `5 2 11 9 16 10` 时，输出为 `3 4 3 17 5`。（ ）",
       "options": [
         {
@@ -456,7 +456,7 @@
       "id": 19,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n判断：当输入为 `1 511998` 时，输出为 $18$。（ ）",
       "options": [
         {
@@ -474,7 +474,7 @@
       "id": 20,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n判断：将源代码中 `g` 函数的定义（$14$ - $17$ 行）移到 `main` 函数的后面，程序可以正常编译运行。（ ）",
       "options": [
         {
@@ -492,7 +492,7 @@
       "id": 21,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nint n;\nint a[1000];\n\nint f(int x)\n{\n    int ret = 0;\n    for (; x; x &= x - 1) ret++;\n    return ret;\n}\n\nint g(int x)\n{\n    return x & -x;\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 0; i < n; i++) cin >> a[i];\n    for (int i = 0; i < n; i++)\n        cout << f(a[i]) + g(a[i]) << ' ';\n    cout << endl;\n    return 0;\n}\n```\n\n当输入为 `2 -65536 2147483647` 时，输出为 （ ）。",
       "options": [
         {
@@ -518,7 +518,7 @@
       "id": 22,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n判断：输出的第二行一定是由小写字母、大写字母、数字和 `+`、`/`、 `=` 构成的字符串。（ ）",
       "options": [
         {
@@ -536,7 +536,7 @@
       "id": 23,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n判断：可能存在输入不同，但输出的第二行相同的情形。（ ）",
       "options": [
         {
@@ -554,7 +554,7 @@
       "id": 24,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n判断：输出的第一行为 `-1`。（ ）",
       "options": [
         {
@@ -572,7 +572,7 @@
       "id": 25,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n设输入字符串长度为 $n$，`decode` 函数的时间复杂度为（ ）。",
       "options": [
         {
@@ -598,7 +598,7 @@
       "id": 26,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n当输入为 `Y3Nx` 时, 输出的第二行为（ ）。",
       "options": [
         {
@@ -624,7 +624,7 @@
       "id": 27,
       "section": "阅读程序",
       "score": 3.5,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvold init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    string str;\n    cin >> str;\n    cout << decode(str) << endl;\n    return 0;\n}\n```\n\n当输入为 `Y2NmIDIwMjE=` 时，输出的第二行为（ ）。",
       "options": [
         {
@@ -650,7 +650,7 @@
       "id": 28,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n若输入的不为 `1`，把第 $13$ 行删去不会影响输出的结果。（ ）",
       "options": [
         {
@@ -668,7 +668,7 @@
       "id": 29,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n第 $25$ 行的 `f[i] / c[i * k]` 可能存在无法整除而向下取整的情况。（ ）",
       "options": [
         {
@@ -686,7 +686,7 @@
       "id": 30,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n在执行完 `init()` 后，`f` 数组不是单调递增的，但 `g` 数组是单调递增的。（ ）",
       "options": [
         {
@@ -704,7 +704,7 @@
       "id": 31,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n`init` 函数的时间复杂度为（ ）。",
       "options": [
         {
@@ -730,7 +730,7 @@
       "id": 32,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n在执行完 `init()` 后，`f[1]`, `f[2]`, `f[3]` ……`f[100]` 中有（ ）个等于 $2$。",
       "options": [
         {
@@ -756,7 +756,7 @@
       "id": 33,
       "section": "阅读程序",
       "score": 4,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\nusing namespace std;\n\nconst int n = 100000;\nconst int N = n + 1;\n\nint m;\nint a[N], b[N], c[N], d[N];\nint f[n], g[N];\n\nvoid init()\n{\n    f[1] = g[1] = 1;\n    for (int i = 2; i <= n; i++) {\n        if (!a[i]) {\n            b[m++] = i;\n            c[i] = 1, f[i] = 2;\n            d[i] = 1, g[i] = i + 1;\n        }\n        for (int j = 0; j < m && b[j] * i <= n; j++) {\n            int k = b[j];\n            a[i * k] = 1;\n            if (i % k == 0) {\n                c[i * k] = c[i] + 1;\n                f[i * k] = f[i] / c[i * k] * (c[i * k] + 1);\n                d[i * k] = d[i];\n                g[i * k] = g[i] * k + d[i];\n                break;\n            }\n            else {\n                c[i * k] = 1;\n                f[i * k] = 2 * f[i];\n                d[i * k] = g[i];\n                g[i * k] = g[i] * (k + 1);\n            }\n        }\n    }\n}\n\nint main()\n{\n    init();\n\n    int x;\n    cin >> x;\n    cout <<f[x] << ''<<g[x]<< endl;\n    return 0;\n}\n```\n\n假设输入的 $x$ 是不超过 $1000$ 的自然数，完成下面的判断题和单选题。\n\n当输入为 `1000` 时，输出为（ ）。",
       "options": [
         {
@@ -782,7 +782,7 @@
       "id": 34,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 1000000;\nint F[MAXN];\n\nint main() {\n    int n;\n    cin >>n;\n    int i =0, p = 0, c = 0;\n    while (①) {\n        if (F[i] == 0) {\n            if (②) {\n                F[i] = 1;\n                ③;\n            }\n            ④;\n        }\n        ⑤;\n    }\n    int ans = -1;\n    for (i = 0; i < n; i++)\n        if (F[i] == 0)\n            ans = i;\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（Josephus 问题）有 $n$ 个人围成一个圈，依次标号 $0$ 至 $n-1$ 。从 $0$ 号开始，依次 $0,1,0,1,…$ 交替报数，报到 $1$ 的人会离开，直至圈中只剩下一个人。求最后剩下人的编号。\n\n试补全模拟程序\n\n① 处应填（ ）",
       "options": [
         {
@@ -808,7 +808,7 @@
       "id": 35,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 1000000;\nint F[MAXN];\n\nint main() {\n    int n;\n    cin >>n;\n    int i =0, p = 0, c = 0;\n    while (①) {\n        if (F[i] == 0) {\n            if (②) {\n                F[i] = 1;\n                ③;\n            }\n            ④;\n        }\n        ⑤;\n    }\n    int ans = -1;\n    for (i = 0; i < n; i++)\n        if (F[i] == 0)\n            ans = i;\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（Josephus 问题）有 $n$ 个人围成一个圈，依次标号 $0$ 至 $n-1$ 。从 $0$ 号开始，依次 $0,1,0,1,…$ 交替报数，报到 $1$ 的人会离开，直至圈中只剩下一个人。求最后剩下人的编号。\n\n试补全模拟程序\n\n② 处应填（ ）",
       "options": [
         {
@@ -834,7 +834,7 @@
       "id": 36,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 1000000;\nint F[MAXN];\n\nint main() {\n    int n;\n    cin >>n;\n    int i =0, p = 0, c = 0;\n    while (①) {\n        if (F[i] == 0) {\n            if (②) {\n                F[i] = 1;\n                ③;\n            }\n            ④;\n        }\n        ⑤;\n    }\n    int ans = -1;\n    for (i = 0; i < n; i++)\n        if (F[i] == 0)\n            ans = i;\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（Josephus 问题）有 $n$ 个人围成一个圈，依次标号 $0$ 至 $n-1$ 。从 $0$ 号开始，依次 $0,1,0,1,…$ 交替报数，报到 $1$ 的人会离开，直至圈中只剩下一个人。求最后剩下人的编号。\n\n试补全模拟程序\n\n③ 处应填（ ）",
       "options": [
         {
@@ -860,7 +860,7 @@
       "id": 37,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 1000000;\nint F[MAXN];\n\nint main() {\n    int n;\n    cin >>n;\n    int i =0, p = 0, c = 0;\n    while (①) {\n        if (F[i] == 0) {\n            if (②) {\n                F[i] = 1;\n                ③;\n            }\n            ④;\n        }\n        ⑤;\n    }\n    int ans = -1;\n    for (i = 0; i < n; i++)\n        if (F[i] == 0)\n            ans = i;\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（Josephus 问题）有 $n$ 个人围成一个圈，依次标号 $0$ 至 $n-1$ 。从 $0$ 号开始，依次 $0,1,0,1,…$ 交替报数，报到 $1$ 的人会离开，直至圈中只剩下一个人。求最后剩下人的编号。\n\n试补全模拟程序\n\n④ 处应填（ ）",
       "options": [
         {
@@ -886,7 +886,7 @@
       "id": 38,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nconst int MAXN = 1000000;\nint F[MAXN];\n\nint main() {\n    int n;\n    cin >>n;\n    int i =0, p = 0, c = 0;\n    while (①) {\n        if (F[i] == 0) {\n            if (②) {\n                F[i] = 1;\n                ③;\n            }\n            ④;\n        }\n        ⑤;\n    }\n    int ans = -1;\n    for (i = 0; i < n; i++)\n        if (F[i] == 0)\n            ans = i;\n    cout << ans << endl;\n    return 0;\n}\n```\n\n（Josephus 问题）有 $n$ 个人围成一个圈，依次标号 $0$ 至 $n-1$ 。从 $0$ 号开始，依次 $0,1,0,1,…$ 交替报数，报到 $1$ 的人会离开，直至圈中只剩下一个人。求最后剩下人的编号。\n\n试补全模拟程序\n\n⑤ 处应填（ ）",
       "options": [
         {
@@ -912,7 +912,7 @@
       "id": 39,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nstruct point {\n    int x, y, id;\n};\n\nbool equals(point a, point b) {\n     return a.x == b.x && a.y == b.y; \n}\n\nbool cmp(point a, point b) {\n    return ①;\n}\n\nvoid sort(point A[], int n) {\n     for (int i = 0; i < n; i++)\n          for (int j = 1; j < n; j++) \n               if (cmp(A[j], A[j - 1])) {\n                  point t = A[j];\n\t          A[j] = A[j - 1];\n\t          A[j - 1] = t;\n\t}\n}\n\nint unique(point A[], int n) {\t\n\t   int t = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n\t      if (②)\t\n\t        A[t++] = A[i];\t\n\t   return t;\t\n\t}\n\nbool binary_search(point A[], int n, int x, int y) {\t\n\t   point p;\t\n\t   p.x = x;\t\n\t   p.y = y;\t\n\t   p.id = n;\t\n\t   int a = 0, b = n - 1;\t\n\t   while (a < b) {\t\n\t      int mid = ③;\t\n\t      if (④)\t\n\t        a = mid + 1;\t\n\t      else\t\n\t        b = mid;\t\n}\t\n\t   return equals(A[a], p);\t\n}\t\n\t\t\n\tconst int MAXN = 1000;\t\n\tpoint A[MAXN];\t\n\t\t\n\tint main() {\t\n\t   nt n;\t\n\t   cin >> n;\t\n\t   for (int i = 0; i < n; i++) {\t\n\t      cin >> A[i].x >> A[i].y;\t\n\t      A[i].id = i;\t\n\t   }\t\n\t   sort(A, n);\t\n\t   n = unique(A, n);\t\n\t   int ans = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n for (int j = 0; j < n; j++)\t\nif (⑤ && binary_search(A, n, A[i].x, A[j].y)&&binary_search(A, n, A[j].x, A[i].y))\t{\n\t  ans++;\t\n\t}\ncout << ans << endl;\nreturn 0;\n}\n```\n\n（矩形计数）平面上有 $n$ 个关键点，求有多少个四条边都和 $x$ 轴或者 $y$ 轴平行的矩形，满足四个顶点都是关键点。给出的关键点可能有重复，但完全重合的矩形只计一次。试补全枚举算法。\n\n① 处应填（ ）",
       "options": [
         {
@@ -938,7 +938,7 @@
       "id": 40,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nstruct point {\n    int x, y, id;\n};\n\nbool equals(point a, point b) {\n     return a.x == b.x && a.y == b.y; \n}\n\nbool cmp(point a, point b) {\n    return ①;\n}\n\nvoid sort(point A[], int n) {\n     for (int i = 0; i < n; i++)\n          for (int j = 1; j < n; j++) \n               if (cmp(A[j], A[j - 1])) {\n                  point t = A[j];\n\t          A[j] = A[j - 1];\n\t          A[j - 1] = t;\n\t}\n}\n\nint unique(point A[], int n) {\t\n\t   int t = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n\t      if (②)\t\n\t        A[t++] = A[i];\t\n\t   return t;\t\n\t}\n\nbool binary_search(point A[], int n, int x, int y) {\t\n\t   point p;\t\n\t   p.x = x;\t\n\t   p.y = y;\t\n\t   p.id = n;\t\n\t   int a = 0, b = n - 1;\t\n\t   while (a < b) {\t\n\t      int mid = ③;\t\n\t      if (④)\t\n\t        a = mid + 1;\t\n\t      else\t\n\t        b = mid;\t\n}\t\n\t   return equals(A[a], p);\t\n}\t\n\t\t\n\tconst int MAXN = 1000;\t\n\tpoint A[MAXN];\t\n\t\t\n\tint main() {\t\n\t   nt n;\t\n\t   cin >> n;\t\n\t   for (int i = 0; i < n; i++) {\t\n\t      cin >> A[i].x >> A[i].y;\t\n\t      A[i].id = i;\t\n\t   }\t\n\t   sort(A, n);\t\n\t   n = unique(A, n);\t\n\t   int ans = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n for (int j = 0; j < n; j++)\t\nif (⑤ && binary_search(A, n, A[i].x, A[j].y)&&binary_search(A, n, A[j].x, A[i].y))\t{\n\t  ans++;\t\n\t}\ncout << ans << endl;\nreturn 0;\n}\n```\n\n（矩形计数）平面上有 $n$ 个关键点，求有多少个四条边都和 $x$ 轴或者 $y$ 轴平行的矩形，满足四个顶点都是关键点。给出的关键点可能有重复，但完全重合的矩形只计一次。试补全枚举算法。\n\n② 处应填（ ）",
       "options": [
         {
@@ -964,7 +964,7 @@
       "id": 41,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nstruct point {\n    int x, y, id;\n};\n\nbool equals(point a, point b) {\n     return a.x == b.x && a.y == b.y; \n}\n\nbool cmp(point a, point b) {\n    return ①;\n}\n\nvoid sort(point A[], int n) {\n     for (int i = 0; i < n; i++)\n          for (int j = 1; j < n; j++) \n               if (cmp(A[j], A[j - 1])) {\n                  point t = A[j];\n\t          A[j] = A[j - 1];\n\t          A[j - 1] = t;\n\t}\n}\n\nint unique(point A[], int n) {\t\n\t   int t = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n\t      if (②)\t\n\t        A[t++] = A[i];\t\n\t   return t;\t\n\t}\n\nbool binary_search(point A[], int n, int x, int y) {\t\n\t   point p;\t\n\t   p.x = x;\t\n\t   p.y = y;\t\n\t   p.id = n;\t\n\t   int a = 0, b = n - 1;\t\n\t   while (a < b) {\t\n\t      int mid = ③;\t\n\t      if (④)\t\n\t        a = mid + 1;\t\n\t      else\t\n\t        b = mid;\t\n}\t\n\t   return equals(A[a], p);\t\n}\t\n\t\t\n\tconst int MAXN = 1000;\t\n\tpoint A[MAXN];\t\n\t\t\n\tint main() {\t\n\t   nt n;\t\n\t   cin >> n;\t\n\t   for (int i = 0; i < n; i++) {\t\n\t      cin >> A[i].x >> A[i].y;\t\n\t      A[i].id = i;\t\n\t   }\t\n\t   sort(A, n);\t\n\t   n = unique(A, n);\t\n\t   int ans = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n for (int j = 0; j < n; j++)\t\nif (⑤ && binary_search(A, n, A[i].x, A[j].y)&&binary_search(A, n, A[j].x, A[i].y))\t{\n\t  ans++;\t\n\t}\ncout << ans << endl;\nreturn 0;\n}\n```\n\n（矩形计数）平面上有 $n$ 个关键点，求有多少个四条边都和 $x$ 轴或者 $y$ 轴平行的矩形，满足四个顶点都是关键点。给出的关键点可能有重复，但完全重合的矩形只计一次。试补全枚举算法。\n\n③ 处应填（ ）",
       "options": [
         {
@@ -990,7 +990,7 @@
       "id": 42,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nstruct point {\n    int x, y, id;\n};\n\nbool equals(point a, point b) {\n     return a.x == b.x && a.y == b.y; \n}\n\nbool cmp(point a, point b) {\n    return ①;\n}\n\nvoid sort(point A[], int n) {\n     for (int i = 0; i < n; i++)\n          for (int j = 1; j < n; j++) \n               if (cmp(A[j], A[j - 1])) {\n                  point t = A[j];\n\t          A[j] = A[j - 1];\n\t          A[j - 1] = t;\n\t}\n}\n\nint unique(point A[], int n) {\t\n\t   int t = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n\t      if (②)\t\n\t        A[t++] = A[i];\t\n\t   return t;\t\n\t}\n\nbool binary_search(point A[], int n, int x, int y) {\t\n\t   point p;\t\n\t   p.x = x;\t\n\t   p.y = y;\t\n\t   p.id = n;\t\n\t   int a = 0, b = n - 1;\t\n\t   while (a < b) {\t\n\t      int mid = ③;\t\n\t      if (④)\t\n\t        a = mid + 1;\t\n\t      else\t\n\t        b = mid;\t\n}\t\n\t   return equals(A[a], p);\t\n}\t\n\t\t\n\tconst int MAXN = 1000;\t\n\tpoint A[MAXN];\t\n\t\t\n\tint main() {\t\n\t   nt n;\t\n\t   cin >> n;\t\n\t   for (int i = 0; i < n; i++) {\t\n\t      cin >> A[i].x >> A[i].y;\t\n\t      A[i].id = i;\t\n\t   }\t\n\t   sort(A, n);\t\n\t   n = unique(A, n);\t\n\t   int ans = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n for (int j = 0; j < n; j++)\t\nif (⑤ && binary_search(A, n, A[i].x, A[j].y)&&binary_search(A, n, A[j].x, A[i].y))\t{\n\t  ans++;\t\n\t}\ncout << ans << endl;\nreturn 0;\n}\n```\n\n（矩形计数）平面上有 $n$ 个关键点，求有多少个四条边都和 $x$ 轴或者 $y$ 轴平行的矩形，满足四个顶点都是关键点。给出的关键点可能有重复，但完全重合的矩形只计一次。试补全枚举算法。\n\n④ 处应填（ ）",
       "options": [
         {
@@ -1016,7 +1016,7 @@
       "id": 43,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n\nusing namespace std;\n\nstruct point {\n    int x, y, id;\n};\n\nbool equals(point a, point b) {\n     return a.x == b.x && a.y == b.y; \n}\n\nbool cmp(point a, point b) {\n    return ①;\n}\n\nvoid sort(point A[], int n) {\n     for (int i = 0; i < n; i++)\n          for (int j = 1; j < n; j++) \n               if (cmp(A[j], A[j - 1])) {\n                  point t = A[j];\n\t          A[j] = A[j - 1];\n\t          A[j - 1] = t;\n\t}\n}\n\nint unique(point A[], int n) {\t\n\t   int t = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n\t      if (②)\t\n\t        A[t++] = A[i];\t\n\t   return t;\t\n\t}\n\nbool binary_search(point A[], int n, int x, int y) {\t\n\t   point p;\t\n\t   p.x = x;\t\n\t   p.y = y;\t\n\t   p.id = n;\t\n\t   int a = 0, b = n - 1;\t\n\t   while (a < b) {\t\n\t      int mid = ③;\t\n\t      if (④)\t\n\t        a = mid + 1;\t\n\t      else\t\n\t        b = mid;\t\n}\t\n\t   return equals(A[a], p);\t\n}\t\n\t\t\n\tconst int MAXN = 1000;\t\n\tpoint A[MAXN];\t\n\t\t\n\tint main() {\t\n\t   nt n;\t\n\t   cin >> n;\t\n\t   for (int i = 0; i < n; i++) {\t\n\t      cin >> A[i].x >> A[i].y;\t\n\t      A[i].id = i;\t\n\t   }\t\n\t   sort(A, n);\t\n\t   n = unique(A, n);\t\n\t   int ans = 0;\t\n\t   for (int i = 0; i < n; i++)\t\n for (int j = 0; j < n; j++)\t\nif (⑤ && binary_search(A, n, A[i].x, A[j].y)&&binary_search(A, n, A[j].x, A[i].y))\t{\n\t  ans++;\t\n\t}\ncout << ans << endl;\nreturn 0;\n}\n```\n\n（矩形计数）平面上有 $n$ 个关键点，求有多少个四条边都和 $x$ 轴或者 $y$ 轴平行的矩形，满足四个顶点都是关键点。给出的关键点可能有重复，但完全重合的矩形只计一次。试补全枚举算法。\n\n⑤ 处应填（ ）",
       "options": [
         {

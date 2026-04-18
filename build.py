@@ -104,6 +104,9 @@ def render_markdown(text: str) -> str:
 
     from markdown_it import MarkdownIt
 
+    # 预处理：编程题章节标题用加粗替代 h3（更紧凑的排版）
+    text = re.sub(r'^### (题目描述|输入格式|输出格式|数据范围|样例|说明/提示)', r'**\1**', text, flags=re.MULTILINE)
+
     # 预处理：给没有语言标识的代码块加上 cpp（修复代码高亮为红色的问题）
     # 注意：只匹配独立的 ``` 行（后面没有语言标识），且必须是代码块开头
     # 策略：匹配 ``` 后紧跟换行+非```行（即代码块开头），跳过代码块结尾的 ```

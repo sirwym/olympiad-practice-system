@@ -12,7 +12,7 @@
       "id": 1,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "在 Linux 系统终端中，用于列出当前目录下所含的文件和子目录的命令为（ ）。",
       "options": [
         {
@@ -38,7 +38,7 @@
       "id": 2,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "二进制数 $00101010_2$ 和 $00010110_2$ 的和为（ ）。",
       "options": [
         {
@@ -60,7 +60,7 @@
       "id": 3,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "在程序运行过程中，如果递归调用的层数过多，可能会由于（ ）引发错误。",
       "options": [
         {
@@ -86,7 +86,7 @@
       "id": 4,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "以下排序方法中，（ ）是不稳定的。",
       "options": [
         {
@@ -112,7 +112,7 @@
       "id": 5,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "以比较为基本运算，对于 $2\\times n$ 个数，同时找到最大值和最小值，最坏情况下需要的最小的比较次数为（ ）。",
       "options": [
         {
@@ -138,7 +138,7 @@
       "id": 6,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "现有一个地址区间为 $0\\sim 10$ 的哈希表，对于出现冲突情况，会往后找第一个空的地址存储（到 $10$ 冲突了就从 $0$ 开始往后），现在要依次存储（$0,1, 2,3,4,5,6,7$），哈希函数为 $h(x)=x^2 \\mod 11$。请问 $7$ 存储在哈希表哪个地址中（ ）。",
       "options": [
         {
@@ -164,7 +164,7 @@
       "id": 7,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "$G$ 是一个非连通简单无向图（没有自环和重边），共有 $36$ 条边，则该图至少有（ ）个点。",
       "options": [
         {
@@ -190,7 +190,7 @@
       "id": 8,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "令根结点的高度为 $1$，则一棵含有 $2021$ 个结点的二叉树的高度至少为（ ）。",
       "options": [
         {
@@ -216,7 +216,7 @@
       "id": 9,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "前序遍历和中序遍历相同的二叉树为且仅为（ ）。",
       "options": [
         {
@@ -242,7 +242,7 @@
       "id": 10,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "定义一种字符串操作为交换相邻两个字符。将 `DACFEB` 变为 `ABCDEF` 最少需要（ ） 次上述操作。",
       "options": [
         {
@@ -268,7 +268,7 @@
       "id": 11,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "有如下递归代码\n\n```\nsolve(t, n):\n    if t = 1 return 1\n    else return 5 * solve(t - 1, n) mod n\n```\n\n则 `solve(23, 23)` 的结果为（ ）。",
       "options": [
         {
@@ -294,7 +294,7 @@
       "id": 12,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "斐波那契数列的定义为：\n\n$$F_1=1,\\\\F_2=1,\\\\F_n=F_{n-1}+F_{n-2} (n\\ge 3)$$\n\n现在用如下程序来计算斐波那契数列的第 $n$ 项，其时间复杂度为（ ）。\n\n```\nF(n):\n    if n <= 2 return 1\n    else return F(n - 1) + F(n - 2)\n```",
       "options": [
         {
@@ -320,7 +320,7 @@
       "id": 13,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "有 $8$ 个苹果从左到右排成一排，你要从中挑选至少一个苹果，并且不能同时挑选相邻的两个苹果，一共有（ ）种方案。",
       "options": [
         {
@@ -346,7 +346,7 @@
       "id": 14,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "设一个三位数 $n= \\overline {abc}$，$a, b, c$ 均为 $1\\sim9$ 之间的整数，若以 $a$、$b$、$c$ 作为三角形的三条边可以构成等腰三角形（包括等边），则这样的 $n$ 有（ ）个。",
       "options": [
         {
@@ -372,7 +372,7 @@
       "id": 15,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "有如下的有向图，节点为 $A, B, \\cdots , J$，其中每条边的长度都标在图中。则节点 $A$ 到节点 $J$ 的最短路径长度为（ ）。\n\n[图片]",
       "options": [
         {
@@ -398,7 +398,7 @@
       "id": 16,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n将第 $18$ 行中 $t$ 的类型声明从 `int` 改为`double`，不会影响程序运行的结果。（ ）",
       "options": [
         {
@@ -416,7 +416,7 @@
       "id": 17,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n将第 $23$、$24$ 行中的 `/ sqrt(t) / 2` 替换为 `/ 2 / sqrt(t)`，不会影响程序运行的结果。（ ）",
       "options": [
         {
@@ -434,7 +434,7 @@
       "id": 18,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n将第 $25$ 行中的 `x * x` 改成 `sq(x)`，`y * y` 改成 `sq(y)`，不会影响程序运行的结果。（ ）",
       "options": [
         {
@@ -452,7 +452,7 @@
       "id": 19,
       "section": "阅读程序",
       "score": 2,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n当输入为 `0 0 0 1 1 0 0 1` 时，输出为 `1.3090`。",
       "options": [
         {
@@ -470,7 +470,7 @@
       "id": 20,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n当输入为 `1 1 1 1 1 1 1 2` 时，输出为（ ）。",
       "options": [
         {
@@ -496,7 +496,7 @@
       "id": 21,
       "section": "阅读程序",
       "score": 2.5,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cmath>\nusing namespace std;\n\nconst double r = acos(0.5);\n\nint a1, b1, c1, d1;\nint a2, b2, c2, d2;\n\ninline int sq(const int x) { return x * x; }\ninline int cu(const int x) { return x * x * x; }\nint main()\n{\n    cout.flags(ios::fixed);\n    cout.precision(4);\n    cin >> a1 >> b1 >> c1 >> d1;\n    cin >> a2 >> b2 >> c2 >> d2;\n    int t = sq(a1 - a2) + sq(b1 - b2) + sq(c1 - c2);\n\n    if (t <= sq(d2 - d1)) cout << cu(min(d1, d2)) * r * 4;\n    else if (t >= sq(d2 + d1)) cout << 0;\n    else {\n        double x = d1 - (sq(d1) - sq(d2) + t) / sqrt(t) / 2;\n        double y = d2 - (sq(d2) - sq(d1) + t) / sqrt(t) / 2;\n        cout << (x * x * (3 * d1 - x) + y * y * (3 * d2 - y)) * r;\n    }\n    cout << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n这段代码的含义为（ ）。",
       "options": [
         {
@@ -522,7 +522,7 @@
       "id": 22,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n程序总是会正常执行并输出两行两个相等的数。（ ）",
       "options": [
         {
@@ -540,7 +540,7 @@
       "id": 23,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n第 $28$ 行与第 $38$ 行分别有可能执行两次及以上。（ ）",
       "options": [
         {
@@ -558,7 +558,7 @@
       "id": 24,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n当输入为 `5 -10 11 -9 5 -7` 时，输出的第二行为 `7`。（ ）",
       "options": [
         {
@@ -576,7 +576,7 @@
       "id": 25,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n`solve1(1, n)` 的时间复杂度为（ ）。",
       "options": [
         {
@@ -602,7 +602,7 @@
       "id": 26,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n`solve2(1, n)` 的时间复杂度为（ ）。",
       "options": [
         {
@@ -628,7 +628,7 @@
       "id": 27,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <iostream>\nusing namespace std;\n\nint n, a[1005];\n\nstruct Node\n{\n    int h, j, m, w;\n\n    Node(const int _h, const int _j, const int _m, const int _w) : \n        h(_h), j(_j), m(_m), w(_w)\n {}\n\n    Node operator + (const Node &o) const\n    {\n        return Node(\n            max(h, w + o.h),\n            max(max(j, o.j), m + o.h),\n            max(m + o.w, o.m),\n            w + o.w);\n    }\n};\n\nNode solve1(int h, int m)\n{\n    if (h > m)\n        return Node(-1, -1, -1, -1);\n    if (h == m)\n        return Node(max(a[h], 0), max(a[h], 0), max(a[h], 0), a[h]);\n    int j = (h + m) >> 1;\n    return solve1(h, j) + solve1(j + 1, m);\n}\n\nint solve2(int h, int m)\n{\n    if (h > m)\n        return -1;\n    if (h == m)\n        return max(a[h], 0);\n    int j = (h + m) >> 1;\n    int wh = 0, wm = 0;\n    int wht = 0, wmt = 0;\n    for (int i = j; i >= h; i--) {\n        wht += a[i];\n        wh = max(wh, wht);\n    }\n    for (int i = j + 1; i <= m; i++) {\n        wmt += a[i];\n        wm = max(wm, wmt);\n    }\n    return max(max(solve2(h, j), solve2(j + 1, m)), wh + wm);\n}\n\nint main()\n{\n    cin >> n;\n    for (int i = 1; i <= n; i++) cin >> a[i];\n    cout << solve1(1, n).j << endl;\n    cout << solve2(1, n) << endl;\n    return 0;\n}\n```\n\n假设输入的所有数的绝对值都不超过 $1000$，完成下面的判断题和单选题：\n\n当输入为 `10 -3 2 10 0 -8 9 -4 -5 9 4` 时，输出的第一行为（ ）。",
       "options": [
         {
@@ -654,7 +654,7 @@
       "id": 28,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n程序总是先输出 一行 一个整数，再输出 一行 一个字符串。（ ）",
       "options": [
         {
@@ -672,7 +672,7 @@
       "id": 29,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n对于任意不含空白字符的字符串 `str1`，先执行程序输入 `0 str1`，得到输出的第二行记为 `str2`；再执行程序输入 `1 str2`，输出的第二行必为 `str1`。（ ）",
       "options": [
         {
@@ -690,7 +690,7 @@
       "id": 30,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n当输入为 `1 SGVsbG93b3JsZA==` 时，输出的第二行为 `HelloWorld`。（ ）",
       "options": [
         {
@@ -708,7 +708,7 @@
       "id": 31,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n设输入字符串长度为 $n$，`encode` 函数的时间复杂度为（ ）。",
       "options": [
         {
@@ -734,7 +734,7 @@
       "id": 32,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n输出的第一行为（ ）。",
       "options": [
         {
@@ -760,7 +760,7 @@
       "id": 33,
       "section": "阅读程序",
       "score": 4,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <string>\nusing namespace std;\n\nchar base[64];\nchar table[256];\n\nvoid init()\n{\n    for (int i = 0; i < 26; i++) base[i] = 'A' + i;\n    for (int i = 0; i < 26; i++) base[26 + i] = 'a' + i;\n    for (int i = 0; i < 10; i++) base[52 + i] = '0' + i;\n    base[62] = '+', base[63] = '/';\n\n    for (int i = 0; i < 256; i++) table[i] = 0xff;\n    for (int i = 0; i < 64; i++) table[base[i]] = i;\n    table['='] = 0;\n}\n\nstring encode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i + 3 <= str.size(); i += 3) {\n        ret += base[str[i] >> 2];\n        ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n        ret += base[(str[i + 1] & 0x0f) << 2 | str[i + 2] >> 6];\n        ret += base[str[i + 2] & 0x3f];\n    }\n    if (i < str.size()) {\n        ret += base[str[i] >> 2];\n        if (i + 1 == str.size()) {\n            ret += base[(str[i] & 0x03) << 4];\n            ret += \"==\";\n        }\n        else {\n            ret += base[(str[i] & 0x03) << 4 | str[i + 1] >> 4];\n            ret += base[(str[i + 1] & 0x0f) << 2];\n            ret += \"=\";\n        }\n    }\n    return ret;\n}\n\t\nstring decode(string str)\n{\n    string ret;\n    int i;\n    for (i = 0; i < str.size(); i += 4) {\n        ret += table[str[i]] << 2 | table[str[i + 1]] >> 4;\n        if (str[i + 2] != '=')\n            ret += (table[str[i + 1]] & 0x0f) << 4 | table[str[i + 2]] >> 2;\n        if (str[i + 3] != '=')\n            ret += table[str[i + 2]] << 6 | table[str[i + 3]];\n    }\n    return ret;\n}\n\t\nint main()\n{\n    init();\n    cout << int(table[0]) << endl;\n\n    int opt;\n    string str;\n    cin >> opt >> str;\n    cout << (opt ? decode(str) : encode(str)) << endl;\n    return 0;\n}\n```\n\n假设输入总是合法的（一个整数和一个不含空白字符的字符串，用空格隔开），完成下面的判断题和单选题：\n\n当输入为 `0 CSP2021csp` 时，输出的第二行为（ ）。",
       "options": [
         {
@@ -786,7 +786,7 @@
       "id": 34,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cstdlib>\n#include <climits>\n\nusing namespace std; \n\nconst int M = 10000;\nbool Vis[M + 1];\nint F[M + 1];\n\nvoid update(int &x, int y) {\n    if (y < x)\n        x = y;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    for (int i = 0; i <= M; i++)\n        F[i] = INT_MAX;\n    ①;\n    int r = 0;\n    while (②) {\n        r++;\n        int x = 0;\n        for (int i = 1; i <= M; i++)\n            if (③)\n                x = i;\n        Vis[x] = 1;\n        for (int i = 1; i <= M; i++)\n            if (④) {\n                int t = F[i] + F[x];\n                if (i + x <= M)\n                    update(F[i + x], t);\n                if (i != x)\n                    update(F[abs(i - x)], t);\n                if (i % x == 0)\n                    update(F[i / x], t);\n                if (x % i == 0)\n                    update(F[x / i], t);\n            }\n    }\n    cout << F[n] << endl;\n    return 0;\n}\n```\n\n（魔法数字）小 H 的魔法数字是 $4$。给定 $n$，他希望用若干个 $4$ 进行若干次加法、减法和整除运算得到 $n$。但由于小 H 计算能力有限，计算过程中只能出现不超过 $M = 10000$ 的正整数。求至少可能用到多少个 $4$。\n\n例如，当 $n= 2$ 时，有 `2 = (4 + 4) / 4`，用到了 $3$ 个 $4$，是最优方案。试补全程序。\n\n① 处应填（ ）",
       "options": [
         {
@@ -812,7 +812,7 @@
       "id": 35,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <iostream>\n#include <cstdlib>\n#include <climits>\n\nusing namespace std; \n\nconst int M = 10000;\nbool Vis[M + 1];\nint F[M + 1];\n\nvoid update(int &x, int y) {\n    if (y < x)\n        x = y;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    for (int i = 0; i <= M; i++)\n        F[i] = INT_MAX;\n    ①;\n    int r = 0;\n    while (②) {\n        r++;\n        int x = 0;\n        for (int i = 1; i <= M; i++)\n            if (③)\n                x = i;\n        Vis[x] = 1;\n        for (int i = 1; i <= M; i++)\n            if (④) {\n                int t = F[i] + F[x];\n                if (i + x <= M)\n                    update(F[i + x], t);\n                if (i != x)\n                    update(F[abs(i - x)], t);\n                if (i % x == 0)\n                    update(F[i / x], t);\n                if (x % i == 0)\n                    update(F[x / i], t);\n            }\n    }\n    cout << F[n] << endl;\n    return 0;\n}\n```\n\n（魔法数字）小 H 的魔法数字是 $4$。给定 $n$，他希望用若干个 $4$ 进行若干次加法、减法和整除运算得到 $n$。但由于小 H 计算能力有限，计算过程中只能出现不超过 $M = 10000$ 的正整数。求至少可能用到多少个 $4$。\n\n例如，当 $n= 2$ 时，有 `2 = (4 + 4) / 4`，用到了 $3$ 个 $4$，是最优方案。试补全程序。\n\n②处应填（ ）",
       "options": [
         {
@@ -838,7 +838,7 @@
       "id": 36,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cstdlib>\n#include <climits>\n\nusing namespace std; \n\nconst int M = 10000;\nbool Vis[M + 1];\nint F[M + 1];\n\nvoid update(int &x, int y) {\n    if (y < x)\n        x = y;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    for (int i = 0; i <= M; i++)\n        F[i] = INT_MAX;\n    ①;\n    int r = 0;\n    while (②) {\n        r++;\n        int x = 0;\n        for (int i = 1; i <= M; i++)\n            if (③)\n                x = i;\n        Vis[x] = 1;\n        for (int i = 1; i <= M; i++)\n            if (④) {\n                int t = F[i] + F[x];\n                if (i + x <= M)\n                    update(F[i + x], t);\n                if (i != x)\n                    update(F[abs(i - x)], t);\n                if (i % x == 0)\n                    update(F[i / x], t);\n                if (x % i == 0)\n                    update(F[x / i], t);\n            }\n    }\n    cout << F[n] << endl;\n    return 0;\n}\n```\n\n描述\n（魔法数字）小 H 的魔法数字是 $4$。给定 $n$，他希望用若干个 $4$ 进行若干次加法、减法和整除运算得到 $n$。但由于小 H 计算能力有限，计算过程中只能出现不超过 $M = 10000$ 的正整数。求至少可能用到多少个 $4$。\n\n例如，当 $n= 2$ 时，有 `2 = (4 + 4) / 4`，用到了 $3$ 个 $4$，是最优方案。试补全程序。\n\n③ 处应填（ ）",
       "options": [
         {
@@ -864,7 +864,7 @@
       "id": 37,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <cstdlib>\n#include <climits>\n\nusing namespace std; \n\nconst int M = 10000;\nbool Vis[M + 1];\nint F[M + 1];\n\nvoid update(int &x, int y) {\n    if (y < x)\n        x = y;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    for (int i = 0; i <= M; i++)\n        F[i] = INT_MAX;\n    ①;\n    int r = 0;\n    while (②) {\n        r++;\n        int x = 0;\n        for (int i = 1; i <= M; i++)\n            if (③)\n                x = i;\n        Vis[x] = 1;\n        for (int i = 1; i <= M; i++)\n            if (④) {\n                int t = F[i] + F[x];\n                if (i + x <= M)\n                    update(F[i + x], t);\n                if (i != x)\n                    update(F[abs(i - x)], t);\n                if (i % x == 0)\n                    update(F[i / x], t);\n                if (x % i == 0)\n                    update(F[x / i], t);\n            }\n    }\n    cout << F[n] << endl;\n    return 0;\n}\n```\n\n（魔法数字）小 H 的魔法数字是 $4$。给定 $n$，他希望用若干个 $4$ 进行若干次加法、减法和整除运算得到 $n$。但由于小 H 计算能力有限，计算过程中只能出现不超过 $M = 10000$ 的正整数。求至少可能用到多少个 $4$。\n\n例如，当 $n= 2$ 时，有 `2 = (4 + 4) / 4`，用到了 $3$ 个 $4$，是最优方案。试补全程序。\n\n④ 处应填（ ）",
       "options": [
         {
@@ -890,7 +890,7 @@
       "id": 38,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {
@@ -916,7 +916,7 @@
       "id": 39,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {
@@ -942,7 +942,7 @@
       "id": 40,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {
@@ -968,7 +968,7 @@
       "id": 41,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {
@@ -994,7 +994,7 @@
       "id": 42,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {
@@ -1020,7 +1020,7 @@
       "id": 43,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <iostream>\n #include <cmath>\n\n using namespace std;\n\n const int MAXN = 100000, MAXT = MAXN << 1;\n const int MAXL = 18, MAXB = 9, MAXC = MAXT / MAXB;\n\n struct node {\n     int val;\n     int dep, dfn, end;\n     node *son[2]; // son[0], son[1] 分别表示左右儿子\n } T[MAXN];\n\t\n int n, t, b, c, Log2[MAXC + 1];\n int Pos[(1 << (MAXB - 1)) + 5], Dif[MAXC +\t1];\n node *root, *A[MAXT], *Min[MAXL][MAXC];\n\t\n void build() { // 建立 Cartesian 树\n     static node *S[MAXN + 1];\n     int top = 0;\n     for (int i = 0; i < n; i++) {\n         node *p = &T[i];\n         while (top && S[top]->val < p->val)\n             ①;\n         if (top)\n             ②;\n         S[++top] = p;\n     }\n    root = S[1];\n }\n\t\n void DFS(node *p) { // 构建 Euler 序列\n     A[p->dfn = t++] = p;\n     for (int i = 0; i < 2; i++)\n         if (p->son[i]) {\t\t\n             p->son[i]->dep = p->dep + 1;\n             DFS(p->son[i]);\t\t\n             A[t++] = p;\t\t\n         }\t\t\t\n         p->end\t= t - 1;\t\t\n }\n\t\n node *min(node\t*x, node *y) {\n     return ③ ?\tx : y;\n }\n\t\n void ST_init()\t{\n     b = (int)(ceil(log2(t) / 2));\n     c = t / b;\n     Log2[1] = 0;\n     for (int i = 2; i <= c; i++)\n         Log2[i] = Log2[i >> 1] + 1;\n     for (int i = 0; i < c; i++) {\n         Min[0][i] = A[i * b];\n         for (int j = 1; j < b; j++)\n             Min[0][i] = min(Min[0][i], A[i * b + j]);\n     }\n     for (int i = 1, l = 2; l <= c; i++, l <<= 1)\n         for (int j = 0; j + l <= c; j++)\n             Min[i][j] = min(Min[i - 1][j], Min[i - 1][j\t+ (l >> 1)]);\n }\n\n void small_init() { // 块内预处理\n     for (int i = 0; i <= c; i++)\n     for (int j = 1; j < b && i * b + j < t; j++)\n         if (④)\n             Dif[i] |= 1 << (j - 1);\n     for (int S = 0; S < (1 << (b - 1)); S++) {\n         int mx = 0, v = 0;\n         for (int i = 1; i < b; i++) {\n             ⑤;\n             if (v < mx) {\n                 mx = v;\n                 Pos[S] = i;\n             }\n         }\n     }\n }\n\t\t\t\t\n node *ST_query(int l, int r) {\n     int g = Log2[r - l + 1];\n     return min(Min[g][l], Min[g][r - (1 << g) +\t1]);\n }\n\t\n node *small_query(int l, int r) { // 块内查询\n     int p = l / b;\n     int S = ⑥;\n     return A[l + Pos[S]];\n }\n\t\n node *query(int l, int r) {\n     if (l > r)\n         return query(r, l);\n     int pl = l / b, pr = r / b;\n     if (pl == pr) {\n         return small_query(l, r);\n     } else {\n         node *s = min(small_query(l, pl * b + b - 1),\nsmall_query(pr * b, r));\n\t       if (pl + 1 <= pr - 1)\n\t       s = min(s, ST_query(pl + 1, pr - 1));\n\t      return s;\n\t   }\n }\n\t\t\n int main() {\n     int m;\n     cin >> n >> m;\n     for (int i = 0; i < n; i++)\n         cin >> T[i].val;\n     build();\n     DFS(root);\n     ST_init();\n     small_init();\n     while (m--) {\n         int l, r;\n         cin >> l >> r;\n         cout << query(T[l].dfn, T[r].dfn)->val <<\tendl;\n     }\n     return 0;\n }\n```\n\n最终，对于一个查询，可以转化为中间整的大块的 RMQ 问题，以及两端块内的 RMQ 问题。 试补全程序。",
       "options": [
         {

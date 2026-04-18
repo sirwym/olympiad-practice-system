@@ -386,21 +386,21 @@
       "type": "judge",
       "id": 16,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "C++、Python都是高级编程语⾔，它们的每条语句最终都要通过机器指令来完成。（ ）\n"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "在C++代码中，假设N为正整数，则N - N / 10 * 10与N % 10都将获得N的个位数。( )\n"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "C++语句cout << ((10 <= N <= 12)? \"true\":\"false\")中，假设整型变量N为12，则其输出为\ntrue。原因是执行10 <= N后其值为true，true与12相比仍然是true。( )\n"
     },
     {
@@ -414,35 +414,35 @@
       "type": "judge",
       "id": 20,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "下面C++执行后将输出3*2=6。 ( )\n\n```cpp\nint a=2, b = 3;\na=a-b;\nb=a+b;\na=b-a;\nprintf(\"%d*%d=%d\\n\", a, b, a*b);\n```\n"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "下面C++代码执行后将输出10。（ ）\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++)\ncontinue;\ncout << i << endl;\n```\n"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "下面C++代码执行后将输出1。（ ）\n\n```cpp\nint i;\nfor (i = 1; i < 10; i++){\n    break;\n    continue;\n}\ncout << i << endl;\n```\n"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "下面的C++代码执行后将输出10行\"OK\"。（ ）\n\n```cpp\nfor (int i = 0; i < 5; i++)\nfor(int j = 0; j < i; j++)\nprintf(\"OK\\n\");\n```\n"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
-      "answer": "False",
+      "answer": "True",
       "content": "将下面C++代码中的for循环中的i = 1调整为i = 0的输出结果相同。（ ）\n\n```cpp\nint tnt = 0;\nfor (int i = 1; i < 5; i++) // i=1\ntnt += i;\ncout << tnt;\n```\n"
     },
     {
@@ -457,7 +457,7 @@
       "id": 26,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：等差矩阵**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 题目描述\n⼩ A 想构造⼀个 ⾏ 列的矩阵，使得矩阵的每⼀⾏与每⼀列均是等差数列。⼩ A 发现，在矩阵的第 ⾏第 列填\n⼊整数 ，得到的矩阵能满⾜要求。你能帮⼩ A 输出这个矩阵吗？\n\n### 输入格式\n⼀⾏，两个正整数 。\n\n### 输出格式\n共 ⾏，每⾏ 个由空格分割的整数，表⽰⼩ A 需要构造的矩阵。\n\n### 数据范围\n对于所有测试点，保证 ， 。",
+      "content": "**试题名称：等差矩阵**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n小 A 想构造一个 $n$ 行 $m$ 列的矩阵，使得矩阵的每一行与每一列均是等差数列。小 A 发现，在矩阵的第 $i$ 行第 $j$ 列填入整数 $i \\times j$，得到的矩阵能满足要求。你能帮小 A 输出这个矩阵吗？\n\n**输入格式**\n\n一行，两个正整数 $n, m$。\n\n**输出格式**\n\n共 $n$ 行，每行 $m$ 个由空格分割的整数，表示小 A 需要构造的矩阵。\n\n**样例输入 #1**\n```\n3 4\n```\n\n**样例输出 #1**\n```\n1 2 3 4\n2 4 6 8\n3 6 9 12\n```\n\n**说明/提示**\n\n对于所有测试点，保证 $1\\leq n,m \\leq 50$。",
       "options": [],
       "section": "GESP 编程操作题"
     },
@@ -466,7 +466,7 @@
       "id": 27,
       "score": 25,
       "answer": "None",
-      "content": "**试题名称：时间跨越**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n### 输入格式\n输⼊包含五⾏，每⾏⼀个正整数，分别代表 。\n\n### 输出格式\n输出四个正整数，代表 。\n\n### 数据范围\n对于全部数据，保证有 。数据保证为合法时间。\n3.2.13 提示\n闰年判断规则\n普通闰年：年份能被 4 整除，但不能被 100 整除。\n世纪闰年：年份能被 400 整除。\n满⾜以上任意⼀条规则的年份就是闰年，否则是平年。",
+      "content": "**试题名称：时间跨越**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n**题目描述**\n\n假设现在是 $y$ 年 $m$ 月 $d$ 日 $h$ 时而 $k$ 小时后是 $y'$ 年 $m'$ 月 $d'$ 日 $h'$ 时，对于给定的 $y, m, d, h, k$，小杨想请你帮他计算出对应的 $y', m', d', h'$ 是多少。\n\n**输入格式**\n\n输入包含五行，每行一个正整数，分别代表 $y, m, d, h, k$。\n\n**输出格式**\n\n输出四个正整数，代表 $y', m', d', h'$。\n\n**样例输入 #1**\n```\n2008\n2\n28\n23\n1\n```\n\n**样例输出 #1**\n```\n2008 2 29 0\n```\n\n**说明/提示**\n\n对于全部数据，保证有 $2000 \\leq y \\leq 3000$，$1 \\leq m \\leq 12$，$1 \\leq d \\leq 31$，$0 \\leq h \\leq 23$，$1 \\leq k \\leq 24$。数据保证为合法时间。\n\n闰年判断规则\n\n- 普通闰年：年份能被 $4$ 整除，但不能被 $100$ 整除。\n- 世纪闰年：年份能被 $400$ 整除。\n\n满足以上任意一条规则的年份就是闰年，否则是平年。",
       "options": [],
       "section": "GESP 编程操作题"
     }

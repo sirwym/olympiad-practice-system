@@ -1,222 +1,244 @@
 # 信奥在线刷题系统
 
-[![Static Badge](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![Static Badge](https://img.shields.io/badge/Static-Generated-green)](https://en.wikipedia.org/wiki/Static_site_generator)
-[![Static Badge](https://img.shields.io/badge/Offline-Available-orange)](https://en.wikipedia.org/wiki/Offline_first)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Static](https://img.shields.io/badge/Static-Generated-green)](https://en.wikipedia.org/wiki/Static_site_generator)
+[![Offline](https://img.shields.io/badge/Offline-Available-orange)](https://en.wikipedia.org/wiki/Offline_first)
 
-## 项目简介
+类 Hexo 的静态考试系统生成器，从 JSON 试卷数据生成纯静态 HTML，供学生练习 GESP / CSP / NCT 等信奥初赛。**零后端、零 CDN、离线可用。**
 
-信奥在线刷题系统是一个静态考试系统生成器，类似 Hexo 的构建脚本，用于生成信息学奥林匹克（信奥）相关的在线练习平台。该系统支持 GESP、CSP、NCT 等多种信奥考试类型，提供纯静态 HTML 输出，无需后端服务器，离线可用。
+## 试卷数据
+
+| 类别 | 数量 | 范围 |
+|------|------|------|
+| GESP C++ | 92 份 | 2023-03 ~ 2026-03，1-8 级 |
+| CSP-J / CSP-S | 14 份 | 2019-2025（J×7 + S×7） |
+| NCT | 15 份 | C++ C1/C2 + Kitten K1-K3 |
+| **合计** | **121 份** | |
 
 ## 功能特性
 
-### 核心功能
-- **静态生成**：从 JSON 数据生成纯静态 HTML 页面，无需后端服务器
-- **多考试类型支持**：覆盖 GESP、CSP-J、CSP-S、NCT 等多种信奥考试
-- **答题系统**：支持选择题、编程题等多种题型，提供自动评分
-- **代码高亮**：支持 C++ 等编程语言的代码语法高亮
-- **本地存储**：使用 localStorage 存储答题记录和最高分
-- **响应式设计**：适配不同设备屏幕尺寸
-- **试卷导入**：支持从 Markdown 文件导入 CSP 试卷
-- **PDF 下载**：批量下载 GESP 官方试卷 PDF
-
-### 技术特点
-- **离线可用**：无需网络连接，随时随地练习
-- **易于部署**：只需复制静态文件到任何服务器或本地目录
-- **数据安全**：本地存储，无需担心数据泄露
-- **模块化架构**：清晰的代码结构，易于扩展和维护
-- **智能分组**：对阅读程序/完善程序的相邻同代码题目自动分组
+- **自动评分** — 提交后即时判分，错题红色高亮 + 显示正确答案
+- **答题卡导航** — 侧边答题卡快速跳转，进度条实时显示
+- **答题记录持久化** — localStorage 存储，刷新不丢失，提交/重置后清空
+- **倒计时器** — 按试卷设定时间倒计时，5 分钟警告
+- **多题型** — 单选(choice)、判断(judge)、填空(fill)、编程(program)
+- **CSP 大题模式** — 阅读程序/完善程序代码只显示一次，子题紧凑排列
+- **阅读程序判断题** — 自动识别"正确/错误"选项，渲染为 ✓/✗ 按钮
+- **分类选项卡** — GESP / CSP-J / CSP-S / NCT 一级切换
+- **级别筛选** — GESP 1-8 级筛选，CSP 自动隐藏
+- **首页分页** — 20 份/页，切换分类/级别时重置到第 1 页
+- **代码高亮** — Prism.js C++ 语法高亮（One Light 浅色主题）
+- **数学公式** — KaTeX 渲染，`$...$` 行内、`$$...$$` 块级
+- **Markdown 渲染** — markdown-it-py，支持换行
+- **NCT 图片缩放** — Kitten 试卷图片 max-width:60%
+- **浏览器历史导航** — scroll → replaceState + popstate 恢复滚动位置
+- **全站离线** — CSS / JS / 字体全部打包在 dist/assets/，零 CDN 依赖
+- **响应式设计** — 移动端适配
 
 ## 技术栈
 
-| 类别 | 技术/库 | 用途 |
-|------|---------|------|
-| 后端语言 | Python 3 | 主要开发语言 |
-| 模板引擎 | Jinja2 | 生成 HTML 页面 |
-| Markdown 渲染 | markdown-it-py | 渲染 Markdown 内容 |
-| 前端框架 | Tailwind CSS | 响应式样式 |
-| 代码高亮 | Prism.js | 代码语法高亮 |
-| 数学公式 | KaTeX | 数学公式渲染 |
-| 数据存储 | localStorage | 本地存储答题记录 |
-| 数据格式 | JSON | 试卷数据存储 |
+| 类别 | 技术 | 用途 |
+|------|------|------|
+| 语言 | Python 3 | 构建脚本 |
+| 模板 | Jinja2 | 生成 HTML |
+| Markdown | markdown-it-py | 渲染题目内容 |
+| 样式 | Tailwind CSS | 响应式 UI |
+| 代码高亮 | Prism.js | C++ 语法着色 |
+| 数学公式 | KaTeX | 公式渲染 |
+| PDF 解析 | pdfplumber | GESP 试卷客观题提取 |
+| PDF 渲染 | PyMuPDF | 判断题答案截图 |
+| 数据 | JSON | 试卷存储 |
 
 ## 目录结构
 
 ```
-├── .venv/              # Python 虚拟环境
-├── assets/             # 静态资源
-│   ├── css/            # CSS 文件
-│   ├── images/         # 图片资源
-│   └── js/             # JavaScript 文件
-├── dist/               # 生成的静态 HTML 输出目录
-│   ├── assets/         # 复制的静态资源
-│   ├── 2023-03-gesp-1/ # 各试卷的 HTML 目录
-│   └── index.html      # 首页
-├── papers/             # 试卷 JSON 数据
-│   ├── 2023-03-gesp-1/ # 各试卷目录
-│   └── index.json      # 试卷数据
-├── templates/          # HTML 模板
-│   ├── index.html      # 首页模板
-│   └── paper.html      # 试卷详情模板
-├── build.py            # 主构建脚本
-├── download_pdfs.py    # 批量下载 GESP 试卷 PDF
-├── import_csp.py       # 导入 CSP 试卷
-└── 其他工具脚本        # 辅助功能
+├── build.py              # 核心构建脚本（JSON → HTML）
+├── gesp_import.py        # GESP 统一导入入口（7 个子命令）
+├── gesp_pdfs.json        # GESP PDF URL 配置（增量更新源）
+├── download_pdfs.py      # GESP PDF 增量下载（从 gesp_pdfs.json 读取）
+├── pdf_to_json.py        # GESP PDF → JSON（客观题解析，增量模式）
+├── import_luogu_programs.py  # GESP 编程题面导入（从洛谷题单，含 LaTeX + 样例）
+├── fix_gesp_judge.py     # GESP 判断题修复（截图 + 多模态识别 + 写入）
+├── import_csp_data.py    # CSP 试卷导入（sections → questions 格式转换）
+├── import_nct.py         # NCT 试卷导入（含图片下载）
+├── papers/               # 试卷 JSON 数据（121 份）
+│   ├── 2023-03-gesp-1/
+│   │   └── index.json
+│   ├── 2024-csp-j-2024/
+│   │   └── index.json
+│   └── nct-kitten-1-K1模拟卷1/
+│       └── index.json
+├── templates/            # Jinja2 模板
+│   ├── index.html        # 首页模板（分类选项卡 + 级别筛选）
+│   ├── paper.html        # 试卷详情模板
+│   └── 404.html          # 404 页面
+├── assets/               # 本地静态资源
+├── dist/                 # 构建输出目录
+└── requirements.txt      # Python 依赖
 ```
 
 ## 快速开始
 
 ### 环境要求
-- Python 3.10 或更高版本
-- 依赖库：
-  - jinja2
-  - markdown-it-py
-  - frontmatter (用于导入 CSP 试卷)
 
-### 安装依赖
+- Python 3.10+
+- 依赖：`jinja2`、`markdown-it-py`、`python-frontmatter`
+
+### 安装
 
 ```bash
-# 创建虚拟环境（可选）
 python3 -m venv .venv
-
-# 激活虚拟环境
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-
-# 安装依赖
-pip install jinja2 markdown-it-py python-frontmatter
+source .venv/bin/activate   # macOS/Linux
+pip install -r requirements.txt
 ```
 
-### 构建项目
+### 构建
 
 ```bash
-# 构建静态网站
-python build.py
-
-# 构建完成后，打开 dist/index.html 开始使用
+python3 build.py
+# 打开 dist/index.html 即可使用
 ```
 
-## 使用方法
+## 试卷导入
 
-### 1. 浏览试卷
-- 打开 `dist/index.html` 查看试卷列表
-- 选择考试分类（GESP、CSP-J、CSP-S、NCT）
-- 选择级别（如 GESP 1-8级）
-- 点击试卷卡片进入试卷详情
+### GESP 试卷（统一入口）
 
-### 2. 答题
-- 在试卷详情页面，阅读题目并选择答案
-- 点击「提交答案」按钮查看得分
-- 系统会自动记录最高分
-
-### 3. 导入试卷
-
-#### 导入 CSP 试卷
 ```bash
-# 从 Downloads/csp题目/ 目录导入 CSP 试卷
-python import_csp.py
+# 查看数据完整性
+python3 gesp_import.py status
+
+# 扫描官网发现新增（AI 浏览 https://gesp.ccf.org.cn/101/1010/index.html）
+python3 gesp_import.py scan
+
+# 一键全流程（下载 → 解析客观题 → 追加编程题 → 修复判断题）
+python3 gesp_import.py all
+
+# 单步操作
+python3 gesp_import.py download   # 增量下载缺失 PDF
+python3 gesp_import.py parse      # 解析客观题（跳过已有 JSON）
+python3 gesp_import.py programs   # 从洛谷导入编程题面（含 LaTeX 公式 + 样例）
+python3 gesp_import.py judge      # 检查判断题修复状态
 ```
 
-#### 下载 GESP 试卷 PDF
+**增量更新流程**：AI 浏览 GESP 官网子页面 → 提取新 PDF URL → 更新 `gesp_pdfs.json` → 运行 `gesp_import.py all`
+
+每一步自动检测已有数据，跳过已处理项，不会重复覆盖。
+
+> **增量检测机制**：各步骤的"是否需要处理"判断逻辑如下：
+>
+> | 步骤 | 判断方式 | 依赖 |
+> |------|----------|------|
+> | `download` | 对比 `gesp_pdfs.json` 配置 vs 本地文件是否已存在 | `pdfs/` 目录（不上传 GitHub） |
+> | `parse` | 对比本地 PDF vs `papers/` 中是否已有 JSON | `pdfs/` + `papers/` |
+> | `programs` | 读取 `papers/*/index.json`，检查是否已有 program 类型题目 | `papers/` + 洛谷题单 training/551~558 |
+> | `judge` | 读取 JSON 中判断题 answer 是否仍为全 False/空 | `papers/` + `pdfs/` |
+>
+> **`pdfs/` 不上传 GitHub**，但 `gesp_pdfs.json`（~5KB，92 条 URL 记录）在仓库中。新环境克隆后，运行 `gesp_import.py download` 即可从 URL 自动重建 `pdfs/` 目录，然后执行后续步骤。
+
+### GESP 判断题修复
+
+2023-09 起的 PDF 中 √/× 以矢量路径渲染，pdfplumber 无法提取文本，需用多模态识别：
+
 ```bash
-# 批量下载 GESP 官方试卷 PDF
-python download_pdfs.py
+# 步骤1：渲染判断题答案行截图
+python3 fix_gesp_judge.py render
+
+# 步骤2：用多模态模型识别截图中的 √/×
+# （人工或 AI 识别后生成 answers.json）
+
+# 步骤3：将识别结果写入 JSON
+python3 fix_gesp_judge.py apply --file answers.json
+
+# 查看修复状态
+python3 fix_gesp_judge.py status
 ```
 
-### 4. 添加自定义试卷
-1. 在 `papers/` 目录下创建新的子目录，如 `2024-06-gesp-1`
-2. 在该目录中创建 `index.json` 文件，按照以下格式填写：
+### CSP 试卷
+
+```bash
+# 从外部 data 目录导入（sections → questions 格式转换）
+python3 import_csp_data.py
+
+# 答案需从外部来源填充（极客网答案文件，内容匹配选项确定 A/B/C/D）
+# 判断题：正确 → "True"，错误 → "False"
+```
+
+### NCT 试卷
+
+```bash
+# 从原始 JSON 导入（含图片下载）
+python3 import_nct.py
+```
+
+### 手动添加试卷
+
+1. 在 `papers/` 下创建子目录（如 `2024-06-gesp-1`）
+2. 创建 `index.json`：
 
 ```json
 {
-  "title": "2024年6月 GESP C++ 一级",
+  "title": "2024年6月 GESP C++ 1级",
   "category": "GESP",
   "level": "1",
   "date": "2024-06",
   "time_limit": 60,
   "total_score": 100,
-  "description": "2024年6月 GESP C++ 一级考试试卷",
+  "description": "考试说明",
   "questions": [
     {
       "id": 1,
       "type": "choice",
-      "score": 5,
-      "content": "以下哪个是 C++ 的关键字？",
+      "score": 2,
+      "content": "题干文本（支持 Markdown）",
       "options": [
-        {"key": "A", "text": "printf"},
-        {"key": "B", "text": "cin"},
-        {"key": "C", "text": "int"},
-        {"key": "D", "text": "main"}
+        {"key": "A", "text": "选项A"},
+        {"key": "B", "text": "选项B"},
+        {"key": "C", "text": "选项C"},
+        {"key": "D", "text": "选项D"}
       ],
-      "answer": "C"
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "type": "judge",
+      "score": 2,
+      "content": "判断题题干",
+      "answer": "True"
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "score": 5,
+      "content": "填空题题干，空格用 ___ 表示",
+      "answer": "42"
+    },
+    {
+      "id": 26,
+      "type": "program",
+      "score": 25,
+      "content": "编程题描述",
+      "answer": ""
     }
-    // 更多题目...
   ]
 }
 ```
 
-3. 运行 `python build.py` 重新构建项目
+3. 运行 `python3 build.py` 重新构建
 
-## 项目优势
+## JSON 试卷格式说明
 
-### 技术优势
-1. **静态生成**：无需后端服务器，部署简单，加载速度快
-2. **离线可用**：本地存储，无需网络连接
-3. **响应式设计**：适配不同设备，移动端友好
-4. **模块化架构**：清晰的代码结构，易于扩展和维护
-5. **代码高亮**：支持多种编程语言的代码语法高亮
-6. **智能分组**：对阅读程序/完善程序的相邻同代码题目自动分组
-
-### 功能优势
-1. **多考试类型支持**：覆盖 GESP、CSP、NCT 等多种信奥考试
-2. **完整的答题系统**：支持多种题型，提供自动评分
-3. **本地数据存储**：记录答题情况和最高分
-4. **批量导入功能**：支持从 Markdown 文件批量导入试卷
-5. **PDF 下载功能**：提供官方试卷 PDF 下载
-6. **用户友好界面**：美观、直观的用户界面
-
-### 系统优势
-1. **零配置部署**：只需复制 dist/ 目录到任何静态文件服务器
-2. **数据安全**：本地存储，无需担心数据泄露
-3. **跨平台兼容**：支持所有现代浏览器
-4. **易于扩展**：模块化设计，便于添加新功能
-5. **资源整合**：集中管理多种信奥考试资源
-6. **免费使用**：完全开源，免费使用
-
-## 应用场景
-
-### 主要应用场景
-1. **学生练习**：学生可以在离线环境下练习信奥题目
-2. **教师教学**：教师可以使用系统组织练习题
-3. **考试模拟**：模拟真实考试环境，帮助学生熟悉考试形式
-4. **自学备考**：自学信奥的学生可以使用系统进行备考
-5. **赛事准备**：为 GESP、CSP、NCT 等赛事做准备
-
-### 适用人群
-- **信奥考生**：准备参加 GESP、CSP、NCT 等考试的学生
-- **信息学教师**：需要组织练习题和考试的教师
-- **编程爱好者**：对算法和编程感兴趣的学习者
-- **教育机构**：提供信奥培训的机构
-
-## 贡献指南
-
-欢迎贡献代码和提出建议！
-
-1. Fork 本仓库
-2. 创建 feature 分支
-3. 提交更改
-4. 发起 Pull Request
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `title` | string | 试卷标题 |
+| `category` | string | 分类：GESP / CSP-J / CSP-S / NCT |
+| `level` | string | 级别：GESP 为 "1"-"8"，CSP 为 "CSP-J"/"CSP-S" |
+| `date` | string | 考试日期，如 "2024-06" |
+| `time_limit` | int | 时长（分钟） |
+| `total_score` | int | 总分（GESP 含编程题 100，CSP 初赛 100） |
+| `questions[].type` | string | choice / judge / fill / program |
+| `questions[].answer` | string | choice: "A"-"D"；judge: "True"/"False"；fill: 文本；program: "" |
+| `questions[].section` | string | CSP 专用："单项选择题"/"阅读程序"/"完善程序" |
 
 ## 许可证
 
-本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
-
-## 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- GitHub Issues：[提交问题](https://github.com/yourusername/olympiad-practice-system/issues)
-
----
-
-**信奥在线刷题系统** - 为信奥学习者提供便捷、高效的在线练习平台！
+MIT

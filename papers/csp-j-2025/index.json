@@ -12,7 +12,7 @@
       "id": 1,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "一个32位无符号整数可以表示的最大值，最接近下列哪个选项?( )",
       "options": [
         {
@@ -38,7 +38,7 @@
       "id": 2,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "在 C++ 中，执行`int x = 255; cout<<(x&(x-1));`后，输出的结果是？（）",
       "options": [
         {
@@ -64,7 +64,7 @@
       "id": 3,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "函数`calc(n)`的定义如下，则`calc(5)`的返回值是多少？（）\n\n```\nint calc(int n) {\n    if (n <= 1) return 1;\n    if (n % 2 == 0) return calc(n / 2) + 1;\n    else return calc(n - 1) + calc(n - 2);\n}\n```",
       "options": [
         {
@@ -90,7 +90,7 @@
       "id": 4,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "用 $5$ 个权值 $10,12,15,20,25$ 构造哈夫曼树，该树的带权路径长度是多少?( )",
       "options": [
         {
@@ -116,7 +116,7 @@
       "id": 5,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "在一个有向图中，所有顶点的入度之和等于所有顶点的出度之和，这个总和等于？（）",
       "options": [
         {
@@ -142,7 +142,7 @@
       "id": 6,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "从 $5$ 位男生和 $4$ 位女生中选出 $4$ 人组成一个学习小组，要求学习小组中男生和女生都有。有多少种不同的选举方法？（）",
       "options": [
         {
@@ -168,7 +168,7 @@
       "id": 7,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "假设 a,b,c都是布尔变量，逻辑表达式 (a &&b)||(!c &&a) 的值与下列哪个表达式不始终相等?()\n\n假设 `a`、`b`、`c` 都是布尔变量，逻辑表达式`(a && b) || (!c && a)` 的值与下列哪个表达式不始终相等？（）",
       "options": [
         {
@@ -194,7 +194,7 @@
       "id": 8,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "D",
       "content": "已知 $f[0]=1$、$f[1]=1$，并且对于所有$n \\geq 2$ 有$f[n]=(f[n-1]+f[n-2])\\%7$，那么$f[2025]$的值是多少？（）",
       "options": [
         {
@@ -220,7 +220,7 @@
       "id": 9,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "下列关于 C++ `string` 类的说法，正确的是?()",
       "options": [
         {
@@ -246,7 +246,7 @@
       "id": 10,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "考虑以下 C++ 函数：\n\n```\nvoid solve(int &a, int b) {\n    a = a + b;\n    b = a - b;\n    a = a - b;\n}\n\nint main() {\n    int x = 5, y = 10;\n    solve(x, y);\n}\n```\n\n在 `main` 函数调用 `solve` 后，`x` 和 `y` 的值分别是?()",
       "options": [
         {
@@ -272,7 +272,7 @@
       "id": 11,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "一个 $8\\times 8$ 的棋盘，左上角坐标为 $(1,1)$，右下角为 $(8,8)$。一个机器人从 $(1,1)$ 出发，每次只能向右或向下走一格。要到达 $(4,5)$，有多少种不同的路径?()",
       "options": [
         {
@@ -298,7 +298,7 @@
       "id": 12,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "B",
       "content": "某同学用冒泡排序对数组 $\\{6,1,5,2,4\\}$ 进行升序排序，请问需要进行多少次元素交换 ? ( )",
       "options": [
         {
@@ -324,7 +324,7 @@
       "id": 13,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "十进制数 $720_{10}$ 和八进制数 $270_8$ 的和用十六进制表示是多少?()",
       "options": [
         {
@@ -350,7 +350,7 @@
       "id": 14,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "C",
       "content": "一棵包含 $1000$ 个结点的完全二叉树，其叶子结点的数量是多少?()",
       "options": [
         {
@@ -376,7 +376,7 @@
       "id": 15,
       "section": "单项选择题",
       "score": 2,
-      "answer": "None",
+      "answer": "A",
       "content": "给定一个初始为空的整数栈 $S$ 和一个空的队列 $P$。我们按顺序处理输入的整数队列 $A$: `7,5,8,3,1,4,2` 。对于队列 $A$ 中的每一个数，执行以下规则：如果该数是奇数，则将其压入栈 $S$；如果该数是偶数，且栈 $S$ 非空，则弹出一个栈顶元素，并加入到队列 $P$ 的末尾：如果该数是偶数，且栈 $S$ 为空，则不进行任何操作。当队列 $A$ 中的所有数都处理完毕后，队列 $P$ 的内容是什么?()",
       "options": [
         {
@@ -402,7 +402,7 @@
       "id": 16,
       "section": "阅读程序",
       "score": 1,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n当输入为 `2` 时，程序并不会执行第 16 行的判断语句。()",
       "options": [
         {
@@ -420,7 +420,7 @@
       "id": 17,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n将第 16 行中的 `&& gcd(i, k) == 1` 删去不会影响程序运行结果。( )",
       "options": [
         {
@@ -438,7 +438,7 @@
       "id": 18,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n当输入的 $n\\geq 3$ 的时候，程序总是输出一个正整数。()",
       "options": [
         {
@@ -456,7 +456,7 @@
       "id": 19,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n将第 7 行的 `gcd(b, a % b)` 改为`gcd(a, a % b)` 后，程序可能出现的问题是()。",
       "options": [
         {
@@ -482,7 +482,7 @@
       "id": 20,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n当输入为 `8` 的时候，输出为( )。",
       "options": [
         {
@@ -508,7 +508,7 @@
       "id": 21,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\ninline int gcd(int a, int b) {\n    if (b == 0)\n        return a;\n    return gcd(b, a % b);\n}\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    int ans = 0;\n    for (int i = 1; i <= n; ++i) {\n        for (int j = i + 1; j <= n; ++j) {\n            for (int k = j + 1; k <= n; ++k) {\n                if (gcd(i, j) == 1 && gcd(j, k) == 1\n                    && gcd(i, k) == 1) {\n                    ++ans;\n                }\n            }\n        }\n    }\n    printf(\"%d\\n\", ans);\n    return 0;\n}\n```\n\n调用 `gcd(36, 42)` 会返回 ( )。",
       "options": [
         {
@@ -534,7 +534,7 @@
       "id": 22,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n当输入为 `3 1 3 2 1` 时，输出结果为 `2`。()",
       "options": [
         {
@@ -552,7 +552,7 @@
       "id": 23,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n假设输入的 `n` 为正整数，输出的答案一定小于等于`n`，大于等于 `1`。()",
       "options": [
         {
@@ -570,7 +570,7 @@
       "id": 24,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n将第 14 行的 `n = std::unique(a + 1, a + n + 1) - a - 1;` 删去后，有可能出现与原本代码不同的输出结果。()",
       "options": [
         {
@@ -588,7 +588,7 @@
       "id": 25,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n假设输入的 `a` 数组和 `k` 均为正整数，执行第 18 行代码时，一定满足的条件不包括()。",
       "options": [
         {
@@ -614,7 +614,7 @@
       "id": 26,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n当输入的 $n=100$、$k=2$、$a=\\{1,2,…,100\\}$ 时，输出为()",
       "options": [
         {
@@ -640,7 +640,7 @@
       "id": 27,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint n, k;\nint a[200007];\nint ans[200007];\nint main() {\n    scanf(\"%d%d\", &n, &k);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    std::sort(a + 1, a + n + 1);\n    n = std::unique(a + 1, a + n + 1) - a - 1;\n    for (int i = 1, j = 0; i <= n; ++i) {\n        for (; j < i && a[i] - a[j + 1] > k; ++j)\n            ;\n        ans[i] = ans[j] + 1;\n    }\n    printf(\"%d\\n\", ans[n]);\n    return 0;\n}\n```\n\n假设输入的 `a` 数组和 `k` 均为正整数，但 `a` 数组不一定有序，则若误删去第 13 行的 `std::sort(a+1,a+n+1);`，程序有可能出现的问题有()。",
       "options": [
         {
@@ -666,7 +666,7 @@
       "id": 28,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n当输入 `4 1 2 3 4 1 3 2 2` 时 ，输出为 `2` 。 ( )",
       "options": [
         {
@@ -684,7 +684,7 @@
       "id": 29,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "True",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n当程序运行完毕后，对于所有的 $1\\leq i$，$j\\leq n$，都一定有 `f[i][j] <= f[n][n]`。()",
       "options": [
         {
@@ -702,7 +702,7 @@
       "id": 30,
       "section": "阅读程序",
       "score": 1.5,
-      "answer": "None",
+      "answer": "False",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n将第 18 行的 `f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]);` 删去后，并不影响程序运行结果。()",
       "options": [
         {
@@ -720,7 +720,7 @@
       "id": 31,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n输出的答案满足的性质有( )。",
       "options": [
         {
@@ -746,7 +746,7 @@
       "id": 32,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n如果在 16 行的循环前加上以下两行： `std::sort(a + 1, a + n + 1); std::sort(b + 1, b + n + 1)`, 则答案会 ( ) 。",
       "options": [
         {
@@ -772,7 +772,7 @@
       "id": 33,
       "section": "阅读程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <algorithm>\n#include <cstdio>\n#include <cstring>\n#define ll long long\nint f[5007][5007];\nint a[5007], b[5007];\nint n;\nint main() {\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &a[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        scanf(\"%d\", &b[i]);\n    }\n    for (int i = 1; i <= n; ++i) {\n        for (int j = 1; j <= n; ++j) {\n            f[i][j] = std::max(f[i][j], std::max(f[i - 1][j], f[i][j - 1]));\n            if (a[i] == b[j]) {\n                f[i][j] = std::max(f[i][j], f[i - 1][j - 1] + 1);\n            }\n        }\n    }\n    printf(\"%d\\n\", f[n][n]);\n    return 0;\n}\n```\n\n如果输入的 `a={1, 2, … , n}`, 而且 `b` 数组中数字均为 `1~n` 中的正整数，则上述代码等价于下面哪个问题：( )。",
       "options": [
         {
@@ -798,7 +798,7 @@
       "id": 34,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <cctype>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string z;\n    cin >> z;\n    string s = \"\";\n\n    for (int i = 0; i < z.length(); ) {\n        char ch = z[i];\n\n        if (_____①_____ && isdigit(z[i + 1])) {\n            i++;\n            int count = 0;\n            while (i < z.length() && isdigit(z[i])) {\n                count = _____②_____;\n                i++;\n            }\n            for (int j = 0; j < _____③_____; ++j) {\n                s += ch;\n            }\n        } else {\n            s += _____④_____;\n            _____⑤_____;\n        }\n    }\n\n    cout << s << endl;\n    return 0;\n}\n```\n\n①处应填 ( )",
       "options": [
         {
@@ -824,7 +824,7 @@
       "id": 35,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <cctype>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string z;\n    cin >> z;\n    string s = \"\";\n\n    for (int i = 0; i < z.length(); ) {\n        char ch = z[i];\n\n        if (_____①_____ && isdigit(z[i + 1])) {\n            i++;\n            int count = 0;\n            while (i < z.length() && isdigit(z[i])) {\n                count = _____②_____;\n                i++;\n            }\n            for (int j = 0; j < _____③_____; ++j) {\n                s += ch;\n            }\n        } else {\n            s += _____④_____;\n            _____⑤_____;\n        }\n    }\n\n    cout << s << endl;\n    return 0;\n}\n```\n\n②处应填( )",
       "options": [
         {
@@ -850,7 +850,7 @@
       "id": 36,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <cctype>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string z;\n    cin >> z;\n    string s = \"\";\n\n    for (int i = 0; i < z.length(); ) {\n        char ch = z[i];\n\n        if (_____①_____ && isdigit(z[i + 1])) {\n            i++;\n            int count = 0;\n            while (i < z.length() && isdigit(z[i])) {\n                count = _____②_____;\n                i++;\n            }\n            for (int j = 0; j < _____③_____; ++j) {\n                s += ch;\n            }\n        } else {\n            s += _____④_____;\n            _____⑤_____;\n        }\n    }\n\n    cout << s << endl;\n    return 0;\n}\n```\n\n③处应填()",
       "options": [
         {
@@ -876,7 +876,7 @@
       "id": 37,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <cctype>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string z;\n    cin >> z;\n    string s = \"\";\n\n    for (int i = 0; i < z.length(); ) {\n        char ch = z[i];\n\n        if (_____①_____ && isdigit(z[i + 1])) {\n            i++;\n            int count = 0;\n            while (i < z.length() && isdigit(z[i])) {\n                count = _____②_____;\n                i++;\n            }\n            for (int j = 0; j < _____③_____; ++j) {\n                s += ch;\n            }\n        } else {\n            s += _____④_____;\n            _____⑤_____;\n        }\n    }\n\n    cout << s << endl;\n    return 0;\n}\n```\n\n④处应填()",
       "options": [
         {
@@ -902,7 +902,7 @@
       "id": 38,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <cctype>\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string z;\n    cin >> z;\n    string s = \"\";\n\n    for (int i = 0; i < z.length(); ) {\n        char ch = z[i];\n\n        if (_____①_____ && isdigit(z[i + 1])) {\n            i++;\n            int count = 0;\n            while (i < z.length() && isdigit(z[i])) {\n                count = _____②_____;\n                i++;\n            }\n            for (int j = 0; j < _____③_____; ++j) {\n                s += ch;\n            }\n        } else {\n            s += _____④_____;\n            _____⑤_____;\n        }\n    }\n\n    cout << s << endl;\n    return 0;\n}\n```\n\n⑤处应填()",
       "options": [
         {
@@ -928,7 +928,7 @@
       "id": 39,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "B",
       "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint N;\nbool query(int i, int j);\n\nint main() {\n    cin >> N;\n\n    int candidate = 0;\n    int count = _____①_____;\n\n    for (int i = 1; i < N; ++i) {\n        if (_____②_____) {\n            candidate = i;\n            count = 1;\n        } else {\n            if (_____③_____) {\n                _____④_____;\n            } else {\n                count++;\n            }\n        }\n    }\n\n    cout << _____⑤_____ << endl;\n    return 0;\n}\n```\n\n①处应填()",
       "options": [
         {
@@ -954,7 +954,7 @@
       "id": 40,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint N;\nbool query(int i, int j);\n\nint main() {\n    cin >> N;\n\n    int candidate = 0;\n    int count = _____①_____;\n\n    for (int i = 1; i < N; ++i) {\n        if (_____②_____) {\n            candidate = i;\n            count = 1;\n        } else {\n            if (_____③_____) {\n                _____④_____;\n            } else {\n                count++;\n            }\n        }\n    }\n\n    cout << _____⑤_____ << endl;\n    return 0;\n}\n```\n\n②处应填()",
       "options": [
         {
@@ -980,7 +980,7 @@
       "id": 41,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "D",
       "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint N;\nbool query(int i, int j);\n\nint main() {\n    cin >> N;\n\n    int candidate = 0;\n    int count = _____①_____;\n\n    for (int i = 1; i < N; ++i) {\n        if (_____②_____) {\n            candidate = i;\n            count = 1;\n        } else {\n            if (_____③_____) {\n                _____④_____;\n            } else {\n                count++;\n            }\n        }\n    }\n\n    cout << _____⑤_____ << endl;\n    return 0;\n}\n```\n\n③处应填()",
       "options": [
         {
@@ -1006,7 +1006,7 @@
       "id": 42,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "A",
       "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint N;\nbool query(int i, int j);\n\nint main() {\n    cin >> N;\n\n    int candidate = 0;\n    int count = _____①_____;\n\n    for (int i = 1; i < N; ++i) {\n        if (_____②_____) {\n            candidate = i;\n            count = 1;\n        } else {\n            if (_____③_____) {\n                _____④_____;\n            } else {\n                count++;\n            }\n        }\n    }\n\n    cout << _____⑤_____ << endl;\n    return 0;\n}\n```\n\n④处应填()",
       "options": [
         {
@@ -1032,7 +1032,7 @@
       "id": 43,
       "section": "完善程序",
       "score": 3,
-      "answer": "None",
+      "answer": "C",
       "content": "```\n#include <iostream>\n#include <vector>\nusing namespace std;\n\nint N;\nbool query(int i, int j);\n\nint main() {\n    cin >> N;\n\n    int candidate = 0;\n    int count = _____①_____;\n\n    for (int i = 1; i < N; ++i) {\n        if (_____②_____) {\n            candidate = i;\n            count = 1;\n        } else {\n            if (_____③_____) {\n                _____④_____;\n            } else {\n                count++;\n            }\n        }\n    }\n\n    cout << _____⑤_____ << endl;\n    return 0;\n}\n```\n\n⑤处应填()",
       "options": [
         {
