@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nwhile (p != nullptr){\n    cout << p->data << \" \";\n    p = p->next;\n}\n```\n"
+          "text": "```cpp\nwhile (p != nullptr) {\n    cout << p->data << \" \";\n    p = p->next;\n}\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nwhile (p->next != nullptr){\n    cout << p->data << \" \";\n    p = p->next;\n}\n```\n"
+          "text": "```cpp\nwhile (p->next != nullptr) {\n    cout << p->data << \" \";\n    p = p->next;\n}\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\ndo {\n    cout << p->data << \" \";\n    p = p->next;\n} while (p != head);\n```\n"
+          "text": "```cpp\ndo {\n    cout << p->data << \" \";\n    p = p->next;\n} while (p != head);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nfor(; p; p=p->next){\n    cout << p->data << \" \";\n}\n```\n"
+          "text": "```cpp\nfor (; p; p = p->next) {\n    cout << p->data << \" \";\n}\n```"
         }
       ],
-      "content": "对如下定义的循环单链表，横线处填写（ ）。\n\n```cpp\n// 循环单链表的结点\nstruct Node {\n    int data; // 数据域\n    Node* next; // 指针域\n    Node(int d) : data(d), next(nullptr) {}\n};\n// 创建一个只有一个结点的循环单链表\nNode* createList(int value) {\n    Node* head = new Node(value);\n    head->next = head;\n    return head;\n}\n// 在循环单链表尾部插入新结点\nvoid insertTail(Node* head, int value) {\n    Node* p = head;\n    while (p->next != head) {\n        p = p->next;\n    }\n    Node* node = new Node(value);\n    node->next = head;\n    p->next = node;\n}\n// 遍历并输出循环单链表\nvoid printList(Node* head) {\n    if (head == nullptr) return;\n    Node* p = head;\n    _______________________ //在此处填入代码\n    cout << endl;\n}\n```\n"
+      "content": "对如下定义的循环单链表，横线处填写（ ）。\n\n```cpp\n// 循环单链表的结点\nstruct Node {\n    int data; // 数据域\n    Node* next; // 指针域\n    Node(int d) : data(d), next(nullptr) {}\n};\n// 创建一个只有一个结点的循环单链表\nNode* createList(int value) {\n    Node* head = new Node(value);\n    head->next = head;\n    return head;\n}\n// 在循环单链表尾部插入新结点\nvoid insertTail(Node* head, int value) {\n    Node* p = head;\n    while (p->next != head) {\n        p = p->next;\n    }\n    Node* node = new Node(value);\n    node->next = head;\n    p->next = node;\n}\n// 遍历并输出循环单链表\nvoid printList(Node* head) {\n    if (head == nullptr) return;\n    Node* p = head;\n    _______________________ //在此处填入代码\n    cout << endl;\n}\n```"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail);\ntail = newBlock->prev;\n```\n"
+          "text": "```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail);\ntail = newBlock->prev;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail);\ntail = newBlock;\n```\n"
+          "text": "```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail);\ntail = newBlock;\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail->prev);\ntail = newBlock;\n```\n"
+          "text": "```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail->prev);\ntail = newBlock;\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail->prev);\ntail = newBlock->prev;\n```\n"
+          "text": "```cpp\nBlock* newBlock = new Block(tail->index + 1, data, tail->prev);\ntail = newBlock->prev;\n```"
         }
       ],
-      "content": "区块链技术是比特币的基础。在区块链中，每个区块指向前一个区块，构成链式列表，新区块只能接在链\n尾，不允许在中间插入或删除。下面代码实现插入区块添加函数，则横线处填写（ ）。\n\n```cpp\n//区块（节点）\nstruct Block {\n    int index; // 区块编号（高度）\n    string data; // 区块里保存的数据\n    Block* prev; // 指向前一个区块\n    Block(int idx, const string& d, Block* p) : index(idx), data(d), prev(p) {}\n};\n// 区块链\nstruct Blockchain {\n    Block* tail;\n    // 初始化\n    void init() {\n        tail = new Block(0, \"Genesis Block\", nullptr);\n    }\n    // 插入新区块\n    void addBlock(const string& data) {\n        _______________________ //在此处填入代码\n    }\n    // 释放内存\n    void clear() {\n        Block* cur = tail;\n        while (cur != nullptr) {\n            Block* p = cur->prev;\n            delete cur;\n            cur = p;\n        }\n        tail = nullptr;\n    }\n};\n```\n"
+      "content": "区块链技术是比特币的基础。在区块链中，每个区块指向前一个区块，构成链式列表，新区块只能接在链尾，不允许在中间插入或删除。下面代码实现插入区块添加函数，则横线处填写（ ）。\n\n```cpp\n//区块（节点）\nstruct Block {\n    int index; // 区块编号（高度）\n    string data; // 区块里保存的数据\n    Block* prev; // 指向前一个区块\n    Block(int idx, const string& d, Block* p) : index(idx), data(d), prev(p) {}\n};\n// 区块链\nstruct Blockchain {\n    Block* tail;\n    // 初始化\n    void init() {\n        tail = new Block(0, \"Genesis Block\", nullptr);\n    }\n    // 插入新区块\n    void addBlock(const string& data) {\n        _______________________ //在此处填入代码\n    }\n    // 释放内存\n    void clear() {\n        Block* cur = tail;\n        while (cur != nullptr) {\n            Block* p = cur->prev;\n            delete cur;\n            cur = p;\n        }\n        tail = nullptr;\n    }\n};\n```"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "双链表删除指定节点是 ，单链表是"
+          "text": "双链表删除指定节点是 $O(1)$ ，单链表是 $O(n)$"
         },
         {
           "key": "B",
-          "text": "双链表删除指定节点是 ，单链表是"
+          "text": "双链表删除指定节点是 $O(n)$ ，单链表是 $O(1)$"
         },
         {
           "key": "C",
-          "text": "双链表删除指定节点是 ，单链表是"
+          "text": "双链表删除指定节点是 $O(n)$ ，单链表是 $O(n)$"
         },
         {
           "key": "D",
-          "text": "双链表删除指定节点是 ，单链表是"
+          "text": "双链表删除指定节点是 $O(1)$ ，单链表是 $O(1)$"
         }
       ],
-      "content": "下面关于单链表和双链表的描述中，正确的是（ ）。\n\n```cpp\nstruct DNode {\n    int data;\n    DNode* prev;\n    DNode* next;\n};\n// 在双链表中删除指定节点\nvoid deleteNode(DNode* node) {\n    if (node->prev) {\n        node->prev->next = node->next;\n    }\n    if (node->next) {\n        node->next->prev = node->prev;\n    }\n    delete node;\n}\nstruct SNode {\n    int data;\n    SNode* next;\n};\n// 在单链表中删除指定节点\nvoid deleteSNode(SNode* head, SNode* node) {\n    SNode* prev = head;\n    while (prev->next != node) {\n        prev = prev->next;\n    }\n    prev->next = node->next;\n    delete node;\n}\n```\n"
+      "content": "下面关于单链表和双链表的描述中，正确的是（ ）。\n\n```cpp\nstruct DNode {\n    int data;\n    DNode* prev;\n    DNode* next;\n};\n// 在双链表中删除指定节点\nvoid deleteNode(DNode* node) {\n    if (node->prev) {\n        node->prev->next = node->next;\n    }\n    if (node->next) {\n        node->next->prev = node->prev;\n    }\n    delete node;\n}\nstruct SNode {\n    int data;\n    SNode* next;\n};\n// 在单链表中删除指定节点\nvoid deleteSNode(SNode* head, SNode* node) {\n    SNode* prev = head;\n    while (prev->next != node) {\n        prev = prev->next;\n    }\n    prev->next = node->next;\n    delete node;\n}\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "B",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "C",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "9"
+          "text": "$9$"
         }
       ],
-      "content": "假设我们有两个数 和 ，它们对模 同余，即 。以下哪个值不可能是 ？\n"
+      "content": "假设我们有两个数 $a$ 和 $b$ ，它们对模 $m$ 同余，即 $a \\equiv b \\pmod{m}$ 。以下哪个值不可能是 $m$ ？"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "gcd1() 实现为递归方式。"
+          "text": "`gcd1()` 实现为递归方式。"
         },
         {
           "key": "B",
-          "text": "gcd2() 实现为迭代方式。"
+          "text": "`gcd2()` 实现为迭代方式。"
         },
         {
           "key": "C",
-          "text": "当 较大时，gcd1() 实现会多次调用自身，需要较多额外的辅助空间。"
+          "text": "当 $a$ 和 $b$ 较大时，`gcd1()` 实现会多次调用自身，需要较多额外的辅助空间。"
         },
         {
           "key": "D",
-          "text": "当 较大时，gcd1() 的实现比 gcd2() 执行效率更高。"
+          "text": "当 $a$ 和 $b$ 较大时，`gcd1()` 的实现比 `gcd2()` 执行效率更高。"
         }
       ],
-      "content": "下面代码实现了欧几里得算法。下面有关说法，错误的是（ ）。\n\n```cpp\nint gcd1(int a, int b) {\n    return b == 0 ? a : gcd1(b, a % b);\n}\nint gcd2(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n```\n"
+      "content": "下面代码实现了欧几里得算法。下面有关说法，错误的是（ ）。\n\n```cpp\nint gcd1(int a, int b) {\n    return b == 0 ? a : gcd1(b, a % b);\n}\nint gcd2(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n```"
     },
     {
       "type": "choice",
@@ -140,11 +140,11 @@
       "options": [
         {
           "key": "A",
-          "text": "任何正整数都可以表⽰为两个素数的和。"
+          "text": "任何正整数都可以表示为两个素数的和。"
         },
         {
           "key": "B",
-          "text": "任何大于1的合数都可以唯一分解为有限个质数的乘积。"
+          "text": "任何大于 $1$ 的合数都可以唯一分解为有限个质数的乘积。"
         },
         {
           "key": "C",
@@ -155,7 +155,7 @@
           "text": "所有素数都是奇数。"
         }
       ],
-      "content": "唯一分解定理描述的内容是（ ）。\n"
+      "content": "唯一分解定理描述的内容是（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "for (int j = 0; j < primes.size() && i * primes[j] <= n; j++)"
+          "text": "`for (int j = 0; j < primes.size() && i * primes[j] <= n; j++)`"
         },
         {
           "key": "B",
-          "text": "for(int j = sqrt(n); j <= n && i * primes[j] <= n; j++)"
+          "text": "`for (int j = sqrt(n); j <= n && i * primes[j] <= n; j++)`"
         },
         {
           "key": "C",
-          "text": "for (int j = 1; j <= sqrt(n); j++)"
+          "text": "`for (int j = 1; j <= sqrt(n); j++)`"
         },
         {
           "key": "D",
-          "text": "for(int j = 1; j < n && i * primes[j] <= n; j++)"
+          "text": "`for (int j = 1; j < n && i * primes[j] <= n; j++)`"
         }
       ],
-      "content": "下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数，则横线上应填的代码是( )。\n\n```cpp\nvector<int> linear_sieve(int n) {\n    vector<bool> is_prime(n +1, true);\n    vector<int> primes;\n    is_prime[0] = is_prime[1] = 0; //0和1两个数特殊处理\n    for (int i = 2; i <= n; ++i) {\n        if (is_prime[i]) {\n            primes.push_back(i);\n        }\n        ________________________________ { // 在此处填入代码\n            is_prime[ i * primes[j] ] = 0;\n            if (i % primes[j] == 0)\n            break;\n        }\n    }\n    return primes;\n}\n```\n"
+      "content": "下述代码实现素数表的线性筛法，筛选出所有小于等于 $n$ 的素数，则横线上应填的代码是( )。\n\n```cpp\nvector<int> linear_sieve(int n) {\n    vector<bool> is_prime(n + 1, true);\n    vector<int> primes;\n    is_prime[0] = is_prime[1] = 0; // 0 和 1 两个数特殊处理\n    for (int i = 2; i <= n; ++i) {\n        if (is_prime[i]) {\n            primes.push_back(i);\n        }\n        ________________________________ { // 在此处填入代码\n            is_prime[i * primes[j]] = 0;\n            if (i % primes[j] == 0)\n                break;\n        }\n    }\n    return primes;\n}\n```"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": "冒泡排序不是原地排序"
         }
       ],
-      "content": "下列关于排序的说法，正确的是( )。\n"
+      "content": "下列关于排序的说法，正确的是( )。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "归并排序的平均复杂度是 。"
+          "text": "归并排序的平均复杂度是 $O(n \\log n)$ 。"
         },
         {
           "key": "B",
-          "text": "归并排序需要 的额外空间。"
+          "text": "归并排序需要 $O(n)$ 的额外空间。"
         },
         {
           "key": "C",
-          "text": "归并排序在最坏情况的时间复杂度是 。"
+          "text": "归并排序在最坏情况的时间复杂度是 $O(n \\log n)$ 。"
         },
         {
           "key": "D",
           "text": "归并排序适合大规模数据。"
         }
       ],
-      "content": "下面代码实现了归并排序。下述关于归并排序的说法中，不正确的是（ ）。\n\n```cpp\nvoid merge(vector<int>& arr, vector<int>& temp, int l, int mid, int r) {\n    int i = l, j = mid + 1, k = l;\n    while (i <= mid && j <= r) {\n        if (arr[i] <= arr[j]) temp[k++] = arr[i++];\n        else temp[k++] = arr[j++];\n    }\n    while (i <= mid) temp[k++] = arr[i++];\n    while (j <= r) temp[k++] = arr[j++];\n    for (int p = l; p <= r; p++) arr[p] = temp[p];\n}\nvoid mergeSort(vector<int>& arr, vector<int>& temp, int l, int r) {\n    if (l >= r) return;\n    int mid = l + (r - l) / 2;\n    mergeSort(arr, temp, l, mid);\n    mergeSort(arr, temp, mid + 1, r);\n    merge(arr, temp, l, mid, r);\n}\n```\n"
+      "content": "下面代码实现了归并排序。下述关于归并排序的说法中，不正确的是（ ）。\n\n```cpp\nvoid merge(vector<int>& arr, vector<int>& temp, int l, int mid, int r) {\n    int i = l, j = mid + 1, k = l;\n    while (i <= mid && j <= r) {\n        if (arr[i] <= arr[j]) temp[k++] = arr[i++];\n        else temp[k++] = arr[j++];\n    }\n    while (i <= mid) temp[k++] = arr[i++];\n    while (j <= r) temp[k++] = arr[j++];\n    for (int p = l; p <= r; p++) arr[p] = temp[p];\n}\nvoid mergeSort(vector<int>& arr, vector<int>& temp, int l, int r) {\n    if (l >= r) return;\n    int mid = l + (r - l) / 2;\n    mergeSort(arr, temp, l, mid);\n    mergeSort(arr, temp, mid + 1, r);\n    merge(arr, temp, l, mid, r);\n}\n```"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": ""
         }
       ],
-      "content": "下述C++代码实现了快速排序算法，最坏情况的时间复杂度是（ ）。\n\n```cpp\nint partition(vector<int>& arr, int low, int high) {\n    int i = low, j = high;\n    int pivot = arr[low]; // 以首元素为基准\n    while (i < j) {\n        while (i < j && arr[j] >= pivot) j--;\n        while (i < j && arr[i] <= pivot) i++;\n        if (i < j) swap(arr[i], arr[j]);\n    }\n    swap(arr[i], arr[low]);\n    return i;\n}\nvoid quickSort(vector<int>& arr, int low, int high) {\n    if (low >= high) return;\n    int p = partition(arr, low, high);\n    quickSort(arr, low, p - 1);\n    quickSort(arr, p + 1, high);\n}\n```\n"
+      "content": "下述 C++ 代码实现了快速排序算法，最坏情况的时间复杂度是（ ）。\n\n```cpp\nint partition(vector<int>& arr, int low, int high) {\n    int i = low, j = high;\n    int pivot = arr[low]; // 以首元素为基准\n    while (i < j) {\n        while (i < j && arr[j] >= pivot) j--;\n        while (i < j && arr[i] <= pivot) i++;\n        if (i < j) swap(arr[i], arr[j]);\n    }\n    swap(arr[i], arr[low]);\n    return i;\n}\nvoid quickSort(vector<int>& arr, int low, int high) {\n    if (low >= high) return;\n    int p = partition(arr, low, high);\n    quickSort(arr, low, p - 1);\n    quickSort(arr, p + 1, high);\n}\n```"
     },
     {
       "type": "choice",
@@ -269,18 +269,18 @@
         },
         {
           "key": "B",
-          "text": "上述代码逻辑错误，while 循环条件应该用 l <= r"
+          "text": "上述代码逻辑错误，`while` 循环条件应该用 `l <= r`"
         },
         {
           "key": "C",
-          "text": "上述代码逻辑错误，mid 计算错误"
+          "text": "上述代码逻辑错误，`mid` 计算错误"
         },
         {
           "key": "D",
           "text": "上述代码逻辑错误，边界条件不对"
         }
       ],
-      "content": "下面代码尝试在有序数组中查找第一个大于等于 x 的元素位置。如果没有大于等于 x 的元素，返回\narr.size()。以下说法正确的是（ ）。\n\n```cpp\nint lower_bound(vector<int>& arr, int x) {\n    int l = 0, r = arr.size();\n    while(l < r) {\n        int mid = l + (r - l) / 2;\n        if(arr[mid] >= x) r = mid;\n        else l = mid + 1;\n    }\n    return l;\n}\n```\n"
+      "content": "下面代码尝试在有序数组中查找第一个大于等于 $x$ 的元素位置。如果没有大于等于 $x$ 的元素，返回 `arr.size()`。以下说法正确的是（ ）。\n\n```cpp\nint lower_bound(vector<int>& arr, int x) {\n    int l = 0, r = arr.size();\n    while(l < r) {\n        int mid = l + (r - l) / 2;\n        if(arr[mid] >= x) r = mid;\n        else l = mid + 1;\n    }\n    return l;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nif (check(L, K, mid))\nr = mid;\nelse\nl = mid + 1;\n```\n"
+          "text": "```cpp\nif (check(L, K, mid))\n    r = mid;\nelse\n    l = mid + 1;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nif (check(L, K, mid))\nr = mid+1;\nelse\nl = mid + 1;\n```\n"
+          "text": "```cpp\nif (check(L, K, mid))\n    r = mid + 1;\nelse\n    l = mid + 1;\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nif (check(L, K, mid))\nr = mid + 1;\nelse\nl = mid - 1;\n```\n"
+          "text": "```cpp\nif (check(L, K, mid))\n    r = mid + 1;\nelse\n    l = mid - 1;\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nif (check(L, K, mid))\nr = mid + 1;\nelse\nl = mid;\n```\n"
+          "text": "```cpp\nif (check(L, K, mid))\n    r = mid + 1;\nelse\n    l = mid;\n```"
         }
       ],
-      "content": "小杨要把一根长度为 L 的⽊头切成 K 段，使得每段长度小于等于 x。已知每切一⼑只能把一段⽊头分成\n两段，他用二分法找到满足条件的最小 x（x 为正整数），则横线处应填写（ ）。\n\n```cpp\n// 判断：在不超过 K 次切割内，是否能让每段长度 <= x\nbool check(int L, int K, int x) {\n    int cuts = (L - 1) / x;\n    return cuts <= K;\n}\n// 二分查找最小可行的 x\nint binary_cut(int L, int K) {\n    int l = 1, r = L;\n    while (l < r) {\n        int mid = l + (r - l) / 2;\n        ________________________________ // 在此处填入代码\n    }\n    return l;\n}\nint main() {\n    int L = 10; // 木头长度\n    int K = 2; // 最多切 K 刀\n    cout << binary_cut(L, K) << endl;\n    return 0;\n}\n```\n"
+      "content": "小杨要把一根长度为 $L$ 的木头切成 $K$ 段，使得每段长度小于等于 $x$。已知每切一刀只能把一段木头分成两段，他用二分法找到满足条件的最小 $x$（$x$ 为正整数），则横线处应填写（ ）。\n\n```cpp\n// 判断：在不超过 K 次切割内，是否能让每段长度 <= x\nbool check(int L, int K, int x) {\n    int cuts = (L - 1) / x;\n    return cuts <= K;\n}\n// 二分查找最小可行的 x\nint binary_cut(int L, int K) {\n    int l = 1, r = L;\n    while (l < r) {\n        int mid = l + (r - l) / 2;\n        ________________________________ // 在此处填入代码\n    }\n    return l;\n}\nint main() {\n    int L = 10; // 木头长度\n    int K = 2; // 最多切 K 刀\n    cout << binary_cut(L, K) << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "上面两种实现方式的时间复杂度相同，都为"
+          "text": "上面两种实现方式的时间复杂度相同，都为 $O(n)$"
         },
         {
           "key": "B",
-          "text": "上面两种实现方式的空间复杂度相同，都为"
+          "text": "上面两种实现方式的空间复杂度相同，都为 $O(1)$"
         },
         {
           "key": "C",
-          "text": "上面两种实现方式的空间复杂度相同，都为"
+          "text": "上面两种实现方式的空间复杂度相同，都为 $O(n)$"
         },
         {
           "key": "D",
-          "text": "函数 factorial1() 的时间复杂度为 ，函数 factorial2() 的时间复杂度为"
+          "text": "函数 `factorial1()` 的时间复杂度为 $O(n)$ ，函数 `factorial2()` 的时间复杂度为 $O(1)$"
         }
       ],
-      "content": "下面给出了阶乘计算的两种方式。以下说法正确的是（ ）。\n\n```cpp\nint factorial1(int n) {\n    if (n <= 1) return 1;\n    return n * factorial1(n - 1);\n}\nint factorial2(int n) {\n    int acc = 1;\n    while (n > 1) {\n        acc = n * acc;\n        n = n - 1;\n    }\n    return acc;\n}\n```\n"
+      "content": "下面给出了阶乘计算的两种方式。以下说法正确的是（ ）。\n\n```cpp\nint factorial1(int n) {\n    if (n <= 1) return 1;\n    return n * factorial1(n - 1);\n}\nint factorial2(int n) {\n    int acc = 1;\n    while (n > 1) {\n        acc = n * acc;\n        n = n - 1;\n    }\n    return acc;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nslot[t] = true;\ntotalProfit += task.profit;\n```\n"
+          "text": "```cpp\nslot[t] = true;\ntotalProfit += task.profit;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nslot[t] = false;\ntotalProfit += task.profit;\n```\n"
+          "text": "```cpp\nslot[t] = false;\ntotalProfit += task.profit;\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nslot[t] = true;\ntotalProfit = task.profit;\n```\n"
+          "text": "```cpp\nslot[t] = true;\ntotalProfit = task.profit;\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nslot[t] = false;\ntotalProfit = task.profit;\n```\n"
+          "text": "```cpp\nslot[t] = false;\ntotalProfit = task.profit;\n```"
         }
       ],
-      "content": "给定有 个任务，每个任务有截⽌时间和利润，每个任务耗时 1 个时间单位、必须在截⽌时间前完成，且每\n个时间槽最多做 1 个任务。为了在规定时间内获得最大利润，可以采用贪心策略，即按利润从高到低排序，尽量安\n排，则横线处应填写（ ）。\n\n```cpp\nstruct Task {\n    int deadline; //截止时间\n    int profit; //利润\n};\nvoid sortByProfit(vector<Task>& tasks) {\n    sort(tasks.begin(), tasks.end(),\n    [](const Task& a, const Task& b) {\n        return a.profit > b.profit;\n    });\n}\nint maxProfit(vector<Task>& tasks) {\n    sortByProfit(tasks);\n    int maxTime = 0;\n    for (auto& t : tasks) {\n        maxTime = max(maxTime, t.deadline);\n    }\n    vector<bool> slot(maxTime + 1, false);\n    int totalProfit = 0;\n    for (auto& task : tasks) {\n        for (int t = task.deadline; t >= 1; t--) {\n            if (!slot[t]) {\n                _______________________ //在此处填入代码\n                break;\n            }\n        }\n    }\n    return totalProfit;\n}\n```\n"
+      "content": "给定有 $n$ 个任务，每个任务有截止时间和利润，每个任务耗时 $1$ 个时间单位、必须在截止时间前完成，且每个时间槽最多做 $1$ 个任务。为了在规定时间内获得最大利润，可以采用贪心策略，即按利润从高到低排序，尽量安排，则横线处应填写（ ）。\n\n```cpp\nstruct Task {\n    int deadline; // 截止时间\n    int profit; // 利润\n};\nvoid sortByProfit(vector<Task>& tasks) {\n    sort(tasks.begin(), tasks.end(),\n    [](const Task& a, const Task& b) {\n        return a.profit > b.profit;\n    });\n}\nint maxProfit(vector<Task>& tasks) {\n    sortByProfit(tasks);\n    int maxTime = 0;\n    for (auto& t : tasks) {\n        maxTime = max(maxTime, t.deadline);\n    }\n    vector<bool> slot(maxTime + 1, false);\n    int totalProfit = 0;\n    for (auto& task : tasks) {\n        for (int t = task.deadline; t >= 1; t--) {\n            if (!slot[t]) {\n                _______________________ // 在此处填入代码\n                break;\n            }\n        }\n    }\n    return totalProfit;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nc.push_back(carry / 10);\ncarry %= 10;\n```\n"
+          "text": "```cpp\nc.push_back(carry / 10);\ncarry %= 10;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nc.push_back(carry % 10);\ncarry /= 10;\n```\n"
+          "text": "```cpp\nc.push_back(carry % 10);\ncarry /= 10;\n```"
         },
         {
           "key": "C",
-          "text": "1 c.push_back(carry % 10);"
+          "text": "`c.push_back(carry % 10);`"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nc.push_back(carry);\ncarry /= 10;\n```\n"
+          "text": "```cpp\nc.push_back(carry);\ncarry /= 10;\n```"
         }
       ],
-      "content": "下面代码实现了对两个数组表⽰的正整数的高精度加法（数组低位在前），则横线上应填写（ ）。\n\n```cpp\nvector<int> add(vector<int> a, vector<int> b) {\n    vector<int> c;\n    int carry = 0;\n    for (int i = 0; i < a.size() || i < b.size(); i++) {\n        if (i < a.size()) carry += a[i];\n        if (i < b.size()) carry += b[i];\n        _______________________ //在此处填入代码\n    }\n    if (carry) c.push_back(carry);\n    return c;\n}\n```\n"
+      "content": "下面代码实现了对两个数组表示的正整数的高精度加法（数组低位在前），则横线上应填写（ ）。\n\n```cpp\nvector<int> add(vector<int> a, vector<int> b) {\n    vector<int> c;\n    int carry = 0;\n    for (int i = 0; i < a.size() || i < b.size(); i++) {\n        if (i < a.size()) carry += a[i];\n        if (i < b.size()) carry += b[i];\n        _______________________ //在此处填入代码\n    }\n    if (carry) c.push_back(carry);\n    return c;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "数组和链表都是线性表。链表的优点是插入删除不需要移动元素，并且能随机查找。\n"
+      "content": "数组和链表都是线性表。链表的优点是插入删除不需要移动元素，并且能随机查找。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "假设函数 gcd() 函数能正确求两个正整数的最大公约数，则下面的 lcm(a，b) 函数能正确找到两个正整\n数 a 和 b 的最小公倍数。\n\n```cpp\nint lcm(int a, int b) {\n    return a / gcd(a, b) * b;\n}\n```\n"
+      "content": "假设函数 `gcd()` 函数能正确求两个正整数的最大公约数，则下面的 `lcm(a, b)` 函数能正确找到两个正整数 $a$ 和 $b$ 的最小公倍数。\n\n```cpp\nint lcm(int a, int b) {\n    return a / gcd(a, b) * b;\n}\n```"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "在单链表中，已知指针 p 指向要删除的结点（非尾结点），想在 删除 p，可行做法是用 p->next\n覆盖 p 的值与 next，然后删除 p->next。\n"
+      "content": "在单链表中，已知指针 $p$ 指向要删除的结点（非尾结点），想删除 $p$，可行做法是用 `p->next` 覆盖 $p$ 的值与 `next`，然后删除 `p->next`。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "在求解所有不大于 n 的素数时，线性筛法（欧拉筛）都应当优先于埃⽒筛法使用，因为线性筛法的时间复\n杂度为 ，低于埃⽒筛法的 。\n"
+      "content": "在求解所有不大于 $n$ 的素数时，线性筛法（欧拉筛）都应当优先于埃氏筛法使用，因为线性筛法的时间复杂度为 $O(n)$，低于埃氏筛法的 $O(n \\log \\log n)$。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "二分查找仅适用于有序数据。若输入数据无序，当仅进行一次查找时，为了使用二分⽽排序通常不划算。\n"
+      "content": "二分查找仅适用于有序数据。若输入数据无序，当仅进行一次查找时，为了使用二分而排序通常不划算。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "通过在数组的第一个、最中间和最后一个这3个数据中选择中间值作为枢轴（比较基准），快速排序算法可\n降低落入最坏情况的概率。\n"
+      "content": "通过在数组的第一个、最中间和最后一个这 $3$ 个数据中选择中间值作为枢轴（比较基准），快速排序算法可降低落入最坏情况的概率。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "贪心算法在每一步都做出当前看来最优的局部选择，并且一旦做出选择就不再回溯；⽽分治算法将问题分解\n为若⼲⼦问题分别求解，再将⼦问题的解合并得到原问题的解。\n"
+      "content": "贪心算法在每一步都做出当前看来最优的局部选择，并且一旦做出选择就不再回溯；而分治算法将问题分解为若干子问题分别求解，再将子问题的解合并得到原问题的解。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "以下 fib 函数计算第 n 项斐波那契数（fib(0)=0, fib(1)=1），其时间复杂度为 。\n\n```cpp\nint fib(int n) {\n    if (n <= 1) return n;\n    return fib(n-1) + fib(n-2);\n}\n```\n"
+      "content": "以下 `fib` 函数计算第 $n$ 项斐波那契数（`fib(0)=0`, `fib(1)=1`），其时间复杂度为 。\n\n```cpp\nint fib(int n) {\n    if (n <= 1) return n;\n    return fib(n-1) + fib(n-2);\n}\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "递归函数一定要有终⽌条件，否则可能会造成栈溢出。\n"
+      "content": "递归函数一定要有终止条件，否则可能会造成栈溢出。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "使用贪心算法解决问题时，通过对每一步求局部最优解，最终一定能找到全局最优解。\n"
+      "content": "使用贪心算法解决问题时，通过对每一步求局部最优解，最终一定能找到全局最优解。"
     },
     {
       "type": "program",

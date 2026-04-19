@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nfloat square(float x) {\n    return x * x;\n}\nfloat area = square(2);\n```\n"
+          "text": "```cpp\nfloat square(float x) {\n    return x * x;\n}\nfloat area = square(2);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nsquare(float x) {\n    return x * x;\n}\nfloat area = square(2);\n```\n"
+          "text": "```cpp\nsquare(float x) {\n    return x * x;\n}\nfloat area = square(2);\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nvoid square(float x) {\n    return x * x;\n}\narea = square(2.0);\n```\n"
+          "text": "```cpp\nvoid square(float x) {\n    return x * x;\n}\narea = square(2.0);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nvoid square(float x) {\n    x * x;\n    return;\n}\narea = square(2);\n```\n"
+          "text": "```cpp\nvoid square(float x) {\n    x * x;\n    return;\n}\narea = square(2);\n```"
         }
       ],
-      "content": "下面的语句中，（ ）正确定义了一个计算浮点数 的平方( )的函数,并成功调用该函数。\n"
+      "content": "下面的语句中，（ ）正确定义了一个计算浮点数的平方的函数，并成功调用该函数。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "代码执行结束后，times的值为0"
+          "text": "代码执行结束后，`times` 的值为 $0$"
         },
         {
           "key": "B",
-          "text": "n是形参，times是实参"
+          "text": "`n` 是形参，`times` 是实参"
         },
         {
           "key": "C",
-          "text": "n是实参，times是形参"
+          "text": "`n` 是实参，`times` 是形参"
         },
         {
           "key": "D",
-          "text": "代码最后一行换成n_chars(times, my_char);也可以"
+          "text": "代码最后一行换成 `n_chars(times, my_char);` 也可以"
         }
       ],
-      "content": "下面代码的描述中，正确的是（ ）。\n\n```cpp\nvoid n_chars(char c, int n) {\n    while (n-- > 0)\n    cout << c;\n}\nchar my_char = 'w';\nint times = 5;\nn_chars(my_char, times);\n```\n"
+      "content": "下面代码的描述中，正确的是（ ）。\n\n```cpp\nvoid n_chars(char c, int n) {\n    while (n-- > 0)\n        cout << c;\n}\nchar my_char = 'w';\nint times = 5;\nn_chars(my_char, times);\n```"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "C",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "D",
-          "text": "20"
+          "text": "$20$"
         }
       ],
-      "content": "给定以下代码，\n\n```cpp\nvoid func(int& x) {\n    x = x * 2;\n}\nint a = 5;\nfunc(a);\n```\n执行上述代码后，变量a的值为（ ）。\n"
+      "content": "给定以下代码，\n\n```cpp\nvoid func(int& x) {\n    x = x * 2;\n}\nint a = 5;\nfunc(a);\n```\n\n执行上述代码后，变量 $a$ 的值为（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0.2"
+          "text": "$0.2$"
         },
         {
           "key": "B",
-          "text": "0.5"
+          "text": "$0.5$"
         },
         {
           "key": "C",
-          "text": "1.2"
+          "text": "$1.2$"
         },
         {
           "key": "D",
-          "text": "1.5"
+          "text": "$1.5$"
         }
       ],
-      "content": "运行下面代码，屏幕上输出是（ ）。\n\n```cpp\ndouble* p_arr = new double [3];\np_arr[0] = 0.2;\np_arr[1] = 0.5;\np_arr[2] = 0.8;\np_arr += 1;\ncout << p_arr[0] << endl;\np_arr -= 1;\ndelete p_arr;\n```\n"
+      "content": "运行下面代码，屏幕上输出是（ ）。\n\n```cpp\ndouble* p_arr = new double [3];\np_arr[0] = 0.2;\np_arr[1] = 0.5;\np_arr[2] = 0.8;\np_arr += 1;\ncout << p_arr[0] << endl;\np_arr -= 1;\ndelete p_arr;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "20 20"
+          "text": "$20$ $20$"
         },
         {
           "key": "B",
-          "text": "20 22"
+          "text": "$20$ $22$"
         },
         {
           "key": "C",
-          "text": "22 20"
+          "text": "$22$ $20$"
         },
         {
           "key": "D",
-          "text": "22 22"
+          "text": "$22$ $22$"
         }
       ],
-      "content": "运行下面代码片段后，x和*p的结果分别是（ ）。\n\n```cpp\nint x = 20;\nint* p = &x;\n*p = *p + 2；\n```\n"
+      "content": "运行下面代码片段后，$x$ 和 `*p` 的结果分别是（ ）。\n\n```cpp\nint x = 20;\nint* p = &x;\n*p = *p + 2;\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nstruct Student students[20];\n```\n"
+          "text": "```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nstruct Student students[20];\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent students[20];\n```\n"
+          "text": "```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent students[20];\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent* students = new Student[20];\n```\n"
+          "text": "```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent* students = new Student[20];\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent students = new Student[20];\n```\n"
+          "text": "```cpp\nstruct Student {\n    string name;\n    int age;\n    float score;\n};\nStudent students = new Student[20];\n```"
         }
       ],
-      "content": "下面的描述中，（ ）不能正确定义一个名为Student的结构体以及一个包含20个元素的结构数组。\n"
+      "content": "下面的描述中，（ ）不能正确定义一个名为 Student 的结构体以及一个包含 $20$ 个元素的结构数组。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0x7ffee4065824"
+          "text": "$0x7ffee4065824$"
         },
         {
           "key": "B",
-          "text": "0x7ffee4065828"
+          "text": "$0x7ffee4065828$"
         },
         {
           "key": "C",
-          "text": "0x7ffee406582c"
+          "text": "$0x7ffee406582c$"
         },
         {
           "key": "D",
-          "text": "0x7ffee4065830"
+          "text": "$0x7ffee4065830$"
         }
       ],
-      "content": "假定整型是32位，对一个 行 列的二维整数数组array,假设数组第一个元素在内存中的地址为\n0x7ffee4065820，则第2行第2个元素的地址&array[1][1]为（ ）。\n\n```cpp\nint array[2][3] = {\n    {0, 1, 2},\n    {3, 4, 5}\n};\n```\n"
+      "content": "假定整型是 $32$ 位，对一个 $2$ 行 $3$ 列的二维整数数组 `array`，假设数组第一个元素在内存中的地址为 $0x7ffee4065820$，则第 $2$ 行第 $2$ 个元素的地址 `&array[1][1]` 为（ ）。\n\n```cpp\nint array[2][3] = {\n    {0, 1, 2},\n    {3, 4, 5}\n};\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int a[3][];"
+          "text": "`int a[3][];`"
         },
         {
           "key": "B",
-          "text": "int a[][];"
+          "text": "`int a[][];`"
         },
         {
           "key": "C",
-          "text": "int a[][4];"
+          "text": "`int a[][4];`"
         },
         {
           "key": "D",
-          "text": "int a[][2] = {{1,2},{1,2},{3,4}};"
+          "text": "`int a[][2] = {{1,2},{1,2},{3,4}};`"
         }
       ],
-      "content": "下面（ ）正确定义二维数组。\n"
+      "content": "下面（ ）正确定义二维数组。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nresult = f1 + f2;\nf1 = f2;\nf2 = result;\n```\n"
+          "text": "```cpp\nresult = f1 + f2;\nf1 = f2;\nf2 = result;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nresult += f1 + f2;\nf1 = f2;\nf2 = result;\n```\n"
+          "text": "```cpp\nresult += f1 + f2;\nf1 = f2;\nf2 = result;\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nresult += f1 + f2;\nf2 = result;\nf1 = f2;\n```\n"
+          "text": "```cpp\nresult += f1 + f2;\nf2 = result;\nf1 = f2;\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nresult = f1 + f2;\nf2 = result;\nf1 = f2;\n```\n"
+          "text": "```cpp\nresult = f1 + f2;\nf2 = result;\nf1 = f2;\n```"
         }
       ],
-      "content": "下面代码采用递推算法来计算斐波那契数列 ，则横线上应填写（ ）。\n\n```cpp\nint fib(int n) {\n    if (n == 0 || n == 1)\n    return n;\n    int f1 = 0;\n    int f2 = 1;\n    int result = 0;\n    for (int i = 2; i <= n; i++) {\n        ________________________________ // 在此处填入代码\n    }\n    return result;\n}\n```\n"
+      "content": "下面代码采用递推算法来计算斐波那契数列，则横线上应填写（ ）。\n\n```cpp\nint fib(int n) {\n    if (n == 0 || n == 1)\n        return n;\n    int f1 = 0;\n    int f2 = 1;\n    int result = 0;\n    for (int i = 2; i <= n; i++) {\n        ________________________________ // 在此处填入代码\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "冒泡排序基于元素交换实现，需借助临时变量，共涉及 个单元操作；⽽插入排序基于元素赋值实现，仅需\n个单元操作。因此冒泡排序的计算开销通常比插入排序更高。\n"
+          "text": "冒泡排序基于元素交换实现，需借助临时变量，共涉及 $3$ 个单元操作；而插入排序基于元素赋值实现，仅需 $1$ 个单元操作。因此冒泡排序的计算开销通常比插入排序更高。"
         },
         {
           "key": "B",
-          "text": "选择排序在任何情况下的时间复杂度都为 。"
+          "text": "选择排序在任何情况下的时间复杂度都为 $O(n^2)$。"
         },
         {
           "key": "C",
-          "text": "冒泡排序在任何情况下的时间复杂度都为 。"
+          "text": "冒泡排序在任何情况下的时间复杂度都为 $O(n^2)$。"
         },
         {
           "key": "D",
           "text": "如果给定数据部分有序，插入排序通常比选择排序效率更高。"
         }
       ],
-      "content": "下面关于排序算法（冒泡排序、插入排序和选择排序）的描述中，不正确的是（ ）。\n"
+      "content": "下面关于排序算法（冒泡排序、插入排序和选择排序）的描述中，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1, 4, 3, 1, 5, 2"
+          "text": "$1, 4, 3, 1, 5, 2$"
         },
         {
           "key": "B",
-          "text": "1, 3, 1, 4, 2, 5"
+          "text": "$1, 3, 1, 4, 2, 5$"
         },
         {
           "key": "C",
-          "text": "1, 4, 3, 1, 2, 5"
+          "text": "$1, 4, 3, 1, 2, 5$"
         },
         {
           "key": "D",
-          "text": "4, 1, 3, 1, 5, 2"
+          "text": "$4, 1, 3, 1, 5, 2$"
         }
       ],
-      "content": "冒泡排序的第一轮操作是从左到右遍历数组，通过两两比较相邻元素，将当前最大的元素移动到末尾。给\n定数组arr[]={4, 1, 3, 1, 5, 2}，执行第一轮冒泡排序后数组arr中的内容为（ ）。\n"
+      "content": "冒泡排序的第一轮操作是从左到右遍历数组，通过两两比较相邻元素，将当前最大的元素移动到末尾。给定数组 $arr[] = \\{4, 1, 3, 1, 5, 2\\}$，执行第一轮冒泡排序后数组 $arr$ 中的内容为（ ）。"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "给定如下代码，其时间复杂度为（ ）。\n\n```cpp\nint cellRecur(int n) {\n    if (n == 1)\n    return 1;\n    return cellRecur(n - 1) + cellRecur(n - 1) + 1;\n}\n```\n"
+      "content": "给定如下代码，其时间复杂度为（ ）。\n\n```cpp\nint cellRecur(int n) {\n    if (n == 1)\n        return 1;\n    return cellRecur(n - 1) + cellRecur(n - 1) + 1;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int base = nums[i], j = i - 1;"
+          "text": "`int base = nums[i], j = i - 1;`"
         },
         {
           "key": "B",
-          "text": "int base = nums[i], j = i;"
+          "text": "`int base = nums[i], j = i;`"
         },
         {
           "key": "C",
-          "text": "int base = nums[0], j = i - 1;"
+          "text": "`int base = nums[0], j = i - 1;`"
         },
         {
           "key": "D",
-          "text": "int base = nums[0], j = i;"
+          "text": "`int base = nums[0], j = i;`"
         }
       ],
-      "content": "下面代码实现了插入排序函数，则横线上应填写（ ）。\n\n```cpp\nvoid insertion_sort(vector<int> &nums) {\n    for (int i = 1; i < nums.size(); i++) {\n        ________________________________ { // 在此处填入代码\n            while (j >= 0 && nums[j] > base)\n            nums[j + 1] = nums[j];\n            j--;\n        }\n        nums[j + 1] = base;\n    }\n}\n```\n"
+      "content": "下面代码实现了插入排序函数，则横线上应填写（ ）。\n\n```cpp\nvoid insertion_sort(vector<int> &nums) {\n    for (int i = 1; i < nums.size(); i++) {\n        ________________________________ { // 在此处填入代码\n            while (j >= 0 && nums[j] > base)\n                nums[j + 1] = nums[j];\n            j--;\n        }\n        nums[j + 1] = base;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nfreopen(\"log.txt\", \"w\", stdout);\ncout << \"Welcome to GESP!\" << endl;\nfclose(stdout);\n```\n"
+          "text": "```cpp\nfreopen(\"log.txt\", \"w\", stdout);\ncout << \"Welcome to GESP!\" << endl;\nfclose(stdout);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\noutFile << \"Welcome to GESP!\" << endl;\noutFile.close();\n```\n"
+          "text": "```cpp\nstd::ofstream outFile(\"log.txt\");\noutFile << \"Welcome to GESP!\" << endl;\noutFile.close();\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nstd::ofstream outFile(\"log.txt\");\ncout << \"Welcome to GESP!\" << endl;\noutFile.close();\n```\n"
+          "text": "```cpp\nstd::ofstream outFile(\"log.txt\");\ncout << \"Welcome to GESP!\" << endl;\noutFile.close();\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nofstream log_file(\"log.txt\");\nstreambuf* org_cout = cout.rdbuf();\ncout.rdbuf(log_file.rdbuf());\ncout << \"This output will go to the log file.\" << endl;\ncout.rdbuf(oorg_cout);\n```\n"
+          "text": "```cpp\nofstream log_file(\"log.txt\");\nstreambuf* org_cout = cout.rdbuf();\ncout.rdbuf(log_file.rdbuf());\ncout << \"This output will go to the log file.\" << endl;\ncout.rdbuf(org_cout);\n```"
         }
       ],
-      "content": "下面哪种方式不能实现将字符串\"Welcome to GESP!\"输出重定向到文件log.txt（ ）。\n"
+      "content": "下面哪种方式不能实现将字符串 \"Welcome to GESP!\" 输出重定向到文件 log.txt（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "屏幕上输出Caught: Runtime error occurred"
+          "text": "屏幕上输出 `Caught: Runtime error occurred`"
         },
         {
           "key": "B",
-          "text": "屏幕上输出Caught an unknown exception"
+          "text": "屏幕上输出 `Caught an unknown exception`"
         },
         {
           "key": "C",
-          "text": "程序调用 std::terminate()"
+          "text": "程序调用 `std::terminate()`"
         },
         {
           "key": "D",
           "text": "编译错误"
         }
       ],
-      "content": "运行下面的代码，将出现什么情况？（ ）\n\n```cpp\ndouble hmean(double a, double b) {\n    if (a == -b )\n    throw runtime_error(\"Runtime error occurred\");\n    return 2.0*a*b/(a + b);\n}\nint main() {\n    double x = 10;\n    double y = -10;\n    try {\n        int result = hmean(x, y);\n        cout << \"hmean: \" << result << endl;\n    }\n    catch (const runtime_error& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    } catch (...) {\n        cout << \"Caught an unknown exception.\" << endl;\n    }\n    return 0;\n}\n```\n"
+      "content": "运行下面的代码，将出现什么情况？（ ）\n\n```cpp\ndouble hmean(double a, double b) {\n    if (a == -b)\n        throw runtime_error(\"Runtime error occurred\");\n    return 2.0 * a * b / (a + b);\n}\nint main() {\n    double x = 10;\n    double y = -10;\n    try {\n        int result = hmean(x, y);\n        cout << \"hmean: \" << result << endl;\n    }\n    catch (const runtime_error& e) {\n        cout << \"Caught: \" << e.what() << endl;\n    } catch (...) {\n        cout << \"Caught an unknown exception.\" << endl;\n    }\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "在 C++ 中，下面代码可以正确定义指针和初始化指针。\n\n```cpp\nint* ptr;\n*ptr = 10;\n```\n"
+      "content": "在 C++ 中，下面代码可以正确定义指针和初始化指针。\n\n```cpp\nint* ptr;\n*ptr = 10;\n```"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "一个函数必须在调用之前既声明⼜定义。\n"
+      "content": "一个函数必须在调用之前既声明又定义。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "函数参数可以通过值传递、引用传递和指针传递，这样函数内对参数的修改可以直接修改传入变量的值。\n"
+      "content": "函数参数可以通过值传递、引用传递和指针传递，这样函数内对参数的修改可以直接修改传入变量的值。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "int arr[3][]是一个正确的二维数组的声明。\n"
+      "content": "`int arr[3][]` 是一个正确的二维数组的声明。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法。\n"
+      "content": "递推是一种通过已知的初始值和递推公式，逐步求解目标值的算法。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "某算法的递推关系式为 （ 为正整数）及 ，则该算法的时间复杂度为 。\n"
+      "content": "某算法的递推关系式为 $T(n) = 2T(n-1) + 1$（$n$ 为正整数）及 $T(1) = 1$，则该算法的时间复杂度为 $O(2^n)$。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "冒泡排序的平均时间复杂度为 ，但最优情况下为 。\n"
+      "content": "冒泡排序的平均时间复杂度为 $O(n^2)$ ，但最优情况下为 $O(n)$ 。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "冒泡排序和插入排序都是稳定的排序算法。\n"
+      "content": "冒泡排序和插入排序都是稳定的排序算法。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "选择排序是稳定的排序算法。\n"
+      "content": "选择排序是稳定的排序算法。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "在 C++语⾔中，如果一个函数可能抛出异常，那么一定要在try ⼦句里调用这个函数。\n"
+      "content": "在 C++ 语言中，如果一个函数可能抛出异常，那么一定要在 `try` 子句里调用这个函数。"
     },
     {
       "type": "program",

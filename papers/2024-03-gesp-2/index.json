@@ -30,7 +30,7 @@
           "text": "没有输出"
         }
       ],
-      "content": "下列流程图的输出结果是？( )\n"
+      "content": "下列流程图的输出结果是？( )"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "student"
+          "text": "`student`"
         },
         {
           "key": "B",
-          "text": "2_from"
+          "text": "`2_from`"
         },
         {
           "key": "C",
-          "text": "_to"
+          "text": "`_to`"
         },
         {
           "key": "D",
-          "text": "Text"
+          "text": "`Text`"
         }
       ],
-      "content": "以下选项中不符合 C++变量命名规则的是？（ ）\n"
+      "content": "以下选项中不符合 C++ 变量命名规则的是？（ ）"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "switch"
+          "text": "`switch`"
         },
         {
           "key": "B",
-          "text": "return"
+          "text": "`return`"
         },
         {
           "key": "C",
-          "text": "else"
+          "text": "`else`"
         },
         {
           "key": "D",
-          "text": "if"
+          "text": "`if`"
         }
       ],
-      "content": "以下选项中，不能用于表⽰分支结构的C++保留字是？（ ）\n"
+      "content": "以下选项中，不能用于表示分支结构的 C++ 保留字是？（ ）"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "while循环满足循环条件时不断地运行，直到指定的条件不满足为⽌"
+          "text": "`while` 循环满足循环条件时不断地运行，直到指定的条件不满足为止"
         },
         {
           "key": "B",
-          "text": "if语句通常用于执行条件判断"
+          "text": "`if` 语句通常用于执行条件判断"
         },
         {
           "key": "C",
-          "text": "在C++中可以使用foreach循环"
+          "text": "在 C++ 中可以使用 `foreach` 循环"
         },
         {
           "key": "D",
-          "text": "break和continue语句都可以用在for循环和while循环中"
+          "text": "`break` 和 `continue` 语句都可以用在 `for` 循环和 `while` 循环中"
         }
       ],
-      "content": "下列说法错误的是？（ ）\n"
+      "content": "下列说法错误的是？（ ）"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "abs(-8)"
+          "text": "`abs(-8)`"
         },
         {
           "key": "B",
-          "text": "min(max(8, 9), 10)"
+          "text": "`min(max(8, 9), 10)`"
         },
         {
           "key": "C",
-          "text": "int(8.88)"
+          "text": "`int(8.88)`"
         },
         {
           "key": "D",
-          "text": "sqrt(64)"
+          "text": "`sqrt(64)`"
         }
       ],
-      "content": "下列4个表达式中，答案不是整数8的是？（ ）\n"
+      "content": "下列 $4$ 个表达式中，答案不是整数 $8$ 的是？（ ）"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "B",
-          "text": "14"
+          "text": "$14$"
         },
         {
           "key": "C",
-          "text": "26"
+          "text": "$26$"
         },
         {
           "key": "D",
-          "text": "50"
+          "text": "$50$"
         }
       ],
-      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n,a,m,i;\nn=3, a = 5;\nm = (a - 1) * 2;\nfor (i=0; i<n-1; i++)\nm = (m - 1) * 2;\ncout << m;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是？（）\n\n```cpp\nint n, a, m, i;\nn = 3, a = 5;\nm = (a - 1) * 2;\nfor (i = 0; i < n - 1; i++)\n    m = (m - 1) * 2;\ncout << m;\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "16"
+          "text": "$16$"
         },
         {
           "key": "B",
-          "text": "36"
+          "text": "$36$"
         },
         {
           "key": "C",
-          "text": "49"
+          "text": "$49$"
         },
         {
           "key": "D",
-          "text": "81"
+          "text": "$81$"
         }
       ],
-      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n,i,result;\nn = 81;\ni = 1, result = 1;\nwhile (i * i <= n){\n    if (n % (i * i) == 0)\n    result = i * i;\n    i += 1;\n}\ncout << result;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是？（）\n\n```cpp\nint n, i, result;\nn = 81;\ni = 1, result = 1;\nwhile (i * i <= n) {\n    if (n % (i * i) == 0)\n        result = i * i;\n    i += 1;\n}\ncout << result;\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "B",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "C",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "D",
-          "text": "5"
+          "text": "$5$"
         }
       ],
-      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint s,t,ans;\ns = 2, t = 10;\nans = 0;\nwhile (s != t){\n    if (t % 2 == 0 && t / 2 >= s)\n    t /= 2;\n    else\n    t -= 1;\n    ans += 1;\n}\ncout << ans;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是？（）\n\n```cpp\nint s, t, ans;\ns = 2, t = 10;\nans = 0;\nwhile (s != t) {\n    if (t % 2 == 0 && t / 2 >= s)\n        t /= 2;\n    else\n        t -= 1;\n    ans += 1;\n}\ncout << ans;\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "C",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "D",
-          "text": "8"
+          "text": "$8$"
         }
       ],
-      "content": "下面C++代码执行后的输出是？（）\n\n```cpp\nint n, masks, days,cur;\nn = 17, masks = 10, days = 0;\ncur = 2;\nwhile (masks != n){\n    if (cur == 0 || cur == 1)\n    masks += 7;\n    masks -= 1;\n    days += 1;\n    cur = (cur + 1) % 7;\n}\ncout << days;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是？（）\n\n```cpp\nint n, masks, days, cur;\nn = 17, masks = 10, days = 0;\ncur = 2;\nwhile (masks != n) {\n    if (cur == 0 || cur == 1)\n        masks += 7;\n    masks -= 1;\n    days += 1;\n    cur = (cur + 1) % 7;\n}\ncout << days;\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "break"
+          "text": "`break`"
         },
         {
           "key": "B",
-          "text": "continue"
+          "text": "`continue`"
         },
         {
           "key": "C",
-          "text": "N = N / 10"
+          "text": "`N = N / 10`"
         },
         {
           "key": "D",
-          "text": "N = N % 10"
+          "text": "`N = N % 10`"
         }
       ],
-      "content": "以下C++代码判断一个正整数N的各个数位是否都是偶数。如果都是，则输出“是”，否则输出“否”。例如\nN=2024时输出“是”。则横线处应填入（ ）。\n\n```cpp\nint N,Flag;\ncin >> N;\nFlag = true;\nwhile (N != 0){\n    if (N %2 != 0){\n        Flag = false;\n        _____________\n    }\n    else\n    N /= 10;\n}\nif(Flag == true)\ncout << \"是\";\nelse\ncout << \"否\";\n```\n"
+      "content": "以下 C++ 代码判断一个正整数 $N$ 的各个数位是否都是偶数。如果都是，则输出“是”，否则输出“否”。例如 $N=2024$ 时输出“是”。则横线处应填入（ ）。\n\n```cpp\nint N, Flag;\ncin >> N;\nFlag = true;\nwhile (N != 0){\n    if (N % 2 != 0){\n        Flag = false;\n        _____________\n    }\n    else\n        N /= 10;\n}\nif (Flag == true)\n    cout << \"是\";\nelse\n    cout << \"否\";\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "i == 0"
+          "text": "`i == 0`"
         },
         {
           "key": "B",
-          "text": "i == 4"
+          "text": "`i == 4`"
         },
         {
           "key": "C",
-          "text": "i == 0 && i == 4"
+          "text": "`i == 0 && i == 4`"
         },
         {
           "key": "D",
-          "text": "i == 0 || i == 4"
+          "text": "`i == 0 || i == 4`"
         }
       ],
-      "content": "有句俗话叫“三天打渔，两天晒网”。如果小杨前三天打渔，后两天晒网，一直重复这个过程，以下程序代码\n用于判断，第n天小杨是在打鱼还是晒网，横线处应填写？（ ）\n\n```cpp\nint n,i;\ncin >> n;\ni = n % 5;\nif (__________________) // 在此处填写代码\ncout << \"晒网\";\nelse\ncout << \"打鱼\";\n```\n"
+      "content": "有句俗话叫“三天打渔，两天晒网”。如果小杨前三天打渔，后两天晒网，一直重复这个过程，以下程序代码用于判断，第 $n$ 天小杨是在打鱼还是晒网，横线处应填写？（ ）\n\n```cpp\nint n,i;\ncin >> n;\ni = n % 5;\nif (__________________) // 在此处填写代码\n    cout << \"晒网\";\nelse\n    cout << \"打鱼\";\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10 * a + n % 10"
+          "text": "`10 * a + n % 10`"
         },
         {
           "key": "B",
-          "text": "a + n % 10"
+          "text": "`a + n % 10`"
         },
         {
           "key": "C",
-          "text": "10 * a + n / 10"
+          "text": "`10 * a + n / 10`"
         },
         {
           "key": "D",
-          "text": "a + n / 10"
+          "text": "`a + n / 10`"
         }
       ],
-      "content": "一个数的所有数字倒序排列后这个数的大小保持不变，这个数就是回文数，比如 101 与 6886 都是回文数，\n⽽ 100 不是回文数。以下程序代码用于判断一个数是否为回文数，横线处应填写？（ ）\n\n```cpp\nint n,a,k;\ncin >> n;\na = 0;\nk = n;\nwhile (n > 0){\n    a = __________; // 在此处填写代码\n    n /= 10;\n}\nif (a == k)\ncout << \"是回文数\";\nelse\ncout << \"不是回文数\";\n```\n"
+      "content": "一个数的所有数字倒序排列后这个数的大小保持不变，这个数就是回文数，比如 $101$ 与 $6886$ 都是回文数，而 $100$ 不是回文数。以下程序代码用于判断一个数是否为回文数，横线处应填写？（ ）\n\n```cpp\nint n,a,k;\ncin >> n;\na = 0;\nk = n;\nwhile (n > 0){\n    a = __________; // 在此处填写代码\n    n /= 10;\n}\nif (a == k)\n    cout << \"是回文数\";\nelse\n    cout << \"不是回文数\";\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cout << '+' << endl;"
+          "text": "`cout << '+' << endl;`"
         },
         {
           "key": "B",
-          "text": "cout << '+' << ' ' << endl;"
+          "text": "`cout << '+' << ' ' << endl;`"
         },
         {
           "key": "C",
-          "text": "cout << '+';"
+          "text": "`cout << '+';`"
         },
         {
           "key": "D",
-          "text": "cout << '+' << ' ';"
+          "text": "`cout << '+' << ' ';`"
         }
       ],
-      "content": "给定两个整数 与 ，打印出一个栅栏图形，这个栅栏应该分成 段，段与段之间的间隔为 +， 段内的填\n充为 个 -。形如 ， 时，图形如下：\n\n```cpp\n+------+------+------+------+------+\n```\n以下程序代码用于绘制该图形，横线处应填写？（ ）\n\n```cpp\nint n, k, i, j;\nn = 5, k = 6;\nfor (i = 0; i < n; i++){\n    __________ // 在此处填写代码\n    for (j = 1; j < k; j++)\n    cout << '-' ;\n}\ncout << '+';\n```\n"
+      "content": "给定两个整数 $n$ 与 $k$，打印出一个栅栏图形，这个栅栏应该分成 $n$ 段，段与段之间的间隔为 `+`， 段内的填充为 $k$ 个 `-`。形如 $n = 5$， $k = 6$ 时，图形如下：\n\n```cpp\n+------+------+------+------+------+\n```\n以下程序代码用于绘制该图形，横线处应填写？（ ）\n\n```cpp\nint n, k, i, j;\nn = 5, k = 6;\nfor (i = 0; i < n; i++){\n    __________ // 在此处填写代码\n    for (j = 1; j < k; j++)\n        cout << '-' ;\n}\ncout << '+';\n```"
     },
     {
       "type": "choice",
@@ -352,10 +352,10 @@
         },
         {
           "key": "D",
-          "text": "神话⼈物"
+          "text": "神话人物"
         }
       ],
-      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是。（ ）\n"
+      "content": "小杨的父母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是。（ ）"
     },
     {
       "type": "choice",
@@ -369,7 +369,7 @@
         },
         {
           "key": "B",
-          "text": "创⽴培训学校"
+          "text": "创立培训学校"
         },
         {
           "key": "C",
@@ -377,80 +377,80 @@
         },
         {
           "key": "D",
-          "text": "成⽴方正公司"
+          "text": "成立方正公司"
         }
       ],
-      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+      "content": "中国计算机学会（CCF）在 2024 年 1 月 27 日的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "如果有以下C++代码：\n\n```cpp\ndouble s;\nint t;\ns = 18.5;\nt = int(s) + 10;\n```\n那么cout << t的结果为 28.5。\n"
+      "content": "如果有以下 C++ 代码：\n\n```cpp\ndouble s;\nint t;\ns = 18.5;\nt = int(s) + 10;\n```\n那么 `cout << t` 的结果为 $28.5$。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "Xyz，xYz，xyZ是三个不同的变量。\n"
+      "content": "`Xyz`，`xYz`，`xyZ` 是三个不同的变量。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "cout << (8< 9< 10)的输出结果为true。\n"
+      "content": "`cout << (8 < 9 < 10)` 的输出结果为 `true`。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "for (i = 0; i < 100; i+=2) ;语句中变量i的取值范围是0到99。\n"
+      "content": "`for (i = 0; i < 100; i+=2) ;` 语句中变量 $i$ 的取值范围是 $0$ 到 $99$。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "C++中cout << float(2022)与 cout << float('2022')运行后的输出结果均为2022。\n"
+      "content": "C++ 中 `cout << float(2022)` 与 `cout << float('2022')` 运行后的输出结果均为 $2022$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "已知A的ASCII码值为65，表达式int('C')+abs(-5.8)的值为72.8。\n"
+      "content": "已知 `A` 的 ASCII 码值为 $65$，表达式 `int('C') + abs(-5.8)` 的值为 $72.8$。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "bool() 函数用于将给定参数或表达式转换为布尔类型。语句 bool(-1) 返回的是 false 值。（ ）\n"
+      "content": "`bool()` 函数用于将给定参数或表达式转换为布尔类型。语句 `bool(-1)` 返回的是 `false` 值。（ ）"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "如果变量a的值使得C++表达式sqrt(a)==abs(a)，则a的值为0。（ ）\n"
+      "content": "如果变量 $a$ 的值使得 C++ 表达式 `sqrt(a) == abs(a)`，则 $a$ 的值为 $0$。（ ）"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置ip地址并接入到WIFI盒⼦才能收看节目，那这个WIFI盒\n⼦具有路由器的功能。（ ）\n"
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视要设置 ip 地址并接入到 WIFI 盒子才能收看节目，那这个 WIFI 盒子具有路由器的功能。（ ）"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+      "content": "任何一个 `for` 循环都可以转化为等价的 `while` 循环（ ）。"
     },
     {
       "type": "program",

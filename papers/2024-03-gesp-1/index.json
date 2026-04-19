@@ -30,7 +30,7 @@
           "text": "0"
         }
       ],
-      "content": "C++表达式(3 - 2) * 3 + 5的值是( )。\n"
+      "content": "C++ 表达式 `(3 - 2) * 3 + 5` 的值是( )。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2 2"
+          "text": "$2$ $2$"
         },
         {
           "key": "B",
-          "text": "1 1"
+          "text": "$1$ $1$"
         },
         {
           "key": "C",
-          "text": "5%2=2"
+          "text": "`5%2=2`"
         },
         {
           "key": "D",
-          "text": "5%2=1"
+          "text": "`5%2=1`"
         }
       ],
-      "content": "C++语句cout << \"5%2=\" << 5 % 2执行后的输出是( )。\n"
+      "content": "C++ 语句 `cout << \"5%2=\" << 5 % 2` 执行后的输出是( )。"
     },
     {
       "type": "choice",
@@ -65,11 +65,11 @@
       "options": [
         {
           "key": "A",
-          "text": "变量a将被赋值为整数7"
+          "text": "变量 $a$ 将被赋值为整数 $7$"
         },
         {
           "key": "B",
-          "text": "变量a将被赋值为字符串，字符串内容为5+2"
+          "text": "变量 $a$ 将被赋值为字符串，字符串内容为 `5+2`"
         },
         {
           "key": "C",
@@ -77,10 +77,10 @@
         },
         {
           "key": "D",
-          "text": "依赖于变量a的类型。如果没有定义，会有编译错误"
+          "text": "依赖于变量 $a$ 的类型。如果没有定义，会有编译错误"
         }
       ],
-      "content": "执行C++语句cin >> a时如果输入5+2，下述说法正确的是（ ）。\n"
+      "content": "执行 C++ 语句 `cin >> a` 时如果输入 `5+2` ，下述说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a+1= 2"
+          "text": "`a+1= 2`"
         },
         {
           "key": "B",
-          "text": "a+1=2"
+          "text": "`a+1=2`"
         },
         {
           "key": "C",
-          "text": "2=2"
+          "text": "`2=2`"
         },
         {
           "key": "D",
-          "text": "2= 2"
+          "text": "`2= 2`"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\ncout << \"a+1= \" << a+1 << endl;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\ncout << \"a+1= \" << a+1 << endl;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a+1= 2"
+          "text": "`a+1= 2`"
         },
         {
           "key": "B",
-          "text": "a+1=2"
+          "text": "`a+1=2`"
         },
         {
           "key": "C",
-          "text": "2=2"
+          "text": "`2=2`"
         },
         {
           "key": "D",
-          "text": "2= 2"
+          "text": "`2= 2`"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\nprintf(\"a+1=%d\\n\", a+1);\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint a = 1;\nprintf(\"a+1=%d\\n\", a+1);\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "代码第4行被执行"
+          "text": "代码第 $4$ 行被执行"
         },
         {
           "key": "B",
-          "text": "第4和第7行代码都被执行"
+          "text": "第 $4$ 和第 $7$ 行代码都被执行"
         },
         {
           "key": "C",
-          "text": "仅有代码第7行被执行"
+          "text": "仅有代码第 $7$ 行被执行"
         },
         {
           "key": "D",
-          "text": "第8行代码将被执行，因为input()输入为字符串"
+          "text": "第 $8$ 行代码将被执行，因为 `input()` 输入为字符串"
         }
       ],
-      "content": "下面C++代码执行时输入21后，有关描述正确的是（ ）。\n\n```cpp\nint N;\ncin >> N;\nif(N% 3 == 0)\ncout << \"能被3整除\";\nelse if (N % 7 == 0)\ncout << \"能被7整除\";\nelse\ncout << \"不能被3和7整除\";\ncout << endl;\n```\n"
+      "content": "下面 C++ 代码执行时输入 $21$ 后，有关描述正确的是（ ）。\n\n```cpp\nint N;\ncin >> N;\nif(N % 3 == 0)\n    cout << \"能被3整除\";\nelse if (N % 7 == 0)\n    cout << \"能被7整除\";\nelse\n    cout << \"不能被3和7整除\";\ncout << endl;\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "19"
+          "text": "$19$"
         },
         {
           "key": "C",
-          "text": "20"
+          "text": "$20$"
         },
         {
           "key": "D",
-          "text": "21"
+          "text": "$21$"
         }
       ],
-      "content": "下面C++代码第2行，总共被执行次数是（ ）。\n\n```cpp\nfor(int i=-10; i<10; i++)\ncout << i << \" \";\n```\n"
+      "content": "下面 C++ 代码第 2 行，总共被执行次数是（ ）。\n\n```cpp\nfor(int i=-10; i<10; i++)\n    cout << i << \" \";\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "C",
-          "text": "18"
+          "text": "$18$"
         },
         {
           "key": "D",
-          "text": "20"
+          "text": "$20$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint tnt = 0;\nfor(int i=0; i<10; i++)\nif(i%3 && i%7)\ntnt +=i;\ncout << tnt << endl;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint tnt = 0;\nfor(int i=0; i<10; i++)\n    if(i%3 && i%7)\n        tnt +=i;\ncout << tnt << endl;\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "9#6#3#"
+          "text": "`9#6#3#`"
         },
         {
           "key": "B",
-          "text": "9#6#3#0#"
+          "text": "`9#6#3#0#`"
         },
         {
           "key": "C",
-          "text": "8#7#5#4#2#1#"
+          "text": "`8#7#5#4#2#1#`"
         },
         {
           "key": "D",
-          "text": "10#8#7#5#4#2#1#"
+          "text": "`10#8#7#5#4#2#1#`"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint N = 10;\nwhile(N){\n    N -= 1;\n    if(N%3 == 0)\n    cout << N << \"#\";\n}\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint N = 10;\nwhile(N){\n    N -= 1;\n    if(N%3 == 0)\n        cout << N << \"#\";\n}\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "N % i"
+          "text": "`N % i`"
         },
         {
           "key": "B",
-          "text": "N % i == 0"
+          "text": "`N % i == 0`"
         },
         {
           "key": "C",
-          "text": "N / i == 0"
+          "text": "`N / i == 0`"
         },
         {
           "key": "D",
-          "text": "N / i"
+          "text": "`N / i`"
         }
       ],
-      "content": "下面C++代码用于判断键盘输入的整数是否为质数。质数是只能被1和它本身整除的数。在横线处应填入代\n码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint cnt = 0; // 记录N被整除的次数\nfor(int i=1; i<N+1; i++)\nif(________________)\ncnt +=1;\nif(cnt == 2)\ncout << N << \"是质数\";\nelse\ncout << N << \"不是质数\";\n```\n"
+      "content": "下面 C++ 代码用于判断键盘输入的整数是否为质数。质数是只能被 $1$ 和它本身整除的数。在横线处应填入代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint cnt = 0; // 记录 N 被整除的次数\nfor(int i=1; i<N+1; i++)\n    if(________________)\n        cnt +=1;\nif(cnt == 2)\n    cout << N << \"是质数\";\nelse\n    cout << N << \"不是质数\";\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "x=(3.16);"
+          "text": "`x = (3.16);`"
         },
         {
           "key": "B",
-          "text": "x=3.16;"
+          "text": "`x = 3.16;`"
         },
         {
           "key": "C",
-          "text": "x=int(3.16);"
+          "text": "`x = int(3.16);`"
         },
         {
           "key": "D",
-          "text": "x=3.16 int;"
+          "text": "`x = 3.16 int;`"
         }
       ],
-      "content": "下面关于整型变量int x的赋值语句不正确是( )。\n"
+      "content": "下面关于整型变量 `int` $x$ 的赋值语句不正确是( )。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "printf语句"
+          "text": "`printf` 语句"
         },
         {
           "key": "B",
-          "text": "scanf语句"
+          "text": "`scanf` 语句"
         },
         {
           "key": "C",
-          "text": "default语句"
+          "text": "`default` 语句"
         },
         {
           "key": "D",
-          "text": "cout语句"
+          "text": "`cout` 语句"
         }
       ],
-      "content": "C++语⾔中下面可以完成数据输入的语句是（ ）。\n"
+      "content": "C++ 语言中下面可以完成数据输入的语句是（ ）。"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": "调试"
         }
       ],
-      "content": "在Dev C++中对一个写好的C++源文件要生成一个可执行程序需要执行下面哪个处理步骤？（ ）\n"
+      "content": "在 Dev C++ 中对一个写好的 C++ 源文件要生成一个可执行程序需要执行下面哪个处理步骤？（ ）"
     },
     {
       "type": "choice",
@@ -352,10 +352,10 @@
         },
         {
           "key": "D",
-          "text": "神话⼈物"
+          "text": "神话人物"
         }
       ],
-      "content": "小杨的⽗母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是？（ ）\n"
+      "content": "小杨的父母最近刚刚给他买了一块华为手表，他说手表上跑的是鸿蒙，这个鸿蒙是？（ ）"
     },
     {
       "type": "choice",
@@ -369,7 +369,7 @@
         },
         {
           "key": "B",
-          "text": "创⽴培训学校"
+          "text": "创立培训学校"
         },
         {
           "key": "C",
@@ -377,80 +377,80 @@
         },
         {
           "key": "D",
-          "text": "成⽴方正公司"
+          "text": "成立方正公司"
         }
       ],
-      "content": "中国计算机学会（CCF）在2024年1月27⽇的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。\n"
+      "content": "中国计算机学会（CCF）在 2024 年 1 月 27 日的颁奖典礼上颁布了王选奖，王选先生的重大贡献是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "在C++代码中变量n被赋值为27，则cout << n%10执行后输出的是7。( )\n"
+      "content": "在 C++ 代码中变量 $n$ 被赋值为 $27$，则 `cout << n % 10` 执行后输出的是 $7$。( )"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "C++语句printf(\"%d#%d&\",2,3)执行后输出的是2#3&。 ( )\n"
+      "content": "C++ 语句 `printf(\"%d#%d&\", 2, 3)` 执行后输出的是 `2#3&`。 ( )"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "C++函数scanf()必须含有参数，且其参数为字符串型字面量，其功能是提⽰输入。（ ）\n"
+      "content": "C++ 函数 `scanf()` 必须含有参数，且其参数为字符串型字面量，其功能是提示输入。（ ）"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "C++表达式\"10\"*2执行时将报错，因为\"10\"是字符串类型⽽2是整数类型，它们数据类型不同，不能在一\n起运算。（ ）\n"
+      "content": "C++ 表达式 `\"10\" * 2` 执行时将报错，因为 `\"10\"` 是字符串类型而 `2` 是整数类型，它们数据类型不同，不能在一起运算。（ ）"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，while可能是死循环，⽽for循环不可能是死循环。（ ）\n"
+      "content": "在 C++ 中，`while` 可能是死循环，而 `for` 循环不可能是死循环。（ ）"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "在C++，break语句用于提前终⽌当前层次循环，适用于while循环，但不适用于for循环。（ ）\n"
+      "content": "在 C++ 中，`break` 语句用于提前终止当前层次循环，适用于 `while` 循环，但不适用于 `for` 循环。（ ）"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "C++语⾔中3.0和3的值相等，所以它们占用的存储空间也相同。（ ）\n"
+      "content": "C++ 语言中 $3.0$ 和 $3$ 的值相等，所以它们占用的存储空间也相同。（ ）"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "在C++的程序中，cin是一个合法的变量名。（ ）\n"
+      "content": "在 C++ 的程序中，`cin` 是一个合法的变量名。（ ）"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视可以通过遥控器输入电视剧名称来找到想播放的电视剧，所以\n可以推知里面有交互式程序在运行。（ ）\n"
+      "content": "小杨今年春节回奶奶家了，奶奶家的数字电视可以通过遥控器输入电视剧名称来找到想播放的电视剧，所以可以推知里面有交互式程序在运行。（ ）"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "任何一个for循环都可以转化为等价的while循环（ ）。\n"
+      "content": "任何一个 `for` 循环都可以转化为等价的 `while` 循环（ ）。"
     },
     {
       "type": "program",

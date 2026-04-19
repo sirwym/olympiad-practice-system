@@ -27,10 +27,10 @@
         },
         {
           "key": "D",
-          "text": "电⼦管"
+          "text": "电子管"
         }
       ],
-      "content": "我国第一台大型通用电⼦计算机使用的逻辑部件是（ ）。\n"
+      "content": "我国第一台大型通用电子计算机使用的逻辑部件是（ ）。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "12 12"
         }
       ],
-      "content": "下列流程图的输出结果是（ ）？\n"
+      "content": "下列流程图的输出结果是（ ）？"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "跳转结构"
         }
       ],
-      "content": "如果要找出整数a、b中较大一个，通常要用下面哪种程序结构？（ ）。\n"
+      "content": "如果要找出整数 $a$ 、 $b$ 中较大一个，通常要用下面哪种程序结构？（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "continue"
+          "text": "`continue`"
         },
         {
           "key": "B",
-          "text": "cout"
+          "text": "`cout`"
         },
         {
           "key": "C",
-          "text": "break"
+          "text": "`break`"
         },
         {
           "key": "D",
-          "text": "goto"
+          "text": "`goto`"
         }
       ],
-      "content": "以下不是C++关键字的是（ ）。\n"
+      "content": "以下不是 C++ 关键字的是（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-124"
+          "text": "$-124$"
         },
         {
           "key": "B",
-          "text": "-123"
+          "text": "$-123$"
         },
         {
           "key": "C",
-          "text": "-13"
+          "text": "$-13$"
         },
         {
           "key": "D",
-          "text": "-12"
+          "text": "$-12$"
         }
       ],
-      "content": "C++表达式int(-123.123 / 10)的值是（ ）。\n"
+      "content": "C++ 表达式 `int(-123.123 / 10)` 的值是（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "; ;"
+          "text": "`; ;`"
         },
         {
           "key": "B",
-          "text": "int i = 1; i < N; i++"
+          "text": "`int i = 1; i < N; i++`"
         },
         {
           "key": "C",
-          "text": "int i = N; i > 0; i--"
+          "text": "`int i = N; i > 0; i--`"
         },
         {
           "key": "D",
-          "text": "int i = N; i > 1; i--"
+          "text": "`int i = N; i > 1; i--`"
         }
       ],
-      "content": "以下C++代码实现从大到小的顺序输出N的所有因⼦。例如，输入N = 18时输出18 9 6 3 2 1，横线处\n应填入（ ）。\n"
+      "content": "以下 C++ 代码实现从大到小的顺序输出 $N$ 的所有因子。例如，输入 $N = 18$ 时输出 `18 9 6 3 2 1`，横线处应填入（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "i = j"
+          "text": "`i = j`"
         },
         {
           "key": "B",
-          "text": "j != j"
+          "text": "`j != j`"
         },
         {
           "key": "C",
-          "text": "i >= j"
+          "text": "`i >= j`"
         },
         {
           "key": "D",
-          "text": "i == j"
+          "text": "`i == j`"
         }
       ],
-      "content": "如下图所⽰，输出N行N列的矩阵，对角线为1，横线处应填入（ ）。\n"
+      "content": "如下图所⽰，输出 $N$ 行 $N$ 列的矩阵，对角线为 $1$ ，横线处应填入（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "break"
+          "text": "`break`"
         },
         {
           "key": "B",
-          "text": "continue"
+          "text": "`continue`"
         },
         {
           "key": "C",
-          "text": "exit"
+          "text": "`exit`"
         },
         {
           "key": "D",
-          "text": "return"
+          "text": "`return`"
         }
       ],
-      "content": "下面C++代码用于判断N是否为质数（素数），约定输入N为大于等于2的正整数，请在横线处填入合适的\n代码（ ）。\n"
+      "content": "下面 C++ 代码用于判断 $N$ 是否为质数（素数），约定输入 $N$ 为大于等于 $2$ 的正整数，请在横线处填入合适的代码（ ）。"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "1#1#1#1#1#1#0"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "16"
+          "text": "$16$"
         },
         {
           "key": "B",
-          "text": "28"
+          "text": "$28$"
         },
         {
           "key": "C",
-          "text": "35"
+          "text": "$35$"
         },
         {
           "key": "D",
-          "text": "36"
+          "text": "$36$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "C",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "D",
           "text": "没有输出"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "3,9,11"
+          "text": "$3,9,11$"
         },
         {
           "key": "C",
-          "text": "3,6,9,10"
+          "text": "$3,6,9,10$"
         },
         {
           "key": "D",
-          "text": "1,5,7,11,13,15"
+          "text": "$1,5,7,11,13,15$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "'A' + j / 3"
+          "text": "`'A' + j / 3`"
         },
         {
           "key": "B",
-          "text": "(char)('A' + j / 3)"
+          "text": "`(char)('A' + j / 3)`"
         },
         {
           "key": "C",
-          "text": "'A' + j % 3"
+          "text": "`'A' + j % 3`"
         },
         {
           "key": "D",
-          "text": "(char)('A' + j % 3)"
+          "text": "`(char)('A' + j % 3)`"
         }
       ],
-      "content": "下面图形每一行从字母A开始，以ABC方式重复。行数为输入的整数。请在C++代码段横线处填入合适代码\n（ ）。\n"
+      "content": "下面图形每一行从字母 A 开始，以 ABC 方式重复。行数为输入的整数。请在 C++ 代码段横线处填入合适代码（ ）。"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(lineCount - i - 1) * 2"
+          "text": "`(lineCount - i - 1) * 2`"
         },
         {
           "key": "B",
-          "text": "(lineCount - i) * 2"
+          "text": "`(lineCount - i) * 2`"
         },
         {
           "key": "C",
-          "text": "lineCount - i - 1"
+          "text": "`lineCount - i - 1`"
         },
         {
           "key": "D",
-          "text": "lineCount - i"
+          "text": "`lineCount - i`"
         }
       ],
-      "content": "输入行数，约定 ，输出以下图形。应在C++代码横线处填入（ ）。\n"
+      "content": "输入行数，约定 $1 \\leq n \\leq 100$，输出以下图形。应在 C++ 代码横线处填入（ ）。\n"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "true"
+          "text": "`true`"
         },
         {
           "key": "B",
-          "text": "false"
+          "text": "`false`"
         },
         {
           "key": "C",
-          "text": "True"
+          "text": "`True`"
         },
         {
           "key": "D",
-          "text": "False"
+          "text": "`False`"
         }
       ],
-      "content": "某班级⼈数不知，连续输入成绩直到输入负数停⽌，输入结束后求出平均成绩。在以下C++代码横线处应\n填入是（ ）。\n"
+      "content": "某班级人数不知，连续输入成绩直到输入负数停止，输入结束后求出平均成绩。在以下 C++ 代码横线处应填入是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "我们常说的互联网（Internet）是一个覆盖全球的广域网络，它不属于任何一个国家。\n"
+      "content": "我们常说的互联网（Internet）是一个覆盖全球的广域网络，它不属于任何一个国家。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "神威·太湖之光超级计算机是中国自主研制的超级计算机，在全球超级计算机TOP500排行榜中多次荣膺榜\n首。\n"
+      "content": "神威·太湖之光超级计算机是中国自主研制的超级计算机，在全球超级计算机 TOP500 排行榜中多次荣膺榜首。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "C++表达式7.8 / 2的值为3.9，类型为float。\n"
+      "content": "C++ 表达式 `7.8 / 2` 的值为 $3.9$，类型为 `float`。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "C++表达式(2 * 3) || (2 + 5)的值为67。\n"
+      "content": "C++ 表达式 `(2 * 3) || (2 + 5)` 的值为 $67$。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "如果m和n为int类型变量，则执行for (m = 0, n = 1; n < 9; ) n = ((m = 3 * n, m + 1), m -\n1);之后n的值为偶数。\n"
+      "content": "如果 $m$ 和 $n$ 为 `int` 类型变量，则执行 `for (m = 0, n = 1; n < 9; ) n = ((m = 3 * n, m + 1), m - 1);` 之后 $n$ 的值为偶数。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "如果a为int类型的变量，则表达式(a >= 5 && a <= 10)与(5 <= a <= 10)的值总是相同的。\n"
+      "content": "如果 $a$ 为 `int` 类型的变量，则表达式 `(a >= 5 && a <= 10)` 与 `(5 <= a <= 10)` 的值总是相同的。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码执行后的输出为10。\n"
+      "content": "下面 C++ 代码执行后的输出为 $10$。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "执行以下C++代码后的输出为0。\n"
+      "content": "执行以下 C++ 代码后的输出为 $0$。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "执行以下C++代码后的输出为30。\n"
+      "content": "执行以下 C++ 代码后的输出为 $30$。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "C++是一种高级程序设计语⾔。\n"
+      "content": "C++ 是一种高级程序设计语言。"
     },
     {
       "type": "program",

@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int add(int a, int b) { return a + b; }"
+          "text": "`int add(int a, int b) { return a + b; }`"
         },
         {
           "key": "B",
-          "text": "void add(int a, int b) { return a + b; }"
+          "text": "`void add(int a, int b) { return a + b; }`"
         },
         {
           "key": "C",
-          "text": "int add(a, b) { return a + b; }"
+          "text": "`int add(a, b) { return a + b; }`"
         },
         {
           "key": "D",
-          "text": "void add(int a, int b) { return a - b; }"
+          "text": "`void add(int a, int b) { return a - b; }`"
         }
       ],
-      "content": "在 C++ 中，（ ）正确定义了一个返回整数值并接受两个整数参数的函数。\n"
+      "content": "在 C++ 中，（ ）正确定义了一个返回整数值并接受两个整数参数的函数。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "形参和实参必须是完全相同的类型，不能有任何差异。"
         }
       ],
-      "content": "在C++中，形参与实参的关系描述正确的是（ ）。\n"
+      "content": "在 C++ 中，形参与实参的关系描述正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "100 200 200 300"
         }
       ],
-      "content": "运行以下代码，屏幕上将输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint var = 100;\nvoid function() {\n    int var = 200;\n    cout << var << \" \";\n    cout << ::var << \" \";\n}\nint main() {\n    cout << var << \" \";\n    function();\n    var += 100;\n    cout << var << \" \";\n    return 0;\n}\n```\n"
+      "content": "运行以下代码，屏幕上将输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint var = 100;\nvoid function() {\n    int var = 200;\n    cout << var << \" \";\n    cout << ::var << \" \";\n}\nint main() {\n    cout << var << \" \";\n    function();\n    var += 100;\n    cout << var << \" \";\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "24"
+          "text": "$24$"
         },
         {
           "key": "B",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "C",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "D",
           "text": "不确定"
         }
       ],
-      "content": "运行下面代码，屏幕上输出是（ ）。\n\n```cpp\nint arr[3] = {24, 9, 7};\nint* p = arr;\np++;\ncout << *p << endl;\n```\n"
+      "content": "运行下面代码，屏幕上输出是（ ）。\n\n```cpp\nint arr[3] = {24, 9, 7};\nint* p = arr;\np++;\ncout << *p << endl;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "将 赋值为24"
+          "text": "将 $x$ 赋值为 $24$"
         },
         {
           "key": "B",
-          "text": "将 赋值为20"
+          "text": "将 $y$ 赋值为 $20$"
         },
         {
           "key": "C",
-          "text": "将 指向 的地址"
+          "text": "将 `p` 指向 `q` 的地址"
         },
         {
           "key": "D",
-          "text": "将 指向 的地址"
+          "text": "将 `q` 指向 `p` 的地址"
         }
       ],
-      "content": "运行下面代码片段的结果是（ ）。\n\n```cpp\nint x = 20;\nint y = 24;\nint* p = &x;\nint* q = &y;\np = q;\n```\n"
+      "content": "运行下面代码片段的结果是（ ）。\n\n```cpp\nint x = 20;\nint y = 24;\nint* p = &x;\nint* q = &y;\np = q;\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "struct student { char name[20]; int age; };"
+          "text": "`struct student { char name[20]; int age; };`"
         },
         {
           "key": "B",
-          "text": "student struct { char name[20]; int age; };"
+          "text": "`student struct { char name[20]; int age; };`"
         },
         {
           "key": "C",
-          "text": "student struct { string name; int age; };"
+          "text": "`student struct { string name; int age; };`"
         },
         {
           "key": "D",
-          "text": "struct student { char[20] name; int age; };"
+          "text": "`struct student { char[20] name; int age; };`"
         }
       ],
-      "content": "在 C++ 中，（ ）正确定义一个名为student的结构体，其中包含一个name字符数组和一个age整数？\n"
+      "content": "在 C++ 中，（ ）正确定义一个名为 student 的结构体，其中包含一个 name 字符数组和一个 age 整数？"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int arr[3, 4];"
+          "text": "`int arr[3, 4];`"
         },
         {
           "key": "B",
-          "text": "int arr[3][4];"
+          "text": "`int arr[3][4];`"
         },
         {
           "key": "C",
-          "text": "int arr[4][3];"
+          "text": "`int arr[4][3];`"
         },
         {
           "key": "D",
-          "text": "int arr(3, 4);"
+          "text": "`int arr(3, 4);`"
         }
       ],
-      "content": "在 C++ 中，（ ）正确声明了一个 3 行 4 列的二维数组。\n"
+      "content": "在 C++ 中，（ ）正确声明了一个 $3$ 行 $4$ 列的二维数组。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "B",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "C",
-          "text": "12"
+          "text": "$12$"
         },
         {
           "key": "D",
-          "text": "16"
+          "text": "$16$"
         }
       ],
-      "content": "一个二维数组定义为 int arr[3][4];（假设一个int变量占4个字节），则int arr[0]占用（ ）个字节\n的内存。\n"
+      "content": "一个二维数组定义为 `int arr[3][4];`（假设一个 `int` 变量占 $4$ 个字节），则 `arr[0]` 占用（ ）个字节的内存。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "result *= i;"
+          "text": "`result *= i;`"
         },
         {
           "key": "B",
-          "text": "result += i;"
+          "text": "`result += i;`"
         },
         {
           "key": "C",
-          "text": "result *= result;"
+          "text": "`result *= result;`"
         },
         {
           "key": "D",
-          "text": "result += result;"
+          "text": "`result += result;`"
         }
       ],
-      "content": "下面代码采用递推算法来实现整数 的阶乘（ ），则横线上应填写（ ）。\n\n```cpp\nint factorial(int n) {\n    int result = 1;\n    for (int i = 2; i <= n; i++) {\n        ________________________________ // 在此处填入代码\n    }\n    return result;\n}\n```\n"
+      "content": "下面代码采用递推算法来实现整数 $n$ 的阶乘（$n!$），则横线上应填写（ ）。\n\n```cpp\nint factorial(int n) {\n    int result = 1;\n    for (int i = 2; i <= n; i++) {\n        ________________________________ // 在此处填入代码\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "排序后数据的时间复杂度不变"
         }
       ],
-      "content": "在排序算法中，稳定性指的是（ ）。\n"
+      "content": "在排序算法中，稳定性指的是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "for (int j = 0; j < arr.size() - 1; j++)"
+          "text": "`for (int j = 0; j < arr.size() - 1; j++)`"
         },
         {
           "key": "B",
-          "text": "for (int j = arr.size() - 1; j > 0; j--)"
+          "text": "`for (int j = arr.size() - 1; j > 0; j--)`"
         },
         {
           "key": "C",
-          "text": "for (int j = 0; j < i; j++)"
+          "text": "`for (int j = 0; j < i; j++)`"
         },
         {
           "key": "D",
-          "text": "for (int j = i-1; j <=0; j--)"
+          "text": "`for (int j = i-1; j <=0; j--)`"
         }
       ],
-      "content": "下面代码实现了冒泡排序函数，则横线上应填写（ ）。\n\n```cpp\n//交换数组arr的第i个元素和第j个元素\nvoid swap(vector<int> &arr, int i, int j) {\n    int tmp = arr[i];\n    arr[i] = arr[j];\n    arr[j] = tmp;\n}\nint bubble_sort(vector<int> &arr) {\n    for (int i = arr.size() - 1; i > 0; i--) {\n        bool flag = false; // 标志位\n        ________________________________ { // 在此处填入代码\n            if (arr[j] > arr[j + 1]) {\n                swap(arr, i, j);\n                flag = true;\n            }\n        }\n        if (!flag)\n        break; // 此轮“冒泡”未交换任何元素\n    }\n}\n```\n"
+      "content": "下面代码实现了冒泡排序函数，则横线上应填写（ ）。\n\n```cpp\n//交换数组arr的第i个元素和第j个元素\nvoid swap(vector<int> &arr, int i, int j) {\n    int tmp = arr[i];\n    arr[i] = arr[j];\n    arr[j] = tmp;\n}\nint bubble_sort(vector<int> &arr) {\n    for (int i = arr.size() - 1; i > 0; i--) {\n        bool flag = false; // 标志位\n        ________________________________ { // 在此处填入代码\n            if (arr[j] > arr[j + 1]) {\n                swap(arr, i, j);\n                flag = true;\n            }\n        }\n        if (!flag)\n            break; // 此轮“冒泡”未交换任何元素\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "上一题算法的时间复杂度为（ ）。\n"
+      "content": "上一题算法的时间复杂度为（ ）。"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "while (j >= 0 && nums[j] > base)"
+          "text": "`while (j >= 0 && nums[j] > base)`"
         },
         {
           "key": "B",
-          "text": "while (j > 0 && nums[j] > base)"
+          "text": "`while (j > 0 && nums[j] > base)`"
         },
         {
           "key": "C",
-          "text": "while (j >= 0 && nums[j] < base)"
+          "text": "`while (j >= 0 && nums[j] < base)`"
         },
         {
           "key": "D",
-          "text": "while (j > 0 && nums[j] < base)"
+          "text": "`while (j > 0 && nums[j] < base)`"
         }
       ],
-      "content": "下面代码实现了插入排序函数（升序），则横线上应填写（ ）。\n\n```cpp\nvoid insertion_sort(vector<int> &nums) {\n    for (int i = 1; i < nums.size(); i++) {\n        int base = nums[i], j = i - 1;\n        ________________________________ { // 在此处填入代码\n            nums[j + 1] = nums[j];\n            j--;\n        }\n        nums[j + 1] = base;\n    }\n}\n```\n"
+      "content": "下面代码实现了插入排序函数（升序），则横线上应填写（ ）。\n\n```cpp\nvoid insertion_sort(vector<int> &nums) {\n    for (int i = 1; i < nums.size(); i++) {\n        int base = nums[i], j = i - 1;\n        ________________________________ { // 在此处填入代码\n            nums[j + 1] = nums[j];\n            j--;\n        }\n        nums[j + 1] = base;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cout << \"This output will go to the log file.\" << endl;"
+          "text": "`cout << \"This output will go to the log file.\" << endl;`"
         },
         {
           "key": "B",
-          "text": "log_file << \"This output will go to the log file.\" << endl;"
+          "text": "`log_file << \"This output will go to the log file.\" << endl;`"
         },
         {
           "key": "C",
-          "text": "cout >> \"This output will go to the log file.\" >> endl;"
+          "text": "`cout >> \"This output will go to the log file.\" >> endl;`"
         },
         {
           "key": "D",
-          "text": "log_file >> \"This output will go to the log file.\" >> endl;"
+          "text": "`log_file >> \"This output will go to the log file.\" >> endl;`"
         }
       ],
-      "content": "小杨用文件重定向实现在log.txt文件中输出⽇志，则下面横线上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <fstream>\n#include <string>\nusing namespace std;\nint main() {\n    ofstream log_file(\"log.txt\");\n    streambuf* original_cout = cout.rdbuf();\n    cout.rdbuf(log_file.rdbuf());\n    ___________________________________ // 在此处填入代码\n    cout.rdbuf(original_cout); // 恢复原始的标准输出缓冲区\n    return 0;\n}\n```\n"
+      "content": "小杨用文件重定向实现在 log.txt 文件中输出日志，则下面横线上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <fstream>\n#include <string>\nusing namespace std;\nint main() {\n    ofstream log_file(\"log.txt\");\n    streambuf* original_cout = cout.rdbuf();\n    cout.rdbuf(log_file.rdbuf());\n    ___________________________________ // 在此处填入代码\n    cout.rdbuf(original_cout); // 恢复原始的标准输出缓冲区\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "division by zero error caught an exception: division by zero error"
         }
       ],
-      "content": "运行下面的代码，屏幕上将输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint divide(int a, int b) {\n    if (b == 0) {\n        throw runtime_error(\"division by zero error \");\n    }\n    return a / b;\n}\nint main() {\n    int x = 10;\n    int y = 0; // 设为 0 会导致除零错误\n    try {\n        int result = divide(x, y);\n        cout << \"result: \" << result << endl;\n    } catch (const runtime_error& e) {\n        cout << \"caught an exception: \" << e.what() << endl;\n    }\n    return 0;\n}\n```\n"
+      "content": "运行下面的代码，屏幕上将输出（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint divide(int a, int b) {\n    if (b == 0) {\n        throw runtime_error(\"division by zero error \");\n    }\n    return a / b;\n}\nint main() {\n    int x = 10;\n    int y = 0; // 设为 0 会导致除零错误\n    try {\n        int result = divide(x, y);\n        cout << \"result: \" << result << endl;\n    } catch (const runtime_error& e) {\n        cout << \"caught an exception: \" << e.what() << endl;\n    }\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "代码int a = 10; int* p = &a;可以正确定义指针和初始化指针。\n"
+      "content": "代码 `int a = 10; int* p = &a;` 可以正确定义指针和初始化指针。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "在 C++ 中，引用传递允许函数修改传递给它的参数的值。\n"
+      "content": "在 C++ 中，引用传递允许函数修改传递给它的参数的值。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "指针的大小与其所指向的变量的数据类型的大小相同。\n"
+      "content": "指针的大小与其所指向的变量的数据类型的大小相同。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "二维数组的行的大小的必须在定义时确定，列的大小可以动态变化。\n"
+      "content": "二维数组的行的大小必须在定义时确定，列的大小可以动态变化。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "递推算法通过逐步求解当前状态和前一个或几个状态之间的关系来解决问题。\n"
+      "content": "递推算法通过逐步求解当前状态和前一个或几个状态之间的关系来解决问题。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "选择排序是稳定的排序算法。\n"
+      "content": "选择排序是稳定的排序算法。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "插入排序的时间复杂度总是比冒泡排序低。\n"
+      "content": "插入排序的时间复杂度总是比冒泡排序低。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "在 C++ 中，如果没有捕获到异常（没有匹配的 catch 块），程序会继续执行⽽不会终⽌。\n"
+      "content": "在 C++ 中，如果没有捕获到异常（没有匹配的 `catch` 块），程序会继续执行而不会终止。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "以下代码用递推法求斐波那契数列的第 项，时间复杂度为指数级。\n\n```cpp\nint fibonacci(int n) {\n    if (n == 0) return 0;\n    if (n == 1) return 1;\n    int f0 = 0; // F(0)\n    int f1 = 1; // F(1)\n    int current;\n    for (int i = 2; i <= n; i++) {\n        current = f0+ f 1; / / F(n) = F(n-1) + F(n-2)\n        f0 = f1;\n        f1 = current;\n    }\n    return current;\n}\n```\n"
+      "content": "以下代码用递推法求斐波那契数列的第 $n$ 项，时间复杂度为指数级。\n\n```cpp\nint fibonacci(int n) {\n    if (n == 0) return 0;\n    if (n == 1) return 1;\n    int f0 = 0; // F(0)\n    int f1 = 1; // F(1)\n    int current;\n    for (int i = 2; i <= n; i++) {\n        current = f0 + f1; // F(n) = F(n-1) + F(n-2)\n        f0 = f1;\n        f1 = current;\n    }\n    return current;\n}\n```"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "执行下面C++代码后，输出的是20。\n\n```cpp\nint point(int* p){\n    return *p * 2;\n}\nint main() {\n    int a = 10;\n    int* p = &a;\n    *p = point(p);\n    cout << *p << endl;\n}\n```\n"
+      "content": "执行下面 C++ 代码后，输出的是 $20$。\n\n```cpp\nint point(int* p){\n    return *p * 2;\n}\nint main() {\n    int a = 10;\n    int* p = &a;\n    *p = point(p);\n    cout << *p << endl;\n}\n```"
     },
     {
       "type": "program",

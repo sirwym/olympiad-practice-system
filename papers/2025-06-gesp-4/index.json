@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int* ptr;"
+          "text": "`int* ptr;`"
         },
         {
           "key": "B",
-          "text": "*int ptr;"
+          "text": "`*int ptr;`"
         },
         {
           "key": "C",
-          "text": "int ptr*;"
+          "text": "`int ptr*;`"
         },
         {
           "key": "D",
-          "text": "ptr int;"
+          "text": "`ptr int;`"
         }
       ],
-      "content": "在C++中，声明一个指向整型变量的指针的正确语法是（ ）。\n"
+      "content": "在 C++ 中，声明一个指向整型变量的指针的正确语法是（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int arr[3][4]"
+          "text": "`int arr[3][4]`"
         },
         {
           "key": "B",
-          "text": "int arr[][4]"
+          "text": "`int arr[][4]`"
         },
         {
           "key": "C",
-          "text": "int (*arr)[4]"
+          "text": "`int (*arr)[4]`"
         },
         {
           "key": "D",
-          "text": "int** arr"
+          "text": "`int** arr`"
         }
       ],
-      "content": "下面的函数接收一个 行 列的二维数组并输出其中元素，则横线上不能填写（ ）。\n\n```cpp\nvoid printArray(________) {\n    for (int i = 0; i < 3; ++i)\n    for (int j = 0; j < 4; ++j)\n    std::cout << arr[i][j] << \" \";\n}\n```\n"
+      "content": "下面的函数接收一个 $3$ 行 $4$ 列的二维数组并输出其中元素，则横线上不能填写（ ）。\n\n```cpp\nvoid printArray(________) {\n    for (int i = 0; i < 3; ++i)\n        for (int j = 0; j < 4; ++j)\n            std::cout << arr[i][j] << \" \";\n}\n```"
     },
     {
       "type": "choice",
@@ -65,11 +65,11 @@
       "options": [
         {
           "key": "A",
-          "text": "int arr[3][4]在栈上分配空间，适合数组较小的情况；"
+          "text": "`int arr[3][4]` 在栈上分配空间，适合数组较小的情况；"
         },
         {
           "key": "B",
-          "text": "int* arr = new int[12]在堆上分配空间，数组较大时也适用；"
+          "text": "`int* arr = new int[12]` 在堆上分配空间，数组较大时也适用；"
         },
         {
           "key": "C",
@@ -80,7 +80,7 @@
           "text": "这两种方式申请的内存都能自动释放。"
         }
       ],
-      "content": "在C++中，int arr[3][4] 和 int* arr = new int[12]均可模拟一个 行 列的二维数组。关于这两种方\n式，下面说法错误的是（ ）。\n"
+      "content": "在 C++ 中，`int arr[3][4]` 和 `int* arr = new int[12]` 均可模拟一个 $3$ 行 $4$ 列的二维数组。关于这两种方式，下面说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -94,7 +94,7 @@
         },
         {
           "key": "B",
-          "text": "编译错误：找不到函数 greet()"
+          "text": "编译错误：找不到函数 `greet()`"
         },
         {
           "key": "C",
@@ -105,7 +105,7 @@
           "text": "链接错误"
         }
       ],
-      "content": "关于以下 C++代码，说法正确的是（ ）。\n\n```cpp\nint main() {\n    greet();\n    return 0;\n}\nvoid greet() {\n    cout << \"Hello!\" << endl;\n}\n```\n"
+      "content": "关于以下 C++ 代码，说法正确的是（ ）。\n\n```cpp\nint main() {\n    greet();\n    return 0;\n}\nvoid greet() {\n    cout << \"Hello!\" << endl;\n}\n```"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "仅指针传递"
         }
       ],
-      "content": "在C++中，如果希望通过函数修改传入的结构体对象的内容，应该使用哪种参数传递方式？\n"
+      "content": "在 C++ 中，如果希望通过函数修改传入的结构体对象的内容，应该使用哪种参数传递方式？"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "形参只在函数内部可见，实参在函数外部可见。"
         }
       ],
-      "content": "以下哪个选项正确描述了C++中形参和实参的区别？\n"
+      "content": "以下哪个选项正确描述了 C++ 中形参和实参的区别？"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "100 100 100"
+          "text": "$100$ $100$ $100$"
         },
         {
           "key": "B",
-          "text": "50 50 50"
+          "text": "$50$ $50$ $50$"
         },
         {
           "key": "C",
-          "text": "50 100 100"
+          "text": "$50$ $100$ $100$"
         },
         {
           "key": "D",
-          "text": "50 50 100"
+          "text": "$50$ $50$ $100$"
         }
       ],
-      "content": "运行如下代码会输出（ ）。\n\n```cpp\nint value = 100;\nvoid print1() {\n    int value = 50;\n    cout << value << \" \";\n    cout << ::value << \" \";\n}\nvoid print2() {\n    cout << value << \" \";\n}\nprint1();\nprint2();\n```\n"
+      "content": "运行如下代码会输出（ ）。\n\n```cpp\nint value = 100;\nvoid print1() {\n    int value = 50;\n    cout << value << \" \";\n    cout << ::value << \" \";\n}\nvoid print2() {\n    cout << value << \" \";\n}\nprint1();\nprint2();\n```"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": "直接排序"
         }
       ],
-      "content": "小杨在整理一副扑克牌的所有红心扑克牌，使其从小到大排列。他的做法是：最开始抓到第1张扑克牌被认\n为已经排好序；然后抓第2张扑克牌，将其插入至有序部分的正确位置；不断循环步骤，每次将新抓到扑克牌插入至\n有序部分，直至抓完所有扑克牌，这样抓牌结束时就完成了扑克牌的排序。小杨这种整理扑克牌的方式与（ ）排序\n的方式最接近。\n"
+      "content": "小杨在整理一副扑克牌的所有红心扑克牌，使其从小到大排列。他的做法是：最开始抓到第 $1$ 张扑克牌被认为已经排好序；然后抓第 $2$ 张扑克牌，将其插入至有序部分的正确位置；不断循环步骤，每次将新抓到扑克牌插入至有序部分，直至抓完所有扑克牌，这样抓牌结束时就完成了扑克牌的排序。小杨这种整理扑克牌的方式与（ ）排序的方式最接近。"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "想在交换次数最少的前提下排好大数组"
         }
       ],
-      "content": "以下哪种情况是使用插入排序的合适场景？\n"
+      "content": "以下哪种情况是使用插入排序的合适场景？"
     },
     {
       "type": "choice",
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "递推算法通过将问题分解为相互独⽴的⼦问题来解决。"
+          "text": "递推算法通过将问题分解为相互独立的子问题来解决。"
         },
         {
           "key": "B",
@@ -255,7 +255,7 @@
           "text": "递推算法适用于在每一步做出局部最优选择以达到全局最优。"
         }
       ],
-      "content": "以下关于递推算法基本思想的描述，正确的是（ ）。\n"
+      "content": "以下关于递推算法基本思想的描述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -280,7 +280,7 @@
           "text": ""
         }
       ],
-      "content": "给定如下算法，其时间复杂度为（ ）。\n\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < n; i++) {\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if (i & (1 << j)) {\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```\n"
+      "content": "给定如下算法，其时间复杂度为（ ）。\n\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < n; i++) {\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if (i & (1 << j)) {\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "下述斐波那契数列计算的时间复杂度是（ ）。\n\n```cpp\nint fibonacci(int n) {\n    if (n == 0) return 0;\n    if (n == 1) return 1;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n```\n"
+      "content": "下述斐波那契数列计算的时间复杂度是（ ）。\n\n```cpp\nint fibonacci(int n) {\n    if (n == 0) return 0;\n    if (n == 1) return 1;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n```"
     },
     {
       "type": "choice",
@@ -319,18 +319,18 @@
         },
         {
           "key": "B",
-          "text": "程序无法运行，因为 getline 只能读取 cin"
+          "text": "程序无法运行，因为 `getline` 只能读取 `cin`"
         },
         {
           "key": "C",
-          "text": "将 data.txt 中的每一行读取并输出到屏幕"
+          "text": "将 `data.txt` 中的每一行读取并输出到屏幕"
         },
         {
           "key": "D",
-          "text": "程序将创建 data.txt 并写入默认文本"
+          "text": "程序将创建 `data.txt` 并写入默认文本"
         }
       ],
-      "content": "关于下面 C++ 程序的描述，（ ）最准确。\n\n```cpp\nifstream in(\"data.txt\");\nstring line;\nwhile (getline(in, line)) {\n    cout << line << endl;\n}\n```\n"
+      "content": "关于下面 C++ 程序的描述，（ ）最准确。\n\n```cpp\nifstream in(\"data.txt\");\nstring line;\nwhile (getline(in, line)) {\n    cout << line << endl;\n}\n```"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": "减少程序的内存占用。"
         }
       ],
-      "content": "在C++中，异常处理机制（try-catch块）的主要目的是( )。\n"
+      "content": "在 C++ 中，异常处理机制（`try`-`catch` 块）的主要目的是( )。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nflag = false;\nflag = false;\n```\n"
+          "text": "```cpp\nflag = false;\nflag = false;\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nflag = false;\nflag = true;\n```\n"
+          "text": "```cpp\nflag = false;\nflag = true;\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nflag = true;\nflag = false;\n```\n"
+          "text": "```cpp\nflag = true;\nflag = false;\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nflag = true;\nflag = true;\n```\n"
+          "text": "```cpp\nflag = true;\nflag = true;\n```"
         }
       ],
-      "content": "为了提高冒泡排序的效率，如果某轮“冒泡”中没有执行任何交换操作，说明数组已经完成排序，可直接返\n回结果，则两条横线上分别应该填写（ ）。\n\n```cpp\nvoid bubbleSortWithFlag(vector<int> &nums) {\n    for (int i = nums.size() - 1; i > 0; i--) {\n        bool flag;\n        ________________ // 在此处填入代码\n        for (int j = 0; j < i; j++) {\n            if (nums[j] > nums[j + 1]) {\n                swap(nums[j], nums[j + 1]);\n                ___________________________ // 在此处填入代码\n            }\n        }\n        if (!flag)\n        break;\n    }\n}\n```\n"
+      "content": "为了提高冒泡排序的效率，如果某轮“冒泡”中没有执行任何交换操作，说明数组已经完成排序，可直接返回结果，则两条横线上分别应该填写（ ）。\n\n```cpp\nvoid bubbleSortWithFlag(vector<int> &nums) {\n    for (int i = nums.size() - 1; i > 0; i--) {\n        bool flag;\n        ________________ // 在此处填入代码\n        for (int j = 0; j < i; j++) {\n            if (nums[j] > nums[j + 1]) {\n                swap(nums[j], nums[j + 1]);\n                ___________________________ // 在此处填入代码\n            }\n        }\n        if (!flag)\n            break;\n    }\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码正确声明了一个返回int类型、接受两个int参数的函数。\n\n```cpp\nint add(int, int);\n```\n"
+      "content": "下面 C++ 代码正确声明了一个返回 `int` 类型、接受两个 `int` 参数的函数。\n\n```cpp\nint add(int, int);\n```"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码的输出是15。\n\n```cpp\nvoid foo(int x) {\n    x += 5;\n}\nint main() {\n    int a = 10;\n    foo(a);\n    cout << a << endl;\n}\n```\n"
+      "content": "下面 C++ 代码的输出是 $15$。\n\n```cpp\nvoid foo(int x) {\n    x += 5;\n}\nint main() {\n    int a = 10;\n    foo(a);\n    cout << a << endl;\n}\n```"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "下面c++代码在一个结构体中⼜定义了别的结构体。这种结构嵌套定义的方式语法不正确。\n\n```cpp\n#include <string>\n#include <vector>\nusing namespace std;\nstruct Library {\n    struct Book {\n        struct Author {\n            string name;\n            int birthYear;\n        };\n        string title;\n        int year;\n        Author author;\n    };\n    string name;\n    vector<Book> books;\n};\n```\n"
+      "content": "下面 C++ 代码在一个结构体中又定义了别的结构体。这种结构嵌套定义的方式语法不正确。\n\n```cpp\n#include <string>\n#include <vector>\nusing namespace std;\nstruct Library {\n    struct Book {\n        struct Author {\n            string name;\n            int birthYear;\n        };\n        string title;\n        int year;\n        Author author;\n    };\n    string name;\n    vector<Book> books;\n};\n```"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，相比于值传递，使用引用传递作的优点可以直接操作和修改原始变量，避免数据拷贝，提高效\n率。\n"
+      "content": "在 C++ 中，相比于值传递，使用引用传递作的优点可以直接操作和修改原始变量，避免数据拷贝，提高效率。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "下面这段代码不合法，因为每一行都必须显式初始化 个元素。\nint arr[2][3] = {{1, 2}, {3}};\n"
+      "content": "下面这段代码不合法，因为每一行都必须显式初始化 $3$ 个元素。\n\n```cpp\nint arr[2][3] = {{1, 2}, {3}};\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "以下程序中使用了递推方式计算阶乘（ ），计算结果正确。\n\n```cpp\nint factorial(int n) {\n    int res = 1;\n    for (int i = 0; i < n; ++i) {\n        res *= i;\n    }\n    return res;\n}\n```\n"
+      "content": "以下程序中使用了递推方式计算阶乘（ ），计算结果正确。\n\n```cpp\nint factorial(int n) {\n    int res = 1;\n    for (int i = 0; i < n; ++i) {\n        res *= i;\n    }\n    return res;\n}\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "无论初始数组是否有序，选择排序都执行 次比较\n"
+      "content": "无论初始数组是否有序，选择排序都执行 $n(n-1)/2$ 次比较"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "以下C++代码，尝试对有n个整数的数组arr进行排序。这个代码实现了选择排序算法。\n\n```cpp\nfor (int i = 0; i < n - 1; ++i) {\n    int minIndex = i;\n    for (int j = i + 1; j < n; ++j) {\n        if (arr[j] < arr[minIndex])\n        minIndex = j;\n    }\n    if (minIndex != i)\n    swap(arr[i], arr[minIndex]);\n}\n```\n"
+      "content": "以下 C++ 代码，尝试对有 $n$ 个整数的数组 `arr` 进行排序。这个代码实现了选择排序算法。\n\n```cpp\nfor (int i = 0; i < n - 1; ++i) {\n    int minIndex = i;\n    for (int j = i + 1; j < n; ++j) {\n        if (arr[j] < arr[minIndex])\n            minIndex = j;\n    }\n    if (minIndex != i)\n        swap(arr[i], arr[minIndex]);\n}\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "如果一个异常在 try 块中抛出但没有任何 catch 匹配，它将在编译时报错。\n"
+      "content": "如果一个异常在 `try` 块中抛出但没有任何 `catch` 匹配，它将在编译时报错。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码实现将 Hello 写入 data.txt。\n\n```cpp\nofstream out(\"data.txt\");\nout << \"Hello\";\nout.close();\n```\n"
+      "content": "下面 C++ 代码实现将 Hello 写入 data.txt。\n\n```cpp\nofstream out(\"data.txt\");\nout << \"Hello\";\nout.close();\n```"
     },
     {
       "type": "program",

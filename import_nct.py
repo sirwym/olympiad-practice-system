@@ -82,10 +82,22 @@ def convert_paper(filepath, url_map):
     raw_category = data.get('category', '')
     category = CATEGORY_MAP.get(raw_category, raw_category)
 
-    # 从 paperName 解析 level（C1→1, K1→1, C2→2, K3→3 等）
-    paper_name = data.get('paperName', '')
-    level_match = re.search(r'[CK](\d+)', paper_name)
-    level = level_match.group(1) if level_match else '1'
+    # 从 paperName 解析 level 和规范化名称
+    # paperName 格式不统一：
+    #   新格式: "3-1-K3模拟卷1" (含"序号-子序号-级别代号"前缀)
+    #   旧格式: "K1模拟卷1" 或 "3-K3模拟卷1" (可能有数字前缀)
+    # 统一规则：提取 [CK]\d+ 部分，生成 "K3模拟卷1" 格式
+    paper_name_raw = data.get('paperName', '')
+    level_match = re.search(r'([CK])(\d+)', paper_name_raw)
+    level = level_match.group(2) if level_match else '1'
+    level_code = level_match.group(0) if level_match else 'K1'  # 如 K3, C2
+
+    # 规范化 paperName：提取 "K3模拟卷1" / "C2模拟卷2" 部分
+    # 从 level_code 位置开始截取，去掉前面的序号前缀
+    if level_match:
+        paper_name = paper_name_raw[level_match.start():]
+    else:
+        paper_name = paper_name_raw
 
     # 生成 title
     if raw_category == 'C++':

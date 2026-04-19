@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fiboA( )用递归方式，fiboB()循环方式"
+          "text": "`fiboA()` 用递归方式，`fiboB()` 循环方式"
         },
         {
           "key": "B",
-          "text": "fiboA( )更加符合斐波那契数列的数学定义，直观易于理解，⽽fiboB()需要将数学定义转换为计算机程\n序实现\n"
+          "text": "`fiboA()` 更加符合斐波那契数列的数学定义，直观易于理解，而 `fiboB()` 需要将数学定义转换为计算机程序实现"
         },
         {
           "key": "C",
-          "text": "fiboA( )不仅仅更加符合数学定义，直观易于理解，且因代码量较少执行效率更高"
+          "text": "`fiboA()` 不仅仅更加符合数学定义，直观易于理解，且因代码量较少执行效率更高"
         },
         {
           "key": "D",
-          "text": "fiboB( )虽然代码量有所增加，但其执行效率更高"
+          "text": "`fiboB()` 虽然代码量有所增加，但其执行效率更高"
         }
       ],
-      "content": "下面C++代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。下面有关说法错误的\n是( )。\n"
+      "content": "下面 C++ 代码用于求斐波那契数列，该数列第 $1$、$2$ 项为 $1$，以后各项均是前两项之和。下面有关说法错误的是( )。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "mergeSort(SList, T2, s, m,len), mergeSort(SList, T2, m,t,len)"
+          "text": "`mergeSort(SList, T2, s, m, len)`, `mergeSort(SList, T2, m, t, len)`"
         },
         {
           "key": "B",
-          "text": "mergeSort(SList, T2, s, m-1,len), mergeSort(SList, T2, m+1,t,len)"
+          "text": "`mergeSort(SList, T2, s, m-1, len)`, `mergeSort(SList, T2, m+1, t, len)`"
         },
         {
           "key": "C",
-          "text": "mergeSort(SList, T2, s, m,len), mergeSort(SList, T2, m+1,t,len)"
+          "text": "`mergeSort(SList, T2, s, m, len)`, `mergeSort(SList, T2, m+1, t, len)`"
         },
         {
           "key": "D",
-          "text": "mergeSort(SList, T2, s, m-1,len), mergeSort(SList, T2, m-1,t,len)"
+          "text": "`mergeSort(SList, T2, s, m-1, len)`, `mergeSort(SList, T2, m-1, t, len)`"
         }
       ],
-      "content": "下面C++代码以递归方式实现合并排序，并假设merge (int T[], int R[], int s, int m, int t)函\n数将有序（同样排序规则）的T[s..m]和T[m+1..t]归并到R[s..t]中。横线处应填上代码是( )。\n"
+      "content": "下面 C++ 代码以递归方式实现合并排序，并假设 `merge(int T[], int R[], int s, int m, int t)` 函数将有序（同样排序规则）的 `T[s..m]` 和 `T[m+1..t]` 归并到 `R[s..t]` 中。横线处应填上代码是( )。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "1->120<===>2->3->4->5->6->120"
         }
       ],
-      "content": "阅读下面的C++代码，执行后其输出是( )。\n"
+      "content": "阅读下面的 C++ 代码，执行后其输出是( )。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "!isEven(lstA[j]) && isEven(lstA[j+1])"
+          "text": "`!isEven(lstA[j]) && isEven(lstA[j+1])`"
         },
         {
           "key": "B",
-          "text": "isEven(lstA[j]) && !isEven(lstA[j+1])"
+          "text": "`isEven(lstA[j]) && !isEven(lstA[j+1])`"
         },
         {
           "key": "C",
-          "text": "lstA[j] > lstA[j+1]"
+          "text": "`lstA[j] > lstA[j+1]`"
         },
         {
           "key": "D",
-          "text": "lstA[j] < lstA[j+1]"
+          "text": "`lstA[j] < lstA[j+1]`"
         }
       ],
-      "content": "下面的C++用于对lstA排序，使得偶数在前奇数在后，横线处应填入( )。\n"
+      "content": "下面的 C++ 用于对 `lstA` 排序，使得偶数在前奇数在后，横线处应填入( )。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "if(pHead) {p->next = pHead->next, pHead->next->prev = p;}"
+          "text": "`if(pHead) {p->next = pHead->next, pHead->next->prev = p;}`"
         },
         {
           "key": "B",
-          "text": "if(pHead->next) {p->next = pHead->next, pHead->next->prev = p;}"
+          "text": "`if(pHead->next) {p->next = pHead->next, pHead->next->prev = p;}`"
         },
         {
           "key": "C",
-          "text": "p->next = pHead->next, pHead->next->prev = p;"
+          "text": "`p->next = pHead->next, pHead->next->prev = p;`"
         },
         {
           "key": "D",
           "text": "触发异常，不能对空指针进行操作。"
         }
       ],
-      "content": "下面的C++代码用于将字符串保存到带头节点的双向链表中，并对重复的串计数，然后将最新访问的串的节\n点放在链头便于查找。横线处应填入代码是（ ）。\n"
+      "content": "下面的 C++ 代码用于将字符串保存到带头节点的双向链表中，并对重复的串计数，然后将最新访问的串的节点放在链头便于查找。横线处应填入代码是（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "如果x小于10，rc值也不会超过20"
+          "text": "如果 $x$ 小于 $10$ ，`rc` 值也不会超过 $20$"
         },
         {
           "key": "B",
-          "text": "foo可能无限递归"
+          "text": "`foo` 可能无限递归"
         },
         {
           "key": "C",
-          "text": "foo可以求出 x 和 y 的最大公共质因⼦"
+          "text": "`foo` 可以求出 $x$ 和 $y$ 的最大公共质因子"
         },
         {
           "key": "D",
-          "text": "foo能够求出 x 和 y 的最小公倍数"
+          "text": "`foo` 能够求出 $x$ 和 $y$ 的最小公倍数"
         }
       ],
-      "content": "有关下面C++代码说法正确的是（ ）。\n"
+      "content": "有关下面 C++ 代码说法正确的是（ ）。\n"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "qSort(less) + qSort(greater) + (vector<int>)pivot"
+          "text": "`qSort(less) + qSort(greater) + (vector<int>)pivot`"
         },
         {
           "key": "B",
-          "text": "(vector<int>)pivot + (qSort(less) + qSort(greater))"
+          "text": "`(vector<int>)pivot + (qSort(less) + qSort(greater))`"
         },
         {
           "key": "C",
-          "text": "(qSort(less) + (vector<int>)pivot + qSort(greater))"
+          "text": "`(qSort(less) + (vector<int>)pivot + qSort(greater))`"
         },
         {
           "key": "D",
-          "text": "qSort(less) + pivot + qSort(greater)"
+          "text": "`qSort(less) + pivot + qSort(greater)`"
         }
       ],
-      "content": "下面的C++代码实现对list的快速排序，有关说法，错误的是（ ）。\n"
+      "content": "下面的 C++ 代码实现对 `list` 的快速排序，有关说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "isPrimeA( )的最坏时间复杂度是 ，isPrimeB( )的最坏时间复杂度是 ，isPrimeA()优\n于isPrimeB()\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeB()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeA()` 优于 `isPrimeB()`"
         },
         {
           "key": "B",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB( )的最坏时间复杂度是 ，isPrimeB()绝大\n多数情况下优于isPrimeA()\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeB()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 绝大多数情况下优于 `isPrimeA()`"
         },
         {
           "key": "C",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB( )的最坏时间复杂度是 ，isPrimeA( )优于\nisPrimeB( )\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeA()` 优于 `isPrimeB()`"
         },
         {
           "key": "D",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB( )的最坏时间复杂度是 ，isPrimeA()优于\nisPrimeB( )\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeA()` 优于 `isPrimeB()`"
         }
       ],
-      "content": "下面C++代码中的 isPrimeA() 和 isPrimeB() 都用于判断参数N是否素数，有关其时间复杂度的正确说\n法是（ ）。\n"
+      "content": "下面 C++ 代码中的 `isPrimeA()` 和 `isPrimeB()` 都用于判断参数 $N$ 是否素数，有关其时间复杂度的正确说法是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "代码采用二分法实现有序list的查找"
+          "text": "代码采用二分法实现有序 `list` 的查找"
         },
         {
           "key": "B",
-          "text": "代码采用分治算法实现有序list的查找"
+          "text": "代码采用分治算法实现有序 `list` 的查找"
         },
         {
           "key": "C",
-          "text": "代码采用递归方式实现有序list的查找"
+          "text": "代码采用递归方式实现有序 `list` 的查找"
         },
         {
           "key": "D",
-          "text": "代码采用动态规划算法实现有序list的查找"
+          "text": "代码采用动态规划算法实现有序 `list` 的查找"
         }
       ],
-      "content": "下面C++代码用于有序list的二分查找，有关说法错误的是（ ）。\n"
+      "content": "下面 C++ 代码用于有序 `list` 的二分查找，有关说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": ""
         }
       ],
-      "content": "在上题的_binarySearch算法中，如果lst中有N个元素，其时间复杂度是（ ）。\n"
+      "content": "在上题的 `_binarySearch` 算法中，如果 `lst` 中有 $N$ 个元素，其时间复杂度是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "c.push_back(t % 10), t = t % 10;"
+          "text": "`c.push_back(t % 10)`, `t = t % 10`;"
         },
         {
           "key": "B",
-          "text": "c.push_back(t / 10), t = t % 10;"
+          "text": "`c.push_back(t / 10)`, `t = t % 10`;"
         },
         {
           "key": "C",
-          "text": "c.push_back(t / 10), t = t / 10;"
+          "text": "`c.push_back(t / 10)`, `t = t / 10`;"
         },
         {
           "key": "D",
-          "text": "c.push_back(t % 10), t = t / 10;"
+          "text": "`c.push_back(t % 10)`, `t = t / 10`;"
         }
       ],
-      "content": "下面的C++代码使用数组模拟整数加法，可以处理超出大整数范围的加法运算。横线处应填入代码是（\n）。\n"
+      "content": "下面的 C++ 代码使用数组模拟整数加法，可以处理超出大整数范围的加法运算。横线处应填入代码是（ ）。"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": "上述代码构成指针链表"
         }
       ],
-      "content": "有关下面C++代码的说法正确的是（ ）。\n"
+      "content": "有关下面 C++ 代码的说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": "数据加密"
         }
       ],
-      "content": "通讯卫星在通信网络系统中主要起到（）的作用。\n"
+      "content": "通讯卫星在通信网络系统中主要起到（）的作用。"
     },
     {
       "type": "choice",
@@ -340,7 +340,7 @@
       "options": [
         {
           "key": "A",
-          "text": "埃⽒筛法"
+          "text": "埃氏筛法"
         },
         {
           "key": "B",
@@ -355,7 +355,7 @@
           "text": "枚举法"
         }
       ],
-      "content": "小杨想编写一个判断任意输入的整数N是否为素数的程序，下面哪个方法不合适？（ ）\n"
+      "content": "小杨想编写一个判断任意输入的整数 $N$ 是否为素数的程序，下面哪个方法不合适？（ ）"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "冒泡排序"
         }
       ],
-      "content": "下面的排序算法都要处理多趟数据，哪种排序算法不能保证在下一趟处理时从待处理数据中选出最大或最\n小的数据？（ ）\n"
+      "content": "下面的排序算法都要处理多趟数据，哪种排序算法不能保证在下一趟处理时从待处理数据中选出最大或最小的数据？（ ）"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "归并排序的时间复杂度是 。( )\n"
+      "content": "归并排序的时间复杂度是 $O(n \\log n)$。( )"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "小杨在生⽇聚会时拿一块H*W的巧克⼒招待来的K个小朋友，保证每位小朋友至少能获得一块相同大小的巧\n克⼒。那么小杨想分出来最大边长的巧克⼒可以使用二分法。（ ）\n"
+      "content": "小杨在生日聚会时拿一块 $H \\times W$ 的巧克力招待来的 $K$ 个小朋友，保证每位小朋友至少能获得一块相同大小的巧克力。那么小杨想分出来最大边长的巧克力可以使用二分法。（ ）"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "以下C++代码能以递归方式实现斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。( )\n"
+      "content": "以下 C++ 代码能以递归方式实现斐波那契数列，该数列第 1、2 项为 $1$，以后各项均是前两项之和。( )"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "贪心算法可以达到局部最优，但可能不是全局最优解。( )\n"
+      "content": "贪心算法可以达到局部最优，但可能不是全局最优解。( )"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "小杨设计了一个拆数程序，它能够将任意的非质数自然数N转换成若⼲个质数的乘积，这个程序是可以设计\n出来的。（ ）\n"
+      "content": "小杨设计了一个拆数程序，它能够将任意的非质数自然数 $N$ 转换成若干个质数的乘积，这个程序是可以设计出来的。（ ）"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "插入排序有时比快速排序时间复杂度更低。（ ）\n"
+      "content": "插入排序有时比快速排序时间复杂度更低。（ ）"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "下面的C++代码能实现十进制正整数N转换为八进制并输出。（ ）\n"
+      "content": "下面的 C++ 代码能实现十进制正整数 $N$ 转换为八进制并输出。（ ）"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "对数组int arr[] = {2, 6, 3, 5, 4, 8, 1, 0, 9, 10}执行sort(arr, arr+10)，则执行后arr\n中的数据调整为{0, 1, 2, 3, 4, 5, 6, 8,9, 10}。（ ）\n"
+      "content": "对数组 `int arr[] = {2, 6, 3, 5, 4, 8, 1, 0, 9, 10}` 执行 `sort(arr, arr+10)`，则执行后 `arr` 中的数据调整为 `{0, 1, 2, 3, 4, 5, 6, 8, 9, 10}`。（ ）"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "小杨想写一个程序来算出正整数N有多少个因数，经过思考他写出了一个重复没有超过N/2次的循环就能够算\n出来了。（ ）\n"
+      "content": "小杨想写一个程序来算出正整数 $N$ 有多少个因数，经过思考他写出了一个重复没有超过 $N/2$ 次的循环就能够算出来了。（ ）"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "同样的整数序列分别保存在单链表和双向链中，这两种链表上的简单冒泡排序的复杂度相同。（ ）\n"
+      "content": "同样的整数序列分别保存在单链表和双向链中，这两种链表上的简单冒泡排序的复杂度相同。（ ）"
     },
     {
       "type": "program",

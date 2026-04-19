@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "12 字节"
+          "text": "$12$ 字节"
         },
         {
           "key": "B",
-          "text": "13 字节"
+          "text": "$13$ 字节"
         },
         {
           "key": "C",
-          "text": "14 字节"
+          "text": "$14$ 字节"
         },
         {
           "key": "D",
-          "text": "16 字节"
+          "text": "$16$ 字节"
         }
       ],
-      "content": "Base64 编码将每3字节的输入数据编码为 4 字节的输出数据。如果输入数据长度不是 3 的倍数，会用=号填\n充。在Base64编码中，如果输入字符串的长度为10字节，编码后的字符串长度是多少（ ）\n"
+      "content": "Base64 编码将每 3 字节的输入数据编码为 4 字节的输出数据。如果输入数据长度不是 3 的倍数，会用 `=` 号填充。在 Base64 编码中，如果输入字符串的长度为 10 字节，编码后的字符串长度是多少（ ）"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0xC0 0x80"
+          "text": "`0xC0 0x80`"
         },
         {
           "key": "B",
-          "text": "0xF0 0x90 0x80 0x80"
+          "text": "`0xF0 0x90 0x80 0x80`"
         },
         {
           "key": "C",
-          "text": "0x80 0x80 0x80"
+          "text": "`0x80 0x80 0x80`"
         },
         {
           "key": "D",
-          "text": "0xFF 0xFE 0xFD"
+          "text": "`0xFF 0xFE 0xFD`"
         }
       ],
-      "content": "UTF-8 编码规则如下：\n\n```cpp\n字节：0xxxxxxx\n字节：110xxxxx 10xxxxxx\n字节：1110xxxx 10xxxxxx 10xxxxxx\n字节：11110xxx 10xxxxxx 10xxxxxx 10xxxxxx\n```\n以下哪个字节序列是合法的 UTF-8 编码（ ）\n"
+      "content": "UTF-8 编码规则如下：\n\n```cpp\n字节：0xxxxxxx\n字节：110xxxxx 10xxxxxx\n字节：1110xxxx 10xxxxxx 10xxxxxx\n字节：11110xxx 10xxxxxx 10xxxxxx 10xxxxxx\n```\n\n以下哪个字节序列是合法的 UTF-8 编码（ ）"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "00000101"
         }
       ],
-      "content": "在 8 位二进制原码表⽰中，八进制数 -5 的二进制形式是什么（ ）\n"
+      "content": "在 $8$ 位二进制原码表示中，八进制数 $-5$ 的二进制形式是什么（ ）"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1101111.0001110001"
+          "text": "$1101111.0001110001$"
         },
         {
           "key": "B",
-          "text": "1101110.1001110001"
+          "text": "$1101110.1001110001$"
         },
         {
           "key": "C",
-          "text": "1101111.1001110001"
+          "text": "$1101111.1001110001$"
         },
         {
           "key": "D",
-          "text": "1101111.0011110001"
+          "text": "$1101111.0011110001$"
         }
       ],
-      "content": "十进制数 111.111 的二进制表⽰可以是下面的（ ）。\n"
+      "content": "十进制数 $111.111$ 的二进制表示可以是下面的（ ）。"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "优化内存分配"
         }
       ],
-      "content": "在C++中，补码的主要作用是（）\n"
+      "content": "在 C++ 中，补码的主要作用是（ ）"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-128 到 127"
+          "text": "$-128$ 到 $127$"
         },
         {
           "key": "B",
-          "text": "-127 到 128"
+          "text": "$-127$ 到 $128$"
         },
         {
           "key": "C",
-          "text": "-256 到 255"
+          "text": "$-256$ 到 $255$"
         },
         {
           "key": "D",
-          "text": "0 到 255"
+          "text": "$0$ 到 $255$"
         }
       ],
-      "content": "在C++中，一个8位有符号整数（使用补码表⽰）的范围是（）\n"
+      "content": "在 C++ 中，一个 $8$ 位有符号整数（使用补码表示）的范围是（）"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-5"
+          "text": "$-5$"
         },
         {
           "key": "B",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "C",
-          "text": "4294967291"
+          "text": "$4294967291$"
         },
         {
           "key": "D",
           "text": "编译错误"
         }
       ],
-      "content": "在C++中，以下代码的输出是什么()\n\n```cpp\nint a = -5;\nunsigned int b = a;\ncout << b;\n```\n"
+      "content": "在 C++ 中，以下代码的输出是什么()\n\n```cpp\nint a = -5;\nunsigned int b = a;\ncout << b;\n```"
     },
     {
       "type": "choice",
@@ -202,10 +202,10 @@
         },
         {
           "key": "D",
-          "text": "将八进制数转换成16进制数"
+          "text": "将八进制数转换成十六进制数"
         }
       ],
-      "content": "下列程序的作用是（）\n\n```cpp\nint main() {\n    int decimal = 25;\n    cout << oct << decimal;\n    return 0;\n}\n```\n"
+      "content": "下列程序的作用是（）\n\n```cpp\nint main() {\n    int decimal = 25;\n    cout << oct << decimal;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cout << oct << decimal;"
+          "text": "`cout << oct << decimal;`"
         },
         {
           "key": "B",
-          "text": "cout << decimal << decimal;"
+          "text": "`cout << decimal << decimal;`"
         },
         {
           "key": "C",
-          "text": "cout << hex << decimal;"
+          "text": "`cout << hex << decimal;`"
         },
         {
           "key": "D",
           "text": "不能正确执行"
         }
       ],
-      "content": "下面程序是将十进制转十六进制，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int decimal = 255;\n    ——————————————————\n    return 0;\n}\n```\n"
+      "content": "下面程序是将十进制转十六进制，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int decimal = 255;\n    ——————————————————\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "进行的是按位异或运算"
         }
       ],
-      "content": "以下代码的说法正确的是什么( )\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 0b1101;\n    int b = 0b1011;\n    cout << (a ^ b);\n    return 0;\n}\n```\n"
+      "content": "以下代码的说法正确的是什么( )\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a = 0b1101;\n    int b = 0b1011;\n    cout << (a ^ b);\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "if (arr[maxIndex] > arr[i])"
+          "text": "`if (arr[maxIndex] > arr[i])`"
         },
         {
           "key": "B",
-          "text": "if (arr[i]-1 > arr[maxIndex])"
+          "text": "`if (arr[i]-1 > arr[maxIndex])`"
         },
         {
           "key": "C",
-          "text": "if (arr[i]+1 > arr[maxIndex])"
+          "text": "`if (arr[i]+1 > arr[maxIndex])`"
         },
         {
           "key": "D",
-          "text": "if (arr[i] > arr[maxIndex])"
+          "text": "`if (arr[i] > arr[maxIndex])`"
         }
       ],
-      "content": "下面枚举法查找最大值索引程序中，横线处应该填写的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {3, 7, 2, 9, 5};\n    int maxIndex = 0;\n    for (int i = 1; i < 5; i++) {\n        ————————————————————————————————\n        {\n            maxIndex = i;\n        }\n    }\n    cout << maxIndex;\n    return 0;\n}\n```\n"
+      "content": "下面枚举法查找最大值索引程序中，横线处应该填写的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {3, 7, 2, 9, 5};\n    int maxIndex = 0;\n    for (int i = 1; i < 5; i++) {\n        ————————————————————————————————\n        {\n            maxIndex = i;\n        }\n    }\n    cout << maxIndex;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "while (arr[left] % 2 == 0 && left < right) right--;"
+          "text": "`while (arr[left] % 2 == 0 && left < right) right--;`"
         },
         {
           "key": "B",
-          "text": "while (arr[right] % 2 == 0 && left < right) left--;"
+          "text": "`while (arr[right] % 2 == 0 && left < right) left--;`"
         },
         {
           "key": "C",
-          "text": "while (arr[right] % 2 != 0 && left < right) right--;"
+          "text": "`while (arr[right] % 2 != 0 && left < right) right--;`"
         },
         {
           "key": "D",
-          "text": "while (arr[right] % 2 == 0 && left < right) right--;"
+          "text": "`while (arr[right] % 2 == 0 && left < right) right--;`"
         }
       ],
-      "content": "以下代码的功能是将数组中的奇数和偶数分别放在数组的前半部分和后半部分,横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int left = 0, right = 4;\n    while (left < right) {\n        while (arr[left] % 2 == 1 && left < right) left++;\n        ————————————————————————————————————————————————————\n        if (left < right) {\n            swap(arr[left], arr[right]);\n        }\n    }\n    for (int i = 0; i < 5; i++) {\n        cout << arr[i] << \" \";\n    }\n    return 0;\n}\n```\n"
+      "content": "以下代码的功能是将数组中的奇数和偶数分别放在数组的前半部分和后半部分，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int left = 0, right = 4;\n    while (left < right) {\n        while (arr[left] % 2 == 1 && left < right) left++;\n        ————————————————————————————————————————————————————\n        if (left < right) {\n            swap(arr[left], arr[right]);\n        }\n    }\n    for (int i = 0; i < 5; i++) {\n        cout << arr[i] << \" \";\n    }\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1 str.replace(0, 5, \"C++\");"
+          "text": "`str.replace(0, 5, \"C++\");`"
         },
         {
           "key": "B",
-          "text": "1 str.replace(5, 5, \"C++\");"
+          "text": "`str.replace(5, 5, \"C++\");`"
         },
         {
           "key": "C",
-          "text": "1 str.replace(1, 5, \"C++\");"
+          "text": "`str.replace(1, 5, \"C++\");`"
         },
         {
           "key": "D",
-          "text": "1 str.replace(4, 5, \"C++\");"
+          "text": "`str.replace(4, 5, \"C++\");`"
         }
       ],
-      "content": "下面程序最后能够得到HelloC++的是（）\n\n```cpp\nint main() {\n    string str = \"HelloWorld\";\n    ___________________\n    cout << str;\n    return 0;\n}\n```\n"
+      "content": "下面程序最后能够得到 HelloC++ 的是（）\n\n```cpp\nint main() {\n    string str = \"HelloWorld\";\n    ___________________\n    cout << str;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nstr.insert(4, \"World\");\ncout << str.substr(4, 4);\n```\n"
+          "text": "```cpp\nstr.insert(4, \"World\");\ncout << str.substr(4, 4);\n```"
         },
         {
           "key": "B",
-          "text": "1 cout << str.substr(5, 5);"
+          "text": "`cout << str.substr(5, 5);`"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nstr.insert(\"World\");\ncout << str.substr(5, 5);\n```\n"
+          "text": "```cpp\nstr.insert(\"World\");\ncout << str.substr(5, 5);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nstr.insert(5, \"World\");\ncout << str.substr(5, 5);\n```\n"
+          "text": "```cpp\nstr.insert(5, \"World\");\ncout << str.substr(5, 5);\n```"
         }
       ],
-      "content": "想要得到字符串world,下面程序横线处应该填入的是（）\n\n```cpp\n#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string str = \"HelloC++\";\n    _________________\n    _________________\n    return 0;\n}\n```\n"
+      "content": "想要得到字符串 world，下面程序横线处应该填入的是（）\n\n```cpp\n#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    string str = \"HelloC++\";\n    _________________\n    _________________\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "if (a % 9 != 0 && a % 8 != 0)"
+          "text": "`if (a % 9 != 0 && a % 8 != 0)`"
         },
         {
           "key": "B",
-          "text": "if (a % 9 == 0 & a % 8 == 0)"
+          "text": "`if (a % 9 == 0 & a % 8 == 0)`"
         },
         {
           "key": "C",
-          "text": "if (a % 9 == 0 && a % 8 != 0)"
+          "text": "`if (a % 9 == 0 && a % 8 != 0)`"
         },
         {
           "key": "D",
-          "text": "if (a % 9 == 0 & a % 8 != 0)"
+          "text": "`if (a % 9 == 0 & a % 8 != 0)`"
         }
       ],
-      "content": "有 n 个正整数，假设一个正整数是美丽数字当且仅当该正整数是 9 的倍数但不是 8 的倍数。下面的程序是\n编写计算 n 个正整数中美丽数字的数量，横线处应该填入的是（）\n\n```cpp\nfor (int i = 1; i <= n; i++) {\n    cin >> a;\n    __________________________\n    cnt++;\n}\n```\n"
+      "content": "有 $n$ 个正整数，假设一个正整数是美丽数字当且仅当该正整数是 $9$ 的倍数但不是 $8$ 的倍数。下面的程序是编写计算 $n$ 个正整数中美丽数字的数量，横线处应该填入的是（）\n\n```cpp\nfor (int i = 1; i <= n; i++) {\n    cin >> a;\n    __________________________\n    cnt++;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "判断一个三角形是否成立的条件只有:任意两边长度之和大于第三条边的长度\n"
+      "content": "判断一个三角形是否成立的条件只有：任意两边长度之和大于第三条边的长度"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "这段程序进行的是判断一个从键盘输入的字符的ASCII 是否是奇数，若是，输出 YES，否则，输出 NO\n\n```cpp\nint main()\n{\n    char x;\n    scanf(\"%c\", &x);\n    int ASCII = (int)x;\n    cout << (x & 1 ? \"YES\" : \"NO\") << '\\n';\n    return 0;\n}\n```\n"
+      "content": "这段程序进行的是判断一个从键盘输入的字符的 ASCII 是否是奇数，若是，输出 `YES`，否则，输出 `NO`。\n\n```cpp\nint main()\n{\n    char x;\n    scanf(\"%c\", &x);\n    int ASCII = (int)x;\n    cout << (x & 1 ? \"YES\" : \"NO\") << '\\n';\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "闰年的定义：\n普通闰年：公历年份是 4 的倍数，且不是 100 的倍数的，为闰年（如 2004 年、2020 年等就是闰年）。\n世纪闰年：公历年份是整百数的，必须是 400 的倍数才是闰年（如 1900 年不是闰年，2000 年是闰年）。\n下面程序是判断是否是闰年的正确程序\n\n```cpp\ncin>>n;\ncout<<((n%4==0&&n%100!=0)||(n%400==0))?1:0;\nreturn 0;\n```\n"
+      "content": "闰年的定义：\n普通闰年：公历年份是 $4$ 的倍数，且不是 $100$ 的倍数的，为闰年（如 $2004$ 年、$2020$ 年等就是闰年）。\n世纪闰年：公历年份是整百数的，必须是 $400$ 的倍数才是闰年（如 $1900$ 年不是闰年，$2000$ 年是闰年）。\n下面程序是判断是否是闰年的正确程序\n\n```cpp\ncin>>n;\ncout<<((n%4==0&&n%100!=0)||(n%400==0))?1:0;\nreturn 0;\n```"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "C++语句cout<<(n%15==0? \"YES\":\"NO\");能够判断一个整数能否被3和5同时整除\n"
+      "content": "C++ 语句 `cout << (n % 15 == 0 ? \"YES\" : \"NO\");` 能够判断一个整数能否被 $3$ 和 $5$ 同时整除"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "有n个同学，从中抽取任意个⼈数来参加学校组织的大合唱，共有2的n次幂个方法\n"
+      "content": "有 $n$ 个同学，从中抽取任意个人数来参加学校组织的大合唱，共有 $2^n$ 个方法"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "若将一个正整数化为二进制数，在此二进制数中，我们将数字 1 的个数是偶数的这类二进制数称为 A 类数，\n否则就称其为 B 类数。\n例如：\n(13) 10 =(1101) 2 ，其中 1 的个数为 3则称此数为 B 类数；\n(10) 10 =(1010) 2 ，其中 1 的个数为 2，称此数为 A 类数；\n判断（2025）10化为二进制后，1的个数为偶数个，因此2025为A类数。\n"
+      "content": "若将一个正整数化为二进制数，在此二进制数中，我们将数字 $1$ 的个数是偶数的这类二进制数称为 A 类数，否则就称其为 B 类数。\n例如：\n$(13)_{10} = (1101)_2$，其中 $1$ 的个数为 $3$ 则称此数为 B 类数；\n$(10)_{10} = (1010)_2$，其中 $1$ 的个数为 $2$，称此数为 A 类数；\n判断 $(2025)_{10}$ 化为二进制后，$1$ 的个数为偶数个，因此 $2025$ 为 A 类数。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "该段程序将 n 不停地除以 2，并输出此时的商和余数，直到 n=0 为⽌。\n\n```cpp\nlong long n;\ncin >> n;\nwhile(n != 0) {\n    cout << n/2 << ' ' << n%2 << '\\n';\n    n /= 2;\n}\n```\n"
+      "content": "该段程序将 $n$ 不停地除以 $2$，并输出此时的商和余数，直到 $n=0$ 为止。\n\n```cpp\nlong long n;\ncin >> n;\nwhile(n != 0) {\n    cout << n/2 << ' ' << n%2 << '\\n';\n    n /= 2;\n}\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "两个13进制的数A和B，在10进制下分别表⽰10和11。（A+B）13=（18）13，也就是说13进制数A加上13进\n制数B，和是13进制数18。\n"
+      "content": "两个 $13$ 进制的数 $A$ 和 $B$，在 $10$ 进制下分别表示 $10$ 和 $11$。$(A+B)_{13} = (18)_{13}$，也就是说 $13$ 进制数 $A$ 加上 $13$ 进制数 $B$，和是 $13$ 进制数 $18$。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "k 进制，逢 k 进第二位， 进百位， 进千位；\n"
+      "content": "$k$ 进制，逢 $k$ 进第二位， 进百位， 进千位；"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "CCF(十九进制) = 21AC(十三进制)(不区分大小写)\n"
+      "content": "CCF(十九进制) = 21AC(十三进制) (不区分大小写)"
     },
     {
       "type": "program",

@@ -19,7 +19,7 @@
         },
         {
           "key": "B",
-          "text": "U盘"
+          "text": "U 盘"
         },
         {
           "key": "C",
@@ -30,7 +30,7 @@
           "text": "光盘"
         }
       ],
-      "content": "以下存储器中的数据不会受到附近强磁场干扰的是（ ）。\n"
+      "content": "以下存储器中的数据不会受到附近强磁场干扰的是（ ）。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "数据结构"
         }
       ],
-      "content": "下列流程图，属于计算机的哪种程序结构？（ ）。\n"
+      "content": "下列流程图，属于计算机的哪种程序结构？（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "double 类型的变量占用内存的大小是浮动的"
+          "text": "`double` 类型的变量占用内存的大小是浮动的"
         },
         {
           "key": "B",
-          "text": "bool 类型的变量占用 1字节内存"
+          "text": "`bool` 类型的变量占用 $1$ 字节内存"
         },
         {
           "key": "C",
-          "text": "int 类型变量的取值范围不是无限的"
+          "text": "`int` 类型变量的取值范围不是无限的"
         },
         {
           "key": "D",
-          "text": "char 类型的变量有 256种取值"
+          "text": "`char` 类型的变量有 $256$ 种取值"
         }
       ],
-      "content": "下列关于 C++语言的叙述，不正确的是（）。\n"
+      "content": "下列关于 C++ 语言的叙述，不正确的是（）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": "合法标识符可以以数字开始"
         }
       ],
-      "content": "下列关于 C++语言的叙述，不正确的是（）。\n"
+      "content": "下列关于 C++ 语言的叙述，不正确的是（）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "return"
+          "text": "`return`"
         },
         {
           "key": "B",
-          "text": "max"
+          "text": "`max`"
         },
         {
           "key": "C",
-          "text": "else"
+          "text": "`else`"
         },
         {
           "key": "D",
-          "text": "case"
+          "text": "`case`"
         }
       ],
-      "content": "以下哪个不是 C++语言的关键字？\n"
+      "content": "以下哪个不是 C++ 语言的关键字？"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\\="
+          "text": "`\\=`"
         },
         {
           "key": "B",
-          "text": "/="
+          "text": "`/=`"
         },
         {
           "key": "C",
-          "text": "-="
+          "text": "`-=`"
         },
         {
           "key": "D",
-          "text": "!="
+          "text": "`!=`"
         }
       ],
-      "content": "以下哪个不是 C++语言的运算符？\n"
+      "content": "以下哪个不是 C++ 语言的运算符？"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "b = a + 1;"
+          "text": "`b = a + 1;`"
         },
         {
           "key": "B",
-          "text": "b = a + '1';"
+          "text": "`b = a + '1';`"
         },
         {
           "key": "C",
-          "text": "b = 'a'++;"
+          "text": "`b = 'a'++;`"
         },
         {
           "key": "D",
-          "text": "b = a++;"
+          "text": "`b = a++;`"
         }
       ],
-      "content": "如果 a和b都是 char类型的变量，下列哪个语句不符合 C++语法？\n"
+      "content": "如果 $a$ 和 $b$ 都是 `char` 类型的变量，下列哪个语句不符合 C++ 语法？"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(a + b + c + d) / 4"
+          "text": "`(a + b + c + d) / 4`"
         },
         {
           "key": "B",
-          "text": "(a + b + c + d) % 4"
+          "text": "`(a + b + c + d) % 4`"
         },
         {
           "key": "C",
-          "text": "(a + b + c + d) / 4.0"
+          "text": "`(a + b + c + d) / 4.0`"
         },
         {
           "key": "D",
-          "text": "(a + b + c + d) % 4.0"
+          "text": "`(a + b + c + d) % 4.0`"
         }
       ],
-      "content": "如果 a、b、c和 d都是int类型的变量，则下列哪个表达式能够正确计算它\n们的平均值？\n"
+      "content": "如果 $a$ 、 $b$ 、 $c$ 和 $d$ 都是 `int` 类型的变量，则下列哪个表达式能够正确计算它们的平均值？"
     },
     {
       "type": "choice",
@@ -215,19 +215,19 @@
       "options": [
         {
           "key": "A",
-          "text": "a = a + 1;"
+          "text": "`false`"
         },
         {
           "key": "B",
-          "text": "a + 1;"
+          "text": "`true`"
         },
         {
           "key": "C",
-          "text": "a = 1 + a;"
+          "text": "$0$"
         },
         {
           "key": "D",
-          "text": "++a;\n10.如果 a为int类型的变量，且 a的值为9，则执行a -= 3;之后，a的值会\n是（）。\n"
+          "text": "$1$"
         },
         {
           "key": "A",
@@ -326,70 +326,70 @@
           "text": "1"
         }
       ],
-      "content": "如果 a为char类型的变量，且 a的值为'2'，则下列哪条语句执行后，a的\n值不会变为'3'？\n"
+      "content": "如果 $a$ 为 `char` 类型的变量，且 $a$ 的值为 `'2'`，则下列哪条语句执行后，$a$ 的值不会变为 `'3'`？"
     },
     {
       "type": "judge",
       "id": 10,
       "score": 2,
       "answer": "False",
-      "content": "明明和笑笑在“小庙会”上分别抽到一个 4GB和4096MB的U盘，容量大的\n盘是笑笑的（ ）。\n"
+      "content": "明明和笑笑在“小庙会”上分别抽到一个 4GB 和 4096MB 的 U 盘，容量大的盘是笑笑的（ ）。"
     },
     {
       "type": "judge",
       "id": 11,
       "score": 2,
       "answer": "False",
-      "content": "IPv4 的地址通常用“点分十进制”的表示形式，形如（a.b.c.d），其中\na、b、c、d都是 1~255之间的十进制整数（ ）。\n"
+      "content": "IPv4 的地址通常用“点分十进制”的表示形式，形如（a.b.c.d），其中 $a$、$b$、$c$、$d$ 都是 $1 \\sim 255$ 之间的十进制整数（ ）。"
     },
     {
       "type": "judge",
       "id": 12,
       "score": 2,
       "answer": "True",
-      "content": "在C++语言中，一个程序不能有多个 main 函数。\n"
+      "content": "在 C++ 语言中，一个程序不能有多个 `main` 函数。"
     },
     {
       "type": "judge",
       "id": 13,
       "score": 2,
       "answer": "False",
-      "content": "在C++语言中，标识符中可以有下划线_，但不能以下划线_开头。\n"
+      "content": "在 C++ 语言中，标识符中可以有下划线 `_`，但不能以下划线 `_` 开头。"
     },
     {
       "type": "judge",
       "id": 14,
       "score": 2,
       "answer": "False",
-      "content": "如果 a是int类型的变量，而且值为 1，则表达式'a'的值为'1'。\n"
+      "content": "如果 $a$ 是 `int` 类型的变量，而且值为 $1$，则表达式 `'a'` 的值为 `'1'`。"
     },
     {
       "type": "judge",
       "id": 15,
       "score": 2,
       "answer": "False",
-      "content": "在if ... else 语句中，else子句可以嵌套 if ... else语句，但 if子句\n不可以，因为会造成二义性。\n"
+      "content": "在 `if ... else` 语句中，`else` 子句可以嵌套 `if ... else` 语句，但 `if` 子句不可以，因为会造成二义性。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "while 语句的循环体至少会执行一次。\n"
+      "content": "`while` 语句的循环体至少会执行一次。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "C++语言中>=是运算符，但=>不是。\n"
+      "content": "C++ 语言中 `>=` 是运算符，但 `=>` 不是。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "如果 a为char类型的变量，且取值为小写字母，则执行语句 a = a - 'a'\n+ 'A';后，a的值会变为与原值对应的大写字母。\n10.表达式(10.0 / 2)的计算结果为5.0，且结果类型为 double。\n三、\n"
+      "content": "如果 $a$ 为 `char` 类型的变量，且取值为小写字母，则执行语句 `a = a - 'a' + 'A';` 后，$a$ 的值会变为与原值对应的大写字母。\n表达式 `(10.0 / 2)` 的计算结果为 $5.0$，且结果类型为 `double`。"
     },
     {
       "type": "program",

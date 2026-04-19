@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "天体物理\n口\n"
+          "text": "天体物理"
         },
         {
           "key": "B",
-          "text": "流体⼒学\n口\n"
+          "text": "流体力学"
         },
         {
           "key": "C",
-          "text": "⼈⼯智能\n口\n"
+          "text": "人工智能"
         },
         {
           "key": "D",
-          "text": "量⼦理论"
+          "text": "量子理论"
         }
       ],
-      "content": "2024年10月8⽇ ，诺贝尔物理学奖“意外地”颁给了两位计算机科学家约翰·霍普菲尔德（JohnJ.Hopfield）和杰\n弗里·⾟顿（GeoffreyE. Hinton）。这两位科学家的主要研究方向是（ ）。\n口\n"
+      "content": "2024年10月8日，诺贝尔物理学奖“意外地”颁给了两位计算机科学家约翰·霍普菲尔德（John J. Hopfield）和杰弗里·辛顿（Geoffrey E. Hinton）。这两位科学家的主要研究方向是（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "高德地图\n口\n"
+          "text": "高德地图"
         },
         {
           "key": "B",
-          "text": "腾讯会议\n口\n"
+          "text": "腾讯会议"
         },
         {
           "key": "C",
-          "text": "纯⾎鸿蒙\n口\n"
+          "text": "纯血鸿蒙"
         },
         {
           "key": "D",
-          "text": "金⼭永中"
+          "text": "金山永中"
         }
       ],
-      "content": "下列软件中是操作系统的是（ ）。\n口\n"
+      "content": "下列软件中是操作系统的是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "配对双引号内，不可以有汉字\n口\n"
+          "text": "配对双引号内，不可以有汉字"
         },
         {
           "key": "B",
-          "text": "配对双引号可以相应改变为英文单引号⽽输出效果不变\n口\n"
+          "text": "配对双引号可以相应改变为英文单引号而输出效果不变"
         },
         {
           "key": "C",
-          "text": "配对双引号可以相应改变为三个连续英文单引号⽽输出效果不变\n口\n"
+          "text": "配对双引号可以相应改变为三个连续英文单引号而输出效果不变"
         },
         {
           "key": "D",
-          "text": "配对双引号可以相应改变为三个连续英文双引号⽽输出效果不变"
+          "text": "配对双引号可以相应改变为三个连续英文双引号而输出效果不变"
         }
       ],
-      "content": "有关下列C++代码的说法，正确的是( )。\n\n```cpp\nprintf(\"Hello,GESP!\");\n```\n口\n"
+      "content": "有关下列 C++ 代码的说法，正确的是( )。\n\n```cpp\nprintf(\"Hello,GESP!\");\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0\n口\n"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "1\n口\n"
+          "text": "$1$"
         },
         {
           "key": "C",
-          "text": "6\n口\n"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "9"
+          "text": "$9$"
         }
       ],
-      "content": "C++表达式 12 - 3 * 2 && 2 的值是( )。\n口\n"
+      "content": "C++ 表达式 `12 - 3 * 2 && 2` 的值是( )。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0\n口\n"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "2\n口\n"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "3\n口\n"
+          "text": "$3$"
         },
         {
           "key": "D",
-          "text": "4"
+          "text": "$4$"
         }
       ],
-      "content": "在C++中，假设N为正整数2，则 cout << (N / 3 + N % 3) 将输出( )。\n口\n"
+      "content": "在 C++ 中，假设 $N$ 为正整数 $2$，则 `cout << (N / 3 + N % 3)` 将输出( )。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\n1 1=1\n```\n口\n"
+          "text": "```cpp\n1 1=1\n```"
         },
         {
           "key": "B",
-          "text": "17%3 1=1\nw\n"
+          "text": "`1 7%3 1=1`"
         },
         {
           "key": "C",
-          "text": "17%37%3=1\no\n"
+          "text": "`1 7%3 7%3=1`"
         },
         {
           "key": "D",
-          "text": "17%3 7%3={7%3}"
+          "text": "`1 7%3 7%3={7%3}`"
         }
       ],
-      "content": "C++语句 cout << 7%3 << ' '<< \"7%3\"<< ' ' << \"7%3={7%3}\" 执行后的输出是( )。\n口\n"
+      "content": "C++ 语句 `cout << 7%3 << ' ' << \"7%3\" << ' ' << \"7%3={7%3}\"` 执行后的输出是( )。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "N%7 !=0\n口\n"
+          "text": "`N % 7 != 0`"
         },
         {
           "key": "B",
-          "text": "N%7==0\nw\n"
+          "text": "`N % 7 == 0`"
         },
         {
           "key": "C",
-          "text": "N== 0\n口\n"
+          "text": "`N == 0`"
         },
         {
           "key": "D",
-          "text": "N%7"
+          "text": "`N % 7`"
         }
       ],
-      "content": "下面C++代码执行后，求出几天后星期几。如果星期⽇则输出“星期天”否则输出形如“星期1”。横线上应填入\n的代码是（ ）。\n\n```cpp\nint N, nowDay, afterDays;\ncout << \"今天星期几？\" <<endl;\ncin >> nowDay;\ncout << \"求几天后星期几？\"<< endl;\ncin >>afterDays;\nN = nowDay+afterDays;\nif( )\nprintf(\"星期天\");\nelse\nprintf(\"星期%d\", N%7);\n```\n口\n"
+      "content": "下面 C++ 代码执行后，求出几天后星期几。如果星期天则输出“星期天”否则输出形如“星期1”。横线上应填入的代码是（ ）。\n\n```cpp\nint N, nowDay, afterDays;\ncout << \"今天星期几？\" << endl;\ncin >> nowDay;\ncout << \"求几天后星期几？\" << endl;\ncin >> afterDays;\nN = nowDay + afterDays;\nif ( )\n    printf(\"星期天\");\nelse\n    printf(\"星期%d\", N % 7);\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "54\n口\n"
+          "text": "$54$"
         },
         {
           "key": "B",
-          "text": "20\n口\n"
+          "text": "$20$"
         },
         {
           "key": "C",
-          "text": "19\n口\n"
+          "text": "$19$"
         },
         {
           "key": "D",
-          "text": "18"
+          "text": "$18$"
         }
       ],
-      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint N=0,i;\nfor (i = 1; i < 10; i++)\nN += 1;\ncout << (N + i);\n```\n口\n"
+      "content": "下面 C++ 代码执行后输出是（ ）。\n\n```cpp\nint N=0,i;\nfor (i = 1; i < 10; i++)\n    N += 1;\ncout << (N + i);\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "4950\n口\n"
+          "text": "$4950$"
         },
         {
           "key": "B",
-          "text": "5050\n口\n"
+          "text": "$5050$"
         },
         {
           "key": "C",
-          "text": "450\n口\n"
+          "text": "$450$"
         },
         {
           "key": "D",
-          "text": "100"
+          "text": "$100$"
         }
       ],
-      "content": "下面C++代码执行后输出的是（ ）。\n\n```cpp\nint tnt = 0;\nfor (i = 0; i < 100; i++)\ntnt += i % 10;\ncout << tnt;\n```\n口\n"
+      "content": "下面 C++ 代码执行后输出的是（ ）。\n\n```cpp\nint tnt = 0;\nfor (i = 0; i < 100; i++)\n    tnt += i % 10;\ncout << tnt;\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10\n口\n"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "9\n口\n"
+          "text": "$9$"
         },
         {
           "key": "C",
-          "text": "6\n口\n"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "5"
+          "text": "$5$"
         }
       ],
-      "content": "下面C++代码执行后输出的是（ ）。\n\n```cpp\nint N=0,i;\nint tnt = 0;\nfor (i = 5; i < 100; i+=5){\n    if (i % 2 == 0)\n    continue;\n    tnt += 1;\n    if (i >= 50)\n    break;\n}\ncout << tnt;\n```\n口\n"
+      "content": "下面 C++ 代码执行后输出的是（ ）。\n\n```cpp\nint N=0,i;\nint tnt = 0;\nfor (i = 5; i < 100; i+=5){\n    if (i % 2 == 0)\n        continue;\n    tnt += 1;\n    if (i >= 50)\n        break;\n}\ncout << tnt;\n```"
     },
     {
       "type": "choice",
@@ -269,18 +269,18 @@
         },
         {
           "key": "B",
-          "text": "(N%2==0)&&(N%3)\n口\n"
+          "text": "`(N%2==0)&&(N%3)`"
         },
         {
           "key": "C",
-          "text": "(N%2)&&(N%3==0)\n口\n"
+          "text": "`(N%2)&&(N%3==0)`"
         },
         {
           "key": "D",
-          "text": "(N%2==0)&&(N%3==0)"
+          "text": "`(N%2==0)&&(N%3==0)`"
         }
       ],
-      "content": "下面的程序用于判断输入的整数N是否为能被3整除的偶数，横线处应填写代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nif( )\ncout << \"能被3整除的偶数\" << endl;\nelse\ncout << \"其他情形\" << endl;\n```\n9\n\n```cpp\ncout << endl;\n```\n(N%2)&&(N%3)\n口\n"
+      "content": "下面的程序用于判断输入的整数 $N$ 是否为能被 $3$ 整除的偶数，横线处应填写代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nif( )\n    cout << \"能被3整除的偶数\" << endl;\nelse\n    cout << \"其他情形\" << endl;\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "54\n口\n"
+          "text": "$54$"
         },
         {
           "key": "B",
-          "text": "45\n口\n"
+          "text": "$45$"
         },
         {
           "key": "C",
-          "text": "25\n口\n"
+          "text": "$25$"
         },
         {
           "key": "D",
-          "text": "10"
+          "text": "$10$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint cnt;\ncnt = 0;\nfor(int i = 1; i < 10; i++)\ncnt += i++;\n```\ncout << cnt;\ncout << endl;\n口\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint cnt;\ncnt = 0;\nfor(int i = 1; i < 10; i++)\n    cnt += i++;\ncout << cnt;\ncout << endl;\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a*4;\n口\n"
+          "text": "`a*4;`"
         },
         {
           "key": "B",
-          "text": "a+4;"
+          "text": "`a+4;`"
         },
         {
           "key": "C",
-          "text": "a+1;"
+          "text": "`a+1;`"
         },
         {
           "key": "D",
-          "text": "++a;"
+          "text": "`++a;`"
         }
       ],
-      "content": "int类型变量a的值是一个正方形的边长，如下图中的正方形的四条边长都为4，则下列哪个语句执行后能够\n使得正方形的周长（四条边长的和）增加4？（ ）。\n\n```cpp\n+ + + + +\n+ +\n+ +\n+ +\n+ + + + +\n```\n口\n"
+      "content": "`int` 类型变量 $a$ 的值是一个正方形的边长，如下图中的正方形的四条边长都为 $4$，则下列哪个语句执行后能够使得正方形的周长（四条边长的和）增加 $4$？（ ）。\n\n```cpp\n+ + + + +\n+ +\n+ +\n+ +\n+ + + + +\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1\n口\n"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2\n口\n"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "true\n口\n"
+          "text": "`true`"
         },
         {
           "key": "D",
-          "text": "truetrue"
+          "text": "`truetrue`"
         }
       ],
-      "content": "C++表达式 (6 > 2) * 2 的值是( )。\n口\n"
+      "content": "C++ 表达式 `(6 > 2) * 2` 的值是( )。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "n2 = N%10\n口\n"
+          "text": "`n2 = N % 10`"
         },
         {
           "key": "B",
-          "text": "N /= 10"
+          "text": "`N /= 10`"
         },
         {
           "key": "C",
-          "text": "n2 = N/10, N %= 10\n口\n"
+          "text": "`n2 = N / 10, N %= 10`"
         },
         {
           "key": "D",
-          "text": "n2 = N%10, N /= 10"
+          "text": "`n2 = N % 10, N /= 10`"
         }
       ],
-      "content": "下面C++代码用于判断输入的整数是否为位增数，即从首位到个位逐渐增大，是则输出1。如123是一个位增\n数。下面横线处应填入的是（ ）。\n\n```cpp\nint N;\nint n1,n2;\ncin >> N;\n;\nwhile(N){\n    n1 = N % 10;\n    if(n1 >= n2){\n        cout << 0;\n        return 1;\n    }\n    n2 = n1, N /=10;\n}\ncout << 1;\ncout << endl;\nreturn 0;\n```\n口\n"
+      "content": "下面 C++ 代码用于判断输入的整数是否为位增数，即从首位到个位逐渐增大，是则输出 $1$。如 $123$ 是一个位增数。下面横线处应填入的是（ ）。\n\n```cpp\nint N;\nint n1,n2;\ncin >> N;\n;\nwhile(N){\n    n1 = N % 10;\n    if(n1 >= n2){\n        cout << 0;\n        return 1;\n    }\n    n2 = n1, N /=10;\n}\ncout << 1;\ncout << endl;\nreturn 0;\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "在Windows的资源管理器中为已有文件A建⽴副本的操作是 Ctrl+C ，然后 Ctrl+V 。( )\n"
+      "content": "在 Windows 的资源管理器中为已有文件 A 建立副本的操作是 `Ctrl+C` ，然后 `Ctrl+V` 。( )"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，表达式 8/3 和 8%3 的值相同。( )\n"
+      "content": "在 C++ 中，表达式 `8/3` 和 `8%3` 的值相同。( )"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "X是C++语⾔的基本类型变量，则语句 cin>>X, cout <<X 能接收键盘输入并原样输出。 ( )\n"
+      "content": "$X$ 是 C++ 语⾔的基本类型变量，则语句 `cin >> X`, `cout << X` 能接收键盘输入并原样输出。 ( )"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码执行后将输出10。 ( )\n\n```cpp\nint N = 0;\nfor (int i = 0; i < 10; i++){\n    continue;\n```\nN += 1;\n\n```cpp\n}\ncout << N;\n```\n"
+      "content": "下面 C++ 代码执行后将输出 $10$。 ( )\n\n```cpp\nint N = 0;\nfor (int i = 0; i < 10; i++){\n    continue;\n    N += 1;\n}\ncout << N;\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码执行后将输出100。 ( )\n\n```cpp\nint i;\nfor (i = 0; i <= 100; i++)\ncontinue;\ncout << i;\n```\n"
+      "content": "下面 C++ 代码执行后将输出 100。 ( )\n\n```cpp\nint i;\nfor (i = 0; i <= 100; i++)\n    continue;\ncout << i;\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码被执行时，将执行三次输出（即标记行L2将被执行一次）。 ( )\n\n```cpp\nfor (int i = 0; i < 10; i+=3)\ncout << i; //L2\n```\n"
+      "content": "下面 C++ 代码被执行时，将执行三次输出（即标记行 L2 将被执行一次）。 ( )\n\n```cpp\nfor (int i = 0; i < 10; i+=3)\n    cout << i; //L2\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "C++语句 cout << (3,2) 执行后，将输出3和2，且3和2之间有逗号间隔。 ( )\n"
+      "content": "C++ 语句 `cout << (3,2)` 执行后，将输出 $3$ 和 $2$，且 $3$ 和 $2$ 之间有逗号间隔。 ( )"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "在C++代码中， studentName 、 student_name 以及 sStudentName 都是合法的变量名称。 ( )\n"
+      "content": "在 C++ 代码中， `studentName` 、 `student_name` 以及 `sStudentName` 都是合法的变量名称。 ( )"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "在C++中，对浮点变量float f ，则语句 cin >> f; cout << (f<1); 在输入是 2e-1 时，输出是0。 (\n)\n"
+      "content": "在 C++ 中，对浮点变量 `float f` ，则语句 `cin >> f; cout << (f<1);` 在输入是 $2e-1$ 时，输出是 $0$。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "在C++的循环体内部，如果 break 和 continue 语句连续在一起，那么作用抵消，可以顺利执行下一次\n循环。 ( )\n"
+      "content": "在 C++ 的循环体内部，如果 `break` 和 `continue` 语句连续在一起，那么作用抵消，可以顺利执行下一次循环。 ( )"
     },
     {
       "type": "program",

@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "b"
+          "text": "$b$"
         },
         {
           "key": "B",
-          "text": "bbbb"
+          "text": "$bbbb$"
         },
         {
           "key": "C",
-          "text": "f"
+          "text": "$f$"
         },
         {
           "key": "D",
-          "text": "102"
+          "text": "$102$"
         }
       ],
-      "content": "已知小写字母b的ASCII码为98，下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b' ^ 4;\n    cout << a;\n    return 0;\n}\n```\n"
+      "content": "已知小写字母 $b$ 的 ASCII 码为 $98$，下列 C++ 代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b' ^ 4;\n    cout << a;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "*(p + a) = *p;"
+          "text": "`*(p + a) = *p;`"
         },
         {
           "key": "B",
-          "text": "*(p - a) = a;"
+          "text": "`*(p - a) = a;`"
         },
         {
           "key": "C",
-          "text": "p + a = p;"
+          "text": "`p + a = p;`"
         },
         {
           "key": "D",
-          "text": "p = p + a;"
+          "text": "`p = p + a;`"
         }
       ],
-      "content": "已知a为int类型变量，p为int *类型变量，下列赋值语句不符合语法的是（ ）。\n"
+      "content": "已知 $a$ 为 `int` 类型变量，$p$ 为 `int *` 类型变量，下列赋值语句不符合语法的是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "如果函数形参为基类指针，调用时可以传入派生类指针作为实参。"
         }
       ],
-      "content": "下列关于C++类的说法，错误的是( )。\n"
+      "content": "下列关于 C++ 类的说法，错误的是( )。"
     },
     {
       "type": "choice",
@@ -90,11 +90,11 @@
       "options": [
         {
           "key": "A",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
@@ -105,7 +105,7 @@
           "text": "不确定，可能发生运行时异常。"
         }
       ],
-      "content": "下列C++代码的输出是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[5] = {2, 4, 6, 8, 10};\n    int * p = arr + 2;\n    cout << p[3] << endl;\n    return 0;\n}\n```\n"
+      "content": "下列 C++ 代码的输出是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int arr[5] = {2, 4, 6, 8, 10};\n    int * p = arr + 2;\n    cout << p[3] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "不能确定。"
         }
       ],
-      "content": "假定只有一个根节点的树的深度为 ，则一棵有 个节点的完全二叉树，则树的深度为( )。\n"
+      "content": "假定只有一个根节点的树的深度为 $1$，则一棵有 $n$ 个节点的完全二叉树，则树的深度为( )。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "先序遍历是ABDEC。"
+          "text": "先序遍历是 ABDEC。"
         },
         {
           "key": "B",
-          "text": "中序遍历是BDACE。"
+          "text": "中序遍历是 BDACE。"
         },
         {
           "key": "C",
-          "text": "后序遍历是DBCEA。"
+          "text": "后序遍历是 DBCEA。"
         },
         {
           "key": "D",
-          "text": "广度优先遍历是ABCDE。"
+          "text": "广度优先遍历是 ABCDE。"
         }
       ],
-      "content": "对于如下图的二叉树，说法正确的是（ ）。\n"
+      "content": "对于如下图的二叉树，说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -173,14 +173,14 @@
         },
         {
           "key": "C",
-          "text": "使用邻接矩阵存储一个包含 个顶点的有向图，统计其边数的时间复杂度为 。"
+          "text": "使用邻接矩阵存储一个包含 $n$ 个顶点的有向图，统计其边数的时间复杂度为 $O(n^2)$。"
         },
         {
           "key": "D",
           "text": "同一个图分别使用出边邻接表和入边邻接表存储，其边结点个数相同。"
         }
       ],
-      "content": "图的存储和遍历算法，下面说法错误的是（ ）。\n"
+      "content": "图的存储和遍历算法，下面说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "C",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "D",
-          "text": "8"
+          "text": "$8$"
         }
       ],
-      "content": "一个连通的简单有向图，共有28条边，则该图至少有( )个顶点。\n"
+      "content": "一个连通的简单有向图，共有 $28$ 条边，则该图至少有( )个顶点。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "在每个哈希表项处，使用不同的哈希函数再建⽴一个哈希表，管理该表项的冲突元素。"
+          "text": "在每个哈希表项处，使用不同的哈希函数再建立一个哈希表，管理该表项的冲突元素。"
         },
         {
           "key": "B",
-          "text": "在每个哈希表项处，建⽴二叉排序树，管理该表项的冲突元素。"
+          "text": "在每个哈希表项处，建立二叉排序树，管理该表项的冲突元素。"
         },
         {
           "key": "C",
-          "text": "使用不同的哈希函数建⽴额外的哈希表，用来管理所有发生冲突的元素。"
+          "text": "使用不同的哈希函数建立额外的哈希表，用来管理所有发生冲突的元素。"
         },
         {
           "key": "D",
           "text": "覆盖发生冲突的旧元素。"
         }
       ],
-      "content": "以下哪个方案不能合理解决或缓解哈希表冲突（ ）。\n"
+      "content": "以下哪个方案不能合理解决或缓解哈希表冲突（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "对很多问题，递推实现和递归实现动态规划方法的时间复杂度相当。"
         }
       ],
-      "content": "以下关于动态规划的说法中，错误的是（ ）。\n"
+      "content": "以下关于动态规划的说法中，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "B",
-          "text": "13"
+          "text": "$13$"
         },
         {
           "key": "C",
-          "text": "64"
+          "text": "$64$"
         },
         {
           "key": "D",
           "text": "结果是随机的。"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint rec_fib[100];\nint fib(int n) {\n    if (n <= 1)\n    return n;\n    if (rec_fib[n] == 0)\n    rec_fib[n] = fib(n - 1) + fib(n - 2);\n    return rec_fib[n];\n}\nint main() {\n    cout << fib(6) << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint rec_fib[100];\nint fib(int n) {\n    if (n <= 1)\n        return n;\n    if (rec_fib[n] == 0)\n        rec_fib[n] = fib(n - 1) + fib(n - 2);\n    return rec_fib[n];\n}\nint main() {\n    cout << fib(6) << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint rec_fib[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n    return n;\n    if (rec_fib[n] == 0)\n    rec_fib[n] = fib(n - 1) + fib(n - 2);\n    return rec_fib[n];\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint rec_fib[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n        return n;\n    if (rec_fib[n] == 0)\n        rec_fib[n] = fib(n - 1) + fib(n - 2);\n    return rec_fib[n];\n}\n```"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "下面search函数的平均时间复杂度为( )。\n\n```cpp\nint search(int n, int * p, int target) {\n    int low = 0, high = n;\n    while (low < high) {\n        int middle = (low + high) / 2;\n        if (target == p[middle]) {\n            return middle;\n        } else if (target > p[middle]) {\n            low = middle + 1;\n        } else {\n            high = middle;\n        }\n    }\n    return -1;\n}\n```\n"
+      "content": "下面 `search` 函数的平均时间复杂度为( )。\n\n```cpp\nint search(int n, int * p, int target) {\n    int low = 0, high = n;\n    while (low < high) {\n        int middle = (low + high) / 2;\n        if (target == p[middle]) {\n            return middle;\n        } else if (target > p[middle]) {\n            low = middle + 1;\n        } else {\n            high = middle;\n        }\n    }\n    return -1;\n}\n```"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint primes[MAXP], num = 0;\nbool isPrime[MAXN] = {false};\nvoid sieve() {\n    for (int n = 2; n <= MAXN; n++) {\n        if (!isPrime[n])\n        primes[num++] = n;\n        for (int i = 0; i < num && n * primes[i] <= MAXN; i++) {\n            isPrime[n * primes[i]] = true;\n            if (n % primes[i] == 0)\n            break;\n        }\n    }\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint primes[MAXP], num = 0;\nbool isPrime[MAXN] = {false};\nvoid sieve() {\n    for (int n = 2; n <= MAXN; n++) {\n        if (!isPrime[n])\n            primes[num++] = n;\n        for (int i = 0; i < num && n * primes[i] <= MAXN; i++) {\n            isPrime[n * primes[i]] = true;\n            if (n % primes[i] == 0)\n                break;\n        }\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "1, 2, 4, 5, 3, 7, 6, 8, 9"
+          "text": "$1$, $2$, $4$, $5$, $3$, $7$, $6$, $8$, $9$"
         },
         {
           "key": "B",
-          "text": "1, 2, 5, 4, 3, 7, 8, 6, 9"
+          "text": "$1$, $2$, $5$, $4$, $3$, $7$, $8$, $6$, $9$"
         },
         {
           "key": "C",
-          "text": "1, 4, 5, 2, 7, 3, 8, 6, 9"
+          "text": "$1$, $4$, $5$, $2$, $7$, $3$, $8$, $6$, $9$"
         },
         {
           "key": "D",
-          "text": "1, 5, 4, 2, 7, 3, 8, 6,"
+          "text": "$1$, $5$, $4$, $2$, $7$, $3$, $8$, $6$,"
         }
       ],
-      "content": "下列选项中，哪个不可能是下图的广度优先遍历序列（ ）。\n"
+      "content": "下列选项中，哪个不可能是下图的广度优先遍历序列（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "C++语⾔中，表达式9 & 12的结果类型为int、值为8。\n"
+      "content": "C++ 语言中，表达式 `9 & 12` 的结果类型为 `int`、值为 $8$。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "C++语⾔中，指针变量指向的内存地址不一定都能够合法访问。\n"
+      "content": "C++ 语言中，指针变量指向的内存地址不一定都能够合法访问。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "对 个元素的数组进行快速排序，最差情况的时间复杂度为 。\n"
+      "content": "对 $n$ 个元素的数组进行快速排序，最差情况的时间复杂度为 $O(n^2)$。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "一般情况下，long long类型占用的字节数比float类型多。\n"
+      "content": "一般情况下，`long long` 类型占用的字节数比 `float` 类型多。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "使用math.h或cmath头文件中的函数，表达式pow(10, 3)的结果的值为1000、类型为int。\n"
+      "content": "使用 `math.h` 或 `cmath` 头文件中的函数，表达式 `pow(10, 3)` 的结果的值为 $1000$ 、类型为 `int`。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "二叉排序树的中序遍历序列一定是有序的。\n"
+      "content": "二叉排序树的中序遍历序列一定是有序的。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "无论哈希表采用何种方式解决冲突，只要管理的元素足够多，都无法避免冲突。\n"
+      "content": "无论哈希表采用何种方式解决冲突，只要管理的元素足够多，都无法避免冲突。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "在C++语⾔中，类的构造函数和析构函数均可以声明为虚函数。\n"
+      "content": "在 C++ 语言中，类的构造函数和析构函数均可以声明为虚函数。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "动态规划方法将原问题分解为一个或多个相似的⼦问题，因此必须使用递归实现。\n"
+      "content": "动态规划方法将原问题分解为一个或多个相似的子问题，因此必须使用递归实现。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "如果将城市视作顶点，公路视作边，将城际公路网络抽象为简单图，可以满足城市间的车道级导航需求。\n"
+      "content": "如果将城市视作顶点，公路视作边，将城际公路网络抽象为简单图，可以满足城市间的车道级导航需求。"
     },
     {
       "type": "program",

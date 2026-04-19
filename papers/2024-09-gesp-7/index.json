@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "b"
+          "text": "$b$"
         },
         {
           "key": "B",
-          "text": "c"
+          "text": "$c$"
         },
         {
           "key": "C",
-          "text": "98"
+          "text": "$98$"
         },
         {
           "key": "D",
-          "text": "99"
+          "text": "$99$"
         }
       ],
-      "content": "已知小写字母b的ASCII码为98，下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b';\n    a++;\n    cout << a;\n    return 0;\n}\n```\n"
+      "content": "已知小写字母 $b$ 的 ASCII 码为 $98$ ，下列 C++ 代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    char a = 'b';\n    a++;\n    cout << a;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "&a + 3"
+          "text": "`&a + 3`"
         },
         {
           "key": "B",
-          "text": "+a & 3"
+          "text": "`+a & 3`"
         },
         {
           "key": "C",
-          "text": "a - - 4"
+          "text": "`a - - 4`"
         },
         {
           "key": "D",
-          "text": "a++3"
+          "text": "`a++3`"
         }
       ],
-      "content": "已知a为int类型变量，下列表达式不符合语法的是（ ）。\n"
+      "content": "已知 $a$ 为 `int` 类型变量，下列表达式不符合语法的是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "定义指针变量时必须指定其指向的类型。"
         }
       ],
-      "content": "下列关于C++语⾔中指针的叙述，不正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言中指针的叙述，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -90,7 +90,7 @@
       "options": [
         {
           "key": "A",
-          "text": "将C++类对象通过值传递给函数参数时，会自动调用复制构造函数。"
+          "text": "将 C++ 类对象通过值传递给函数参数时，会自动调用复制构造函数。"
         },
         {
           "key": "B",
@@ -98,14 +98,14 @@
         },
         {
           "key": "C",
-          "text": "定义C++类对象时，一定会调用默认构造函数。"
+          "text": "定义 C++ 类对象时，一定会调用默认构造函数。"
         },
         {
           "key": "D",
           "text": "构造派生类的对象时，一定会调用基类的构造函数。"
         }
       ],
-      "content": "下列关于C++类的说法，错误的是( )。\n"
+      "content": "下列关于 C++ 类的说法，错误的是( )。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "T的高为5"
+          "text": "$T$ 的高为 $5$"
         },
         {
           "key": "B",
-          "text": "T有4个叶节点"
+          "text": "$T$ 有 $4$ 个叶节点"
         },
         {
           "key": "C",
-          "text": "T是平衡树"
+          "text": "$T$ 是平衡树"
         },
         {
           "key": "D",
           "text": "以上说法都不对"
         }
       ],
-      "content": "某二叉树T的先序遍历序列为：{A B D C E G H F}，中序遍历序列为：{D B A H G E C F}，则下列说法中正\n确的是( )。\n"
+      "content": "某二叉树 $T$ 的先序遍历序列为：{A B D C E G H F}，中序遍历序列为：{D B A H G E C F}，则下列说法中正确的是( )。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "176"
+          "text": "$176$"
         },
         {
           "key": "B",
-          "text": "215"
+          "text": "$215$"
         },
         {
           "key": "C",
-          "text": "216"
+          "text": "$216$"
         },
         {
           "key": "D",
-          "text": "255"
+          "text": "$255$"
         }
       ],
-      "content": "一棵完全二叉树有431个结点，则叶结点有多少个？( )\n"
+      "content": "一棵完全二叉树有 $431$ 个结点，则叶结点有多少个？( )"
     },
     {
       "type": "choice",
@@ -177,10 +177,10 @@
         },
         {
           "key": "D",
-          "text": "树的结点不能有两个⽗结点。"
+          "text": "树的结点不能有两个父结点。"
         }
       ],
-      "content": "下列关于树的说法，错误的是（ ）。\n"
+      "content": "下列关于树的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "C",
-          "text": "51"
+          "text": "$51$"
         },
         {
           "key": "D",
-          "text": "60"
+          "text": "$60$"
         }
       ],
-      "content": "一个简单无向图有10个结点、30条边。再增加多少条边可以成为完全图。（ ）\n"
+      "content": "一个简单无向图有 $10$ 个结点、$30$ 条边。再增加多少条边可以成为完全图。（ ）"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "将新元素放置在冲突位置之后的第一个空位。"
         }
       ],
-      "content": "以下哪个方案可以合理解决或缓解哈希表冲突（ ）。\n"
+      "content": "以下哪个方案可以合理解决或缓解哈希表冲突（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "该迷宫内与起点连通的结点及它们之间的路径可以抽象为无向无环图。"
         }
       ],
-      "content": "一个迷宫，已知从起点不经过重复结点到达终点的路径有且仅有一条，则下面说法错误的是（ ）。\n"
+      "content": "一个迷宫，已知从起点不经过重复结点到达终点的路径有且仅有一条，则下面说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "B",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "C",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "D",
           "text": "无法通过编译。"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << (int)log(8) << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << (int)log(8) << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "84"
+          "text": "$84$"
         },
         {
           "key": "B",
-          "text": "495"
+          "text": "$495$"
         },
         {
           "key": "C",
-          "text": "1012"
+          "text": "$1012$"
         },
         {
           "key": "D",
           "text": "结果是随机的。"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#define N 10\nusing namespace std;\nint path[N][N];\nint main() {\n    for (int i = 1; i < N; i++)\n    path[i][0] = i;\n    for (int j = 1; j < N; j++)\n    path[0][j] = j;\n    for (int i = 1; i < N; i++)\n    for (int j = 1; j < N; j++)\n    path[i][j] = path[i - 1][j] + path[i][j - 1];\n    cout << path[8][4] << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\n#define N 10\nusing namespace std;\nint path[N][N];\nint main() {\n    for (int i = 1; i < N; i++)\n        path[i][0] = i;\n    for (int j = 1; j < N; j++)\n        path[0][j] = j;\n    for (int i = 1; i < N; i++)\n        for (int j = 1; j < N; j++)\n            path[i][j] = path[i - 1][j] + path[i][j - 1];\n    cout << path[8][4] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "上题中程序的时间复杂度为（ ）。\n"
+      "content": "上题中程序的时间复杂度为（ ）。"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": "无法正常结束。"
         }
       ],
-      "content": "下面fib函数的时间复杂度为( )。\n\n```cpp\nint fib_rcd[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n    return 1;\n    if (fib_rcd[n] > 0)\n    return fib_rcd[n];\n    return fib(n - 1) + fib(n - 2);\n}\n```\n"
+      "content": "下面 `fib` 函数的时间复杂度为( )。\n\n```cpp\nint fib_rcd[MAX_N];\nint fib(int n) {\n    if (n <= 1)\n        return 1;\n    if (fib_rcd[n] > 0)\n        return fib_rcd[n];\n    return fib(n - 1) + fib(n - 2);\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "1, 3, 5, 7, 4, 2, 6, 8, 9"
+          "text": "$1$, $3$, $5$, $7$, $4$, $2$, $6$, $8$, $9$"
         },
         {
           "key": "B",
-          "text": "9, 4, 2, 1, 3, 7, 5, 6, 8"
+          "text": "$9$, $4$, $2$, $1$, $3$, $7$, $5$, $6$, $8$"
         },
         {
           "key": "C",
-          "text": "1, 3, 5, 7, 6, 8, 9, 4, 2"
+          "text": "$1$, $3$, $5$, $7$, $6$, $8$, $9$, $4$, $2$"
         },
         {
           "key": "D",
-          "text": "9, 4, 7, 2, 1, 3, 5, 6, 8"
+          "text": "$9$, $4$, $7$, $2$, $1$, $3$, $5$, $6$, $8$"
         }
       ],
-      "content": "下列选项中，哪个可能是下图的广度优先遍历序列（ ）。\n"
+      "content": "下列选项中，哪个可能是下图的广度优先遍历序列（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "表达式'a' << 1的结果为'a '。\n"
+      "content": "表达式 `'a' << 1` 的结果为 `'a '`。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "在C++语⾔中，函数可以定义在另一个函数定义之内。\n"
+      "content": "在 C++ 语⾔中，函数可以定义在另一个函数定义之内。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "选择排序一般是不稳定的。\n"
+      "content": "选择排序一般是不稳定的。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "埃⽒筛法和欧拉筛法都是使用筛法思想生成素数表的算法，欧拉筛法的时间复杂度更低。\n"
+      "content": "埃氏筛法和欧拉筛法都是使用筛法思想生成素数表的算法，欧拉筛法的时间复杂度更低。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "使用math.h或cmath头文件中的正弦函数，表达式sin(30)的结果类型为double、值约为0.5。\n"
+      "content": "使用 `math.h` 或 `cmath` 头文件中的正弦函数，表达式 `sin(30)` 的结果类型为 `double`、值约为 $0.5$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "一颗 层的完全二叉树，一定有 个结点。\n"
+      "content": "一颗 $n$ 层的完全二叉树，一定有 $2^n - 1$ 个结点。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "一个图，不管是否连通，都可以使用深度优先搜索算法进行遍历。\n"
+      "content": "一个图，不管是否连通，都可以使用深度优先搜索算法进行遍历。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "某个哈希表键值x为整数，H(x) = x % p是常用的哈希函数之一，要求p选择素数是因为这样不会产生\n冲突。( )\n"
+      "content": "某个哈希表键值 $x$ 为整数，$H(x) = x \\% p$ 是常用的哈希函数之一，要求 $p$ 选择素数是因为这样不会产生冲突。( )"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "使用单链表实现队列时，链表头结点作为队首比链表头结点作为队尾更便于操作。\n"
+      "content": "使用单链表实现队列时，链表头结点作为队首比链表头结点作为队尾更便于操作。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "一个图中，每个结点表达一个⼈，连接两个结点的边表达两个结点对应的⼈相互认识，则这个图可以用来\n表达社交网络。\n"
+      "content": "一个图中，每个结点表达一个人，连接两个结点的边表达两个结点对应的人相互认识，则这个图可以用来表达社交网络。"
     },
     {
       "type": "program",

@@ -30,7 +30,7 @@
           "text": "编译"
         }
       ],
-      "content": "高级语言编写的程序需要经过以下（ ）操作，可以生成在计算机上运行的\n可执行代码。\n"
+      "content": "高级语言编写的程序需要经过以下（ ）操作，可以生成在计算机上运行的可执行代码。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "以上都不正确。"
         }
       ],
-      "content": "排序算法是稳定的（Stable Sorting），就是指排序算法可以保证，在待排\n序数据中有两个相等记录的关键字 R和S（R出现在 S之前），在排序后的列表\n中R也一定在S前。下面关于排序稳定性的描述，正确的是（ ）。\n"
+      "content": "排序算法是稳定的（Stable Sorting），就是指排序算法可以保证，在待排序数据中有两个相等记录的关键字 $R$ 和 $S$（$R$ 出现在 $S$ 之前），在排序后的列表中 $R$ 也一定在 $S$ 前。下面关于排序稳定性的描述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "指针变量指向的内存地址不一定能够合法访问。"
         }
       ],
-      "content": "下列关于C++语言中指针的叙述，不正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言中指针的叙述，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": "二维数组在内存中可以不是连续存放的。"
         }
       ],
-      "content": "下列关于C++语言中数组的叙述，不正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言中数组的叙述，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "函数定义必须写在函数调用前。"
         }
       ],
-      "content": "下列关于C++语言中函数的叙述，正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言中函数的叙述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "两个变量的变量名可以相同，但它们的作用域必须是不同的。"
         }
       ],
-      "content": "下列关于C++语言中变量的叙述，正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言中变量的叙述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "30"
+          "text": "$30$"
         },
         {
           "key": "B",
-          "text": "60"
+          "text": "$60$"
         },
         {
           "key": "C",
-          "text": "120"
+          "text": "$120$"
         },
         {
           "key": "D",
-          "text": "240"
+          "text": "$240$"
         }
       ],
-      "content": "一个二维数组定义为double array[3][10];，则这个二维数组占用内存的\n大小为（ ）。\n"
+      "content": "一个二维数组定义为 `double array[3][10];`，则这个二维数组占用内存的大小为（ ）。"
     },
     {
       "type": "choice",
@@ -190,11 +190,11 @@
       "options": [
         {
           "key": "A",
-          "text": "该指针变量的类型为int。"
+          "text": "该指针变量的类型为 `int` 。"
         },
         {
           "key": "B",
-          "text": "该指针变量指向的类型为int。"
+          "text": "该指针变量指向的类型为 `int` 。"
         },
         {
           "key": "C",
@@ -205,7 +205,7 @@
           "text": "访问该指针变量指向的内存会出现编译错误。"
         }
       ],
-      "content": "一个变量定义为int *p = nullptr;，则下列说法正确的是（ ）。\n"
+      "content": "一个变量定义为 `int *p = nullptr;` ，则下列说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2字节。"
+          "text": "$2$ 字节。"
         },
         {
           "key": "B",
-          "text": "4字节。"
+          "text": "$4$ 字节。"
         },
         {
           "key": "C",
-          "text": "8字节。"
+          "text": "$8$ 字节。"
         },
         {
           "key": "D",
           "text": "无法确定。"
         }
       ],
-      "content": "一个二维数组定义为int array[5][3];，则array[1][2]和array[2][1]\n在内存中的位置相差多少字节？（ ）\n"
+      "content": "一个二维数组定义为 `int array[5][3];`，则 `array[1][2]` 和 `array[2][1]` 在内存中的位置相差多少字节？（ ）"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "B",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "C",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "D",
-          "text": "7"
+          "text": "$7$"
         }
       ],
-      "content": "如果a 为int 类型的变量，且a 的值为6，则执行a &= 3;之后，a 的值会\n是（ ）。\n"
+      "content": "如果 $a$ 为 `int` 类型的变量，且 $a$ 的值为 $6$，则执行 `a &= 3;` 之后，$a$ 的值会是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "{1, 3, 3, 4, 5}"
+          "text": "{$1$, $3$, $3$, $4$, $5$}"
         },
         {
           "key": "B",
-          "text": "{2, 2, 3, 4, 5}"
+          "text": "{$2$, $2$, $3$, $4$, $5$}"
         },
         {
           "key": "C",
-          "text": "{1, 2, 2, 4, 5}"
+          "text": "{$1$, $2$, $2$, $4$, $5$}"
         },
         {
           "key": "D",
-          "text": "{1, 2, 3, 4, 5}"
+          "text": "{$1$, $2$, $3$, $4$, $5$}"
         }
       ],
-      "content": "一个数组定义为int a[5] = {1, 2, 3, 4, 5};，一个指针定义为int *\np = &a[2];，则执行a[1] = *p;后，数组a 中的值会变为（ ）。\n"
+      "content": "一个数组定义为 `int a[5] = {1, 2, 3, 4, 5};`，一个指针定义为 `int *p = &a[2];`，则执行 `a[1] = *p;` 后，数组 $a$ 中的值会变为（ ）。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "void BubbleSort(int a[][4]);"
+          "text": "`void BubbleSort(int a[][4]);`"
         },
         {
           "key": "B",
-          "text": "void BubbleSort(int a[3][]);"
+          "text": "`void BubbleSort(int a[3][]);`"
         },
         {
           "key": "C",
-          "text": "void BubbleSort(int a[][]);"
+          "text": "`void BubbleSort(int a[][]);`"
         },
         {
           "key": "D",
-          "text": "void BubbleSort(int ** a);"
+          "text": "`void BubbleSort(int ** a);`"
         }
       ],
-      "content": "以下哪个函数声明在调用时可以传递二维数组的名字作为参数？（ ）\n"
+      "content": "以下哪个函数声明在调用时可以传递二维数组的名字作为参数？（ ）"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int x, int y"
+          "text": "`int x`, `int y`"
         },
         {
           "key": "B",
-          "text": "int * x, int * y"
+          "text": "`int * x`, `int * y`"
         },
         {
           "key": "C",
-          "text": "int a, int b"
+          "text": "`int a`, `int b`"
         },
         {
           "key": "D",
-          "text": "int & a, int & b"
+          "text": "`int & a`, `int & b`"
         }
       ],
-      "content": "在下列代码的横线处填写（ ），可以使得输出是“20 10”。\n"
+      "content": "在下列代码的横线处填写（ ），可以使得输出是“20 10”。"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "B",
-          "text": "30"
+          "text": "$30$"
         },
         {
           "key": "C",
-          "text": "33"
+          "text": "$33$"
         },
         {
           "key": "D",
           "text": "无法确定。"
         }
       ],
-      "content": "执行以下C++语言程序后，输出结果是（ ）。\n"
+      "content": "执行以下 C++ 语言程序后，输出结果是（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "array[min] > array[j]"
+          "text": "`array[min] > array[j]`"
         },
         {
           "key": "B",
-          "text": "array[min] > array[i]"
+          "text": "`array[min] > array[i]`"
         },
         {
           "key": "C",
-          "text": "min > array[j]"
+          "text": "`min > array[j]`"
         },
         {
           "key": "D",
-          "text": "min > array[i]"
+          "text": "`min > array[i]`"
         }
       ],
-      "content": "在下列代码的横线处填写（ ），完成对有n 个int 类型元素的数组array\n由小到大排序。\n"
+      "content": "在下列代码的横线处填写（ ），完成对有 $n$ 个 `int` 类型元素的数组 `array` 由小到大排序。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "域名是由一串用点分隔的名字来标识互联网上一个计算机或计算机组的名称，\nCCF 编程能力等级认证官方网站的域名是 gesp.ccf.org.cn，其中顶级域名是\ngesp。\n"
+      "content": "域名是由一串用点分隔的名字来标识互联网上一个计算机或计算机组的名称，CCF 编程能力等级认证官方网站的域名是 gesp.ccf.org.cn，其中顶级域名是 gesp。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "数列 1, 1, 2, 3, 5, 8 ... 是以意大利数学家列昂纳多·斐波那契命名的\n数列，从第三个数开始，每个数是前面两项之和。如果计算该数列的第 n 项（其\n中n>3）fib(n)，我们采用如下方法：① 令 fib(1)=fib(2)=1 ②用循环 fori=3\nto n 分别计算 f(i) ③输出fib(n)。这体现了递推的编程思想。\n"
+      "content": "数列 $1$, $1$, $2$, $3$, $5$, $8$ ... 是以意大利数学家列昂纳多·斐波那契命名的数列，从第三个数开始，每个数是前面两项之和。如果计算该数列的第 $n$ 项（其中 $n > 3$）`fib(n)`，我们采用如下方法：① 令 `fib(1) = fib(2) = 1` ② 用循环 `for i = 3 to n` 分别计算 `f(i)` ③ 输出 `fib(n)`。这体现了递推的编程思想。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "在C++语言中，函数的参数默认以引用传递方式进行传递。\n"
+      "content": "在 C++ 语言中，函数的参数默认以引用传递方式进行传递。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "在 C++语言中，可以定义四维数组，但在解决实际问题时不可能用到，因为\n世界是三维的。\n"
+      "content": "在 C++ 语言中，可以定义四维数组，但在解决实际问题时不可能用到，因为世界是三维的。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "在C++语言中，一个函数没有被调用时，它的参数不占用内存。\n"
+      "content": "在 C++ 语言中，一个函数没有被调用时，它的参数不占用内存。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "在 C++语言中，如果一个函数可能抛出异常，那么一定要在 try 子句里调用\n这个函数。\n"
+      "content": "在 C++ 语言中，如果一个函数可能抛出异常，那么一定要在 `try` 子句里调用这个函数。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "如果希望记录10个最长为99字节的字符串，可以将字符串数组定义为char\ns[100][10];。\n"
+      "content": "如果希望记录 $10$ 个最长为 $99$ 字节的字符串，可以将字符串数组定义为 `char s[100][10];`。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "字符常量'0'和'\\0'是等价的。\n"
+      "content": "字符常量 `'0'` 和 `'\\0'` 是等价的。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": ">=和>>=都是C++语言的运算符。\n"
+      "content": "`>=` 和 `>>=` 都是 C++ 语言的运算符。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "由于文件重定向操作，程序员在使用C++语言编写程序时无法确定通过cout\n输出的内容是否会被输出到屏幕上。\n三、\n"
+      "content": "由于文件重定向操作，程序员在使用 C++ 语言编写程序时无法确定通过 `cout` 输出的内容是否会被输出到屏幕上。"
     },
     {
       "type": "program",

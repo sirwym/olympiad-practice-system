@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "D",
-          "text": "4"
+          "text": "$4$"
         }
       ],
-      "content": "小杨⽗母带他到某培训机构给他报名参加CCF组织的GESP认证考试的第1级，那他可以选择的认证语⾔有几\n种？（ ）\n"
+      "content": "小杨父母带他到某培训机构给他报名参加 CCF 组织的 GESP 认证考试的第 1 级，那他可以选择的认证语言有几种？（ ）"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(yr%400==0) || (yr%4==0)"
+          "text": "`(yr%400==0) || (yr%4==0)`"
         },
         {
           "key": "B",
-          "text": "(yr%400==0) || (yr%4==0 && yr%100!=0)"
+          "text": "`(yr%400==0) || (yr%4==0 && yr%100!=0)`"
         },
         {
           "key": "C",
-          "text": "(yr%400==0) && (yr%4==0)"
+          "text": "`(yr%400==0) && (yr%4==0)`"
         },
         {
           "key": "D",
-          "text": "(yr%400==0) && (yr%4==0 && yr%100!=0)"
+          "text": "`(yr%400==0) && (yr%4==0 && yr%100!=0)`"
         }
       ],
-      "content": "下面流程图在yr输入2024时，可以判定yr代表闰年，并输出2月是29天，则图中菱形框中应该填入（ ）。\n"
+      "content": "下面流程图在 $yr$ 输入 $2024$ 时，可以判定 $yr$ 代表闰年，并输出 $2$ 月是 $29$ 天，则图中菱形框中应该填入（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "five-Star"
+          "text": "`five-Star`"
         },
         {
           "key": "B",
-          "text": "five_star"
+          "text": "`five_star`"
         },
         {
           "key": "C",
-          "text": "fiveStar"
+          "text": "`fiveStar`"
         },
         {
           "key": "D",
-          "text": "_fiveStar"
+          "text": "`_fiveStar`"
         }
       ],
-      "content": "在C++中，下列不可做变量的是( )。\n"
+      "content": "在 C++ 中，下列不可做变量的是( )。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "for(int i=0; i<10; i+=1)"
+          "text": "`for(int i=0; i<10; i+=1)`"
         },
         {
           "key": "B",
-          "text": "for(int i=1; i<=10; i++)"
+          "text": "`for(int i=1; i<=10; i++)`"
         },
         {
           "key": "C",
-          "text": "for(int i=10; i>0; i--)"
+          "text": "`for(int i=10; i>0; i--)`"
         },
         {
           "key": "D",
-          "text": "for(int i=10; i<1; i++)"
+          "text": "`for(int i=10; i<1; i++)`"
         }
       ],
-      "content": "在C++中，与for(int i=0; i<10; i++)效果相同的是( )。\n"
+      "content": "在 C++ 中，与 `for(int i=0; i<10; i++)` 效果相同的是( )。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "true"
+          "text": "`true`"
         },
         {
           "key": "D",
-          "text": "false"
+          "text": "`false`"
         }
       ],
-      "content": "在C++中，cout << (5 % 2 && 5 % 3)的输出是( )。\n"
+      "content": "在 C++ 中，`cout << (5 % 2 && 5 % 3)` 的输出是( )。"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "以上均不对"
         }
       ],
-      "content": "6.执行下面的C++代码时输入1，则输出是( )。\n\n```cpp\nint month;\ncin >> month;\nswitch(month){\n    case 1:\n    cout << \"Jan \";\n    case 3:\n    cout << \"Mar \";\n    break;\n    default:\n    ;\n}\n```\n"
+      "content": "6. 执行下面的 C++ 代码时输入 $1$，则输出是( )。\n\n```cpp\nint month;\ncin >> month;\nswitch(month){\n    case 1:\n        cout << \"Jan \";\n    case 3:\n        cout << \"Mar \";\n        break;\n    default:\n        ;\n}\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "如果先后输入1和1，则将输出1"
+          "text": "如果先后输入 $1$ 和 $1$，则将输出 $1$"
         },
         {
           "key": "B",
-          "text": "如果先后输入0和1或者1和0，则将输出3"
+          "text": "如果先后输入 $0$ 和 $1$ 或者 $1$ 和 $0$，则将输出 $3$"
         },
         {
           "key": "C",
-          "text": "如果先后输入0和0，则将输出2"
+          "text": "如果先后输入 $0$ 和 $0$，则将输出 $2$"
         },
         {
           "key": "D",
-          "text": "如果先后输入0和0，则将输出4"
+          "text": "如果先后输入 $0$ 和 $0$，则将输出 $4$"
         }
       ],
-      "content": "执行下面C++代码后，有关说法错误的是（ ）。\n\n```cpp\nint a, b;\ncin >> a >> b;\nif (a && b)\ncout << \"1\";\nelse if (!(a || b))\ncout << \"2\";\nelse if (a || b)\ncout << \"3\";\nelse\ncout << \"4\";\n```\n"
+      "content": "执行下面 C++ 代码后，有关说法错误的是（ ）。\n\n```cpp\nint a, b;\ncin >> a >> b;\nif (a && b)\n    cout << \"1\";\nelse if (!(a || b))\n    cout << \"2\";\nelse if (a || b)\n    cout << \"3\";\nelse\n    cout << \"4\";\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "第1横线处应填入：N / 2\n第2横线处应填入：N - M5 - M2\n"
+          "text": "第 1 横线处应填入：`N / 2`\n第 2 横线处应填入：`N - M5 - M2`"
         },
         {
           "key": "B",
-          "text": "第1横线处应填入：(N - M5 * 5) / 2\n第2横线处应填入：N - M5 * 5 - M2 * 2\n"
+          "text": "第 1 横线处应填入：`(N - M5 * 5) / 2`\n第 2 横线处应填入：`N - M5 * 5 - M2 * 2`"
         },
         {
           "key": "C",
-          "text": "第1横线处应填入：N - M5 * 5 / 2\n第2横线处应填入：N - M5 * 5 - M2 * 2\n"
+          "text": "第 1 横线处应填入：`N - M5 * 5 / 2`\n第 2 横线处应填入：`N - M5 * 5 - M2 * 2`"
         },
         {
           "key": "D",
-          "text": "第1横线处应填入：(N - M5 * 5) / 2\n第2横线处应填入：N - M5 - M2\n"
+          "text": "第 1 横线处应填入：`(N - M5 * 5) / 2`\n第 2 横线处应填入：`N - M5 - M2`"
         }
       ],
-      "content": "某货币由5元，2元和1元组成。输入金额（假设为正整数），计算出最少数量。为实现其功能，横线处应填\n入代码是（ ）。\n\n```cpp\nint N;\ncin >>N;\nint M5,M2,M1;\nM5 = N / 5;\nM2 = ______________;\nM1 = ______________;\nprintf(\"5*%d+2*%d+1*%d\", M5, M2, M1);\n```\n"
+      "content": "某货币由 $5$ 元，$2$ 元和 $1$ 元组成。输入金额（假设为正整数），计算出最少数量。为实现其功能，横线处应填入代码是（ ）。\n\n```cpp\nint N;\ncin >> N;\nint M5, M2, M1;\nM5 = N / 5;\nM2 = ______________;\nM1 = ______________;\nprintf(\"5*%d+2*%d+1*%d\", M5, M2, M1);\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "55"
+          "text": "$55$"
         },
         {
           "key": "B",
-          "text": "45"
+          "text": "$45$"
         },
         {
           "key": "C",
-          "text": "36"
+          "text": "$36$"
         },
         {
           "key": "D",
-          "text": "28"
+          "text": "$28$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint loopCount = 0;\nfor (int i=0; i < 10; i++)\nfor (int j=1; j < i; j++)\nloopCount += 1;\ncout << loopCount;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint loopCount = 0;\nfor (int i = 0; i < 10; i++)\n    for (int j = 1; j < i; j++)\n        loopCount += 1;\ncout << loopCount;\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "25"
+          "text": "$25$"
         },
         {
           "key": "B",
-          "text": "16"
+          "text": "$16$"
         },
         {
           "key": "C",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "D",
-          "text": "9"
+          "text": "$9$"
         }
       ],
-      "content": "下面C++代码执行后的输出是（ ）。\n\n```cpp\nint loopCount = 0;\nfor (int i=0; i < 10; i++){\n    for (int j=0; j < i; j++)\n    if (i * j % 2)\n    break;\n    loopCount += 1;\n}\ncout << loopCount;\n```\n"
+      "content": "下面 C++ 代码执行后的输出是（ ）。\n\n```cpp\nint loopCount = 0;\nfor (int i = 0; i < 10; i++) {\n    for (int j = 0; j < i; j++)\n        if (i * j % 2)\n            break;\n    loopCount += 1;\n}\ncout << loopCount;\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "执行上面代码如果输入0，将终⽌循环"
+          "text": "执行上面代码如果输入 $0$，将终止循环"
         },
         {
           "key": "B",
-          "text": "执行上面代码能实现所有非0整数的求和"
+          "text": "执行上面代码能实现所有非 $0$ 整数的求和"
         },
         {
           "key": "C",
-          "text": "执行上面代码第一次输入0，最后将输出0"
+          "text": "执行上面代码第一次输入 $0$，最后将输出 $0$"
         },
         {
           "key": "D",
-          "text": "执行上面代码将陷入死循环，可将while (N)改为while (N==0)"
+          "text": "执行上面代码将陷入死循环，可将 `while (N)` 改为 `while (N == 0)`"
         }
       ],
-      "content": "假设下面C++代码执行过程中仅输入正负整数或0，有关说法错误的是（ ）。\n\n```cpp\nint N,Sum = 0;\ncin >> N;\nwhile (N){\n    Sum += N;\n    cin >> N;\n}\ncout << Sum;\n```\n"
+      "content": "假设下面 C++ 代码执行过程中仅输入正负整数或 $0$，有关说法错误的是（ ）。\n\n```cpp\nint N, Sum = 0;\ncin >> N;\nwhile (N) {\n    Sum += N;\n    cin >> N;\n}\ncout << Sum;\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "如果输入正整数，上面代码能正确判断N是否为质数"
+          "text": "如果输入正整数，上面代码能正确判断 $N$ 是否为质数"
         },
         {
           "key": "B",
-          "text": "如果输入整数，上面代码能正确判断N是否为质数"
+          "text": "如果输入整数，上面代码能正确判断 $N$ 是否为质数"
         },
         {
           "key": "C",
-          "text": "如果输入大于等于0的整数，上面代码能正确判断N是否质数"
+          "text": "如果输入大于等于 $0$ 的整数，上面代码能正确判断 $N$ 是否质数"
         },
         {
           "key": "D",
-          "text": "如将Flag = true修改为Flag = N>=2? true:false则能判断所有整数包括负整数、0、正整数是否为质\n数\n"
+          "text": "如将 `Flag = true` 修改为 `Flag = N >= 2 ? true : false` 则能判断所有整数包括负整数、$0$、正整数是否为质数"
         }
       ],
-      "content": "执行下面的C++代码，有关说法正确的是（ ）【质数是指仅能被1和它本身整除的正整数】。\n\n```cpp\nint N;\ncin >> N;\nbool Flag = true;\nfor ( int i = 2; i < N; i++){\n    if (i * i > N)\n    break;\n    if (N % i == 0){\n        Flag = false;\n        break;\n    }\n}\nif (Flag)\ncout << N << \"是质数\" << endl;\nelse\ncout << N << \"不是质数\" << endl;\n```\n"
+      "content": "执行下面的 C++ 代码，有关说法正确的是（ ）【质数是指仅能被 $1$ 和它本身整除的正整数】。\n\n```cpp\nint N;\ncin >> N;\nbool Flag = true;\nfor (int i = 2; i < N; i++){\n    if (i * i > N)\n        break;\n    if (N % i == 0){\n        Flag = false;\n        break;\n    }\n}\nif (Flag)\n    cout << N << \"是质数\" << endl;\nelse\n    cout << N << \"不是质数\" << endl;\n```"
     },
     {
       "type": "choice",
@@ -319,18 +319,18 @@
         },
         {
           "key": "B",
-          "text": "如果cout << endl;移到循环L2内部，则可实现预期效果"
+          "text": "如果 `cout << endl;` 移到循环 L2 内部，则可实现预期效果"
         },
         {
           "key": "C",
-          "text": "如果cout << endl; 移到循环L1外部，则可实现预期效果"
+          "text": "如果 `cout << endl;` 移到循环 L1 外部，则可实现预期效果"
         },
         {
           "key": "D",
-          "text": "删除cout << endl;行，则可实现预期效果"
+          "text": "删除 `cout << endl;` 行，则可实现预期效果"
         }
       ],
-      "content": "下面C++代码用于实现如下图所⽰的效果，其有关说法正确的是（ ）。\n\n```cpp\nfor (int i = 1; i < 6; i++){ // L1\n    for (int j = 1; j < i+1; j++) //L2\n    cout << i*j << \" \";\n    cout << endl;\n}\n```\n"
+      "content": "下面 C++ 代码用于实现如下图所示的效果，其有关说法正确的是（ ）。\n\n```cpp\nfor (int i = 1; i < 6; i++){ // L1\n    for (int j = 1; j < i+1; j++) //L2\n        cout << i*j << \" \";\n    cout << endl;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5 2"
+          "text": "$5$ $2$"
         },
         {
           "key": "B",
-          "text": "5 0"
+          "text": "$5$ $0$"
         },
         {
           "key": "C",
-          "text": "0 2"
+          "text": "$0$ $2$"
         },
         {
           "key": "D",
-          "text": "0 0"
+          "text": "$0$ $0$"
         }
       ],
-      "content": "下面C++代码执行后，输出是（ ）。\n\n```cpp\nint cnt1 = 0, cnt2 = 0;\nfor (int i = 0; i < 10; i++){\n    if (i % 2 == 0)\n    continue;\n    if (i % 2)\n    cnt1 += 1;\n    else if (i % 3 == 0)\n    cnt2 += 1;\n}\ncout << cnt1 << \" \" << cnt2;\n```\n"
+      "content": "下面 C++ 代码执行后，输出是（ ）。\n\n```cpp\nint cnt1 = 0, cnt2 = 0;\nfor (int i = 0; i < 10; i++){\n    if (i % 2 == 0)\n        continue;\n    if (i % 2)\n        cnt1 += 1;\n    else if (i % 3 == 0)\n        cnt2 += 1;\n}\ncout << cnt1 << \" \" << cnt2;\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "如果N输入3，M输入36则将输出：36是3的超级幸运数!"
+          "text": "如果 $N$ 输入 $3$，$M$ 输入 $36$ 则将输出：$36$ 是 $3$ 的超级幸运数!"
         },
         {
           "key": "B",
-          "text": "如果N输入7，M输入21则将输出：21是7的幸运数!"
+          "text": "如果 $N$ 输入 $7$，$M$ 输入 $21$ 则将输出：$21$ 是 $7$ 的幸运数!"
         },
         {
           "key": "C",
-          "text": "如果N输入8，M输入36则将输出：36非8的超级幸运数!"
+          "text": "如果 $N$ 输入 $8$，$M$ 输入 $36$ 则将输出：$36$ 非 $8$ 的超级幸运数!"
         },
         {
           "key": "D",
-          "text": "如果N输入3，M输入63则将输出：63是3的超级幸运数!"
+          "text": "如果 $N$ 输入 $3$，$M$ 输入 $63$ 则将输出：$63$ 是 $3$ 的超级幸运数!"
         }
       ],
-      "content": "在下面的C++代码中，N必须是小于10大于1的整数，M为正整数（大于0）。如果M被N整除则M为幸运\n数，如果M中含有N且能被N整除，则为超级幸运数，否则不是幸运数。程序用于判断M是否为幸运数或超级幸运数\n或非幸运数。阅读下面代码，有关说法正确的是（ ）。\n\n```cpp\nint N, M;\ncout << \"请输入幸运数字：\";\ncin >> N;\ncout << \"请输入正整数：\";\ncin >> M;\nbool Lucky;\nif (M % N == 0)\nLucky = true;\nelse\nLucky = false;\nwhile (M){\n    if (M % 10 == N && Lucky){\n        printf(\"%d是%d的超级幸运数!\", M, N);\n        break;\n    }\n    M /= 10;\n}\nif (M == 0)\nif (Lucky)\nprintf(\"%d是%d的幸运数!\", M, N);\nelse\nprintf(\"%d非%d的幸运数!\", M, N);\n```\n"
+      "content": "在下面的 C++ 代码中，$N$ 必须是小于 $10$ 大于 $1$ 的整数，$M$ 为正整数（大于 $0$）。如果 $M$ 被 $N$ 整除则 $M$ 为幸运数，如果 $M$ 中含有 $N$ 且能被 $N$ 整除，则为超级幸运数，否则不是幸运数。程序用于判断 $M$ 是否为幸运数或超级幸运数或非幸运数。阅读下面代码，有关说法正确的是（ ）。\n\n```cpp\nint N, M;\ncout << \"请输入幸运数字：\";\ncin >> N;\ncout << \"请输入正整数：\";\ncin >> M;\nbool Lucky;\nif (M % N == 0)\n    Lucky = true;\nelse\n    Lucky = false;\nwhile (M){\n    if (M % 10 == N && Lucky){\n        printf(\"%d是%d的超级幸运数!\", M, N);\n        break;\n    }\n    M /= 10;\n}\nif (M == 0)\n    if (Lucky)\n        printf(\"%d是%d的幸运数!\", M, N);\n    else\n        printf(\"%d非%d的幸运数!\", M, N);\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "执行C++代码cout << '9'+'1';的输出为10。( )\n"
+      "content": "执行 C++ 代码 `cout << '9' + '1';` 的输出为 $10$。( )"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "C++表达式-12 % 10的值为2。( )\n"
+      "content": "C++ 表达式 `-12 % 10` 的值为 $2$。( )"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "C++表达式int(12.56)的值为13。（ ）\n"
+      "content": "C++ 表达式 `int(12.56)` 的值为 $13$。（ ）"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "C++的整型变量N被赋值为10，则语句cout << N / 3 << \"-\" << N % 3执行后输出是3-1。 ( )\n"
+      "content": "C++ 的整型变量 $N$ 被赋值为 $10$，则语句 `cout << N / 3 << \"-\" << N % 3` 执行后输出是 `3-1`。 ( )"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "在C++代码中，不可以将变量命名为scanf，因为scanf是C++语⾔的关键字。（ ）\n"
+      "content": "在 C++ 代码中，不可以将变量命名为 `scanf`，因为 `scanf` 是 C++ 语言的关键字。（ ）"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码执行后将导致死循环。（ ）\n\n```cpp\nfor (int i = 0; i < 10; i++)\ncontinue;\n```\n"
+      "content": "下面 C++ 代码执行后将导致死循环。（ ）\n\n```cpp\nfor (int i = 0; i < 10; i++)\n    continue;\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码执行后将输出10。（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 0; i < 10; i++)\nfor (int j = 0; j < i; j++){\n    cnt += 1;\n    break;\n}\ncout << cnt;\n```\n"
+      "content": "下面 C++ 代码执行后将输出 $10$。（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 0; i < 10; i++)\n    for (int j = 0; j < i; j++){\n        cnt += 1;\n        break;\n    }\ncout << cnt;\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码执行后，将输出5。（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 1; i < 5; i++)\nfor (int j = i; j < 5; j +=i)\nif (i * j % 2 == 0)\ncnt += 1;\ncout << cnt;\n```\n"
+      "content": "下面 C++ 代码执行后，将输出 $5$。（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 1; i < 5; i++)\n    for (int j = i; j < 5; j += i)\n        if (i * j % 2 == 0)\n            cnt += 1;\ncout << cnt;\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码能实现正整数各位数字之和。（ ）\n\n```cpp\nint N,Sum = 0;\ncin >> N;\nwhile (N){\n    Sum += N % 10;\n    N /= 10;\n}\ncout << Sum;\n```\n"
+      "content": "下面 C++ 代码能实现正整数各位数字之和。（ ）\n\n```cpp\nint N, Sum = 0;\ncin >> N;\nwhile (N) {\n    Sum += N % 10;\n    N /= 10;\n}\ncout << Sum;\n```"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "GESP测试是对认证者的编程能⼒进行等级认证，同一级别的能⼒基本上与编程语⾔无关。（ ）\n"
+      "content": "GESP 测试是对认证者的编程能力进行等级认证，同一级别的能力基本上与编程语言无关。（ ）"
     },
     {
       "type": "program",

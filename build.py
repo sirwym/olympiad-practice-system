@@ -9,6 +9,7 @@ import sys
 import json
 import shutil
 import re
+import base64
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
@@ -21,8 +22,120 @@ DIST_DIR = BASE_DIR / "dist"
 
 TEMPLATE_NAME = "paper.html"
 
+# ===== 答案加密 =====
+XOR_KEY = "GESP-CSP-NCT-2026EXAM"  # 20 字符密钥
 
-def slugify(text: str) -> str:
+def encrypt_answer(answer: str, qid: int) -> str:
+    """对答案进行 XOR + 偏移加密，返回 Base64 编码字符串
+    
+    加密过程：
+    1. 每个字符与 XOR_KEY[(qid + i) % len] 异或
+    2. 加偏移 (qid % 7)
+    3. Base64 编码
+    """
+    if not answer or answer == 'None':
+        return ''
+    result = []
+    key_len = len(XOR_KEY)
+    offset = qid % 7
+    for i, ch in enumerate(answer):
+        xored = ord(ch) ^ ord(XOR_KEY[(qid + i) % key_len])
+        shifted = xored + offset
+        result.append(shifted)
+    # 编码为 bytes 再 Base64
+    raw_bytes = bytes(result)
+    return base64.b64encode(raw_bytes).decode('ascii')
+
+
+def minify_inline_js(html: str) -> str:
+    """压缩 HTML 中内联 <script> 标签的 JS（不含 src 属性的）
+    
+    处理流程：
+    1. 变量名缩短（可读名 → 短名，增加逆向难度）
+    2. jsmin 压缩（删除注释、多余空白）
+    
+    只压缩包含内联代码的 script 标签，跳过外部引用。
+    """
+    try:
+        import jsmin
+    except ImportError:
+        print("   ⚠️  jsmin 未安装，跳过 JS 压缩（pip install jsmin）")
+        return html
+    
+    # 变量名/函数名缩短映射表（长名 → 短名）
+    # 注意：替换顺序很重要，先替换长的避免部分匹配
+    JS_RENAMES = [
+        # 常量
+        ('PAPER_KEY', 'PK'),
+        ('TOTAL_QUESTIONS', 'TQ'),
+        ('TOTAL_SCORE', 'TS'),
+        ('TIME_LIMIT', 'TL'),
+        ('XOR_KEY', 'XK'),
+        ('ANSWERS_KEY', 'AK'),
+        # 变量
+        ('userAnswers', 'ua'),
+        ('submitted', 'sb'),
+        ('timerInterval', 'ti'),
+        ('remainingSeconds', 'rs'),
+        ('sessionKey', 'sk'),
+        ('encryptedAnswers', 'ea'),
+        # 函数
+        ('sessionXorEncrypt', 'se'),
+        ('sessionXorDecrypt', 'sd'),
+        ('decryptAnswer', 'da'),
+        ('loadBestScore', 'lb'),
+        ('loadAnswers', 'la'),
+        ('startTimer', 'st'),
+        ('saveAnswer', 'sa'),
+        ('updateNavDots', 'un'),
+        ('updateProgress', 'up'),
+        ('updateNavDotState', 'uns'),
+    ]
+    
+    def shorten_names(code: str) -> str:
+        """对 JS 代码做变量名缩短"""
+        for old_name, new_name in JS_RENAMES:
+            # 使用 word boundary 确保只匹配完整标识符
+            code = re.sub(r'\b' + re.escape(old_name) + r'\b', new_name, code)
+        return code
+    
+    def compress_script(match):
+        prefix = match.group(1)  # <script> 或 <script ...>
+        code = match.group(2)    # JS 代码
+        suffix = match.group(3)  # </script>
+        
+        # 跳过 tailwind config（太短且可能有特殊格式要求）
+        if 'tailwind.config' in code:
+            return match.group(0)
+        
+        try:
+            # 第一步：变量名缩短
+            code = shorten_names(code)
+            # 第二步：jsmin 压缩
+            compressed = jsmin.jsmin(code)
+            return f'{prefix}{compressed}{suffix}'
+        except Exception:
+            # 压缩失败则保留原样
+            return match.group(0)
+    
+    # 匹配内联 <script>（不含 src 属性）
+    pattern = re.compile(
+        r'(<script(?:\s[^>]*)?>)(.*?)(</script>)',
+        re.DOTALL
+    )
+    
+    # 只处理不含 src 的 script 标签
+    def conditional_compress(match):
+        prefix = match.group(1)
+        # 如果有 src 属性，跳过
+        if 'src=' in prefix:
+            return match.group(0)
+        return compress_script(match)
+    
+    return pattern.sub(conditional_compress, html)
+
+
+
     """将文本转为 URL 安全的 slug"""
     text = text.lower().strip()
     # 替换中文日期等常见模式
@@ -245,12 +358,22 @@ def build_paper(paper: dict, env: Environment) -> str:
 
     questions = process_questions(metadata.get('questions', []))
 
+    # 对答案进行加密
+    for q in questions:
+        qid = q.get('id', 0)
+        answer = q.get('answer', '')
+        q['enc'] = encrypt_answer(str(answer), qid)
+
     html = template.render(
         paper=metadata,
         questions=questions,
         paper_slug=paper['slug'],
         is_nct_kitten=(metadata.get('category') == 'NCT-KITTEN'),
     )
+    
+    # 压缩内联 JS
+    html = minify_inline_js(html)
+    
     return html
 
 

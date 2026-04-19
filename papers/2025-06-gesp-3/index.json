@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-127"
+          "text": "$-127$"
         },
         {
           "key": "B",
-          "text": "-128"
+          "text": "$-128$"
         },
         {
           "key": "C",
-          "text": "-255"
+          "text": "$-255$"
         },
         {
           "key": "D",
-          "text": "-256"
+          "text": "$-256$"
         }
       ],
-      "content": "8位二进制原码能表⽰的最小整数是：（ ）\n"
+      "content": "$8$ 位二进制原码能表示的最小整数是：（ ）"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1种"
+          "text": "$1$ 种"
         },
         {
           "key": "B",
-          "text": "2种"
+          "text": "$2$ 种"
         },
         {
           "key": "C",
-          "text": "8种"
+          "text": "$8$ 种"
         },
         {
           "key": "D",
-          "text": "16种"
+          "text": "$16$ 种"
         }
       ],
-      "content": "反码表⽰中，零的表⽰形式有：\n"
+      "content": "反码表示中，零的表示形式有："
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-69"
+          "text": "$-69$"
         },
         {
           "key": "B",
-          "text": "-59"
+          "text": "$-59$"
         },
         {
           "key": "C",
-          "text": "-68"
+          "text": "$-68$"
         },
         {
           "key": "D",
-          "text": "-58"
+          "text": "$-58$"
         }
       ],
-      "content": "补码 1011 1011 对应的真值是( )\n"
+      "content": "补码 `1011 1011` 对应的真值是( )"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0000 0101"
+          "text": "`0000 0101`"
         },
         {
           "key": "B",
-          "text": "1000 0101"
+          "text": "`1000 0101`"
         },
         {
           "key": "C",
-          "text": "0000 0101 或 1000 0101"
+          "text": "`0000 0101` 或 `1000 0101`"
         },
         {
           "key": "D",
           "text": "算术右移后结果取决于符号位"
         }
       ],
-      "content": "若X的8位补码为 0000 1010，则 X/2 的补码是（ ）。\n"
+      "content": "若 $X$ 的 $8$ 位补码为 `0000 1010`，则 $X/2$ 的补码是（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "13.625"
+          "text": "$13.625$"
         },
         {
           "key": "B",
-          "text": "12.75"
+          "text": "$12.75$"
         },
         {
           "key": "C",
-          "text": "11.875"
+          "text": "$11.875$"
         },
         {
           "key": "D",
-          "text": "14.5"
+          "text": "$14.5$"
         }
       ],
-      "content": "二进制数 1101.101 对应的十进制数是( )\n"
+      "content": "二进制数 $1101.101$ 对应的十进制数是( )"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "结果符号位错误"
         }
       ],
-      "content": "补码加法中，若符号位无进位⽽次高位有进位，则说 明（）\n"
+      "content": "补码加法中，若符号位无进位而次高位有进位，则说明（）"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "29.75"
+          "text": "$29.75$"
         },
         {
           "key": "B",
-          "text": "28.5"
+          "text": "$28.5$"
         },
         {
           "key": "C",
-          "text": "27.625"
+          "text": "$27.625$"
         },
         {
           "key": "D",
-          "text": "30.25"
+          "text": "$30.25$"
         }
       ],
-      "content": "八进制数 35.6 对应的十进制数是( )\n"
+      "content": "八进制数 $35.6$ 对应的十进制数是( )"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1000"
+          "text": "`1000`"
         },
         {
           "key": "B",
-          "text": "1110"
+          "text": "`1110`"
         },
         {
           "key": "C",
-          "text": "1010"
+          "text": "`1010`"
         },
         {
           "key": "D",
-          "text": "1100"
+          "text": "`1100`"
         }
       ],
-      "content": "二进制数 1010 | 1100 的结果是（ ）\n"
+      "content": "二进制数 `1010 | 1100` 的结果是（ ）"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a = a ^ b; b = a ^ b; a = a ^ b;"
+          "text": "`a = a ^ b; b = a ^ b; a = a ^ b;`"
         },
         {
           "key": "B",
-          "text": "a = a & b; b = a | b; a = a & b;"
+          "text": "`a = a & b; b = a | b; a = a & b;`"
         },
         {
           "key": "C",
-          "text": "a = a | b; b = a ^ b; a = a ^ b;"
+          "text": "`a = a | b; b = a ^ b; a = a ^ b;`"
         },
         {
           "key": "D",
-          "text": "a = ~a; b = ~b; a = ~a;"
+          "text": "`a = ~a; b = ~b; a = ~a;`"
         }
       ],
-      "content": "以下哪个位运算可以交换两个变量的值（无需临时变量）( )\n"
+      "content": "以下哪个位运算可以交换两个变量的值（无需临时变量）( )"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int array = new int[5];"
+          "text": "`int array = new int[5];`"
         },
         {
           "key": "B",
-          "text": "array int[5];"
+          "text": "`array int[5];`"
         },
         {
           "key": "C",
-          "text": "int[] array = {1,2,3,4,5};"
+          "text": "`int[] array = {1,2,3,4,5};`"
         },
         {
           "key": "D",
-          "text": "int array[5];"
+          "text": "`int array[5];`"
         }
       ],
-      "content": "如何正确定义一个长度为5的整型数组( )\n"
+      "content": "如何正确定义一个长度为 $5$ 的整型数组( )"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int b = (i / 10) / 10;"
+          "text": "`int b = (i / 10) / 10;`"
         },
         {
           "key": "B",
-          "text": "int b = (i / 10) % 10;"
+          "text": "`int b = (i / 10) % 10;`"
         },
         {
           "key": "C",
-          "text": "int b = (i % 10) / 10;"
+          "text": "`int b = (i % 10) / 10;`"
         },
         {
           "key": "D",
-          "text": "int b = (i % 10) % 10;"
+          "text": "`int b = (i % 10) % 10;`"
         }
       ],
-      "content": "以下程序使用枚举法（穷举法）求解满足条件的三位数，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int count = 0;\n    for (int i = 100; i <= 999; i++) {\n        int a = i / 100;\n        ————————————————————\n        int c = i % 10;\n        if (a * a + b * b == c * c) {\n            count++;\n        }\n    }\n    cout << count << endl;\n    return 0;\n}\n```\n"
+      "content": "以下程序使用枚举法（穷举法）求解满足条件的三位数，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int count = 0;\n    for (int i = 100; i <= 999; i++) {\n        int a = i / 100;\n        ————————————————————\n        int c = i % 10;\n        if (a * a + b * b == c * c) {\n            count++;\n        }\n    }\n    cout << count << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "distance += height/2;"
+          "text": "`distance += height/2;`"
         },
         {
           "key": "B",
-          "text": "distance += height;"
+          "text": "`distance += height;`"
         },
         {
           "key": "C",
-          "text": "distance += height*2;"
+          "text": "`distance += height*2;`"
         },
         {
           "key": "D",
-          "text": "distance += height+1;"
+          "text": "`distance += height+1;`"
         }
       ],
-      "content": "以下程序模拟了一个简单的小球反弹过程，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int height = 10;\n    int distance = 0;\n    for (int i = 1; i <= 5; i++) { // 模拟5次落地\n        ——————————————————————\n        height /= 2;\n        distance += height;\n    }\n    cout << distance << endl;\n    return 0;\n}\n```\n"
+      "content": "以下程序模拟了一个简单的小球反弹过程，横线处应该填入的是（）\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int height = 10;\n    int distance = 0;\n    for (int i = 1; i <= 5; i++) { // 模拟5次落地\n        ——————————————————————\n        height /= 2;\n        distance += height;\n    }\n    cout << distance << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "8或10"
+          "text": "$8$ 或 $10$"
         },
         {
           "key": "D",
           "text": "取决于计算机采用什么编码"
         }
       ],
-      "content": "C++代码string s = \"GESP考试\";，s占据的字节数是（）\n"
+      "content": "C++ 代码 `string s = \"GESP考试\";`，$s$ 占据的字节数是（ ）"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "3"
+          "text": "$3$"
         }
       ],
-      "content": "C++语句string s=\"Gesp Test\";执行s.rfind(\"e\")以后,输出的是（）\n"
+      "content": "C++ 语句 `string s = \"Gesp Test\";` 执行 `s.rfind(\"e\")` 以后，输出的是（ ）"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "D",
           "text": "字符数多少取决于编码"
         }
       ],
-      "content": "字符串\"Gesp考试\",字符数是（ ）\n"
+      "content": "字符串 \"Gesp考试\"，字符数是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "C++中string的==运算符比较的是字符串的内存地址，⽽非内容\n"
+      "content": "C++ 中 `string` 的 `==` 运算符比较的是字符串的内存地址，而非内容"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "string的substr(1, 3)返回从下标1开始的3个字符的⼦串。\n"
+      "content": "`string` 的 `substr(1, 3)` 返回从下标 $1$ 开始的 $3$ 个字符的子串。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "x是浮点数，(x >> 1) 等价于 x / 2\n"
+      "content": "$x$ 是浮点数，`(x >> 1)` 等价于 `x / 2`"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "string(\"hello\") == \"hello\" 的比较结果为true。\n"
+      "content": "`string(\"hello\") == \"hello\"` 的比较结果为 `true`。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "sort可以直接用于排序set中的元素。\n"
+      "content": "`sort` 可以直接用于排序 `set` 中的元素。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "(x & 1) == 0 可以判断整数x是否为偶数。\n"
+      "content": "`(x & 1) == 0` 可以判断整数 $x$ 是否为偶数。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "string的substr(2, 10)在字符串长度不足时会抛出异常。\n"
+      "content": "`string` 的 `substr(2, 10)` 在字符串长度不足时会抛出异常。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "在数学纸面计算中，pow(2, 3)的计算结果一定是8，但是在C++中，如果遇到数据类型是浮点数，那就不\n一定正确。\n"
+      "content": "在数学纸面计算中，`pow(2, 3)` 的计算结果一定是 $8$，但是在 C++ 中，如果遇到数据类型是浮点数，那就不一定正确。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "在 C++ 中，枚举的底层类型可以是非整型（如 float 或 double）。\n"
+      "content": "在 C++ 中，枚举的底层类型可以是非整型（如 `float` 或 `double`）。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "函数声明 double f(); 返回 int 时，会自动转换为 double\n"
+      "content": "函数声明 `double f();` 返回 `int` 时，会自动转换为 `double`"
     },
     {
       "type": "program",

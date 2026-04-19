@@ -318,7 +318,7 @@
             </h2>
             {% for q in choice_questions %}
             {% set ns.uid = ns.uid + 1 %}
-            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3 mb-4">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
@@ -348,7 +348,7 @@
             </h2>
             {% for q in judge_questions %}
             {% set ns.uid = ns.uid + 1 %}
-            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3 mb-4">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
@@ -377,7 +377,7 @@
             </h2>
             {% for q in fill_questions %}
             {% set ns.uid = ns.uid + 1 %}
-            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3 mb-4">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
@@ -408,7 +408,7 @@
             </h2>
             {% for q in program_questions %}
             {% set ns.uid = ns.uid + 1 %}
-            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="program" data-answer="None" data-score="0" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="program" data-enc="" data-eid="{{ q.id }}" data-score="0" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3">
                     <span class="shrink-0 w-7 h-7 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-500">{{ q.id }}</span>
                     <div class="flex-1">
@@ -473,7 +473,7 @@
             {# ===== 单项选择题：普通模式（每题独立）===== #}
             {% for q in section_qs %}
             {% set ns.uid = ns.uid + 1 %}
-            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3 mb-4">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
@@ -520,7 +520,7 @@
 
                 {# 渲染第一个子题（大题头部的题）#}
                 {% if is_judge_style %}
-                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                     <div class="flex items-start gap-3">
                         <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                         <div class="flex-1">
@@ -538,7 +538,7 @@
                     </div>
                 </div>
                 {% else %}
-                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower if q.type == 'judge' else q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                     <div class="flex items-start gap-3">
                         <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                         <div class="flex-1">
@@ -561,7 +561,7 @@
             {% else %}
             {# ===== 后续子题：只显示问题文字和选项（无代码）===== #}
             {% if is_judge_style %}
-            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-answer="{{ q.answer|lower }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="judge" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="flex-1">
@@ -579,7 +579,7 @@
                 </div>
             </div>
             {% else %}
-            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-answer="{{ q.answer|lower if q.type == 'judge' else q.answer }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+            <div class="question-card p-5" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
                     <div class="flex-1">
@@ -690,8 +690,76 @@
         let timerInterval = null;
         let remainingSeconds = TIME_LIMIT * 60;
 
+        // ===== 答案加密/解密 =====
+        const XOR_KEY = "GESP-CSP-NCT-2026EXAM";  // 20 字符，与 build.py 一致
+
+        function decryptAnswer(enc, qid) {
+            /* 逆向 build.py 的 encrypt_answer：
+               1. Base64 解码
+               2. 每个字节减偏移 (qid % 7)
+               3. 与 XOR_KEY[(qid + i) % len] 异或
+               4. 转回字符串 */
+            if (!enc) return '';
+            try {
+                const raw = atob(enc);
+                const keyLen = XOR_KEY.length;
+                const offset = qid % 7;
+                let result = '';
+                for (let i = 0; i < raw.length; i++) {
+                    const shifted = raw.charCodeAt(i);
+                    const xored = shifted - offset;
+                    const orig = xored ^ XOR_KEY.charCodeAt((qid + i) % keyLen);
+                    result += String.fromCharCode(orig);
+                }
+                return result;
+            } catch (e) {
+                return '';
+            }
+        }
+
+        // ===== 答案安全存储（随机会话密钥加密） =====
+        let sessionKey = null;       // Uint8Array(16)，随机会话密钥
+        let encryptedAnswers = {};   // uid → XOR 加密后的 hex 字符串
+
+        function sessionXorEncrypt(text, key) {
+            /* 用会话密钥对明文做 XOR，返回 hex 字符串 */
+            const encoder = new TextEncoder();
+            const data = encoder.encode(text);
+            let hex = '';
+            for (let i = 0; i < data.length; i++) {
+                hex += (data[i] ^ key[i % key.length]).toString(16).padStart(2, '0');
+            }
+            return hex;
+        }
+
+        function sessionXorDecrypt(hex, key) {
+            /* 用会话密钥解密 hex 字符串，返回明文 */
+            const bytes = [];
+            for (let i = 0; i < hex.length; i += 2) {
+                bytes.push(parseInt(hex.substr(i, 2), 16) ^ key[(i / 2) % key.length]);
+            }
+            return new TextDecoder().decode(new Uint8Array(bytes));
+        }
+
         // ===== 初始化 =====
         document.addEventListener('DOMContentLoaded', () => {
+            // 生成随机会话密钥
+            sessionKey = crypto.getRandomValues(new Uint8Array(16));
+
+            // 读取 DOM 中的加密答案 → 解密 → 用会话密钥加密存内存 → 删除 DOM 属性
+            document.querySelectorAll('[data-enc]').forEach(el => {
+                const uid = parseInt(el.dataset.uid);
+                const qid = parseInt(el.dataset.eid);
+                const enc = el.dataset.enc;
+                if (enc) {
+                    const plain = decryptAnswer(enc, qid);
+                    encryptedAnswers[uid] = sessionXorEncrypt(plain, sessionKey);
+                }
+                // 从 DOM 删除加密属性
+                el.removeAttribute('data-enc');
+                el.removeAttribute('data-eid');
+            });
+
             loadBestScore();
             loadAnswers();  // 从 localStorage 恢复之前的答案
             startTimer();
@@ -794,12 +862,16 @@
                 const uid = parseInt(card.dataset.uid);
                 const qid = parseInt(card.dataset.qid);
                 const type = card.dataset.type;
-                const correctAnswer = card.dataset.answer;
                 const score = parseInt(card.dataset.score);
                 const userAnswer = (userAnswers[uid] || '').trim();
 
                 // 编程操作题不参与评分
                 if (type === 'program') return;
+
+                // 从内存中解密正确答案
+                const correctAnswer = encryptedAnswers[uid]
+                    ? sessionXorDecrypt(encryptedAnswers[uid], sessionKey)
+                    : '';
 
                 const hintEl = card.querySelector('.answer-hint');
                 hintEl.classList.remove('hidden');

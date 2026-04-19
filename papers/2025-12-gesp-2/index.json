@@ -30,7 +30,7 @@
           "text": "输出设备"
         }
       ],
-      "content": "近⽇，空中客车公司表⽰，约6000架空客A320系列飞机需要紧急更换一种易受太阳辐射影响的飞行控制软\n件。空客表⽰，在对一起飞行事故分析后的结果显⽰，强烈的太阳辐射可能会损坏飞行控制系统所需的关键数据，\n导致判断失误，进⽽引发飞行异常。那这里的飞行控制系统执行判断的部件最可能是下面的( )。\n"
+      "content": "近⽇，空中客车公司表⽰，约 $6000$ 架空客 A320 系列飞机需要紧急更换一种易受太阳辐射影响的飞行控制软件。空客表⽰，在对一起飞行事故分析后的结果显⽰，强烈的太阳辐射可能会损坏飞行控制系统所需的关键数据，导致判断失误，进⽽引发飞行异常。那这里的飞行控制系统执行判断的部件最可能是下面的( )。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "WAN"
         }
       ],
-      "content": "小明最近为了备考GESP，开始看B站上关于网络知识的视频。其中提到计算机网络系统有不同的划分标准，\n那他平时上学所在的教学楼内的网络是一个（ ）。\n"
+      "content": "小明最近为了备考 GESP，开始看 B 站上关于网络知识的视频。其中提到计算机网络系统有不同的划分标准，那他平时上学所在的教学楼内的网络是一个（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "不可以用 for 作为变量名，因为 for 是C++的关键字（保留字）。"
+          "text": "不可以用 `for` 作为变量名，因为 `for` 是 C++ 的关键字（保留字）。"
         },
         {
           "key": "B",
-          "text": "_tnt 不可以是变量名，因为变量名的第一个字符必须是英文字母。"
+          "text": "`_tnt` 不可以是变量名，因为变量名的第一个字符必须是英文字母。"
         },
         {
           "key": "C",
-          "text": "_tnt_ 不可以是变量名，因为最后一个字符容易与减号混淆。"
+          "text": "`_tnt_` 不可以是变量名，因为最后一个字符容易与减号混淆。"
         },
         {
           "key": "D",
-          "text": "可以用 printf 作为变量名，因为 printf 是关键字，但这不是好习惯，因为 printf 有约定的功能与含\n义。\n"
+          "text": "可以用 `printf` 作为变量名，因为 `printf` 是关键字，但这不是好习惯，因为 `printf` 有约定的功能与含义。"
         }
       ],
-      "content": "下面有关C++变量的说法，正确的是( )。\n"
+      "content": "下面有关 C++ 变量的说法，正确的是( )。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "N % 3"
+          "text": "`N % 3`"
         },
         {
           "key": "B",
-          "text": "(N - 1) % 3"
+          "text": "`(N - 1) % 3`"
         },
         {
           "key": "C",
-          "text": "N / 3"
+          "text": "`N / 3`"
         },
         {
           "key": "D",
-          "text": "(N - 1) / 3"
+          "text": "`(N - 1) / 3`"
         }
       ],
-      "content": "一个小数是0.123123123……无限循环，其小数点后1位是1，后2位是2，依此类推，求第N位的值。横线处应\n填入的代码是( )。\n\n```cpp\nint N;\ncin >> N;\nremainder = ______________;\nif (remainder == 0)\ncout << 1;\nelse if (remainder == 1)\ncout << 2;\nelse\ncout << 3;\n```\n"
+      "content": "一个小数是 $0.123123123\\ldots$ 无限循环，其小数点后第 $1$ 位是 $1$，第 $2$ 位是 $2$，依此类推，求第 $N$ 位的值。横线处应填入的代码是( )。\n\n```cpp\nint N;\ncin >> N;\nremainder = ______________;\nif (remainder == 0)\n    cout << 1;\nelse if (remainder == 1)\n    cout << 2;\nelse\n    cout << 3;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "C++中整数和浮点数相加时，整数会被转换为浮点数，⽽某些十进制小数无法精确表⽰为二进制小数，从⽽\n产生某些舍入误差。\n"
+          "text": "C++ 中整数和浮点数相加时，整数会被转换为浮点数，而某些十进制小数无法精确表示为二进制小数，从而产生某些舍入误差。"
         },
         {
           "key": "B",
-          "text": "C++的 printf 函数在输出浮点数时根据格式有默认小数点位数，因此输出了较少的位数。"
+          "text": "C++ 的 `printf` 函数在输出浮点数时根据格式有默认小数点位数，因此输出了较少的位数。"
         },
         {
           "key": "C",
-          "text": "3.1415926535 是一个无限循环小数，在计算机中无法精确表⽰。"
+          "text": "$3.1415926535$ 是一个无限循环小数，在计算机中无法精确表示。"
         },
         {
           "key": "D",
-          "text": "由于计算机CPU的运算错误导致。"
+          "text": "由于计算机 CPU 的运算错误导致。"
         }
       ],
-      "content": "某同学执行C++代码时 printf(\"%g\\n\", (3 + 3.1415926535)); 输出 6.14159，其原因最可能是(\n)。\n"
+      "content": "某同学执行 C++ 代码时 `printf(\"%g\\n\", (3 + 3.1415926535));` 输出 $6.14159$，其原因最可能是( )。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nN % 3\nrst / 10\n```\n"
+          "text": "```cpp\nN % 3\nrst / 10\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nN % 3\nrst % 10\n```\n"
+          "text": "```cpp\nN % 3\nrst % 10\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nN / 3\nrst / 10\n```\n"
+          "text": "```cpp\nN / 3\nrst / 10\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nN / 3\nrst % 10\n```\n"
+          "text": "```cpp\nN / 3\nrst % 10\n```"
         }
       ],
-      "content": "某单位⼯号的编码规则：编码总长5位，均为数字，前4位依次整除以3其值累加之和除以10的余数为第5位数\n字。如某⼯号为76587，前4位分别整除以3后，商分别为2、2、1、2，其累加之和为7，除以10的余数为7，故第5位\n为7。下面代码依次输入前4位后，两个横线处分别应填的是( )。\n\n```cpp\nint rst = 0, N;\nfor (int i = 0; i < 4; i++){\n    cin >> N;\n    rst += ___________; // L1\n}\ncout << ___________; // L2\n```\n"
+      "content": "某单位工号的编码规则：编码总长 $5$ 位，均为数字，前 $4$ 位依次整除以 $3$ 其值累加之和除以 $10$ 的余数为第 $5$ 位数字。如某工号为 $76587$，前 $4$ 位分别整除以 $3$ 后，商分别为 $2$、$2$、$1$、$2$，其累加之和为 $7$，除以 $10$ 的余数为 $7$，故第 $5$ 位为 $7$。下面代码依次输入前 $4$ 位后，两个横线处分别应填的是( )。\n\n```cpp\nint rst = 0, N;\nfor (int i = 0; i < 4; i++){\n    cin >> N;\n    rst += ___________; // L1\n}\ncout << ___________; // L2\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-1#1#"
+          "text": "`-1#1#`"
         },
         {
           "key": "B",
-          "text": "-1#0#1#"
+          "text": "`-1#0#1#`"
         },
         {
           "key": "C",
-          "text": "-2#-1#1#"
+          "text": "`-2#-1#1#`"
         },
         {
           "key": "D",
-          "text": "-2#-1#1#2#"
+          "text": "`-2#-1#1#2#`"
         }
       ],
-      "content": "下面的C++代码执行后的输出是( )。\n\n```cpp\nfor (int i = -2; i < 2; i++)\nif (i % 2)\nprintf(\"%d#\",i);\n```\n"
+      "content": "下面的 C++ 代码执行后的输出是( )。\n\n```cpp\nfor (int i = -2; i < 2; i++)\n    if (i % 2)\n        printf(\"%d#\", i);\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "100"
+          "text": "$100$"
         },
         {
           "key": "B",
-          "text": "55"
+          "text": "$55$"
         },
         {
           "key": "C",
-          "text": "45"
+          "text": "$45$"
         },
         {
           "key": "D",
-          "text": "25"
+          "text": "$25$"
         }
       ],
-      "content": "下面的C++代码执行后其输出是( )。\n\n```cpp\nint cnt = 0, N;\nfor (int i =1; i < 10; i += 2)\nfor (int j =0; j < i; j++)\ncnt += 1;\ncout << cnt;\n```\n"
+      "content": "下面的 C++ 代码执行后其输出是( )。\n\n```cpp\nint cnt = 0, N;\nfor (int i = 1; i < 10; i += 2)\n    for (int j = 0; j < i; j++)\n        cnt += 1;\ncout << cnt;\n```"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "0 11"
         }
       ],
-      "content": "下面C++代码执行后其输出是( )。\n\n```cpp\nint i,j;\nfor (i = 1; i < 12; i++){\n    if (i % 2 == 0)\n    continue;\n    for (j = 0; j < i; j++)\n    if (i * j % 2 == 0)\n    break;\n    if(j >= i)\n    cout << i * j << \" \";\n}\nif(i >= 12)\ncout << (i * j);\n```\n"
+      "content": "下面 C++ 代码执行后其输出是( )。\n\n```cpp\nint i,j;\nfor (i = 1; i < 12; i++){\n    if (i % 2 == 0)\n        continue;\n    for (j = 0; j < i; j++)\n        if (i * j % 2 == 0)\n            break;\n    if(j >= i)\n        cout << i * j << \" \";\n}\nif(i >= 12)\n    cout << (i * j);\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nint i = 0;\nwhile (i < 10){\n    cout << i;\n    i += 1;\n}\n```\n"
+          "text": "```cpp\nint i = 0;\nwhile (i < 10){\n    cout << i;\n    i += 1;\n}\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nint i = 0;\nwhile (i < 10){\n    i += 1;\n    cout << i;\n}\n```\n"
+          "text": "```cpp\nint i = 0;\nwhile (i < 10){\n    i += 1;\n    cout << i;\n}\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nint i = 0;\nwhile (true){\n    cout << i;\n    i += 1;\n    if (i >= 10)\n    break;\n}\n```\n"
+          "text": "```cpp\nint i = 0;\nwhile (true){\n    cout << i;\n    i += 1;\n    if (i >= 10)\n        break;\n}\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nint i = 0;\nwhile (true){\n    if (i >= 10)\n    break;\n    cout << i;\n    i += 1;\n}\n```\n"
+          "text": "```cpp\nint i = 0;\nwhile (true){\n    if (i >= 10)\n        break;\n    cout << i;\n    i += 1;\n}\n```"
         }
       ],
-      "content": "与下面C++输出效果不一致的代码是( )。\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++)\ncout << i;\n```\n"
+      "content": "与下面 C++ 输出效果不一致的代码是( )。\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++)\n    cout << i;\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3#6#"
+          "text": "`3#6#`"
         },
         {
           "key": "B",
-          "text": "3#6#6"
+          "text": "`3#6#6`"
         },
         {
           "key": "C",
-          "text": "1#2#3#4#5#6#"
+          "text": "`1#2#3#4#5#6#`"
         },
         {
           "key": "D",
-          "text": "1#2#3#4#5#6#6"
+          "text": "`1#2#3#4#5#6#6`"
         }
       ],
-      "content": "下面C++代码执行后输出是（ ）。\n\n```cpp\nint num = 0;\nwhile (num <= 5){\n    num += 1;\n    if (num % 3)\n    continue;\n    printf(\"%d#\",num);\n}\nif(num > 5)\nprintf(\"%d\", num);\n```\n"
+      "content": "下面 C++ 代码执行后输出是（ ）。\n\n```cpp\nint num = 0;\nwhile (num <= 5){\n    num += 1;\n    if (num % 3)\n        continue;\n    printf(\"%d#\",num);\n}\nif(num > 5)\n    printf(\"%d\", num);\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "B",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "C",
-          "text": "14"
+          "text": "$14$"
         },
         {
           "key": "D",
-          "text": "20"
+          "text": "$20$"
         }
       ],
-      "content": "下面C++代码执行后，其输出是（ ）。\n\n```cpp\nint cnt = 0;\nfor (int i = 0; i <5; i++)\nfor (int j =i; j < 4; j++)\ncnt += 1;\ncout << cnt;\n```\n"
+      "content": "下面 C++ 代码执行后，其输出是（ ）。\n\n```cpp\nint cnt = 0;\nfor (int i = 0; i < 5; i++)\n    for (int j = i; j < 4; j++)\n        cnt += 1;\ncout << cnt;\n```"
     },
     {
       "type": "choice",
@@ -319,18 +319,18 @@
         },
         {
           "key": "B",
-          "text": "在while循环中N最终将变成0，因此L1行代码中N % M将总是满足条件，可以在while前增加一行代码\nint old_num = N;，并将L1开始这4行代码中的N都改为old_num就可以做出正确的判定。\n"
+          "text": "在 `while` 循环中 $N$ 最终将变成 $0$，因此 L1 行代码中 `N % M` 将总是满足条件，可以在 `while` 前增加一行代码 `int old_num = N;`，并将 L1 开始这 $4$ 行代码中的 $N$ 都改为 `old_num` 就可以做出正确的判定。"
         },
         {
           "key": "C",
-          "text": "while 循环中 if 判断语句可以增加 else ⼦句，其内容为 Flag = 0。"
+          "text": "`while` 循环中 `if` 判断语句可以增加 `else` 子句，其内容为 `Flag = 0`。"
         },
         {
           "key": "D",
-          "text": "如果先后输入 0 和 3，则肯定会输出 0是3的完整漂亮数。"
+          "text": "如果先后输入 $0$ 和 $3$，则肯定会输出 $0$ 是 $3$ 的完整漂亮数。"
         }
       ],
-      "content": "漂亮数的定义是：如果N能被M整除，或者某位是M，或者N的每位数之和能被M整除，则说N是M的漂亮\n数。如果三个条件都满足，则是完整漂亮数。123是3的完整漂亮数，因为123能被3整除，也含有3，其每位数之和\n为6也能被3整除。下面的代码用于判断N是否为M的完整漂亮数并输出。相关说法正确的是（ ）。\n\n```cpp\nint N, M, Flag, Sum, num;\ncout << \"请输入N，不等于0的正整数：\";\ncin >> N;\ncout << \"请输入M：M必须大于1小于9：\";\ncin >> M;\nSum = 0; // 记录各位数之和\nFlag = 0; // 假设记录N不含有M\nwhile (N != 0){\n    num = N % 10;\n    Sum += num;\n    if (num == M)\n    Flag = 1;\n    N /= 10;\n}\nif ((N % M == 0) && (Flag == 1) && (Sum % M == 0)) // L1\nprintf(\"%d 是 %d 的完整漂亮数\", N, M);\nelse\nprintf(\"%d 不是 %d 的完整漂亮数\", N, M);\n```\n"
+      "content": "漂亮数的定义是：如果 $N$ 能被 $M$ 整除，或者某位是 $M$，或者 $N$ 的每位数之和能被 $M$ 整除，则说 $N$ 是 $M$ 的漂亮数。如果三个条件都满足，则是完整漂亮数。$123$ 是 $3$ 的完整漂亮数，因为 $123$ 能被 $3$ 整除，也含有 $3$，其每位数之和为 $6$ 也能被 $3$ 整除。下面的代码用于判断 $N$ 是否为 $M$ 的完整漂亮数并输出。相关说法正确的是（ ）。\n\n```cpp\nint N, M, Flag, Sum, num;\ncout << \"请输入N，不等于0的正整数：\";\ncin >> N;\ncout << \"请输入M：M必须大于1小于9：\";\ncin >> M;\nSum = 0; // 记录各位数之和\nFlag = 0; // 假设记录N不含有M\nwhile (N != 0){\n    num = N % 10;\n    Sum += num;\n    if (num == M)\n        Flag = 1;\n    N /= 10;\n}\nif ((N % M == 0) && (Flag == 1) && (Sum % M == 0)) // L1\n    printf(\"%d 是 %d 的完整漂亮数\", N, M);\nelse\n    printf(\"%d 不是 %d 的完整漂亮数\", N, M);\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\n*****\n****\n***\n**\n*\n```\n"
+          "text": "```cpp\n*****\n****\n***\n**\n*\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\n*\n***\n*****\n*******\n*********\n```\n"
+          "text": "```cpp\n*\n***\n*****\n*******\n*********\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\n*\n**\n***\n****\n*****\n```\n"
+          "text": "```cpp\n*\n**\n***\n****\n*****\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\n*\n**\n***\n****\n*****\n```\n"
+          "text": "```cpp\n*\n**\n***\n****\n*****\n```"
         }
       ],
-      "content": "阅读下面的C++代码。执行后如输入 5，其输出的字符图形是（ ）。\n\n```cpp\nint n,i,j,k;\ncin >> n;\nfor (i = 0; i < n; i++){\n    for (j = 0; j < n-i-1; j++)\n    cout << \" \";\n    for (k = 0; k < 2*i+1; k++)\n    cout << \"*\";\n    cout << endl;\n}\n```\n"
+      "content": "阅读下面的 C++ 代码。执行后如输入 $5$，其输出的字符图形是（ ）。\n\n```cpp\nint n,i,j,k;\ncin >> n;\nfor (i = 0; i < n; i++){\n    for (j = 0; j < n-i-1; j++)\n        cout << \" \";\n    for (k = 0; k < 2*i+1; k++)\n        cout << \"*\";\n    cout << endl;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "程序总体逻辑错误。因为要去掉最高分和最低分，需要排序，⽽程序没有相关代码。"
+          "text": "程序总体逻辑错误。因为要去掉最高分和最低分，需要排序，而程序没有相关代码。"
         },
         {
           "key": "B",
-          "text": "内层循环和外层循环之间的三行代码也就是 max_score = 0 开始的三行代码应该移动到外层循环外。"
+          "text": "内层循环和外层循环之间的三行代码也就是 `max_score = 0` 开始的三行代码应该移动到外层循环外。"
         },
         {
           "key": "C",
-          "text": "L1和L2标记的两行代码可以分别改为简单的 if 语句或 ? : 语句。"
+          "text": "`L1` 和 `L2` 标记的两行代码可以分别改为简单的 `if` 语句或 `? :` 语句。"
         },
         {
           "key": "D",
-          "text": "total_score += now_score 不可以更改为 total_score = total_score + now_score。"
+          "text": "`total_score += now_score` 不可以更改为 `total_score = total_score + now_score`。"
         }
       ],
-      "content": "某学校举办“十佳歌手大奖赛”，经过选拔最终参赛选手有25⼈，评委10⼈，最终计分规则去掉一个最高分\n去掉一个最低分作为该参赛选手的最终得分，并输出该得分。如果单个评委可给满分为10分，则相关说法正确的是\n（ ）。\n\n```cpp\nfloat total_score, max_score, min_score, now_score;\nfor (int i = 0; i < 25; i++){\n    max_score = 0; // 记录最高分\n    min_score = 10; // 记录最低分\n    total_score = 0; // 记录总分\n    for (int j = 0; j < 10; j++){\n        cin >> now_score; // 录入评委打分\n        max_score = max(max_score, now_score); // L1\n        min_score = min(min_score, now_score); // L2\n        total_score += now_score;\n    }\n    cout << (total_score - max_score - min_score);\n}\n```\n"
+      "content": "某学校举办“十佳歌手大奖赛”，经过选拔最终参赛选手有 $25$ 人，评委 $10$ 人，最终计分规则去掉一个最高分去掉一个最低分作为该参赛选手的最终得分，并输出该得分。如果单个评委可给满分为 $10$ 分，则相关说法正确的是（ ）。\n\n```cpp\nfloat total_score, max_score, min_score, now_score;\nfor (int i = 0; i < 25; i++){\n    max_score = 0; // 记录最高分\n    min_score = 10; // 记录最低分\n    total_score = 0; // 记录总分\n    for (int j = 0; j < 10; j++){\n        cin >> now_score; // 录入评委打分\n        max_score = max(max_score, now_score); // L1\n        min_score = min(min_score, now_score); // L2\n        total_score += now_score;\n    }\n    cout << (total_score - max_score - min_score);\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "鸿蒙是华为公司开发的一款操作系统，那么它能够将正确的源程序翻译成目标程序，并运行。（ ）\n"
+      "content": "鸿蒙是华为公司开发的一款操作系统，那么它能够将正确的源程序翻译成目标程序，并运行。（ ）"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "C++表达式 5 < 10 && 20 对应的逻辑值为 true。( )\n"
+      "content": "C++ 表达式 `5 < 10 && 20` 对应的逻辑值为 `true`。( )"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "C++表达式 10 / 0.333333 == 10 / (1 / 3) 的值为 true。（ ）\n"
+      "content": "C++ 表达式 `10 / 0.333333 == 10 / (1 / 3)` 的值为 `true`。（ ）"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "下面C++代码中N是整数，执行时无论输入负整数、0或正整数，其输出都将是 0。 ( )\n\n```cpp\ncin >> N;\nwhile (N)\nN /= 10;\ncout << N;\n```\n"
+      "content": "下面 C++ 代码中 $N$ 是整数，执行时无论输入负整数、$0$ 或正整数，其输出都将是 $0$。 ( )\n\n```cpp\ncin >> N;\nwhile (N)\n    N /= 10;\ncout << N;\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "下面的C++代码执行后，其输出是 4 0。（ ）\n\n```cpp\nint a,b;\na = 4;\nb = a == 5;\ncout << a << ' ' << b;\n```\n"
+      "content": "下面的 C++ 代码执行后，其输出是 $4$ $0$。（ ）\n\n```cpp\nint a,b;\na = 4;\nb = a == 5;\ncout << a << ' ' << b;\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "C++代码中对表达式 ('Z' - 'A') < ('z' - 'A') 的结果输出为 0。( )\n"
+      "content": "C++ 代码中对表达式 `('Z' - 'A') < ('z' - 'A')` 的结果输出为 $0$。( )"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "下面的C++代码可以用于判断正整数N的位数（即几位数，如123是3位数，12为2位数）。( )\n\n```cpp\nint N, N10, i;\ncin >> N;\nN10 = 10, i = 1;\nwhile (1) {\n    if (N % N10 == N) {\n        printf(\"%d 是 %d 位数\", N, i);\n        break;\n    }\n    i++, N10 *= 10;\n}\n```\n"
+      "content": "下面的 C++ 代码可以用于判断正整数 $N$ 的位数（即几位数，如 $123$ 是 $3$ 位数，$12$ 为 $2$ 位数）。( )\n\n```cpp\nint N, N10, i;\ncin >> N;\nN10 = 10, i = 1;\nwhile (1) {\n    if (N % N10 == N) {\n        printf(\"%d 是 %d 位数\", N, i);\n        break;\n    }\n    i++, N10 *= 10;\n}\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "计算交叉加减的结果，形如 1-2+3-4+5-…… 。下面C++代码中的变量都是整型，则将 Flag = -Flag 改为\nFlag -= Flag 效果相同。（ ）\n\n```cpp\ncin >> N;\nFlag = -1;\ntnt = 0;\nfor (i = 1; i < N + 1; i++) {\n    Flag = -Flag;\n    tnt += Flag * i;\n}\ncout << tnt;\n```\n"
+      "content": "计算交叉加减的结果，形如 $1-2+3-4+5-\\dots$ 。下面 C++ 代码中的变量都是整型，则将 `Flag = -Flag` 改为 `Flag -= Flag` 效果相同。（ ）\n\n```cpp\ncin >> N;\nFlag = -1;\ntnt = 0;\nfor (i = 1; i < N + 1; i++) {\n    Flag = -Flag;\n    tnt += Flag * i;\n}\ncout << tnt;\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "下列C++代码段执行后将输出 55。（ ）\n\n```cpp\nint cnt = 0;\nfor (i = 0; i < 10; i++)\nfor (j = i; j < 10; j++)\ncnt += 1;\ncout << cnt;\n```\n"
+      "content": "下列 C++ 代码段执行后将输出 $55$。（ ）\n\n```cpp\nint cnt = 0;\nfor (i = 0; i < 10; i++)\n    for (j = i; j < 10; j++)\n        cnt += 1;\ncout << cnt;\n```"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "下面C++代码执行后输出如下，因为代码 printf(\"\\n\") 没有任何可读内容，删除不影响输出效果。（\n）\n\n```cpp\n1 2 3 4 5 6 7 8 9\n2 4 6 8 10 12 14 16 18\n3 6 9 12 15 18 21 24 27\n4 8 12 16 20 24 28 32 36\n5 10 15 20 25 30 35 40 45\n6 12 18 24 30 36 42 48 54\n7 14 21 28 35 42 49 56 63\n8 16 24 32 40 48 56 64 72\n9 18 27 36 45 54 63 72 81\nfor (int i = 1; i < 10; i++) {\n    for(int j = 1; j < 10; j++)\n    printf(\"%3d\", i * j);\n    printf(\"\\n\");\n}\n```\n"
+      "content": "下面 C++ 代码执行后输出如下，因为代码 `printf(\"\\n\")` 没有任何可读内容，删除不影响输出效果。\n\n```cpp\n1 2 3 4 5 6 7 8 9\n2 4 6 8 10 12 14 16 18\n3 6 9 12 15 18 21 24 27\n4 8 12 16 20 24 28 32 36\n5 10 15 20 25 30 35 40 45\n6 12 18 24 30 36 42 48 54\n7 14 21 28 35 42 49 56 63\n8 16 24 32 40 48 56 64 72\n9 18 27 36 45 54 63 72 81\nfor (int i = 1; i < 10; i++) {\n    for (int j = 1; j < 10; j++)\n        printf(\"%3d\", i * j);\n    printf(\"\\n\");\n}\n```"
     },
     {
       "type": "program",

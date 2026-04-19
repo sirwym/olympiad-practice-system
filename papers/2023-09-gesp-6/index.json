@@ -30,7 +30,7 @@
           "text": "记录"
         }
       ],
-      "content": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那\n么它属于哪类设备？（ ）。\n"
+      "content": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那么它属于哪类设备？（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(a >> 3 == b)"
+          "text": "`(a >> 3 == b)`"
         },
         {
           "key": "B",
-          "text": "(a - b) % 3 == 0"
+          "text": "`(a - b) % 3 == 0`"
         },
         {
           "key": "C",
-          "text": "(a / b == 3)"
+          "text": "`(a / b == 3)`"
         },
         {
           "key": "D",
-          "text": "(a == 3 * b)"
+          "text": "`(a == 3 * b)`"
         }
       ],
-      "content": "如果a和b均为int类型的变量，且b的值不为0，那么下列能正确判断“ a是b的3倍”的表达式是（\n）。\n"
+      "content": "如果 $a$ 和 $b$ 均为 `int` 类型的变量，且 $b$ 的值不为 $0$，那么下列能正确判断“ $a$ 是 $b$ 的 $3$ 倍”的表达式是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "C"
         }
       ],
-      "content": "以下不属于面向对象程序设计语⾔的是（ ）。\n"
+      "content": "以下不属于面向对象程序设计语言的是（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "C++类实例化时，会执行构造函数。"
+          "text": "C++ 类实例化时，会执行构造函数。"
         },
         {
           "key": "B",
-          "text": "C++自定义类可以通过定义构造函数实现自动类型转换。"
+          "text": "C++ 自定义类可以通过定义构造函数实现自动类型转换。"
         },
         {
           "key": "C",
-          "text": "C++自定义类可以通过重载 >、< 等运算符实现大小比较。"
+          "text": "C++ 自定义类可以通过重载 `>`、`<` 等运算符实现大小比较。"
         },
         {
           "key": "D",
-          "text": "C++自定义类可以包含任意类型的成员。"
+          "text": "C++ 自定义类可以包含任意类型的成员。"
         }
       ],
-      "content": "下面有关C++类定义的说法，错误的是（ ）。\n"
+      "content": "下面有关 C++ 类定义的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "代码cout << st << endl;会报错，因为没有为 MyStr类重载 <<运算符。"
+          "text": "代码 `cout << st << endl;` 会报错，因为没有为 `MyStr` 类重载 `<<` 运算符。"
         },
         {
           "key": "B",
-          "text": "第6行代码的data是MyStr类的成员变量。"
+          "text": "第 $6$ 行代码的 `data` 是 `MyStr` 类的成员变量。"
         },
         {
           "key": "C",
-          "text": "代码MyStr st(\"ABC\");不会报错，将执行构造函数。"
+          "text": "代码 `MyStr st(\"ABC\");` 不会报错，将执行构造函数。"
         },
         {
           "key": "D",
-          "text": "代码 cout<< st.data <<endl; 可输出 ABC。"
+          "text": "代码 `cout << st.data << endl;` 可输出 `ABC`。"
         }
       ],
-      "content": "有关下面C++代码的说法，错误的是（ ）。\n"
+      "content": "有关下面 C++ 代码的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -140,7 +140,7 @@
       "options": [
         {
           "key": "A",
-          "text": "命名空间可以嵌套, 例如 namespace A { namespace B { int i;}}。"
+          "text": "命名空间可以嵌套，例如 `namespace A { namespace B { int i;}}`。"
         },
         {
           "key": "B",
@@ -152,10 +152,10 @@
         },
         {
           "key": "D",
-          "text": "如果程序中使用了using命令同时引用了多个命名空间，并且命名空间中存在相同的函数，会出现程序运行\n错误。\n"
+          "text": "如果程序中使用了 `using` 命令同时引用了多个命名空间，并且命名空间中存在相同的函数，会出现程序运行错误。"
         }
       ],
-      "content": "下列关于命名空间的说法错误的是（ ）。\n"
+      "content": "下列关于命名空间的说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -169,18 +169,18 @@
         },
         {
           "key": "B",
-          "text": "ManyData类可用于构造队列（Queue）数据结构。"
+          "text": "`ManyData` 类可用于构造队列（Queue）数据结构。"
         },
         {
           "key": "C",
-          "text": "在上面代码环境，代码cout<< myData.__data[0] << endl;可以增加到代码main函数末尾（return 0;\n之前），且不会导致报错。\n"
+          "text": "在上面代码环境，代码 `cout << myData.__data[0] << endl;` 可以增加到代码 `main` 函数末尾（`return 0;` 之前），且不会导致报错。"
         },
         {
           "key": "D",
-          "text": "可以为ManyData类的push()、pop()函数增加异常处理代码，否则在使用ManyData类时可能导致运行\n时错误或逻辑错误（不一定局限于上述代码中的 main函数）。\n"
+          "text": "可以为 `ManyData` 类的 `push()` 、 `pop()` 函数增加异常处理代码，否则在使用 `ManyData` 类时可能导致运行时错误或逻辑错误（不一定局限于上述代码中的 `main` 函数）。"
         }
       ],
-      "content": "有关下面C++代码的说法，正确的是（ ）。\n"
+      "content": "有关下面 C++ 代码的说法，正确的是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nclass ManyData {\n    int __data[10];\n    int __size;\npublic:\n    ManyData() : __size(0) {}\n    void push(int val) {\n        __data[__size] = val;\n        __size++;\n    }\n    int pop() {\n        __size--;\n        return __data[__size];\n    }\n    int size() { return __size; }\n};\n\nint main() {\n    ManyData myData;\n    myData.push(1);\n    myData.push(2);\n    myData.push(3);\n    cout << myData.pop() << endl;\n    cout << myData.pop() << endl;\n    cout << myData.pop() << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "MoreData类可用于构造队列（Queue）数据结构。"
+          "text": "`MoreData` 类可用于构造队列（Queue）数据结构。"
         },
         {
           "key": "B",
-          "text": "代码第29行，连续push()的用法将导致编译错误。"
+          "text": "代码第 $29$ 行，连续 `push()` 的用法将导致编译错误。"
         },
         {
           "key": "C",
-          "text": "__data是MoreData类的私有成员，只能在类内访问。"
+          "text": "`__data` 是 `MoreData` 类的私有成员，只能在类内访问。"
         },
         {
           "key": "D",
           "text": "以上说法均没有错误。"
         }
       ],
-      "content": "有关下面C++代码的说法，错误的是（ ）。\n"
+      "content": "有关下面 C++ 代码的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10010"
+          "text": "`10010`"
         },
         {
           "key": "B",
-          "text": "10011"
+          "text": "`10011`"
         },
         {
           "key": "C",
-          "text": "10111"
+          "text": "`10111`"
         },
         {
           "key": "D",
-          "text": "10001"
+          "text": "`10001`"
         }
       ],
-      "content": "某内容仅会出现ABCDEFG，其对应的出现概率为0.40、0.30、0.15、0.05、0.04、0.03、0.03，如下图所⽰。\n按照哈夫曼编码规则，假设B的编码为11，则D的编码为（ ）。\n"
+      "content": "某内容仅会出现 ABCDEFG，其对应的出现概率为 $0.40$ 、 $0.30$ 、 $0.15$ 、 $0.05$ 、 $0.04$ 、 $0.03$ 、 $0.03$ ，如下图所⽰。\n按照哈夫曼编码规则，假设 $B$ 的编码为 `11` ，则 $D$ 的编码为（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "格雷码是一种可靠性编码。"
         }
       ],
-      "content": "下面有关格雷码的说法，错误的是（ ）。\n"
+      "content": "下面有关格雷码的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -280,7 +280,7 @@
           "text": "以上说法都不正确。"
         }
       ],
-      "content": "有关下图的二叉树，说法正确的是（ ）。\n"
+      "content": "有关下图的二叉树，说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "个节点的二叉搜索树，其查找的平均时间复杂度为（ ）。\n"
+      "content": "$n$ 个节点的二叉搜索树，其查找的平均时间复杂度为（ ）。"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": "分治算法"
         }
       ],
-      "content": "青蛙每次能跳1或2步。下面是青蛙跳到第 N步台阶C++实现代码。该段代码采用的算法是（ ）。\n"
+      "content": "青蛙每次能跳 $1$ 或 $2$ 步。下面是青蛙跳到第 $N$ 步台阶 C++ 实现代码。该段代码采用的算法是（ ）。"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": ""
         }
       ],
-      "content": "个节点的双向循环链，在其中查找某个节点的平均时间复杂度是（ ）。\n"
+      "content": "$n$ 个节点的双向循环链，在其中查找某个节点的平均时间复杂度是（ ）。"
     },
     {
       "type": "choice",
@@ -365,7 +365,7 @@
       "options": [
         {
           "key": "A",
-          "text": "若对象被定义为常量，则它只能调用以const修饰的成员函数。"
+          "text": "若对象被定义为常量，则它只能调用以 `const` 修饰的成员函数。"
         },
         {
           "key": "B",
@@ -373,84 +373,84 @@
         },
         {
           "key": "C",
-          "text": "若类A的对象a是类B的静态成员变量，则a在main()函数调用之前应被初始化。"
+          "text": "若类 `A` 的对象 $a$ 是类 `B` 的静态成员变量，则 $a$ 在 `main()` 函数调用之前应被初始化。"
         },
         {
           "key": "D",
-          "text": "静态全局对象、常量全局对象都是在main函数调用之前完成初始化，执行完main函数后被析构。"
+          "text": "静态全局对象、常量全局对象都是在 `main` 函数调用之前完成初始化，执行完 `main` 函数后被析构。"
         }
       ],
-      "content": "关于C++语⾔，以下说法不正确的是（ ）。\n"
+      "content": "关于 C++ 语⾔，以下说法不正确的是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "TCP/IP的传输层的两个不同的协议分别是UDP和TCP。\n"
+      "content": "TCP/IP 的传输层的两个不同的协议分别是 UDP 和 TCP。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "5G网络中，5G中的G表⽰Gigabytes/s，其中 1 GB = 1024 MB。\n"
+      "content": "5G 网络中，5G 中的 G 表示 Gigabytes/s，其中 1 GB = 1024 MB。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "在面向对象中，类是对象的实例。\n"
+      "content": "在面向对象中，类是对象的实例。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "在C++类的定义中，使用static修饰符定义的静态成员被该类的所有对象共享。\n"
+      "content": "在 C++ 类的定义中，使用 `static` 修饰符定义的静态成员被该类的所有对象共享。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "在C++类的定义中，可以定义初始化函数或运算符函数等。\n"
+      "content": "在 C++ 类的定义中，可以定义初始化函数或运算符函数等。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "DFS是深度优先算法的英文简写。\n"
+      "content": "DFS 是深度优先算法的英文简写。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "哈夫曼编码是一种有损压缩算法。\n"
+      "content": "哈夫曼编码是一种有损压缩算法。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "有些算法或数据结构在C/C++语⾔中使用指针实现，一个典型的例⼦就是链表。因此，链表这一数据结构在\nC/C++语⾔中只能使用指针来实现。\n"
+      "content": "有些算法或数据结构在 C/C++ 语⾔中使用指针实现，一个典型的例⼦就是链表。因此，链表这一数据结构在 C/C++ 语⾔中只能使用指针来实现。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "如果节点数为 ，广度搜索算法的最差时间复杂度为 。\n"
+      "content": "如果节点数为 $n$，广度搜索算法的最差时间复杂度为 $O(n)$。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "二叉搜索树的左右⼦树也是二叉搜索树。\n"
+      "content": "二叉搜索树的左右⼦树也是二叉搜索树。"
     },
     {
       "type": "program",

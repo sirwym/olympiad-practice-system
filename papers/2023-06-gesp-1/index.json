@@ -30,7 +30,7 @@
           "text": "显示器"
         }
       ],
-      "content": "以下不属于计算机输出设备的有（ ）。\n"
+      "content": "以下不属于计算机输出设备的有（ ）。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "写代码"
         }
       ],
-      "content": "ChatGPT是OpenAI研发的聊天机器人程序，它能通过理解和学习人类的语言\n来进行对话，还能根据聊天的上下文进行互动，完成很多工作。请你猜猜看，下\n面任务中，ChatGPT不能完成的是（ ）。\n"
+      "content": "ChatGPT 是 OpenAI 研发的聊天机器人程序，它能通过理解和学习人类的语言来进行对话，还能根据聊天的上下文进行互动，完成很多工作。请你猜猜看，下面任务中，ChatGPT 不能完成的是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "double"
+          "text": "`double`"
         },
         {
           "key": "B",
-          "text": "float"
+          "text": "`float`"
         },
         {
           "key": "C",
-          "text": "char"
+          "text": "`char`"
         },
         {
           "key": "D",
-          "text": "int"
+          "text": "`int`"
         }
       ],
-      "content": "常量'3'的数据类型是（ ）。\n"
+      "content": "常量 `'3'` 的数据类型是（ ）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": "执行赋值语句后，变量的值可能不会变化"
         }
       ],
-      "content": "下列关于C++语言变量的叙述，正确的是（ ）。\n"
+      "content": "下列关于 C++ 语言变量的叙述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -127,10 +127,10 @@
         },
         {
           "key": "D",
-          "text": "break"
+          "text": "`break`"
         }
       ],
-      "content": "以下可以作为C++标识符的是（ ）。\n"
+      "content": "以下可以作为 C++ 标识符的是（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "double"
+          "text": "`double`"
         },
         {
           "key": "B",
-          "text": "else"
+          "text": "`else`"
         },
         {
           "key": "C",
-          "text": "while"
+          "text": "`while`"
         },
         {
           "key": "D",
-          "text": "endl"
+          "text": "`endl`"
         }
       ],
-      "content": "以下哪个不是C++语言的关键字？（ ）\n"
+      "content": "以下哪个不是 C++ 语言的关键字？（ ）"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a = (b == c);"
+          "text": "`a = (b == c);`"
         },
         {
           "key": "B",
-          "text": "b = 5.5;"
+          "text": "`b = 5.5;`"
         },
         {
           "key": "C",
-          "text": "c = a + b + c;"
+          "text": "`c = a + b + c;`"
         },
         {
           "key": "D",
-          "text": "a + c = b + c;"
+          "text": "`a + c = b + c;`"
         }
       ],
-      "content": "如果a、b 和c 都是int 类型的变量，下列哪个语句不符合C++语法？（ ）\n"
+      "content": "如果 $a$ 、$b$ 和 $c$ 都是 `int` 类型的变量，下列哪个语句不符合 C++ 语法？（ ）"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a * a"
+          "text": "`a * a`"
         },
         {
           "key": "B",
-          "text": "1 * a * a"
+          "text": "`1 * a * a`"
         },
         {
           "key": "C",
-          "text": "a ^ 2"
+          "text": "`a ^ 2`"
         },
         {
           "key": "D",
-          "text": "a * 2 * a / 2"
+          "text": "`a * 2 * a / 2`"
         }
       ],
-      "content": "如果用一个int 类型的变量a 表达正方形的边长，则下列哪个表达式不能用\n来计算正方形的面积？（ ）\n"
+      "content": "如果用一个 `int` 类型的变量 $a$ 表达正方形的边长，则下列哪个表达式不能用来计算正方形的面积？（ ）"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "47"
+          "text": "$47$"
         },
         {
           "key": "B",
-          "text": "20"
+          "text": "$20$"
         },
         {
           "key": "C",
-          "text": "23"
+          "text": "$23$"
         },
         {
           "key": "D",
-          "text": "56"
+          "text": "$56$"
         }
       ],
-      "content": "表达式(4 * (11 + 12) / 4)的计算结果为（ ）。\n"
+      "content": "表达式 `(4 * (11 + 12) / 4)` 的计算结果为（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "D",
-          "text": "4"
+          "text": "$4$"
         }
       ],
-      "content": "如果a 为int 类型的变量，且a 的值为6，则执行a %= 4;之后，a 的值会\n是（ ）。\n"
+      "content": "如果 $a$ 为 `int` 类型的变量，且 $a$ 的值为 $6$，则执行 `a %= 4;` 之后，$a$ 的值会是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(a == b == 0)"
+          "text": "`(a == b == 0)`"
         },
         {
           "key": "B",
-          "text": "!(a || b)"
+          "text": "`!(a || b)`"
         },
         {
           "key": "C",
-          "text": "(a + b == 0)"
+          "text": "`(a + b == 0)`"
         },
         {
           "key": "D",
-          "text": "(a == 0) + (b == 0)"
+          "text": "`(a == 0) + (b == 0)`"
         }
       ],
-      "content": "如果 a 和 b 均为 int 类型的变量，下列表达式能正确判断“a 等于 0 且 b\n等于0”的是（ ）。\n"
+      "content": "如果 $a$ 和 $b$ 均为 `int` 类型的变量，下列表达式能正确判断“$a$ 等于 $0$ 且 $b$ 等于 $0$”的是（ ）。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0.0 + a / b"
+          "text": "`0.0 + a / b`"
         },
         {
           "key": "B",
-          "text": "(a + 0.0) / b"
+          "text": "`(a + 0.0) / b`"
         },
         {
           "key": "C",
-          "text": "(0.0 + a) / b"
+          "text": "`(0.0 + a) / b`"
         },
         {
           "key": "D",
-          "text": "a / (0.0 + b)"
+          "text": "`a / (0.0 + b)`"
         }
       ],
-      "content": "如果a 和b 为int 类型的变量，且值分别为7 和2，则下列哪个表达式的计\n算结果不是3.5？（ ）\n"
+      "content": "如果 $a$ 和 $b$ 为 `int` 类型的变量，且值分别为 $7$ 和 $2$，则下列哪个表达式的计算结果不是 $3.5$？（ ）"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a + b"
+          "text": "`a + b`"
         },
         {
           "key": "B",
-          "text": "b"
+          "text": "`b`"
         },
         {
           "key": "C",
-          "text": "a - b"
+          "text": "`a - b`"
         },
         {
           "key": "D",
-          "text": "b - a"
+          "text": "`b - a`"
         }
       ],
-      "content": "在下列代码的横线处填写（ ），使得输出是“20 10”。\n"
+      "content": "在下列代码的横线处填写（ ），使得输出是“20 10”。"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "i % 2 == 1"
+          "text": "`i % 2 == 1`"
         },
         {
           "key": "B",
-          "text": "i % 3 == 1"
+          "text": "`i % 3 == 1`"
         },
         {
           "key": "C",
-          "text": "i = i + 3"
+          "text": "`i = i + 3`"
         },
         {
           "key": "D",
-          "text": "i + 3"
+          "text": "`i + 3`"
         }
       ],
-      "content": "在下列代码的横线处填写（ ），可以使得输出是“147”。\n"
+      "content": "在下列代码的横线处填写（ ），可以使得输出是“147”。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "63"
+          "text": "$63$"
         },
         {
           "key": "B",
-          "text": "98"
+          "text": "$98$"
         },
         {
           "key": "C",
-          "text": "113"
+          "text": "$113$"
         },
         {
           "key": "D",
           "text": "无法确定"
         }
       ],
-      "content": "执行以下C++语言程序后，输出结果是（ ）。\n"
+      "content": "执行以下 C++ 语言程序后，输出结果是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "计算机硬件主要包括运算器、控制器、存储器、输入设备和输出设备。\n"
+      "content": "计算机硬件主要包括运算器、控制器、存储器、输入设备和输出设备。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "诞生于 1958 年的103 机是中国第一台通用数字电子计算机，比 1946年在美\n国诞生的第一台通用电子计算机ENIAC晚了十多年。\n"
+      "content": "诞生于 $1958$ 年的 $103$ 机是中国第一台通用数字电子计算机，比 $1946$ 年在美国诞生的第一台通用电子计算机 ENIAC 晚了十多年。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "在C++语言中，计算结果必须存储在变量中才能输出。\n"
+      "content": "在 C++ 语言中，计算结果必须存储在变量中才能输出。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "在C++语言中，标识符的命名不能完全由数字组成，至少有一个字母就可以。\n"
+      "content": "在 C++ 语言中，标识符的命名不能完全由数字组成，至少有一个字母就可以。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "\n```cpp\n是一个int 类型常量。\n```\n"
+      "content": "```cpp\n是一个 int 类型常量。\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "if 语句可以没有else 子句。\n"
+      "content": "`if` 语句可以没有 `else` 子句。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "do ... while 语句的循环体至少会执行一次。\n"
+      "content": "`do ... while` 语句的循环体至少会执行一次。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "如果a 和b 为int 类型的变量，则表达式a = b 可以判断a 和b 是否相等。\n"
+      "content": "如果 $a$ 和 $b$ 为 `int` 类型的变量，则表达式 `a = b` 可以判断 $a$ 和 $b$ 是否相等。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "如果 a 为 int 类型的变量，则表达式(a % 4 == 2)可以判断 a 的值是否为\n偶数。\n"
+      "content": "如果 $a$ 为 `int` 类型的变量，则表达式 `(a % 4 == 2)` 可以判断 $a$ 的值是否为偶数。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "表达式(37 / 4)的计算结果为9，且结果类型为int。\n三、\n"
+      "content": "表达式 `(37 / 4)` 的计算结果为 $9$，且结果类型为 `int`。"
     },
     {
       "type": "program",

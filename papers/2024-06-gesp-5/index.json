@@ -30,7 +30,7 @@
           "text": "递归算法"
         }
       ],
-      "content": "下面C++代码用于求斐波那契数列，该数列第1、2项为1，以后各项均是前两项之和。函数fibo()属于( )。\n\n```cpp\nint fibo(int n) {\n    if (n <= 0)\n    return 0;\n    if (n == 1 || n == 2)\n    return 1;\n    int a = 1，b = 1, next;\n    for (int i = 3; i <= n; i++) {\n        next = a + b;\n        a = b;\n        b = next;\n    }\n    return next;\n}\n```\n"
+      "content": "下面 C++ 代码用于求斐波那契数列，该数列第 $1$ 、$2$ 项为 $1$ ，以后各项均是前两项之和。函数 `fibo()` 属于( )。\n\n```cpp\nint fibo(int n) {\n    if (n <= 0)\n        return 0;\n    if (n == 1 || n == 2)\n        return 1;\n    int a = 1, b = 1, next;\n    for (int i = 3; i <= n; i++) {\n        next = a + b;\n        a = b;\n        b = next;\n    }\n    return next;\n}\n```"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "递归算法"
         }
       ],
-      "content": "下面C++代码用于将输入金额换成最少币种组合方案，其实现算法是( )。\n\n```cpp\n#include <iostream>\nusing namespace std;\n#define N_COINS 7\nint coins[N_COINS] = {100, 50, 20, 10, 5, 2, 1}; //货币面值，单位相同\nint coins_used[N_COINS];\nvoid find_coins(int money) {\n    for (int i = 0; i < N_COINS; i++) {\n        coins_used[i] = money / coins[i];\n        money = money % coins[i];\n    }\n    return;\n}\nint main() {\n    int money;\n    cin >> money; //输入要换算的金额\n    find_coins(money);\n    for (int i = 0; i < N_COINS; i++)\n    cout << coins_used[i] << endl;\n    return 0;\n}\n```\n"
+      "content": "下面 C++ 代码用于将输入金额换成最少币种组合方案，其实现算法是( )。\n\n```cpp\n#include <iostream>\nusing namespace std;\n#define N_COINS 7\nint coins[N_COINS] = {100, 50, 20, 10, 5, 2, 1}; //货币面值，单位相同\nint coins_used[N_COINS];\nvoid find_coins(int money) {\n    for (int i = 0; i < N_COINS; i++) {\n        coins_used[i] = money / coins[i];\n        money = money % coins[i];\n    }\n    return;\n}\nint main() {\n    int money;\n    cin >> money; //输入要换算的金额\n    find_coins(money);\n    for (int i = 0; i < N_COINS; i++)\n        cout << coins_used[i] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": ""
         }
       ],
-      "content": "小杨采用如下双链表结构保存他喜欢的歌曲列表：\n\n```cpp\nstruct dl_node {\n    string song;\n    dl_node* next;\n    dl_node* prev;\n};\n```\n小杨想在头指针为head的双链表中查找他喜欢的某首歌曲，采用如下查询函数，该操作的时间复杂度为（ ）。\n\n```cpp\ndl_node* search(dl_node* head, string my_song) {\n    dl_node* temp = head;\n    while (temp != nullptr) {\n        if (temp->song == my_song)\n        return temp;\n        temp = temp->next;\n    }\n    return nullptr;\n}\n```\n"
+      "content": "小杨采用如下双链表结构保存他喜欢的歌曲列表：\n\n```cpp\nstruct dl_node {\n    string song;\n    dl_node* next;\n    dl_node* prev;\n};\n```\n\n小杨想在头指针为 $head$ 的双链表中查找他喜欢的某首歌曲，采用如下查询函数，该操作的时间复杂度为（ ）。\n\n```cpp\ndl_node* search(dl_node* head, string my_song) {\n    dl_node* temp = head;\n    while (temp != nullptr) {\n        if (temp->song == my_song)\n            return temp;\n        temp = temp->next;\n    }\n    return nullptr;\n}\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "head->next->prev = p;"
+          "text": "`head->next->prev = p;`"
         },
         {
           "key": "B",
-          "text": "head->next = p;"
+          "text": "`head->next = p;`"
         },
         {
           "key": "C",
-          "text": "head->prev = p;"
+          "text": "`head->prev = p;`"
         },
         {
           "key": "D",
           "text": "触发异常，不能对空指针进行操作。"
         }
       ],
-      "content": "小杨想在如上题所述的双向链表中加入一首新歌曲。为了能快速找到该歌曲，他将其作为链表的第一首歌\n曲，则下面横线上应填入的代码为（ ）。\n\n```cpp\nvoid insert(dl_node *head, string my_song) {\n    p = new dl_node;\n    p->song = my_song;\n    p->prev = nullptr;\n    p->next = head;\n    if (head != nullptr) {\n        ________________________________ // 在此处填入代码\n    }\n    head = p;\n}\n```\n"
+      "content": "小杨想在如上题所述的双向链表中加入一首新歌曲。为了能快速找到该歌曲，他将其作为链表的第一首歌曲，则下面横线上应填入的代码为（ ）。\n\n```cpp\nvoid insert(dl_node *head, string my_song) {\n    p = new dl_node;\n    p->song = my_song;\n    p->prev = nullptr;\n    p->next = head;\n    if (head != nullptr) {\n        ________________________________ // 在此处填入代码\n    }\n    head = p;\n}\n```"
     },
     {
       "type": "choice",
@@ -119,7 +119,7 @@
         },
         {
           "key": "B",
-          "text": "最大公共质因⼦"
+          "text": "最大公共质因子"
         },
         {
           "key": "C",
@@ -127,10 +127,10 @@
         },
         {
           "key": "D",
-          "text": "最小公共质因⼦"
+          "text": "最小公共质因子"
         }
       ],
-      "content": "下面是根据欧几里得算法编写的函数，它计算的是 与 的（ ）。\n\n```cpp\nint gcd(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n```\n"
+      "content": "下面是根据欧几里得算法编写的函数，它计算的是 $a$ 与 $b$ 的（ ）。\n\n```cpp\nint gcd(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "本题的gcd()实现为递归方式。"
+          "text": "本题的 `gcd()` 实现为递归方式。"
         },
         {
           "key": "B",
-          "text": "本题的gcd()代码量少，更容易理解其辗转相除的思想。"
+          "text": "本题的 `gcd()` 代码量少，更容易理解其辗转相除的思想。"
         },
         {
           "key": "C",
-          "text": "当 较大时，本题的gcd()实现会多次调用自身，需要较多额外的辅助空间。"
+          "text": "当 $a$ 较大时，本题的 `gcd()` 实现会多次调用自身，需要较多额外的辅助空间。"
         },
         {
           "key": "D",
-          "text": "当 较大时，相比上题中的gcd()的实现，本题的gcd()执行效率更高。"
+          "text": "当 $a$ 较大时，相比上题中的 `gcd()` 的实现，本题的 `gcd()` 执行效率更高。"
         }
       ],
-      "content": "欧几里得算法还可以写成如下形式:\n\n```cpp\nint gcd(int a, int b) {\n    return b == 0 ? a : gcd(b, a % b);\n}\n```\n下面有关说法，错误的是（ ）。\n"
+      "content": "欧几里得算法还可以写成如下形式：\n\n```cpp\nint gcd(int a, int b) {\n    return b == 0 ? a : gcd(b, a % b);\n}\n```\n\n下面有关说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "for (int j = 0; j < primes.size() && i * primes[j] <= n; j++)"
+          "text": "`for (int j = 0; j < primes.size() && i * primes[j] <= n; j++)`"
         },
         {
           "key": "B",
-          "text": "for (int j = 0; j <= sqrt(n) && i * primes[j] <= n; j++)"
+          "text": "`for (int j = 0; j <= sqrt(n) && i * primes[j] <= n; j++)`"
         },
         {
           "key": "C",
-          "text": "for (int j = 0; j <= n; j++)"
+          "text": "`for (int j = 0; j <= n; j++)`"
         },
         {
           "key": "D",
-          "text": "for (int j = 1; j <= sqrt(n); j++)"
+          "text": "`for (int j = 1; j <= sqrt(n); j++)`"
         }
       ],
-      "content": "下述代码实现素数表的线性筛法，筛选出所有小于等于 的素数，则横线上应填的代码是( )。\n\n```cpp\nvector<int> linear_sieve(int n) {\n    vector<bool> is_prime(n + 1, true);\n    vector<int> primes;\n    is_prime[0] = is_prime[1] = 0; //0和1两个数特殊处理\n    for (int i = 2; i <= n; ++i) {\n        if (is_prime[i]) {\n            primes.push_back(i);\n        }\n        ________________________________ { // 在此处填入代码\n            is_prime[i * primes[j]] = 0;\n            if (i % primes[j] == 0)\n            break;\n        }\n    }\n    return primes;\n}\n```\n"
+      "content": "下述代码实现素数表的线性筛法，筛选出所有小于等于 $n$ 的素数，则横线上应填的代码是( )。\n\n```cpp\nvector<int> linear_sieve(int n) {\n    vector<bool> is_prime(n + 1, true);\n    vector<int> primes;\n    is_prime[0] = is_prime[1] = 0; //0和1两个数特殊处理\n    for (int i = 2; i <= n; ++i) {\n        if (is_prime[i]) {\n            primes.push_back(i);\n        }\n        ________________________________ { // 在此处填入代码\n            is_prime[i * primes[j]] = 0;\n            if (i % primes[j] == 0)\n                break;\n        }\n    }\n    return primes;\n}\n```"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": ""
         }
       ],
-      "content": "上题代码的时间复杂度是（ ）。\n"
+      "content": "上题代码的时间复杂度是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "while (i <= mid)"
+          "text": "`while (i <= mid)`"
         },
         {
           "key": "B",
-          "text": "while (i < mid)"
+          "text": "`while (i < mid)`"
         },
         {
           "key": "C",
-          "text": "while (i < j)"
+          "text": "`while (i < j)`"
         },
         {
           "key": "D",
-          "text": "while (i <= j)"
+          "text": "`while (i <= j)`"
         }
       ],
-      "content": "为了正确实现快速排序，下面横线上的代码应为（ ）。\n\n```cpp\nvoid qsort(vector<int>& arr, int left, int right) {\n    int i, j, mid;\n    int pivot;\n    i = left;\n    j = right;\n    mid = (left + right) / 2; // 计算中间元素的索引\n    pivot = arr[mid]; // 选择中间元素作为基准值\n    do {\n        while (arr[i] < pivot) i++;\n        while (arr[j] > pivot) j--;\n        if (i <= j) {\n            swap(arr[i], arr[j]); // 交换两个元素\n            i++; j--;\n        }\n    } ________________________________; // 在此处填入代码\n    if (left < j) qsort(arr, left, j); // 对左子数组进行快速排序\n    if (i < right) qsort(arr, i, right); // 对右子数组进行快速排序\n}\n```\n"
+      "content": "为了正确实现快速排序，下面横线上的代码应为（ ）。\n\n```cpp\nvoid qsort(vector<int>& arr, int left, int right) {\n    int i, j, mid;\n    int pivot;\n    i = left;\n    j = right;\n    mid = (left + right) / 2; // 计算中间元素的索引\n    pivot = arr[mid]; // 选择中间元素作为基准值\n    do {\n        while (arr[i] < pivot) i++;\n        while (arr[j] > pivot) j--;\n        if (i <= j) {\n            swap(arr[i], arr[j]); // 交换两个元素\n            i++; j--;\n        }\n    } ________________________________; // 在此处填入代码\n    if (left < j) qsort(arr, left, j); // 对左子数组进行快速排序\n    if (i < right) qsort(arr, i, right); // 对右子数组进行快速排序\n}\n```"
     },
     {
       "type": "choice",
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "分治算法将问题分成⼦问题，然后分别解决⼦问题，最后合并结果。"
+          "text": "分治算法将问题分成子问题，然后分别解决子问题，最后合并结果。"
         },
         {
           "key": "B",
@@ -255,7 +255,7 @@
           "text": "分治算法的时间复杂度总是优于 。"
         }
       ],
-      "content": "关于分治算法，以下哪个说法正确？\n"
+      "content": "关于分治算法，以下哪个说法正确？"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "52, 61, 81, 90"
+          "text": "$52$，$61$，$81$，$90$"
         },
         {
           "key": "B",
-          "text": "52, 79, 90, 81"
+          "text": "$52$，$79$，$90$，$81$"
         },
         {
           "key": "C",
-          "text": "39, 79, 90, 81"
+          "text": "$39$，$79$，$90$，$81$"
         },
         {
           "key": "D",
-          "text": "39, 79, 90"
+          "text": "$39$，$79$，$90$"
         }
       ],
-      "content": "根据下述二分查找法，在排好序的数组1，3，6，9，17，31，39，52，61，79，81，90，96中查找数值\n82，和82比较的数组元素分别是（ ）。\n\n```cpp\nint binary_search(vector<int>& nums, int target) {\n    int left = 0;\n    int right = nums.size() - 1;\n    while (left <= right) {\n        int mid = (left + right) / 2;\n        if (nums[mid] == target) {\n            return mid;\n        } else if (nums[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1; // 如果找不到目标元素，返回-1\n}\n```\n"
+      "content": "根据下述二分查找法，在排好序的数组 $1$，$3$，$6$，$9$，$17$，$31$，$39$，$52$，$61$，$79$，$81$，$90$，$96$ 中查找数值 $82$，和 $82$ 比较的数组元素分别是（ ）。\n\n```cpp\nint binary_search(vector<int>& nums, int target) {\n    int left = 0;\n    int right = nums.size() - 1;\n    while (left <= right) {\n        int mid = (left + right) / 2;\n        if (nums[mid] == target) {\n            return mid;\n        } else if (nums[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1; // 如果找不到目标元素，返回-1\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a[i + 1]--;"
+          "text": "`a[i + 1]--;`"
         },
         {
           "key": "B",
-          "text": "a[i]--;"
+          "text": "`a[i]--;`"
         },
         {
           "key": "C",
-          "text": "b[i + 1]--;"
+          "text": "`b[i + 1]--;`"
         },
         {
           "key": "D",
-          "text": "b[i]--;"
+          "text": "`b[i]--;`"
         }
       ],
-      "content": "要实现一个高精度减法函数，则下面代码中加划线应该填写的代码为（ ）。\n\n```cpp\n//假设a和b均为正数，且a表示的数比b大\nvector<int> minus(vector<int> a, vector<int> b) {\n    vector<int> c；\n    int len1 = a.size();\n    int len2 = b.size();\n    int i, t;\n    for (i = 0; i < len2; i++) {\n        if (a[i] < b[i]) { //借位\n            _____________ // 在此处填入代码\n            a[i] += 10;\n        }\n        t = a[i] - b[i];\n        c.push_back(t);\n    }\n    for (; i < len1; i++)\n    c.push_back(a[i]);\n    len3 = c.size();\n    while (c[len3 - 1] == 0) {//去除前导0\n        c.pop_back();\n        len3--;\n    }\n    return c;\n}\n```\n"
+      "content": "要实现一个高精度减法函数，则下面代码中加划线应该填写的代码为（ ）。\n\n```cpp\n// 假设 a 和 b 均为正数，且 a 表示的数比 b 大\nvector<int> minus(vector<int> a, vector<int> b) {\n    vector<int> c;\n    int len1 = a.size();\n    int len2 = b.size();\n    int i, t;\n    for (i = 0; i < len2; i++) {\n        if (a[i] < b[i]) { // 借位\n            _____________ // 在此处填入代码\n            a[i] += 10;\n        }\n        t = a[i] - b[i];\n        c.push_back(t);\n    }\n    for (; i < len1; i++)\n        c.push_back(a[i]);\n    len3 = c.size();\n    while (c[len3 - 1] == 0) { // 去除前导 0\n        c.pop_back();\n        len3--;\n    }\n    return c;\n}\n```"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "设 和 是两个长度为 的有序数组，现将 和 合并成一个有序数组，归并排序算法在最坏情况下至少要做\n（ ）次比较。\n"
+      "content": "设 $A$ 和 $B$ 是两个长度为 $n$ 的有序数组，现将 $A$ 和 $B$ 合并成一个有序数组，归并排序算法在最坏情况下至少要做（ ）次比较。"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "C",
-          "text": "21"
+          "text": "$21$"
         },
         {
           "key": "D",
-          "text": "-11"
+          "text": "$-11$"
         }
       ],
-      "content": "给定如下函数：\n\n```cpp\nint fun(int n) {\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return fun(n - 2) - fun(n - 1);\n}\n```\n则当 时，函数返回值为（ ）。\n"
+      "content": "给定如下函数：\n\n```cpp\nint fun(int n) {\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return fun(n - 2) - fun(n - 1);\n}\n```\n则当 $n = 6$ 时，函数返回值为（ ）。"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "4 2 3 2 1"
         }
       ],
-      "content": "给定如下函数（函数功能同上题，增加输出打印）：\n\n```cpp\nint fun(int n) {\n    cout << n << \" \";\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return fun(n - 2) - fun(n - 1);\n}\n```\n则当 时，屏幕上输出序列为（ ）。\n"
+      "content": "给定如下函数（函数功能同上题，增加输出打印）：\n\n```cpp\nint fun(int n) {\n    cout << n << \" \";\n    if (n == 1) return 1;\n    if (n == 2) return 2;\n    return fun(n - 2) - fun(n - 1);\n}\n```\n则当 $n = 4$ 时，屏幕上输出序列为（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "如果将双向链表的最后一个结点的下一项指针指向第一个结点，第一个结点的前一项指针指向最后一个结\n点，则该双向链表构成循环链表。\n"
+      "content": "如果将双向链表的最后一个结点的下一项指针指向第一个结点，第一个结点的前一项指针指向最后一个结点，则该双向链表构成循环链表。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "数组和链表都是线性表，链表的优点是插入删除不需要移动元素，并且能随机查找。\n"
+      "content": "数组和链表都是线性表，链表的优点是插入删除不需要移动元素，并且能随机查找。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "链表的存储空间物理上可以连续，也可以不连续。\n"
+      "content": "链表的存储空间物理上可以连续，也可以不连续。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "找出自然数n以内的所有质数，常用算法有埃拉托斯特尼（埃⽒）筛法和线性筛法，其中埃⽒筛法效率更\n高。\n"
+      "content": "找出自然数 $n$ 以内的所有质数，常用算法有埃拉托斯特尼（埃氏）筛法和线性筛法，其中埃氏筛法效率更高。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "唯一分解定理表明任何一个大于1的整数都可以唯一地表⽰为一系列质数的乘积，即质因数分解是唯一的。\n"
+      "content": "唯一分解定理表明任何一个大于 $1$ 的整数都可以唯一地表示为一系列质数的乘积，即质因数分解是唯一的。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "贪心算法通过每一步选择局部最优解来获得全局最优解，但并不一定能找到最优解。\n"
+      "content": "贪心算法通过每一步选择局部最优解来获得全局最优解，但并不一定能找到最优解。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "归并排序和快速排序都采用递归实现，也都是不稳定排序。（ ）\n"
+      "content": "归并排序和快速排序都采用递归实现，也都是不稳定排序。（ ）"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "插入排序有时比快速排序时间复杂度更低。\n"
+      "content": "插入排序有时比快速排序时间复杂度更低。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "在进行全国⼈⼝普查时，将其分解为对每个省市县乡来进行普查和统计。这是典型的分治策略。\n"
+      "content": "在进行全国人口普查时，将其分解为对每个省市县乡来进行普查和统计。这是典型的分治策略。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "在下面C++代码中，由于删除了变量ptr，因此ptr所对应的数据也随之删除，故执行下述代码时，将报\n错。\n\n```cpp\nint* ptr = new int(10);\ncout << *ptr << endl;\ndelete ptr;\ncout << ptr << endl;\n```\n"
+      "content": "在下面 C++ 代码中，由于删除了变量 `ptr` ，因此 `ptr` 所对应的数据也随之删除，故执行下述代码时，将报错。\n\n```cpp\nint* ptr = new int(10);\ncout << *ptr << endl;\ndelete ptr;\ncout << ptr << endl;\n```"
     },
     {
       "type": "program",

@@ -15,11 +15,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Equal"
+          "text": "`Equal`"
         },
         {
           "key": "B",
-          "text": "Not equal"
+          "text": "`Not equal`"
         },
         {
           "key": "C",
@@ -30,7 +30,7 @@
           "text": "没有输出"
         }
       ],
-      "content": "下列代码中，输出结果是（ ）\n\n```cpp\n#include<iostream>\nusing namespace std;\nint main()\n{\n    double a=0.9;\n    double b=1.0;\n    if(((b-a)==0.1))\n    {\n        cout<<\"Equal\"<<endl;\n    }\n    else\n    {\n        cout<<\"Not equal\"<<endl;\n    }\n}\n```\n"
+      "content": "下列代码中，输出结果是（ ）\n\n```cpp\n#include<iostream>\nusing namespace std;\nint main()\n{\n    double a=0.9;\n    double b=1.0;\n    if(((b-a)==0.1))\n    {\n        cout<<\"Equal\"<<endl;\n    }\n    else\n    {\n        cout<<\"Not equal\"<<endl;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -52,10 +52,10 @@
         },
         {
           "key": "D",
-          "text": "[-1]=[1000 0001]原=[1111 1111]反"
+          "text": "$[-1]=[1000\\ 0001]_{\\text{原}}=[1111\\ 1111]_{\\text{反}}$"
         }
       ],
-      "content": "关于计算机中的编码，下列说法中正确的是（）\n"
+      "content": "关于计算机中的编码，下列说法中正确的是（）"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "7C3"
+          "text": "$7C3$"
         },
         {
           "key": "B",
-          "text": "7A3"
+          "text": "$7A3$"
         },
         {
           "key": "C",
-          "text": "7B3"
+          "text": "$7B3$"
         },
         {
           "key": "D",
-          "text": "7D3"
+          "text": "$7D3$"
         }
       ],
-      "content": "8进制数3703转换成16进制数是（）\n"
+      "content": "$8$ 进制数 $3703$ 转换成 $16$ 进制数是（）"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0.1110"
+          "text": "$0.1110$"
         },
         {
           "key": "B",
-          "text": "0.1 1111 1011 1101"
+          "text": "$0.1\\ 1111\\ 1011\\ 1101$"
         },
         {
           "key": "C",
-          "text": "0.1 1111 1011 1100"
+          "text": "$0.1\\ 1111\\ 1011\\ 1100$"
         },
         {
           "key": "D",
-          "text": "0.1101"
+          "text": "$0.1101$"
         }
       ],
-      "content": "0.8125变成二进制是（ ）。\n"
+      "content": "$0.8125$ 变成二进制是（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "（22&01）==（22&&01）成立"
+          "text": "`(22 & 01) == (22 && 01)` 成立"
         },
         {
           "key": "B",
-          "text": "(23|11)==30"
+          "text": "`(23 | 11) == 30`"
         },
         {
           "key": "C",
-          "text": "(23|10)==31"
+          "text": "`(23 | 10) == 31`"
         },
         {
           "key": "D",
-          "text": "(23|01)==31"
+          "text": "`(23 | 01) == 31`"
         }
       ],
-      "content": "下面说法正确的是（ ）\n"
+      "content": "下面说法正确的是（ ）"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2>>1和1>>1的值是一样的"
+          "text": "`2 >> 1` 和 `1 >> 1` 的值是一样的"
         },
         {
           "key": "B",
-          "text": "(2>>2)和(1>>1)的值是一样的"
+          "text": "`(2 >> 2)` 和 `(1 >> 1)` 的值是一样的"
         },
         {
           "key": "C",
-          "text": "(11^00)和(1^0)的值是一样的"
+          "text": "`(11 ^ 00)` 和 `(1 ^ 0)` 的值是一样的"
         },
         {
           "key": "D",
-          "text": "(~0的输出值是1)"
+          "text": "`(~0)` 的输出值是 $1$"
         }
       ],
-      "content": "下列说法正确的是（）\n"
+      "content": "下列说法正确的是（）"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a和b的异或"
+          "text": "$a$ 和 $b$ 的异或"
         },
         {
           "key": "B",
-          "text": "a和b的同或"
+          "text": "$a$ 和 $b$ 的同或"
         },
         {
           "key": "C",
-          "text": "a和b的值交换"
+          "text": "$a$ 和 $b$ 的值交换"
         },
         {
           "key": "D",
-          "text": "a和b的高低位互换"
+          "text": "$a$ 和 $b$ 的高低位互换"
         }
       ],
-      "content": "下列代码实现的是（ ）\n\n```cpp\nvoid Swap(int &a, int &b) {\n    if (a != b) {\n        a ^= b;\n        b ^= a;\n        a ^= b;\n    }\n}\n```\n"
+      "content": "下列代码实现的是（ ）\n\n```cpp\nvoid Swap(int &a, int &b) {\n    if (a != b) {\n        a ^= b;\n        b ^= a;\n        a ^= b;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "使a的最低位为1"
+          "text": "使 $a$ 的最低位为 $1$"
         },
         {
           "key": "B",
-          "text": "使a的最高位为1"
+          "text": "使 $a$ 的最高位为 $1$"
         },
         {
           "key": "C",
-          "text": "使a的最低位为0"
+          "text": "使 $a$ 的最低位为 $0$"
         },
         {
           "key": "D",
-          "text": "使a的最高位为0"
+          "text": "使 $a$ 的最高位为 $0$"
         }
       ],
-      "content": "a&~1运算实现的是（ ）。\n"
+      "content": "$a$ & ~$1$ 运算实现的是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a的值变为1011 1000"
+          "text": "$a$ 的值变为 $1011\\ 1000$"
         },
         {
           "key": "B",
-          "text": "a的值变为1011 1010"
+          "text": "$a$ 的值变为 $1011\\ 1010$"
         },
         {
           "key": "C",
-          "text": "a的值变为0101 1101"
+          "text": "$a$ 的值变为 $0101\\ 1101$"
         },
         {
           "key": "D",
-          "text": "a的值变为0101 1100"
+          "text": "$a$ 的值变为 $0101\\ 1100$"
         }
       ],
-      "content": "a=1010 1110,a<<2,下面关于这个说法正确的是（ ）。\n"
+      "content": "$a = 1010\\ 1110$，`a << 2`，下面关于这个说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "123 -1"
+          "text": "$123$ $-1$"
         },
         {
           "key": "B",
-          "text": "123 -123"
+          "text": "$123$ $-123$"
         },
         {
           "key": "C",
-          "text": "1 -1"
+          "text": "$1$ $-1$"
         },
         {
           "key": "D",
-          "text": "1 -123"
+          "text": "$1$ $-123$"
         }
       ],
-      "content": "下列程序中，result和result2输出分别是( )\n\n```cpp\nlong a = 123;\nint b = 1;\nlong result = a & b;\ncout<<result<<endl;\nlong a2 = -123;\nunsigned int b2 = -1;\nlong result2 = a2 & b2;\ncout<<result2<<endl;\n```\n"
+      "content": "下列程序中，`result` 和 `result2` 输出分别是( )\n\n```cpp\nlong a = 123;\nint b = 1;\nlong result = a & b;\ncout << result << endl;\nlong a2 = -123;\nunsigned int b2 = -1;\nlong result2 = a2 & b2;\ncout << result2 << endl;\n```"
     },
     {
       "type": "choice",
@@ -280,7 +280,7 @@
           "text": "945"
         }
       ],
-      "content": "陈A歹种植一批农作物，第一天需要浇水一次，随后的两天（第2、第3天），每天需要浇水2次，再随后的\n3天（第4、第5、第6天），需要每天浇水3次，这样持续下去，随后的n天，每天需要浇水n次。请问在100天里，总\n共浇了多少次水（ ）\n"
+      "content": "陈 A 歹种植一批农作物，第一天需要浇水一次，随后的两天（第 2、第 3 天），每天需要浇水 2 次，再随后的 3 天（第 4、第 5、第 6 天），需要每天浇水 3 次，这样持续下去，随后的 $n$ 天，每天需要浇水 $n$ 次。请问在 100 天里，总共浇了多少次水（ ）"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nint a[10];\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```\n"
+          "text": "```cpp\nint a[10];\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```\n"
+          "text": "```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\nint sum=0;\nfor(int i=0;i<10;i++) {\n    um=sum+a[i];\n}\n```\n"
+          "text": "```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\nint sum=0;\nfor(int i=0;i<10;i++) {\n    sum=sum+a[i];\n}\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nint a[10]={0};\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```\n"
+          "text": "```cpp\nint a[10]={0};\nint sum=0;\nfor(int i=0;i<=10;i++) {\n    sum=sum+a[i];\n}\n```"
         }
       ],
-      "content": "关于一维数组，下列程序能够正确执行的是（ ）。\n"
+      "content": "关于一维数组，下列程序能够正确执行的是（ ）。"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "C",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "D",
           "text": "不确定的值"
         }
       ],
-      "content": "下面的程序中，会输出（ ）。\n\n```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\ncout<<a[10]<<endl;\n```\n"
+      "content": "下面的程序中，会输出（ ）。\n\n```cpp\nint a[10]={1,2,3,4,5,6,7,8,9,10};\ncout<<a[10]<<endl;\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "A"
+          "text": "$A$"
         },
         {
           "key": "B",
-          "text": "B"
+          "text": "$B$"
         },
         {
           "key": "C",
-          "text": "C"
+          "text": "$C$"
         },
         {
           "key": "D",
-          "text": "D"
+          "text": "$D$"
         }
       ],
-      "content": "有ABCD4个⼈，其中一个是小偷，每个⼈说一句话，只有小偷说的是假话，其中A说：不是我。B说：是\nC。C说：是D。D说：C瞎说，请问谁是小偷（ ）。\n"
+      "content": "有 $A$ $B$ $C$ $D$ $4$ 个人，其中一个是小偷，每个人说一句话，只有小偷说的是假话，其中 $A$ 说：不是我。$B$ 说：是 $C$ 。$C$ 说：是 $D$ 。$D$ 说：$C$ 瞎说，请问谁是小偷（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "D",
-          "text": "6"
+          "text": "$6$"
         }
       ],
-      "content": "下列程序输出的是（）\n\n```cpp\nstring str = \"Hello,CHAD\";\ncout << str.find(\"A\") << '\\n';\n```\n"
+      "content": "下列程序输出的是（）\n\n```cpp\nstring str = \"Hello,CHAD\";\ncout << str.find(\"A\") << '\\n';\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "+1和-1的原码进行1+（-1）计算的结果是-2。（ ）\n"
+      "content": "$+1$ 和 $-1$ 的原码进行 $1 + (-1)$ 计算的结果是 $-2$。（ ）"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "~1的输出值是-2。（ ）\n"
+      "content": "`~1` 的输出值是 $-2$。（ ）"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "~1 = 1111 1110。（ ）\n"
+      "content": "`~1 = 1111 1110`。（ ）"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "取X的低四位，可以用Y = 0000 1111，用X&Y获取X的低四位。（ ）\n"
+      "content": "取 $X$ 的低四位，可以用 $Y = 0000\\ 1111$，用 `X & Y` 获取 $X$ 的低四位。（ ）"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "下列程序输出的是A。（ ）\n\n```cpp\nchar x=65;\nx++;\ncout<<x++<<endl;\n```\n"
+      "content": "下列程序输出的是 A。（ ）\n\n```cpp\nchar x=65;\nx++;\ncout<<x++<<endl;\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "下列程序输出的是 3。（ ）\n\n```cpp\nstring str=\"CHADai\";\nsize_t pos = str.find('D');\ncout<<pos<<endl;\n```\n"
+      "content": "下列程序输出的是 $3$。（ ）\n\n```cpp\nstring str=\"CHADai\";\nsize_t pos = str.find('D');\ncout<<pos<<endl;\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "下列程序将输出1。（ ）\n\n```cpp\nint a[10]={1};\ncout<<a[1]<<endl;\n```\n"
+      "content": "下列程序将输出 $1$。（ ）\n\n```cpp\nint a[10]={1};\ncout<<a[1]<<endl;\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "下列程序将输出A。（ ）\n\n```cpp\nint a=65;\ncout<<(char)a<<endl;\n```\n"
+      "content": "下列程序将输出 A。（ ）\n\n```cpp\nint a=65;\ncout<<(char)a<<endl;\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "16进制数 AB，表⽰成2进制数是10101011。（ ）\n"
+      "content": "16 进制数 AB，表示成 2 进制数是 10101011。（ ）"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "def(十六进制) = 103231(五进制)。（ ）\n"
+      "content": "def(十六进制) = 103231(五进制)。（ ）"
     },
     {
       "type": "program",

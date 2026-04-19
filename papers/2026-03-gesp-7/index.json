@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": ""
+          "text": "$O(n)$"
         },
         {
           "key": "B",
-          "text": ""
+          "text": "$O(n \\log n)$"
         },
         {
           "key": "C",
-          "text": ""
+          "text": "$O(n^2)$"
         },
         {
           "key": "D",
-          "text": ""
+          "text": "$O(2^n)$"
         }
       ],
-      "content": "假设一个算法时间复杂度的递推式是 （ 为正整数），且 ，那么这个算法的\n时间复杂度是（ ）。\n"
+      "content": "假设一个算法时间复杂度的递推式是 $T(n) = 2T(n/2) + n$（$n$ 为正整数），且 $T(1) = 1$，那么这个算法的时间复杂度是（ ）。"
     },
     {
       "type": "choice",
@@ -40,11 +40,11 @@
       "options": [
         {
           "key": "A",
-          "text": "如果预处理出 以内每个数的最小质因⼦，那么可以在 时间内完成任意一个不超过 的整数的质因\n数分解。\n"
+          "text": "如果预处理出 $n$ 以内每个数的最小质因子，那么可以在 $O(\\log n)$ 时间内完成任意一个不超过 $n$ 的整数的质因数分解。"
         },
         {
           "key": "B",
-          "text": "线性筛（欧拉筛）能够保证每个合数只被其最小质因⼦筛掉一次，这一性质依赖于唯一分解定理。"
+          "text": "线性筛（欧拉筛）能够保证每个合数只被其最小质因子筛掉一次，这一性质依赖于唯一分解定理。"
         },
         {
           "key": "C",
@@ -52,10 +52,10 @@
         },
         {
           "key": "D",
-          "text": "唯一分解定理是埃⽒筛时间复杂度为 的根本原因。"
+          "text": "唯一分解定理是埃氏筛时间复杂度为 $O(n \\log \\log n)$ 的根本原因。"
         }
       ],
-      "content": "下面关于“唯一分解定理”和“素数筛法”的说法中，错误的是（ ）。\n"
+      "content": "下面关于“唯一分解定理”和“素数筛法”的说法中，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "它们的编辑距离为 5"
+          "text": "它们的编辑距离为 $5$"
         },
         {
           "key": "B",
-          "text": "它们至少有 5 个公共字符"
+          "text": "它们至少有 $5$ 个公共字符"
         },
         {
           "key": "C",
-          "text": "它们最长公共⼦串长度为 5"
+          "text": "它们最长公共子串长度为 $5$"
         },
         {
           "key": "D",
           "text": "它们一定长度相等"
         }
       ],
-      "content": "若字符串 与字符串 的最长公共⼦序列（LCS）长度为 5，则（ ）。\n"
+      "content": "若字符串与字符串的最长公共子序列（LCS）长度为 $5$，则（ ）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": ""
         }
       ],
-      "content": "对于一棵包含 个顶点（ ）的树，其所有顶点的度数之和必定等于（ ）。\n"
+      "content": "对于一棵包含 $n$ 个顶点（$n \\geq 1$）的树，其所有顶点的度数之和必定等于（ ）。"
     },
     {
       "type": "choice",
@@ -123,14 +123,14 @@
         },
         {
           "key": "C",
-          "text": "链地址法在最坏情况下查找时间复杂度为"
+          "text": "链地址法在最坏情况下查找时间复杂度为 $O(n)$"
         },
         {
           "key": "D",
-          "text": "查找哈希表的时间复杂度总是"
+          "text": "查找哈希表的时间复杂度总是 $O(1)$"
         }
       ],
-      "content": "关于哈希表（Hash Table）在不考虑扩容且采用简单均匀哈希函数的前提下，下列说法中错误的是（ ）。\n"
+      "content": "关于哈希表（Hash Table）在不考虑扩容且采用简单均匀哈希函数的前提下，下列说法中错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "回溯"
         }
       ],
-      "content": "深度优先搜索（DFS）在遍历图时，每当访问到某个顶点后，选择一个相邻的未访问顶点继续搜索，直到某\n个顶点的所有相邻顶点均已被访问，则退回到前一顶点继续搜索。该算法主要运用了（ ）。\n"
+      "content": "深度优先搜索（DFS）在遍历图时，每当访问到某个顶点后，选择一个相邻的未访问顶点继续搜索，直到某个顶点的所有相邻顶点均已被访问，则退回到前一顶点继续搜索。该算法主要运用了（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "B",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "C",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "D",
-          "text": "5"
+          "text": "$5$"
         }
       ],
-      "content": "下面程序的运行结果为（ ）。\n\n```cpp\n#include <iostream>\n#include <algorithm>\nbool check(int n, int a[], int k, int dist) {\n    int cnt = 1;\n    int last = a[0];\n    for (int i = 1; i < n; i++) {\n        if (a[i] - last >= dist) {\n            cnt++;\n            last = a[i];\n        }\n    }\n    return cnt >= k;\n}\nint solve(int n, int a[], int k) {\n    std::sort(a, a + n);\n    int l = 0;\n    int r = a[n - 1] - a[0];\n    while (l < r) {\n        int mid = (l + r + 1) / 2;\n        if (check(n, a, k, mid))\n        l = mid;\n        else\n        r = mid - 1;\n    }\n    return l;\n}\nint main() {\n    int a[] = {1, 2, 8, 4, 9};\n    int n = 5;\n    int k = 3;\n    std::cout << solve(n, a, k) << std::endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的运行结果为（ ）。\n\n```cpp\n#include <iostream>\n#include <algorithm>\nbool check(int n, int a[], int k, int dist) {\n    int cnt = 1;\n    int last = a[0];\n    for (int i = 1; i < n; i++) {\n        if (a[i] - last >= dist) {\n            cnt++;\n            last = a[i];\n        }\n    }\n    return cnt >= k;\n}\nint solve(int n, int a[], int k) {\n    std::sort(a, a + n);\n    int l = 0;\n    int r = a[n - 1] - a[0];\n    while (l < r) {\n        int mid = (l + r + 1) / 2;\n        if (check(n, a, k, mid))\n            l = mid;\n        else\n            r = mid - 1;\n    }\n    return l;\n}\nint main() {\n    int a[] = {1, 2, 8, 4, 9};\n    int n = 5;\n    int k = 3;\n    std::cout << solve(n, a, k) << std::endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度是（ ），假设数组 的值域范围是 。\n\n```cpp\n#include <iostream>\n#include <algorithm>\nbool check(int n, int a[], int k, int dist) {\n    int cnt = 1;\n    int last = a[0];\n    for (int i = 1; i < n; i++) {\n        if (a[i] - last >= dist) {\n            cnt++;\n            last = a[i];\n        }\n    }\n    return cnt >= k;\n}\nint solve(int n, int a[], int k) {\n    std::sort(a, a + n);\n    int l = 0;\n    int r = a[n - 1] - a[0];\n    while (l < r) {\n        int mid = (l + r + 1) / 2;\n        if (check(n, a, k, mid))\n        l = mid;\n        else\n        r = mid - 1;\n    }\n    return l;\n}\nint main() {\n    int a[] = {1, 2, 8, 4, 9};\n    int n = 5;\n    int k = 3;\n    std::cout << solve(n, a, k) << std::endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的时间复杂度是（ ），假设数组的值域范围是 $[0, M]$。\n\n```cpp\n#include <iostream>\n#include <algorithm>\nbool check(int n, int a[], int k, int dist) {\n    int cnt = 1;\n    int last = a[0];\n    for (int i = 1; i < n; i++) {\n        if (a[i] - last >= dist) {\n            cnt++;\n            last = a[i];\n        }\n    }\n    return cnt >= k;\n}\nint solve(int n, int a[], int k) {\n    std::sort(a, a + n);\n    int l = 0;\n    int r = a[n - 1] - a[0];\n    while (l < r) {\n        int mid = (l + r + 1) / 2;\n        if (check(n, a, k, mid))\n            l = mid;\n        else\n            r = mid - 1;\n    }\n    return l;\n}\nint main() {\n    int a[] = {1, 2, 8, 4, 9};\n    int n = 5;\n    int k = 3;\n    std::cout << solve(n, a, k) << std::endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "H I D E B J F G C A"
+          "text": "$H$ $I$ $D$ $E$ $B$ $J$ $F$ $G$ $C$ $A$"
         },
         {
           "key": "B",
-          "text": "H I D B E J F G C A"
+          "text": "$H$ $I$ $D$ $B$ $E$ $J$ $F$ $G$ $C$ $A$"
         },
         {
           "key": "C",
-          "text": "I H D E B J F G C A"
+          "text": "$I$ $H$ $D$ $E$ $B$ $J$ $F$ $G$ $C$ $A$"
         },
         {
           "key": "D",
-          "text": "H I D E B F J G C A"
+          "text": "$H$ $I$ $D$ $E$ $B$ $F$ $J$ $G$ $C$ $A$"
         }
       ],
-      "content": "某二叉树共有 10 个结点，记为 A~J，已知它的先序遍历序列为：A B D H I E C F J G，中序遍历序列为：H\nD I B E A F J C G，则该二叉树的后序遍历序列是（ ）。\n"
+      "content": "某二叉树共有 $10$ 个结点，记为 $A$~$J$，已知它的先序遍历序列为：$A$ $B$ $D$ $H$ $I$ $E$ $C$ $F$ $J$ $G$，中序遍历序列为：$H$ $D$ $I$ $B$ $E$ $A$ $F$ $J$ $C$ $G$，则该二叉树的后序遍历序列是（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1, 5, 4, 8, 7, 9, 6, 3, 2"
+          "text": "$1$, $5$, $4$, $8$, $7$, $9$, $6$, $3$, $2$"
         },
         {
           "key": "B",
-          "text": "1, 5, 8, 4, 7, 9, 6, 3, 2"
+          "text": "$1$, $5$, $8$, $4$, $7$, $9$, $6$, $3$, $2$"
         },
         {
           "key": "C",
-          "text": "2, 5, 8, 7, 9, 6, 3, 4, 1"
+          "text": "$2$, $5$, $8$, $7$, $9$, $6$, $3$, $4$, $1$"
         },
         {
           "key": "D",
-          "text": "8, 9, 6, 3, 2, 5, 1, 4, 7"
+          "text": "$8$, $9$, $6$, $3$, $2$, $5$, $1$, $4$, $7$"
         }
       ],
-      "content": "下面哪一个可能是下图的深度优先遍历序列（ ）。\n"
+      "content": "下面哪一个可能是下图的深度优先遍历序列（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "B",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "C",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "D",
-          "text": "6"
+          "text": "$6$"
         }
       ],
-      "content": "下面这个有向图的强连通分量的个数是（ ）。\n"
+      "content": "下面这个有向图的强连通分量的个数是（ ）。"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": "泛洪算法只能用于统计连通块个数，不能用于计算面积或周长。"
         }
       ],
-      "content": "关于泛洪算法（Flood Fill）的说法，正确的是（ ）。\n"
+      "content": "关于泛洪算法（Flood Fill）的说法，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "58"
+          "text": "$58$"
         },
         {
           "key": "B",
-          "text": "60"
+          "text": "$60$"
         },
         {
           "key": "C",
-          "text": "62"
+          "text": "$62$"
         },
         {
           "key": "D",
-          "text": "64"
+          "text": "$64$"
         }
       ],
-      "content": "有 6 个字符，它们出现的次数分别为：{2, 3, 3, 4, 6, 8}，现在用哈夫曼编码为这些字符编码，最\n小加权路径长度 WPL（每个字符的出现次数 它的编码长度，再把每个字符结果加起来）的值为（ ）。\n"
+      "content": "有 $6$ 个字符，它们出现的次数分别为：$\\{2, 3, 3, 4, 6, 8\\}$，现在用哈夫曼编码为这些字符编码，最小加权路径长度 WPL（每个字符的出现次数 $\\times$ 它的编码长度，再把每个字符结果加起来）的值为（ ）。"
     },
     {
       "type": "choice",
@@ -340,7 +340,7 @@
       "options": [
         {
           "key": "A",
-          "text": "在单链表中，若已知某结点的指针，则可以在 时间内删除该结点。"
+          "text": "在单链表中，若已知某结点的指针，则可以在 $O(1)$ 时间内删除该结点。"
         },
         {
           "key": "B",
@@ -348,14 +348,14 @@
         },
         {
           "key": "C",
-          "text": "在循环双链表中，尾结点的 next 指针一定为 NULL。"
+          "text": "在循环双链表中，尾结点的 `next` 指针一定为 `NULL`。"
         },
         {
           "key": "D",
-          "text": "在带头结点的循环单链表中，判定链表是否为空只需判断头结点的 next 是否指向自身。"
+          "text": "在带头结点的循环单链表中，判定链表是否为空只需判断头结点的 `next` 是否指向自身。"
         }
       ],
-      "content": "关于单链表、双链表和循环链表，下列说法正确的是（ ）。\n"
+      "content": "关于单链表、双链表和循环链表，下列说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "一棵二叉树的中序遍历序列是单调递增的，则该二叉树一定是二叉平衡树。"
         }
       ],
-      "content": "下列关于树的遍历的说法中，正确的一项是（ ）。\n"
+      "content": "下列关于树的遍历的说法中，正确的一项是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "C++ 语⾔中，表达式4 ^ 2的结果类型为int，值为6。\n"
+      "content": "C++ 语言中，表达式 `4 ^ 2` 的结果类型为 `int`，值为 $6$。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "C++ 中引用可以重新绑定。\n"
+      "content": "C++ 中引用可以重新绑定。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "在 C++ 中，若函数形参为引用类型，则在函数内部对该形参的修改会影响对应的实参。\n"
+      "content": "在 C++ 中，若函数形参为引用类型，则在函数内部对该形参的修改会影响对应的实参。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "如果一个最值问题可以用动态规划在多项式时间内求解，那么也一定存在一种贪心策略，可以在多项式时间\n内求得最优解。\n"
+      "content": "如果一个最值问题可以用动态规划在多项式时间内求解，那么也一定存在一种贪心策略，可以在多项式时间内求得最优解。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "使用归并排序对 个元素进行排序时，无论最好、最坏还是平均情况，时间复杂度均为 。\n"
+      "content": "使用归并排序对 $n$ 个元素进行排序时，无论最好、最坏还是平均情况，时间复杂度均为 $O(n \\log n)$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "在无向连通图中删除一条边，该图就一定变成非连通图。\n"
+      "content": "在无向连通图中删除一条边，该图就一定变成非连通图。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "在一个无向图中，每个顶点有不同的编号，在执行深度优先遍历过程中选择下一个顶点时总是优先选择编号\n更小的相邻顶点，则从指定顶点开始的遍历序列是唯一的。\n"
+      "content": "在一个无向图中，每个顶点有不同的编号，在执行深度优先遍历过程中选择下一个顶点时总是优先选择编号更小的相邻顶点，则从指定顶点开始的遍历序列是唯一的。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "若所有字符出现频率相同，则哈夫曼编码一定会得到完全二叉树。\n"
+      "content": "若所有字符出现频率相同，则哈夫曼编码一定会得到完全二叉树。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "使用 math.h或 cmath 头文件中的函数，表达式 sin(90) 的结果为 1。\n"
+      "content": "使用 `math.h` 或 `cmath` 头文件中的函数，表达式 `sin(90)` 的结果为 $1$。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "在一个无向连通图中，从任意顶点开始进行深度优先遍历，最终得到的 DFS 生成树一定包含图中的所有顶\n点。\n"
+      "content": "在一个无向连通图中，从任意顶点开始进行深度优先遍历，最终得到的 DFS 生成树一定包含图中的所有顶点。"
     },
     {
       "type": "program",

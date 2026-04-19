@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1,440,000"
+          "text": "$1,440,000$"
         },
         {
           "key": "B",
-          "text": "2,160,000"
+          "text": "$2,160,000$"
         },
         {
           "key": "C",
-          "text": "2,535,000"
+          "text": "$2,535,000$"
         },
         {
           "key": "D",
-          "text": "8,640,000"
+          "text": "$8,640,000$"
         }
       ],
-      "content": "某平台生成“取件码”由6个字符组成：前4位为数字（0–9），后2位为大写字母（A–Z），其中字母不能\n为 I、O。假设数字和字母均可重复使用，要求整个取件码中恰好有2个数字为奇数。共有多少种不同取件码？（\n）\n"
+      "content": "某平台生成“取件码”由 $6$ 个字符组成：前 $4$ 位为数字（$0$–$9$），后 $2$ 位为大写字母（A–Z），其中字母不能为 I、O。假设数字和字母均可重复使用，要求整个取件码中恰好有 $2$ 个数字为奇数。共有多少种不同取件码？（ ）"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "merge_sort(a, mid, right)"
+          "text": "`merge_sort(a, mid, right)`"
         },
         {
           "key": "B",
-          "text": "merge_sort(a, mid + 1, right)"
+          "text": "`merge_sort(a, mid + 1, right)`"
         },
         {
           "key": "C",
-          "text": "merge_sort(a, left, mid + 1)"
+          "text": "`merge_sort(a, left, mid + 1)`"
         },
         {
           "key": "D",
-          "text": "merge_sort(a, mid - 1, right)"
+          "text": "`merge_sort(a, mid - 1, right)`"
         }
       ],
-      "content": "下列代码实现了归并排序（Merge Sort）的分治部分。为了正确地将数组 a 的 [left, right] 区间进行\n排序，横线处应该填入的是（ ）。\n\n```cpp\nvoid merge_sort(int a[], int left, int right) {\n    if (left >= right) return;\n    int mid = (left + right) / 2;\n    merge_sort(a, left, mid);\n    ________; // 在此处填入选项\n    merge(a, left, mid, right); // 合并操作\n}\n```\n"
+      "content": "下列代码实现了归并排序（Merge Sort）的分治部分。为了正确地将数组 $a$ 的 $[\\text{left}, \\text{right}]$ 区间进行排序，横线处应该填入的是（ ）。\n\n```cpp\nvoid merge_sort(int a[], int left, int right) {\n    if (left >= right) return;\n    int mid = (left + right) / 2;\n    merge_sort(a, left, mid);\n    ________; // 在此处填入选项\n    merge(a, left, mid, right); // 合并操作\n}\n```"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "11025"
         }
       ],
-      "content": "某社团有男生8⼈、⼥生7⼈。现需选出1名队长（性别不限）、1名副队长（性别不限）、2名宣传委员（两\n⼈无角色区别，且必须至少1名⼥生）。假如一⼈不能兼任多职，共有多少种不同选法？（ ）\n"
+      "content": "某社团有男生 $8$ 人、女生 $7$ 人。现需选出 $1$ 名队长（性别不限）、$1$ 名副队长（性别不限）、$2$ 名宣传委员（两人无角色区别，且必须至少 $1$ 名女生）。假如一人不能兼任多职，共有多少种不同选法？（ ）"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "-7168"
+          "text": "$-7168$"
         },
         {
           "key": "B",
-          "text": "7168"
+          "text": "$7168$"
         },
         {
           "key": "C",
-          "text": "-1792"
+          "text": "$-1792$"
         },
         {
           "key": "D",
-          "text": "1792"
+          "text": "$1792$"
         }
       ],
-      "content": "二项式 的展开式中 项的系数为（ ）。\n"
+      "content": "二项式 $(x - 2)^8$ 的展开式中 $x^5$ 项的系数为（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dis[j] < dis[u] + graph[u][j]"
+          "text": "`dis[j] < dis[u] + graph[u][j]`"
         },
         {
           "key": "B",
-          "text": "dis[j] > dis[u] + graph[u][j]"
+          "text": "`dis[j] > dis[u] + graph[u][j]`"
         },
         {
           "key": "C",
-          "text": "graph[u][j] > dis[u] + dis[j]"
+          "text": "`graph[u][j] > dis[u] + dis[j]`"
         },
         {
           "key": "D",
-          "text": "dis[j] > graph[u][j]"
+          "text": "`dis[j] > graph[u][j]`"
         }
       ],
-      "content": "下面是使用邻接矩阵实现的Dijkstra算法的核心片段，用于求单源最短路径。在找到当前距离起点最近的顶点\nu 后，需要更新其邻接点 j 的距离。横线处应填入的代码是（ ）。\n\n```cpp\nfor (int j = 1; j <= n; j++) {\n    if (!visited[j] && graph[u][j] < INF) {\n        if (________) { // 在此处填入选项\n            dis[j] = dis[u] + graph[u][j];\n        }\n    }\n}\n```\n"
+      "content": "下面是使用邻接矩阵实现的 Dijkstra 算法的核心片段，用于求单源最短路径。在找到当前距离起点最近的顶点 $u$ 后，需要更新其邻接点 $j$ 的距离。横线处应填入的代码是（ ）。\n\n```cpp\nfor (int j = 1; j <= n; j++) {\n    if (!visited[j] && graph[u][j] < INF) {\n        if (________) { // 在此处填入选项\n            dis[j] = dis[u] + graph[u][j];\n        }\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dp[i][j] = dp[i - 1][j] + dp[i][j - 1];"
+          "text": "`dp[i][j] = dp[i - 1][j] + dp[i][j - 1];`"
         },
         {
           "key": "B",
-          "text": "dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]);"
+          "text": "`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]);`"
         },
         {
           "key": "C",
-          "text": "dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);"
+          "text": "`dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);`"
         },
         {
           "key": "D",
-          "text": "dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]) + 1;"
+          "text": "`dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]) + 1;`"
         }
       ],
-      "content": "下面程序使用动态规划求两个字符串的最长公共⼦序列（LCS）长度，横线处应填入的是（ ）。\n\n```cpp\n#include <algorithm>\n#include <string>\n#include <vector>\nusing namespace std;\nint lcs_len(const string &a, const string &b) {\n    int n = (int)a.size(), m = (int)b.size();\n    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));\n    for (int i = 1; i <= n; i++)\n    for (int j = 1; j <= m; j++)\n    if (a[i - 1] == b[j - 1])\n    dp[i][j] = dp[i - 1][j - 1] + 1;\n    else\n    ________; // 在此处填入选项\n    return dp[n][m];\n}\n```\n"
+      "content": "下面程序使用动态规划求两个字符串的最长公共子序列（LCS）长度，横线处应填入的是（ ）。\n\n```cpp\n#include <algorithm>\n#include <string>\n#include <vector>\nusing namespace std;\nint lcs_len(const string &a, const string &b) {\n    int n = (int)a.size(), m = (int)b.size();\n    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));\n    for (int i = 1; i <= n; i++)\n        for (int j = 1; j <= m; j++)\n            if (a[i - 1] == b[j - 1])\n                dp[i][j] = dp[i - 1][j - 1] + 1;\n            else\n                ________; // 在此处填入选项\n    return dp[n][m];\n}\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)"
+          "text": "`sqrt((x1 - x2) ^ 2 + (y1 - y2) ^ 2)`"
         },
         {
           "key": "B",
-          "text": "sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2))"
+          "text": "`sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2))`"
         },
         {
           "key": "C",
-          "text": "pow(x1 - x2, 2) + pow(y1 - y2, 2)"
+          "text": "`pow(x1 - x2, 2) + pow(y1 - y2, 2)`"
         },
         {
           "key": "D",
-          "text": "abs(x1 - x2) + abs(y1 - y2)"
+          "text": "`abs(x1 - x2) + abs(y1 - y2)`"
         }
       ],
-      "content": "已知两个点 和 在平面直角坐标系中的坐标。下列C++表达式中，能正确计算这两点之间\n直线距离的是（ ）。\n"
+      "content": "已知两个点 $(x_1, y_1)$ 和 $(x_2, y_2)$ 在平面直角坐标系中的坐标。下列 C++ 表达式中，能正确计算这两点之间直线距离的是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "20"
+          "text": "$20$"
         },
         {
           "key": "C",
-          "text": "30"
+          "text": "$30$"
         },
         {
           "key": "D",
           "text": "编译错误"
         }
       ],
-      "content": "已知 int a = 10;，执行 int &b = a; b = 20; 后，变量 a 的值是（ ）。\n"
+      "content": "已知 `int a = 10;`，执行 `int &b = a; b = 20;` 后，变量 $a$ 的值是（ ）。"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": ""
         }
       ],
-      "content": "下列代码的时间复杂度（以 为自变量，忽略常数与低阶项）是（ ）。\n\n```cpp\nlong long s = 0;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j * j <= i; j++) {\n        s += j;\n    }\n}\n```\n"
+      "content": "下列代码的时间复杂度（以 $n$ 为自变量，忽略常数与低阶项）是（ ）。\n\n```cpp\nlong long s = 0;\nfor (int i = 1; i <= n; i++) {\n    for (int j = 1; j * j <= i; j++) {\n        s += j;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "i + primes[j] == n"
+          "text": "`i + primes[j] == n`"
         },
         {
           "key": "B",
-          "text": "primes[j] > i"
+          "text": "`primes[j] > i`"
         },
         {
           "key": "C",
-          "text": "i % primes[j] == 0"
+          "text": "`i % primes[j] == 0`"
         },
         {
           "key": "D",
-          "text": "i % primes[j] != 0"
+          "text": "`i % primes[j] != 0`"
         }
       ],
-      "content": "下列程序实现了线性筛法（欧拉筛），用于在 时间内求出 之间的所有质数。为了保证每个合数\n只被其最小质因⼦筛掉，横线处应填入的语句是（ ）。\n\n```cpp\nfor (int i = 2; i <= n; i++) {\n    if (!not_prime[i]) primes[++cnt] = i;\n    for (int j = 1; j <= cnt && i * primes[j] <= n; j++) {\n        not_prime[i * primes[j]] = true;\n        if (________) break; // 在此处填入选项\n    }\n}\n```\n"
+      "content": "下列程序实现了线性筛法（欧拉筛），用于在 $O(n)$ 时间内求出 $1$ 到 $n$ 之间的所有质数。为了保证每个合数只被其最小质因⼦筛掉，横线处应填入的语句是（ ）。\n\n```cpp\nfor (int i = 2; i <= n; i++) {\n    if (!not_prime[i]) primes[++cnt] = i;\n    for (int j = 1; j <= cnt && i * primes[j] <= n; j++) {\n        not_prime[i * primes[j]] = true;\n        if (________) break; // 在此处填入选项\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -265,11 +265,11 @@
       "options": [
         {
           "key": "A",
-          "text": "派生类可以访问基类的 private 成员。"
+          "text": "派生类可以访问基类的 `private` 成员。"
         },
         {
           "key": "B",
-          "text": "基类的 protected 成员在私有继承（private inheritance）后，在派生类中变为 public。"
+          "text": "基类的 `protected` 成员在私有继承（`private` inheritance）后，在派生类中变为 `public`。"
         },
         {
           "key": "C",
@@ -280,7 +280,7 @@
           "text": "派生类对象在销毁时，会先调用基类的析构函数，再调用派生类自⼰的析构函数。"
         }
       ],
-      "content": "在C++语⾔中，关于类的继承和访问权限，下列说法正确的是（ ）。\n"
+      "content": "在 C++ 语⾔中，关于类的继承和访问权限，下列说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "14"
+          "text": "$14$"
         },
         {
           "key": "B",
-          "text": "27"
+          "text": "$27$"
         },
         {
           "key": "C",
-          "text": "28"
+          "text": "$28$"
         },
         {
           "key": "D",
-          "text": "15"
+          "text": "$15$"
         }
       ],
-      "content": "当输入 6 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint f(int n) {\n    if (n <= 3) return n;\n    return f(n - 1) + f(n - 2) + 2 * f(n - 3);\n}\nint main() {\n    int n;\n    cin >> n;\n    cout << f(n) << endl;\n    return 0;\n}\n```\n"
+      "content": "当输入 $6$ 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint f(int n) {\n    if (n <= 3) return n;\n    return f(n - 1) + f(n - 2) + 2 * f(n - 3);\n}\nint main() {\n    int n;\n    cin >> n;\n    cout << f(n) << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "243"
+          "text": "$243$"
         },
         {
           "key": "B",
-          "text": "271"
+          "text": "$271$"
         },
         {
           "key": "C",
-          "text": "300"
+          "text": "$300$"
         },
         {
           "key": "D",
-          "text": "333"
+          "text": "$333$"
         }
       ],
-      "content": "从1到999这999个正整数中，十进制表⽰中数字 5 恰好出现一次的数有多少个？（ ）\n"
+      "content": "从 $1$ 到 $999$ 这 $999$ 个正整数中，十进制表示中数字 $5$ 恰好出现一次的数有多少个？（ ）"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "7"
+          "text": "$7$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "D",
-          "text": "11"
+          "text": "$11$"
         }
       ],
-      "content": "当输入 2023 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int x, ans = 0;\n    cin >> x;\n    while (x != 0) {\n        x -= x & -x;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```\n"
+      "content": "当输入 $2023$ 时，下列程序的输出结果为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int x, ans = 0;\n    cin >> x;\n    while (x != 0) {\n        x -= x & -x;\n        ans++;\n    }\n    cout << ans << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "必须选入MST，否则可能不连通。"
+          "text": "必须选入 MST，否则可能不连通。"
         },
         {
           "key": "B",
-          "text": "一定不能选入MST（在此扫描顺序下）。"
+          "text": "一定不能选入 MST（在此扫描顺序下）。"
         },
         {
           "key": "C",
-          "text": "若后续出现更大的边权，可以回溯改选 。"
+          "text": "若后续出现更大的边权，可以回溯改选 $e$。"
         },
         {
           "key": "D",
-          "text": "只有当 是当前最小边时才能舍弃。"
+          "text": "只有当 $e$ 是当前最小边时才能舍弃。"
         }
       ],
-      "content": "对连通无向图执行Kruskal算法。已按边权从小到大依次扫描到某条边 。此时在已经构建的部分\nMST结构中， 已在同一连通块内。关于边 的处理，下列说法正确的是（ ）。\n"
+      "content": "对连通无向图执行 Kruskal 算法。已按边权从小到大依次扫描到某条边 $e$。此时在已经构建的部分 MST 结构中，$e$ 的两个端点已在同一连通块内。关于边 $e$ 的处理，下列说法正确的是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "若一项任务可用两种互斥方案完成：方案A有 种做法，方案B有 种做法，则总做法数为 。\n"
+      "content": "若一项任务可用两种互斥方案完成：方案 A 有 $m$ 种做法，方案 B 有 $n$ 种做法，则总做法数为 $m + n$。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "在C++语⾔中，引用一旦被初始化，就不能再改为引用另一个变量。\n"
+      "content": "在 C++ 语言中，引用一旦被初始化，就不能再改为引用另一个变量。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "快速排序和归并排序的平均时间复杂度都是 ，但快速排序是不稳定的排序算法，归并排序是稳定\n的排序算法。\n"
+      "content": "快速排序和归并排序的平均时间复杂度都是 $O(n \\log n)$，但快速排序是不稳定的排序算法，归并排序是稳定的排序算法。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "使用 math.h 或 cmath 头文件中的函数，表达式 sqrt(4) 的结果类型为 double。\n"
+      "content": "使用 `math.h` 或 `cmath` 头文件中的函数，表达式 `sqrt(4)` 的结果类型为 `double`。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "在杨辉三角形中，第 行（从0开始计数，即第 行有 个数）的所有数字之和等于 。\n"
+      "content": "在杨辉三角形中，第 $n$ 行（从 $0$ 开始计数，即第 $n$ 行有 $n+1$ 个数）的所有数字之和等于 $2^n$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "使用二叉堆优化的Dijkstra最短路算法，在某些特殊情况下时间复杂度不如朴素实现的 。\n"
+      "content": "使用二叉堆优化的 Dijkstra 最短路算法，在某些特殊情况下时间复杂度不如朴素实现的。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "个不同元素依次入栈的出栈序列数与将 个不同元素划分成若⼲非空⼦集的方案数相等。\n"
+      "content": "$n$ 个不同元素依次入栈的出栈序列数与将 $n$ 个不同元素划分成若干非空子集的方案数相等。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "快速排序在最坏情况下的时间复杂度为 ，可以通过随机化选择基准值（pivot）的方法完全避免退\n化。\n"
+      "content": "快速排序在最坏情况下的时间复杂度为 $O(n^2)$，可以通过随机化选择基准值（pivot）的方法完全避免退化。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "在C++语⾔中，一个类可以拥有多个构造函数，也可以拥有多个析构函数。\n"
+      "content": "在 C++ 语言中，一个类可以拥有多个构造函数，也可以拥有多个析构函数。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "求两个序列的最长公共⼦序列（LCS）时，使用滚动数组优化空间后，仍然可以还原出具体的LCS序列。\n"
+      "content": "求两个序列的最长公共子序列（LCS）时，使用滚动数组优化空间后，仍然可以还原出具体的 LCS 序列。"
     },
     {
       "type": "program",

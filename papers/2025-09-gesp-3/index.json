@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "3.33333"
+          "text": "$3.33333$"
         },
         {
           "key": "B",
-          "text": "3.333"
+          "text": "$3.333$"
         },
         {
           "key": "C",
-          "text": "3.0"
+          "text": "$3.0$"
         },
         {
           "key": "D",
-          "text": "3.3"
+          "text": "$3.3$"
         }
       ],
-      "content": "执行以下C++代码后，c 的数值是（ ）。\n\n```cpp\nint a = 10, b = 3;\ndouble c = a / b;\n```\n"
+      "content": "执行以下 C++ 代码后，$c$ 的数值是（ ）。\n\n```cpp\nint a = 10, b = 3;\ndouble c = a / b;\n```"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(5 <= 5) && (7 < 5)"
+          "text": "`(5 <= 5) && (7 < 5)`"
         },
         {
           "key": "B",
-          "text": "!(10 > 5)"
+          "text": "`!(10 > 5)`"
         },
         {
           "key": "C",
-          "text": "(10 != 10) || (5 >= 3)"
+          "text": "`(10 != 10) || (5 >= 3)`"
         },
         {
           "key": "D",
-          "text": "(5 == 3) && (4 > 2)"
+          "text": "`(5 == 3) && (4 > 2)`"
         }
       ],
-      "content": "下列C++表达式的结果为 true 的是（ ）。\n"
+      "content": "下列 C++ 表达式的结果为 `true` 的是（ ）。"
     },
     {
       "type": "choice",
@@ -65,11 +65,11 @@
       "options": [
         {
           "key": "A",
-          "text": "数组的下标通常从 0 开始。"
+          "text": "数组的下标通常从 $0$ 开始。"
         },
         {
           "key": "B",
-          "text": "int arr[5]; 声明了一个包含5个整数的数组。"
+          "text": "`int arr[5];` 声明了一个包含 $5$ 个整数的数组。"
         },
         {
           "key": "C",
@@ -77,10 +77,10 @@
         },
         {
           "key": "D",
-          "text": "可以通过 arr[5] 来访问 int arr[5]; 数组的最后一个元素。"
+          "text": "可以通过 `arr[5]` 来访问 `int arr[5];` 数组的最后一个元素。"
         }
       ],
-      "content": "以下关于C++数组的说法，错误的是（ ）。\n"
+      "content": "以下关于 C++ 数组的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "B",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "C",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "D",
           "text": "死循环"
         }
       ],
-      "content": "执行以下C++代码后，变量 sum 的值是（ ）。\n\n```cpp\nint sum = 0;\nfor (int i = 1; i <= 5; i += 2) {\n    sum += i;\n    int sum=0;\n}\n```\n"
+      "content": "执行以下 C++ 代码后，变量 `sum` 的值是（ ）。\n\n```cpp\nint sum = 0;\nfor (int i = 1; i <= 5; i += 2) {\n    sum += i;\n    int sum = 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "void max(int a, int b) { return a > b ? a : b; }"
+          "text": "`void max(int a, int b) { return a > b ? a : b; }`"
         },
         {
           "key": "B",
-          "text": "int max(int a, int b) { if (a > b) return a; else return b; }"
+          "text": "`int max(int a, int b) { if (a > b) return a; else return b; }`"
         },
         {
           "key": "C",
-          "text": "int max(a, b) { if (a > b) return a; else return b; }"
+          "text": "`int max(a, b) { if (a > b) return a; else return b; }`"
         },
         {
           "key": "D",
-          "text": "void max(a, b) { cout << (a > b ? a : b); }"
+          "text": "`void max(a, b) { cout << (a > b ? a : b); }`"
         }
       ],
-      "content": "要正确定义一个返回两个整数中较大值的函数 max，应该使用（ ）。\n"
+      "content": "要正确定义一个返回两个整数中较大值的函数 `max` ，应该使用（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "{1, 2, 3, 3}"
+          "text": "`{1, 2, 3, 3}`"
         },
         {
           "key": "B",
-          "text": "{1, 2, 3, 4}"
+          "text": "`{1, 2, 3, 4}`"
         },
         {
           "key": "C",
-          "text": "{1, 2, 3, 5}"
+          "text": "`{1, 2, 3, 5}`"
         },
         {
           "key": "D",
-          "text": "{1, 2, 3, 6}"
+          "text": "`{1, 2, 3, 6}`"
         }
       ],
-      "content": "执行以下C++代码后，数组 arr 的内容是（ ）。\n\n```cpp\nint arr[4] = {1, 2, 3};\narr[3] = arr[0] + arr[2];\n```\n"
+      "content": "执行以下 C++ 代码后，数组 `arr` 的内容是（ ）。\n\n```cpp\nint arr[4] = {1, 2, 3};\narr[3] = arr[0] + arr[2];\n```"
     },
     {
       "type": "choice",
@@ -169,18 +169,18 @@
         },
         {
           "key": "B",
-          "text": "函数通过 return 语句只能返回一个值。但是可以通过很多间接的方式返回多个值。"
+          "text": "函数通过 `return` 语句只能返回一个值。但是可以通过很多间接的方式返回多个值。"
         },
         {
           "key": "C",
-          "text": "main 函数可以被其他函数调用。"
+          "text": "`main` 函数可以被其他函数调用。"
         },
         {
           "key": "D",
           "text": "函数的定义可以直接嵌套，即一个函数内部可以真正定义另一个函数。"
         }
       ],
-      "content": "以下关于C++函数的描述，正确的是（ ）。\n"
+      "content": "以下关于 C++ 函数的描述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "B",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "C",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "D",
-          "text": "0"
+          "text": "$0$"
         }
       ],
-      "content": "以下C++代码 count++ 执行的次数是（ ）。\n\n```cpp\nint i = 10;\nint count=0;\nwhile (i > 0) {\n    i -= 3;\n    continue;\n    count++;\n}\n```\n"
+      "content": "以下 C++ 代码 `count++` 执行的次数是（ ）。\n\n```cpp\nint i = 10;\nint count=0;\nwhile (i > 0) {\n    i -= 3;\n    continue;\n    count++;\n}\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0#01#012#0123#"
+          "text": "`0#01#012#0123#`"
         },
         {
           "key": "B",
-          "text": "1#12#123#1234#"
+          "text": "`1#12#123#1234#`"
         },
         {
           "key": "C",
-          "text": "0#1#2#3#"
+          "text": "`0#1#2#3#`"
         },
         {
           "key": "D",
-          "text": "0#01#012#01243#"
+          "text": "`0#01#012#01243#`"
         }
       ],
-      "content": "以下C++代码段的输出是（ ）。\n\n```cpp\nfor (int i = 0; i < 4; i++) {\n    for (int j = 0; j <= i; j++) {\n        cout << j;\n    }\n    cout << \"#\";\n}\n```\n"
+      "content": "以下 C++ 代码段的输出是（ ）。\n\n```cpp\nfor (int i = 0; i < 4; i++) {\n    for (int j = 0; j <= i; j++) {\n        cout << j;\n    }\n    cout << \"#\";\n}\n```"
     },
     {
       "type": "choice",
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "在 for 循环语句中声明的变量，其作用域仅限于该循环体内。"
+          "text": "在 `for` 循环语句中声明的变量，其作用域仅限于该循环体内。"
         },
         {
           "key": "B",
@@ -252,10 +252,10 @@
         },
         {
           "key": "D",
-          "text": "不同函数中的局部变量可以同名，它们代表不同的内存单元"
+          "text": "不同函数中的局部变量可以同名，它们代表不同的内存单元。"
         }
       ],
-      "content": "以下关于C++变量作用域的说法，错误的是（ ）。\n"
+      "content": "以下关于 C++ 变量作用域的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -269,18 +269,18 @@
         },
         {
           "key": "B",
-          "text": "能够反转的最大位数正整数是 2147483647"
+          "text": "能够反转的最大位数正整数是 $2147483647$"
         },
         {
           "key": "C",
-          "text": "能够反转的最大位数正整数是 2147483648"
+          "text": "能够反转的最大位数正整数是 $2147483648$"
         },
         {
           "key": "D",
-          "text": "能够反转的最大位数正整数是 1463847412"
+          "text": "能够反转的最大位数正整数是 $1463847412$"
         }
       ],
-      "content": "关于以下代码的说法正确的是（ ）。\n\n```cpp\nint reversed = 0;\nwhile (x != 0) {\n    int digit = x % 10;\n    x /= 10;\n    reversed = reversed * 10 + digit;\n}\n```\n"
+      "content": "关于以下代码的说法正确的是（ ）。\n\n```cpp\nint reversed = 0;\nwhile (x != 0) {\n    int digit = x % 10;\n    x /= 10;\n    reversed = reversed * 10 + digit;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "arr[-1]"
+          "text": "`arr[-1]`"
         },
         {
           "key": "C",
-          "text": "arr[0]"
+          "text": "`arr[0]`"
         },
         {
           "key": "D",
-          "text": "size"
+          "text": "`size`"
         }
       ],
-      "content": "以下C++代码试图查找数组中的最大值，划线处应填入（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint findMax(int arr[], int size) {\n    int maxVal = ________; // 划线处\n    for (int i = 1; i < size; i++) {\n        if (arr[i] > maxVal) {\n            maxVal = arr[i];\n        }\n    }\n    return maxVal;\n}\n```\n"
+      "content": "以下 C++ 代码试图查找数组中的最大值，划线处应填入（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint findMax(int arr[], int size) {\n    int maxVal = ________; // 划线处\n    for (int i = 1; i < size; i++) {\n        if (arr[i] > maxVal) {\n            maxVal = arr[i];\n        }\n    }\n    return maxVal;\n}\n```"
     },
     {
       "type": "choice",
@@ -323,14 +323,14 @@
         },
         {
           "key": "C",
-          "text": "没有返回值的函数必须声明为 void 类型，且不能包含 return 语句"
+          "text": "没有返回值的函数必须声明为 `void` 类型，且不能包含 `return` 语句"
         },
         {
           "key": "D",
-          "text": "C++11 及之后标准要求函数必须显式声明返回类型，不允许默认返回 int"
+          "text": "C++11 及之后标准要求函数必须显式声明返回类型，不允许默认返回 `int`"
         }
       ],
-      "content": "以下关于C++函数的说法，正确的是（ ）。\n"
+      "content": "以下关于 C++ 函数的说法，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0处"
+          "text": "$0$ 处"
         },
         {
           "key": "B",
-          "text": "1处"
+          "text": "$1$ 处"
         },
         {
           "key": "C",
-          "text": "2处"
+          "text": "$2$ 处"
         },
         {
           "key": "D",
-          "text": "3处"
+          "text": "$3$ 处"
         }
       ],
-      "content": "以下C++代码中存在几处错误（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    const int SIZE = 5;\n    int arr[SIZE];\n    for (int i = 0; i <= SIZE; i++) {\n        arr[i] = i * 2;\n    }\n    cout << arr[SIZE] << endl;\n    return 0;\n}\n```\n"
+      "content": "以下 C++ 代码中存在几处错误（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    const int SIZE = 5;\n    int arr[SIZE];\n    for (int i = 0; i <= SIZE; i++) {\n        arr[i] = i * 2;\n    }\n    cout << arr[SIZE] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "string 对象可以使用 = 进行赋值，⽽字符数组需要使用 strcpy。"
+          "text": "`string` 对象可以使用 `=` 进行赋值，而字符数组需要使用 `strcpy`。"
         },
         {
           "key": "B",
-          "text": "string 对象的长度可以使用 length() 成员函数获取，⽽字符数组需要使用 strlen() 函数。"
+          "text": "`string` 对象的长度可以使用 `length()` 成员函数获取，而字符数组需要使用 `strlen()` 函数。"
         },
         {
           "key": "C",
-          "text": "string 对象在内存中是动态分配空间的，因此可以自动处理字符串长度的变化。"
+          "text": "`string` 对象在内存中是动态分配空间的，因此可以自动处理字符串长度的变化。"
         },
         {
           "key": "D",
-          "text": "string 对象和字符数组都可以使用 == 运算符来直接比较两个字符串的内容是否相同。"
+          "text": "`string` 对象和字符数组都可以使用 `==` 运算符来直接比较两个字符串的内容是否相同。"
         }
       ],
-      "content": "以下关于C++中 string 类和字符数组(char[])的说法，错误的是（ ）。\n"
+      "content": "以下关于 C++ 中 `string` 类和字符数组 (`char[]`) 的说法，错误的是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "表达式 sizeof('a') 的结果总是 1，因为 'a' 是一个字符。\n"
+      "content": "表达式 `sizeof('a')` 的结果总是 $1$，因为 `'a'` 是一个字符。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，所有全局变量如果没有显式初始化，都会被自动初始化为0。\n"
+      "content": "在 C++ 中，所有全局变量如果没有显式初始化，都会被自动初始化为 $0$。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "do { ... } while (false); 循环体内的语句至少会被执行一次。\n"
+      "content": "`do { ... } while (false);` 循环体内的语句至少会被执行一次。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，++i 是一个左值表达式，⽽ i++ 是一个右值表达式。\n"
+      "content": "在 C++ 中，`++i` 是一个左值表达式，而 `i++` 是一个右值表达式。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "对于 enum Color { RED, GREEN, BLUE };，RED 的类型是 int\n"
+      "content": "对于 `enum Color { RED, GREEN, BLUE };`，`RED` 的类型是 `int`"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "#define SQUARE(x) x * x 是一个安全的宏定义，SQUARE(2+3) 会正确计算出 25。\n"
+      "content": "`#define SQUARE(x) x * x` 是一个安全的宏定义，`SQUARE(2+3)` 会正确计算出 $25$。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "在C++中，char 类型的取值范围总是 -128 到 127。\n"
+      "content": "在 C++ 中，`char` 类型的取值范围总是 $-128$ 到 $127$。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "表达式 a > b ? a : b = 10; 一定是合法的C++代码。\n"
+      "content": "表达式 `a > b ? a : b = 10;` 一定是合法的 C++ 代码。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "#include \"file.h\" 和 #include <file.h> 在编译器查找头文件时的搜索策略是完全相同的。\n"
+      "content": "`#include \"file.h\"` 和 `#include <file.h>` 在编译器查找头文件时的搜索策略是完全相同的。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "在同一个作用域内，extern 声明的变量可以多次定义。\n"
+      "content": "在同一个作用域内，`extern` 声明的变量可以多次定义。"
     },
     {
       "type": "program",

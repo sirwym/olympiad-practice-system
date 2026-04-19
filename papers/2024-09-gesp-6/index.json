@@ -15,11 +15,11 @@
       "options": [
         {
           "key": "A",
-          "text": "C++ 中构造一个 class 或 struct"
+          "text": "C++ 中构造一个 `class` 或 `struct`"
         },
         {
           "key": "B",
-          "text": "C++ 中调用 printf 函数"
+          "text": "C++ 中调用 `printf` 函数"
         },
         {
           "key": "C",
@@ -30,7 +30,7 @@
           "text": "C++ 中构造来源于同一基类的多个派生类"
         }
       ],
-      "content": "以下（ ）没有涉及 C++ 语⾔的面向对象特性支持。\n"
+      "content": "以下（ ）没有涉及 C++ 语言的面向对象特性支持。"
     },
     {
       "type": "choice",
@@ -55,7 +55,7 @@
           "text": "没有编译错误"
         }
       ],
-      "content": "关于以下C++代码，（ ）行代码会引起编译错误。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass Base {\n    private:\n    int a;\n    protected:\n    int b;\n    public:\n    int c;\n    Base() : a(1), b(2), c(3) {}\n};\nclass Derived : public Base {\n    public:\n    void show() {\n        cout << a << endl; // Line 1\n        cout << b << endl; // Line 2\n        cout << c << endl; // Line 3\n    }\n};\n```\n"
+      "content": "关于以下 C++ 代码，（ ）行代码会引起编译错误。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass Base {\n    private:\n    int a;\n    protected:\n    int b;\n    public:\n    int c;\n    Base() : a(1), b(2), c(3) {}\n};\nclass Derived : public Base {\n    public:\n    void show() {\n        cout << a << endl; // Line 1\n        cout << b << endl; // Line 2\n        cout << c << endl; // Line 3\n    }\n};\n```"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5,4,3,6,1,2"
+          "text": "$5,4,3,6,1,2$"
         },
         {
           "key": "B",
-          "text": "4,5,3,1,2,6"
+          "text": "$4,5,3,1,2,6$"
         },
         {
           "key": "C",
-          "text": "3,4,6,5,2,1"
+          "text": "$3,4,6,5,2,1$"
         },
         {
           "key": "D",
-          "text": "2,3,4,1,5,6"
+          "text": "$2,3,4,1,5,6$"
         }
       ],
-      "content": "有6个元素，按照 6,5,4,3,2,1 的顺序进入栈S，下列（ ）的出栈序列是不能出现的（ ）。\n"
+      "content": "有 $6$ 个元素，按照 $6,5,4,3,2,1$ 的顺序进入栈 $S$，下列（ ）的出栈序列是不能出现的（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "top = st.top(); st.pop();"
+          "text": "`top = st.top(); st.pop();`"
         },
         {
           "key": "B",
-          "text": "st.pop(); top = st.top();"
+          "text": "`st.pop(); top = st.top();`"
         },
         {
           "key": "C",
-          "text": "st.pop(); top = st.front();"
+          "text": "`st.pop(); top = st.front();`"
         },
         {
           "key": "D",
-          "text": "top = st.front(); st.pop();"
+          "text": "`top = st.front(); st.pop();`"
         }
       ],
-      "content": "采用如下代码实现检查输入的字符串括号是否匹配，横线上应填入的代码为（ ）。\n\n```cpp\n#include <iostream>\n#include <stack>\n#include <string>\nusing namespace std;\nbool is_valid(string s) {\n    stack<char> st;\n    char top;\n    for (char& ch : s) {\n        if (ch == '(' || ch == '{' || ch == '[') {\n                st.push(ch); // 左括号入栈\n            }\n            else\n            {\n                if (st.empty())\n                return false;\n                ———————————————————————— // 在此处填入代码\n                if ((ch == ')' && top != '(') ||\n                (ch == '}' && top != '{') ||\n                (ch == ']' && top != '[')) {\n                    return false;\n                }\n            }\n        }\n        return st.empty(); // 栈为空则说明所有括号匹配成功\n    }\n```\n"
+      "content": "采用如下代码实现检查输入的字符串括号是否匹配，横线上应填入的代码为（ ）。\n\n```cpp\n#include <iostream>\n#include <stack>\n#include <string>\nusing namespace std;\nbool is_valid(string s) {\n    stack<char> st;\n    char top;\n    for (char& ch : s) {\n        if (ch == '(' || ch == '{' || ch == '[') {\n            st.push(ch); // 左括号入栈\n        }\n        else\n        {\n            if (st.empty())\n                return false;\n            ———————————————————————— // 在此处填入代码\n            if ((ch == ')' && top != '(') ||\n                (ch == '}' && top != '{') ||\n                (ch == ']' && top != '[')) {\n                return false;\n            }\n        }\n    }\n    return st.empty(); // 栈为空则说明所有括号匹配成功\n}\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "is_equal = (q.front() == a);"
+          "text": "`is_equal = (q.front() == a);`"
         },
         {
           "key": "B",
-          "text": "is_equal = (q.front() == a); q.pop();"
+          "text": "`is_equal = (q.front() == a); q.pop();`"
         },
         {
           "key": "C",
-          "text": "q.pop(); is_equal = (q.front() == a);"
+          "text": "`q.pop(); is_equal = (q.front() == a);`"
         },
         {
           "key": "D",
-          "text": "q.pop(); is_equal = (q.top() == a);"
+          "text": "`q.pop(); is_equal = (q.top() == a);`"
         }
       ],
-      "content": "下面代码判断队列的第一个元素是否等于 ，并删除该元素，横向上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <queue>\nusing namespace std;\nbool is_front_equal(std::queue<int>& q, int a) {\n    bool is_equal = false;\n    if (!q.empty()) {\n        ———————————————————————— // 在此处填入代码\n    }\n    return is_equal;\n}\n```\n"
+      "content": "下面代码判断队列的第一个元素是否等于 $a$，并删除该元素，横向上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <queue>\nusing namespace std;\nbool is_front_equal(std::queue<int>& q, int a) {\n    bool is_equal = false;\n    if (!q.empty()) {\n        ———————————————————————— // 在此处填入代码\n    }\n    return is_equal;\n}\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "4, 4, 1, 3, 2"
+          "text": "$4$, $4$, $1$, $3$, $2$"
         },
         {
           "key": "B",
-          "text": "3, 3, 2, 2, 2"
+          "text": "$3$, $3$, $2$, $2$, $2$"
         },
         {
           "key": "C",
-          "text": "3, 3, 1, 2, 1"
+          "text": "$3$, $3$, $1$, $2$, $1$"
         },
         {
           "key": "D",
-          "text": "4, 4, 1, 2, 2"
+          "text": "$4$, $4$, $1$, $2$, $2$"
         }
       ],
-      "content": "假设字母表{a,b,c,d,e}在字符串出现的频率分别为 10%，15%，30%，16%，29%。若使用哈夫曼编码方\n式对字母进行二进制编码，则字符abcdef分别对应的一组哈夫曼编码的长度分别为（ ）。\n"
+      "content": "假设字母表 {$a$, $b$, $c$, $d$, $e$} 在字符串出现的频率分别为 $10\\%$，$15\\%$，$30\\%$，$16\\%$，$29\\%$。若使用哈夫曼编码方式对字母进行二进制编码，则字符 $a$ $b$ $c$ $d$ $e$ 分别对应的一组哈夫曼编码的长度分别为（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "graycode_list.push_back(\"0\" + graycode_list[j]);"
+          "text": "`graycode_list.push_back(\"0\" + graycode_list[j]);`"
         },
         {
           "key": "B",
-          "text": "graycode_list[j] = \"0\" + graycode_list[j];"
+          "text": "`graycode_list[j] = \"0\" + graycode_list[j];`"
         },
         {
           "key": "C",
-          "text": "graycode_list.push_back(\"1\" + graycode_list[j]);"
+          "text": "`graycode_list.push_back(\"1\" + graycode_list[j]);`"
         },
         {
           "key": "D",
-          "text": "graycode_list[j] = \"1\" + graycode_list[j];"
+          "text": "`graycode_list[j] = \"1\" + graycode_list[j];`"
         }
       ],
-      "content": "以下C++代码实现 位的格雷码，则横线上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <string>\nusing namespace std;\n// 生成 n 位的格雷码\nvector<string> generate_graycode(int n) {\n    vector<string> graycode_list;\n    if (n <= 0) {\n        return graycode_list;\n    }\n    // 初始1位格雷码\n    graycode_list.push_back(\"0\");\n    graycode_list.push_back(\"1\");\n    // 迭代生成 n 位的格雷码\n    for (int i = 2; i <= n; i++) {\n        int current_size = graycode_list.size();\n        for (int j = current_size - 1; j >= 0; j--) {\n            graycode_list.push_back(\"1\" + graycode_list[j]);\n        }\n        for (int j = 0; j < current_size; j++) {\n            ———————————————————————— // 在此处填入代码\n        }\n    }\n    return graycode_list;\n}\n```\n"
+      "content": "以下 C++ 代码实现 $n$ 位的格雷码，则横线上应填写（ ）。\n\n```cpp\n#include <iostream>\n#include <vector>\n#include <string>\nusing namespace std;\n// 生成 n 位的格雷码\nvector<string> generate_graycode(int n) {\n    vector<string> graycode_list;\n    if (n <= 0) {\n        return graycode_list;\n    }\n    // 初始1位格雷码\n    graycode_list.push_back(\"0\");\n    graycode_list.push_back(\"1\");\n    // 迭代生成 n 位的格雷码\n    for (int i = 2; i <= n; i++) {\n        int current_size = graycode_list.size();\n        for (int j = current_size - 1; j >= 0; j--) {\n            graycode_list.push_back(\"1\" + graycode_list[j]);\n        }\n        for (int j = 0; j < current_size; j++) {\n            ———————————————————————— // 在此处填入代码\n        }\n    }\n    return graycode_list;\n}\n```"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": "DBEGFCA"
         }
       ],
-      "content": "给定一棵二叉树，其前序遍历结果为：ABDECFG,中序遍历结果为：DEBACFG，则这棵树的正确后序遍历\n结果是（ ）。\n"
+      "content": "给定一棵二叉树，其前序遍历结果为：ABDECFG，中序遍历结果为：DEBACFG，则这棵树的正确后序遍历结果是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "8, 18"
+          "text": "$8$, $18$"
         },
         {
           "key": "B",
-          "text": "10, 18"
+          "text": "$10$, $18$"
         },
         {
           "key": "C",
-          "text": "8, 19"
+          "text": "$8$, $19$"
         },
         {
           "key": "D",
-          "text": "10, 19"
+          "text": "$10$, $19$"
         }
       ],
-      "content": "一棵有 个结点的完全二叉树用数组进行存储与表⽰，已知根结点存储在数组的第 个位置。若存储在数组第\n个位置的结点存在兄弟结点和两个⼦结点，则它的兄弟结点和右⼦结点的位置分别是（ ）。\n"
+      "content": "一棵有 $n$ 个结点的完全二叉树用数组进行存储与表示，已知根结点存储在数组的第 $1$ 个位置。若存储在数组第 $9$ 个位置的结点存在兄弟结点和两个子结点，则它的兄弟结点和右子结点的位置分别是（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "return left_depth + right_depth;"
+          "text": "`return left_depth + right_depth;`"
         },
         {
           "key": "B",
-          "text": "return max(left_depth, right_depth);"
+          "text": "`return max(left_depth, right_depth);`"
         },
         {
           "key": "C",
-          "text": "return max(left_depth, right_depth) + 1;"
+          "text": "`return max(left_depth, right_depth) + 1;`"
         },
         {
           "key": "D",
-          "text": "return left_depth + right_depth + 1;"
+          "text": "`return left_depth + right_depth + 1;`"
         }
       ],
-      "content": "二叉树的深度定义为从根结点到叶结点的最长路径上的结点数，则以下基于二叉树的深度优先搜索实现的\n深度计算函数中横线上应填写（ ）。\n\n```cpp\n// 定义二叉树的结点结构\nstruct tree_node {\n    int val;\n    tree_node* left;\n    tree_node* right;\n    tree_node(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n// 计算二叉树的深度\nint max_depth(tree_node* root) {\n    if (root == nullptr) {\n        return 0; // 如果根结点为空，则深度为 0\n    }\n    int left_depth = max_depth(root->left);\n    int right_depth = max_depth(root->right);\n    ———————————————————————— // 在此处填入代码\n}\n```\n"
+      "content": "二叉树的深度定义为从根结点到叶结点的最长路径上的结点数，则以下基于二叉树的深度优先搜索实现的深度计算函数中横线上应填写（ ）。\n\n```cpp\n// 定义二叉树的结点结构\nstruct tree_node {\n    int val;\n    tree_node* left;\n    tree_node* right;\n    tree_node(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n// 计算二叉树的深度\nint max_depth(tree_node* root) {\n    if (root == nullptr) {\n        return 0; // 如果根结点为空，则深度为 0\n    }\n    int left_depth = max_depth(root->left);\n    int right_depth = max_depth(root->right);\n    ———————————————————————— // 在此处填入代码\n}\n```"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int level_size = q.size(); depth++;"
+          "text": "`int level_size = q.size(); depth++;`"
         },
         {
           "key": "B",
-          "text": "int level_size = 2; depth++;"
+          "text": "`int level_size = 2; depth++;`"
         },
         {
           "key": "C",
-          "text": "int level_size = q.size(); depth += level_size;"
+          "text": "`int level_size = q.size(); depth += level_size;`"
         },
         {
           "key": "D",
-          "text": "int level_size = 2; depth += level_size;"
+          "text": "`int level_size = 2; depth += level_size;`"
         }
       ],
-      "content": "上一题的二叉树深度计算还可以采用二叉树的广度优先搜索来实现。以下基于二叉树的广度优先搜索实现\n的深度计算函数中横线上应填写（ ）。\n\n```cpp\n#include <queue>\nint max_depth_bfs(tree_node* root) {\n    if (root == nullptr) {\n        return 0; // 如果树为空，深度为 0\n    }\n    queue <tree_node*> q;\n    q.push(root);\n    int depth = 0;\n    // 使用队列进行层序遍历\n    while (!q.empty()) {\n        ———————————————————————— // 在此处填入代码\n        for (int i = 0; i < level_size; ++i) {\n            tree_node* node = q.front();\n            q.pop();\n            if (node->left) {\n                q.push(node->left);\n            }\n            if (node->right) {\n                q.push(node->right);\n            }\n        }\n    }\n    return depth;\n}\n```\n"
+      "content": "上一题的二叉树深度计算还可以采用二叉树的广度优先搜索来实现。以下基于二叉树的广度优先搜索实现的深度计算函数中横线上应填写（ ）。\n\n```cpp\n#include <queue>\nint max_depth_bfs(tree_node* root) {\n    if (root == nullptr) {\n        return 0; // 如果树为空，深度为 0\n    }\n    queue <tree_node*> q;\n    q.push(root);\n    int depth = 0;\n    // 使用队列进行层序遍历\n    while (!q.empty()) {\n        ———————————————————————— // 在此处填入代码\n        for (int i = 0; i < level_size; ++i) {\n            tree_node* node = q.front();\n            q.pop();\n            if (node->left) {\n                q.push(node->left);\n            }\n            if (node->right) {\n                q.push(node->right);\n            }\n        }\n    }\n    return depth;\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nif (val < root->val)\nroot->left = insert(root->left, val);\nelse\nroot->right = insert(root->right, val);\n```\n"
+          "text": "```cpp\nif (val < root->val)\n    root->left = insert(root->left, val);\nelse\n    root->right = insert(root->right, val);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nif (val > root->val)\nroot->left = insert(root->left, val);\nelse\nroot->right = insert(root->right, val);\n```\n"
+          "text": "```cpp\nif (val > root->val)\n    root->left = insert(root->left, val);\nelse\n    root->right = insert(root->right, val);\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nif (val < root->val)\nroot->left = insert(root, val);\nelse\nroot->right = insert(root, val);\n```\n"
+          "text": "```cpp\nif (val < root->val)\n    root->left = insert(root, val);\nelse\n    root->right = insert(root, val);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nif (val > root->val)\nroot->left = insert(root, val);\nelse\nroot->right = insert(root, val);\n```\n"
+          "text": "```cpp\nif (val > root->val)\n    root->left = insert(root, val);\nelse\n    root->right = insert(root, val);\n```"
         }
       ],
-      "content": "二叉搜索树中的每个结点，其左⼦树的所有结点值都小于该结点值，右⼦树的所有结点值都大于该结点\n值。以下代码对给定的整数数组(假设数组中没有数值相等的元素)，构造一个对应的二叉搜索树，横线上应填写（\n）:\n\n```cpp\n// 定义二叉树的结点结构\nstruct tree_node {\n    int val;\n    tree_node* left;\n    tree_node* right;\n    tree_node(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n// 插入结点到二叉搜索树中\ntree_node* insert(tree_node* root, int val) {\n    if (root == nullptr) {\n        return new tree_node(val);\n    }\n    ———————————————————————— // 在此处填入代码\n    return root;\n}\n// 根据给定数组构造二叉搜索树\ntree_node* constructBST(const int arr[], int size) {\n    tree_node* root = nullptr;\n    for (int i = 0; i < size; ++i) {\n        root = insert(root, arr[i]);\n    }\n    return root;\n}\n```\n"
+      "content": "二叉搜索树中的每个结点，其左子树的所有结点值都小于该结点值，右子树的所有结点值都大于该结点值。以下代码对给定的整数数组(假设数组中没有数值相等的元素)，构造一个对应的二叉搜索树，横线上应填写（ ）:\n\n```cpp\n// 定义二叉树的结点结构\nstruct tree_node {\n    int val;\n    tree_node* left;\n    tree_node* right;\n    tree_node(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n// 插入结点到二叉搜索树中\ntree_node* insert(tree_node* root, int val) {\n    if (root == nullptr) {\n        return new tree_node(val);\n    }\n    ———————————————————————— // 在此处填入代码\n    return root;\n}\n// 根据给定数组构造二叉搜索树\ntree_node* constructBST(const int arr[], int size) {\n    tree_node* root = nullptr;\n    for (int i = 0; i < size; ++i) {\n        root = insert(root, arr[i]);\n    }\n    return root;\n}\n```"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "对上题中的二叉搜素树，当输入数组为 时，构建二叉搜索树，并采用如下代码实现的遍历方式，得到\n的输出是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\n// 遍历二叉搜索树，输出结点值\nvoid traversal(tree_node* root) {\n    if (root == nullptr) {\n        return;\n    }\n    traversal(root->left);\n    cout << root->val << \" \";\n    traversal(root->right);\n}\n```\n"
+      "content": "对上题中的二叉搜索树，当输入数组为时，构建二叉搜索树，并采用如下代码实现的遍历方式，得到的输出是（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\n// 遍历二叉搜索树，输出结点值\nvoid traversal(tree_node* root) {\n    if (root == nullptr) {\n        return;\n    }\n    traversal(root->left);\n    cout << root->val << \" \";\n    traversal(root->right);\n}\n```"
     },
     {
       "type": "choice",
@@ -344,7 +344,7 @@
         },
         {
           "key": "B",
-          "text": "可以分解成相互依赖的⼦问题的问题"
+          "text": "可以分解成相互依赖的子问题的问题"
         },
         {
           "key": "C",
@@ -355,7 +355,7 @@
           "text": "只能通过递归解决的问题"
         }
       ],
-      "content": "动态规划通常用于解决（ ）。\n"
+      "content": "动态规划通常用于解决（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "90"
+          "text": "$90$"
         },
         {
           "key": "B",
-          "text": "100"
+          "text": "$100$"
         },
         {
           "key": "C",
-          "text": "110"
+          "text": "$110$"
         },
         {
           "key": "D",
-          "text": "140"
+          "text": "$140$"
         }
       ],
-      "content": "阅读以下用动态规划解决的0-1背包问题的函数，假设背包的容量 是10kg，假设输入4个物品的重量\n分别为 （单位为kg），每个物品对应的价值 分别为 ，则函数的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <vector>\nusing namespace std;\n// 0/1背包问题\nint knapsack(int W, const vector<int>& weights, const vector<int>& values, int n) {\n    vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));\n    for (int i = 1; i <= n; ++i) {\n        for (int w = 0; w <= W; ++w) {\n            if (weights[i - 1] <= w) {\n                dp[i][w] = max(dp[i - 1][w], dp[i - 1][w - weights[i - 1]] +\n```\nvalues[i - 1]);\n\n```cpp\n}\nelse\n{\n    dp[i][w] = dp[i - 1][w];\n}\n}\n}\nreturn dp[n][W];\n}\n```\n"
+      "content": "阅读以下用动态规划解决的 0-1 背包问题的函数，假设背包的容量是 $10$ kg，假设输入 $4$ 个物品的重量分别为（单位为 kg），每个物品对应的价值分别为，则函数的输出为（ ）。\n\n```cpp\n#include <iostream>\n#include <vector>\nusing namespace std;\n// 0/1 背包问题\nint knapsack(int W, const vector<int>& weights, const vector<int>& values, int n) {\n    vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));\n    for (int i = 1; i <= n; ++i) {\n        for (int w = 0; w <= W; ++w) {\n            if (weights[i - 1] <= w) {\n                dp[i][w] = max(dp[i - 1][w], dp[i - 1][w - weights[i - 1]] + values[i - 1]);\n            } else {\n                dp[i][w] = dp[i - 1][w];\n            }\n        }\n    }\n    return dp[n][W];\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "C++、Python和JAVA等都是面向对象的编程语⾔。\n"
+      "content": "C++、Python 和 JAVA 等都是面向对象的编程语言。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "在C++中，类的静态成员变量只能被该类对象的成员函数访问。\n"
+      "content": "在 C++ 中，类的静态成员变量只能被该类对象的成员函数访问。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "栈是一种线性结构，可通过数组或链表来实现。二者相比，数组实现占用的内存较少，链表实现的入队和出\n队操作的时间复杂度较低。\n"
+      "content": "栈是一种线性结构，可通过数组或链表来实现。二者相比，数组实现占用的内存较少，链表实现的入队和出队操作的时间复杂度较低。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "运行以下C++代码，屏幕将输出“derived class”。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass base {\n    public:\n    virtual void show() {\n        cout << \"base class\" << endl;\n    }\n};\nclass derived : public base {\n    public:\n    void show() override {\n        cout << \"derived class\" << endl;\n    }\n};\nint main() {\n    base* b;\n    derived d;\n    b = &d;\n    b->show();\n    return 0;\n}\n```\n"
+      "content": "运行以下 C++ 代码，屏幕将输出“derived class”。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass base {\n    public:\n    virtual void show() {\n        cout << \"base class\" << endl;\n    }\n};\nclass derived : public base {\n    public:\n    void show() override {\n        cout << \"derived class\" << endl;\n    }\n};\nint main() {\n    base* b;\n    derived d;\n    b = &d;\n    b->show();\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "如下列代码所⽰的基类（base）及其派生类（derived），则生成一个派生类的对象时，只调用派生类的构造\n函数。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass base {\n    public:\n    base() {\n        cout << \"base constructor\" << endl;\n    }\n    ~base() {\n        cout << \"base destructor\" << endl;\n    }\n};\nclass derived : public base {\n    public:\n    derived() {\n        cout << \"derived constructor\" << endl;\n    }\n    ~derived() {\n        cout << \"derived destructor\" << endl;\n    }\n};\n```\n"
+      "content": "如下列代码所示的基类（base）及其派生类（derived），则生成一个派生类的对象时，只调用派生类的构造函数。\n\n```cpp\n#include <iostream>\nusing namespace std;\nclass base {\n    public:\n    base() {\n        cout << \"base constructor\" << endl;\n    }\n    ~base() {\n        cout << \"base destructor\" << endl;\n    }\n};\nclass derived : public base {\n    public:\n    derived() {\n        cout << \"derived constructor\" << endl;\n    }\n    ~derived() {\n        cout << \"derived destructor\" << endl;\n    }\n};\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "哈夫曼编码本质上是一种贪心策略。\n"
+      "content": "哈夫曼编码本质上是一种贪心策略。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "如果根结点的深度记为 ，则一棵恰有 个叶结点的二叉树的深度最少是 。\n"
+      "content": "如果根结点的深度记为 $1$，则一棵恰有 $n$ 个叶结点的二叉树的深度最少是 $\\lceil \\log_2 n \\rceil + 1$。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "在非递归实现的树的广度优先搜索中，通常使用栈来辅助实现。\n"
+      "content": "在非递归实现的树的广度优先搜索中，通常使用栈来辅助实现。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "状态转移方程是动态规划的核心，可以通过递推方式表⽰问题状态的变化。\n"
+      "content": "状态转移方程是动态规划的核心，可以通过递推方式表示问题状态的变化。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "应用动态规划算法时，识别并存储重叠⼦问题的解是必须的。\n"
+      "content": "应用动态规划算法时，识别并存储重叠子问题的解是必须的。"
     },
     {
       "type": "program",

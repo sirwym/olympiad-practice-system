@@ -30,7 +30,7 @@
           "text": "链接"
         }
       ],
-      "content": "下列哪一项不是面向对象编程的基本特征？\n"
+      "content": "下列哪一项不是面向对象编程的基本特征？"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Animal(name)"
+          "text": "`Animal(name)`"
         },
         {
           "key": "B",
-          "text": "super(name)"
+          "text": "`super(name)`"
         },
         {
           "key": "C",
-          "text": "Animal::Animal(name)"
+          "text": "`Animal::Animal(name)`"
         },
         {
           "key": "D",
-          "text": "Animal()"
+          "text": "`Animal()`"
         }
       ],
-      "content": "2. 为了让 Dog 类的构造函数能正确地调用其⽗类 Animal 的构造方法，横线线处应填入（ ）。\n\n```cpp\nclass Animal {\n    public:\n    std::string name;\n    Animal(std::string str) : name(str) {\n        std::cout << \"Animal created\\n\";\n    }\n    virtual void speak() {\n        cout << \"Animal speaks\" << endl;\n    }\n};\nclass Dog : public Animal {\n    std::string breed;\n    public:\n    Dog(std::string name, std::string b) : _________________, breed(b) {\n        std::cout << \"Dog created\\n\";\n    }\n    void speak() override {\n        cout << \"Dog barks\" << endl;\n    }\n};\nint main() {\n    Animal* p = new Dog(\"Rex\", \"Labrador\");\n    p->speak();\n    delete p;\n    return 0;\n}\n```\n"
+      "content": "2. 为了让 `Dog` 类的构造函数能正确地调用其父类 `Animal` 的构造方法，横线处应填入（ ）。\n\n```cpp\nclass Animal {\n    public:\n    std::string name;\n    Animal(std::string str) : name(str) {\n        std::cout << \"Animal created\\n\";\n    }\n    virtual void speak() {\n        cout << \"Animal speaks\" << endl;\n    }\n};\nclass Dog : public Animal {\n    std::string breed;\n    public:\n    Dog(std::string name, std::string b) : _________________, breed(b) {\n        std::cout << \"Dog created\\n\";\n    }\n    void speak() override {\n        cout << \"Dog barks\" << endl;\n    }\n};\nint main() {\n    Animal* p = new Dog(\"Rex\", \"Labrador\");\n    p->speak();\n    delete p;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "程序崩溃"
         }
       ],
-      "content": "代码同上一题，代码执行结果是（ ）。\n"
+      "content": "代码同上一题，代码执行结果是（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1 3"
+          "text": "$1$ $3$"
         },
         {
           "key": "B",
-          "text": "3 1"
+          "text": "$3$ $1$"
         },
         {
           "key": "C",
-          "text": "3 3"
+          "text": "$3$ $3$"
         },
         {
           "key": "D",
-          "text": "1 1"
+          "text": "$1$ $1$"
         }
       ],
-      "content": "以下关于栈和队列的代码，执行后输出是（ ）。\n\n```cpp\nstack<int> s;\nqueue<int> q;\nfor (int i = 1; i <= 3; ++i) {\n    s.push(i);\n    q.push(i);\n}\ncout << s.top() << \" \" << q.front() << endl;\n```\n"
+      "content": "以下关于栈和队列的代码，执行后输出是（ ）。\n\n```cpp\nstack<int> s;\nqueue<int> q;\nfor (int i = 1; i <= 3; ++i) {\n    s.push(i);\n    q.push(i);\n}\ncout << s.top() << \" \" << q.front() << endl;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rear == front"
+          "text": "`rear == front`"
         },
         {
           "key": "B",
-          "text": "(rear + 1) % maxSize == front"
+          "text": "`(rear + 1) % maxSize == front`"
         },
         {
           "key": "C",
-          "text": "(rear - 1 + maxSize) % maxSize == front"
+          "text": "`(rear - 1 + maxSize) % maxSize == front`"
         },
         {
           "key": "D",
-          "text": "(rear - 1) == front"
+          "text": "`(rear - 1) == front`"
         }
       ],
-      "content": "在一个循环队列中，front是指向队头的指针， rear指向队尾的指针，队列最大容量为 maxSize。判断\n队列已满的条件是（ ）。\n"
+      "content": "在一个循环队列中，`front` 是指向队头的指针，`rear` 指向队尾的指针，队列最大容量为 `maxSize`。判断队列已满的条件是（ ）。"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "平衡二叉树"
         }
       ],
-      "content": "（ ）只有最底层的节点未被填满，且最底层节点尽量靠左填充。\n"
+      "content": "（ ）只有最底层的节点未被填满，且最底层节点尽量靠左填充。"
     },
     {
       "type": "choice",
@@ -180,7 +180,7 @@
           "text": ""
         }
       ],
-      "content": "在使用数组表⽰完全二叉树时，如果一个节点的索引为 （从 开始计数），那么其左⼦节点的索引通常是（\n）。\n"
+      "content": "在使用数组表示完全二叉树时，如果一个节点的索引为 $i$（从 $0$ 开始计数），那么其左子节点的索引通常是（ ）。"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": "AFDHZMEG"
         }
       ],
-      "content": "已知一棵二叉树的前序遍历序列为 GDAFEMHZ，中序遍历序列为 ADFGEHMZ，则其后序遍历序列为（ ）。\n"
+      "content": "已知一棵二叉树的前序遍历序列为 GDAFEMHZ，中序遍历序列为 ADFGEHMZ，则其后序遍历序列为（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\na: 010\nb: 011\nc: 00\nd: 10\ne: 11\n```\n"
+          "text": "```cpp\na: 010\nb: 011\nc: 00\nd: 10\ne: 11\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\na: 00\nb: 10\nc: 011\nd: 100\ne: 111\n```\n"
+          "text": "```cpp\na: 00\nb: 10\nc: 011\nd: 100\ne: 111\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\na: 10\nb: 01\nc: 011\nd: 100\ne: 111\n```\n"
+          "text": "```cpp\na: 10\nb: 01\nc: 011\nd: 100\ne: 111\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\na: 100\nb: 01\nc: 011\nd: 100\ne: 00\n```\n"
+          "text": "```cpp\na: 100\nb: 01\nc: 011\nd: 100\ne: 00\n```"
         }
       ],
-      "content": "设有字符集 {a, b, c, d, e}，其出现频率分别为 {5, 8, 12, 15, 20}，得到的哈夫曼编码为（ ）。\n"
+      "content": "设有字符集 {$a$, $b$, $c$, $d$, $e$}，其出现频率分别为 {$5$, $8$, $12$, $15$, $20$}，得到的哈夫曼编码为（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "100"
+          "text": "$100$"
         },
         {
           "key": "B",
-          "text": "111"
+          "text": "$111$"
         },
         {
           "key": "C",
-          "text": "110"
+          "text": "$110$"
         },
         {
           "key": "D",
-          "text": "001"
+          "text": "$001$"
         }
       ],
-      "content": "3位格雷编码中，编码 101 之后的下一个编码不可能是（ ）。\n"
+      "content": "$3$ 位格雷编码中，编码 $101$ 之后的下一个编码不可能是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nresult.push_back(root->val);\ndfs(root->left);\ndfs(root->right);\n```\n"
+          "text": "```cpp\nresult.push_back(root->val);\ndfs(root->left);\ndfs(root->right);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nresult.push_back(root->left->val);\ndfs(root->right);\ndfs(root->left);\n```\n"
+          "text": "```cpp\nresult.push_back(root->left->val);\ndfs(root->right);\ndfs(root->left);\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nresult.push_back(root->left->val);\ndfs(root->left);\ndfs(root->right);\n```\n"
+          "text": "```cpp\nresult.push_back(root->left->val);\ndfs(root->left);\ndfs(root->right);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nresult.push_back(root->right->val);\ndfs(root->right);\ndfs(root->left);\n```\n"
+          "text": "```cpp\nresult.push_back(root->right->val);\ndfs(root->right);\ndfs(root->left);\n```"
         }
       ],
-      "content": "请将下列 C++ 实现的深度优先搜索（DFS）代码补充完整，横线处应填入（ ）。\n\n```cpp\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvoid dfs(TreeNode* root, vector<int>& result) {\n    if (root == nullptr) return;\n    __________________________\n}\n```\n"
+      "content": "请将下列 C++ 实现的深度优先搜索（DFS）代码补充完整，横线处应填入（ ）。\n\n```cpp\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvoid dfs(TreeNode* root, vector<int>& result) {\n    if (root == nullptr) return;\n    __________________________\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1 node = q.end();"
+          "text": "`node = q.end();`"
         },
         {
           "key": "B",
-          "text": "1 node = q.front();"
+          "text": "`node = q.front();`"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nq.pop();\nnode = q.front();\n```\n"
+          "text": "```cpp\nq.pop();\nnode = q.front();\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nnode = q.front();\nq.pop();\n```\n"
+          "text": "```cpp\nnode = q.front();\nq.pop();\n```"
         }
       ],
-      "content": "给定一个二叉树，返回每一层中最大的节点值，结果以数组形式返回，横线处应填入（ ）。\n\n```cpp\n#include <vector>\n#include <queue>\n#include <algorithm>\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvector<int> largestValues(TreeNode* root) {\n    vector<int> result;\n    if (!root) return result;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        int sz = q.size();\n        int maxVal = INT_MIN;\n        for (int i = 0; i < sz; ++i) {\n            TreeNode* node;\n            _______________________________\n            maxVal = max(maxVal, node->val);\n            if (node->left) q.push(node->left);\n            if (node->right) q.push(node->right);\n        }\n        result.push_back(maxVal);\n    }\n    return result;\n}\n```\n"
+      "content": "给定一个二叉树，返回每一层中最大的节点值，结果以数组形式返回，横线处应填入（ ）。\n\n```cpp\n#include <vector>\n#include <queue>\n#include <algorithm>\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvector<int> largestValues(TreeNode* root) {\n    vector<int> result;\n    if (!root) return result;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        int sz = q.size();\n        int maxVal = INT_MIN;\n        for (int i = 0; i < sz; ++i) {\n            TreeNode* node;\n            _______________________________\n            maxVal = max(maxVal, node->val);\n            if (node->left) q.push(node->left);\n            if (node->right) q.push(node->right);\n        }\n        result.push_back(maxVal);\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nif (key < root->val)\ninsert(root->left, key);\nelse if (key > root->val)\ninsert(root->right, key);\n```\n"
+          "text": "```cpp\nif (key < root->val)\n    insert(root->left, key);\nelse if (key > root->val)\n    insert(root->right, key);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nif (key < root->val)\ninsert(root->right, key);\nelse if (key > root->val)\ninsert(root->left, key);\n```\n"
+          "text": "```cpp\nif (key < root->val)\n    insert(root->right, key);\nelse if (key > root->val)\n    insert(root->left, key);\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\ninsert(root->left, key);\ninsert(root->right, key);\n```\n"
+          "text": "```cpp\ninsert(root->left, key);\ninsert(root->right, key);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\ninsert(root->right, key);\ninsert(root->left, key);\n```\n"
+          "text": "```cpp\ninsert(root->right, key);\ninsert(root->left, key);\n```"
         }
       ],
-      "content": "下面代码实现一个二叉排序树的插入函数（没有相同的数值），横线处应填入（ ）。\n\n```cpp\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvoid insert(TreeNode*& root, int key) {\n    if (!root) {\n        root = new TreeNode(key);\n        return;\n    }\n    _______________________________\n}\n```\n"
+      "content": "下面代码实现一个二叉排序树的插入函数（没有相同的数值），横线处应填入（ ）。\n\n```cpp\nstruct TreeNode {\n    int val;\n    TreeNode* left;\n    TreeNode* right;\n    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}\n};\nvoid insert(TreeNode*& root, int key) {\n    if (!root) {\n        root = new TreeNode(key);\n        return;\n    }\n    _______________________________\n}\n```"
     },
     {
       "type": "choice",
@@ -340,11 +340,11 @@
       "options": [
         {
           "key": "A",
-          "text": "⼦问题相互独⽴，不重叠"
+          "text": "子问题相互独立，不重叠"
         },
         {
           "key": "B",
-          "text": "问题包含重叠⼦问题和最优⼦结构"
+          "text": "问题包含重叠子问题和最优子结构"
         },
         {
           "key": "C",
@@ -355,7 +355,7 @@
           "text": "必须使用递归实现，不能使用迭代"
         }
       ],
-      "content": "以下关于动态规划算法特性的描述，正确的是（ ）。\n"
+      "content": "以下关于动态规划算法特性的描述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "该算法不能处理背包容量为 0 的情况"
+          "text": "该算法不能处理背包容量为 $0$ 的情况"
         },
         {
           "key": "B",
-          "text": "外层循环 i 遍历背包容量，内层遍历物品"
+          "text": "外层循环 `i` 遍历背包容量，内层遍历物品"
         },
         {
           "key": "C",
-          "text": "从大到小遍历 w 是为了避免重复使用同一物品"
+          "text": "从大到小遍历 `w` 是为了避免重复使用同一物品"
         },
         {
           "key": "D",
-          "text": "这段代码计算的是最小重量⽽非最大价值"
+          "text": "这段代码计算的是最小重量而非最大价值"
         }
       ],
-      "content": "给定 个物品和一个最大承重为 的背包，每个物品有一个重量 和价值 ，每个物品只能选择放或\n不放。目标是选择若⼲个物品放入背包，使得总价值最大，且总重量不超过 。关于下面代码，说法正确的是（\n）。\n\n```cpp\nint knapsack1D(int W, vector<int>& wt, vector<int>& val, int n) {\n    vector<int> dp(W+1, 0);\n    for (int i = 0; i < n; ++i) {\n        for (int w = W; w >= wt[i]; --w) {\n            dp[w] = max(dp[w], dp[w - wt[i]] + val[i]);\n        }\n    }\n    return dp[W];\n}\n```\n"
+      "content": "给定 $n$ 个物品和一个最大承重为 $W$ 的背包，每个物品有一个重量 $w_i$ 和价值 $v_i$ ，每个物品只能选择放或不放。目标是选择若干个物品放入背包，使得总价值最大，且总重量不超过 $W$ 。关于下面代码，说法正确的是（ ）。\n\n```cpp\nint knapsack1D(int W, vector<int>& wt, vector<int>& val, int n) {\n    vector<int> dp(W+1, 0);\n    for (int i = 0; i < n; ++i) {\n        for (int w = W; w >= wt[i]; --w) {\n            dp[w] = max(dp[w], dp[w - wt[i]] + val[i]);\n        }\n    }\n    return dp[W];\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "构造函数可以被声明为 virtual。\n"
+      "content": "构造函数可以被声明为 `virtual`。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "给定一组字符及其出现的频率，构造出的哈夫曼树是唯一的。\n"
+      "content": "给定一组字符及其出现的频率，构造出的哈夫曼树是唯一的。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "为了实现一个队列，使其出队操作（pop）的时间复杂度为 并且避免数组删除首元素的 问题，一\n种常见且有效的方法是使用环形数组，通过调整队首和队尾指针来实现。\n"
+      "content": "为了实现一个队列，使其出队操作（`pop`）的时间复杂度为 $O(1)$ 并且避免数组删除首元素的 $O(n)$ 问题，一种常见且有效的方法是使用环形数组，通过调整队首和队尾指针来实现。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "对一棵二叉排序树进行中序遍历，可以得到一个递增的有序序列。\n"
+      "content": "对一棵二叉排序树进行中序遍历，可以得到一个递增的有序序列。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "如果二叉搜索树在连续的插入和删除操作后，所有节点都偏向一侧，导致其退化为类似于链表的结构，这时\n其查找、插入、删除操作的时间复杂度会从理想情况下的 退化到 。\n"
+      "content": "如果二叉搜索树在连续的插入和删除操作后，所有节点都偏向一侧，导致其退化为类似于链表的结构，这时其查找、插入、删除操作的时间复杂度会从理想情况下的 $O(\\log n)$ 退化到 $O(n)$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "执行下列代码，my_dog.name 的最终值是 Charlie。\n\n```cpp\nclass Dog {\n    public:\n    std::string name;\n    Dog(std::string str) : name(str) {}\n};\nint main() {\n    Dog my_dog(\"Buddy\");\n    my_dog.name = \"Charlie\";\n    return 0;\n}\n```\n"
+      "content": "执行下列代码，`my_dog.name` 的最终值是 Charlie。\n\n```cpp\nclass Dog {\n    public:\n    std::string name;\n    Dog(std::string str) : name(str) {}\n};\nint main() {\n    Dog my_dog(\"Buddy\");\n    my_dog.name = \"Charlie\";\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "下列 C++ 代码可以成功编译，并且⼦类 Child 的实例能通过其成员函数访问⽗类 Parent 的属性\nvalue。\n\n```cpp\nclass Parent {\n    private:\n    int value = 100;\n};\nclass Child : public Parent {\n    public:\n    int get_private_val() {\n        return value; // 尝试访问父类的私有成员\n    }\n};\n```\n"
+      "content": "下列 C++ 代码可以成功编译，并且子类 `Child` 的实例能通过其成员函数访问父类 `Parent` 的属性 `value`。\n\n```cpp\nclass Parent {\n    private:\n    int value = 100;\n};\nclass Child : public Parent {\n    public:\n    int get_private_val() {\n        return value; // 尝试访问父类的私有成员\n    }\n};\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "下列代码中的 tree 向量，表⽰的是一棵完全二叉树 (-1代表空节点)按照层序遍历的结果。\n\n```cpp\n#include <vector>\nstd::vector<int> tree = {1, 2, 3, 4, -1, 6, 7};\n```\n"
+      "content": "下列代码中的 `tree` 向量，表示的是一棵完全二叉树 ($-1$ 代表空节点) 按照层序遍历的结果。\n\n```cpp\n#include <vector>\nstd::vector<int> tree = {1, 2, 3, 4, -1, 6, 7};\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "在树的深度优先搜索（DFS）中，使用栈作为辅助数据结构以实现“先进后出”的访问顺序。\n"
+      "content": "在树的深度优先搜索（DFS）中，使用栈作为辅助数据结构以实现“先进后出”的访问顺序。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "下面代码采用动态规划求解零钱兑换问题：给定 种硬币，第𝑖种硬币的面值为𝑐𝑜𝑖𝑛𝑠[𝑖 − 1]，目标金额为\n𝑎𝑚𝑡，每种硬币可以重复选取，求能够凑出目标金额的最少硬币数量；如果不能凑出目标金额，返回-1。\n\n```cpp\nint coinChangeDPComp(vector<int> &coins, int amt) {\n    int n = coins.size();\n    int MAX = amt + 1;\n    vector<int> dp(amt + 1, MAX);\n    dp[0] = 0;\n    for (int i = 1; i <= n; i++) {\n        for (int a = 1; a <= amt; a++) {\n            if (coins[i - 1] > a)\n            dp[a] = dp[a];\n            else\n            dp[a] = min(dp[a], dp[a - coins[i - 1]] + 1);\n        }\n    }\n    return dp[amt] != MAX ? dp[amt] : -1;\n}\n```\n"
+      "content": "下面代码采用动态规划求解零钱兑换问题：给定 $n$ 种硬币，第 $i$ 种硬币的面值为 $coins[i - 1]$，目标金额为 $amt$，每种硬币可以重复选取，求能够凑出目标金额的最少硬币数量；如果不能凑出目标金额，返回 $-1$。\n\n```cpp\nint coinChangeDPComp(vector<int> &coins, int amt) {\n    int n = coins.size();\n    int MAX = amt + 1;\n    vector<int> dp(amt + 1, MAX);\n    dp[0] = 0;\n    for (int i = 1; i <= n; i++) {\n        for (int a = 1; a <= amt; a++) {\n            if (coins[i - 1] > a)\n                dp[a] = dp[a];\n            else\n                dp[a] = min(dp[a], dp[a - coins[i - 1]] + 1);\n        }\n    }\n    return dp[amt] != MAX ? dp[amt] : -1;\n}\n```"
     },
     {
       "type": "program",

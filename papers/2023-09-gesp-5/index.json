@@ -30,7 +30,7 @@
           "text": "记录"
         }
       ],
-      "content": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那\n么它属于哪类设备？（ ）。\n"
+      "content": "近年来，线上授课变得普遍，很多有助于改善教学效果的设备也逐渐流行，其中包括比较常用的手写板，那么它属于哪类设备？（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(a >> 3 == b)"
+          "text": "`(a >> 3 == b)`"
         },
         {
           "key": "B",
-          "text": "(a - b) % 3 == 0"
+          "text": "`(a - b) % 3 == 0`"
         },
         {
           "key": "C",
-          "text": "(a / b == 3)"
+          "text": "`(a / b == 3)`"
         },
         {
           "key": "D",
-          "text": "(a == 3 * b)"
+          "text": "`(a == 3 * b)`"
         }
       ],
-      "content": "如果a和b均为int类型的变量，且b的值不为0，那么下列能正确判断“a是b的3倍”的表达式是（\n）。\n"
+      "content": "如果 $a$ 和 $b$ 均为 `int` 类型的变量，且 $b$ 的值不为 $0$，那么下列能正确判断“$a$ 是 $b$ 的 $3$ 倍”的表达式是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "B",
-          "text": "21"
+          "text": "$21$"
         },
         {
           "key": "C",
-          "text": "28"
+          "text": "$28$"
         },
         {
           "key": "D",
           "text": "不确定"
         }
       ],
-      "content": "如果变量a和b分别为double类型和int类型，则表达式(a = 6, b = 3 * (7 + 8) / 2, b += a)的\n计算结果为（ ）。\n"
+      "content": "如果变量 $a$ 和 $b$ 分别为 `double` 类型和 `int` 类型，则表达式 `(a = 6, b = 3 * (7 + 8) / 2, b += a)` 的计算结果为（ ）。"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "sumA()用循环方式求从1到N之和，sumB()用递归方式求从1到N之和。"
+          "text": "`sumA()` 用循环方式求从 $1$ 到 $N$ 之和，`sumB()` 用递归方式求从 $1$ 到 $N$ 之和。"
         },
         {
           "key": "B",
-          "text": "默认情况下，如果输入正整数1000，能实现求从1到1000之和。"
+          "text": "默认情况下，如果输入正整数 $1000$ ，能实现求从 $1$ 到 $1000$ 之和。"
         },
         {
           "key": "C",
-          "text": "默认情况下，如果输入正整数100000，能实现求从1到100000之和。"
+          "text": "默认情况下，如果输入正整数 $100000$ ，能实现求从 $1$ 到 $100000$ 之和。"
         },
         {
           "key": "D",
-          "text": "一般说来，sumA()的效率高于sumB()。"
+          "text": "一般说来，`sumA()` 的效率高于 `sumB()` 。"
         }
       ],
-      "content": "有关下面C++代码说法错误的是（ ）。\n"
+      "content": "有关下面 C++ 代码说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "sIn[sIn.length() - 1] + sReverse(sIn.substr(0, sIn.length() - 1));"
+          "text": "`sIn[sIn.length() - 1] + sReverse(sIn.substr(0, sIn.length() - 1));`"
         },
         {
           "key": "B",
-          "text": "sIn[0] + sReverse(sIn.substr(1, sIn.length() - 1));"
+          "text": "`sIn[0] + sReverse(sIn.substr(1, sIn.length() - 1));`"
         },
         {
           "key": "C",
-          "text": "sReverse(sIn.substr(0, sIn.length() - 1)) + sIn[sIn.length() - 1];"
+          "text": "`sReverse(sIn.substr(0, sIn.length() - 1)) + sIn[sIn.length() - 1];`"
         },
         {
           "key": "D",
-          "text": "sReverse(sIn.substr(1, sIn.length() - 1)) + sIn[sIn.length() - 1];"
+          "text": "`sReverse(sIn.substr(1, sIn.length() - 1)) + sIn[sIn.length() - 1];`"
         }
       ],
-      "content": "下面C++代码以递归方式实现字符串反序，横线处应填上代码是（ ）。\n"
+      "content": "下面 C++ 代码以递归方式实现字符串反序，横线处应填上代码是（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Hanoi(B, C, A, N - 2)"
+          "text": "`Hanoi(B, C, A, N - 2)`"
         },
         {
           "key": "B",
-          "text": "Hanoi(B, A, C, N - 1)"
+          "text": "`Hanoi(B, A, C, N - 1)`"
         },
         {
           "key": "C",
-          "text": "Hanoi(A, B, C, N - 2)"
+          "text": "`Hanoi(A, B, C, N - 2)`"
         },
         {
           "key": "D",
-          "text": "Hanoi(C, B, A, N - 1)"
+          "text": "`Hanoi(C, B, A, N - 1)`"
         }
       ],
-      "content": "印度古老的汉诺塔传说：创世时有三根金刚柱，其中一柱从下往上按照大小顺序摞着64片黄金圆盘，当圆盘\n逐一从一柱借助另外一柱全部移动到另外一柱时，宇宙毁灭。移动规则：在小圆盘上不能放大圆盘，在三根柱⼦之\n间一次只能移动一个圆盘。下面的C++代码以递归方式实现汉诺塔，横线处应填入代码是（ ）。\n"
+      "content": "印度古老的汉诺塔传说：创世时有三根金刚柱，其中一柱从下往上按照大小顺序摞着 $64$ 片黄金圆盘，当圆盘逐一从一柱借助另外一柱全部移动到另外一柱时，宇宙毁灭。移动规则：在小圆盘上不能放大圆盘，在三根柱子之间一次只能移动一个圆盘。下面的 C++ 代码以递归方式实现汉诺塔，横线处应填入代码是（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "compare和isOdd(lstA[i])"
+          "text": "`compare` 和 `isOdd(lstA[i])`"
         },
         {
           "key": "B",
-          "text": "compare(x1,y1)和isOdd"
+          "text": "`compare(x1, y1)` 和 `isOdd`"
         },
         {
           "key": "C",
-          "text": "compare和isOdd"
+          "text": "`compare` 和 `isOdd`"
         },
         {
           "key": "D",
-          "text": "compare(x1,y1)和isOdd(lstA[i])"
+          "text": "`compare(x1, y1)` 和 `isOdd(lstA[i])`"
         }
       ],
-      "content": "根据下面C++代码的注释，两个横线处应分别填入（ ）。\n"
+      "content": "根据下面 C++ 代码的注释，两个横线处应分别填入（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "checkNum()函数定义错误。"
+          "text": "`checkNum()` 函数定义错误。"
         },
         {
           "key": "B",
-          "text": "将isEven作为checkNum()参数将导致错误。"
+          "text": "将 `isEven` 作为 `checkNum()` 参数将导致错误。"
         },
         {
           "key": "C",
-          "text": "执行后将输出1。"
+          "text": "执行后将输出 $1$ 。"
         },
         {
           "key": "D",
           "text": "运行时触发异常。"
         }
       ],
-      "content": "有关下面代码正确的是（ ）。\n"
+      "content": "有关下面代码正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "checkNum()函数定义错误。"
+          "text": "`checkNum()` 函数定义错误。"
         },
         {
           "key": "B",
-          "text": "输出行A的语句将导致编译错误。"
+          "text": "输出行 A 的语句将导致编译错误。"
         },
         {
           "key": "C",
-          "text": "输出行B的语句将导致编译错误。"
+          "text": "输出行 B 的语句将导致编译错误。"
         },
         {
           "key": "D",
           "text": "该代码没有编译错误。"
         }
       ],
-      "content": "有关下面C++代码正确的是（ ）。\n"
+      "content": "有关下面 C++ 代码正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": "4#3#2#1#2#5"
         }
       ],
-      "content": "下面代码执行后的输出是（ ）。\n"
+      "content": "下面代码执行后的输出是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB()的最坏时间复杂度是 ，isPrimeB()优于\nisPrimeA()。\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeB()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 优于 `isPrimeA()`。"
         },
         {
           "key": "B",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB()的最坏时间复杂度是 ，isPrimeB()优于\nisPrimeA()。\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeB()` 的最坏时间复杂度是 $O(\\log N)$ ，`isPrimeB()` 优于 `isPrimeA()`。"
         },
         {
           "key": "C",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB()的最坏时间复杂度是 ，isPrimeA()优于\nisPrimeB()。\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 的最坏时间复杂度是 $O(N)$ ，`isPrimeA()` 优于 `isPrimeB()`。"
         },
         {
           "key": "D",
-          "text": "isPrimeA()的最坏时间复杂度是 ，isPrimeB()的最坏时间复杂度是 ，isPrimeA()优于\nisPrimeB()\n"
+          "text": "`isPrimeA()` 的最坏时间复杂度是 $O(\\sqrt{N})$ ，`isPrimeB()` 的最坏时间复杂度是 $O(\\log N)$ ，`isPrimeA()` 优于 `isPrimeB()`。"
         }
       ],
-      "content": "下面代码中的isPrimeA()和isPrimeB()都用于判断参数N是否素数，有关其时间复杂度的正确说法是\n（ ）。\n"
+      "content": "下面代码中的 `isPrimeA()` 和 `isPrimeB()` 都用于判断参数 $N$ 是否素数，有关其时间复杂度的正确说法是（ ）。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "C",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "7"
+          "text": "$7$"
         }
       ],
-      "content": "下面代码用于归并排序，其中merge()函数被调用次数为（ ）。\n"
+      "content": "下面代码用于归并排序，其中 `merge()` 函数被调用次数为（ ）。"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": "递推算法"
         }
       ],
-      "content": "在上题的归并排序算法中，mergeSort(listData, start, middle);和mergeSort(listData, middle\n+ 1, end);涉及到的算法为（ ）。\n"
+      "content": "在上题的归并排序算法中，`mergeSort(listData, start, middle);` 和 `mergeSort(listData, middle + 1, end);` 涉及到的算法为（ ）。"
     },
     {
       "type": "choice",
@@ -340,7 +340,7 @@
       "options": [
         {
           "key": "A",
-          "text": "将数组分成两个⼦数组，分别排序后再合并。"
+          "text": "将数组分成两个子数组，分别排序后再合并。"
         },
         {
           "key": "B",
@@ -355,7 +355,7 @@
           "text": "比较相邻的两个元素，如果顺序错误就交换位置。"
         }
       ],
-      "content": "归并排序算法的基本思想是（ ）。\n"
+      "content": "归并排序算法的基本思想是（ ）。"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "上述代码构成指针链表。"
         }
       ],
-      "content": "有关下面代码的说法正确的是（ ）。\n"
+      "content": "有关下面代码的说法正确的是（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "TCP/IP的传输层的两个不同的协议分别是UDP和TCP。\n"
+      "content": "TCP/IP 的传输层的两个不同的协议分别是 UDP 和 TCP。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "在特殊情况下流程图中可以出现三角框和圆形框。\n"
+      "content": "在特殊情况下流程图中可以出现三角框和圆形框。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "找出自然数N以内的所有质数，常用算法有埃⽒筛法和线性筛法，其中埃⽒筛法效率更高。\n"
+      "content": "找出自然数 $N$ 以内的所有质数，常用算法有埃氏筛法和线性筛法，其中埃氏筛法效率更高。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，可以使用二分法查找链表中的元素。\n"
+      "content": "在 C++ 中，可以使用二分法查找链表中的元素。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "在C++中，通过恰当的实现，可以将链表首尾相接，形成循环链表。\n"
+      "content": "在 C++ 中，通过恰当的实现，可以将链表首尾相接，形成循环链表。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "贪心算法的解可能不是最优解。\n"
+      "content": "贪心算法的解可能不是最优解。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "一般说来，冒泡排序算法优于归并排序。\n"
+      "content": "一般说来，冒泡排序算法优于归并排序。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "C++语⾔中的qsort库函数是不稳定排序。\n"
+      "content": "C++ 语言中的 `qsort` 库函数是不稳定排序。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "质数的判定和筛法的目的并不相同，质数判定旨在判断特定的正整数是否为质数，⽽质数筛法意在筛选出范\n围内的所有质数。\n"
+      "content": "质数的判定和筛法的目的并不相同，质数判定旨在判断特定的正整数是否为质数，而质数筛法意在筛选出范围内的所有质数。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "下面的C++代码执行后将输出0 5 1 6 2 3 4 。\n"
+      "content": "下面的 C++ 代码执行后将输出 `0 5 1 6 2 3 4` 。"
     },
     {
       "type": "program",

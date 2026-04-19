@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "14.25"
+          "text": "$14.25$"
         },
         {
           "key": "B",
-          "text": "13.625"
+          "text": "$13.625$"
         },
         {
           "key": "C",
-          "text": "13.5"
+          "text": "$13.5$"
         },
         {
           "key": "D",
-          "text": "14.5"
+          "text": "$14.5$"
         }
       ],
-      "content": "请将二进制数 ，转换为等值的10进制数（ ）\n"
+      "content": "请将二进制数 ，转换为等值的 $10$ 进制数（ ）"
     },
     {
       "type": "choice",
@@ -40,7 +40,7 @@
       "options": [
         {
           "key": "A",
-          "text": "数组的下标从0开始"
+          "text": "数组的下标从 $0$ 开始"
         },
         {
           "key": "B",
@@ -55,7 +55,7 @@
           "text": "可以在程序中修改数组某个元素的值"
         }
       ],
-      "content": "以下关于标准 C++ 一维数组的描述，哪一项是错误的？（ ）\n"
+      "content": "以下关于标准 C++ 一维数组的描述，哪一项是错误的？（ ）"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "12"
+          "text": "$12$"
         },
         {
           "key": "B",
-          "text": "17"
+          "text": "$17$"
         },
         {
           "key": "C",
-          "text": "33"
+          "text": "$33$"
         },
         {
           "key": "D",
-          "text": "40"
+          "text": "$40$"
         }
       ],
-      "content": "下列代码段执行后，变量 sum 的值是（ ）\n\n```cpp\n{\n    int sum = 0;\n    for (int i = 1; i <= 10; i++) {\n        if (i % 3 == 8>>2)\n        continue;\n        sum += i;\n    }\n}\n```\n"
+      "content": "下列代码段执行后，变量 `sum` 的值是（ ）\n\n```cpp\n{\n    int sum = 0;\n    for (int i = 1; i <= 10; i++) {\n        if (i % 3 == 8>>2)\n            continue;\n        sum += i;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "C",
-          "text": "120"
+          "text": "$120$"
         },
         {
           "key": "D",
-          "text": "1"
+          "text": "$1$"
         }
       ],
-      "content": "执行以下程序段，输出值是（ ）\n\n```cpp\nint x = 5;\nif (x == 3 >> 2) x = 8 >> 3;\ncout << x << endl;\n```\n"
+      "content": "执行以下程序段，输出值是（ ）\n\n```cpp\nint x = 5;\nif (x == 3 >> 2) x = 8 >> 3;\ncout << x << endl;\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "14"
+          "text": "$14$"
         },
         {
           "key": "B",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "C",
-          "text": "16"
+          "text": "$16$"
         },
         {
           "key": "D",
-          "text": "17"
+          "text": "$17$"
         }
       ],
-      "content": "已知字符串 s = \"C++ Programming\"，下列程序运行的结果是（ ）\n\n```cpp\ncout << (int)(s.length() | 3) << endl;\n```\n"
+      "content": "已知字符串 $s = \\text{\"C++ Programming\"}$，下列程序运行的结果是（ ）\n\n```cpp\ncout << (int)(s.length() | 3) << endl;\n```"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "D",
-          "text": "4"
+          "text": "$4$"
         }
       ],
-      "content": "以下代码是一个程序的部分代码，能够正确执行，输出的结果是（ ）\n\n```cpp\nint arr[5] = {1, 2, 3, 4, 5};\nint p = arr[1];\ncout << (p + 2) << endl;\n```\n"
+      "content": "以下代码是一个程序的部分代码，能够正确执行，输出的结果是（ ）\n\n```cpp\nint arr[5] = {1, 2, 3, 4, 5};\nint p = arr[1];\ncout << (p + 2) << endl;\n```"
     },
     {
       "type": "choice",
@@ -173,14 +173,14 @@
         },
         {
           "key": "C",
-          "text": "调用 min(5) 是错误的，不能通过编译"
+          "text": "调用 `min(5)` 是错误的，不能通过编译"
         },
         {
           "key": "D",
-          "text": "调用 min()（不传任何参数）可以通过编译，结果为 0"
+          "text": "调用 `min()`（不传任何参数）可以通过编译，结果为 $0$"
         }
       ],
-      "content": "以下关于 C++ 求最小值函数 min() 的描述，不正确的是（ ）\n"
+      "content": "以下关于 C++ 求最小值函数 `min()` 的描述，不正确的是（ ）"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0 ~ 65535"
+          "text": "$0 \\sim 65535$"
         },
         {
           "key": "B",
-          "text": "0 ~ 65536"
+          "text": "$0 \\sim 65536$"
         },
         {
           "key": "C",
-          "text": "-65536 ~ 65535"
+          "text": "$-65536 \\sim 65535$"
         },
         {
           "key": "D",
-          "text": "0 ~ 32767"
+          "text": "$0 \\sim 32767$"
         }
       ],
-      "content": "在一个特定的计算机系统中，假如 unsigned int 类型需要占用2个字节的存储空间（每个字节有8位），\n则 unsigned int 可以表⽰的数据范围是（ ）\n"
+      "content": "在一个特定的计算机系统中，假如 `unsigned int` 类型需要占用 $2$ 个字节的存储空间（每个字节有 $8$ 位），则 `unsigned int` 可以表示的数据范围是（ ）"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "{2,1,4,3,6,5}"
+          "text": "`{2,1,4,3,6,5}`"
         },
         {
           "key": "B",
-          "text": "{1,2,3,4,5,6}"
+          "text": "`{1,2,3,4,5,6}`"
         },
         {
           "key": "C",
-          "text": "{3,1,4,2,5,3}"
+          "text": "`{3,1,4,2,5,3}`"
         },
         {
           "key": "D",
-          "text": "{1,3,2,5,4,6}"
+          "text": "`{1,3,2,5,4,6}`"
         }
       ],
-      "content": "以下代码执行后，数组 arr 的内容是（ ）\n\n```cpp\nint arr[6] = {1, 2, 3, 4, 5, 6};\nfor (int i = 0; i < 6; i += 2) {\n    arr[i] = arr[i] + arr[i+1];\n    arr[i+1] = arr[i] - arr[i+1];\n    arr[i] = arr[i] - arr[i+1];\n}\n```\n"
+      "content": "以下代码执行后，数组 `arr` 的内容是（ ）\n\n```cpp\nint arr[6] = {1, 2, 3, 4, 5, 6};\nfor (int i = 0; i < 6; i += 2) {\n    arr[i] = arr[i] + arr[i+1];\n    arr[i+1] = arr[i] - arr[i+1];\n    arr[i] = arr[i] - arr[i+1];\n}\n```"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "十进制11"
+          "text": "十进制 $11$"
         },
         {
           "key": "B",
-          "text": "二进制11"
+          "text": "二进制 $11$"
         },
         {
           "key": "C",
-          "text": "八进制11"
+          "text": "八进制 $11$"
         },
         {
           "key": "D",
-          "text": "十六进制11"
+          "text": "十六进制 $11$"
         }
       ],
-      "content": "a & b | (c ^ d)，其中 a = 3, b = 7, c = 15, d = 4，计算结果是（ ）\n"
+      "content": "$a \\& b | (c \\^ d)$，其中 $a = 3$，$b = 7$，$c = 15$，$d = 4$，计算结果是（ ）"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "-1"
+          "text": "$-1$"
         },
         {
           "key": "C",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "D",
           "text": "死循环"
         }
       ],
-      "content": "整型变量 x 的初始值为 10，以下代码的输出结果是（ ）\n\n```cpp\nint t = x--;\nt -= x;\ncout << t << endl;\n```\n"
+      "content": "整型变量 $x$ 的初始值为 $10$，以下代码的输出结果是（ ）\n\n```cpp\nint t = x--;\nt -= x;\ncout << t << endl;\n```"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": "没有输出"
         }
       ],
-      "content": "根据下面的流程图，如果成绩 score 输入 60，输出的结果是（ ）\n"
+      "content": "根据下面的流程图，如果成绩 $score$ 输入 $60$，输出的结果是（ ）"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "11"
+          "text": "$11$"
         },
         {
           "key": "C",
-          "text": "14"
+          "text": "$14$"
         },
         {
           "key": "D",
-          "text": "15"
+          "text": "$15$"
         }
       ],
-      "content": "以下代码运行后，sum 的结果是（ ）\n\n```cpp\nint arr[5] = {2, 4, 6, 8, 10};\nint sum = 0;\nfor (int i = 0; i < 5; i++) {\n    switch (arr[i] % (1|2)) {\n        case 0: sum += 1; break;\n        case 1: sum += 2; break;\n        case 2: sum += 3; break;\n    }\n}\n```\n"
+      "content": "以下代码运行后，`sum` 的结果是（ ）\n\n```cpp\nint arr[5] = {2, 4, 6, 8, 10};\nint sum = 0;\nfor (int i = 0; i < 5; i++) {\n    switch (arr[i] % (1|2)) {\n        case 0: sum += 1; break;\n        case 1: sum += 2; break;\n        case 2: sum += 3; break;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "abs() 函数可用于计算 int 类型整数的绝对值，头文件为 <cmath> 或 <cstdlib>"
+          "text": "`abs()` 函数可用于计算 `int` 类型整数的绝对值，头文件为 `<cmath>` 或 `<cstdlib>`"
         },
         {
           "key": "B",
-          "text": "调用 abs(3.14) 可以四舍五入得到 3"
+          "text": "调用 `abs(3.14)` 可以四舍五入得到 $3$"
         },
         {
           "key": "C",
-          "text": "abs(-1, -2) 的返回值是 1"
+          "text": "`abs(-1, -2)` 的返回值是 $1$"
         },
         {
           "key": "D",
-          "text": "若传入负数浮点数，abs() 会自动截断小数部分后返回整数绝对值"
+          "text": "若传入负数浮点数，`abs()` 会自动截断小数部分后返回整数绝对值"
         }
       ],
-      "content": "以下关于 C++ 中 abs() 函数的描述，正确的是（ ）\n"
+      "content": "以下关于 C++ 中 `abs()` 函数的描述，正确的是（ ）"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "GESP"
+          "text": "`GESP`"
         },
         {
           "key": "B",
-          "text": "HFTR"
+          "text": "`HFTR`"
         },
         {
           "key": "C",
-          "text": "hesp"
+          "text": "`hesp`"
         },
         {
           "key": "D",
-          "text": "GFUS"
+          "text": "`GFUS`"
         }
       ],
-      "content": "如果字符串 s 的值是 GESP，以下代码 s 的最后结果是（ ）\n\n```cpp\nfor (int i = 0; i < s.length(); i++) {\n    s[i] = toupper(s[i] + i);\n}\n```\n"
+      "content": "如果字符串 $s$ 的值是 `GESP` ，以下代码 $s$ 的最后结果是（ ）\n\n```cpp\nfor (int i = 0; i < s.length(); i++) {\n    s[i] = toupper(s[i] + i);\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "在 C++ 中，数组名不能改变，数组名不能被赋值。\n"
+      "content": "在 C++ 中，数组名不能改变，数组名不能被赋值。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "整型变量 a 的值为 3，浮点数变量 b 的值为 3.5，在 C++ 编译环境下，经过 a *= b 计算后，a 的\n值变为 10.5，此时如果输出 a，将输出 10.5。\n"
+      "content": "整型变量 $a$ 的值为 $3$，浮点数变量 $b$ 的值为 $3.5$，在 C++ 编译环境下，经过 `a *= b` 计算后，$a$ 的值变为 $10.5$，此时如果输出 $a$，将输出 $10.5$。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "strcmp(str1, str2) 返回 0 表⽰ str1 大于 str2，返回正数表⽰两者相等。\n"
+      "content": "`strcmp(str1, str2)` 返回 $0$ 表示 `str1` 大于 `str2`，返回正数表示两者相等。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "以下代码输出结果为 8。\n\n```cpp\nint a = 5, b = 3;\nint c = a++ + ++b;\ncout << c << endl;\n```\n"
+      "content": "以下代码输出结果为 $8$。\n\n```cpp\nint a = 5, b = 3;\nint c = a++ + ++b;\ncout << c << endl;\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "位运算符 &、|、^、~ 的优先级高于算术运算符 +、-、*、/。\n"
+      "content": "位运算符 `&`、`|`、`^`、`~` 的优先级高于算术运算符 `+`、`-`、`*`、`/`。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "在 C++ 中，int a[] = {1, 2, 3, 4, 5}; 可以定义一个包含 5 个元素的整型数组。\n"
+      "content": "在 C++ 中，`int a[] = {1, 2, 3, 4, 5};` 可以定义一个包含 $5$ 个元素的整型数组。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "C++ 表达式 z = a > b ? x : y 等同于：\n\n```cpp\nif (a > b) {\n    z = x;\n} else {\n    z = y;\n}\n```\n以下代码执行后，输出将会是 2。\n\n```cpp\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    cout << arr[3 > 2 ? 1 : 2] << endl;\n    return 0;\n}\n```\n"
+      "content": "C++ 表达式 `z = a > b ? x : y` 等同于：\n\n```cpp\nif (a > b) {\n    z = x;\n} else {\n    z = y;\n}\n```\n\n以下代码执行后，输出将会是 $2$。\n\n```cpp\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    cout << arr[3 > 2 ? 1 : 2] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "False",
-      "content": "在 C++ 中，++ 和 -- 运算符只能用于整型变量，不能用于浮点数变量。\n"
+      "content": "在 C++ 中，`++` 和 `--` 运算符只能用于整型变量，不能用于浮点数变量。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "给定一个正整数 a，当需要计算 -a 的补码时，有这样一个计算技巧：将 a 的二进制形式从右往左扫\n描，遇到第一个 1 之后，将找到的第一个 1 左边的所有位都取反，能得到 -a 的补码。\n"
+      "content": "给定一个正整数 $a$，当需要计算 $-a$ 的补码时，有这样一个计算技巧：将 $a$ 的二进制形式从右往左扫描，遇到第一个 $1$ 之后，将找到的第一个 $1$ 左边的所有位都取反，能得到 $-a$ 的补码。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "以下代码中，Hello 将被输出5次。\n\n```cpp\nfor (int i = 0; i < 5; i++);\n{\n    cout << \"Hello\" << endl;\n}\n```\n"
+      "content": "以下代码中，Hello 将被输出 5 次。\n\n```cpp\nfor (int i = 0; i < 5; i++);\n{\n    cout << \"Hello\" << endl;\n}\n```"
     },
     {
       "type": "program",

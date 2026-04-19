@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "0"
+          "text": "$0$"
         },
         {
           "key": "B",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "C",
-          "text": "0.5"
+          "text": "$0.5$"
         },
         {
           "key": "D",
-          "text": "0.7071"
+          "text": "$0.7071$"
         }
       ],
-      "content": "下列C++代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << sin(3.1415926 / 2);\n    return 0;\n}\n```\n"
+      "content": "下列 C++ 代码的输出结果是（ ）。\n\n```cpp\n#include <iostream>\n#include <cmath>\nusing namespace std;\nint main() {\n    cout << sin(3.1415926 / 2);\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "先序遍历是132。"
+          "text": "先序遍历是 $132$ 。"
         },
         {
           "key": "B",
-          "text": "中序遍历是123。"
+          "text": "中序遍历是 $123$ 。"
         },
         {
           "key": "C",
-          "text": "后序遍历是312。"
+          "text": "后序遍历是 $312$ 。"
         },
         {
           "key": "D",
           "text": "先序遍历和后序遍历正好是相反的。"
         }
       ],
-      "content": "对于如下图的二叉树，说法正确的是（ ）。\n"
+      "content": "对于如下图的二叉树，说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "{3,5,7,8,1}"
+          "text": "$\\{3, 5, 7, 8, 1\\}$"
         },
         {
           "key": "B",
-          "text": "{3,4,5,7,8}"
+          "text": "$\\{3, 4, 5, 7, 8\\}$"
         },
         {
           "key": "C",
-          "text": "{5,7,8}"
+          "text": "$\\{5, 7, 8\\}$"
         },
         {
           "key": "D",
-          "text": "{3,5,7,9,1}"
+          "text": "$\\{3, 5, 7, 9, 1\\}$"
         }
       ],
-      "content": "已知两个序列s1={1,3,4,5,6,7,7,8,1}、s2={3,5,7,4,8,2,9,5,1}，则它们的最长公共⼦序列是（\n）。\n"
+      "content": "已知两个序列 $s1 = \\{1, 3, 4, 5, 6, 7, 7, 8, 1\\}$ 、 $s2 = \\{3, 5, 7, 4, 8, 2, 9, 5, 1\\}$ ，则它们的最长公共子序列是（ ）。"
     },
     {
       "type": "choice",
@@ -115,7 +115,7 @@
       "options": [
         {
           "key": "A",
-          "text": "二叉树是也是一种图。"
+          "text": "二叉树也是一种图。"
         },
         {
           "key": "B",
@@ -130,7 +130,7 @@
           "text": "二叉树的后序遍历也是广度优先搜索的一种。"
         }
       ],
-      "content": "关于图的深度优先搜索和广度优先搜索，下列说法错误的是（ ）。\n"
+      "content": "关于图的深度优先搜索和广度优先搜索，下列说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "HDEBFIGCA不是它的后序遍历序列"
+          "text": "HDEBFIGCA 不是它的后序遍历序列"
         },
         {
           "key": "B",
-          "text": "ABCDEFGHI是它的广度优先遍历序列"
+          "text": "ABCDEFGHI 是它的广度优先遍历序列"
         },
         {
           "key": "C",
-          "text": "ABDHECFGI是它的深度优先遍历序列"
+          "text": "ABDHECFGI 是它的深度优先遍历序列"
         },
         {
           "key": "D",
-          "text": "ABDHECFGI是它的先序遍历序列"
+          "text": "ABDHECFGI 是它的先序遍历序列"
         }
       ],
-      "content": "对于如下二叉树，下面访问顺序说法错误的是（ ）。\n"
+      "content": "对于如下二叉树，下面访问顺序说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -169,18 +169,18 @@
         },
         {
           "key": "B",
-          "text": "在每个哈希表项处，使用不同的哈希函数再建⽴一个哈希表，管理该表项的冲突元素。"
+          "text": "在每个哈希表项处，使用不同的哈希函数再建立一个哈希表，管理该表项的冲突元素。"
         },
         {
           "key": "C",
-          "text": "在每个哈希表项处，建⽴二叉排序树，管理该表项的冲突元素。"
+          "text": "在每个哈希表项处，建立二叉排序树，管理该表项的冲突元素。"
         },
         {
           "key": "D",
-          "text": "使用不同的哈希函数建⽴额外的哈希表，用来管理所有发生冲突的元素。"
+          "text": "使用不同的哈希函数建立额外的哈希表，用来管理所有发生冲突的元素。"
         }
       ],
-      "content": "以下哪个方案不能合理解决或缓解哈希表冲突（ ）。\n"
+      "content": "以下哪个方案不能合理解决或缓解哈希表冲突（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "2 & 3的结果是true"
+          "text": "`2 & 3` 的结果是 `true`"
         },
         {
           "key": "B",
-          "text": "011 & 111的结果是3"
+          "text": "`011 & 111` 的结果是 $3$"
         },
         {
           "key": "C",
-          "text": "3 & 6的结果是2"
+          "text": "`3 & 6` 的结果是 $2$"
         },
         {
           "key": "D",
-          "text": "110 & 101的结果是4"
+          "text": "`110 & 101` 的结果是 $4$"
         }
       ],
-      "content": "在C++中，关于运算符&，下面说法正确的是（ ）。\n"
+      "content": "在 C++ 中，关于运算符 `&`，下面说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "在有向图中，所有顶点的入度和出度的总和就是图的边数的两倍。"
         }
       ],
-      "content": "下面关于图的说法正确的是（ ）。\n"
+      "content": "下面关于图的说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -252,10 +252,10 @@
         },
         {
           "key": "D",
-          "text": "邻接表中，顶点 对应链表中的边结点数目正好是顶点 的度。"
+          "text": "邻接表中，顶点对应链表中的边结点数目正好是顶点的度。"
         }
       ],
-      "content": "图的存储和遍历算法，下面说法错误的是（ ）。\n"
+      "content": "图的存储和遍历算法，下面说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -280,7 +280,7 @@
           "text": ""
         }
       ],
-      "content": "如下图所⽰的邻接表结构，表⽰的是下列哪个选项中的图？\n"
+      "content": "如下图所示的邻接表结构，表示的是下列哪个选项中的图？"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "如下图所⽰的邻接矩阵（inf表⽰无穷大），表⽰的是下列哪个选项中的图？\n"
+      "content": "如下图所示的邻接矩阵（`inf` 表示无穷大），表示的是下列哪个选项中的图？"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "13"
+          "text": "$13$"
         },
         {
           "key": "D",
           "text": "无法正常结束。"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint fib(int n) {\n    if (n <= 1)\n    return n;\n    return fib(n - 1) + fib(n - 2);\n}\nint main() {\n    cout << fib(6) << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint fib(int n) {\n    if (n <= 1)\n        return n;\n    return fib(n - 1) + fib(n - 2);\n}\nint main() {\n    cout << fib(6) << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": ""
         }
       ],
-      "content": "下面count_triple函数的时间复杂度为( )。\n\n```cpp\nint count_triple(int n) {\n    int cnt = 0;\n    for (int a = 1; a <= n; a++)\n    for (int b = a; a + b <= n; b++) {\n        int c = sqrt(a * a + b * b);\n        if (a + b + c > n)\n        break;\n        if (a * a + b * b == c * c)\n        cnt++;\n    }\n    return cnt;\n}\n```\n"
+      "content": "下面 `count_triple` 函数的时间复杂度为( )。\n\n```cpp\nint count_triple(int n) {\n    int cnt = 0;\n    for (int a = 1; a <= n; a++)\n        for (int b = a; a + b <= n; b++) {\n            int c = sqrt(a * a + b * b);\n            if (a + b + c > n)\n                break;\n            if (a * a + b * b == c * c)\n                cnt++;\n        }\n    return cnt;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "1, 3, 7, 5, 4, 2, 6, 8, 9"
+          "text": "$1$, $3$, $7$, $5$, $4$, $2$, $6$, $8$, $9$"
         },
         {
           "key": "B",
-          "text": "9, 4, 2, 1, 3, 5, 7, 6, 8"
+          "text": "$9$, $4$, $2$, $1$, $3$, $5$, $7$, $6$, $8$"
         },
         {
           "key": "C",
-          "text": "1, 3, 4, 2, 7, 6, 8, 9, 5"
+          "text": "$1$, $3$, $4$, $2$, $7$, $6$, $8$, $9$, $5$"
         },
         {
           "key": "D",
-          "text": "9, 7, 6, 8, 4, 2, 1, 5, 3"
+          "text": "$9$, $7$, $6$, $8$, $4$, $2$, $1$, $5$, $3$"
         }
       ],
-      "content": "下列选项中，哪个可能是下图的深度优先遍历序列（ ）。\n"
+      "content": "下列选项中，哪个可能是下图的深度优先遍历序列（ ）。"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "C++语⾔中，表达式6 & 5的结果类型为int、值为1。\n"
+      "content": "C++ 语言中，表达式 `6 & 5` 的结果类型为 `int`、值为 $1$。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "冒泡排序是稳定的排序算法。\n"
+      "content": "冒泡排序是稳定的排序算法。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "唯一分解定理（算术基本定理）指出，每个大于1的自然数都可以唯一地分解成若⼲个素数的乘积。因此，\n我们可以很容易的对给定的自然数n进行质因数分解，时间复杂度仅为 。\n"
+      "content": "唯一分解定理（算术基本定理）指出，每个大于 $1$ 的自然数都可以唯一地分解成若干个素数的乘积。因此，我们可以很容易的对给定的自然数 $n$ 进行质因数分解，时间复杂度仅为 $O(\\sqrt{n})$。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "C++语⾔中，可以为同一个类定义多个构造函数。\n"
+      "content": "C++ 语言中，可以为同一个类定义多个构造函数。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "使用math.h或cmath头文件中的对数函数，表达式log(128)的结果类型为double、值约为7.0。\n"
+      "content": "使用 `math.h` 或 `cmath` 头文件中的对数函数，表达式 `log(128)` 的结果类型为 `double`、值约为 $7.0$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "一颗N层的二叉树，至少有 个节点。\n"
+      "content": "一颗 $N$ 层的二叉树，至少有  个节点。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "非连通图不能使用广度优先搜索算法进行遍历。\n"
+      "content": "非连通图不能使用广度优先搜索算法进行遍历。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "现使用有N个表项的哈希表，从M个元素中进行查找。该哈希表为解决哈希函数冲突，为每个表项处建⽴单\n链表存储冲突元素。其查找操作的最坏情况时间复杂度为 。\n"
+      "content": "现使用有 $N$ 个表项的哈希表，从 $M$ 个元素中进行查找。该哈希表为解决哈希函数冲突，为每个表项处建立单链表存储冲突元素。其查找操作的最坏情况时间复杂度为 。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "动态规划有递推实现和递归实现，对于很多问题，通过记录⼦问题的解，两种实现的时间复杂度是相同的。\n"
+      "content": "动态规划有递推实现和递归实现，对于很多问题，通过记录子问题的解，两种实现的时间复杂度是相同的。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "泛洪算法的递归方法容易造成溢出，因此大的二维地图算法中，一般不用递归方法。\n"
+      "content": "泛洪算法的递归方法容易造成溢出，因此大的二维地图算法中，一般不用递归方法。"
     },
     {
       "type": "program",

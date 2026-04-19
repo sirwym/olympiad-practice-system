@@ -30,7 +30,7 @@
           "text": "类一旦定义后，其属性和方法不能被修改或扩展。"
         }
       ],
-      "content": "在面向对象编程中，类是一种重要的概念。下面关于类的描述中，不正确的是（ ）。\n"
+      "content": "在面向对象编程中，类是一种重要的概念。下面关于类的描述中，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -52,10 +52,10 @@
         },
         {
           "key": "D",
-          "text": "哈夫曼编码是一种前缀编码，任何一个字符的编码都不会是另一个字符编码的前缀，因此可以实现唯一解\n码。\n"
+          "text": "哈夫曼编码是一种前缀编码，任何一个字符的编码都不会是另一个字符编码的前缀，因此可以实现唯一解码。"
         }
       ],
-      "content": "哈夫曼编码是一种数据压缩算法。以下关于哈夫曼编码的描述中，不正确的是（ ）。\n"
+      "content": "哈夫曼编码是一种数据压缩算法。以下关于哈夫曼编码的描述中，不正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": "层次遍历"
         }
       ],
-      "content": "以下代码实现了树的哪种遍历方式？\n\n```cpp\nvoid traverse(TreeNode* root) {\n    if (root == nullptr) return;\n    cout << root->val << \" \";\n    traverse(root->left);\n    traverse(root->right);\n}\n```\n"
+      "content": "以下代码实现了树的哪种遍历方式？\n\n```cpp\nvoid traverse(TreeNode* root) {\n    if (root == nullptr) return;\n    cout << root->val << \" \";\n    traverse(root->left);\n    traverse(root->right);\n}\n```"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": "该代码用于计算树的高度"
         }
       ],
-      "content": "以下关于完全二叉树的代码描述，正确的是（ ）。\n\n```cpp\nbool isCompleteTree(TreeNode* root) {\n    if (root == nullptr) return true;\n    queue<TreeNode*> q;\n    q.push(root);\n    bool hasNull = false;\n    while (!q.empty()) {\n        TreeNode* node = q.front();\n        q.pop();\n        if (node == nullptr) {\n            hasNull = true;\n        } else {\n            if (hasNull) return false;\n            q.push(node->left);\n            q.push(node->right);\n        }\n    }\n    return true;\n}\n```\n"
+      "content": "以下关于完全二叉树的代码描述，正确的是（ ）。\n\n```cpp\nbool isCompleteTree(TreeNode* root) {\n    if (root == nullptr) return true;\n    queue<TreeNode*> q;\n    q.push(root);\n    bool hasNull = false;\n    while (!q.empty()) {\n        TreeNode* node = q.front();\n        q.pop();\n        if (node == nullptr) {\n            hasNull = true;\n        } else {\n            if (hasNull) return false;\n            q.push(node->left);\n            q.push(node->right);\n        }\n    }\n    return true;\n}\n```"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "遍历"
         }
       ],
-      "content": "以下代码实现了二叉排序树的哪种操作？\n\n```cpp\nTreeNode* op(TreeNode* root, int val) {\n    if (root == nullptr) return new TreeNode(val);\n    if (val < root->val) {\n        root->left = op(root->left, val);\n    } else {\n        root->right = op(root->right, val);\n    }\n    return root;\n}\n```\n"
+      "content": "以下代码实现了二叉排序树的哪种操作？\n\n```cpp\nTreeNode* op(TreeNode* root, int val) {\n    if (root == nullptr) return new TreeNode(val);\n    if (val < root->val) {\n        root->left = op(root->left, val);\n    } else {\n        root->right = op(root->right, val);\n    }\n    return root;\n}\n```"
     },
     {
       "type": "choice",
@@ -140,27 +140,27 @@
       "options": [
         {
           "key": "A",
-          "text": ""
+          "text": "10,"
         },
         {
           "key": "A",
-          "text": "0,"
+          "text": ""
         },
         {
           "key": "B",
-          "text": "100,"
+          "text": "101,"
         },
         {
           "key": "C",
-          "text": "11,"
+          "text": "0,"
         },
         {
           "key": "D",
-          "text": "101"
+          "text": "100"
         },
         {
           "key": "B",
-          "text": ""
+          "text": "101,"
         },
         {
           "key": "A",
@@ -172,7 +172,7 @@
         },
         {
           "key": "C",
-          "text": "0,"
+          "text": "11,"
         },
         {
           "key": "D",
@@ -196,11 +196,11 @@
         },
         {
           "key": "D",
-          "text": "100"
+          "text": "101"
         },
         {
           "key": "D",
-          "text": ""
+          "text": "101"
         },
         {
           "key": "A",
@@ -219,7 +219,7 @@
           "text": "100"
         }
       ],
-      "content": "给定字符集 {A, B, C, D} 的出现频率分别为 {5, 1, 6, 2}，则正确的哈夫曼编码是（ ）。\n"
+      "content": "给定字符集 {$A$, $B$, $C$, $D$} 的出现频率分别为 {$5$, $1$, $6$, $2$}，则正确的哈夫曼编码是（ ）。"
     },
     {
       "type": "choice",
@@ -233,7 +233,7 @@
         },
         {
           "key": "B",
-          "text": "动态规划要求问题必须具有最优⼦结构和重叠⼦问题两个性质。"
+          "text": "动态规划要求问题必须具有最优子结构和重叠子问题两个性质。"
         },
         {
           "key": "C",
@@ -241,10 +241,10 @@
         },
         {
           "key": "D",
-          "text": "动态规划的核心思想是将问题分解为互不重叠的⼦问题。"
+          "text": "动态规划的核心思想是将问题分解为互不重叠的子问题。"
         }
       ],
-      "content": "关于动态规划的描述，正确的是（ ）。\n"
+      "content": "关于动态规划的描述，正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -254,22 +254,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1"
+          "text": "$1$"
         },
         {
           "key": "B",
-          "text": "2"
+          "text": "$2$"
         },
         {
           "key": "C",
-          "text": "3"
+          "text": "$3$"
         },
         {
           "key": "D",
-          "text": "0"
+          "text": "$0$"
         }
       ],
-      "content": "以下代码中，类的构造函数被调用了（ ）次。\n\n```cpp\nclass MyClass {\n    public:\n    MyClass() {\n        cout << \"Constructor called!\" << endl;\n    }\n};\nint main() {\n    MyClass obj1;\n    MyClass obj2 = obj1;\n    return 0;\n}\n```\n"
+      "content": "以下代码中，类的构造函数被调用了（ ）次。\n\n```cpp\nclass MyClass {\n    public:\n    MyClass() {\n        cout << \"Constructor called!\" << endl;\n    }\n};\nint main() {\n    MyClass obj1;\n    MyClass obj2 = obj1;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -294,7 +294,7 @@
           "text": "判断队列是否为空"
         }
       ],
-      "content": "以下代码实现了循环队列的哪种操作？\n\n```cpp\nclass CircularQueue {\n    int* arr;\n    int front, rear, size;\n    public:\n    CircularQueue(int k) {\n        size = k;\n        arr = new int[k];\n        front = rear = -1;\n    }\n    bool enQueue(int value) {\n        if (isFull()) return false;\n        if (isEmpty()) front = 0;\n        rear = (rear + 1) % size;\n        arr[rear] = value;\n        return true;\n    }\n};\n```\n"
+      "content": "以下代码实现了循环队列的哪种操作？\n\n```cpp\nclass CircularQueue {\n    int* arr;\n    int front, rear, size;\n    public:\n    CircularQueue(int k) {\n        size = k;\n        arr = new int[k];\n        front = rear = -1;\n    }\n    bool enQueue(int value) {\n        if (isFull()) return false;\n        if (isEmpty()) front = 0;\n        rear = (rear + 1) % size;\n        arr[rear] = value;\n        return true;\n    }\n};\n```"
     },
     {
       "type": "choice",
@@ -304,22 +304,22 @@
       "options": [
         {
           "key": "A",
-          "text": "if (node->left) s.push(node->left);"
+          "text": "`if (node->left) s.push(node->left);`"
         },
         {
           "key": "B",
-          "text": "if (node->left) s.pop(node->left);"
+          "text": "`if (node->left) s.pop(node->left);`"
         },
         {
           "key": "C",
-          "text": "if (node->left) s.front(node->left);"
+          "text": "`if (node->left) s.front(node->left);`"
         },
         {
           "key": "D",
-          "text": "if (node->left) s.push(node->right);"
+          "text": "`if (node->left) s.push(node->right);`"
         }
       ],
-      "content": "以下代码实现了二叉树的深度优先搜索（DFS），并统计叶⼦结点的数量，则横线上应填写（ ）。\n\n```cpp\nint countLeafNodes(TreeNode* root) {\n    if (root == nullptr) return 0;\n    stack<TreeNode*> s;\n    s.push(root);\n    int count = 0;\n    while (!s.empty()) {\n        TreeNode* node = s.top();\n        s.pop();\n        if (node->left == nullptr && node->right == nullptr) {\n            count++;\n        }\n        if (node->right) s.push(node->right);\n        ———————————————————————— // 在此处填入代码\n    }\n    return count;\n}\n```\n"
+      "content": "以下代码实现了二叉树的深度优先搜索（DFS），并统计叶⼦结点的数量，则横线上应填写（ ）。\n\n```cpp\nint countLeafNodes(TreeNode* root) {\n    if (root == nullptr) return 0;\n    stack<TreeNode*> s;\n    s.push(root);\n    int count = 0;\n    while (!s.empty()) {\n        TreeNode* node = s.top();\n        s.pop();\n        if (node->left == nullptr && node->right == nullptr) {\n            count++;\n        }\n        if (node->right) s.push(node->right);\n        ———————————————————————— // 在此处填入代码\n    }\n    return count;\n}\n```"
     },
     {
       "type": "choice",
@@ -329,22 +329,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\nif (current->left) q.push(current->left);\nif (current->right) q.push(current->right);\n```\n"
+          "text": "```cpp\nif (current->left) q.push(current->left);\nif (current->right) q.push(current->right);\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\nif (current->left) q.pop(current->left);\nif (current->right) q.pop(current->right);\n```\n"
+          "text": "```cpp\nif (current->left) q.pop(current->left);\nif (current->right) q.pop(current->right);\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\nif (current->left) q.front(current->left);\nif (current->right) q.front(current->right);\n```\n"
+          "text": "```cpp\nif (current->left) q.front(current->left);\nif (current->right) q.front(current->right);\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\nif (current->left) q.push(current->right);\nif (current->right) q.push(current->left);\n```\n"
+          "text": "```cpp\nif (current->left) q.push(current->right);\nif (current->right) q.push(current->left);\n```"
         }
       ],
-      "content": "以下代码实现了二叉树的广度优先搜索（BFS），并查找特定值的节点，则横线上应填写（ ）。\n\n```cpp\nTreeNode* findNode(TreeNode* root, int target) {\n    if (root == nullptr) return nullptr;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        TreeNode* current = q.front();\n        q.pop();\n        if (current->val == target) {\n            return current; // 找到目标节点\n        }\n        ———————————————————————— // 在此处填入代码\n    }\n    return nullptr; // 未找到目标节点\n}\n```\n"
+      "content": "以下代码实现了二叉树的广度优先搜索（BFS），并查找特定值的节点，则横线上应填写（ ）。\n\n```cpp\nTreeNode* findNode(TreeNode* root, int target) {\n    if (root == nullptr) return nullptr;\n    queue<TreeNode*> q;\n    q.push(root);\n    while (!q.empty()) {\n        TreeNode* current = q.front();\n        q.pop();\n        if (current->val == target) {\n            return current; // 找到目标节点\n        }\n        ———————————————————————— // 在此处填入代码\n    }\n    return nullptr; // 未找到目标节点\n}\n```"
     },
     {
       "type": "choice",
@@ -354,22 +354,22 @@
       "options": [
         {
           "key": "A",
-          "text": "result.push_back(\"1\" + prev[i]);"
+          "text": "`result.push_back(\"1\" + prev[i]);`"
         },
         {
           "key": "B",
-          "text": "result.push_back(\"0\" + prev[i]);"
+          "text": "`result.push_back(\"0\" + prev[i]);`"
         },
         {
           "key": "C",
-          "text": "result.push_back(prev[i] + \"1\");"
+          "text": "`result.push_back(prev[i] + \"1\");`"
         },
         {
           "key": "D",
-          "text": "result.push_back(prev[i] + \"0\");"
+          "text": "`result.push_back(prev[i] + \"0\");`"
         }
       ],
-      "content": "以下代码用于生成 位格雷编码。横线上应填写（ ）。\n\n```cpp\nvector<string> generateGrayCode(int n) {\n    if (n == 0) return {\"0\"};\n    if (n == 1) return {\"0\", \"1\"};\n    vector<string> prev = generateGrayCode(n - 1);\n    vector<string> result;\n    for (string s : prev) {\n        result.push_back(\"0\" + s); // 在前缀添加 0\n    }\n    for (int i = prev.size() - 1; i >= 0; i--) {\n        ———————————————————————— // 在此处填入代码\n    }\n    return result;\n}\n```\n"
+      "content": "以下代码用于生成 $n$ 位格雷编码。横线上应填写（ ）。\n\n```cpp\nvector<string> generateGrayCode(int n) {\n    if (n == 0) return {\"0\"};\n    if (n == 1) return {\"0\", \"1\"};\n    vector<string> prev = generateGrayCode(n - 1);\n    vector<string> result;\n    for (string s : prev) {\n        result.push_back(\"0\" + s); // 在前缀添加 0\n    }\n    for (int i = prev.size() - 1; i >= 0; i--) {\n        ———————————————————————— // 在此处填入代码\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -379,22 +379,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dp[i-1][j], values[i-1]"
+          "text": "`dp[i-1][j]`, `values[i-1]`"
         },
         {
           "key": "B",
-          "text": "dp[i-1][j], dp[i-1][j - weights[i-1]] + values[i-1]"
+          "text": "`dp[i-1][j]`, `dp[i-1][j - weights[i-1]] + values[i-1]`"
         },
         {
           "key": "C",
-          "text": "dp[i][j-1], values[i-1]"
+          "text": "`dp[i][j-1]`, `values[i-1]`"
         },
         {
           "key": "D",
-          "text": "dp[i-1][j - weights[i-1]] + values[i-1], dp[i][j-1]"
+          "text": "`dp[i-1][j - weights[i-1]] + values[i-1]`, `dp[i][j-1]`"
         }
       ],
-      "content": "以下代码实现了0/1背包问题的动态规划解法。假设物品重量为weights[]，价值为values[]，背包容\n量为W，横线上应填写（ ）。\n\n```cpp\nint knapsack(int W, vector<int>& weights, vector<int>& values) {\n    int n = weights.size();\n    vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= W; j++) {\n            if (weights[i-1] > j) {\n                dp[i][j] = dp[i-1][j]; // 当前物品装不下\n            } else {\n                dp[i][j] = max(_________________________); // 在此处填入代码\n            }\n        }\n    }\n    return dp[n][W];\n}\n```\n"
+      "content": "以下代码实现了 0/1 背包问题的动态规划解法。假设物品重量为 `weights[]`，价值为 `values[]`，背包容量为 $W$，横线上应填写（ ）。\n\n```cpp\nint knapsack(int W, vector<int>& weights, vector<int>& values) {\n    int n = weights.size();\n    vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= W; j++) {\n            if (weights[i-1] > j) {\n                dp[i][j] = dp[i-1][j]; // 当前物品装不下\n            } else {\n                dp[i][j] = max(_________________________); // 在此处填入代码\n            }\n        }\n    }\n    return dp[n][W];\n}\n```"
     },
     {
       "type": "choice",
@@ -404,22 +404,22 @@
       "options": [
         {
           "key": "A",
-          "text": "true"
+          "text": "`true`"
         },
         {
           "key": "B",
-          "text": "false"
+          "text": "`false`"
         },
         {
           "key": "C",
-          "text": "st.empty()"
+          "text": "`st.empty()`"
         },
         {
           "key": "D",
-          "text": "!st.empty()"
+          "text": "`!st.empty()`"
         }
       ],
-      "content": "以下代码用于检查字符串中的括号是否匹配，横线上应填写（ ）。\n\n```cpp\nbool isBalanced(string s) {\n    stack<char> st;\n    for (char c : s) {\n        if (c == '(' || c == '[' || c == '{') {\n                st.push(c);\n            } else {\n                if (st.empty()) return false; // 无左括号匹配\n                char top = st.top();\n                st.pop();\n                if ((c == ')' && top != '(') ||\n                (c == ']' && top != '[') ||\n                (c == '}' && top != '{')) {\n                    return false;\n                }\n            }\n        }\n        return ________________; //在此处填入代码\n    }\n```\n"
+      "content": "以下代码用于检查字符串中的括号是否匹配，横线上应填写（ ）。\n\n```cpp\nbool isBalanced(string s) {\n    stack<char> st;\n    for (char c : s) {\n        if (c == '(' || c == '[' || c == '{') {\n            st.push(c);\n        } else {\n            if (st.empty()) return false; // 无左括号匹配\n            char top = st.top();\n            st.pop();\n            if ((c == ')' && top != '(') ||\n                (c == ']' && top != '[') ||\n                (c == '}' && top != '{')) {\n                return false;\n            }\n        }\n    }\n    return ________________; //在此处填入代码\n}\n```"
     },
     {
       "type": "choice",
@@ -429,92 +429,92 @@
       "options": [
         {
           "key": "A",
-          "text": "语句Shape* shapePtr = &circle;和shapePtr = &rectangle;出现编译错误"
+          "text": "语句 `Shape* shapePtr = &circle;` 和 `shapePtr = &rectangle;` 出现编译错误"
         },
         {
           "key": "B",
-          "text": "Shape为基类， Circle 和 Rectangle是派生类"
+          "text": "`Shape` 为基类， `Circle` 和 `Rectangle` 是派生类"
         },
         {
           "key": "C",
-          "text": "通过继承，Circle 和 Rectangle 复用了 Shape 的属性和方法，并扩展了新的功能"
+          "text": "通过继承， `Circle` 和 `Rectangle` 复用了 `Shape` 的属性和方法，并扩展了新的功能"
         },
         {
           "key": "D",
-          "text": "Circle 和 Rectangle通过重写（override）基类的虚函数area和基类指针，实现了运行时多态"
+          "text": "`Circle` 和 `Rectangle` 通过重写（`override`）基类的虚函数 `area` 和基类指针，实现了运行时多态"
         }
       ],
-      "content": "关于下面代码，说法错误的是（ ）。\n\n```cpp\nclass Shape {\n    protected:\n    string name;\n    public:\n    Shape(const string& n) : name(n) {}\n    virtual double area() const {\n        return 0.0;\n    }\n};\nclass Circle : public Shape {\n    private:\n    double radius; // 半径\n    public:\n    Circle(const string& n, double r) : Shape(n), radius(r) {}\n    double area() const override {\n        return 3.14159 * radius * radius;\n    }\n};\nclass Rectangle : public Shape {\n    private:\n    double width; // 宽度\n    double height; // 高度\n    public:\n    Rectangle(const string& n, double w, double h) : Shape(n), width(w), height(h)\n```\n{}\n\n```cpp\ndouble area() const override {\n    return width * height;\n}\n};\nint main() {\n    Circle circle(\"MyCircle\", 5.0);\n    Rectangle rectangle(\"MyRectangle\", 4.0, 6.0);\n    Shape* shapePtr = &circle;\n    cout << \"Area: \" << shapePtr->area() << endl;\n    shapePtr = &rectangle;\n    cout << \"Area: \" << shapePtr->area() << endl;\n    return 0;\n}\n```\n"
+      "content": "关于下面代码，说法错误的是（ ）。\n\n```cpp\nclass Shape {\n    protected:\n    string name;\n    public:\n    Shape(const string& n) : name(n) {}\n    virtual double area() const {\n        return 0.0;\n    }\n};\nclass Circle : public Shape {\n    private:\n    double radius; // 半径\n    public:\n    Circle(const string& n, double r) : Shape(n), radius(r) {}\n    double area() const override {\n        return 3.14159 * radius * radius;\n    }\n};\nclass Rectangle : public Shape {\n    private:\n    double width; // 宽度\n    double height; // 高度\n    public:\n    Rectangle(const string& n, double w, double h) : Shape(n), width(w), height(h) {}\n    double area() const override {\n        return width * height;\n    }\n};\nint main() {\n    Circle circle(\"MyCircle\", 5.0);\n    Rectangle rectangle(\"MyRectangle\", 4.0, 6.0);\n    Shape* shapePtr = &circle;\n    cout << \"Area: \" << shapePtr->area() << endl;\n    shapePtr = &rectangle;\n    cout << \"Area: \" << shapePtr->area() << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "哈夫曼树在构造过程中，每次合并权值最小的两个节点，最终生成的树带权路径长度最小。\n"
+      "content": "哈夫曼树在构造过程中，每次合并权值最小的两个节点，最终生成的树带权路径长度最小。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "格雷编码的相邻两个编码之间必须有多位不同，以避免数据传输错误。\n"
+      "content": "格雷编码的相邻两个编码之间必须有多位不同，以避免数据传输错误。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "False",
-      "content": "在树的深度优先搜索（DFS）中，使用队列作为辅助数据结构以实现“先进后出”的访问顺序。\n"
+      "content": "在树的深度优先搜索（DFS）中，使用队列作为辅助数据结构以实现“先进后出”的访问顺序。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "以下代码实现的是二叉树的中序遍历：\n\n```cpp\nvoid traverse(TreeNode* root) {\n    if (root == nullptr) return;\n    traverse(root->left);\n    cout << root->val << \" \";\n    traverse(root->right);\n}\n```\n"
+      "content": "以下代码实现的是二叉树的中序遍历：\n\n```cpp\nvoid traverse(TreeNode* root) {\n    if (root == nullptr) return;\n    traverse(root->left);\n    cout << root->val << \" \";\n    traverse(root->right);\n}\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "C++ 支持构造函数重载，但默认无参数的构造函数只能有一个。\n"
+      "content": "C++ 支持构造函数重载，但默认无参数的构造函数只能有一个。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "二叉排序树（BST）中，若某节点的左⼦树为空，则该节点一定是树中的最小值节点。\n"
+      "content": "二叉排序树（BST）中，若某节点的左⼦树为空，则该节点一定是树中的最小值节点。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "在动态规划解决一维硬币找零问题时，若硬币面额为 [1, 3, 4]，目标金额为 6，则最少需要 2 枚硬币\n（3+3）。\n"
+      "content": "在动态规划解决一维硬币找零问题时，若硬币面额为 $[1, 3, 4]$，目标金额为 $6$，则最少需要 $2$ 枚硬币（$3+3$）。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "面向对象编程中，封装是指将数据和行为绑定在一起，并对外隐藏实现细节。\n"
+      "content": "面向对象编程中，封装是指将数据和行为绑定在一起，并对外隐藏实现细节。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "以下代码创建的树是一棵完全二叉树：\n\n```cpp\nTreeNode* root = new TreeNode{1};\nroot->left = new TreeNode{2};\nroot->right = new TreeNode{3};\nroot->left->left = new TreeNode{4};\n```\n"
+      "content": "以下代码创建的树是一棵完全二叉树：\n\n```cpp\nTreeNode* root = new TreeNode{1};\nroot->left = new TreeNode{2};\nroot->right = new TreeNode{3};\nroot->left->left = new TreeNode{4};\n```"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "栈和队列均可以用双向链表实现，插入和删除操作的时间复杂度为 O(1) 。\n"
+      "content": "栈和队列均可以用双向链表实现，插入和删除操作的时间复杂度为 $O(1)$ 。"
     },
     {
       "type": "program",

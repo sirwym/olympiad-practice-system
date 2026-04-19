@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "24"
+          "text": "$24$"
         },
         {
           "key": "B",
-          "text": "48"
+          "text": "$48$"
         },
         {
           "key": "C",
-          "text": "32"
+          "text": "$32$"
         },
         {
           "key": "D",
-          "text": "12"
+          "text": "$12$"
         }
       ],
-      "content": "GESP活动期间，举办方从获胜者ABCDE五个⼈中选出三个⼈排成一队升国旗，其中A不能排在队首，请问\n有多少种排法？\n"
+      "content": "GESP 活动期间，举办方从获胜者 ABCDE 五个⼈中选出三个⼈排成一队升国旗，其中 A 不能排在队首，请问有多少种排法？"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "11121"
+          "text": "$11121$"
         },
         {
           "key": "B",
-          "text": "11122"
+          "text": "$11122$"
         },
         {
           "key": "C",
-          "text": "11211"
+          "text": "$11211$"
         },
         {
           "key": "D",
-          "text": "11112"
+          "text": "$11112$"
         }
       ],
-      "content": "7进制数235转换成3进制数是（ ）。\n"
+      "content": "$7$ 进制数 $235$ 转换成 $3$ 进制数是（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "180"
+          "text": "$180$"
         },
         {
           "key": "B",
-          "text": "120"
+          "text": "$120$"
         },
         {
           "key": "C",
-          "text": "80"
+          "text": "$80$"
         },
         {
           "key": "D",
-          "text": "100"
+          "text": "$100$"
         }
       ],
-      "content": "0,1,2,3,4,5这些数字组成一个三位数，请问没有重复数字的情况下，有多少种组法（ ）。\n"
+      "content": "$0$,$1$,$2$,$3$,$4$,$5$ 这些数字组成一个三位数，请问没有重复数字的情况下，有多少种组法（ ）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": ""
         }
       ],
-      "content": "有V个顶点、E条边的图的深度优先搜索遍历时间复杂度为（ ）。\n"
+      "content": "有 $V$ 个顶点、$E$ 条边的图的深度优先搜索遍历时间复杂度为（ ）。"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": ""
         }
       ],
-      "content": "一对夫妻生男生⼥的概率相同。已知这对夫妻有两个孩⼦，其中一个是⼥孩，另一个是男孩的概率是多少？\n"
+      "content": "一对夫妻生男生女的概率相同。已知这对夫妻有两个孩子，其中一个是女孩，另一个是男孩的概率是多少？"
     },
     {
       "type": "choice",
@@ -140,22 +140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "544"
+          "text": "$544$"
         },
         {
           "key": "B",
-          "text": "546"
+          "text": "$546$"
         },
         {
           "key": "C",
-          "text": "564"
+          "text": "$564$"
         },
         {
           "key": "D",
-          "text": "602"
+          "text": "$602$"
         }
       ],
-      "content": "从1到2024这2024个数中，共有（ ）个包含数字6的数。\n"
+      "content": "从 $1$ 到 $2024$ 这 $2024$ 个数中，共有（ ）个包含数字 $6$ 的数。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "4.25"
+          "text": "$4.25$"
         },
         {
           "key": "B",
-          "text": "4.125"
+          "text": "$4.125$"
         },
         {
           "key": "C",
-          "text": "4.5"
+          "text": "$4.5$"
         },
         {
           "key": "D",
-          "text": "4.75"
+          "text": "$4.75$"
         }
       ],
-      "content": "二进制数100.001转换成十进制数是（ ）。\n"
+      "content": "二进制数 $100.001$ 转换成十进制数是（ ）。"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "void BubbleSort(char a[][], int n);"
+          "text": "`void BubbleSort(char a[][], int n);`"
         },
         {
           "key": "B",
-          "text": "void BubbleSort(char a[][20], int n);"
+          "text": "`void BubbleSort(char a[][20], int n);`"
         },
         {
           "key": "C",
-          "text": "void BubbleSort(char a[10][], int n);"
+          "text": "`void BubbleSort(char a[10][], int n);`"
         },
         {
           "key": "D",
-          "text": "void BubbleSort(char[,] a, int n);"
+          "text": "`void BubbleSort(char[,] a, int n);`"
         }
       ],
-      "content": "以下函数声明，哪个是符合C++语法的？（ ）。\n"
+      "content": "以下函数声明，哪个是符合 C++ 语法的？（ ）。"
     },
     {
       "type": "choice",
@@ -227,10 +227,10 @@
         },
         {
           "key": "D",
-          "text": "所有C++运算符均可以重载。"
+          "text": "所有 C++ 运算符均可以重载。"
         }
       ],
-      "content": "下面有关C++重载的说法，错误的是（ ）。\n"
+      "content": "下面有关 C++ 重载的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "如果n是质数，那么 。"
+          "text": "如果 $n$ 是质数，那么 $\\varphi(n) = n - 1$ 。"
         },
         {
           "key": "B",
@@ -255,7 +255,7 @@
           "text": "相邻的两个质数不一定是互质数。"
         }
       ],
-      "content": "小于或等于给定正整数n的数中，与n互质的数的个数，我们称为欧拉函数，记作 。下面说法错误的是\n（ ）。\n"
+      "content": "小于或等于给定正整数 $n$ 的数中，与 $n$ 互质的数的个数，我们称为欧拉函数，记作 $\\varphi(n)$ 。下面说法错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "B",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "C",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "D",
-          "text": "3"
+          "text": "$3$"
         }
       ],
-      "content": "已知一棵二叉树有10个节点，则其中至多有（ ）个节点有2个⼦节点。\n"
+      "content": "已知一棵二叉树有 $10$ 个节点，则其中至多有（ ）个节点有 $2$ 个子节点。"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "9"
+          "text": "$9$"
         },
         {
           "key": "C",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "D",
-          "text": "8"
+          "text": "$8$"
         }
       ],
-      "content": "二项展开式 的系数，正好满足杨辉三角的规律。当\n时，二项式展开式中 项的系数是（ ）。\n"
+      "content": "二项展开式的系数，正好满足杨辉三角的规律。当 $n = 5$ 时，二项式展开式中 $x^3$ 项的系数是（ ）。"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nbool notPrime[N] = {false};\nvoid sieve() {\n    for (int n = 2; n * n < N; n++)\n    if (!notPrime[n])\n    for (int i = n * n; i < N; i += n)\n    notPrime[i] = true;\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nbool notPrime[N] = {false};\nvoid sieve() {\n    for (int n = 2; n * n < N; n++)\n        if (!notPrime[n])\n            for (int i = n * n; i < N; i += n)\n                notPrime[i] = true;\n}\n```"
     },
     {
       "type": "choice",
@@ -355,7 +355,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的最差时间复杂度为（ ）。\n\n```cpp\nint gcd(int m, int n) {\n    if (m == 0)\n    return n;\n    return gcd(n % m, m);\n}\n```\n"
+      "content": "下面程序的最差时间复杂度为（ ）。\n\n```cpp\nint gcd(int m, int n) {\n    if (m == 0)\n        return n;\n    return gcd(n % m, m);\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "90"
+          "text": "$90$"
         },
         {
           "key": "B",
-          "text": "91"
+          "text": "$91$"
         },
         {
           "key": "C",
-          "text": "710"
+          "text": "$710$"
         },
         {
           "key": "D",
-          "text": "711"
+          "text": "$711$"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int cnt = 0;\n    for (int x = 0; x <= 10; x++)\n    for (int y = 0; y <= 10; y++)\n    for (int z = 0; z <= 10; z++)\n    if (x + y + z <= 15)\n    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int cnt = 0;\n    for (int x = 0; x <= 10; x++)\n        for (int y = 0; y <= 10; y++)\n            for (int z = 0; z <= 10; z++)\n                if (x + y + z <= 15)\n                    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "ABCDE五个小朋友，排成一队跑步，其中AB两⼈必须排在一起，一共有48种排法。\n"
+      "content": "$A$ $B$ $C$ $D$ $E$ 五个小朋友，排成一队跑步，其中 $A$ $B$ 两人必须排在一起，一共有 $48$ 种排法。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "已知double类型的变量a和b，则执行语句a = a + b; b = a - b; a = a - b;后，变量a和b的\n值会互换。\n"
+      "content": "已知 `double` 类型的变量 $a$ 和 $b$，则执行语句 `a = a + b; b = a - b; a = a - b;` 后，变量 $a$ 和 $b$ 的值会互换。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "一个袋⼦中有3个完全相同的红色小球、2个完全相同的蓝色小球。每次从中取出1个，再放回袋⼦，这样进\n行3次后，可能的颜色顺序有8种。\n"
+      "content": "一个袋子中有 $3$ 个完全相同的红色小球、$2$ 个完全相同的蓝色小球。每次从中取出 $1$ 个，再放回袋子，这样进行 $3$ 次后，可能的颜色顺序有 $8$ 种。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "已知int类型的变量a和b中分别存储着一个直角三角形的两条直角边的长度，则斜边的长度可以通过表\n达式sqrt(a * a + b * b)求得。\n"
+      "content": "已知 `int` 类型的变量 $a$ 和 $b$ 中分别存储着一个直角三角形的两条直角边的长度，则斜边的长度可以通过表达式 `sqrt(a * a + b * b)` 求得。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "True",
-      "content": "在一个包含v个顶点、e条边的带权连通简单有向图上使用Dijkstra算法求最短路径，时间复杂度为 ，\n可进一步优化至 。\n"
+      "content": "在一个包含 $v$ 个顶点、$e$ 条边的带权连通简单有向图上使用 Dijkstra 算法求最短路径，时间复杂度为 $O(v^2)$，可进一步优化至 $O(e + v \\log v)$。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "在 个元素的二叉排序树中查找一个元素，最差情况的时间复杂度是 。\n"
+      "content": "在 $n$ 个元素的二叉排序树中查找一个元素，最差情况的时间复杂度是 $O(n)$。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "False",
-      "content": "C++语⾔中，可以为同一个类定义多个析构函数。\n"
+      "content": "C++ 语言中，可以为同一个类定义多个析构函数。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "使用单链表和使用双向链表，查找元素的时间复杂度相同。\n"
+      "content": "使用单链表和使用双向链表，查找元素的时间复杂度相同。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "为解决哈希函数冲突，可以使用不同的哈希函数为每个表项各建⽴一个⼦哈希表，用来管理该表项的所有冲\n突元素。这些⼦哈希表一定不会发生冲突。\n"
+      "content": "为解决哈希函数冲突，可以使用不同的哈希函数为每个表项各建立一个子哈希表，用来管理该表项的所有冲突元素。这些子哈希表一定不会发生冲突。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "要判断无向图的连通性，在深度优先搜索和广度优先搜索中选择，深度优先的平均时间复杂度更低。\n"
+      "content": "要判断无向图的连通性，在深度优先搜索和广度优先搜索中选择，深度优先的平均时间复杂度更低。"
     },
     {
       "type": "program",

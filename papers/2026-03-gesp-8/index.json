@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "112"
+          "text": "$112$"
         },
         {
           "key": "B",
-          "text": "168"
+          "text": "$168$"
         },
         {
           "key": "C",
-          "text": "224"
+          "text": "$224$"
         },
         {
           "key": "D",
-          "text": "288"
+          "text": "$288$"
         }
       ],
-      "content": "某班级有8名男生和6名⼥生，现要选出3⼈组成学习小组，要求小组中至少有1名男生和1名⼥生，则不同的\n选法共有（ ）种。\n"
+      "content": "某班级有 $8$ 名男生和 $6$ 名女生，现要选出 $3$ 人组成学习小组，要求小组中至少有 $1$ 名男生和 $1$ 名女生，则不同的选法共有（ ）种。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "512"
+          "text": "$512$"
         },
         {
           "key": "B",
-          "text": "1024"
+          "text": "$1024$"
         },
         {
           "key": "C",
-          "text": "2048"
+          "text": "$2048$"
         },
         {
           "key": "D",
-          "text": "4096"
+          "text": "$4096$"
         }
       ],
-      "content": "在杨辉三角中，从第0行开始计数，第10行的所有数之和为（ ）。\n"
+      "content": "在杨辉三角中，从第 $0$ 行开始计数，第 $10$ 行的所有数之和为（ ）。"
     },
     {
       "type": "choice",
@@ -80,7 +80,7 @@
           "text": ""
         }
       ],
-      "content": "下列代码实现了快速幂算法，其时间复杂度为（ ）。\n\n```cpp\nlong long fastPow(long long b, long long e, long long mod) {\n    long long result = 1;\n    while (e > 0) {\n        if (e & 1)\n        result = result * b % mod;\n        b = b * b % mod;\n        e >>= 1;\n    }\n    return result;\n}\n```\n"
+      "content": "下列代码实现了快速幂算法，其时间复杂度为（ ）。\n\n```cpp\nlong long fastPow(long long b, long long e, long long mod) {\n    long long result = 1;\n    while (e > 0) {\n        if (e & 1)\n            result = result * b % mod;\n        b = b * b % mod;\n        e >>= 1;\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "60"
+          "text": "$60$"
         },
         {
           "key": "B",
-          "text": "74"
+          "text": "$74$"
         },
         {
           "key": "C",
-          "text": "80"
+          "text": "$80$"
         },
         {
           "key": "D",
-          "text": "84"
+          "text": "$84$"
         }
       ],
-      "content": "从5本不同的数学书和4本不同的物理书中选取3本书，要求至少包含1本数学书，则不同的选法有（ ）种。\n"
+      "content": "从 $5$ 本不同的数学书和 $4$ 本不同的物理书中选取 $3$ 本书，要求至少包含 $1$ 本数学书，则不同的选法有（ ）种。"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": "元素2一定是元素1的⽗节点"
         }
       ],
-      "content": "在二叉搜索树（BST）中，若中序遍历的序列为{1, 2, 3, 4, 5}，且先序遍历的第一个序列元素为3，\n则下列说法正确的是（ ）。\n"
+      "content": "在二叉搜索树（BST）中，若中序遍历的序列为 $\\{1, 2, 3, 4, 5\\}$，且先序遍历的第一个序列元素为 $3$，则下列说法正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": ""
         }
       ],
-      "content": "在一个有向带权图中，使用Dijkstra算法求单源最短路时，若使用优先队列（小根堆）优化，其时间复杂度为\n（ ）。\n"
+      "content": "在一个有向带权图中，使用 Dijkstra 算法求单源最短路时，若使用优先队列（小根堆）优化，其时间复杂度为（ ）。"
     },
     {
       "type": "choice",
@@ -180,7 +180,7 @@
           "text": "无法确定，取决于图的具体边数"
         }
       ],
-      "content": "对于含 个顶点（ ）的连通加权有向图，若图中不存在负权环，则任意两点之间的最短路径（简单路\n径）最多包含（ ）条边。\n"
+      "content": "对于含 $n$ 个顶点（$n \\geq 1$）的连通加权有向图，若图中不存在负权环，则任意两点之间的最短路径（简单路径）最多包含（ ）条边。"
     },
     {
       "type": "choice",
@@ -190,7 +190,7 @@
       "options": [
         {
           "key": "A",
-          "text": "会发生改变，因为 Floyd ⼜做了一次松弛"
+          "text": "会发生改变，因为 Floyd 又做了一次松弛"
         },
         {
           "key": "B",
@@ -205,7 +205,7 @@
           "text": "可能在某些负权图中陷入死循环"
         }
       ],
-      "content": "在使用Floyd算法求任意两点间最短路径时，时间复杂度为 。若在某次算法执行前，已经用 Dijkstra 算\n法正确求出了所有点对的最短路并存入了dist数组。如果此时继续对该dist数组执行一次完整的 Floyd 算法过程\n（无任何提前终⽌），执行完毕后dist数组内的值（ ）。\n"
+      "content": "在使用 Floyd 算法求任意两点间最短路径时，时间复杂度为 $O(n^3)$ 。若在某次算法执行前，已经用 Dijkstra 算法正确求出了所有点对的最短路并存入了 `dist` 数组。如果此时继续对该 `dist` 数组执行一次完整的 Floyd 算法过程（无任何提前终止），执行完毕后 `dist` 数组内的值（ ）。"
     },
     {
       "type": "choice",
@@ -230,7 +230,7 @@
           "text": "Dijkstra 算法的每一步必定从当前未访问的节点中，选取距离起始点最远的节点进行松弛操作。"
         }
       ],
-      "content": "关于图论中的最短路径算法，下列说法中严格正确的是（ ）。\n"
+      "content": "关于图论中的最短路径算法，下列说法中严格正确的是（ ）。"
     },
     {
       "type": "choice",
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "120"
+          "text": "$120$"
         },
         {
           "key": "B",
-          "text": "144"
+          "text": "$144$"
         },
         {
           "key": "C",
-          "text": "192"
+          "text": "$192$"
         },
         {
           "key": "D",
-          "text": "240"
+          "text": "$240$"
         }
       ],
-      "content": "有6个⼈排成一排照相，其中甲、⼄两⼈必须相邻，且丙不能站在排头的不同排法有（ ）种。\n"
+      "content": "有 $6$ 个人排成一排照相，其中甲、乙两人必须相邻，且丙不能站在排头的不同排法有（ ）种。"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dist[i][k] + dist[k][j] < dist[i][j]"
+          "text": "`dist[i][k] + dist[k][j] < dist[i][j]`"
         },
         {
           "key": "B",
-          "text": "dist[i][k] != INF && dist[k][j] != INF"
+          "text": "`dist[i][k] != INF && dist[k][j] != INF`"
         },
         {
           "key": "C",
-          "text": "dist[i][k] != INF && dist[k][j] != INF && dist[i][k] + dist[k][j] < dist[i][j]"
+          "text": "`dist[i][k] != INF && dist[k][j] != INF && dist[i][k] + dist[k][j] < dist[i][j]`"
         },
         {
           "key": "D",
-          "text": "dist[i][j] == INF"
+          "text": "`dist[i][j] == INF`"
         }
       ],
-      "content": "下列代码试图实现Floyd算法求所有点对之间的最短路径，横线处应填入（ ）。\n\n```cpp\nvoid floyd(int n, int dist[][MAXN]) {\n    for (int k = 0; k < n; k++)\n    for (int i = 0; i < n; i++)\n    for (int j = 0; j < n; j++)\n    if (__________) // 在此处填入选项\n    dist[i][j] = dist[i][k] + dist[k][j];\n}\n```\n"
+      "content": "下列代码试图实现 Floyd 算法求所有点对之间的最短路径，横线处应填入（ ）。\n\n```cpp\nvoid floyd(int n, int dist[][MAXN]) {\n    for (int k = 0; k < n; k++)\n        for (int i = 0; i < n; i++)\n            for (int j = 0; j < n; j++)\n                if (__________) // 在此处填入选项\n                    dist[i][j] = dist[i][k] + dist[k][j];\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "48"
+          "text": "$48$"
         },
         {
           "key": "B",
-          "text": "60"
+          "text": "$60$"
         },
         {
           "key": "C",
-          "text": "72"
+          "text": "$72$"
         },
         {
           "key": "D",
-          "text": "96"
+          "text": "$96$"
         }
       ],
-      "content": "用数字 0、1、2、3、4 组成无重复数字的五位偶数，共有（ ）个。\n"
+      "content": "用数字 $0$ 、 $1$ 、 $2$ 、 $3$ 、 $4$ 组成无重复数字的五位偶数，共有（ ）个。"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "graph[u][v] && !inMST[v] && graph[u][v] < minEdge[v]"
+          "text": "`graph[u][v] && !inMST[v] && graph[u][v] < minEdge[v]`"
         },
         {
           "key": "B",
-          "text": "!inMST[v] && graph[u][v] < minEdge[v]"
+          "text": "`!inMST[v] && graph[u][v] < minEdge[v]`"
         },
         {
           "key": "C",
-          "text": "graph[u][v] > 0 && !inMST[v]"
+          "text": "`graph[u][v] > 0 && !inMST[v]`"
         },
         {
           "key": "D",
-          "text": "!inMST[v] && minEdge[v] > 0"
+          "text": "`!inMST[v] && minEdge[v] > 0`"
         }
       ],
-      "content": "在一个无向带权图中，若使用 Prim 算法从顶点 0 开始构造最小生成树（边权均为正整数，且graph[u][v]\n== 0表⽰无边），下列代码中横线处应填入（ ）。\n\n```cpp\nint prim(vector<vector<int>>& graph, int n) {\n    vector<bool> inMST(n, false);\n    vector<int> minEdge(n, INT_MAX);\n    minEdge[0] = 0;\n    int result = 0;\n    for (int i = 0; i < n; i++) {\n        int u = -1;\n        for (int j = 0; j < n; j++)\n        if (!inMST[j] && (u == -1 || minEdge[j] < minEdge[u]))\n        u = j;\n        inMST[u] = true;\n        result += minEdge[u];\n        for (int v = 0; v < n; v++)\n        if (__________) // 在此处填入选项\n        minEdge[v] = graph[u][v];\n    }\n    return result;\n}\n```\n"
+      "content": "在一个无向带权图中，若使用 Prim 算法从顶点 $0$ 开始构造最小生成树（边权均为正整数，且 `graph[u][v] == 0` 表示无边），下列代码中横线处应填入（ ）。\n\n```cpp\nint prim(vector<vector<int>>& graph, int n) {\n    vector<bool> inMST(n, false);\n    vector<int> minEdge(n, INT_MAX);\n    minEdge[0] = 0;\n    int result = 0;\n    for (int i = 0; i < n; i++) {\n        int u = -1;\n        for (int j = 0; j < n; j++)\n            if (!inMST[j] && (u == -1 || minEdge[j] < minEdge[u]))\n                u = j;\n        inMST[u] = true;\n        result += minEdge[u];\n        for (int v = 0; v < n; v++)\n            if (__________) // 在此处填入选项\n                minEdge[v] = graph[u][v];\n    }\n    return result;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "(x2-x1)/(y2-y1) == (x3-x1)/(y3-y1)"
+          "text": "`(x2-x1)/(y2-y1) == (x3-x1)/(y3-y1)`"
         },
         {
           "key": "B",
-          "text": "(x2-x1)*(y3-y1)-(x3-x1)*(y2-y1) == 0"
+          "text": "`(x2-x1)*(y3-y1)-(x3-x1)*(y2-y1) == 0`"
         },
         {
           "key": "C",
-          "text": "fabs((x2-x1)*(y3-y1)-(x3-x1)*(y2-y1)) < 1e-8"
+          "text": "`fabs((x2-x1)*(y3-y1)-(x3-x1)*(y2-y1)) < 1e-8`"
         },
         {
           "key": "D",
-          "text": "fabs((x2-x1)/(y2-y1)-(x3-x1)/(y3-y1)) < 1e-8"
+          "text": "`fabs((x2-x1)/(y2-y1)-(x3-x1)/(y3-y1)) < 1e-8`"
         }
       ],
-      "content": "已知三个点 在平面直角坐标系中的坐标。下列 C++ 表达式中，在精度误差范\n围1e-8内能正确计算判断这三个点是三点共线的表达式是（ ）。\n"
+      "content": "已知三个点在平面直角坐标系中的坐标。下列 C++ 表达式中，在精度误差范围 $1e-8$ 内能正确计算判断这三个点是三点共线的表达式是（ ）。"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "16 8 8 8 1 1"
+          "text": "$16$ $8$ $8$ $8$ $1$ $1$"
         },
         {
           "key": "B",
-          "text": "16 8 16 8 1 1"
+          "text": "$16$ $8$ $16$ $8$ $1$ $1$"
         },
         {
           "key": "C",
-          "text": "16 8 8 4 4 1"
+          "text": "$16$ $8$ $8$ $4$ $4$ $1$"
         },
         {
           "key": "D",
-          "text": "16 8 8 8 4 1"
+          "text": "$16$ $8$ $8$ $8$ $4$ $1$"
         }
       ],
-      "content": "在64位操作系统下（LP64 / LLP64 模型），下面代码的输出结果是（）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a[4] = {1, 2, 3, 4};\n    int (*p)[4] = &a;\n    int *q = a;\n    cout << sizeof(a) << \" \";\n    cout << sizeof(p) << \" \";\n    cout << sizeof(p + 1) << \" \";\n    cout << sizeof(q + 1) << \" \";\n    cout << (p + 1) - p << \" \";\n    cout << (q + 1) - q << endl;\n}\n```\n"
+      "content": "在 $64$ 位操作系统下（LP64 / LLP64 模型），下面代码的输出结果是（）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int a[4] = {1, 2, 3, 4};\n    int (*p)[4] = &a;\n    int *q = a;\n    cout << sizeof(a) << \" \";\n    cout << sizeof(p) << \" \";\n    cout << sizeof(p + 1) << \" \";\n    cout << sizeof(q + 1) << \" \";\n    cout << (p + 1) - p << \" \";\n    cout << (q + 1) - q << endl;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "在C++中，若结构体中包含一个static成员变量，则该变量的存储空间属于结构体对象的一部分。（ ）\n"
+      "content": "在 C++ 中，若结构体中包含一个 `static` 成员变量，则该变量的存储空间属于结构体对象的一部分。（ ）"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "True",
-      "content": "对于任意正整数 ，二项式 展开式中各项的二项式系数之和等于 。（ ）\n"
+      "content": "对于任意正整数 $n$ ，二项式 $(a+b)^n$ 展开式中各项的二项式系数之和等于 $2^n$ 。（ ）"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "在C++中，若函数参数类型为const int &，则该参数既可以绑定左值，也可以绑定右值。（ ）\n"
+      "content": "在 C++ 中，若函数参数类型为 `const int &`，则该参数既可以绑定左值，也可以绑定右值。（ ）"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "若一个无向图的最小生成树唯一，则图中所有边权必定各不相同。（ ）\n"
+      "content": "若一个无向图的最小生成树唯一，则图中所有边权必定各不相同。（ ）"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "使用快速排序对 个元素进行排序时，无论最好、最坏还是平均情况，时间复杂度均为 。（ ）\n"
+      "content": "使用快速排序对 $n$ 个元素进行排序时，无论最好、最坏还是平均情况，时间复杂度均为 $O(n \\log n)$。（ ）"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "若一个图中所有顶点的度数为偶数，则一定存在欧拉回路。（ ）\n"
+      "content": "若一个图中所有顶点的度数为偶数，则一定存在欧拉回路。（ ）"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "使用倍增法预处理区间最值问题时，预处理的时间复杂度为 ，查询的时间复杂度为 。（ ）\n"
+      "content": "使用倍增法预处理区间最值问题时，预处理的时间复杂度为 $O(n \\log n)$，查询的时间复杂度为 $O(1)$。（ ）"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "如果将一个连通无向图 中所有边的权值都统一增加同一个正整数常数 ，形成图 。则 的最小生成树\n中每条边在 中对应的边组成的树，一定是 的最小生成树。（ ）\n"
+      "content": "如果将一个连通无向图 $G$ 中所有边的权值都统一增加同一个正整数常数 $c$，形成图 $G'$。则 $G$ 的最小生成树中每条边在 $G'$ 中对应的边组成的树，一定是 $G'$ 的最小生成树。（ ）"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "在图论算法中，Kruskal算法和Prim算法都可以用来求解最小生成树，且这两者的贪心策略无论在任何连通无\n向图上求得的最小生成树总边权和必定相同。（ ）\n"
+      "content": "在图论算法中，Kruskal 算法和 Prim 算法都可以用来求解最小生成树，且这两者的贪心策略无论在任何连通无向图上求得的最小生成树总边权和必定相同。（ ）"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "False",
-      "content": "在动态规划问题中，“状态转移方程+递推”和“递归+记忆化搜索”通常是解决同一问题的两种不同实现方\n式，它们的时间复杂度总是相同的。（ ）\n"
+      "content": "在动态规划问题中，“状态转移方程+递推”和“递归+记忆化搜索”通常是解决同一问题的两种不同实现方式，它们的时间复杂度总是相同的。（ ）"
     },
     {
       "type": "program",

@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "13"
+          "text": "$13$"
         },
         {
           "key": "B",
-          "text": "42"
+          "text": "$42$"
         },
         {
           "key": "C",
-          "text": "63"
+          "text": "$63$"
         },
         {
           "key": "D",
-          "text": "108"
+          "text": "$108$"
         }
       ],
-      "content": "为丰富食堂菜谱，炒菜部进行头脑风暴。肉类有鸡肉、⽜肉、羊肉、猪肉4种，切法有肉排、肉块、肉末3\n种，配菜有圆⽩菜、油菜、⾖腐3种，辣度有麻辣、微辣、不辣3种。不考虑⼝感的情况下，选1种肉、1种切法、1种\n配菜、1种辣度产生一道菜（例如：麻辣⽜肉片炒⾖腐），这样能产生多少道菜？（ ）。\n"
+      "content": "为丰富食堂菜谱，炒菜部进行头脑风暴。肉类有鸡肉、牛肉、羊肉、猪肉 $4$ 种，切法有肉排、肉块、肉末 $3$ 种，配菜有圆白菜、油菜、豆腐 $3$ 种，辣度有麻辣、微辣、不辣 $3$ 种。不考虑口感的情况下，选 $1$ 种肉、$1$ 种切法、$1$ 种配菜、$1$ 种辣度产生一道菜（例如：麻辣牛肉片炒豆腐），这样能产生多少道菜？（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "6"
+          "text": "$6$"
         },
         {
           "key": "B",
-          "text": "1440"
+          "text": "$1440$"
         },
         {
           "key": "C",
-          "text": "2520"
+          "text": "$2520$"
         },
         {
           "key": "D",
-          "text": "3628800"
+          "text": "$3628800$"
         }
       ],
-      "content": "已知袋中有2个相同的红球、3个相同的绿球、5个相同的黄球。每次取出一个不放回，全部取出。可能产生\n多少种序列？（ ）。\n"
+      "content": "已知袋中有 $2$ 个相同的红球、$3$ 个相同的绿球、$5$ 个相同的黄球。每次取出一个不放回，全部取出。可能产生多少种序列？（ ）。"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int a[][] = {{1, 2}, {3, 4}};"
+          "text": "`int a[][] = {{1, 2}, {3, 4}};`"
         },
         {
           "key": "B",
-          "text": "int a[][2] = {};"
+          "text": "`int a[][2] = {};`"
         },
         {
           "key": "C",
-          "text": "int a[2][2] = {{1, 2, 3}, {4, 5, 6}};"
+          "text": "`int a[2][2] = {{1, 2, 3}, {4, 5, 6}};`"
         },
         {
           "key": "D",
-          "text": "int a[2][] = {{1, 2, 3}, {4, 5, 6}};"
+          "text": "`int a[2][] = {{1, 2, 3}, {4, 5, 6}};`"
         }
       ],
-      "content": "以下二维数组的初始化，哪个是符合语法的？（ ）。\n"
+      "content": "以下二维数组的初始化，哪个是符合语法的？（ ）。"
     },
     {
       "type": "choice",
@@ -105,7 +105,7 @@
           "text": "使用一个对象初始化另一个对象时，会自动调用拷贝构造函数。"
         }
       ],
-      "content": "下面有关C++拷贝构造函数的说法，错误的是（ ）。\n"
+      "content": "下面有关 C++ 拷贝构造函数的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -130,7 +130,7 @@
           "text": ""
         }
       ],
-      "content": "使用邻接表表达一个无向简单图，图中包含v个顶点、e条边，则该表中边节点的个数为（ ）。\n"
+      "content": "使用邻接表表达一个无向简单图，图中包含 $v$ 个顶点、$e$ 条边，则该表中边节点的个数为（ ）。"
     },
     {
       "type": "choice",
@@ -148,14 +148,14 @@
         },
         {
           "key": "C",
-          "text": "n个顶点的无向完全图，有 棵生成树。"
+          "text": "$n$ 个顶点的无向完全图，有 $n^{n-2}$ 棵生成树。"
         },
         {
           "key": "D",
-          "text": "n个顶点的无向图，生成树包含n-1条边。"
+          "text": "$n$ 个顶点的无向图，生成树包含 $n-1$ 条边。"
         }
       ],
-      "content": "关于生成树的说法，错误的是（ ）。\n"
+      "content": "关于生成树的说法，错误的是（ ）。"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "a * b * sin(theta) / 2"
+          "text": "$a \\times b \\times \\sin(\\theta) / 2$"
         },
         {
           "key": "B",
-          "text": "a + b + (a + b) * sin(theta) / 2"
+          "text": "$a + b + (a + b) \\times \\sin(\\theta) / 2$"
         },
         {
           "key": "C",
-          "text": "a * b * cos(theta) / 2"
+          "text": "$a \\times b \\times \\cos(\\theta) / 2$"
         },
         {
           "key": "D",
-          "text": "a + b + sqrt(a * a + b * b - 2 * a * b * cos(theta))"
+          "text": "$a + b + \\sqrt{a \\times a + b \\times b - 2 \\times a \\times b \\times \\cos(\\theta)}$"
         }
       ],
-      "content": "已知三个double类型的变量a、b和theta分别表⽰一个三角形的两条边长及二者的夹角（弧度），则\n下列哪个表达式可以计算这个三角形的周长？（ ）。\n"
+      "content": "已知三个 `double` 类型的变量 $a$ 、 $b$ 和 $\\theta$ 分别表示一个三角形的两条边长及二者的夹角（弧度），则下列哪个表达式可以计算这个三角形的周长？（ ）。"
     },
     {
       "type": "choice",
@@ -205,7 +205,7 @@
           "text": "、"
         }
       ],
-      "content": "在有n个元素的二叉排序树中进行查找，其最好、最差时间复杂度分别为（ ）。\n"
+      "content": "在有 $n$ 个元素的二叉排序树中进行查找，其最好、最差时间复杂度分别为（ ）。"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "r * r * sin(t) / 2"
+          "text": "$r * r * \\sin(t) / 2$"
         },
         {
           "key": "B",
-          "text": "r * r * t / 2"
+          "text": "$r * r * t / 2$"
         },
         {
           "key": "C",
-          "text": "r * r * (t - sin(t))"
+          "text": "$r * r * (t - \\sin(t))$"
         },
         {
           "key": "D",
-          "text": "r * r * (t - sin(t)) / 2"
+          "text": "$r * r * (t - \\sin(t)) / 2$"
         }
       ],
-      "content": "如下图所⽰，半径为r、圆心角为t（弧度）的扇形，下面哪个表达式能够求出顶部阴影部分的面积？（\n）。\n"
+      "content": "如下图所⽰，半径为 $r$ 、圆心角为 $t$ （弧度）的扇形，下面哪个表达式能够求出顶部阴影部分的面积？（ ）。"
     },
     {
       "type": "choice",
@@ -255,7 +255,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint fib(int n) {\n    if (n <= 1)\n    return 1;\n    return fib(n - 1) + fib(n - 2);\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint fib(int n) {\n    if (n <= 1)\n        return 1;\n    return fib(n - 1) + fib(n - 2);\n}\n```"
     },
     {
       "type": "choice",
@@ -280,7 +280,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint choose(int n, int m) {\n    if (m == 0 || m == n)\n    return 1;\n    return choose(n - 1, m - 1) + choose(n - 1, m);\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint choose(int n, int m) {\n    if (m == 0 || m == n)\n        return 1;\n    return choose(n - 1, m - 1) + choose(n - 1, m);\n}\n```"
     },
     {
       "type": "choice",
@@ -305,7 +305,7 @@
           "text": ""
         }
       ],
-      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint primes[MAXP], num = 0;\nbool isPrime[MAXN] = {false};\nvoid sieve() {\n    for (int n = 2; n <= MAXN; n++) {\n        if (!isPrime[n])\n        primes[num++] = n;\n        for (int i = 0; i < num && n * primes[i] <= MAXN; i++) {\n            isPrime[n * primes[i]] = true;\n            if (n % primes[i] == 0)\n            break;\n        }\n    }\n}\n```\n"
+      "content": "下面程序的时间复杂度为（ ）。\n\n```cpp\nint primes[MAXP], num = 0;\nbool isPrime[MAXN] = {false};\nvoid sieve() {\n    for (int n = 2; n <= MAXN; n++) {\n        if (!isPrime[n])\n            primes[num++] = n;\n        for (int i = 0; i < num && n * primes[i] <= MAXN; i++) {\n            isPrime[n * primes[i]] = true;\n            if (n % primes[i] == 0)\n                break;\n        }\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -315,22 +315,22 @@
       "options": [
         {
           "key": "A",
-          "text": "4"
+          "text": "$4$"
         },
         {
           "key": "B",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "C",
-          "text": "126"
+          "text": "$126$"
         },
         {
           "key": "D",
-          "text": "3024"
+          "text": "$3024$"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint a[10][10];\nint main() {\n    int m = 5, n = 4;\n    for (int x = 0; x <= m; x++)\n    a[x][0] = 1;\n    for (int y = 1; y <= n; y++)\n    a[0][y] = 1;\n    for (int x = 1; x <= m; x++)\n    for (int y = 1; y <= n; y++)\n    a[x][y] = a[x - 1][y] + a[x][y - 1];\n    cout << a[m][n] << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint a[10][10];\nint main() {\n    int m = 5, n = 4;\n    for (int x = 0; x <= m; x++)\n        a[x][0] = 1;\n    for (int y = 1; y <= n; y++)\n        a[0][y] = 1;\n    for (int x = 1; x <= m; x++)\n        for (int y = 1; y <= n; y++)\n            a[x][y] = a[x - 1][y] + a[x][y - 1];\n    cout << a[m][n] << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "90"
+          "text": "$90$"
         },
         {
           "key": "B",
-          "text": "91"
+          "text": "$91$"
         },
         {
           "key": "C",
-          "text": "96"
+          "text": "$96$"
         },
         {
           "key": "D",
-          "text": "100"
+          "text": "$100$"
         }
       ],
-      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int cnt = 0;\n    for (int x = 0; x <= 10; x++)\n    for (int y = 0; y <= 10; y++)\n    for (int z = 0; z <= 10; z++)\n    if (x + y + z == 15)\n    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```\n"
+      "content": "下面程序的输出为（ ）。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    int cnt = 0;\n    for (int x = 0; x <= 10; x++)\n        for (int y = 0; y <= 10; y++)\n            for (int z = 0; z <= 10; z++)\n                if (x + y + z == 15)\n                    cnt++;\n    cout << cnt << endl;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -365,92 +365,92 @@
       "options": [
         {
           "key": "A",
-          "text": "100"
+          "text": "$100$"
         },
         {
           "key": "B",
-          "text": "16"
+          "text": "$16$"
         },
         {
           "key": "C",
-          "text": "12"
+          "text": "$12$"
         },
         {
           "key": "D",
-          "text": "13"
+          "text": "$13$"
         }
       ],
-      "content": "下面的程序使用邻接矩阵表达的带权无向图，则从顶点0到顶点3的最短距离为（ ）。\n\n```cpp\nint weight[4][4] = {\n    { 0, 1, 7, 100},\n    { 1, 0, 5, 15},\n    { 7, 5, 0, 6},\n    {100, 15, 6, 0}};\n```\n"
+      "content": "下面的程序使用邻接矩阵表达的带权无向图，则从顶点 $0$ 到顶点 $3$ 的最短距离为（ ）。\n\n```cpp\nint weight[4][4] = {\n    { 0, 1, 7, 100},\n    { 1, 0, 5, 15},\n    { 7, 5, 0, 6},\n    {100, 15, 6, 0}};\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "False",
-      "content": "已知int类型的变量a和b，则执行语句a, b = b, a;后，变量a和b的值会互换。\n"
+      "content": "已知 `int` 类型的变量 $a$ 和 $b$，则执行语句 `a, b = b, a;` 后，变量 $a$ 和 $b$ 的值会互换。"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "一个袋⼦中有3个完全相同的红色小球、2个完全相同的蓝色小球。每次从中取出1个，再放回袋⼦，这样进\n行3次后，可能的颜色顺序有7种。\n"
+      "content": "一个袋子中有 $3$ 个完全相同的红色小球、$2$ 个完全相同的蓝色小球。每次从中取出 $1$ 个，再放回袋子，这样进行 $3$ 次后，可能的颜色顺序有 $7$ 种。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "孙⼦定理是求解一次同余方程组的方法，最早见于中国南北朝时期（公元5世纪）的数学著作《孙⼦算\n经》。⼜称中国余数定理，是中国数学史上的一项伟大成就。\n"
+      "content": "孙子定理是求解一次同余方程组的方法，最早见于中国南北朝时期（公元5世纪）的数学著作《孙子算经》。又称中国余数定理，是中国数学史上的一项伟大成就。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "False",
-      "content": "个顶点的无向完全图有 条边。\n"
+      "content": "$n$ 个顶点的无向完全图有 $\\frac{n(n-1)}{2}$ 条边。"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "为解决哈希函数冲突，在哈希表项内设置链表存储该项内的所有冲突元素，则该哈希表内查找元素的最差时\n间复杂度为 。\n"
+      "content": "为解决哈希函数冲突，在哈希表项内设置链表存储该项内的所有冲突元素，则该哈希表内查找元素的最差时间复杂度为 。"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "False",
-      "content": "求一个包含v个顶点、e条边的带权连通无向图的最小生成树，Prim算法的时间复杂度为 。\n"
+      "content": "求一个包含 $v$ 个顶点、$e$ 条边的带权连通无向图的最小生成树，Prim 算法的时间复杂度为 。"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "已知int类型的变量a、b和c中分别存储着一个三角形的三条边长，则这个三角形的面积可以通过表达\n式sqrt((a + b + c) * (b + c - a) * (a + c - b) * (a + b - c)) / 4求得。\n"
+      "content": "已知 `int` 类型的变量 $a$ 、 $b$ 和 $c$ 中分别存储着一个三角形的三条边长，则这个三角形的面积可以通过表达式 $\\sqrt{(a + b + c) \\times (b + c - a) \\times (a + c - b) \\times (a + b - c)} / 4$ 求得。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "可以使用深度优先搜索算法判断图的连通性。\n"
+      "content": "可以使用深度优先搜索算法判断图的连通性。"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "True",
-      "content": "在 个元素的二叉排序树中查找一个元素，平均情况的时间复杂度是 。\n"
+      "content": "在 $n$ 个元素的二叉排序树中查找一个元素，平均情况的时间复杂度是 $O(\\log n)$。"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "给定double类型的变量x，且其值大于等于 ，我们可以通过二分法求出 的近似值。\n"
+      "content": "给定 `double` 类型的变量 $x$ ，且其值大于等于 $0$ ，我们可以通过二分法求出 $\\sqrt{x}$ 的近似值。"
     },
     {
       "type": "program",

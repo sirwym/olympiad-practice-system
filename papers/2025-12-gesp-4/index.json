@@ -15,22 +15,22 @@
       "options": [
         {
           "key": "A",
-          "text": "1 int p = &x;"
+          "text": "`int p = &x;`"
         },
         {
           "key": "B",
-          "text": "1 int *p = x;"
+          "text": "`int *p = x;`"
         },
         {
           "key": "C",
-          "text": "1 int *p = &x;"
+          "text": "`int *p = &x;`"
         },
         {
           "key": "D",
-          "text": "1 p = *x;"
+          "text": "`p = *x;`"
         }
       ],
-      "content": "小杨想让指针 p 指向整数变量 x，正确写法是（ ）。\n"
+      "content": "小杨想让指针 $p$ 指向整数变量 $x$，正确写法是（ ）。"
     },
     {
       "type": "choice",
@@ -40,22 +40,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5 10 10"
+          "text": "$5$ $10$ $10$"
         },
         {
           "key": "B",
-          "text": "5 10 15"
+          "text": "$5$ $10$ $15$"
         },
         {
           "key": "C",
-          "text": "10 10 10"
+          "text": "$10$ $10$ $10$"
         },
         {
           "key": "D",
-          "text": "5 5 10"
+          "text": "$5$ $5$ $10$"
         }
       ],
-      "content": "小杨写了如下的指针接⼒程序，程序执行完后变量 a、*p1和*p2的值分别是（ ）。\n\n```cpp\nint a = 5;\nint* p1 = &a;\nint* p2 = p1;\n*p2 = 10;\n```\n"
+      "content": "小杨写了如下的指针接⼒程序，程序执行完后变量 $a$ 、 `*p1` 和 `*p2` 的值分别是（ ）。\n\n```cpp\nint a = 5;\nint* p1 = &a;\nint* p2 = p1;\n*p2 = 10;\n```"
     },
     {
       "type": "choice",
@@ -65,22 +65,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cout << a[1, 2] << endl;"
+          "text": "`cout << a[1, 2] << endl;`"
         },
         {
           "key": "B",
-          "text": "cout << a[1][2] << endl;"
+          "text": "`cout << a[1][2] << endl;`"
         },
         {
           "key": "C",
-          "text": "cout << a(1, 2) << endl;"
+          "text": "`cout << a(1, 2) << endl;`"
         },
         {
           "key": "D",
-          "text": "cout << a{1}{2} << endl;"
+          "text": "`cout << a{1}{2} << endl;`"
         }
       ],
-      "content": "小杨用一个二维数组表⽰棋盘，其中 1 表⽰有棋⼦，0 表⽰没有棋⼦。他想知道第 2 行 第 3 列有没有棋⼦，\n可采用的代码是：（ ）。\n\n```cpp\nint a[3][4] = {\n    {1, 0, 1, 0},\n    {0, 1, 0, 1},\n    {1, 1, 0, 0}\n};\n```\n"
+      "content": "小杨用一个二维数组表示棋盘，其中 $1$ 表示有棋子，$0$ 表示没有棋子。他想知道第 $2$ 行第 $3$ 列有没有棋子，可采用的代码是：（ ）。\n\n```cpp\nint a[3][4] = {\n    {1, 0, 1, 0},\n    {0, 1, 0, 1},\n    {1, 1, 0, 0}\n};\n```"
     },
     {
       "type": "choice",
@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5 6"
+          "text": "$5$ $6$"
         },
         {
           "key": "B",
-          "text": "6 5"
+          "text": "$6$ $5$"
         },
         {
           "key": "C",
-          "text": "5 5"
+          "text": "$5$ $5$"
         },
         {
           "key": "D",
-          "text": "6 6"
+          "text": "$6$ $6$"
         }
       ],
-      "content": "执行完下面的代码后，*(p + 5) 和 arr[1][1]的值分别是（ ）。\n\n```cpp\nint arr[3][4] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};\nint* p = &arr[0][0];\n```\n"
+      "content": "执行完下面的代码后，`*(p + 5)` 和 `arr[1][1]` 的值分别是（ ）。\n\n```cpp\nint arr[3][4] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};\nint* p = &arr[0][0];\n```"
     },
     {
       "type": "choice",
@@ -115,22 +115,22 @@
       "options": [
         {
           "key": "A",
-          "text": "36"
+          "text": "$36$"
         },
         {
           "key": "B",
-          "text": "39"
+          "text": "$39$"
         },
         {
           "key": "C",
-          "text": "78"
+          "text": "$78$"
         },
         {
           "key": "D",
-          "text": "30"
+          "text": "$30$"
         }
       ],
-      "content": "执行完下面的代码后，sum 的值是（ ）。\n\n```cpp\nint arr[2][3][2] = {\n    {{1,2}, {3,4}, {5,6}},\n    {{7,8}, {9,10}, {11,12}}\n};\nint sum = 0;\nfor(int i = 0; i < 2; i++)\nfor(int j = 0; j < 3; j++)\nfor(int k = 0; k < 2; k++)\nif((i+j+k) % 2 == 0)\nsum += arr[i][j][k];\n```\n"
+      "content": "执行完下面的代码后，$sum$ 的值是（ ）。\n\n```cpp\nint arr[2][3][2] = {\n    {{1,2}, {3,4}, {5,6}},\n    {{7,8}, {9,10}, {11,12}}\n};\nint sum = 0;\nfor(int i = 0; i < 2; i++)\n    for(int j = 0; j < 3; j++)\n        for(int k = 0; k < 2; k++)\n            if((i+j+k) % 2 == 0)\n                sum += arr[i][j][k];\n```"
     },
     {
       "type": "choice",
@@ -155,7 +155,7 @@
           "text": "4 2"
         }
       ],
-      "content": "执行完下面的代码后，输出是（ ）。\n\n```cpp\nint a = 1;\nvoid test() {\n    int a = 2;\n    {\n        int a = 3;\n        a++;\n    }\n    a++;\n    cout << a << \" \";\n}\nint main() {\n    test();\n    cout << a;\n    return 0;\n}\n```\n"
+      "content": "执行完下面的代码后，输出是（ ）。\n\n```cpp\nint a = 1;\nvoid test() {\n    int a = 2;\n    {\n        int a = 3;\n        a++;\n    }\n    a++;\n    cout << a << \" \";\n}\nint main() {\n    test();\n    cout << a;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -165,22 +165,22 @@
       "options": [
         {
           "key": "A",
-          "text": "100 200 300"
+          "text": "$100$ $200$ $300$"
         },
         {
           "key": "B",
-          "text": "1 2 3"
+          "text": "$1$ $2$ $3$"
         },
         {
           "key": "C",
-          "text": "1 200 300"
+          "text": "$1$ $200$ $300$"
         },
         {
           "key": "D",
-          "text": "1 2 300"
+          "text": "$1$ $2$ $300$"
         }
       ],
-      "content": "执行完下面的代码后，a 、b 和 c 的值分别是（ ）。\n\n```cpp\nvoid byValue(int x) { x = 100; }\nvoid byRef(int& x) { x = 200; }\nvoid byPointer(int* x) { *x = 300; }\nint main() {\n    int a = 1, b = 2, c = 3;\n    byValue(a);\n    byRef(b);\n    byPointer(&c);\n    return 0;\n}\n```\n"
+      "content": "执行完下面的代码后，$a$ 、$b$ 和 $c$ 的值分别是（ ）。\n\n```cpp\nvoid byValue(int x) { x = 100; }\nvoid byRef(int& x) { x = 200; }\nvoid byPointer(int* x) { *x = 300; }\nint main() {\n    int a = 1, b = 2, c = 3;\n    byValue(a);\n    byRef(b);\n    byPointer(&c);\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -190,22 +190,22 @@
       "options": [
         {
           "key": "A",
-          "text": "10"
+          "text": "$10$"
         },
         {
           "key": "B",
-          "text": "30"
+          "text": "$30$"
         },
         {
           "key": "C",
-          "text": "15"
+          "text": "$15$"
         },
         {
           "key": "D",
-          "text": "20"
+          "text": "$20$"
         }
       ],
-      "content": "运行如下代码会输出（ ）。\n\n```cpp\nstruct Point {\n    int x, y;\n};\nstruct Rectangle {\n    Point topLeft;\n    Point bottomRight;\n};\nint main() {\n    Rectangle rect = {{10, 10}, {20, 20}};\n    rect.topLeft.x = 5;\n    Point* p = &rect.bottomRight;\n    p->y = 5;\n    cout << rect.topLeft.x + rect.bottomRight.y;\n    return 0;\n}\n```\n"
+      "content": "运行如下代码会输出（ ）。\n\n```cpp\nstruct Point {\n    int x, y;\n};\nstruct Rectangle {\n    Point topLeft;\n    Point bottomRight;\n};\nint main() {\n    Rectangle rect = {{10, 10}, {20, 20}};\n    rect.topLeft.x = 5;\n    Point* p = &rect.bottomRight;\n    p->y = 5;\n    cout << rect.topLeft.x + rect.bottomRight.y;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -215,22 +215,22 @@
       "options": [
         {
           "key": "A",
-          "text": "5"
+          "text": "$5$"
         },
         {
           "key": "B",
-          "text": "8"
+          "text": "$8$"
         },
         {
           "key": "C",
-          "text": "13"
+          "text": "$13$"
         },
         {
           "key": "D",
-          "text": "10"
+          "text": "$10$"
         }
       ],
-      "content": "给定函数 climbStairs(int n) 的定义如下，则 climbStairs(5) 的返回的值是（ ）。\n\n```cpp\nint climbStairs(int n) {\n    if(n <= 2) return n;\n    int a = 1, b = 2;\n    for(int i = 3; i <= n; i++) {\n        int temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n```\n"
+      "content": "给定函数 `climbStairs(int n)` 的定义如下，则 `climbStairs(5)` 的返回的值是（ ）。\n\n```cpp\nint climbStairs(int n) {\n    if(n <= 2) return n;\n    int a = 1, b = 2;\n    for(int i = 3; i <= n; i++) {\n        int temp = a + b;\n        a = b;\n        b = temp;\n    }\n    return b;\n}\n```"
     },
     {
       "type": "choice",
@@ -240,11 +240,11 @@
       "options": [
         {
           "key": "A",
-          "text": "稳定，因为相同 value 的元素相对顺序保持不变"
+          "text": "稳定，因为相同 `value` 的元素相对顺序保持不变"
         },
         {
           "key": "B",
-          "text": "不稳定，因为 {3,'D'} 出现在 {3,'B'} 之前"
+          "text": "不稳定，因为 `{3,'D'}` 出现在 `{3,'B'}` 之前"
         },
         {
           "key": "C",
@@ -255,7 +255,7 @@
           "text": "稳定，因为结果是有序的"
         }
       ],
-      "content": "对如下4个扑克牌进行排序，\n\n```cpp\nstruct Card {\n    int value;\n    char suit; // 花色\n};\nCard cards[4] = {{5,'A'}, {3,'B'}, {5,'C'}, {3,'D'}};\n```\n使用某排序算法按value排序后，结果为: {3,'D'}, {3,'B'}, {5,'A'}, {5,'C'}，则这个排序算法是稳定的吗？\n"
+      "content": "对如下 $4$ 个扑克牌进行排序，\n\n```cpp\nstruct Card {\n    int value;\n    char suit; // 花色\n};\nCard cards[4] = {{5,'A'}, {3,'B'}, {5,'C'}, {3,'D'}};\n```\n使用某排序算法按 `value` 排序后，结果为: `{3,'D'}`, `{3,'B'}`, `{5,'A'}`, `{5,'C'}`，则这个排序算法是稳定的吗？"
     },
     {
       "type": "choice",
@@ -265,22 +265,22 @@
       "options": [
         {
           "key": "A",
-          "text": "int j = 0; j < n; j++"
+          "text": "`int j = 0; j < n; j++`"
         },
         {
           "key": "B",
-          "text": "int j = i + 1; j < n; j++"
+          "text": "`int j = i + 1; j < n; j++`"
         },
         {
           "key": "C",
-          "text": "int j = i; j < n; j++"
+          "text": "`int j = i; j < n; j++`"
         },
         {
           "key": "D",
-          "text": "int j = 1; j <= n; j++"
+          "text": "`int j = 1; j <= n; j++`"
         }
       ],
-      "content": "下面的函数 selectTopK() 实现从 n 个学生中选出前 k 名成绩最好的学生颁发奖学金（不需要对所有\n学生完全排序，只需要找出前 k 名），则横线上应填写（ ）。\n\n```cpp\nstruct Student {\n    string name;\n    int score;\n};\nvoid selectTopK(Student students[], int n, int k) {\n    for (int i = 0; i < k; i++) {\n        int maxIdx = i;\n        for (____________________) { // 在此处填入代码\n            if (students[j].score > students[maxIdx].score) {\n                maxIdx = j;\n            }\n        }\n        if (maxIdx != i) {\n            Student temp = students[i];\n            students[i] = students[maxIdx];\n            students[maxIdx] = temp;\n        }\n    }\n}\n```\n"
+      "content": "下面的函数 `selectTopK()` 实现从 $n$ 个学生中选出前 $k$ 名成绩最好的学生颁发奖学金（不需要对所有学生完全排序，只需要找出前 $k$ 名），则横线上应填写（ ）。\n\n```cpp\nstruct Student {\n    string name;\n    int score;\n};\nvoid selectTopK(Student students[], int n, int k) {\n    for (int i = 0; i < k; i++) {\n        int maxIdx = i;\n        for (____________________) { // 在此处填入代码\n            if (students[j].score > students[maxIdx].score) {\n                maxIdx = j;\n            }\n        }\n        if (maxIdx != i) {\n            Student temp = students[i];\n            students[i] = students[maxIdx];\n            students[maxIdx] = temp;\n        }\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -290,22 +290,22 @@
       "options": [
         {
           "key": "A",
-          "text": "\n```cpp\ni > 0 && updatedPlayer.score > players[i - 1].score\ni < size - 1 && updatedPlayer.score < players[i + 1].score\n```\n"
+          "text": "```cpp\ni > 0 && updatedPlayer.score > players[i - 1].score\ni < size - 1 && updatedPlayer.score < players[i + 1].score\n```"
         },
         {
           "key": "B",
-          "text": "\n```cpp\ni < size - 1 && updatedPlayer.score < players[i + 1].score\ni > 0 && updatedPlayer.score > players[i - 1].score\n```\n"
+          "text": "```cpp\ni < size - 1 && updatedPlayer.score < players[i + 1].score\ni > 0 && updatedPlayer.score > players[i - 1].score\n```"
         },
         {
           "key": "C",
-          "text": "\n```cpp\ni > 0 && updatedPlayer.score < players[i - 1].score\ni < size - 1 && updatedPlayer.score < players[i + 1].score\n```\n"
+          "text": "```cpp\ni > 0 && updatedPlayer.score < players[i - 1].score\ni < size - 1 && updatedPlayer.score < players[i + 1].score\n```"
         },
         {
           "key": "D",
-          "text": "\n```cpp\ni > 0 && updatedPlayer.score < players[i - 1].score\ni < size - 1 && updatedPlayer.score > players[i + 1].score\n```\n"
+          "text": "```cpp\ni > 0 && updatedPlayer.score < players[i - 1].score\ni < size - 1 && updatedPlayer.score > players[i + 1].score\n```"
         }
       ],
-      "content": "某游戏的排行榜系统需要实时更新玩家分数。每次只有一个玩家的分数发生变化，排行榜已经是按分数降\n序排列的。现在需要将更新后的玩家调整到正确位置。下面的函数 updateRanking() 要实现上述功能，则两处横\n线上应分别填写（ ）。\n\n```cpp\nstruct Player {\n    string name;\n    int score;\n};\n// 玩家索引playerIdx的分数刚刚更新，需要调整位置\nvoid updateRanking(Player players[], int size, int playerIdx) {\n    Player updatedPlayer = players[playerIdx];\n    if (playerIdx > 0 && updatedPlayer.score > players[playerIdx - 1].score) {\n        int i = playerIdx;\n        while (____________________) { // 在此处填入代码\n            players[i] = players[i - 1];\n            i--;\n        }\n        players[i] = updatedPlayer;\n    }\n    else if (playerIdx < size - 1 && updatedPlayer.score < players[playerIdx + 1].score) {\n        int i = playerIdx;\n        while (____________________) { // 在此处填入代码\n            players[i] = players[i + 1];\n            i++;\n        }\n        players[i] = updatedPlayer;\n    }\n}\n```\n"
+      "content": "某游戏的排行榜系统需要实时更新玩家分数。每次只有一个玩家的分数发生变化，排行榜已经是按分数降序排列的。现在需要将更新后的玩家调整到正确位置。下面的函数 `updateRanking()` 要实现上述功能，则两处横线上应分别填写（ ）。\n\n```cpp\nstruct Player {\n    string name;\n    int score;\n};\n// 玩家索引 playerIdx 的分数刚刚更新，需要调整位置\nvoid updateRanking(Player players[], int size, int playerIdx) {\n    Player updatedPlayer = players[playerIdx];\n    if (playerIdx > 0 && updatedPlayer.score > players[playerIdx - 1].score) {\n        int i = playerIdx;\n        while (____________________) { // 在此处填入代码\n            players[i] = players[i - 1];\n            i--;\n        }\n        players[i] = updatedPlayer;\n    }\n    else if (playerIdx < size - 1 && updatedPlayer.score < players[playerIdx + 1].score) {\n        int i = playerIdx;\n        while (____________________) { // 在此处填入代码\n            players[i] = players[i + 1];\n            i++;\n        }\n        players[i] = updatedPlayer;\n    }\n}\n```"
     },
     {
       "type": "choice",
@@ -330,7 +330,7 @@
           "text": ""
         }
       ],
-      "content": "给定如下算法，其时间复杂度为（ ）。\n\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < n; i++) {\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if (i & (1 << j)) {\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```\n"
+      "content": "给定如下算法，其时间复杂度为（ ）。\n\n```cpp\nbool f(int arr[], int n, int target) {\n    for (int i = 0; i < n; i++) {\n        int sum = 0;\n        for (int j = 0; j < n; j++) {\n            if (i & (1 << j)) {\n                sum += arr[j];\n            }\n        }\n        if (sum == target) return true;\n    }\n    return false;\n}\n```"
     },
     {
       "type": "choice",
@@ -340,22 +340,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Happy|New Year"
+          "text": "`Happy|New Year`"
         },
         {
           "key": "B",
-          "text": "Happy| New Year"
+          "text": "`Happy| New Year`"
         },
         {
           "key": "C",
-          "text": "HappyNew Year|"
+          "text": "`HappyNew Year|`"
         },
         {
           "key": "D",
-          "text": "Happy|"
+          "text": "`Happy|`"
         }
       ],
-      "content": "执行下面 C++ 程序，会输出（ ）。\n\n```cpp\nint main() {\n    ofstream fout(\"test.txt\");\n    fout << \"Happy\" << endl;\n    fout << \"New Year\";\n    fout.close();\n    ifstream fin(\"test.txt\");\n    string s1, s2;\n    fin >> s1;\n    getline(fin, s2);\n    fin.close();\n    cout << s1 << \"|\" << s2;\n    return 0;\n}\n```\n"
+      "content": "执行下面 C++ 程序，会输出（ ）。\n\n```cpp\nint main() {\n    ofstream fout(\"test.txt\");\n    fout << \"Happy\" << endl;\n    fout << \"New Year\";\n    fout.close();\n    ifstream fin(\"test.txt\");\n    string s1, s2;\n    fin >> s1;\n    getline(fin, s2);\n    fin.close();\n    cout << s1 << \"|\" << s2;\n    return 0;\n}\n```"
     },
     {
       "type": "choice",
@@ -380,77 +380,77 @@
           "text": "程序崩溃"
         }
       ],
-      "content": "执行下面C++代码，会输出( )。\n\n```cpp\nint divide(int a, int b) {\n    if(b == 0) throw \"Division by zero\";\n    return a / b;\n}\nint main() {\n    int result = 0;\n    try {\n        result = divide(10, 0);\n        cout << \"A\";\n    }\n    catch(const char* msg) {\n        cout << \"B\";\n        result = -1;\n    }\n    cout << result;\n    return 0;\n}\n```\n"
+      "content": "执行下面 C++ 代码，会输出( )。\n\n```cpp\nint divide(int a, int b) {\n    if(b == 0) throw \"Division by zero\";\n    return a / b;\n}\nint main() {\n    int result = 0;\n    try {\n        result = divide(10, 0);\n        cout << \"A\";\n    }\n    catch(const char* msg) {\n        cout << \"B\";\n        result = -1;\n    }\n    cout << result;\n    return 0;\n}\n```"
     },
     {
       "type": "judge",
       "id": 16,
       "score": 2,
       "answer": "True",
-      "content": "小杨正在调试他的温度传感器程序，其中变量 x 保存当前温度。下面这段代码运行后，变量 x 的值变成\n了 8。\n\n```cpp\nint x = 5;\nint *p = &x;\n*p = *p + 3;\n```\n"
+      "content": "小杨正在调试他的温度传感器程序，其中变量 $x$ 保存当前温度。下面这段代码运行后，变量 $x$ 的值变成了 $8$。\n\n```cpp\nint x = 5;\nint *p = &x;\n*p = *p + 3;\n```"
     },
     {
       "type": "judge",
       "id": 17,
       "score": 2,
       "answer": "False",
-      "content": "一个结构体不能包含另一个结构体。\n"
+      "content": "一个结构体不能包含另一个结构体。"
     },
     {
       "type": "judge",
       "id": 18,
       "score": 2,
       "answer": "True",
-      "content": "在 C++ 中，定义如下二维数组：int a[3][4];，数组 a 在内存中是按行优先连续存放的，即 a[0]\n[0]、a[0][1]、a[0][2]、a[0][3] 在内存中是连续的。\n"
+      "content": "在 C++ 中，定义如下二维数组：`int a[3][4];`，数组 $a$ 在内存中是按行优先连续存放的，即 `a[0][0]`、`a[0][1]`、`a[0][2]`、`a[0][3]` 在内存中是连续的。"
     },
     {
       "type": "judge",
       "id": 19,
       "score": 2,
       "answer": "True",
-      "content": "执行下面程序后，变量 a 的值会变成 15。\n\n```cpp\nvoid add(int &x){\n    x += 10;\n}\nint a = 5;\nadd(a);\n```\n"
+      "content": "执行下面程序后，变量 $a$ 的值会变成 $15$。\n\n```cpp\nvoid add(int &x){\n    x += 10;\n}\nint a = 5;\nadd(a);\n```"
     },
     {
       "type": "judge",
       "id": 20,
       "score": 2,
       "answer": "False",
-      "content": "执行下面的C++代码，会输出 8，因为两个指针地址相差 8 个字节（假设 int 占 4 字节）。\n\n```cpp\nint arr[5] = {1, 2, 3, 4, 5};\nint* p1 = arr;\nint* p2 = arr + 2;\ncout << p2 - p1; // 输出结果\n```\n"
+      "content": "执行下面的 C++ 代码，会输出 $8$ ，因为两个指针地址相差 $8$ 个字节（假设 `int` 占 $4$ 字节）。\n\n```cpp\nint arr[5] = {1, 2, 3, 4, 5};\nint* p1 = arr;\nint* p2 = arr + 2;\ncout << p2 - p1; // 输出结果\n```"
     },
     {
       "type": "judge",
       "id": 21,
       "score": 2,
       "answer": "True",
-      "content": "考虑用如下递推方式计算斐波那契数列，时间复杂度是 。\n\n```cpp\nint n = 10;\nint f[20];\nf[0] = 0;\nf[1] = 1;\nfor (int i = 2; i <= n; i++)\nf[i] = f[i - 1] + f[i - 2];\n```\n"
+      "content": "考虑用如下递推方式计算斐波那契数列，时间复杂度是 。\n\n```cpp\nint n = 10;\nint f[20];\nf[0] = 0;\nf[1] = 1;\nfor (int i = 2; i <= n; i++)\n    f[i] = f[i - 1] + f[i - 2];\n```"
     },
     {
       "type": "judge",
       "id": 22,
       "score": 2,
       "answer": "True",
-      "content": "冒泡排序和插入排序都是稳定排序算法。\n"
+      "content": "冒泡排序和插入排序都是稳定排序算法。"
     },
     {
       "type": "judge",
       "id": 23,
       "score": 2,
       "answer": "True",
-      "content": "下面这段代码实现了选择排序算法。\n\n```cpp\nvoid sort(int a[], int n) {\n    for (int i = 1; i < n; i++) {\n        int x = a[i];\n        int j = i - 1;\n        while (j >= 0 && a[j] > x) {\n            a[j + 1] = a[j];\n            j--;\n        }\n        a[j + 1] = x;\n    }\n}\n```\n"
+      "content": "下面这段代码实现了选择排序算法。\n\n```cpp\nvoid sort(int a[], int n) {\n    for (int i = 1; i < n; i++) {\n        int x = a[i];\n        int j = i - 1;\n        while (j >= 0 && a[j] > x) {\n            a[j + 1] = a[j];\n            j--;\n        }\n        a[j + 1] = x;\n    }\n}\n```"
     },
     {
       "type": "judge",
       "id": 24,
       "score": 2,
       "answer": "False",
-      "content": "下面代码可以正常编译并输出 10。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint calculate(int x, int y = 10);\nint main() {\n    cout << calculate(5); // 调用1\n    return 0;\n}\nint calculate(int x, int y) {\n    return x * y;\n}\nint calculate(int x) { // 重载函数\n    return x * 2;\n}\n```\n"
+      "content": "下面代码可以正常编译并输出 $10$。\n\n```cpp\n#include <iostream>\nusing namespace std;\nint calculate(int x, int y = 10);\nint main() {\n    cout << calculate(5); // 调用1\n    return 0;\n}\nint calculate(int x, int y) {\n    return x * y;\n}\nint calculate(int x) { // 重载函数\n    return x * 2;\n}\n```"
     },
     {
       "type": "judge",
       "id": 25,
       "score": 2,
       "answer": "True",
-      "content": "执行下面代码会输出 100。\n\n```cpp\nint main() {\n    ofstream fout(\"data.txt\");\n    fout << 10 << \" \" << 20 << endl;\n    fout << 30 << \" \" << 40;\n    fout.close();\n    ifstream fin(\"data.txt\");\n    int a, b, c, d;\n    fin >> a >> b >> c >> d;\n    fin.close();\n    cout << a + b + c + d;\n    return 0;\n}\n```\n"
+      "content": "执行下面代码会输出 $100$。\n\n```cpp\nint main() {\n    ofstream fout(\"data.txt\");\n    fout << 10 << \" \" << 20 << endl;\n    fout << 30 << \" \" << 40;\n    fout.close();\n    ifstream fin(\"data.txt\");\n    int a, b, c, d;\n    fin >> a >> b >> c >> d;\n    fin.close();\n    cout << a + b + c + d;\n    return 0;\n}\n```"
     },
     {
       "type": "program",
