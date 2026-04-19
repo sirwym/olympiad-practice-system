@@ -33,7 +33,7 @@ from openai import OpenAI
 # ============================================================
 # DeepSeek API 配置
 # ============================================================
-API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-947103cf9b5044cca8b2d837ecf7b884")
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-xxxxxx")
 BASE_URL = "https://api.deepseek.com"
 MODEL = "deepseek-chat"  # DeepSeek V3.2
 
