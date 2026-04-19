@@ -2,15 +2,15 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"] # 如果你的主分支叫 master，请修改为 "master"
 
-# 确保有权限发布到 Pages
+# 核心权限配置：必须允许写入 Pages 和获取 ID 令牌
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 2026 年环境强制要求使用 Node.js 24
+# 2026 年 GitHub Actions 环境强制要求
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -18,7 +18,7 @@ jobs:
   build-and-deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }} # 关键修正：这里改成了点
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -31,13 +31,26 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install jinja2 markdown-it-py python-frontmatter
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then 
+            pip install -r requirements.txt
+          else 
+            # 如果没找到 requirements.txt，安装默认需要的库
+            pip install jinja2 markdown-it-py python-frontmatter jsmin
+          fi
 
       - name: Build static files
         run: |
+          # 1. 运行你的主构建脚本生成 dist 目录
           python build.py
-          # 如果你还没有创建 CNAME 文件，可以先注释掉下面这行，或者在本地创建一个
-          [ -f CNAME ] && cp CNAME dist/ || echo "No CNAME file found, skipping."
+          
+          # 2. 处理自定义域名：如果根目录有 CNAME 文件，将其拷贝进 dist
+          if [ -f CNAME ]; then
+            cp CNAME dist/
+            echo "CNAME file copied to dist/"
+          else
+            echo "No CNAME file found, skipping."
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,8 +58,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # 对应 build.py 生成的目录
+          # 必须指向 build.py 实际生成 HTML 的目录
+          path: './dist' 
 
       - name: Deploy to GitHub Pages
-        id: deployment # 这里的 ID 必须和上面 url 里的引用一致
+        id: deployment
         uses: actions/deploy-pages@v4
