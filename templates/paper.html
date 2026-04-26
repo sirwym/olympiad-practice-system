@@ -77,6 +77,21 @@
             box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
         }
 
+        /* 多选题选项标记（方形） */
+        .option-marker-square {
+            border-radius: 4px;
+        }
+        .option-card.multi-selected {
+            border-color: #3b82f6;
+            background-color: #dbeafe;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+        .option-card.multi-selected .option-marker {
+            border-color: #e040fb;
+            background-color: #fce4ec;
+            color: #c2185b;
+        }
+
         /* 判断题选项 */
         .judge-btn {
             transition: all 0.15s ease;
@@ -338,6 +353,35 @@
         </div>
         {% endif %}
 
+        {# 多选题 #}
+        {% set multi_questions = questions|selectattr('type', 'equalto', 'multi_choice')|list %}
+        {% if multi_questions %}
+        <div class="mb-8">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                <span class="w-6 h-6 bg-pink-100 text-pink-600 rounded text-xs font-bold flex items-center justify-center">多</span>
+                多选题（共 {{ multi_questions|length }} 题，每题 {{ multi_questions[0].score }} 分）
+            </h2>
+            {% for q in multi_questions %}
+            {% set ns.uid = ns.uid + 1 %}
+            <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="multi_choice" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
+                <div class="flex items-start gap-3 mb-4">
+                    <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
+                    <div class="question-content flex-1 text-gray-800 leading-relaxed">{{ q.content }}</div>
+                </div>
+                <div class="space-y-2 pl-10">
+                    {% for opt in q.options %}
+                    <label class="option-card flex items-center gap-3 p-3 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}" onclick="onMultiAnswer({{ ns.uid }}, '{{ opt.key }}')">
+                        <span class="shrink-0 w-6 h-6 rounded border-2 border-gray-300 flex items-center justify-center text-xs font-medium text-gray-400 option-marker option-marker-square">{{ opt.key }}</span>
+                        <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+                <div class="answer-hint hidden mt-3 pl-10"></div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
         {# 判断题 #}
         {% set judge_questions = questions|selectattr('type', 'equalto', 'judge')|list %}
         {% if judge_questions %}
@@ -470,9 +514,10 @@
             </h2>
 
             {% if is_choice_only %}
-            {# ===== 单项选择题：普通模式（每题独立）===== #}
+            {# ===== 选择题：普通模式（每题独立，区分单选/多选）===== #}
             {% for q in section_qs %}
             {% set ns.uid = ns.uid + 1 %}
+            {% set is_multi = (q.type == 'multi_choice') %}
             <div class="question-card mb-4 p-5 bg-white rounded-xl border border-gray-200 shadow-sm" id="q-{{ ns.uid }}" data-type="{{ q.type }}" data-enc="{{ q.enc }}" data-eid="{{ q.id }}" data-score="{{ q.score }}" data-qid="{{ q.id }}" data-uid="{{ ns.uid }}">
                 <div class="flex items-start gap-3 mb-4">
                     <span class="shrink-0 w-7 h-7 bg-gray-100 rounded-lg flex items-center justify-center text-sm font-semibold text-gray-600">{{ q.id }}</span>
@@ -480,11 +525,18 @@
                 </div>
                 <div class="space-y-2 pl-10">
                     {% for opt in q.options %}
+                    {% if is_multi %}
+                    <label class="option-card flex items-center gap-3 p-3 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}" onclick="onMultiAnswer({{ ns.uid }}, '{{ opt.key }}')">
+                        <span class="shrink-0 w-6 h-6 rounded border-2 border-gray-300 flex items-center justify-center text-xs font-medium text-gray-400 option-marker option-marker-square">{{ opt.key }}</span>
+                        <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                    </label>
+                    {% else %}
                     <label class="option-card flex items-center gap-3 p-3 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
                         <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
                         <span class="shrink-0 w-6 h-6 rounded-full border-2 border-gray-300 flex items-center justify-center text-xs font-medium text-gray-400 option-marker">{{ opt.key }}</span>
                         <span class="text-sm text-gray-700">{{ opt.text }}</span>
                     </label>
+                    {% endif %}
                     {% endfor %}
                 </div>
                 <div class="answer-hint hidden mt-3 pl-10"></div>
@@ -545,11 +597,18 @@
                             <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
                             <div class="space-y-1.5">
                                 {% for opt in q.options %}
+                                {% if q.type == 'multi_choice' %}
+                                <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}" onclick="onMultiAnswer({{ ns.uid }}, '{{ opt.key }}')">
+                                    <span class="shrink-0 w-5 h-5 rounded border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker option-marker-square">{{ opt.key }}</span>
+                                    <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                                </label>
+                                {% else %}
                                 <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
                                     <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
                                     <span class="shrink-0 w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker">{{ opt.key }}</span>
                                     <span class="text-sm text-gray-700">{{ opt.text }}</span>
                                 </label>
+                                {% endif %}
                                 {% endfor %}
                             </div>
                             <div class="answer-hint hidden mt-3"></div>
@@ -586,11 +645,18 @@
                         <div class="question-content text-gray-800 leading-relaxed mb-3">{{ q.content }}</div>
                         <div class="space-y-1.5">
                             {% for opt in q.options %}
+                            {% if q.type == 'multi_choice' %}
+                            <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}" onclick="onMultiAnswer({{ ns.uid }}, '{{ opt.key }}')">
+                                <span class="shrink-0 w-5 h-5 rounded border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker option-marker-square">{{ opt.key }}</span>
+                                <span class="text-sm text-gray-700">{{ opt.text }}</span>
+                            </label>
+                            {% else %}
                             <label class="option-card flex items-center gap-3 p-2.5 rounded-lg border border-gray-150 cursor-pointer" data-key="{{ opt.key }}">
                                 <input type="radio" name="q{{ ns.uid }}" value="{{ opt.key }}" class="hidden" onchange="onAnswer({{ ns.uid }}, '{{ q.type }}', '{{ opt.key }}')">
                                 <span class="shrink-0 w-5 h-5 rounded-full border-2 border-gray-300 flex items-center justify-center text-[10px] font-medium text-gray-400 option-marker">{{ opt.key }}</span>
                                 <span class="text-sm text-gray-700">{{ opt.text }}</span>
                             </label>
+                            {% endif %}
                             {% endfor %}
                         </div>
                         <div class="answer-hint hidden mt-3"></div>
@@ -700,19 +766,20 @@
 
         function decryptAnswer(enc, qid) {
             /* 逆向 build.py 的 encrypt_answer：
-               1. Base64 解码
-               2. 每个字节减偏移 (qid % 7)
-               3. 与 XOR_KEY[(qid + i) % len] 异或
-               4. 转回字符串 */
+               1. Base64 解码 → 逗号分隔整数字符串
+               2. split(',') 解析为整数数组
+               3. 每个整数减偏移 (qid % 7)
+               4. 与 XOR_KEY[(qid + i) % len] 异或
+               5. 转回字符串 */
             if (!enc) return '';
             try {
                 const raw = atob(enc);
                 const keyLen = XOR_KEY.length;
                 const offset = qid % 7;
+                const nums = raw.split(',').map(Number);
                 let result = '';
-                for (let i = 0; i < raw.length; i++) {
-                    const shifted = raw.charCodeAt(i);
-                    const xored = shifted - offset;
+                for (let i = 0; i < nums.length; i++) {
+                    const xored = nums[i] - offset;
                     const orig = xored ^ XOR_KEY.charCodeAt((qid + i) % keyLen);
                     result += String.fromCharCode(orig);
                 }
@@ -795,6 +862,39 @@
                 const btn = card.querySelector(`.judge-btn[data-value="${value}"]`);
                 btn.classList.add('selected');
             }
+
+            updateNavDots();
+            updateProgress();
+        }
+
+        // ===== 多选题答题逻辑 =====
+        function onMultiAnswer(uid, key) {
+            if (submitted) return;
+
+            const card = document.getElementById('q-' + uid);
+            const label = card.querySelector(`.option-card[data-key="${key}"]`);
+            const marker = label.querySelector('.option-marker');
+
+            // toggle 选中状态
+            const isSelected = label.classList.contains('multi-selected');
+            if (isSelected) {
+                label.classList.remove('multi-selected');
+                marker.classList.remove('border-pink-500', 'text-pink-600', 'bg-pink-50');
+            } else {
+                label.classList.add('multi-selected');
+                marker.classList.add('border-pink-500', 'text-pink-600', 'bg-pink-50');
+            }
+
+            // 收集所有选中的 key，排序后拼接
+            const selectedKeys = [];
+            card.querySelectorAll('.option-card.multi-selected').forEach(el => {
+                selectedKeys.push(el.dataset.key);
+            });
+            selectedKeys.sort();
+            const answer = selectedKeys.join('');
+
+            userAnswers[uid] = answer;
+            saveAnswer(uid, answer);
 
             updateNavDots();
             updateProgress();
@@ -924,6 +1024,12 @@
             if (type === 'fill') {
                 return userAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
             }
+            if (type === 'multi_choice') {
+                // 多选题：排序后比较（用户选 BD 等同于 DB）
+                const userSorted = userAnswer.toUpperCase().split('').sort().join('');
+                const correctSorted = correctAnswer.toUpperCase().split('').sort().join('');
+                return userSorted === correctSorted;
+            }
             // choice
             return userAnswer.toUpperCase() === correctAnswer.toUpperCase();
         }
@@ -1039,6 +1145,18 @@
                             const btn = card.querySelector(`.judge-btn[data-value="${value}"]`);
                             if (btn) btn.classList.add('selected');
                         }
+                    }
+
+                    // 回填多选题
+                    if (type === 'multi_choice') {
+                        const keys = value.split('');
+                        keys.forEach(k => {
+                            const label = card.querySelector(`.option-card[data-key="${k}"]`);
+                            if (label) {
+                                label.classList.add('multi-selected');
+                                label.querySelector('.option-marker').classList.add('border-pink-500', 'text-pink-600', 'bg-pink-50');
+                            }
+                        });
                     }
 
                     // 回填填空题

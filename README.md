@@ -4,36 +4,44 @@
 [![Static](https://img.shields.io/badge/Static-Generated-green)](https://en.wikipedia.org/wiki/Static_site_generator)
 [![Offline](https://img.shields.io/badge/Offline-Available-orange)](https://en.wikipedia.org/wiki/Offline_first)
 
-类 Hexo 的静态考试系统生成器，从 JSON 试卷数据生成纯静态 HTML，供学生练习 GESP / CSP / NCT 等信奥初赛。**零后端、零 CDN、离线可用。**
+类 Hexo 的静态考试系统生成器，从 JSON 试卷数据生成纯静态 HTML，供学生练习 GESP / CSP / NCT / NOC 等信奥初赛。**零后端、零 CDN、离线可用。**
 
 ## 试卷数据
 
 | 类别 | 数量 | 范围 |
 |------|------|------|
 | GESP C++ | 92 份 | 2023-03 ~ 2026-03，1-8 级 |
-| CSP-J / CSP-S | 14 份 | 2019-2025（J×7 + S×7） |
-| NCT | 15 份 | C++ C1/C2 + Kitten K1-K3 |
-| **合计** | **121 份** | |
+| CSP-J | 7 份 | 2019-2025 |
+| CSP-S | 7 份 | 2019-2025 |
+| NCT C++ | 4 份 | C1/C2 模拟卷 |
+| NCT Kitten | 9 份 | K1-K3 模拟卷 |
+| NOC Kitten | 7 份 | A/B卷(小学/中学) + 练习卷×3 |
+| 其他赛事 | 1 份 | 河南省科学素质大赛 |
+| **合计** | **127 份** | |
 
 ## 功能特性
 
 - **自动评分** — 提交后即时判分，错题红色高亮 + 显示正确答案
+- **答案加密存储** — XOR + 偏移加密 → 逗号分隔整数 + Base64，随机会话密钥二次加密
+- **JS 变量名缩短 + 压缩** — 模板保持可读全名，构建时自动替换短名 + jsmin 压缩
 - **答题卡导航** — 侧边答题卡快速跳转，进度条实时显示
 - **答题记录持久化** — localStorage 存储，刷新不丢失，提交/重置后清空
 - **倒计时器** — 按试卷设定时间倒计时，5 分钟警告
-- **多题型** — 单选(choice)、判断(judge)、填空(fill)、编程(program)
+- **多题型** — 单选(choice)、多选(multi_choice)、判断(judge)、填空(fill)、编程(program)
+- **多选题支持** — checkbox 风格切换选中，答案排序字母组合（如 "BD"），完全一致才算对
 - **CSP 大题模式** — 阅读程序/完善程序代码只显示一次，子题紧凑排列
 - **阅读程序判断题** — 自动识别"正确/错误"选项，渲染为 ✓/✗ 按钮
-- **分类选项卡** — GESP / CSP-J / CSP-S / NCT 一级切换
+- **分类选项卡** — GESP / CSP-J / CSP-S / NCT C++ / NCT Kitten / 其他赛事 一级切换
 - **级别筛选** — GESP 1-8 级筛选，CSP 自动隐藏
 - **首页分页** — 20 份/页，切换分类/级别时重置到第 1 页
 - **代码高亮** — Prism.js C++ 语法高亮（One Light 浅色主题）
 - **数学公式** — KaTeX 渲染，`$...$` 行内、`$$...$$` 块级
 - **Markdown 渲染** — markdown-it-py，支持换行
-- **NCT 图片缩放** — Kitten 试卷图片 max-width:60%
+- **NCT/OTHER 图片缩放** — Kitten 类试卷图片 max-width:60%
 - **浏览器历史导航** — scroll → replaceState + popstate 恢复滚动位置
 - **全站离线** — CSS / JS / 字体全部打包在 dist/assets/，零 CDN 依赖
 - **响应式设计** — 移动端适配
+- **404 页面** — 自定义 404，绝对路径引用资源，兼容 GitHub Pages
 
 ## 技术栈
 
@@ -42,39 +50,49 @@
 | 语言 | Python 3 | 构建脚本 |
 | 模板 | Jinja2 | 生成 HTML |
 | Markdown | markdown-it-py | 渲染题目内容 |
-| 样式 | Tailwind CSS | 响应式 UI |
+| 样式 | Tailwind CSS | 响应式 UI（本地 JS 运行时） |
 | 代码高亮 | Prism.js | C++ 语法着色 |
 | 数学公式 | KaTeX | 公式渲染 |
+| JS 压缩 | jsmin | 内联脚本压缩 |
 | PDF 解析 | pdfplumber | GESP 试卷客观题提取 |
 | PDF 渲染 | PyMuPDF | 判断题答案截图 |
+| 格式化 | DeepSeek API | GESP 题干批量格式化 |
 | 数据 | JSON | 试卷存储 |
 
 ## 目录结构
 
 ```
-├── build.py              # 核心构建脚本（JSON → HTML）
-├── gesp_import.py        # GESP 统一导入入口（7 个子命令）
-├── gesp_pdfs.json        # GESP PDF URL 配置（增量更新源）
-├── download_pdfs.py      # GESP PDF 增量下载（从 gesp_pdfs.json 读取）
-├── pdf_to_json.py        # GESP PDF → JSON（客观题解析，增量模式）
+├── build.py                  # 核心构建脚本（JSON → HTML）
+├── gesp_import.py            # GESP 统一导入入口（7 个子命令）
+├── gesp_pdfs.json            # GESP PDF URL 配置（增量更新源）
+├── download_pdfs.py          # GESP PDF 增量下载（从 gesp_pdfs.json 读取）
+├── pdf_to_json.py            # GESP PDF → JSON（客观题解析，增量模式）
 ├── import_luogu_programs.py  # GESP 编程题面导入（从洛谷题单，含 LaTeX + 样例）
-├── fix_gesp_judge.py     # GESP 判断题修复（截图 + 多模态识别 + 写入）
-├── import_csp_data.py    # CSP 试卷导入（sections → questions 格式转换）
-├── import_nct.py         # NCT 试卷导入（含图片下载）
-├── papers/               # 试卷 JSON 数据（121 份）
+├── fix_gesp_judge.py         # GESP 判断题修复（截图 + 多模态识别 + 写入）
+├── format_gesp.py            # GESP 试卷批量格式化（DeepSeek API，5 条规则）
+├── import_csp_data.py        # CSP 试卷导入（sections → questions 格式转换）
+├── fix_csp_answers.py        # CSP 答案填充（极客网答案匹配）
+├── import_nct.py             # NCT 试卷导入（含图片下载）
+├── import_noc_pdfs.py        # NOC 试卷导入（PDF 提取）
+├── scrape_wjx.py             # 问卷星试卷抓取（Playwright 自动化）
+├── papers/                   # 试卷 JSON 数据（127 份）
 │   ├── 2023-03-gesp-1/
 │   │   └── index.json
 │   ├── 2024-csp-j-2024/
 │   │   └── index.json
-│   └── nct-kitten-1-K1模拟卷1/
+│   ├── nct-kitten-1-K1模拟卷1/
+│   │   └── index.json
+│   ├── noc-kitten-A卷-小学/
+│   │   └── index.json
+│   └── 2025-henan-science-primary/
 │       └── index.json
-├── templates/            # Jinja2 模板
-│   ├── index.html        # 首页模板（分类选项卡 + 级别筛选）
-│   ├── paper.html        # 试卷详情模板
-│   └── 404.html          # 404 页面
-├── assets/               # 本地静态资源
-├── dist/                 # 构建输出目录
-└── requirements.txt      # Python 依赖
+├── templates/                # Jinja2 模板
+│   ├── index.html            # 首页模板（分类选项卡 + 级别筛选）
+│   ├── paper.html            # 试卷详情模板
+│   └── 404.html              # 404 页面（绝对路径引用资源）
+├── assets/                   # 本地静态资源
+├── dist/                     # 构建输出目录
+└── requirements.txt          # Python 依赖
 ```
 
 ## 快速开始
@@ -82,7 +100,7 @@
 ### 环境要求
 
 - Python 3.10+
-- 依赖：`jinja2`、`markdown-it-py`、`python-frontmatter`
+- 依赖：`jinja2`、`markdown-it-py`、`jsmin`、`python-frontmatter`
 
 ### 安装
 
@@ -135,6 +153,17 @@ python3 gesp_import.py judge      # 检查判断题修复状态
 >
 > **`pdfs/` 不上传 GitHub**，但 `gesp_pdfs.json`（~5KB，92 条 URL 记录）在仓库中。新环境克隆后，运行 `gesp_import.py download` 即可从 URL 自动重建 `pdfs/` 目录，然后执行后续步骤。
 
+### GESP 试卷格式化
+
+批量格式化 GESP 题干和选项文本（DeepSeek V3.2 API），5 条规则：C++ 关键字→反引号、数学变量→`$...$`、清理多余换行、代码块缩进修复、末尾清理。
+
+```bash
+python3 format_gesp.py                     # 格式化所有试卷
+python3 format_gesp.py --dry-run           # 预览变更，不写入
+python3 format_gesp.py --paper 2026-03-gesp-2  # 指定单份试卷
+python3 format_gesp.py --force             # 强制重新格式化
+```
+
 ### GESP 判断题修复
 
 2023-09 起的 PDF 中 √/× 以矢量路径渲染，pdfplumber 无法提取文本，需用多模态识别：
@@ -159,7 +188,8 @@ python3 fix_gesp_judge.py status
 # 从外部 data 目录导入（sections → questions 格式转换）
 python3 import_csp_data.py
 
-# 答案需从外部来源填充（极客网答案文件，内容匹配选项确定 A/B/C/D）
+# 答案填充（极客网答案文件，内容匹配选项确定 A/B/C/D）
+python3 fix_csp_answers.py
 # 判断题：正确 → "True"，错误 → "False"
 ```
 
@@ -168,6 +198,20 @@ python3 import_csp_data.py
 ```bash
 # 从原始 JSON 导入（含图片下载）
 python3 import_nct.py
+```
+
+### NOC 试卷
+
+```bash
+# 从 PDF 提取（含图片）
+python3 import_noc_pdfs.py
+```
+
+### 问卷星试卷
+
+```bash
+# 从问卷星抓取试卷（Playwright 浏览器自动化，提取题目 + 图片）
+python3 scrape_wjx.py
 ```
 
 ### 手动添加试卷
@@ -197,6 +241,19 @@ python3 import_nct.py
         {"key": "D", "text": "选项D"}
       ],
       "answer": "B"
+    },
+    {
+      "id": 5,
+      "type": "multi_choice",
+      "score": 4,
+      "content": "多选题题干（支持 Markdown）",
+      "options": [
+        {"key": "A", "text": "选项A"},
+        {"key": "B", "text": "选项B"},
+        {"key": "C", "text": "选项C"},
+        {"key": "D", "text": "选项D"}
+      ],
+      "answer": "BD"
     },
     {
       "id": 11,
@@ -230,13 +287,13 @@ python3 import_nct.py
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `title` | string | 试卷标题 |
-| `category` | string | 分类：GESP / CSP-J / CSP-S / NCT |
-| `level` | string | 级别：GESP 为 "1"-"8"，CSP 为 "CSP-J"/"CSP-S" |
+| `category` | string | 分类：GESP / CSP-J / CSP-S / NCT-C++ / NCT-KITTEN / OTHER |
+| `level` | string | 级别：GESP 为 "1"-"8"，CSP 为 "CSP-J"/"CSP-S"，NCT 为 "1"-"3" 等 |
 | `date` | string | 考试日期，如 "2024-06" |
 | `time_limit` | int | 时长（分钟） |
 | `total_score` | int | 总分（GESP 含编程题 100，CSP 初赛 100） |
-| `questions[].type` | string | choice / judge / fill / program |
-| `questions[].answer` | string | choice: "A"-"D"；judge: "True"/"False"；fill: 文本；program: "" |
+| `questions[].type` | string | choice / multi_choice / judge / fill / program |
+| `questions[].answer` | string | choice: "A"-"D"；multi_choice: 排序字母组合如 "BD"；judge: "True"/"False"；fill: 文本；program: "" |
 | `questions[].section` | string | CSP 专用："单项选择题"/"阅读程序"/"完善程序" |
 
 ## 许可证

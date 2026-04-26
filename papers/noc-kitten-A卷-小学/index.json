@@ -1,0 +1,466 @@
+{
+  "title": "2021年NOC A卷模拟考（小学Kitten）",
+  "category": "其他赛事",
+  "level": "NOC",
+  "date": "2021",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "NOC 全国青少年编程能力竞赛模拟考 · ",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 3,
+      "answer": "A",
+      "content": "⻆色“⻥”的造型如图所示,运行下图所示的脚本,舞台上会切换到编号为( )的造型。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q1_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 3,
+      "answer": "A",
+      "content": "如图所示是⻆色\"⻘蛙\"的初始状态,运行下列脚本后,\"⻘蛙\"的状态变为( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q2_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q2_1.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q2_2.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q2_3.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q2_4.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q2_5.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 3,
+      "answer": "B",
+      "content": "运行下列脚本后,新建对话框输出的内容是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q3_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "F的第6个字符串"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "31415926"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 3,
+      "answer": "B",
+      "content": "下图是某⻆色的脚本,已知⻆色初始位置为(0,0)且面向0度。运行脚本之后则下列说法正确的是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q4_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "⻆色移动到随机位置和抖动的效果是同时进行的"
+        },
+        {
+          "key": "B",
+          "text": "⻆色先会移动到随机位置,然后抖动3秒钟,接着切换到下一个造型,等待1秒钟后逆时针旋"
+        },
+        {
+          "key": "C",
+          "text": "⻆色先会移动到随机位置,然后抖动3秒钟,接着切换到下一个造型,等待1秒钟后顺时针旋"
+        },
+        {
+          "key": "D",
+          "text": "⻆色先会移动到随机位置,然后抖动3秒钟的同时切换下一个造型,等待1秒钟后顺时针旋转"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 3,
+      "answer": "C",
+      "content": "已知“宇宙⻜船”⻆色的初始大小为73,运行下列脚本,下列选项说法正确的是()。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q5_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "当“宇宙⻜船”碰到红色阵营⻆色时,“宇宙⻜船”的大小会增加3"
+        },
+        {
+          "key": "B",
+          "text": "当“宇宙⻜船”没有碰到红色阵营⻆色时,“宇宙⻜船”⻆色会切换到下一个造型"
+        },
+        {
+          "key": "C",
+          "text": "当“宇宙⻜船”碰到红色阵营⻆色时,“宇宙⻜船”⻆色会切换到下一个造型"
+        },
+        {
+          "key": "D",
+          "text": "当“宇宙⻜船”没有碰到红色阵营⻆色时,“宇宙⻜船”⻆色会切换成红色阵营⻆色"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 3,
+      "answer": "C",
+      "content": "运行下列脚本,新建对话框积木输出的是( )\n![img](../assets/images/noc/noc-kitten-A卷-小学/q6_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "95"
+        },
+        {
+          "key": "B",
+          "text": "butterfly5"
+        },
+        {
+          "key": "C",
+          "text": "3455"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 3,
+      "answer": "A",
+      "content": "“刺猬”的脚本如下,运行程序,舞台上将出现( )只刺猬。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q7_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "11"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 3,
+      "answer": "A",
+      "content": "运行下面脚本,第一次输入数字8,第二次输入150,则绘制出的图形是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q8_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q8_1.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q8_2.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q8_3.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q8_4.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 3,
+      "answer": "B",
+      "content": "⻆色\"球\"的脚本如下,其造型如图。运行程序后,如果小球最后呈现的是标号为5的造型,那么小球随机移动的坐标可能是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q9_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q9_1.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "(68,21)"
+        },
+        {
+          "key": "B",
+          "text": "(230,-200)"
+        },
+        {
+          "key": "C",
+          "text": "(45,130)"
+        },
+        {
+          "key": "D",
+          "text": "(2,-6)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 3,
+      "answer": "A",
+      "content": "某⻆色的初始坐标为(0,0),⻆色的脚本如图所示,运行下面程序,最后呈现的内容为“120”,那么“?”处应填入的是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q10_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 11,
+      "score": 4,
+      "answer": "ACD",
+      "content": "以下哪些选项的积木可以让\"画笔\"跟随鼠标左右移动?\n![img](../assets/images/noc/noc-kitten-A卷-小学/q11_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q11_1.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q11_2.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q11_3.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q11_4.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q11_5.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 12,
+      "score": 4,
+      "answer": "ACD",
+      "content": "运行下面脚本,新建对话框输出的值不可能是( )。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q12_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "-12"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "97"
+        },
+        {
+          "key": "D",
+          "text": "198"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 13,
+      "score": 4,
+      "answer": "AB",
+      "content": "⻆色\"圆点\"在舞台上不停地改变方向随意移动,以下积木选项能让\"圆点\"碰到舞台边缘之后,能够返回圆点(0,0)?\n![img](../assets/images/noc/noc-kitten-A卷-小学/q13_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q13_1.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q13_2.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q13_3.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q13_4.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q13_5.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 14,
+      "score": 4,
+      "answer": "AC",
+      "content": "如下图所示,用列表\"单价\"记录了顾客购买的每一件商品的单价,使用哪些选项的积木能正确地计算出商品的总价?\n![img](../assets/images/noc/noc-kitten-A卷-小学/q14_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q14_1.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q14_2.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-A卷-小学/q14_3.png)"
+        },
+        {
+          "key": "D",
+          "text": "以上选项都可以"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 15,
+      "score": 4,
+      "answer": "AC",
+      "content": "1. 以下积木拼接在背景⻆色中,以下说法正确的是?\n![img](../assets/images/noc/noc-kitten-A卷-小学/q15_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q15_1.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "赛⻋每过3秒速度增加1"
+        },
+        {
+          "key": "B",
+          "text": "赛⻋每过3秒速度减少1"
+        },
+        {
+          "key": "C",
+          "text": "赛⻋最大速度为20"
+        },
+        {
+          "key": "D",
+          "text": "赛⻋最小速度为20"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 16,
+      "score": 5,
+      "answer": "7",
+      "content": "图1是阿短⻆色的初始设置,图2是阿短⻆色中积木运行之后在舞台上的结果,那么这里重复执行次数应该是__________。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q16_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q16_1.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q16_2.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 17,
+      "score": 5,
+      "answer": "4",
+      "content": "1. 运行下图脚本,最终对话中显示的内容是____。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q17_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 18,
+      "score": 5,
+      "answer": "3",
+      "content": "某次抽奖总共有3轮。下图为某⻆色的脚本,运行脚本,发送广播“抽奖”之后,至少要经过25秒\n才公布获奖结果,则每一轮抽奖中间需要等待__________秒。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q18_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 5,
+      "answer": "0",
+      "content": "下图脚本运行后,新建对话框中输出的值最大是___________。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q19_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 5,
+      "answer": "天⽔之君",
+      "content": "列表内容⻅图1,运行下面脚本,输出的对话内容是_____________。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q20_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q20_1.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 21,
+      "score": 5,
+      "answer": "200",
+      "content": "运行下列脚本绘制出如下图形,获得图形面积为60000,求步数1的值为________。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q21_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 22,
+      "score": 5,
+      "answer": "20",
+      "content": "某停⻋场规定:停⻋一次至少交停⻋费7元,超过2小时,每多停1小时(不足1小时按1小时计算),多交3元;办理了年费会员的每次可打8折。阿短是这个停⻋场的年费会员,阿短在此次停⻋总共停了7.2个小时,那此次停⻋阿短需要缴的停⻋费为_______。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q22_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q22_1.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 23,
+      "score": 5,
+      "answer": "5",
+      "content": "如图定义了一个递归函数,执行脚本,新建对话框输出的是_________。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q23_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 24,
+      "score": 5,
+      "answer": "3",
+      "content": "在问号处填写_____可以绘制出右侧的图案。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q24_0.png)\n\n![img](../assets/images/noc/noc-kitten-A卷-小学/q24_1.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 25,
+      "score": 5,
+      "answer": "89",
+      "content": "运行下列脚本,输入“阿短”名字后,对话框显示的结果是_______。\n![img](../assets/images/noc/noc-kitten-A卷-小学/q25_0.png)\n",
+      "options": []
+    }
+  ]
+}

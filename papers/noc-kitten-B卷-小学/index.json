@@ -1,0 +1,466 @@
+{
+  "title": "2021年NOC B卷模拟考（小学Kitten）",
+  "category": "其他赛事",
+  "level": "NOC",
+  "date": "2021",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "NOC 全国青少年编程能力竞赛模拟考 · ",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 3,
+      "answer": "D",
+      "content": "右侧为“魔法书”⻆色的不同造型,运行下列脚本后,不可能切换的造型为( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q1_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "魔法书(4)"
+        },
+        {
+          "key": "B",
+          "text": "魔法书(5)"
+        },
+        {
+          "key": "C",
+          "text": "魔法书(6)"
+        },
+        {
+          "key": "D",
+          "text": "魔法书(7)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 3,
+      "answer": "B",
+      "content": "⻆色的初始坐标为(-150,30)。运行如下图的脚本,⻆色最终的坐标位置为( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q2_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "(-75,30)"
+        },
+        {
+          "key": "B",
+          "text": "(-75,50)"
+        },
+        {
+          "key": "C",
+          "text": "(75,80)"
+        },
+        {
+          "key": "D",
+          "text": "(-135,50)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 3,
+      "answer": "D",
+      "content": "运行下列脚本后,新建对话框输出的内容是( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q3_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "F,L"
+        },
+        {
+          "key": "B",
+          "text": "愿逐月华流照君此时相望不相闻"
+        },
+        {
+          "key": "C",
+          "text": "FL"
+        },
+        {
+          "key": "D",
+          "text": "此时相望不相闻,愿逐月华流照君"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 3,
+      "answer": "D",
+      "content": "下图是某⻆色的脚本,运行下列脚本。当输入的数字为72,那么最终对话框中呈现的内容是\n( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q4_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以被3整除"
+        },
+        {
+          "key": "B",
+          "text": "不可以被3整除"
+        },
+        {
+          "key": "C",
+          "text": "请输入一个你喜欢的数字"
+        },
+        {
+          "key": "D",
+          "text": "可以被3整除,等于24"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 3,
+      "answer": "B",
+      "content": "“太空人”⻆色的脚本如下图所示,运行下列脚本,如果最终对话框中呈现的内容是”我是太空\n人“,那么”太空人“此时的坐标可能是( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q5_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "43,55"
+        },
+        {
+          "key": "B",
+          "text": "35,75"
+        },
+        {
+          "key": "C",
+          "text": "93,64"
+        },
+        {
+          "key": "D",
+          "text": "83,62"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 3,
+      "answer": "B",
+      "content": "\"⻜夜鼠”⻆色的坐标为(-50,201),运行下列脚本,新建对话框积木输出的是( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q6_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "-50"
+        },
+        {
+          "key": "B",
+          "text": "-50201"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "(-50,201)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 3,
+      "answer": "A",
+      "content": "小企鹅”的脚本如下,运行程序,舞台上将出现( )只小企鹅。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q7_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "11"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 3,
+      "answer": "C",
+      "content": "下面的脚本运行后,绘制出的图形是( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q8_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q8_1.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q8_2.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q8_3.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q8_4.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 3,
+      "answer": "B",
+      "content": "画笔的脚本如图所示,运行该脚本,画笔绘制的线条的⻓度是()。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q9_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "320"
+        },
+        {
+          "key": "B",
+          "text": "400"
+        },
+        {
+          "key": "C",
+          "text": "480"
+        },
+        {
+          "key": "D",
+          "text": "560"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 3,
+      "answer": "B",
+      "content": "阿短制作了一个雪花被克隆后,克隆体雪花旋转下落的效果。阿短拼接了下图的积木脚本后,运\n行程序发现雪花在克隆后并不会往下掉落,这是( )原因呢?\n![img](../assets/images/noc/noc-kitten-B卷-小学/q10_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "面向的⻆度不对,将“面向-90度”更改为“面向90度”"
+        },
+        {
+          "key": "B",
+          "text": "移动和旋转积木结合使用,导致⻆色的方向一直在改变,将\"移动积木”更改为“将Y坐标增加()积木"
+        },
+        {
+          "key": "C",
+          "text": "“移动积木”应该放在重复积木前面"
+        },
+        {
+          "key": "D",
+          "text": "“面向-90度”积木应该放在重复积木里面"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 11,
+      "score": 4,
+      "answer": "AC",
+      "content": "以下是“灰灰鼠”⻆色的脚本,运行此程序脚本后,灰灰鼠的坐标可能是( )选项。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q11_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "(-250,200)"
+        },
+        {
+          "key": "B",
+          "text": "(-250,-200)"
+        },
+        {
+          "key": "C",
+          "text": "(-200,125)"
+        },
+        {
+          "key": "D",
+          "text": "(-200,-125)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 12,
+      "score": 4,
+      "answer": "AD",
+      "content": "运行下列脚本后,新建对话框的内容可能是( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q12_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "-13"
+        },
+        {
+          "key": "B",
+          "text": "73"
+        },
+        {
+          "key": "C",
+          "text": "-73"
+        },
+        {
+          "key": "D",
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 13,
+      "score": 4,
+      "answer": "AD",
+      "content": "阿短编写了一个程序,当鼠标按下时,棍子不断会伸长直到鼠标放开,然后棍子90度顺时针倒下,请问以下( )积木不可以用来侦测棍子倒下后的长度?\n![img](../assets/images/noc/noc-kitten-B卷-小学/q13_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q13_1.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q13_2.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q13_3.png)"
+        },
+        {
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q13_4.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 14,
+      "score": 4,
+      "answer": "BD",
+      "content": "列表\"L\"初始为空列表,下列能创建一个元素如下的列表\"L\"的脚本有( )。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q14_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q14_1.png)"
+        },
+        {
+          "key": "B",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q14_2.png)"
+        },
+        {
+          "key": "C",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q14_3.png)"
+        },
+		{
+          "key": "D",
+          "text": "![img](../assets/images/noc/noc-kitten-B卷-小学/q14_4.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 15,
+      "score": 4,
+      "answer": "ABD",
+      "content": "点击开始,执行下方积木后,变量1与变量2的值不可能的是( )\n![img](../assets/images/noc/noc-kitten-B卷-小学/q15_0.png)\n",
+      "options": [
+        {
+          "key": "A",
+          "text": "0,0"
+        },
+        {
+          "key": "B",
+          "text": "6,12"
+        },
+        {
+          "key": "C",
+          "text": "7,14"
+        },
+        {
+          "key": "D",
+          "text": "10,20"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 16,
+      "score": 5,
+      "answer": "3",
+      "content": "阿短的脚本如下。运行该脚本,舞台中最多能出现_________个阿短。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q16_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 17,
+      "score": 5,
+      "answer": "20",
+      "content": "下图是某⻆色的脚本。运行脚本,⻆色的X坐标为 ____________。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q17_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 18,
+      "score": 5,
+      "answer": "2",
+      "content": "某⻆色有3个造型且初始造型编号为1。运行脚本,该⻆色最终的造型编号为______。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q18_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 5,
+      "answer": "4",
+      "content": "运行下图的脚本,对话框输出________的可能性最大。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q19_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 5,
+      "answer": "321",
+      "content": "某⻆色的脚本如下,运行程序,输入:123456 \n则新建对话框输出的内容是________。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q20_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 21,
+      "score": 5,
+      "answer": "36",
+      "content": "运行如下图的程序输入:123\n则程序输出的值是________。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q21_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 22,
+      "score": 5,
+      "answer": "2",
+      "content": "执行如下积木后,变量的值为____。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q22_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 23,
+      "score": 5,
+      "answer": "1",
+      "content": "运行下图脚本,新建对话框中输出的内容是____。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q23_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 24,
+      "score": 5,
+      "answer": "330",
+      "content": "小明使用源码编辑器绘制了一把“小伞”,其中点a为起始点,则脚本中的“?”处应填入\n_________\n![img](../assets/images/noc/noc-kitten-B卷-小学/q24_0.png)\n",
+      "options": []
+    },
+    {
+      "type": "fill",
+      "id": 25,
+      "score": 5,
+      "answer": "98",
+      "content": "某⻆色脚本如下,列表“L”的元素如图所示,运行脚本,则新建对话框输出的内容是________。\n![img](../assets/images/noc/noc-kitten-B卷-小学/q25_0.png)\n",
+      "options": []
+    }
+  ]
+}

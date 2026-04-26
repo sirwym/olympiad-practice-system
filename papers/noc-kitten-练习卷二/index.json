@@ -1,0 +1,795 @@
+{
+  "title": "NOC Kitten图形化编程练习卷二",
+  "category": "其他赛事",
+  "level": "NOC",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NOC 全国中小学信息技术创新与实践大赛 Kitten 图形化编程",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2.5,
+      "answer": "C",
+      "content": "在编辑器中，展示程序运行效果的区域是（）\n![img](../assets/images/noc/nocimg-a-20220326-1120451.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A区域"
+        },
+        {
+          "key": "B",
+          "text": "B区域"
+        },
+        {
+          "key": "C",
+          "text": "C区域"
+        },
+        {
+          "key": "D",
+          "text": "D区域"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2.5,
+      "answer": "C",
+      "content": "属性栏可以设置角色的属性，但不包括（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "大小"
+        },
+        {
+          "key": "B",
+          "text": "颜色"
+        },
+        {
+          "key": "C",
+          "text": "旋转模式"
+        },
+        {
+          "key": "D",
+          "text": "位置"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2.5,
+      "answer": "B",
+      "content": "Kitten编辑器保存到本地的编程文件的拓展名是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "sb2"
+        },
+        {
+          "key": "B",
+          "text": "bcm"
+        },
+        {
+          "key": "C",
+          "text": "py"
+        },
+        {
+          "key": "D",
+          "text": "program"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2.5,
+      "answer": "B",
+      "content": "图中角色“泡泡编程猫”的属性栏，关于“泡泡编程猫”的初始状态，下列说法不正确的是（）\n![img](../assets/images/noc/nocimg-a-20220326-1120452.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "”泡泡编程猫”是自由旋转模式"
+        },
+        {
+          "key": "B",
+          "text": "“泡泡编程猫”会在舞台区隐藏"
+        },
+        {
+          "key": "C",
+          "text": "“泡泡编程猫”的面向角度是0"
+        },
+        {
+          "key": "D",
+          "text": "“泡泡编程猫”的大小是100%"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2.5,
+      "answer": "C",
+      "content": "“雷电猴”和“呆鲤鱼”在玩游戏，“呆鲤鱼”在初始位置，面向0度方向，运行脚本后，“呆鲤鱼”会出现在（）位置\n![img](../assets/images/noc/nocimg-a-20220326-1120453.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2.5,
+      "answer": "C",
+      "content": "要实现汽车角色在视觉上有向上运动的效果，“背景”的脚本是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-1120454.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-1120455.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-1120456.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-1120457.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-1120458.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2.5,
+      "answer": "B",
+      "content": "图中为角色“鲤鱼”的初始状态，运行下列脚本后，角色“鲤鱼”将出现在（ ）\n![img](../assets/images/noc/nocimg-a-20220326-1120459.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204510.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204511.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204512.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204513.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2.5,
+      "answer": "D",
+      "content": "角色“老鼠”的初始面向角度为0度，运行脚本后，“老鼠”的位置正确的是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204514.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204515.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204516.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204517.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204518.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2.5,
+      "answer": "A",
+      "content": "运行图中脚本后，所切换到的造型就是小可准备阅读的第一本书。这本书是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204519.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "《红楼梦》"
+        },
+        {
+          "key": "B",
+          "text": "《水浒传》"
+        },
+        {
+          "key": "C",
+          "text": "《三国演义》"
+        },
+        {
+          "key": "D",
+          "text": "《西游记》"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2.5,
+      "answer": "B",
+      "content": "图中是“灯笼”的脚本，当收到广播“灯笼出现”后，舞台效果是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204520.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "灯笼变大"
+        },
+        {
+          "key": "B",
+          "text": "灯笼逐渐消失"
+        },
+        {
+          "key": "C",
+          "text": "灯笼逐渐变亮"
+        },
+        {
+          "key": "D",
+          "text": "灯笼逐渐变黑"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2.5,
+      "answer": "B",
+      "content": "以下能够实现在游戏过程中重复且正常地播放背景音乐的脚本是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204521.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204522.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204523.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204624.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2.5,
+      "answer": "B",
+      "content": "阿短在编写一个古诗接龙的游戏，给出上句，选择正确的下句。如图所示，下列脚本实现的是诗句“白日依山尽，黄河入海流”的接龙，脚本中“？”处应该填写的是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204625.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "黄河入海流"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2.5,
+      "answer": "C",
+      "content": "草莓的坐标值是（-100,300），西瓜的坐标值是（200,50）桃子的坐标值最有可能是以下选项中的（）\n![img](../assets/images/noc/nocimg-a-20220326-11204626.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "(-100,200)"
+        },
+        {
+          "key": "B",
+          "text": "(-100,50)"
+        },
+        {
+          "key": "C",
+          "text": "(300,200)"
+        },
+        {
+          "key": "D",
+          "text": "(300,50)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2.5,
+      "answer": "D",
+      "content": "角色在舞台的左下角，不能实现使该角色移到舞台中心的是（  ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204627.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204628.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204629.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204630.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2.5,
+      "answer": "C",
+      "content": "图中角色中，坐标值最有可能是（100,200）的是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204631.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 2.5,
+      "answer": "D",
+      "content": "下列选项的脚本中，让角色移到的位置与其他三个不同的是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204632.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204633.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204634.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204635.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 2.5,
+      "answer": "C",
+      "content": "如图所示的脚本实现的功能是：输入一串数字，如果该数字是11位，则在舞台上显示输入数字；否则，提示“输入的位数有误！”，脚本中“？”处应填写的是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204636.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204637.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204638.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204639.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204640.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 2.5,
+      "answer": "C",
+      "content": "如图所示的脚本实现了计时的功能，当时间达到10秒时，通过新建对话框提示“时间到，游戏结束”，脚本中问号代表的内容不可能是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204641.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 1"
+        },
+        {
+          "key": "B",
+          "text": "2 2"
+        },
+        {
+          "key": "C",
+          "text": "4 4"
+        },
+        {
+          "key": "D",
+          "text": "5 5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 2.5,
+      "answer": "C",
+      "content": "下列脚本中，不能实现按下按键“a”角色持续移动效果的是（）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-a-20220326-11204642.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-a-20220326-11204643.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-a-20220326-11204644.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-a-20220326-11204645.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 2.5,
+      "answer": "B",
+      "content": "某角色有三个造型，当前造型编号为1，运行该角色的脚本，并做如下操作：移动鼠标指针到该角色上，按下鼠标左键任意时长后松开。角色切换到造型（）\n![img](../assets/images/noc/nocimg-a-20220326-11204646.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "不确定"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "score": 2.5,
+      "answer": "D",
+      "content": "图中为某角色的脚本，单击“开始”按钮，等待5秒后，该角色将移动（）步\n![img](../assets/images/noc/nocimg-a-20220326-11204647.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "40"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 22,
+      "score": 2.5,
+      "answer": "C",
+      "content": "运行如下脚本，变量“年”的值是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204648.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "40"
+        },
+        {
+          "key": "C",
+          "text": "2020"
+        },
+        {
+          "key": "D",
+          "text": "2200"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 23,
+      "score": 2.5,
+      "answer": "B",
+      "content": "运行下列脚本，对话框中输出变量x的值是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204649.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 24,
+      "score": 2.5,
+      "answer": "D",
+      "content": "图中为某角色的脚本，按下并松开按键a,使用鼠标单击角色，角色会（）\n![img](../assets/images/noc/nocimg-a-20220326-11204650.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "变小"
+        },
+        {
+          "key": "B",
+          "text": "变大"
+        },
+        {
+          "key": "C",
+          "text": "不发生变化"
+        },
+        {
+          "key": "D",
+          "text": "消失"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "score": 2.5,
+      "answer": "C",
+      "content": "“毛毛虫”位于“小鸡”右边30步位置，小鸡的移动程序如图所示，以下操作能帮助“小鸡”走到“毛毛虫”所在位置的是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204651.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "依次按下按键b、c、a"
+        },
+        {
+          "key": "B",
+          "text": "依次按下按键a、b、c"
+        },
+        {
+          "key": "C",
+          "text": "依次按下按键b、c"
+        },
+        {
+          "key": "D",
+          "text": "依次按下按键c、a"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 26,
+      "score": 2.5,
+      "answer": "C",
+      "content": "已知角色“小可”的程序代码如图所示，单击开始运行程序，依次按下空格键7次，最后“小可”向右移动的步数是（）步\n![img](../assets/images/noc/nocimg-a-20220326-11204652.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "70"
+        },
+        {
+          "key": "B",
+          "text": "50"
+        },
+        {
+          "key": "C",
+          "text": "30"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 27,
+      "score": 2.5,
+      "answer": "C",
+      "content": "如果要让精灵向下移动，那么玩家应该进行的操作是（）\n![img](../assets/images/noc/nocimg-a-20220326-11204653.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "将鼠标指针移到精灵上"
+        },
+        {
+          "key": "B",
+          "text": "将鼠标指针移到精灵上，并且按下鼠标左键"
+        },
+        {
+          "key": "C",
+          "text": "按下空格键，同时将鼠标指针移到精灵上"
+        },
+        {
+          "key": "D",
+          "text": "按下空格键，同时将鼠标指针移到精灵上，并且按下鼠标左键"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 28,
+      "score": 2.5,
+      "answer": "D",
+      "content": "“怪物1”的脚本如图所示，程序开始后，“怪物1”先后碰到了舞台左边缘和“怪物2”，那么此时变量“步数”的值为（）\n![img](../assets/images/noc/nocimg-a-20220326-11204654.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1"
+        },
+        {
+          "key": "B",
+          "text": "-2"
+        },
+        {
+          "key": "C",
+          "text": "-4"
+        },
+        {
+          "key": "D",
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 29,
+      "score": 2.5,
+      "answer": "-3",
+      "content": "图1是忍者阿短跑酷游戏，图2是背景的脚本，图3是金币的脚本，如果想使金币随着背景同步向左移动，金币的脚本中“？”处应填写的是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204655.png)"
+    },
+    {
+      "type": "fill",
+      "id": 30,
+      "score": 2.5,
+      "answer": "王希孟",
+      "content": "《千里江山图》是北宋王希孟创作的中国十大传世名画之一。该作品以长卷形式，立足传统，画面细致入微，烟波浩渺的江河、层峦起伏的群山构成了一幅美妙的江南山水图。图中，小可编写了一段脚本，考查阿短对国家文物知识的了解情况，则“？”处应填写的是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204656.png)"
+    },
+    {
+      "type": "fill",
+      "id": 31,
+      "score": 2.5,
+      "answer": "43",
+      "content": "运行下列脚本，变量“得分”的值是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204657.png)"
+    },
+    {
+      "type": "fill",
+      "id": 32,
+      "score": 2.5,
+      "answer": "90",
+      "content": "阿短去买铅笔，店员告诉阿短，如图所示脚本的规则付款，阿短要买10支铅笔，需要支付的价格是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204658.png)"
+    },
+    {
+      "type": "fill",
+      "id": 33,
+      "score": 2.5,
+      "answer": "20",
+      "content": "阿短约小可去图书馆，他们的脚本如图1和图2所示，试问：他们最少需要等待（ ）秒才能出发去图书馆。\n![img](../assets/images/noc/nocimg-a-20220326-11204659.png)"
+    },
+    {
+      "type": "fill",
+      "id": 34,
+      "score": 2.5,
+      "answer": "15",
+      "content": "运行如图所示的脚本，变量“结果”的值是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204660.png)"
+    },
+    {
+      "type": "fill",
+      "id": 35,
+      "score": 2.5,
+      "answer": "6",
+      "content": "运行下列脚本，屏幕中最多显示（ ）只木叶龙。\n![img](../assets/images/noc/nocimg-a-20220326-11204661.png)"
+    },
+    {
+      "type": "fill",
+      "id": 36,
+      "score": 2.5,
+      "answer": "60",
+      "content": "运行如下脚本，新建对话框输出的值是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204662.png)"
+    },
+    {
+      "type": "fill",
+      "id": 37,
+      "score": 2.5,
+      "answer": "10",
+      "content": "图中分别为“飞夜鼠”和“呆鲤鱼的脚本，运行下列脚本，5秒后“呆鲤鱼”总共移动（ ）步\n![img](../assets/images/noc/nocimg-a-20220326-11204663.png)"
+    },
+    {
+      "type": "fill",
+      "id": 38,
+      "score": 2.5,
+      "answer": "100",
+      "content": "舞台上三个角色的脚本如图所示，运行程序后，角色A的x坐标为（ ）。\n![img](../assets/images/noc/nocimg-a-20220326-11204664.png)"
+    },
+    {
+      "type": "fill",
+      "id": 39,
+      "score": 2.5,
+      "answer": "51",
+      "content": "下列脚本运行后，变量“速度”的值是（ ）\n![img](../assets/images/noc/nocimg-a-20220326-11204665.png)"
+    },
+    {
+      "type": "fill",
+      "id": 40,
+      "score": 2.5,
+      "answer": "15",
+      "content": "运行如下脚本后，该条线的长度是（ ）步\n![img](../assets/images/noc/nocimg-a-20220326-11204666.png)"
+    }
+  ]
+}

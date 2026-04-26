@@ -42,9 +42,10 @@ def encrypt_answer(answer: str, qid: int) -> str:
         xored = ord(ch) ^ ord(XOR_KEY[(qid + i) % key_len])
         shifted = xored + offset
         result.append(shifted)
-    # 编码为 bytes 再 Base64
-    raw_bytes = bytes(result)
-    return base64.b64encode(raw_bytes).decode('ascii')
+    # 将 XOR+偏移后的整数编码为可打印字符串，再 Base64
+    # 格式：逗号分隔的十进制整数 → Base64
+    encoded = ','.join(str(v) for v in result)
+    return base64.b64encode(encoded.encode('utf-8')).decode('ascii')
 
 
 def minify_inline_js(html: str) -> str:
@@ -368,7 +369,7 @@ def build_paper(paper: dict, env: Environment) -> str:
         paper=metadata,
         questions=questions,
         paper_slug=paper['slug'],
-        is_nct_kitten=(metadata.get('category') == 'NCT-KITTEN'),
+        is_nct_kitten=(metadata.get('category') in ('NCT-KITTEN', 'OTHER')),
     )
     
     # 压缩内联 JS
@@ -425,7 +426,7 @@ def build_index(papers: list[dict], env: Environment) -> str:
     paper_list.sort(key=lambda p: p.get('date', ''), reverse=True)
 
     # 分类排序：GESP 优先，然后 CSP，然后 NCT，其余按字母
-    cat_order = ['GESP', 'CSP-J', 'CSP-S', 'NCT-C++', 'NCT-KITTEN']
+    cat_order = ['GESP', 'CSP-J', 'CSP-S', 'NCT-C++', 'NCT-KITTEN', 'OTHER']
     categories = sorted(cat_set, key=lambda c: cat_order.index(c) if c in cat_order else 999)
     active_category = categories[0] if categories else ''
 
@@ -439,6 +440,7 @@ def build_index(papers: list[dict], env: Environment) -> str:
         'CSP-S': 'CSP-S（提高）',
         'NCT-C++': 'NCT C++',
         'NCT-KITTEN': 'NCT KITTEN',
+        'OTHER': '其他赛事',
     }
 
     # 级别显示名
@@ -447,8 +449,11 @@ def build_index(papers: list[dict], env: Environment) -> str:
         n = int(lvl) if lvl.isdigit() else 0
         if lvl.isdigit():
             level_labels[lvl] = f'{n}级'
+        elif lvl in ('CSP-J', 'CSP-S'):
+            # CSP 级别直接使用原值
+            level_labels[lvl] = lvl
         else:
-            # CSP 级别直接使用原值（如 CSP-J, CSP-S）
+            # 其他非数字级别（如 NOC）直接使用原值
             level_labels[lvl] = lvl
 
     # 分类颜色
@@ -458,6 +463,7 @@ def build_index(papers: list[dict], env: Environment) -> str:
         'CSP-S': 'bg-purple-50 text-purple-600',
         'NCT-C++': 'bg-orange-50 text-orange-600',
         'NCT-KITTEN': 'bg-pink-50 text-pink-600',
+        'OTHER': 'bg-teal-50 text-teal-600',
     }
 
     template = env.get_template('index.html')

@@ -1,0 +1,510 @@
+{
+  "title": "NOC Kitten图形化编程练习卷三",
+  "category": "其他赛事",
+  "level": "NOC",
+  "date": "2026-04",
+  "time_limit": 60,
+  "total_score": 100,
+  "description": "NOC 全国中小学信息技术创新与实践大赛 Kitten 图形化编程",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 4,
+      "answer": "A",
+      "content": "巫婆想使用黑魔法将王子变成⻘蛙，施法⼀次都会使王⼦切换到下⼀个造型。可由于她还不能熟练控制魔法，不小心施法了五次。请问王子的造型变成了下⾯选项中的哪⼀个？(注：王⼦的初始造型为下图中的造型⼀)（）\n![img](../assets/images/noc/nocimg-b-20220327-1011251.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "青蛙"
+        },
+        {
+          "key": "B",
+          "text": "小王子"
+        },
+        {
+          "key": "C",
+          "text": "绿青蛙"
+        },
+        {
+          "key": "D",
+          "text": "王子"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 4,
+      "answer": "B",
+      "content": "1970年4月24日21时35分，中国首颗人造卫星\"东方红⼀号\"发射升空。为了纪念这⼀历史性时刻，阿短设计了⼀个模拟倒计时程序，但是程序中缺失了循环次数。请问选择以下哪个选项作为循环次数能够让程序倒计时到0秒？（）\n![img](../assets/images/noc/nocimg-b-20220327-1011252.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 4,
+      "answer": "A",
+      "content": "变量“角度”记录的是角的大小，按照角的分类规则，下⾯这组积木运行后，得到的角是什么角？（）\n![img](../assets/images/noc/nocimg-b-20220327-1011253.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "锐角"
+        },
+        {
+          "key": "B",
+          "text": "直角"
+        },
+        {
+          "key": "C",
+          "text": "钝角"
+        },
+        {
+          "key": "D",
+          "text": "平角"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 4,
+      "answer": "D",
+      "content": "欢迎来到⼩猫的变装⾛秀表演！今天的⼩猫有8个不同造型，当前⼩猫处于第3个造型，请问在此状态下运⾏下面积木之后，⼩猫会切换成第⼏个造型呢？（）\n![img](../assets/images/noc/nocimg-b-20220327-1011254.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 4,
+      "answer": "C",
+      "content": "请问，下⾯这段积⽊脚本可以画出哪个图形？（）\n![img](../assets/images/noc/nocimg-b-20220327-1011255.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-1011266.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-1011267.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-1011268.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-1011269.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "A",
+      "content": "我们都知道在编程中变量的作⽤是储存不断地变化的值，如果“变量”的初始值等于0，请问在运⾏下⾯的程序之后，它的值会变成多少呢？（）\n![img](../assets/images/noc/nocimg-b-20220327-10112610.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "19"
+        },
+        {
+          "key": "B",
+          "text": "21"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "C",
+      "content": "在程序设计中，可以对角色的多个造型进行切换。小可设计了一个阿短走路动画效果，给阿短设计了5个造型效果，见下图。下面的积木不可以实现阿短走路效果的积木是（  ）。\n![img](../assets/images/noc/nocimg-b-20220327-10112611.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112612.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112613.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112614.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112615.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "B",
+      "content": "运行下面的程序，绘制的图形为（ ）。\n![img](../assets/images/noc/nocimg-b-20220327-10112616.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112617.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112618.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112619.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112620.png)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "C",
+      "content": "时辰是古代计时单位，古代人把一天划分为十二个时辰，每个时辰相等于现在的两小时。相传，古人根据十二生肖中的动物的出没时间来命名各个时辰，对应着十二生肖中的“子(鼠)、丑(牛)、寅(虎)、卯(兔)、辰(龙)、巳(蛇)、午(马)、未(羊)、申(猴)、酉(鸡)、戌(狗)、亥(猪)”。小可借助软件进行时辰划分的时候，不小心漏掉了午时。现在借助下面哪块积木可以将时辰表正确补齐呢（ ）？\n![img](../assets/images/noc/nocimg-b-20220327-10112621.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112622.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112623.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112624.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112625.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 10,
+      "score": 4,
+      "answer": "ABCD",
+      "content": "下面四个函数中能生成3个随机数项目的列表的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112626.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112627.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112628.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112629.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 11,
+      "score": 4,
+      "answer": "ABCD",
+      "content": "按照下图的积木，会发送“胜利”广播的是（）。\n![img](../assets/images/noc/nocimg-b-20220327-10112630.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "阿短碰到出口"
+        },
+        {
+          "key": "B",
+          "text": "能量石1碰到出口"
+        },
+        {
+          "key": "C",
+          "text": "能量石2碰到出口"
+        },
+        {
+          "key": "D",
+          "text": "阿短和能量石1都碰到出口"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 12,
+      "score": 4,
+      "answer": "CD",
+      "content": "阿短编写⼀个程序，想让角色“小鸟”随机出现在图中绿色线框内(中心点在线框内)。下列脚本中能实现这个功能的是（）。\n![img](../assets/images/noc/nocimg-b-20220327-10112631.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112632.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112633.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112634.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112635.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 13,
+      "score": 4,
+      "answer": "ACD",
+      "content": "角色“骰子”有6个造型。初始状态下“骰子”显示的点数是“1”。能让“骰子”显示点数为“4”的脚本是（ ）。\n![img](../assets/images/noc/nocimg-b-20220327-10112636.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112637.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112638.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112639.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112640.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 14,
+      "score": 4,
+      "answer": "BC",
+      "content": "运行下列脚本，“数字”的值可能是（）。\n![img](../assets/images/noc/nocimg-b-20220327-10112641.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "68"
+        },
+        {
+          "key": "B",
+          "text": "34"
+        },
+        {
+          "key": "C",
+          "text": "49"
+        },
+        {
+          "key": "D",
+          "text": "88"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 15,
+      "score": 4,
+      "answer": "AC",
+      "content": "阿短设计了一个游戏，让角色“手枪”不断地发射子弹。那么为了实现该效果，请帮阿短将下图的积木补充完整吧！（）\n![img](../assets/images/noc/nocimg-b-20220327-10112642.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "选择积木A"
+        },
+        {
+          "key": "B",
+          "text": "选择积木B"
+        },
+        {
+          "key": "C",
+          "text": "选择积木C"
+        },
+        {
+          "key": "D",
+          "text": "选择积木D"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 16,
+      "score": 4,
+      "answer": "AB",
+      "content": "下图是角色的积木脚本，那么点击开始后，角色可能会说出的数字是（）。\n![img](../assets/images/noc/nocimg-b-20220327-10112643.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "100"
+        },
+        {
+          "key": "B",
+          "text": "200"
+        },
+        {
+          "key": "C",
+          "text": "400"
+        },
+        {
+          "key": "D",
+          "text": "500"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 17,
+      "score": 4,
+      "answer": "BC",
+      "content": "下列程序能正确画出等边三角形的是？（   ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "A\n![img](../assets/images/noc/nocimg-b-20220327-10112644.png)"
+        },
+        {
+          "key": "B",
+          "text": "B\n![img](../assets/images/noc/nocimg-b-20220327-10112645.png)"
+        },
+        {
+          "key": "C",
+          "text": "C\n![img](../assets/images/noc/nocimg-b-20220327-10112646.png)"
+        },
+        {
+          "key": "D",
+          "text": "D\n![img](../assets/images/noc/nocimg-b-20220327-10112647.png)"
+        }
+      ]
+    },
+    {
+      "type": "multi_choice",
+      "id": 18,
+      "score": 4,
+      "answer": "ABD",
+      "content": "对下图积木脚本描述正确的是（）。\n![img](../assets/images/noc/nocimg-b-20220327-10112648.png)",
+      "options": [
+        {
+          "key": "A",
+          "text": "游戏开始后，程序会源源不断地克隆“叶子”"
+        },
+        {
+          "key": "B",
+          "text": "每片“叶子”克隆体的旋转角度都是相同的"
+        },
+        {
+          "key": "C",
+          "text": "每片“叶子”克隆体的移动路径都是相同的"
+        },
+        {
+          "key": "D",
+          "text": "每片“叶子”克隆体的移动路径可能是不同的"
+        }
+      ]
+    },
+    {
+      "type": "fill",
+      "id": 19,
+      "score": 4,
+      "answer": "9",
+      "content": "变量得分的初始值为0，下图程序运行结束后，变量得分的数值变为(   )。注：仅 填写纯数字。\n![img](../assets/images/noc/nocimg-b-20220327-10112649.png)"
+    },
+    {
+      "type": "fill",
+      "id": 20,
+      "score": 4,
+      "answer": "4",
+      "content": "机器人在舞台上排列出如图所示的方阵。脚本中“?”处应填写的是(  )。注：请勿填写空格，请勿换行\n![img](../assets/images/noc/nocimg-b-20220327-10112650.png)\n![img](../assets/images/noc/1648431777AczWTc.png)"
+    },
+    {
+      "type": "fill",
+      "id": 21,
+      "score": 4,
+      "answer": "30",
+      "content": "轮船没有轮⼦，为什么被称为轮船呢？这是因为第⼀艘⽤蒸汽作为动⼒的船“克莱蒙号”两 侧有两个巨⼤的轮⼦。蒸汽机带动轮⼦破浪前⾏，所以被称之为“轮船”。轮船的动⼒脚本如下 所示。假如现在有“蒸汽”和“⽆动⼒”两种动⼒，请问轮船的速度是(   )。\n![img](../assets/images/noc/nocimg-b-20220327-10112651.png)"
+    },
+    {
+      "type": "fill",
+      "id": 22,
+      "score": 4,
+      "answer": "90",
+      "content": "周末阿短去游乐园乘坐了摩天轮，回到家中意犹未尽的阿短使用kitten制作了一个摩 天轮程序，程序中“摩天轮旋转”的函数定义及调用如下图所示，现在阿短想要让摩天 轮按照4度的旋转速度旋转4圈，若参数3设置为4，那么函数调用积木中的参数2应改为(  )。\n![img](../assets/images/noc/nocimg-b-20220327-10112652.png)"
+    },
+    {
+      "type": "fill",
+      "id": 23,
+      "score": 4,
+      "answer": "9",
+      "content": "以下程序运行结束后，对话框输出的内容最大为(   )。\n![img](../assets/images/noc/nocimg-b-20220327-10112653.png)"
+    },
+    {
+      "type": "fill",
+      "id": 24,
+      "score": 4,
+      "answer": "5",
+      "content": "下列程序运行后变量得分的值为(  )。\n![img](../assets/images/noc/nocimg-b-20220327-10112654.png)"
+    },
+    {
+      "type": "fill",
+      "id": 25,
+      "score": 4,
+      "answer": "40",
+      "content": "脚本绘制了一个正9边形，脚本中被墨水遮盖的数值是(   )。\n![img](../assets/images/noc/nocimg-b-20220327-10112655.png)"
+    }
+  ]
+}
