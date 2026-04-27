@@ -1,0 +1,636 @@
+{
+  "title": "智能创意主题赛模拟卷（二）- 1-3年级组",
+  "category": "其他赛事",
+  "level": "青少年素养大赛-智能创意主题",
+  "date": "2026-04",
+  "time_limit": 30,
+  "total_score": 100,
+  "description": "侧重AI的工作原理(IPO)、隐私红线、社会影响及具像化认知。",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 4,
+      "answer": "B",
+      "content": "人工智能（AI）程序最喜欢吃的“食物”是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "汉堡包"
+        },
+        {
+          "key": "B",
+          "text": "海量的数据"
+        },
+        {
+          "key": "C",
+          "text": "新鲜的空气"
+        },
+        {
+          "key": "D",
+          "text": "五彩的画笔"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 4,
+      "answer": "A",
+      "content": "AI 识别一张图片的过程通常是：①摄像头拍摄（输入）②电脑分析（处理）③告诉你是猫（输出）。这三个步骤的顺序是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "①②③"
+        },
+        {
+          "key": "B",
+          "text": "③②①"
+        },
+        {
+          "key": "C",
+          "text": "②①③"
+        },
+        {
+          "key": "D",
+          "text": "①③②"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 4,
+      "answer": "C",
+      "content": "在自动驾驶汽车中，车顶上的雷达和摄像头相当于汽车的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "嘴巴"
+        },
+        {
+          "key": "B",
+          "text": "肚子"
+        },
+        {
+          "key": "C",
+          "text": "眼睛（感知器官）"
+        },
+        {
+          "key": "D",
+          "text": "脚"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 4,
+      "answer": "D",
+      "content": "关于AI工具，下列做法不正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "利用AI生成精美的PPT背景图"
+        },
+        {
+          "key": "B",
+          "text": "请AI帮我列出周末旅行的计划"
+        },
+        {
+          "key": "C",
+          "text": "和AI交流时使用文明语言"
+        },
+        {
+          "key": "D",
+          "text": "把同学的个人秘密告诉大模型AI"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 4,
+      "answer": "A",
+      "content": "“扫码支付”时，机器能认出我们的二维码，这体现了AI的（ ）能力。",
+      "options": [
+        {
+          "key": "A",
+          "text": "识别"
+        },
+        {
+          "key": "B",
+          "text": "奔跑"
+        },
+        {
+          "key": "C",
+          "text": "煮饭"
+        },
+        {
+          "key": "D",
+          "text": "感冒"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "C",
+      "content": "当我们感觉不舒服时，AI医生辅助诊断能提高效率，但最终的决定权应在（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "机器"
+        },
+        {
+          "key": "B",
+          "text": "电脑屏幕"
+        },
+        {
+          "key": "C",
+          "text": "真实的医生"
+        },
+        {
+          "key": "D",
+          "text": "手机电池"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "B",
+      "content": "如果AI生成了一张非常真实的照片，说“外星人占领了地球”，我们应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "立刻吓哭"
+        },
+        {
+          "key": "B",
+          "text": "怀疑其真实性，向大人确认"
+        },
+        {
+          "key": "C",
+          "text": "转发到所有群里"
+        },
+        {
+          "key": "D",
+          "text": "立刻搬家"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪种行为体现了“科技应服务于人类”？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "开发会偷人钱财的机器人"
+        },
+        {
+          "key": "B",
+          "text": "制作专门骂人的软件"
+        },
+        {
+          "key": "C",
+          "text": "让AI替学生完成所有的期末闭卷考"
+        },
+        {
+          "key": "D",
+          "text": "研发能帮残疾人走路的智能假肢"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "A",
+      "content": "为什么AI现在越来越“聪明”？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "因为它学习了非常多的人类知识数据"
+        },
+        {
+          "key": "B",
+          "text": "因为它长出了真实的脑袋"
+        },
+        {
+          "key": "C",
+          "text": "因为它每天吃很多汉堡"
+        },
+        {
+          "key": "D",
+          "text": "因为它拥有魔法"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 4,
+      "answer": "C",
+      "content": "在智慧教室里，空调能根据学生人数自动调节温度，这属于AI的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入过程"
+        },
+        {
+          "key": "B",
+          "text": "输出过程"
+        },
+        {
+          "key": "C",
+          "text": "智能调节（处理与执行）"
+        },
+        {
+          "key": "D",
+          "text": "关机过程"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 4,
+      "answer": "B",
+      "content": "我们使用语音输入法写作文，这时“输入”的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "图片"
+        },
+        {
+          "key": "B",
+          "text": "声音"
+        },
+        {
+          "key": "C",
+          "text": "气味"
+        },
+        {
+          "key": "D",
+          "text": "温度"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 4,
+      "answer": "D",
+      "content": "为了让AI写出一首好诗，我们的要求（提示词）应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "越短越好"
+        },
+        {
+          "key": "B",
+          "text": "随便乱写"
+        },
+        {
+          "key": "C",
+          "text": "不给它看例子"
+        },
+        {
+          "key": "D",
+          "text": "清晰、准确且有描述性"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 4,
+      "answer": "A",
+      "content": "下列哪种行为是保护隐私的好习惯？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "不在不安全的网站上传照片"
+        },
+        {
+          "key": "B",
+          "text": "把全家人的照片发给陌生网友"
+        },
+        {
+          "key": "C",
+          "text": "用自己的真实姓名作为密码"
+        },
+        {
+          "key": "D",
+          "text": "随便扫描路边不知名的二维码"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 4,
+      "answer": "C",
+      "content": "“具像化认知”人工智能，你可以把它看作是一个（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "有生命的小怪兽"
+        },
+        {
+          "key": "B",
+          "text": "永远不会错的上帝"
+        },
+        {
+          "key": "C",
+          "text": "能帮我们处理信息的“聪明助手”"
+        },
+        {
+          "key": "D",
+          "text": "一台普通的电视机"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 4,
+      "answer": "B",
+      "content": "在刷脸支付时，AI将你的脸和数据库里的信息对比，这属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入"
+        },
+        {
+          "key": "B",
+          "text": "处理（比对）"
+        },
+        {
+          "key": "C",
+          "text": "输出"
+        },
+        {
+          "key": "D",
+          "text": "充电"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 4,
+      "answer": "D",
+      "content": "学习AI知识可以帮助我们（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "更有力气跑步"
+        },
+        {
+          "key": "B",
+          "text": "不用再背古诗"
+        },
+        {
+          "key": "C",
+          "text": "让电脑替我们睡觉"
+        },
+        {
+          "key": "D",
+          "text": "激发对科学探索的兴趣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 4,
+      "answer": "A",
+      "content": "下列哪个是AI能够做到的“基础互动”？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "回答你提出的简单问题"
+        },
+        {
+          "key": "B",
+          "text": "陪你到公园捉迷藏"
+        },
+        {
+          "key": "C",
+          "text": "帮你把家里的地扫一遍（实物操作）"
+        },
+        {
+          "key": "D",
+          "text": "替你感受冰淇淋的甜味"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 4,
+      "answer": "B",
+      "content": "当我们给AI很多错的数据时，AI产生的结果（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "依然是正确的"
+        },
+        {
+          "key": "B",
+          "text": "也会是错误的"
+        },
+        {
+          "key": "C",
+          "text": "会自动变正确"
+        },
+        {
+          "key": "D",
+          "text": "会变成五彩色"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 4,
+      "answer": "C",
+      "content": "使用AI工具时，如果不小心泄露了密码，应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "不管它"
+        },
+        {
+          "key": "B",
+          "text": "大哭一场"
+        },
+        {
+          "key": "C",
+          "text": "立刻请家长或老师帮忙修改密码"
+        },
+        {
+          "key": "D",
+          "text": "告诉更多人"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 4,
+      "answer": "A",
+      "content": "智能客服机器人的回复通常是（ ）的。",
+      "options": [
+        {
+          "key": "A",
+          "text": "根据预设规则和学习数据生成"
+        },
+        {
+          "key": "B",
+          "text": "机器人自己想出来的真心话"
+        },
+        {
+          "key": "C",
+          "text": "随便乱蹦出来的字"
+        },
+        {
+          "key": "D",
+          "text": "人类躲在屏幕后打出来的"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "score": 4,
+      "answer": "D",
+      "content": "对于AI，我们应该持有的科学态度是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "因为它太强了，所以我们什么都听它的"
+        },
+        {
+          "key": "B",
+          "text": "因为它可能会错，所以我们完全不用它"
+        },
+        {
+          "key": "C",
+          "text": "把它当成唯一的玩伴"
+        },
+        {
+          "key": "D",
+          "text": "既要善于利用它，也要懂得分辨它给出的信息"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 22,
+      "score": 4,
+      "answer": "B",
+      "content": "AI绘画工具生成的图片（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以直接拿去参加比赛说是自己画的"
+        },
+        {
+          "key": "B",
+          "text": "可以辅助我们完成创意创作"
+        },
+        {
+          "key": "C",
+          "text": "没有任何用处"
+        },
+        {
+          "key": "D",
+          "text": "是真实的摄影照片"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 23,
+      "score": 4,
+      "answer": "C",
+      "content": "“算法偏见”是指AI可能会因为数据不全而产生（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "飞快地运行"
+        },
+        {
+          "key": "B",
+          "text": "自动充电"
+        },
+        {
+          "key": "C",
+          "text": "不公平的判断"
+        },
+        {
+          "key": "D",
+          "text": "开心地唱歌"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 24,
+      "score": 4,
+      "answer": "A",
+      "content": "如果你想让AI帮你画一张画，你向它描述要求的过程在IPO模型中属于（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入（Input）"
+        },
+        {
+          "key": "B",
+          "text": "处理（Process）"
+        },
+        {
+          "key": "C",
+          "text": "输出（Output）"
+        },
+        {
+          "key": "D",
+          "text": "关机（Off）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "score": 4,
+      "answer": "C",
+      "content": "学习人工智能，最重要的是培养我们的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "打游戏速度"
+        },
+        {
+          "key": "B",
+          "text": "写字力量"
+        },
+        {
+          "key": "C",
+          "text": "创新思维和科技探索兴趣"
+        },
+        {
+          "key": "D",
+          "text": "看电视的时长"
+        }
+      ]
+    }
+  ]
+}

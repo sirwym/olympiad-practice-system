@@ -1,0 +1,636 @@
+{
+  "title": "智能创意主题赛模拟卷（一）- 1-3年级组",
+  "category": "其他赛事",
+  "level": "青少年素养大赛-智能创意主题",
+  "date": "2026-04",
+  "time_limit": 30,
+  "total_score": 100,
+  "description": "侧重感知生活中的AI应用、人机互动形式及基础文明素养。",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 4,
+      "answer": "C",
+      "content": "下列生活场景中，不属于人工智能技术应用的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "手机语音助手帮用户设置闹钟"
+        },
+        {
+          "key": "B",
+          "text": "拍照搜题软件自动识别题目并给出答案"
+        },
+        {
+          "key": "C",
+          "text": "普通计算器进行加减乘除运算"
+        },
+        {
+          "key": "D",
+          "text": "人脸识别解锁手机屏幕"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 4,
+      "answer": "B",
+      "content": "当我们对智能音箱说“我要听《米小圈》”，它立刻开始播放，这个过程叫做（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "指纹识别"
+        },
+        {
+          "key": "B",
+          "text": "人机交互"
+        },
+        {
+          "key": "C",
+          "text": "人工修理"
+        },
+        {
+          "key": "D",
+          "text": "机器睡觉"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 4,
+      "answer": "A",
+      "content": "超市里的自动称重机能认出袋子里装的是苹果还是梨，它主要用到了（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "计算机视觉（图像识别）"
+        },
+        {
+          "key": "B",
+          "text": "嗅觉传感器"
+        },
+        {
+          "key": "C",
+          "text": "超能力"
+        },
+        {
+          "key": "D",
+          "text": "听觉系统"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 4,
+      "answer": "D",
+      "content": "与AI进行语音交流时，我们应该养成什么样的好习惯？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "大声喊叫"
+        },
+        {
+          "key": "B",
+          "text": "乱说脏话"
+        },
+        {
+          "key": "C",
+          "text": "不理不睬"
+        },
+        {
+          "key": "D",
+          "text": "礼貌、文明地表达指令"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 4,
+      "answer": "B",
+      "content": "关于AI与人类的区别，下列说法正确的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI和人类一样，也需要吃零食"
+        },
+        {
+          "key": "B",
+          "text": "AI运行需要电，人类运行需要食物"
+        },
+        {
+          "key": "C",
+          "text": "AI有真正的伤心和快乐"
+        },
+        {
+          "key": "D",
+          "text": "AI可以完全取代人类的思考"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "A",
+      "content": "如果在和AI聊天时，它向你要家里的地址和妈妈的电话，你应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "坚决不告诉它，保护个人隐私"
+        },
+        {
+          "key": "B",
+          "text": "立刻告诉它"
+        },
+        {
+          "key": "C",
+          "text": "把电话写在评论区"
+        },
+        {
+          "key": "D",
+          "text": "把地址写在黑板上"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "C",
+      "content": "智能扫地机器人在家里干活时，如果遇到小狗它会绕开，这属于AI的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入"
+        },
+        {
+          "key": "B",
+          "text": "关机"
+        },
+        {
+          "key": "C",
+          "text": "处理与反应"
+        },
+        {
+          "key": "D",
+          "text": "充电状态"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪项任务最适合请AI工具帮我们一起“创意创作”？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "帮我吃掉午餐"
+        },
+        {
+          "key": "B",
+          "text": "帮我整理书包"
+        },
+        {
+          "key": "C",
+          "text": "帮我系红领巾"
+        },
+        {
+          "key": "D",
+          "text": "帮我想一个科幻故事的开头"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "A",
+      "content": "在刷脸进校门时，摄像头在盯着你看。这时“输入”给AI的信息是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "你的面部图像"
+        },
+        {
+          "key": "B",
+          "text": "门禁卡的重量"
+        },
+        {
+          "key": "C",
+          "text": "你的书包颜色"
+        },
+        {
+          "key": "D",
+          "text": "你的考试成绩"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 4,
+      "answer": "B",
+      "content": "“科技向善”的意思是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "科技应该让机器统治人类"
+        },
+        {
+          "key": "B",
+          "text": "科技应该服务人类，让世界更美好"
+        },
+        {
+          "key": "C",
+          "text": "科技只能用来玩游戏"
+        },
+        {
+          "key": "D",
+          "text": "科技不需要任何人管"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 4,
+      "answer": "C",
+      "content": "手机里的导航地图能告诉我们哪条路堵车，是因为它能（ ）交通数据。",
+      "options": [
+        {
+          "key": "A",
+          "text": "睡觉"
+        },
+        {
+          "key": "B",
+          "text": "画画"
+        },
+        {
+          "key": "C",
+          "text": "分析"
+        },
+        {
+          "key": "D",
+          "text": "闻到"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪个是智能手表的功能？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "自动洗衣服"
+        },
+        {
+          "key": "B",
+          "text": "把水变甜"
+        },
+        {
+          "key": "C",
+          "text": "发射火箭"
+        },
+        {
+          "key": "D",
+          "text": "监测心率和运动步数"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 4,
+      "answer": "B",
+      "content": "我们要给AI程序很多照片来让它认识什么是“猫”，这个过程叫（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "修理"
+        },
+        {
+          "key": "B",
+          "text": "训练（学习）"
+        },
+        {
+          "key": "C",
+          "text": "关机"
+        },
+        {
+          "key": "D",
+          "text": "玩耍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 4,
+      "answer": "A",
+      "content": "智能灯能根据声音自动亮起来，这是AI的（ ）功能。",
+      "options": [
+        {
+          "key": "A",
+          "text": "感知"
+        },
+        {
+          "key": "B",
+          "text": "消化"
+        },
+        {
+          "key": "C",
+          "text": "运动"
+        },
+        {
+          "key": "D",
+          "text": "呼吸"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 4,
+      "answer": "C",
+      "content": "如果AI给出的知识是错误的，我们应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "全盘相信"
+        },
+        {
+          "key": "B",
+          "text": "不再学习"
+        },
+        {
+          "key": "C",
+          "text": "独立思考，查证正确答案"
+        },
+        {
+          "key": "D",
+          "text": "把电脑摔了"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 4,
+      "answer": "A",
+      "content": "AI绘画时，如果你输入的描述词越多、越准确，画出来的画就会（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "越接近你想要的样子"
+        },
+        {
+          "key": "B",
+          "text": "越模糊不清"
+        },
+        {
+          "key": "C",
+          "text": "变成全黑色"
+        },
+        {
+          "key": "D",
+          "text": "完全消失"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪种行为是不文明使用AI的表现？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "清晰地向音箱提问"
+        },
+        {
+          "key": "B",
+          "text": "感谢AI助手的帮助"
+        },
+        {
+          "key": "C",
+          "text": "按规则操作智能设备"
+        },
+        {
+          "key": "D",
+          "text": "对智能机器人大声喊叫和踢踹"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 4,
+      "answer": "B",
+      "content": "无人驾驶汽车在路上看到红灯停下，“输出”的结果是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "加速"
+        },
+        {
+          "key": "B",
+          "text": "刹车（停下）"
+        },
+        {
+          "key": "C",
+          "text": "唱歌"
+        },
+        {
+          "key": "D",
+          "text": "变成蓝色"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 4,
+      "answer": "A",
+      "content": "AI翻译机可以将中文变成英文，它处理的对象主要是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "语言文字"
+        },
+        {
+          "key": "B",
+          "text": "美味食物"
+        },
+        {
+          "key": "C",
+          "text": "建筑材料"
+        },
+        {
+          "key": "D",
+          "text": "各种衣服"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 4,
+      "answer": "C",
+      "content": "下列哪种技术能让AI听懂我们说的话？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "指纹技术"
+        },
+        {
+          "key": "B",
+          "text": "红外技术"
+        },
+        {
+          "key": "C",
+          "text": "语音识别技术"
+        },
+        {
+          "key": "D",
+          "text": "磁悬浮技术"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "score": 4,
+      "answer": "B",
+      "content": "使用学习平板进行“拍照搜题”时，核心应用了AI的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "测重能力"
+        },
+        {
+          "key": "B",
+          "text": "文字识别能力"
+        },
+        {
+          "key": "C",
+          "text": "飞行能力"
+        },
+        {
+          "key": "D",
+          "text": "制冷能力"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 22,
+      "score": 4,
+      "answer": "D",
+      "content": "关于AI的隐私保护，我们不应该把什么信息发给网上的AI助手？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "一首诗的开头"
+        },
+        {
+          "key": "B",
+          "text": "天气的询问"
+        },
+        {
+          "key": "C",
+          "text": "简单的数学题"
+        },
+        {
+          "key": "D",
+          "text": "自己和家人的身份证号"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 23,
+      "score": 4,
+      "answer": "A",
+      "content": "智能垃圾桶能自动开盖，是因为它感知到了（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "有人靠近的动作"
+        },
+        {
+          "key": "B",
+          "text": "垃圾的心情"
+        },
+        {
+          "key": "C",
+          "text": "当天的气温"
+        },
+        {
+          "key": "D",
+          "text": "垃圾的颜色"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 24,
+      "score": 4,
+      "answer": "C",
+      "content": "AI给我们的学习带来的最大好处是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以不用写作业"
+        },
+        {
+          "key": "B",
+          "text": "可以不用上学"
+        },
+        {
+          "key": "C",
+          "text": "辅助我们更高效地学习和获取知识"
+        },
+        {
+          "key": "D",
+          "text": "可以一直玩游戏"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "score": 4,
+      "answer": "B",
+      "content": "在未来，我们应该如何与AI共处？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "害怕并躲避它"
+        },
+        {
+          "key": "B",
+          "text": "学习并掌握它，让它成为人类的好助手"
+        },
+        {
+          "key": "C",
+          "text": "让它决定我们的一切"
+        },
+        {
+          "key": "D",
+          "text": "把所有智能设备都拆掉"
+        }
+      ]
+    }
+  ]
+}
