@@ -1,0 +1,636 @@
+{
+  "title": "智能创意主题赛模拟卷（三）- 1-3年级组",
+  "category": "其他赛事",
+  "level": "青少年素养大赛-智能创意主题",
+  "date": "2026-04",
+  "time_limit": 30,
+  "total_score": 100,
+  "description": "侧重AI感知原理、IPO基础思维、人机差异辨析及科技向善理念。",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪个设备更像是一个“人工智能”助手，而不仅仅是普通机器？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "手动拧干的拖把"
+        },
+        {
+          "key": "B",
+          "text": "普通的发条小汽车"
+        },
+        {
+          "key": "C",
+          "text": "需要按键才会响的普通门铃"
+        },
+        {
+          "key": "D",
+          "text": "能根据你的心情推荐音乐的智能音箱"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 4,
+      "answer": "B",
+      "content": "在人工智能的“大脑”里，它用来思考和判断的“食谱”通常被称为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "饼干"
+        },
+        {
+          "key": "B",
+          "text": "算法与模型"
+        },
+        {
+          "key": "C",
+          "text": "汽油"
+        },
+        {
+          "key": "D",
+          "text": "电池"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 4,
+      "answer": "A",
+      "content": "智能无人机在天上飞，它用摄像头观察地面，这属于IPO模式中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入（Input）"
+        },
+        {
+          "key": "B",
+          "text": "处理（Process）"
+        },
+        {
+          "key": "C",
+          "text": "输出（Output）"
+        },
+        {
+          "key": "D",
+          "text": "充电（Charge）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 4,
+      "answer": "C",
+      "content": "当你在商场看到一个导购机器人，你对他挥挥手，他微笑着向你打招呼。这说明机器人（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "真的喜欢你"
+        },
+        {
+          "key": "B",
+          "text": "他是真人变的"
+        },
+        {
+          "key": "C",
+          "text": "他能感知到你的动作并做出反应"
+        },
+        {
+          "key": "D",
+          "text": "他只是在随机乱动"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 4,
+      "answer": "B",
+      "content": "关于隐私保护，下列哪种做法是正确的？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "在网上跟AI聊天时说出自己的真实家庭住址"
+        },
+        {
+          "key": "B",
+          "text": "不随便点击AI发来的奇怪链接"
+        },
+        {
+          "key": "C",
+          "text": "把父母的手机支付密码告诉机器人"
+        },
+        {
+          "key": "D",
+          "text": "在公共平台上上传全家人的清晰照片"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 4,
+      "answer": "D",
+      "content": "如果你想让AI帮你画一张“在月亮上跳舞的熊猫”，你应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "对着电脑唱歌"
+        },
+        {
+          "key": "B",
+          "text": "敲打键盘"
+        },
+        {
+          "key": "C",
+          "text": "盯着屏幕看"
+        },
+        {
+          "key": "D",
+          "text": "输入准确的文字描述（提示词）"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 4,
+      "answer": "C",
+      "content": "扫地机器人能自动回到充电座充电，是因为它能（ ）电池电量不足。",
+      "options": [
+        {
+          "key": "A",
+          "text": "猜到"
+        },
+        {
+          "key": "B",
+          "text": "闻到"
+        },
+        {
+          "key": "C",
+          "text": "监测（感知）"
+        },
+        {
+          "key": "D",
+          "text": "听到"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 4,
+      "answer": "A",
+      "content": "人工智能虽然很聪明，但它和人类相比，缺少（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "真实的感情和创造力"
+        },
+        {
+          "key": "B",
+          "text": "计算速度"
+        },
+        {
+          "key": "C",
+          "text": "记忆力"
+        },
+        {
+          "key": "D",
+          "text": "全天工作的能力"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 4,
+      "answer": "B",
+      "content": "在餐厅里，送餐机器人将盘子准确送到3号桌，这属于IPO中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入"
+        },
+        {
+          "key": "B",
+          "text": "输出（执行动作）"
+        },
+        {
+          "key": "C",
+          "text": "处理"
+        },
+        {
+          "key": "D",
+          "text": "点餐"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 4,
+      "answer": "A",
+      "content": "以下哪个场景体现了“科技向善”？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "利用AI帮助走失的老人找到家人"
+        },
+        {
+          "key": "B",
+          "text": "利用AI模仿别人的声音去骗钱"
+        },
+        {
+          "key": "C",
+          "text": "利用AI偷偷看别人的秘密日记"
+        },
+        {
+          "key": "D",
+          "text": "利用AI让电脑一直死机"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 4,
+      "answer": "C",
+      "content": "手机拍照时的“自动对焦”功能，是AI在（ ）画面是否清晰。",
+      "options": [
+        {
+          "key": "A",
+          "text": "玩耍"
+        },
+        {
+          "key": "B",
+          "text": "睡觉"
+        },
+        {
+          "key": "C",
+          "text": "分析与处理"
+        },
+        {
+          "key": "D",
+          "text": "唱歌"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 4,
+      "answer": "B",
+      "content": "我们要想让AI学会区分“水果”和“蔬菜”，最需要给它提供（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "真实的泥土"
+        },
+        {
+          "key": "B",
+          "text": "标注好的水果和蔬菜图片数据"
+        },
+        {
+          "key": "C",
+          "text": "好听的儿歌"
+        },
+        {
+          "key": "D",
+          "text": "很多玩具"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 4,
+      "answer": "D",
+      "content": "下列关于AI的描述，错误的是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "AI可以帮我们翻译外语"
+        },
+        {
+          "key": "B",
+          "text": "AI可以辅助医生看病"
+        },
+        {
+          "key": "C",
+          "text": "AI需要电和数据才能工作"
+        },
+        {
+          "key": "D",
+          "text": "AI和人完全一样，有自己的爸爸妈妈"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 4,
+      "answer": "A",
+      "content": "“刷脸门禁”认出了你并开门，这里的“输入”是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "你的长相信息"
+        },
+        {
+          "key": "B",
+          "text": "门铃的声音"
+        },
+        {
+          "key": "C",
+          "text": "太阳的光线"
+        },
+        {
+          "key": "D",
+          "text": "你的书包重量"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 4,
+      "answer": "C",
+      "content": "如果你对智能音箱没礼貌，总是骂它，这种行为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "很酷，非常有面子"
+        },
+        {
+          "key": "B",
+          "text": "没关系，它又不是人"
+        },
+        {
+          "key": "C",
+          "text": "不文明，应当养成礼貌互动的习惯"
+        },
+        {
+          "key": "D",
+          "text": "能让音箱运行更快"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 16,
+      "score": 4,
+      "answer": "B",
+      "content": "智能温控系统发现教室太热了，于是自动打开了空调，这说明AI（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "也会流汗"
+        },
+        {
+          "key": "B",
+          "text": "能感知环境温度变化"
+        },
+        {
+          "key": "C",
+          "text": "也想吹风"
+        },
+        {
+          "key": "D",
+          "text": "在调皮捣蛋"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 17,
+      "score": 4,
+      "answer": "D",
+      "content": "下列哪个不是人工智能的“感知”方式？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "通过麦克风听声音"
+        },
+        {
+          "key": "B",
+          "text": "通过摄像头看图像"
+        },
+        {
+          "key": "C",
+          "text": "通过传感器测距离"
+        },
+        {
+          "key": "D",
+          "text": "通过吃饭补充能量"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 18,
+      "score": 4,
+      "answer": "C",
+      "content": "我们在使用AI绘图工具创作时，AI扮演的角色是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "代替我们思考的主人"
+        },
+        {
+          "key": "B",
+          "text": "一个没用的机器"
+        },
+        {
+          "key": "C",
+          "text": "辅助我们实现创意的助手"
+        },
+        {
+          "key": "D",
+          "text": "一个真实的小画家"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 19,
+      "score": 4,
+      "answer": "A",
+      "content": "AI“大脑”处理信息的速度非常快，这主要是依靠（ ）的算力。",
+      "options": [
+        {
+          "key": "A",
+          "text": "计算机芯片"
+        },
+        {
+          "key": "B",
+          "text": "神奇的魔法"
+        },
+        {
+          "key": "C",
+          "text": "人类的体力"
+        },
+        {
+          "key": "D",
+          "text": "木头的力量"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 20,
+      "score": 4,
+      "answer": "C",
+      "content": "当你问AI“你是谁？”它回答了它的名字，这属于IPO中的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入"
+        },
+        {
+          "key": "B",
+          "text": "处理"
+        },
+        {
+          "key": "C",
+          "text": "输出"
+        },
+        {
+          "key": "D",
+          "text": "断电"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 21,
+      "score": 4,
+      "answer": "B",
+      "content": "如果我们不给AI提供任何数据，AI会（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "变得更聪明"
+        },
+        {
+          "key": "B",
+          "text": "无法学习和工作"
+        },
+        {
+          "key": "C",
+          "text": "自己去公园玩"
+        },
+        {
+          "key": "D",
+          "text": "变成一个真人"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 22,
+      "score": 4,
+      "answer": "D",
+      "content": "学习人工智能知识，主要是为了（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "以后可以不写作业"
+        },
+        {
+          "key": "B",
+          "text": "变成一个机器人"
+        },
+        {
+          "key": "C",
+          "text": "学会怎么拆坏电脑"
+        },
+        {
+          "key": "D",
+          "text": "提升科学素养，用科技解决生活中的问题"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 23,
+      "score": 4,
+      "answer": "A",
+      "content": "在智慧农业中，机器人能自动识别杂草并拔掉，它用到的核心技术是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "图像识别技术"
+        },
+        {
+          "key": "B",
+          "text": "做饭技术"
+        },
+        {
+          "key": "C",
+          "text": "唱歌技术"
+        },
+        {
+          "key": "D",
+          "text": "潜水技术"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 24,
+      "score": 4,
+      "answer": "C",
+      "content": "如果在平板电脑上看到一个AI推荐的“免费领游戏皮肤”要求输入个人信息，我们应该（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "立刻输入"
+        },
+        {
+          "key": "B",
+          "text": "告诉所有同学"
+        },
+        {
+          "key": "C",
+          "text": "不理睬，并告诉家长"
+        },
+        {
+          "key": "D",
+          "text": "随便写个假地址"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 25,
+      "score": 4,
+      "answer": "B",
+      "content": "人工智能的英文缩写是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "ABC"
+        },
+        {
+          "key": "B",
+          "text": "AI"
+        },
+        {
+          "key": "C",
+          "text": "PC"
+        },
+        {
+          "key": "D",
+          "text": "SOS"
+        }
+      ]
+    }
+  ]
+}
