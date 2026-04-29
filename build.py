@@ -22,6 +22,32 @@ DIST_DIR = BASE_DIR / "dist"
 
 TEMPLATE_NAME = "paper.html"
 
+# ===== CDN 图片加速 =====
+CDN_ENABLED = True
+CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/sirwym/olympiad-practice-system@main/"
+
+
+def rewrite_image_urls(html: str) -> str:
+    """将 <img> 的 src 从本地相对路径替换为 jsDelivr CDN 地址，
+    并添加 onerror 回退到本地路径。"""
+    if not CDN_ENABLED:
+        return html
+
+    pattern = re.compile(r'(<img[^>]*?\bsrc=")(\.\./assets/[^"]+)(")', re.IGNORECASE)
+
+    def replace_src(m):
+        prefix = m.group(1)
+        original_src = m.group(2)
+        suffix_parts = m.group(3)
+
+        repo_path = original_src[3:]  # 去掉 "../" 得到 "assets/images/..."
+        cdn_url = CDN_BASE_URL + repo_path
+        onerror = f'" onerror="this.onerror=null;this.src=\'{original_src}\''
+        return f'{prefix}{cdn_url}{onerror}{suffix_parts}'
+
+    return pattern.sub(replace_src, html)
+
+
 # ===== 答案加密 =====
 XOR_KEY = "GESP-CSP-NCT-2026EXAM"  # 20 字符密钥
 
@@ -253,6 +279,8 @@ def render_markdown(text: str) -> str:
 
     # 渲染
     html = md.render(text)
+    # CDN 加速图片 + onerror 回退
+    html = rewrite_image_urls(html)
 
     return html
 
