@@ -1,11 +1,11 @@
 {
-  "title": "智能创意主题赛模拟卷（五）- 1-3年级组",
+  "title": "智能创意主题赛模拟卷（九）- 1-3年级组",
   "category": "其他赛事",
   "level": "青少年素养大赛-智能创意主题",
   "date": "2026-05",
   "time_limit": 30,
   "total_score": 100,
-  "description": "中难度训练，侧重AI应用场景辨析、数据作用、安全规范与人机协作基础。",
+  "description": "侧重AI应用场景辨析、数据作用、安全规范与人机协作基础。",
   "questions": [
     {
       "type": "choice",
