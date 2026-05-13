@@ -1,0 +1,376 @@
+{
+  "tags": ["信息素养大赛初中组"],
+  "title": "初中组 AI 智能创意主题赛 · 第二节课（拔高篇）· 试卷 A",
+  "meta": {
+    "total": 30,
+    "singleCount": 20,
+    "multiCount": 10,
+    "totalScore": 100,
+    "singleScore": 3,
+    "multiScore": 4,
+    "time": "45 分钟",
+    "note": "多选题至少有两个正确选项"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "question": "神经网络中，\"反向传播\"的作用是什么？",
+      "options": [
+        { "label": "A", "text": "将输入数据从输入层逐层传递到输出层" },
+        { "label": "B", "text": "根据预测误差从输出层逐层调整各层的权重" },
+        { "label": "C", "text": "将输出结果翻译成人类可理解的自然语言" },
+        { "label": "D", "text": "对输入数据进行清洗和标准化预处理" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "question": "激活函数在神经网络中最核心的功能是什么？",
+      "options": [
+        { "label": "A", "text": "加快模型训练时的计算速度" },
+        { "label": "B", "text": "减少模型所需的训练数据量" },
+        { "label": "C", "text": "引入非线性变换，使多层网络能学习复杂规律" },
+        { "label": "D", "text": "自动检测并删除冗余的神经元连接" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "question": "CNN（卷积神经网络）中\"池化层\"的主要作用是什么？",
+      "options": [
+        { "label": "A", "text": "将图片从彩色转换为黑白灰度格式" },
+        { "label": "B", "text": "压缩特征图尺寸，保留最关键的特征信息" },
+        { "label": "C", "text": "把图片分割成多个小区域并行处理" },
+        { "label": "D", "text": "对提取的特征进行分类和标注" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "question": "RNN 在处理长句子时容易出现什么问题？",
+      "options": [
+        { "label": "A", "text": "模型参数量会随着句子长度指数级增长" },
+        { "label": "B", "text": "只能处理英文文本，无法处理中文等语言" },
+        { "label": "C", "text": "早期信息会逐渐\"遗忘\"，出现梯度消失现象" },
+        { "label": "D", "text": "必须将整段文本一次性输入，无法逐词处理" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "question": "Transformer 架构相比 RNN 最突出的优势是什么？",
+      "options": [
+        { "label": "A", "text": "需要的训练数据量更少，小样本也能学好" },
+        { "label": "B", "text": "每个词可以同时关注句子中所有其他词，支持并行计算" },
+        { "label": "C", "text": "模型结构更简单，只有两层神经网络" },
+        { "label": "D", "text": "不需要任何标注数据就能自动学会语言规律" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "question": "在强化学习的五要素中，\"状态\"指的是什么？",
+      "options": [
+        { "label": "A", "text": "智能体当前所处情况的完整描述" },
+        { "label": "B", "text": "智能体最终想要达成的目标" },
+        { "label": "C", "text": "对智能体行为的评价标准" },
+        { "label": "D", "text": "智能体可以执行的所有操作集合" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "question": "Q 值（动作价值）的含义是什么？",
+      "options": [
+        { "label": "A", "text": "在当前状态下执行某动作后立即获得的奖励值" },
+        { "label": "B", "text": "从初始状态到最终目标状态的总距离" },
+        { "label": "C", "text": "智能体选择该动作的概率大小" },
+        { "label": "D", "text": "在当前状态下执行某动作后，按最优策略行动能获得的累积奖励" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "question": "Q 值更新公式\"新 Q = 旧 Q + α ×（目标值 - 旧 Q）\"中，α 代表什么？",
+      "options": [
+        { "label": "A", "text": "折扣因子，控制未来奖励的重要性" },
+        { "label": "B", "text": "学习率，控制每次更新的幅度大小" },
+        { "label": "C", "text": "探索率，控制随机选择动作的概率" },
+        { "label": "D", "text": "奖励系数，控制奖励信号的整体强度" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "在强化学习训练中，如果智能体\"只利用不探索\"，最可能产生什么后果？",
+      "options": [
+        { "label": "A", "text": "训练速度极快，迅速收敛到最优策略" },
+        { "label": "B", "text": "模型会完全不收敛，无法学到任何策略" },
+        { "label": "C", "text": "Q 值会无限增大，导致数值计算溢出" },
+        { "label": "D", "text": "可能永远停留在当前已知的最优策略，错过更好的方案" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "question": "以下关于 AlphaGo 训练过程的描述，哪一项是正确的？",
+      "options": [
+        { "label": "A", "text": "AlphaGo 仅使用强化学习自我对弈，完全不参考人类棋谱" },
+        { "label": "B", "text": "AlphaGo 先学习人类棋谱达到业余水平，再通过自我对弈超越人类" },
+        { "label": "C", "text": "AlphaGo 只分析了数百局人类棋谱就达到了世界冠军水平" },
+        { "label": "D", "text": "AlphaGo 使用的是无监督聚类算法来预测最佳落子位置" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "question": "具身智能与离身智能最根本的区别是什么？",
+      "options": [
+        { "label": "A", "text": "离身智能更聪明，具身智能更笨拙" },
+        { "label": "B", "text": "具身智能拥有物理实体，能在真实物理世界中行动" },
+        { "label": "C", "text": "离身智能只能处理文字，具身智能只能处理图像" },
+        { "label": "D", "text": "具身智能使用强化学习，离身智能使用监督学习" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "question": "在具身智能系统中，\"传感器\"承担的核心职责是什么？",
+      "options": [
+        { "label": "A", "text": "执行物理动作（如移动、抓取）" },
+        { "label": "B", "text": "将 AI 的决策翻译成控制信号" },
+        { "label": "C", "text": "感知外部环境的各种信息（视觉、听觉、触觉等）" },
+        { "label": "D", "text": "对感知到的数据进行分类和标注" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "question": "Sim-to-Real（从仿真到现实）技术方案的主要目的是什么？",
+      "options": [
+        { "label": "A", "text": "将真实机器人的数据输入到计算机中进行分析" },
+        { "label": "B", "text": "用虚拟仿真替代真实的物理世界，不再需要实际部署" },
+        { "label": "C", "text": "先在仿真环境中高效训练，再将策略迁移到真实机器人" },
+        { "label": "D", "text": "把真实机器人的外观复制到虚拟环境中用于展示" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "question": "Sim-to-Real 迁移面临的主要挑战是什么？",
+      "options": [
+        { "label": "A", "text": "仿真环境的物理规律与真实世界之间始终存在差距" },
+        { "label": "B", "text": "虚拟环境中的训练速度太慢，无法满足需求" },
+        { "label": "C", "text": "真实机器人的传感器精度远低于虚拟传感器" },
+        { "label": "D", "text": "仿真环境无法模拟复杂的任务场景" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "question": "高质量提示词的\"四要素\"中，\"约束条件\"的作用是什么？",
+      "options": [
+        { "label": "A", "text": "设定 AI 的角色身份和专业背景" },
+        { "label": "B", "text": "明确告诉 AI 需要完成的具体任务" },
+        { "label": "C", "text": "限制输出的范围、长度、风格等，使结果更精准" },
+        { "label": "D", "text": "规定输出的排版格式和结构要求" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "question": "以下关于\"系统思维\"的描述，哪一项是正确的？",
+      "options": [
+        { "label": "A", "text": "只关注系统的某个核心部分即可，无需考虑其他" },
+        { "label": "B", "text": "系统的各要素之间相互独立，互不影响" },
+        { "label": "C", "text": "用整体视角分析要素之间的关联和系统整体目标" },
+        { "label": "D", "text": "系统的目标一旦确定就永远不会改变" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "question": "在 SWOT + E 评估框架中，\"T\"代表的维度分析的是什么？",
+      "options": [
+        { "label": "A", "text": "团队成员的技术能力水平" },
+        { "label": "B", "text": "方案可能面临的外部风险和威胁" },
+        { "label": "C", "text": "方案所需的资金和时间成本" },
+        { "label": "D", "text": "方案的技术实现难度" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "question": "在自动驾驶的\"电车难题\"场景中，功利主义视角的主张是什么？",
+      "options": [
+        { "label": "A", "text": "不应主动转向，让事故自然发生" },
+        { "label": "B", "text": "优先保护车内乘客的安全" },
+        { "label": "C", "text": "选择造成总伤害最小的方案，保护更多人" },
+        { "label": "D", "text": "交由乘客自己做决定，AI 不参与" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "question": "关于 AI 生成内容的版权归属，以下哪个描述符合当前中国的趋势？",
+      "options": [
+        { "label": "A", "text": "AI 生成的内容自动享有完整的版权保护" },
+        { "label": "B", "text": "AI 生成的内容不受版权保护，但人类创造性参与的部分受保护" },
+        { "label": "C", "text": "AI 生成内容的版权完全归属于 AI 开发公司" },
+        { "label": "D", "text": "版权由 AI 系统和人类使用者共同平均分配" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "question": "中国在 AI 技术栈中，目前受\"卡脖子\"影响最严重的层级是什么？",
+      "options": [
+        { "label": "A", "text": "应用层——各类 AI 产品和服务的开发" },
+        { "label": "B", "text": "框架层——深度学习框架和开发工具" },
+        { "label": "C", "text": "芯片层——训练 AI 所需的高端 GPU 和 NPU" },
+        { "label": "D", "text": "数据层——中文训练数据的收集和标注" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "question": "以下哪些属于神经网络训练过程中的核心概念？",
+      "options": [
+        { "label": "A", "text": "权重——连接线上决定信息传递强弱的数值" },
+        { "label": "B", "text": "激活函数——引入非线性变换的关键组件" },
+        { "label": "C", "text": "反向传播——根据误差逐层调整权重的方法" },
+        { "label": "D", "text": "像素分辨率——决定输入图片清晰度的参数" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "question": "关于 Transformer 架构的特点，以下哪些说法是正确的？",
+      "options": [
+        { "label": "A", "text": "通过自注意力机制直接捕捉词与词之间的长距离关系" },
+        { "label": "B", "text": "支持并行计算，训练速度比 RNN 快得多" },
+        { "label": "C", "text": "多头注意力可以同时关注语法、语义、指代等多种关系" },
+        { "label": "D", "text": "必须一个词一个词地按顺序处理，无法并行" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "question": "以下哪些属于强化学习五要素之一？",
+      "options": [
+        { "label": "A", "text": "智能体（Agent）——做决策的主体" },
+        { "label": "B", "text": "环境（Environment）——AI 所处的外部世界" },
+        { "label": "C", "text": "标签（Label）——标注好的正确答案" },
+        { "label": "D", "text": "奖励（Reward）——对动作好坏的反馈信号" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "question": "在为具身智能机器人选择传感器时，以下哪些是合理的选择？",
+      "options": [
+        { "label": "A", "text": "摄像头——用于识别物体和读取文字信息" },
+        { "label": "B", "text": "力觉传感器——用于感知抓取力度，避免损坏物品" },
+        { "label": "C", "text": "激光雷达——用于检测前方障碍物和测距" },
+        { "label": "D", "text": "气味传感器——用于检测空气中的化学成分和温度" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "question": "以下哪些是 Sim-to-Real 方案相比直接在真实环境中训练的优势？",
+      "options": [
+        { "label": "A", "text": "仿真环境可以加速训练，不受真实时间的限制" },
+        { "label": "B", "text": "虚拟机器人摔坏没有维修成本" },
+        { "label": "C", "text": "仿真环境与真实世界完全一致，没有任何差距" },
+        { "label": "D", "text": "可以在危险场景中安全训练，不会造成实际损失" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "question": "以下哪些属于高质量提示词\"四要素\"的组成部分？",
+      "options": [
+        { "label": "A", "text": "角色设定——告诉 AI 它应该扮演什么角色" },
+        { "label": "B", "text": "任务描述——明确告诉 AI 需要完成什么任务" },
+        { "label": "C", "text": "约束条件——限定输出的范围、长度和风格" },
+        { "label": "D", "text": "探索率——控制 AI 输出结果的随机程度" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "question": "以下哪些属于 SWOT + E 评估框架中的维度？",
+      "options": [
+        { "label": "A", "text": "优势（Strengths）——方案的核心优点" },
+        { "label": "B", "text": "劣势（Weaknesses）——方案的技术局限" },
+        { "label": "C", "text": "伦理（Ethics）——方案可能引发的伦理问题" },
+        { "label": "D", "text": "探索（Exploration）——方案的创新尝试方向" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "question": "以下哪些是当前 AI 伦理领域存在争议的前沿法律问题？",
+      "options": [
+        { "label": "A", "text": "AI 用有版权的图片训练后生成新图片是否构成侵权" },
+        { "label": "B", "text": "AI 辅助创作作品的版权应该归属于谁" },
+        { "label": "C", "text": "AI 生成的虚假内容传播后，发布者应承担什么责任" },
+        { "label": "D", "text": "AI 是否能够完全替代所有类型的法律服务工作" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "question": "关于强化学习中\"探索与利用\"的平衡，以下哪些说法是正确的？",
+      "options": [
+        { "label": "A", "text": "训练初期应适当增大探索率，鼓励尝试新策略" },
+        { "label": "B", "text": "训练后期应增大利用比例，更多地使用已验证的最优策略" },
+        { "label": "C", "text": "只探索不利用会导致无法学到稳定的策略" },
+        { "label": "D", "text": "只利用不探索可能错过比当前更好的策略" }
+      ],
+      "answer": ["A", "B", "C", "D"]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "question": "以下哪些属于中国在 AI 领域的相对优势？",
+      "options": [
+        { "label": "A", "text": "拥有 14 亿人口，应用场景丰富且数据量巨大" },
+        { "label": "B", "text": "政府对 AI 发展给予了大力支持" },
+        { "label": "C", "text": "在中文 AI 和中文数据处理方面拥有天然语言优势" },
+        { "label": "D", "text": "在高端 AI 芯片制造方面已完全实现自主可控" }
+      ],
+      "answer": ["A", "B", "C"]
+    }
+  ]
+}
