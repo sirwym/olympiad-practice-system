@@ -1,0 +1,376 @@
+{
+  "tags": ["信息素养大赛初中组"],
+  "title": "初中组 AI 智能创意主题赛 · 第一节课 基础篇 · 试卷 B",
+  "meta": {
+    "total": 30,
+    "singleCount": 20,
+    "multiCount": 10,
+    "totalScore": 100,
+    "singleScore": 3,
+    "multiScore": 4,
+    "time": "45 分钟",
+    "note": "多选题至少有两个正确选项"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "question": "人工智能的概念最早由哪位科学家通过\"图灵测试\"进行探讨？",
+      "options": [
+        { "label": "A", "text": "艾伦·图灵" },
+        { "label": "B", "text": "约翰·麦卡锡" },
+        { "label": "C", "text": "马文·明斯基" },
+        { "label": "D", "text": "克劳德·香农" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "question": "\"人工智能\"这一名称在学术上被正式确立是在哪一年？",
+      "options": [
+        { "label": "A", "text": "1943 年" },
+        { "label": "B", "text": "1956 年" },
+        { "label": "C", "text": "1950 年" },
+        { "label": "D", "text": "1969 年" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "question": "第二次人工智能浪潮（1980s～1990s）的核心技术成果是什么？",
+      "options": [
+        { "label": "A", "text": "基于深度神经网络的图像识别系统" },
+        { "label": "B", "text": "将人类专家知识编码为规则的专业系统" },
+        { "label": "C", "text": "通过大数据训练的语言生成模型" },
+        { "label": "D", "text": "利用环境奖励信号训练的游戏 AI" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "question": "2012 年 AlexNet 在图像识别领域的突破标志着什么？",
+      "options": [
+        { "label": "A", "text": "自然语言处理技术首次超越人类水平" },
+        { "label": "B", "text": "专家系统开始广泛应用于工业生产" },
+        { "label": "C", "text": "强化学习在复杂博弈中取得决定性胜利" },
+        { "label": "D", "text": "深度学习技术迎来了快速发展的新时期" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "question": "以下哪个事件引发了全球范围内生成式 AI 的热潮？",
+      "options": [
+        { "label": "A", "text": "2012 年 AlexNet 的发布" },
+        { "label": "B", "text": "2016 年 AlphaGo 击败李世石" },
+        { "label": "C", "text": "2022 年 ChatGPT 的公开发布" },
+        { "label": "D", "text": "1997 年深蓝战胜国际象棋冠军" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "question": "AlphaGo 击败围棋世界冠军李世石主要依靠的是哪种技术？",
+      "options": [
+        { "label": "A", "text": "知识图谱与逻辑推理" },
+        { "label": "B", "text": "专家系统与规则匹配" },
+        { "label": "C", "text": "无监督聚类与异常检测" },
+        { "label": "D", "text": "深度学习与强化学习" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "question": "知识图谱中\"（猫，喜欢吃，鱼）\"这个三元组里，\"鱼\"的角色是什么？",
+      "options": [
+        { "label": "A", "text": "客体" },
+        { "label": "B", "text": "主体" },
+        { "label": "C", "text": "属性" },
+        { "label": "D", "text": "关系" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "question": "在知识图谱中，节点之间的连接线（边）通常表示什么？",
+      "options": [
+        { "label": "A", "text": "图像像素之间的距离值" },
+        { "label": "B", "text": "文本中词语出现的频率" },
+        { "label": "C", "text": "实体之间的关联关系" },
+        { "label": "D", "text": "数据的计算权重参数" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "以下哪个选项是知识图谱中格式正确的三元组？",
+      "options": [
+        { "label": "A", "text": "（苹果，水果，是一种）" },
+        { "label": "B", "text": "（猫，喜欢吃，鱼）" },
+        { "label": "C", "text": "（姚明，休斯顿火箭，效力于）" },
+        { "label": "D", "text": "（鱼，喜欢吃，猫）" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "question": "知识图谱技术在智能推荐系统中的典型应用是什么？",
+      "options": [
+        { "label": "A", "text": "根据用户的浏览和喜好推荐相关内容" },
+        { "label": "B", "text": "预测股票市场的价格走势" },
+        { "label": "C", "text": "自动翻译不同语言的网页文本" },
+        { "label": "D", "text": "检测网络流量中的异常攻击行为" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "question": "在监督学习训练中，\"标签\"指的是什么？",
+      "options": [
+        { "label": "A", "text": "网络传输数据时附加的加密信息" },
+        { "label": "B", "text": "输入数据对应的正确答案或类别" },
+        { "label": "C", "text": "计算机处理数据所需的内存大小" },
+        { "label": "D", "text": "数据的存储格式和文件类型" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "question": "\"预测一套房子的市场价格\"属于监督学习中的哪类任务？",
+      "options": [
+        { "label": "A", "text": "聚类任务" },
+        { "label": "B", "text": "分类任务" },
+        { "label": "C", "text": "生成任务" },
+        { "label": "D", "text": "回归任务" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "question": "以下哪个场景体现了无监督学习的应用？",
+      "options": [
+        { "label": "A", "text": "根据带标注的图片训练人脸识别门禁系统" },
+        { "label": "B", "text": "对电商平台的海量用户按消费行为自动分类" },
+        { "label": "C", "text": "利用已知的垃圾邮件特征过滤新邮件" },
+        { "label": "D", "text": "通过历史气温数据预测未来一周的天气" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "question": "在强化学习的框架中，\"奖励信号\"的作用是什么？",
+      "options": [
+        { "label": "A", "text": "告诉 AI 每个动作的好坏程度以指导学习" },
+        { "label": "B", "text": "为模型提供训练数据的正确标签" },
+        { "label": "C", "text": "对输入数据进行标准化预处理" },
+        { "label": "D", "text": "衡量模型参数更新后的计算误差" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "question": "以下哪种比喻最能帮助理解无监督学习？",
+      "options": [
+        { "label": "A", "text": "老师带着标准答案让学生反复练习" },
+        { "label": "B", "text": "做对了给零食、做错了挨批评的训练方式" },
+        { "label": "C", "text": "给学生一堆图片让他自己按相似性分组" },
+        { "label": "D", "text": "按照说明书一步步组装一台机器" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "question": "智能语音助手（如小爱同学、Siri）主要综合运用了哪两项 AI 技术？",
+      "options": [
+        { "label": "A", "text": "计算机视觉和图像分割" },
+        { "label": "B", "text": "知识图谱和数值回归" },
+        { "label": "C", "text": "异常检测和聚类分析" },
+        { "label": "D", "text": "语音识别和自然语言处理" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "question": "关于人工智能在自动驾驶领域的应用，以下哪个说法是正确的？",
+      "options": [
+        { "label": "A", "text": "目前的自动驾驶技术已经可以在任何路况下完全安全运行" },
+        { "label": "B", "text": "自动驾驶系统完全不需要人类驾驶员的任何介入" },
+        { "label": "C", "text": "自动驾驶车辆的传感器只能识别行人，无法识别其他车辆" },
+        { "label": "D", "text": "智能红绿灯系统可以根据实时车流量自动调节信号" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "question": "当 AI 做出了错误的判断或导致了不良后果时，应当由谁承担责任？",
+      "options": [
+        { "label": "A", "text": "追究 AI 系统本身的法律责任" },
+        { "label": "B", "text": "让使用 AI 的最终用户承担全部后果" },
+        { "label": "C", "text": "应当有明确的人或机构作为责任主体" },
+        { "label": "D", "text": "AI 既然出了错就说明不需要有人负责" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "question": "以下哪项不属于青少年使用 AI 时应遵守的安全准则？",
+      "options": [
+        { "label": "A", "text": "对 AI 生成的内容保持质疑并进行交叉验证" },
+        { "label": "B", "text": "使用经过学校或家长认可的正规 AI 工具" },
+        { "label": "C", "text": "遇到不适内容立即停止使用并告知成年人" },
+        { "label": "D", "text": "向 AI 分享个人真实信息以获得更精准的服务" }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "question": "AI 在情感理解方面存在局限性的根本原因是什么？",
+      "options": [
+        { "label": "A", "text": "AI 的语音合成技术还不够逼真自然" },
+        { "label": "B", "text": "AI 模型的训练数据中缺少情感相关的样本" },
+        { "label": "C", "text": "AI 可以模拟情感表达但并不真正拥有内在感受" },
+        { "label": "D", "text": "AI 的计算能力还不足以处理情感类复杂任务" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "type": "multiple",
+      "question": "关于第一次人工智能浪潮（1950s～1970s），以下哪些描述是正确的？",
+      "options": [
+        { "label": "A", "text": "1956 年达特茅斯会议标志着\"人工智能\"名称的诞生" },
+        { "label": "B", "text": "该时期主要采用符号主义的技术路线" },
+        { "label": "C", "text": "该浪潮因计算能力不足和现实世界过于复杂而陷入低谷" },
+        { "label": "D", "text": "AlexNet 的发布是该浪潮最核心的代表性成果" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 22,
+      "type": "multiple",
+      "question": "知识图谱相比传统数据库有哪些独特优势？",
+      "options": [
+        { "label": "A", "text": "能够直观表达实体之间的关系网络" },
+        { "label": "B", "text": "新增知识时无需修改底层数据表结构" },
+        { "label": "C", "text": "擅长进行关系推理类查询" },
+        { "label": "D", "text": "所有类型的数值计算速度都远超传统数据库" }
+      ],
+      "answer": ["A", "B", "C"]
+    },
+    {
+      "id": 23,
+      "type": "multiple",
+      "question": "以下哪些属于强化学习的关键特征？",
+      "options": [
+        { "label": "A", "text": "智能体通过与环境交互来学习" },
+        { "label": "B", "text": "使用奖励和惩罚信号来评价行为的好坏" },
+        { "label": "C", "text": "需要大量人工标注的正确答案" },
+        { "label": "D", "text": "经过反复试错逐步找到最优策略" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 24,
+      "type": "multiple",
+      "question": "监督学习的两种典型任务类型是什么？",
+      "options": [
+        { "label": "A", "text": "分类任务——输出离散的类别标签" },
+        { "label": "B", "text": "回归任务——输出连续的数值预测" },
+        { "label": "C", "text": "聚类任务——将数据自动分成若干组" },
+        { "label": "D", "text": "生成任务——创造全新的内容" }
+      ],
+      "answer": ["A", "B"]
+    },
+    {
+      "id": 25,
+      "type": "multiple",
+      "question": "以下哪些是 AI 在教育领域的实际应用？",
+      "options": [
+        { "label": "A", "text": "根据学生的学习情况推送个性化的练习题目" },
+        { "label": "B", "text": "对学生作文进行语法检查并给出修改建议" },
+        { "label": "C", "text": "完全替代教师进行所有课程的课堂教学" },
+        { "label": "D", "text": "分析学生的答题数据找出薄弱知识点" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 26,
+      "type": "multiple",
+      "question": "以下哪些原因可能导致深度学习模型被形容为\"黑盒\"？",
+      "options": [
+        { "label": "A", "text": "模型的内部参数数量极其庞大" },
+        { "label": "B", "text": "模型的决策过程难以用人类能理解的方式解释" },
+        { "label": "C", "text": "模型没有使用任何数学公式进行计算" },
+        { "label": "D", "text": "即使是模型的设计者也难以准确说出某个具体判断的原因" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 27,
+      "type": "multiple",
+      "question": "以下哪些属于 AI 伦理中\"透明性\"原则的具体要求？",
+      "options": [
+        { "label": "A", "text": "AI 系统做出判断的依据应该能够被解释和说明" },
+        { "label": "B", "text": "当 AI 拒绝某项申请时应告知当事人拒绝的原因" },
+        { "label": "C", "text": "AI 模型的全部源代码必须向公众完全公开" },
+        { "label": "D", "text": "企业使用 AI 处理用户数据时应告知用户相关信息" }
+      ],
+      "answer": ["A", "B", "D"]
+    },
+    {
+      "id": 28,
+      "type": "multiple",
+      "question": "以下哪些行为违反了青少年 AI 安全使用准则？",
+      "options": [
+        { "label": "A", "text": "让 AI 辅助检查英语作文中的语法错误" },
+        { "label": "B", "text": "将自己的真实姓名、学校名称和住址发送给 AI" },
+        { "label": "C", "text": "上传包含个人面部信息的照片供 AI 进行处理" },
+        { "label": "D", "text": "依赖 AI 完成全部作业而不自己进行思考" }
+      ],
+      "answer": ["B", "C", "D"]
+    },
+    {
+      "id": 29,
+      "type": "multiple",
+      "question": "以下哪些说法正确描述了 AI 在创造性方面的局限？",
+      "options": [
+        { "label": "A", "text": "AI 的\"创新\"本质上是对已有训练数据的重新排列与组合" },
+        { "label": "B", "text": "AI 完全不具备任何形式的内容生成能力" },
+        { "label": "C", "text": "AI 生成的作品缺乏人类创作中独有的情感体验" },
+        { "label": "D", "text": "AI 的创作能力已经全面超越所有人类艺术家" }
+      ],
+      "answer": ["A", "C"]
+    },
+    {
+      "id": 30,
+      "type": "multiple",
+      "question": "关于三种机器学习范式在实际中的应用组合，以下哪些说法是正确的？",
+      "options": [
+        { "label": "A", "text": "半监督学习结合了监督学习和无监督学习的特点" },
+        { "label": "B", "text": "在实际工业应用中，多种学习范式经常混合使用" },
+        { "label": "C", "text": "三种范式之间完全互斥，一个项目只能选择其中一种" },
+        { "label": "D", "text": "AlphaGo 同时运用了监督学习（学习棋谱）和强化学习（自我对弈）" }
+      ],
+      "answer": ["A", "B", "D"]
+    }
+  ]
+}
