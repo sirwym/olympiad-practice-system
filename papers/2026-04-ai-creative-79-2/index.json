@@ -2,10 +2,10 @@
   "title": "智能创意主题赛模拟卷（二）- 7-9年级组",
   "category": "其他赛事",
   "level": "青少年素养大赛-智能创意主题",
-  "date": "2026-04",
+  "date": "2026-05",
   "time_limit": 45,
   "total_score": 100,
-  "description": "侧重AI发展史、知识图谱、机器学习范式和AI伦理实践。",
+  "description": "初中组基础篇B，侧重AI里程碑事件、专家系统、深度学习突破、数据质量与伦理原则。",
   "questions": [
     {
       "id": 1,
@@ -529,12 +529,8 @@
           "text": "AlexNet 的发布是该浪潮最核心的代表性成果"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 22,
@@ -558,12 +554,8 @@
           "text": "所有类型的数值计算速度都远超传统数据库"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 23,
@@ -587,12 +579,8 @@
           "text": "经过反复试错逐步找到最优策略"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 24,
@@ -616,11 +604,8 @@
           "text": "生成任务——创造全新的内容"
         }
       ],
-      "answer": [
-        "A",
-        "B"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "AB"
     },
     {
       "id": 25,
@@ -644,12 +629,8 @@
           "text": "分析学生的答题数据找出薄弱知识点"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 26,
@@ -673,12 +654,8 @@
           "text": "即使是模型的设计者也难以准确说出某个具体判断的原因"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 27,
@@ -702,12 +679,8 @@
           "text": "企业使用 AI 处理用户数据时应告知用户相关信息"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 28,
@@ -731,12 +704,8 @@
           "text": "依赖 AI 完成全部作业而不自己进行思考"
         }
       ],
-      "answer": [
-        "B",
-        "C",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "BCD"
     },
     {
       "id": 29,
@@ -760,11 +729,8 @@
           "text": "AI 的创作能力已经全面超越所有人类艺术家"
         }
       ],
-      "answer": [
-        "A",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "AC"
     },
     {
       "id": 30,
@@ -788,12 +754,8 @@
           "text": "AlphaGo 同时运用了监督学习（学习棋谱）和强化学习（自我对弈）"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     }
   ]
 }

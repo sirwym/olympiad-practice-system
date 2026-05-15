@@ -2,10 +2,10 @@
   "title": "智能创意主题赛模拟卷（一）- 7-9年级组",
   "category": "其他赛事",
   "level": "青少年素养大赛-智能创意主题",
-  "date": "2026-04",
+  "date": "2026-05",
   "time_limit": 45,
   "total_score": 100,
-  "description": "侧重AI发展史、知识图谱、机器学习基础概念和AI伦理基础。",
+  "description": "初中组基础篇A，侧重AI发展史、知识图谱、监督/强化/无监督学习、AI伦理与安全使用。",
   "questions": [
     {
       "id": 1,
@@ -529,12 +529,8 @@
           "text": "2016 年 AlphaGo 击败围棋世界冠军李世石"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 22,
@@ -558,12 +554,8 @@
           "text": "知识图谱可用于语义搜索和智能问答等应用场景"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 23,
@@ -587,12 +579,8 @@
           "text": "识别手写邮政编码并将其分类为对应的数字"
         }
       ],
-      "answer": [
-        "A",
-        "C",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ACD"
     },
     {
       "id": 24,
@@ -616,12 +604,8 @@
           "text": "对大量未分类的新闻文章进行自动主题聚类"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 25,
@@ -645,12 +629,8 @@
           "text": "分析大量病历数据帮助预测患者的疾病风险等级"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 26,
@@ -674,12 +654,8 @@
           "text": "AI 在复杂环境中进行长期多步决策的能力仍有不足"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 27,
@@ -703,12 +679,8 @@
           "text": "问责制——AI 犯错时应当有明确的责任主体"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 28,
@@ -732,12 +704,8 @@
           "text": "使用经过学校或家长认可的正规 AI 学习工具"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 29,
@@ -761,12 +729,8 @@
           "text": "完全信任 AI 的输出，因为它的训练数据远超人类知识量"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 30,
@@ -790,13 +754,8 @@
           "text": "三种范式在实际应用中可以相互结合，例如半监督学习"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABCD"
     }
   ]
 }

@@ -2,10 +2,10 @@
   "title": "智能创意主题赛模拟卷（四）- 7-9年级组",
   "category": "其他赛事",
   "level": "青少年素养大赛-智能创意主题",
-  "date": "2026-04",
+  "date": "2026-05",
   "time_limit": 45,
   "total_score": 100,
-  "description": "侧重深度学习原理、强化学习应用、Sim-to-Real与AI系统思维。",
+  "description": "初中组拔高篇B，侧重神经网络权重、CNN卷积层、LSTM、注意力机制与对抗样本。",
   "questions": [
     {
       "id": 1,
@@ -529,12 +529,8 @@
           "text": "CNN 是唯一能用于自然语言处理的神经网络架构"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 22,
@@ -558,12 +554,8 @@
           "text": "直接从数据库中检索并拼接已有的文章段落"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 23,
@@ -587,12 +579,8 @@
           "text": "状态——角色位置、血量等当前情况描述"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 24,
@@ -616,12 +604,8 @@
           "text": "力觉传感器——用于触觉感知"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 25,
@@ -645,12 +629,8 @@
           "text": "真实环境无法提供任何形式的感知数据"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 26,
@@ -674,12 +654,8 @@
           "text": "故意使用模糊不清的描述以激发 AI 的创造力"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 27,
@@ -703,13 +679,8 @@
           "text": "伦理：评分过程不透明，学生不清楚扣分原因"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABCD"
     },
     {
       "id": 28,
@@ -733,12 +704,8 @@
           "text": "确保公平性需要从数据采集、模型设计到结果评估全流程把关"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 29,
@@ -762,12 +729,8 @@
           "text": "AI 的 Q 值计算公式本身存在数学错误"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 30,
@@ -791,12 +754,8 @@
           "text": "数据层：中文数据量不足是中国 AI 发展的最大瓶颈"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     }
   ]
 }

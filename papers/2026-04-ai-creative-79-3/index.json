@@ -2,10 +2,10 @@
   "title": "智能创意主题赛模拟卷（三）- 7-9年级组",
   "category": "其他赛事",
   "level": "青少年素养大赛-智能创意主题",
-  "date": "2026-04",
+  "date": "2026-05",
   "time_limit": 45,
   "total_score": 100,
-  "description": "侧重深度学习架构、强化学习、具身智能与提示词优化思维。",
+  "description": "初中组拔高篇A，侧重神经网络反向传播、激活函数、CNN/RNN/Transformer架构与迁移学习。",
   "questions": [
     {
       "id": 1,
@@ -529,12 +529,8 @@
           "text": "像素分辨率——决定输入图片清晰度的参数"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 22,
@@ -558,12 +554,8 @@
           "text": "必须一个词一个词地按顺序处理，无法并行"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 23,
@@ -587,12 +579,8 @@
           "text": "奖励（Reward）——对动作好坏的反馈信号"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 24,
@@ -616,12 +604,8 @@
           "text": "气味传感器——用于检测空气中的化学成分和温度"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 25,
@@ -645,12 +629,8 @@
           "text": "可以在危险场景中安全训练，不会造成实际损失"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABD"
     },
     {
       "id": 26,
@@ -674,12 +654,8 @@
           "text": "探索率——控制 AI 输出结果的随机程度"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 27,
@@ -703,12 +679,8 @@
           "text": "探索（Exploration）——方案的创新尝试方向"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 28,
@@ -732,12 +704,8 @@
           "text": "AI 是否能够完全替代所有类型的法律服务工作"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     },
     {
       "id": 29,
@@ -761,13 +729,8 @@
           "text": "只利用不探索可能错过比当前更好的策略"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABCD"
     },
     {
       "id": 30,
@@ -791,12 +754,8 @@
           "text": "在高端 AI 芯片制造方面已完全实现自主可控"
         }
       ],
-      "answer": [
-        "A",
-        "B",
-        "C"
-      ],
-      "type": "multi_choice"
+      "type": "multi_choice",
+      "answer": "ABC"
     }
   ]
 }
