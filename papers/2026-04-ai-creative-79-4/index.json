@@ -29,7 +29,8 @@
           "text": "模型输出结果的置信度分数"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "text": "多层网络的效果与单层网络等价，无法学习复杂规律"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 3,
@@ -77,7 +79,8 @@
           "text": "将图片转换为数值向量用于计算"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
           "text": "监督学习需要大量标注数据的成本问题"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 5,
@@ -125,7 +129,8 @@
           "text": "将长句子自动压缩成简短的摘要"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 6,
@@ -149,7 +154,8 @@
           "text": "智能体所处的外部世界，能对智能体的动作做出响应"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
           "text": "两个都不选，直接停止行动"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 8,
@@ -197,7 +204,8 @@
           "text": "调节奖励信号的正负方向"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 9,
@@ -221,7 +229,8 @@
           "text": "控制训练过程中数据采样的比例"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 10,
@@ -245,7 +254,8 @@
           "text": "迁移学习（从国际象棋迁移到围棋）"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 11,
@@ -269,7 +279,8 @@
           "text": "仓库物流搬运机器人"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 12,
@@ -293,7 +304,8 @@
           "text": "记录行车轨迹和驾驶行为数据"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 13,
@@ -317,7 +329,8 @@
           "text": "减少强化学习训练中所需的奖励函数数量"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 14,
@@ -341,7 +354,8 @@
           "text": "真实机器人的计算能力远不如计算机"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
           "text": "规定结果的组织结构和呈现方式"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 16,
@@ -389,7 +404,8 @@
           "text": "广告商故意限制推荐内容的多样性"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 17,
@@ -413,7 +429,8 @@
           "text": "方案团队成员的专业能力和经验水平"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 18,
@@ -437,7 +454,8 @@
           "text": "取消所有对 AI 监控系统的使用限制"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 19,
@@ -461,7 +479,8 @@
           "text": "错误信息一旦发布就无人需要负责"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 20,
@@ -485,7 +504,8 @@
           "text": "中文 AI 技术具有天然的语言优势"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 21,

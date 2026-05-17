@@ -1,0 +1,474 @@
+{
+  "title": "GESP C++ 二级 模拟卷2",
+  "category": "GESP",
+  "level": "2",
+  "date": "2026-06",
+  "time_limit": 90,
+  "total_score": 100,
+  "description": "GESP C++ 二级模拟卷2（ASCII编码、流程图符号、多层分支与循环嵌套、计算机基础知识）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "content": "已知字符 `'A'` 的 ASCII 码为 65，则字符 `'E'` 的 ASCII 码是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "66"
+        },
+        {
+          "key": "B",
+          "text": "67"
+        },
+        {
+          "key": "C",
+          "text": "68"
+        },
+        {
+          "key": "D",
+          "text": "69"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "content": "在程序流程图中，平行四边形框通常用于表示（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "程序的开始和结束"
+        },
+        {
+          "key": "B",
+          "text": "条件判断"
+        },
+        {
+          "key": "C",
+          "text": "数据处理"
+        },
+        {
+          "key": "D",
+          "text": "输入输出"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "content": "表达式 `5 + 3 * 4 % 5` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "content": "执行以下代码后，变量 `s` 的值是（ ）\n\n```cpp\nint i = 5, s = 0;\nwhile (i > 0) {\n    s += i;\n    i--;\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "14"
+        },
+        {
+          "key": "D",
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "content": "执行以下代码后，变量 `cnt` 的值是（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 2; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        cnt++;\n    }\n}\ncout << cnt;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "9"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，变量 `s` 的值是（ ）\n\n```cpp\nint s = 0;\nfor (int i = 1; i <= 6; i++) {\n    if (i % 2 == 0) continue;\n    s += i;\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码后，变量 `x` 的值是（ ）\n\n```cpp\nint x = 7;\nif (x > 10) {\n    x += 1;\n} else if (x > 5) {\n    x += 2;\n} else {\n    x += 3;\n}\ncout << x;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint s = 0;\nfor (int i = 1; i <= 3; i++) {\n    for (int j = 1; j <= i; j++) {\n        s += j;\n    }\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "10"
+        },
+        {
+          "key": "C",
+          "text": "15"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint x = 2;\nswitch (x) {\n    case 1: cout << 'A'; break;\n    case 2: cout << 'B';\n    case 3: cout << 'C'; break;\n    default: cout << 'D';\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "B"
+        },
+        {
+          "key": "B",
+          "text": "BC"
+        },
+        {
+          "key": "C",
+          "text": "ABC"
+        },
+        {
+          "key": "D",
+          "text": "BCD"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint s = 0;\nfor (int i = 1; i <= 10; i++) {\n    if (i % 3 == 0) break;\n    if (i % 2 == 0) continue;\n    s += i;\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码后，变量 `rev` 的值是（ ）\n\n```cpp\nint n = 123, rev = 0;\nwhile (n > 0) {\n    rev = rev * 10 + n % 10;\n    n /= 10;\n}\ncout << rev;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "123"
+        },
+        {
+          "key": "B",
+          "text": "12"
+        },
+        {
+          "key": "C",
+          "text": "321"
+        },
+        {
+          "key": "D",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "D",
+      "content": "执行以下代码后，变量 `c` 的值是（ ）\n\n```cpp\nint a = 1, b = 1, c;\nfor (int i = 3; i <= 6; i++) {\n    c = a + b;\n    a = b;\n    b = c;\n}\ncout << c;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "content": "以下关于计算机存储的描述，正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1KB = 1000Byte"
+        },
+        {
+          "key": "B",
+          "text": "1MB = 1000KB"
+        },
+        {
+          "key": "C",
+          "text": "1GB = 1024MB"
+        },
+        {
+          "key": "D",
+          "text": "1TB = 1000GB"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "content": "在程序流程图中，菱形框通常用于表示（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "程序的开始和结束"
+        },
+        {
+          "key": "B",
+          "text": "条件判断"
+        },
+        {
+          "key": "C",
+          "text": "数据处理"
+        },
+        {
+          "key": "D",
+          "text": "输入输出"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "content": "以下代码用于判断 n 是否为回文数，横线处应填入（ ）\n\n```cpp\nint n, rev = 0, tmp;\ncin >> n;\ntmp = n;\nwhile (tmp > 0) {\n    rev = rev * 10 + tmp % 10;\n    tmp /= 10;\n}\nif (______) cout << \"Yes\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "rev == 0"
+        },
+        {
+          "key": "B",
+          "text": "n == tmp"
+        },
+        {
+          "key": "C",
+          "text": "rev == n"
+        },
+        {
+          "key": "D",
+          "text": "tmp != 0"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "True",
+      "content": "使用 `cin` 读取字符串时，如果输入包含空格，`cin` 只会读取空格之前的部分。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "`int arr[5] = {1, 2, 3};` 这行代码中，未被显式初始化的数组元素的值是随机的。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "在C++中，整数 `0` 表示逻辑值 `true`。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "True",
+      "content": "`break` 语句可以用在 `switch` 语句中。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "函数调用时，实参的名称必须与形参的名称相同。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "True",
+      "content": "`for (int i = 0; i < 5; i++)` 的循环体会执行 5 次。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "`switch` 语句中的 `default` 子句是必须的。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "True",
+      "content": "字符串 `\"hello\"` 的长度是 5。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "`int x = 3.14;` 执行后变量 `x` 的值为 3.14。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "True",
+      "content": "在C++中，数组名表示数组首元素的地址。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：递推数列**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n已知一个数列的前两项为 a₁ = 1，a₂ = 2。从第三项开始，每一项等于前两项之和：aₙ = aₙ₋₁ + aₙ₋₂。给定一个正整数 N，请输出该数列的第 N 项的值。\n\n**输入格式**\n一行，一个正整数 N（1 ≤ N ≤ 30）。\n\n**输出格式**\n一行，一个整数，表示数列第 N 项的值。\n\n**样例输入 #1**\n```\n5\n```\n\n**样例输出 #1**\n```\n8\n```\n\n**说明/提示**\n数列前5项：1, 2, 3, 5, 8。第5项为8。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数字三角形**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定一个正整数 N，输出一个 N 行的数字三角形。第 i 行输出从 1 到 i 的连续整数，数字之间用一个空格分隔。\n\n**输入格式**\n一行，一个正整数 N（1 ≤ N ≤ 20）。\n\n**输出格式**\nN 行，每行输出从 1 开始的连续整数，数字之间用一个空格分隔。\n\n**样例输入 #1**\n```\n4\n```\n\n**样例输出 #1**\n```\n1\n1 2\n1 2 3\n1 2 3 4\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

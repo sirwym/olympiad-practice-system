@@ -1,0 +1,474 @@
+{
+  "title": "GESP C++ 五级 模拟卷2",
+  "category": "GESP",
+  "level": "5",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 五级模拟卷2（循环链表、归并排序、分治算法、高精度计算、递归与迭代）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "D",
+      "content": "在循环链表中删除结点 `p`（p 不是唯一结点），以下代码横线处应填入（ ）\n\n```cpp\nprev->next = p->next;\ndelete p;\n______;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`p = prev;`"
+        },
+        {
+          "key": "B",
+          "text": "`p = p->next;`"
+        },
+        {
+          "key": "C",
+          "text": "`prev = prev->next;`"
+        },
+        {
+          "key": "D",
+          "text": "`p = prev->next;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "content": "以下高精度加法代码中，横线处应填入（ ）\n\n```cpp\nvector<int> add(vector<int> a, vector<int> b) {\n    vector<int> c;\n    int carry = 0;\n    for (int i = 0; i < a.size() || i < b.size(); i++) {\n        if (i < a.size()) carry += a[i];\n        if (i < b.size()) carry += b[i];\n        ______;\n        carry /= 10;\n    }\n    if (carry) c.push_back(carry);\n    return c;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`c.push_back(carry % 10);`"
+        },
+        {
+          "key": "B",
+          "text": "`c.push_back(carry / 10);`"
+        },
+        {
+          "key": "C",
+          "text": "`c.push_back(carry); carry %= 10;`"
+        },
+        {
+          "key": "D",
+          "text": "`carry = carry % 10; c.push_back(carry);`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "B",
+      "content": "分治算法的基本思想是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "每一步选择当前最优解，逐步逼近全局最优解"
+        },
+        {
+          "key": "B",
+          "text": "将原问题分解为规模更小的子问题，分别求解后合并"
+        },
+        {
+          "key": "C",
+          "text": "通过穷举所有可能的解来寻找最优解"
+        },
+        {
+          "key": "D",
+          "text": "从初始状态出发，每次随机选择一个方向前进"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "content": "快速排序中随机选择基准值（pivot）的主要目的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "保证排序是稳定的"
+        },
+        {
+          "key": "B",
+          "text": "减少额外空间的使用"
+        },
+        {
+          "key": "C",
+          "text": "避免最坏情况 O(n²) 的发生概率"
+        },
+        {
+          "key": "D",
+          "text": "使代码实现更简单"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "content": "以下关于递归与迭代的说法，正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "递归程序一定比迭代程序运行快"
+        },
+        {
+          "key": "B",
+          "text": "递归程序占用的空间一定比迭代少"
+        },
+        {
+          "key": "C",
+          "text": "递归程序不可能出现无限循环"
+        },
+        {
+          "key": "D",
+          "text": "理论上所有递归算法都可以转换为迭代算法"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "A",
+      "content": "在双向链表头部插入新结点 `t`（head 为头哨兵），以下代码横线处应填入（ ）\n\n```cpp\nt->next = head->next;\nt->prev = head;\nhead->next->prev = t;\n______;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`head->next = t;`"
+        },
+        {
+          "key": "B",
+          "text": "`head->prev = t;`"
+        },
+        {
+          "key": "C",
+          "text": "`t->prev = head->next;`"
+        },
+        {
+          "key": "D",
+          "text": "`t->next = head;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "content": "以下二分查找的变体用于查找第一个大于等于 target 的位置（lower_bound），横线处应填入（ ）\n\n```cpp\nint lower_bound(vector<int>& arr, int target) {\n    int l = 0, r = arr.size();\n    while (l < r) {\n        int mid = l + (r - l) / 2;\n        if (______) r = mid;\n        else l = mid + 1;\n    }\n    return l;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`arr[mid] > target`"
+        },
+        {
+          "key": "B",
+          "text": "`arr[mid] >= target`"
+        },
+        {
+          "key": "C",
+          "text": "`arr[mid] < target`"
+        },
+        {
+          "key": "D",
+          "text": "`arr[mid] <= target`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "content": "标准 3 柱汉诺塔问题中，移动 n 个盘子所需的最少移动次数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "C",
+          "text": "O(2ⁿ)"
+        },
+        {
+          "key": "D",
+          "text": "O(n²)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "B",
+      "content": "硬币找零问题中，面额为 {1, 5, 10, 25} 分，要找零 40 分。使用贪心策略，得到的硬币数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 枚"
+        },
+        {
+          "key": "B",
+          "text": "3 枚"
+        },
+        {
+          "key": "C",
+          "text": "4 枚"
+        },
+        {
+          "key": "D",
+          "text": "5 枚"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "content": "高精度乘法中，两个位数分别为 m 和 n 的数相乘，结果最多有多少位？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "m + n"
+        },
+        {
+          "key": "B",
+          "text": "m × n"
+        },
+        {
+          "key": "C",
+          "text": "m + n + 1"
+        },
+        {
+          "key": "D",
+          "text": "max(m, n)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "content": "以下归并排序的 merge 函数中，横线处应填入（ ）\n\n```cpp\nvoid merge(int arr[], int left, int mid, int right) {\n    int n1 = mid - left + 1, n2 = right - mid;\n    int L[n1], R[n2];\n    for (int i = 0; i < n1; i++) L[i] = arr[left + i];\n    for (int i = 0; i < n2; i++) R[i] = arr[mid + 1 + i];\n    int i = 0, j = 0, k = left;\n    while (i < n1 && j < n2) {\n        if (______) arr[k++] = L[i++];\n        else arr[k++] = R[j++];\n    }\n    while (i < n1) arr[k++] = L[i++];\n    while (j < n2) arr[k++] = R[j++];\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`L[i] > R[j]`"
+        },
+        {
+          "key": "B",
+          "text": "`L[i] <= R[j]`"
+        },
+        {
+          "key": "C",
+          "text": "`L[i] >= R[j]`"
+        },
+        {
+          "key": "D",
+          "text": "`L[i] != R[j]`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "content": "递归函数 `fib(n)` 使用朴素递归计算斐波那契数，其时间复杂度是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "C",
+          "text": "O(2ⁿ)"
+        },
+        {
+          "key": "D",
+          "text": "O(1)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "content": "循环链表中，要判断指针 `p` 是否遍历完整个链表回到起点，条件是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`p == NULL`"
+        },
+        {
+          "key": "B",
+          "text": "`p->next == NULL`"
+        },
+        {
+          "key": "C",
+          "text": "`p->data == 0`"
+        },
+        {
+          "key": "D",
+          "text": "`p == head`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "A",
+      "content": "以下关于 GCD（最大公约数）的叙述，正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`gcd(a, b) = gcd(b, a % b)`（当 b ≠ 0）是辗转相除法的核心递推式"
+        },
+        {
+          "key": "B",
+          "text": "`gcd(a, b)` 总是等于 a 和 b 中较小的那个数"
+        },
+        {
+          "key": "C",
+          "text": "`gcd(0, n)` 没有定义"
+        },
+        {
+          "key": "D",
+          "text": "辗转相除法的时间复杂度是 O(n)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "B",
+      "content": "分治算法解决\"最大子数组和\"问题时，需要计算跨越中点的最大和，这部分的复杂度是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(n)"
+        },
+        {
+          "key": "C",
+          "text": "O(n²)"
+        },
+        {
+          "key": "D",
+          "text": "O(log n)"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "True",
+      "content": "在循环链表中，每个结点都有一个前驱结点和一个后继结点。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "True",
+      "content": "高精度加法的时间复杂度与两个数的位数之和成正比，即 O(n)。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "分治算法的效率一定比直接求解原问题的效率高。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "True",
+      "content": "归并排序需要额外的 O(n) 空间来存放临时数组。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "快速排序在任何输入情况下都能保证 O(n log n) 的时间复杂度。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "True",
+      "content": "理论上所有递归算法都可以转换为等价的迭代算法。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "False",
+      "content": "贪心算法在做出选择后，如果发现选择不是最优的，会回溯重新选择。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "True",
+      "content": "标准 3 柱汉诺塔问题中，移动 n 个盘子所需的最少步数为 2ⁿ − 1。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "链表结点在内存中必须连续存放。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "高精度乘法和除法的实现都涉及逐位相乘和进位处理，两者时间复杂度相同。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：高精度加法**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定两个非负整数（可能非常大，位数不超过 200 位），求它们的和。\n\n**输入格式**\n两行，每行一个非负整数，位数不超过 200 位。\n\n**输出格式**\n一行，一个整数，表示两个数的和。不要输出前导零（除非结果为 0）。\n\n**样例输入 #1**\n```\n12345678901234567890\n98765432109876543210\n```\n\n**样例输出 #1**\n```\n111111111011111111100\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：归并排序**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定 N 个整数，请使用归并排序将它们按升序排列后输出。\n\n**输入格式**\n第一行，一个正整数 N（1 ≤ N ≤ 100000）。\n第二行，N 个整数，绝对值不超过 10⁹，数之间用空格分隔。\n\n**输出格式**\n一行，N 个整数，按升序排列，数之间用一个空格分隔。\n\n**样例输入 #1**\n```\n5\n3 1 4 1 5\n```\n\n**样例输出 #1**\n```\n1 1 3 4 5\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

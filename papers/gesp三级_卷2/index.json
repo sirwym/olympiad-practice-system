@@ -1,0 +1,474 @@
+{
+  "title": "GESP C++ 三级 模拟卷2",
+  "category": "GESP",
+  "level": "3",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 三级模拟卷2（数据编码、进制转换、位运算、字符串处理、数组模拟、枚举法与模拟法）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "content": "表达式 `(5 | 3)` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nstring s = \"hello\";\ncout << s.find(\"e\");\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "1"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "-1"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "content": "释放 `int *p = new int[10];` 所分配内存的正确方式是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`delete p;`"
+        },
+        {
+          "key": "B",
+          "text": "`free(p);`"
+        },
+        {
+          "key": "C",
+          "text": "`delete[] p;`"
+        },
+        {
+          "key": "D",
+          "text": "`p = NULL;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "content": "二进制数 101101 转换为十进制数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "47"
+        },
+        {
+          "key": "B",
+          "text": "46"
+        },
+        {
+          "key": "C",
+          "text": "45"
+        },
+        {
+          "key": "D",
+          "text": "44"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "content": "十进制数 -3 的 8 位二进制补码表示为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "10000011"
+        },
+        {
+          "key": "B",
+          "text": "11111100"
+        },
+        {
+          "key": "C",
+          "text": "11111101"
+        },
+        {
+          "key": "D",
+          "text": "00000011"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下枚举算法代码，输出的结果是（ ）\n\n```cpp\nint cnt = 0;\nfor (int a = 1; a <= 9; a++) {\n    for (int b = 0; b <= 9; b++) {\n        if (a * b == 24) cnt++;\n    }\n}\ncout << cnt;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "A",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nstring s = \"Hello World\";\nint cnt = 0;\nfor (int i = 0; i < s.length(); i++) {\n    if (s[i] >= 'a' && s[i] <= 'z') cnt++;\n}\ncout << cnt;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint a[5] = {2, 4, 6, 8, 10};\nint s = 0;\nfor (int i = 0; i < 5; i++) {\n    if (i % 2 == 0) s += a[i];\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "12"
+        },
+        {
+          "key": "B",
+          "text": "18"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "content": "8 位二进制补码 `11111001` 表示的十进制数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "-6"
+        },
+        {
+          "key": "B",
+          "text": "-8"
+        },
+        {
+          "key": "C",
+          "text": "-9"
+        },
+        {
+          "key": "D",
+          "text": "-7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "C",
+      "content": "表达式 `(12 ^ 5)` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "7"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "17"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "content": "将十进制数 255 转换为十六进制数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "AF"
+        },
+        {
+          "key": "B",
+          "text": "EF"
+        },
+        {
+          "key": "C",
+          "text": "FF"
+        },
+        {
+          "key": "D",
+          "text": "FE"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint a[6] = {0};\nfor (int i = 1; i <= 5; i++) {\n    for (int j = i; j <= 5; j++) {\n        a[j]++;\n    }\n}\nint s = 0;\nfor (int i = 1; i <= 5; i++) {\n    s += a[i];\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "15"
+        },
+        {
+          "key": "C",
+          "text": "20"
+        },
+        {
+          "key": "D",
+          "text": "25"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "D",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint a[8] = {1, 2, 3, 4, 5, 6, 7, 8};\nint s = 0;\nfor (int i = 0; i < 8; i++) {\n    if (a[i] % 2 == 1) s++;\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 1; i <= 50; i++) {\n    if (i % 3 == 0 && i % 5 == 0) cnt++;\n}\ncout << cnt;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码后，变量 `a` 的值是（ ）\n\n```cpp\nint a = 0, b = 1, c;\nfor (int i = 1; i <= 4; i++) {\n    c = a + b;\n    a = b;\n    b = c;\n}\ncout << a;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "True",
+      "content": "二进制数 1010 转换为十进制数是 10。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++ 中 string 类型的 find() 函数在找不到子串时返回 0。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "True",
+      "content": "C++ 中 `delete` 和 `delete[]` 不能互换使用。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "True",
+      "content": "一维数组在内存中占用连续的存储空间。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "True",
+      "content": "使用 `new` 分配的动态数组，大小在分配后不能再改变。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "True",
+      "content": "在 C++ 中，表达式 `(7 & 3)` 的值为 3。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "True",
+      "content": "枚举法在问题规模较大时，可能会因为需要验证的情况过多而效率较低。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "True",
+      "content": "十六进制数 2F 转换为十进制数的结果是 47。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "在 C++ 中，定义数组 `int a[10];` 后，可以使用 `a[10] = 5;` 对数组元素赋值。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "True",
+      "content": "使用 `new` 关键字分配的内存位于堆（heap）上。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：回文数判断**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定一个正整数 N，请判断它是否是回文数。回文数是指正读和反读都一样的数。\n\n**输入格式**\n一行，一个正整数 N（1 ≤ N ≤ 10⁹）。\n\n**输出格式**\n如果是回文数，输出 `Yes`；否则输出 `No`。\n\n**样例输入 #1**\n```\n12321\n```\n\n**样例输出 #1**\n```\nYes\n```\n\n**样例输入 #2**\n```\n12345\n```\n\n**样例输出 #2**\n```\nNo\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：数组循环右移**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定 N 个整数和一个非负整数 K，将数组中的每个元素向右循环移动 K 个位置。右边的元素移出后从左边重新进入。\n\n例如：数组 `[1, 2, 3, 4, 5]`，K=2，结果为 `[4, 5, 1, 2, 3]`。\n\n**输入格式**\n第一行，两个整数 N 和 K（1 ≤ N ≤ 1000，0 ≤ K ≤ 10⁹）。\n第二行，N 个整数，每个整数的绝对值不超过 10000，数之间用空格分隔。\n\n**输出格式**\n一行，N 个整数，表示循环右移 K 位后的数组，数之间用一个空格分隔。\n\n**样例输入 #1**\n```\n5 2\n1 2 3 4 5\n```\n\n**样例输出 #1**\n```\n4 5 1 2 3\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

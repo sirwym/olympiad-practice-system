@@ -1,0 +1,474 @@
+{
+  "title": "GESP C++ 三级 模拟卷1",
+  "category": "GESP",
+  "level": "3",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 三级模拟卷1（位运算、数组操作、进制转换、字符串处理、枚举法与模拟法）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "content": "表达式 `(3 & 5)` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nstring s = \"abc123\";\ncout << s.length();\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "content": "十进制数 -5 的 8 位二进制补码表示为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "10000101"
+        },
+        {
+          "key": "B",
+          "text": "11111010"
+        },
+        {
+          "key": "C",
+          "text": "11111011"
+        },
+        {
+          "key": "D",
+          "text": "11111000"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码后，变量 `s` 的值是（ ）\n\n```cpp\nint s = 0;\nfor (int i = 1; i <= 5; i++) {\n    s += i * i;\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "15"
+        },
+        {
+          "key": "B",
+          "text": "25"
+        },
+        {
+          "key": "C",
+          "text": "55"
+        },
+        {
+          "key": "D",
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "content": "十进制数 13 转换为二进制数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1011"
+        },
+        {
+          "key": "B",
+          "text": "1001"
+        },
+        {
+          "key": "C",
+          "text": "1110"
+        },
+        {
+          "key": "D",
+          "text": "1101"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "以下问题最适合使用枚举法解决的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "在一个有序数组中查找某个数"
+        },
+        {
+          "key": "B",
+          "text": "找出 100 以内所有的质数"
+        },
+        {
+          "key": "C",
+          "text": "计算一个正数的平方根"
+        },
+        {
+          "key": "D",
+          "text": "对一组数据进行排序"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint a[5] = {3, 1, 4, 1, 5};\nint s = 0;\nfor (int i = 0; i < 5; i++) {\n    if (a[i] % 2 == 0) s += a[i];\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "5"
+        },
+        {
+          "key": "D",
+          "text": "14"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint add(int a, int b = 3) {\n    return a + b;\n}\nint main() {\n    cout << add(4);\n    return 0;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "7"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "D",
+      "content": "执行以下代码后，变量 `x` 的值是（ ）\n\n```cpp\nint x = 5, y = 8;\nint *p = &x;\n*p = y;\ncout << x;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "13"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "content": "表达式 `(8 >> 1)` 的值是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "8"
+        },
+        {
+          "key": "C",
+          "text": "16"
+        },
+        {
+          "key": "D",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "content": "已知字符 `'A'` 的 ASCII 码为 65，以下代码的输出结果是（ ）\n\n```cpp\nchar c = 'C';\ncout << (int)c;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "65"
+        },
+        {
+          "key": "B",
+          "text": "66"
+        },
+        {
+          "key": "C",
+          "text": "67"
+        },
+        {
+          "key": "D",
+          "text": "68"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，变量 `sum` 的值是（ ）\n\n```cpp\nint sum = 0;\nfor (int i = 1; i <= 8; i++) {\n    if (i % 3 == 0) continue;\n    sum += i;\n}\ncout << sum;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "27"
+        },
+        {
+          "key": "C",
+          "text": "24"
+        },
+        {
+          "key": "D",
+          "text": "36"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nint a[6] = {1, 2, 3, 4, 5, 6};\nint s = 0;\nfor (int i = 0; i < 6; i += 2) {\n    s += a[i];\n}\ncout << s;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "6"
+        },
+        {
+          "key": "B",
+          "text": "9"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码后，输出的结果是（ ）\n\n```cpp\nstring s = \"Hello, World!\";\ncout << s.find(\"World\");\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "5"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "7"
+        },
+        {
+          "key": "D",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "A",
+      "content": "十六进制数 A3 转换为十进制数是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "163"
+        },
+        {
+          "key": "B",
+          "text": "150"
+        },
+        {
+          "key": "C",
+          "text": "172"
+        },
+        {
+          "key": "D",
+          "text": "160"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "在 C++ 中，`int` 类型的变量可以存储小数部分。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "False",
+      "content": "C++ 中数组的下标是从 1 开始的。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "True",
+      "content": "`break` 语句可以在 `switch` 语句中使用。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "False",
+      "content": "位运算符 `|` 表示逻辑或运算。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "True",
+      "content": "函数可以定义为 `void` 类型，即不返回任何值。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "True",
+      "content": "`string` 类型的 `length()` 方法返回字符串中字符的个数。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "True",
+      "content": "`continue` 语句的作用是跳过当前循环的剩余部分，直接进入下一次循环。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式 `10 / 3` 在 C++ 中的值为 `3.333`。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "True",
+      "content": "一维数组的数组名可以隐式转换为指向数组首元素的指针。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "表达式 `(3 < 5) && (2 > 4)` 的值为 `true`。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：统计质数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定 N 个正整数，请统计其中质数（素数）的个数。\n\n质数定义：大于 1 的自然数，且只能被 1 和它本身整除。\n\n**输入格式**\n第一行，一个正整数 N（1 ≤ N ≤ 100）。\n第二行，N 个正整数，每个数不超过 10000，数之间用空格分隔。\n\n**输出格式**\n一行，一个整数，表示质数的个数。\n\n**样例输入 #1**\n```\n5\n7 10 13 4 17\n```\n\n**样例输出 #1**\n```\n3\n```\n\n**说明/提示**\n5个数中：7是质数，10不是，13是质数，4不是，17是质数，共3个。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：开关灯问题**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n有 N 盏灯，编号为 1 到 N，初始时全部关闭（熄灭）。按顺序进行 K 次操作，第 i 次操作（i 从 1 到 K）将所有编号为 i 的倍数的灯进行反向操作（开变成关，关变成开）。求最终亮着的灯的数量。\n\n**输入格式**\n一行，两个正整数 N 和 K（1 ≤ N ≤ 1000，1 ≤ K ≤ N）。\n\n**输出格式**\n一行，一个整数，表示最终亮着的灯的数量。\n\n**样例输入 #1**\n```\n5 3\n```\n\n**样例输出 #1**\n```\n2\n```\n\n**说明/提示**\n初始：全部熄灭。第1次操作（i=1）：所有编号为1的倍数的灯（1~5全部）反向 → 全部点亮。第2次操作（i=2）：编号2,4反向 → 灯1亮，2灭，3亮，4灭，5亮。第3次操作（i=3）：编号3反向 → 灯1亮，2灭，3灭，4灭，5亮。最终亮着的灯：1和5，共2盏。",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

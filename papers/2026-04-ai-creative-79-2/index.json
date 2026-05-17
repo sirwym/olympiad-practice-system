@@ -29,7 +29,8 @@
           "text": "克劳德·香农"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "text": "1969 年"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 3,
@@ -77,7 +79,8 @@
           "text": "利用环境奖励信号训练的游戏 AI"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
           "text": "深度学习技术迎来了快速发展的新时期"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 5,
@@ -125,7 +129,8 @@
           "text": "1997 年深蓝战胜国际象棋冠军"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 6,
@@ -149,7 +154,8 @@
           "text": "深度学习与强化学习"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
           "text": "关系"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 8,
@@ -197,7 +204,8 @@
           "text": "数据的计算权重参数"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 9,
@@ -221,7 +229,8 @@
           "text": "（鱼，喜欢吃，猫）"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 10,
@@ -245,7 +254,8 @@
           "text": "检测网络流量中的异常攻击行为"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 11,
@@ -269,7 +279,8 @@
           "text": "数据的存储格式和文件类型"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 12,
@@ -293,7 +304,8 @@
           "text": "回归任务"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 13,
@@ -317,7 +329,8 @@
           "text": "通过历史气温数据预测未来一周的天气"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 14,
@@ -341,7 +354,8 @@
           "text": "衡量模型参数更新后的计算误差"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
           "text": "按照说明书一步步组装一台机器"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 16,
@@ -389,7 +404,8 @@
           "text": "语音识别和自然语言处理"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 17,
@@ -413,7 +429,8 @@
           "text": "智能红绿灯系统可以根据实时车流量自动调节信号"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 18,
@@ -437,7 +454,8 @@
           "text": "AI 既然出了错就说明不需要有人负责"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 19,
@@ -461,7 +479,8 @@
           "text": "向 AI 分享个人真实信息以获得更精准的服务"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 20,
@@ -485,7 +504,8 @@
           "text": "AI 的计算能力还不足以处理情感类复杂任务"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 21,

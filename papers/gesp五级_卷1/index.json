@@ -1,0 +1,474 @@
+{
+  "title": "GESP C++ 五级 模拟卷1",
+  "category": "GESP",
+  "level": "5",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 五级模拟卷1（链表操作、数论、快速排序、二分查找、贪心算法）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "A",
+      "content": "与数组相比，链表在以下哪种操作上通常具有更高的效率？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "在已知位置插入或删除节点"
+        },
+        {
+          "key": "B",
+          "text": "通过下标随机访问元素"
+        },
+        {
+          "key": "C",
+          "text": "在未排序链表中查找指定值"
+        },
+        {
+          "key": "D",
+          "text": "计算链表中元素的总个数"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "B",
+      "content": "用辗转相除法求 `gcd(72, 30)` 时，第一步计算 `72 % 30 = 12`，则第二步计算的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`gcd(72, 12)`"
+        },
+        {
+          "key": "B",
+          "text": "`gcd(30, 12)`"
+        },
+        {
+          "key": "C",
+          "text": "`gcd(12, 6)`"
+        },
+        {
+          "key": "D",
+          "text": "`gcd(30, 72)`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "content": "以下代码用于判断正整数 n 是否为质数，横线处应填入（ ）\n\n```cpp\nbool isPrime(int n) {\n    if (n < 2) return false;\n    for (int i = 2; i <= sqrt(n); i++) {\n        if (______) return false;\n    }\n    return true;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`n / i == 0`"
+        },
+        {
+          "key": "B",
+          "text": "`i * i > n`"
+        },
+        {
+          "key": "C",
+          "text": "`n % i == 0`"
+        },
+        {
+          "key": "D",
+          "text": "`n - i == 0`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "content": "以下快速排序的 partition 函数中，横线处应填入（ ）\n\n```cpp\nint partition(int arr[], int low, int high) {\n    int pivot = arr[high];\n    int i = low - 1;\n    for (int j = low; j < high; j++) {\n        if (______) {\n            i++;\n            swap(arr[i], arr[j]);\n        }\n    }\n    swap(arr[i + 1], arr[high]);\n    return i + 1;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`arr[j] > pivot`"
+        },
+        {
+          "key": "B",
+          "text": "`arr[j] == pivot`"
+        },
+        {
+          "key": "C",
+          "text": "`arr[j] >= pivot`"
+        },
+        {
+          "key": "D",
+          "text": "`arr[j] < pivot`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "A",
+      "content": "在二分查找中，为避免 `(left + right)` 溢出，mid 的计算通常写为（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`mid = left + (right - left) / 2;`"
+        },
+        {
+          "key": "B",
+          "text": "`mid = (left + right) * 2;`"
+        },
+        {
+          "key": "C",
+          "text": "`mid = left - (right - left) / 2;`"
+        },
+        {
+          "key": "D",
+          "text": "`mid = right - (left + right) / 2;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "贪心算法的核心特征是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "总能找到全局最优解"
+        },
+        {
+          "key": "B",
+          "text": "每一步选择当前看起来最优的方案"
+        },
+        {
+          "key": "C",
+          "text": "将问题分解为子问题分别求解"
+        },
+        {
+          "key": "D",
+          "text": "尝试所有可能的组合"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "C",
+      "content": "以下排序算法中，属于稳定排序的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "选择排序"
+        },
+        {
+          "key": "B",
+          "text": "快速排序"
+        },
+        {
+          "key": "C",
+          "text": "归并排序"
+        },
+        {
+          "key": "D",
+          "text": "堆排序"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "D",
+      "content": "在程序运行过程中，如果递归调用的层数过多，通常会因为什么原因引发错误？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "堆空间溢出"
+        },
+        {
+          "key": "B",
+          "text": "全局变量区溢出"
+        },
+        {
+          "key": "C",
+          "text": "代码段溢出"
+        },
+        {
+          "key": "D",
+          "text": "栈空间溢出"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "content": "在双向链表中，结点 `p` 的前驱和后继均非空。要删除结点 `p`，以下正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "`p->prev->next = p->next; p->next->prev = p->prev;`"
+        },
+        {
+          "key": "B",
+          "text": "`p->next = p->prev; p->prev = p->next;`"
+        },
+        {
+          "key": "C",
+          "text": "`p->prev = p->next; p->next->prev = p;`"
+        },
+        {
+          "key": "D",
+          "text": "`p->prev->prev = p->next; p->next->next = p->prev;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "B",
+      "content": "根据唯一分解定理，以下分解正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "18 = 3 × 6"
+        },
+        {
+          "key": "B",
+          "text": "30 = 2 × 3 × 5"
+        },
+        {
+          "key": "C",
+          "text": "28 = 4 × 7"
+        },
+        {
+          "key": "D",
+          "text": "36 = 2 × 3 × 6"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "C",
+      "content": "快速排序在平均情况下的时间复杂度是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n²)"
+        },
+        {
+          "key": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "D",
+          "text": "O(log n)"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码后，变量 `a` 的值是（ ）\n\n```cpp\nint a = 1, b = 1, c;\nfor (int i = 3; i <= 6; i++) {\n    c = a + b;\n    a = b;\n    b = c;\n}\ncout << a;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "8"
+        },
+        {
+          "key": "D",
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "content": "在双向循环链表中，head 为头哨兵结点。将新结点 `t` 插入到链表头部（head 之后），横线处应填入（ ）\n\n```cpp\nvoid insertHead(Node* head, Node* t) {\n    t->next = head->next;\n    t->prev = head;\n    ______;\n    head->next = t;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "`head->next->prev = t;`"
+        },
+        {
+          "key": "B",
+          "text": "`head->prev->next = t;`"
+        },
+        {
+          "key": "C",
+          "text": "`t->next->prev = head;`"
+        },
+        {
+          "key": "D",
+          "text": "`head->next = t->next;`"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "content": "以下关于质数的说法，正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 是质数"
+        },
+        {
+          "key": "B",
+          "text": "2 是唯一的偶质数"
+        },
+        {
+          "key": "C",
+          "text": "所有奇数都是质数"
+        },
+        {
+          "key": "D",
+          "text": "大于 10 的质数个位数一定是 1"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "content": "活动选择问题中，贪心策略为\"每次选择结束时间最早的活动\"。使用该策略（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "一定能得到全局最优解"
+        },
+        {
+          "key": "B",
+          "text": "不能保证得到最优解"
+        },
+        {
+          "key": "C",
+          "text": "一定能得到全局最优解，前提是按结束时间排序后贪心"
+        },
+        {
+          "key": "D",
+          "text": "需要配合回溯才能得到最优解"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": "False",
+      "content": "链表支持通过下标直接访问任意位置的元素。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": "True",
+      "content": "辗转相除法（欧几里得算法）可用于求两个正整数的最大公约数。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": "False",
+      "content": "快速排序在最好情况下的时间复杂度为 O(n²)。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": "True",
+      "content": "二分查找只适用于有序数组。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": "False",
+      "content": "贪心算法能够保证对所有问题都得到全局最优解。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": "True",
+      "content": "2 是唯一的偶质数。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": "True",
+      "content": "归并排序是一种稳定的排序算法。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": "True",
+      "content": "递归调用层数过多可能导致栈空间溢出。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": "False",
+      "content": "唯一分解定理适用于所有正整数。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": "False",
+      "content": "链表在插入元素时需要移动其他元素。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：最大公约数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定两个正整数 a 和 b，求它们的最大公约数（GCD）。\n\n**输入格式**\n一行，两个正整数 a 和 b（1 ≤ a, b ≤ 10⁹）。\n\n**输出格式**\n一行，一个整数，表示 a 和 b 的最大公约数。\n\n**样例输入 #1**\n```\n72 30\n```\n\n**样例输出 #1**\n```\n6\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "None",
+      "content": "**试题名称：二分查找统计出现次数**\n\n> 时间限制：1.0 s | 内存限制：512.0 MB\n\n给定一个升序排列的整数数组（可能包含重复元素）和一个目标值 target，请统计 target 在数组中出现的次数。\n\n要求使用二分查找实现，时间复杂度 O(log n)。\n\n**输入格式**\n第一行，两个整数 N 和 target（1 ≤ N ≤ 100000）。\n第二行，N 个升序排列的整数，绝对值不超过 10⁹，数之间用空格分隔。\n\n**输出格式**\n一行，一个整数，表示 target 在数组中出现的次数。如果不存在则输出 0。\n\n**样例输入 #1**\n```\n8 3\n1 2 3 3 3 5 6 7\n```\n\n**样例输出 #1**\n```\n3\n```",
+      "options": [],
+      "section": "GESP 编程操作题"
+    }
+  ]
+}

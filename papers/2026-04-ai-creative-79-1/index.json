@@ -29,7 +29,8 @@
           "text": "1997 年深蓝战胜国际象棋冠军后的技术发布会"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "text": "判断机器是否能够表现出与人类难以区分的智能行为"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 3,
@@ -77,7 +79,8 @@
           "text": "依靠与环境持续互动获取奖励信号来改进策略"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
           "text": "专家系统被应用于医疗诊断等特定专业领域"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 5,
@@ -125,7 +129,8 @@
           "text": "云计算平台、开源社区和移动终端的广泛应用"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 6,
@@ -149,7 +154,8 @@
           "text": "2012 年"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
           "text": "五元组，包含主体、关系、客体、时间和置信度"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 8,
@@ -197,7 +204,8 @@
           "text": "属性"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 9,
@@ -221,7 +229,8 @@
           "text": "支持更多用户同时在线进行并发操作"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 10,
@@ -245,7 +254,8 @@
           "text": "图像生成功能"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 11,
@@ -269,7 +279,8 @@
           "text": "只能处理图像和视频类的输入数据"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 12,
@@ -293,7 +304,8 @@
           "text": "识别照片中的人脸并自动标注对应姓名"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 13,
@@ -317,7 +329,8 @@
           "text": "强化学习"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 14,
@@ -341,7 +354,8 @@
           "text": "聚类任务"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
           "text": "将中文新闻文章自动翻译成英文版本"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 16,
@@ -389,7 +404,8 @@
           "text": "计算机视觉与图像识别技术"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 17,
@@ -413,7 +429,8 @@
           "text": "深度学习模型往往难以解释自身做出判断的具体原因"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 18,
@@ -437,7 +454,8 @@
           "text": "透明性原则"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 19,
@@ -461,7 +479,8 @@
           "text": "AI 在同时执行多个任务时出现的输出结果冲突"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 20,
@@ -485,7 +504,8 @@
           "text": "把全部课后作业直接提交给 AI 让其自动生成标准答案"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 21,
